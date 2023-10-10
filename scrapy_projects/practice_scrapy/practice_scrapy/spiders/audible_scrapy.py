@@ -17,8 +17,6 @@ class AudibleScrapySpider(scrapy.Spider):
             )
 
     def parse(self, response):
-        headers = response.request.headers
-
         product_items = response.xpath(
             "//div[@data-widget='productList']//li[contains(@class, 'productListItem')]"
         )
