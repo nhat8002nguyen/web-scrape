@@ -6,7 +6,7 @@
 import scrapy
 
 
-class ScrapyTrainingItem(scrapy.Item):
+class TrainScrapyItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass

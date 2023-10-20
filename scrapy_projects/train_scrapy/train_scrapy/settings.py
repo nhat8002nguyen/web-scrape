@@ -1,4 +1,4 @@
-# Scrapy settings for scrapy_training project
+# Scrapy settings for train_scrapy project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,21 +7,20 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "scrapy_training"
+BOT_NAME = "train_scrapy"
 
-SPIDER_MODULES = ["scrapy_training.spiders"]
-NEWSPIDER_MODULE = "scrapy_training.spiders"
+SPIDER_MODULES = ["train_scrapy.spiders"]
+NEWSPIDER_MODULE = "train_scrapy.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "scrapy_training (+http://www.yourdomain.com)"
+#USER_AGENT = "train_scrapy (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 16
-CONCURRENT_REQUESTS_PER_DOMAIN = 8
+#CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
@@ -46,13 +45,13 @@ CONCURRENT_REQUESTS_PER_DOMAIN = 8
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "scrapy_training.middlewares.ScrapyTrainingSpiderMiddleware": 543,
+#    "train_scrapy.middlewares.TrainScrapySpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "scrapy_training.middlewares.ScrapyTrainingDownloaderMiddleware": 543,
+#    "train_scrapy.middlewares.TrainScrapyDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -64,7 +63,7 @@ CONCURRENT_REQUESTS_PER_DOMAIN = 8
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "scrapy_training.pipelines.ScrapyTrainingPipeline": 300,
+#    "train_scrapy.pipelines.TrainScrapyPipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
