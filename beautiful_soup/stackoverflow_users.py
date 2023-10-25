@@ -28,15 +28,6 @@ class User:
 			twitter: {self.twitter}, github: {self.github}, linkedin: {self.linkedIn}.
 		'''
 	
-	def clean_duplicate_spaces(self):
-		self.user_name = " ".join(self.user_name.split())
-		self.location = " ".join(self.location.split())
-		self.email = " ".join(self.email.split())
-		self.website = " ".join(self.website.split())
-		self.twitter = " ".join(self.twitter.split())
-		self.github = " ".join(self.github.split())
-		self.linkedIn = " ".join(self.linkedIn.split())
-
 def main():
 	react_users = list[str]()
 	with ThreadPoolExecutor(max_workers=8) as pool:
@@ -45,13 +36,18 @@ def main():
 			future = pool.submit(get_react_user_urls, f"https://stackoverflow.com/users?page={i+1}&tab=reputation&filter=week")
 			futures.append(future)
 
+			# batch processing, sleep 5s after 100 requests
+			if (i+1)%100 == 0:
+				time.sleep(5)
+
 		for result in as_completed(futures):
 			data = result.result()
 			react_users.extend(data)
 
 	# wait for next process
-	print("Waiting for 10 seconds before proceed further!")
-	time.sleep(10)
+	wait = 30
+	print(f"Waiting for {wait} seconds before proceed further!")
+	time.sleep(wait)
 
 	print("Starting get users details...")
 	user_infos = get_users(react_users)
@@ -93,9 +89,14 @@ def get_users(urls: list[str]) -> list[User]:
 	users = list[User]()
 	with ThreadPoolExecutor(max_workers=8) as pool:
 		futures = []
+		count = 0
 		for url in urls:
 			future = pool.submit(get_user_details, f"https://stackoverflow.com{url}")
 			futures.append(future)
+
+			count += 1
+			if count%100 == 0:
+				time.sleep(5)
 
 		for result in as_completed(futures):
 			data = result.result()
@@ -125,14 +126,14 @@ def get_user_details(url: str) -> User:
 		attrs={"class", "fs-headline2"}
 	)
 	if user_name_tag is not None:
-		user.user_name = user_name_tag.text
+		user.user_name = user_name_tag.text.strip()
 	
 	location_tag = soup.find(
 		name="div",
 		attrs={"class", "wmx2"}
 	)
 	if location_tag is not None:
-		user.location = location_tag.text
+		user.location = location_tag.text.strip()
 
 	lines = soup.find_all(
 		name="ul",
@@ -157,7 +158,6 @@ def get_user_details(url: str) -> User:
 			if item.find(name="svg", attrs={"class", "iconLink"}) is not None:
 				user.website = url
 
-	user.clean_duplicate_spaces()
 	print(user)
 	return user
 	
