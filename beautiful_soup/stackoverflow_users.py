@@ -30,15 +30,15 @@ class User:
 	
 def main():
 	react_users = list[str]()
-	with ThreadPoolExecutor(max_workers=8) as pool:
+	with ThreadPoolExecutor(max_workers=2) as pool:
 		futures = []
 		for i in range(1000):
 			future = pool.submit(get_react_user_urls, f"https://stackoverflow.com/users?page={i+1}&tab=reputation&filter=week")
 			futures.append(future)
 
-			# batch processing, sleep 5s after 100 requests
+			# batch processing, sleep 10s after 100 requests
 			if (i+1)%100 == 0:
-				time.sleep(5)
+				time.sleep(10)
 
 		for result in as_completed(futures):
 			data = result.result()
@@ -87,7 +87,7 @@ def save_to_file(users: list[User]) -> None:
 
 def get_users(urls: list[str]) -> list[User]:
 	users = list[User]()
-	with ThreadPoolExecutor(max_workers=8) as pool:
+	with ThreadPoolExecutor(max_workers=2) as pool:
 		futures = []
 		count = 0
 		for url in urls:
@@ -126,14 +126,14 @@ def get_user_details(url: str) -> User:
 		attrs={"class", "fs-headline2"}
 	)
 	if user_name_tag is not None:
-		user.user_name = user_name_tag.text.strip()
+		user.user_name = user_name_tag.text
 	
 	location_tag = soup.find(
 		name="div",
 		attrs={"class", "wmx2"}
 	)
 	if location_tag is not None:
-		user.location = location_tag.text.strip()
+		user.location = location_tag.text
 
 	lines = soup.find_all(
 		name="ul",
