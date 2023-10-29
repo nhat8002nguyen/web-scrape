@@ -160,7 +160,6 @@ def get_user_details(url: str) -> User:
 
 	print(user)
 	return user
-	
 
 	
 def get_react_user_urls(page: str) -> []:
