@@ -7,9 +7,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
 import pandas as pd
-import time
+import json
 import os
-import dotenv
+import time
 
 def create_key(row):
 	try:
@@ -35,20 +35,27 @@ def create_key(row):
 def main():
 	website = 'https://www.canva.com/creators/template/dashboard'
 
-	path = '/usr/bin/chromedriver'
-	# path = './chromedriver'
+	path = '.\chromedriver.exe'
+	for root, dirs, files in os.walk(os.getcwd()):
+		for name in files:
+			if 'chromedriver' in name:
+				path = os.path.join(root, name)			
+
+	os_username = os.environ["USERNAME"]
+	user_data_dir = f"C:\\Users\\{os_username}\\AppData\\Local\\Google\\Chrome\\User Data"
 
 	chrome_options = Options()
 	# chrome_options.add_argument('--headless')
 	chrome_options.add_argument('--no-sandbox')
 	chrome_options.add_argument('--disable-dev-shm-usage')
 	chrome_options.add_argument('--start-maximized')
-	chrome_options.add_argument("--user-data-dir=/root/.config/google-chrome")
+	chrome_options.add_argument(f"--user-data-dir={user_data_dir}")
+	chrome_options.add_argument("--no-sandbox")
 
 	service = Service(executable_path=path)
 	driver = webdriver.Chrome(options=chrome_options, service=service)
 	driver.get(website)
-	wait = WebDriverWait(driver, 50)
+	wait = WebDriverWait(driver, 100)
 
 	wait.until(EC.presence_of_all_elements_located((
 		By.XPATH,
@@ -60,6 +67,7 @@ def main():
 
 	image_url_list = []
 	title_list = []
+	design_type_list = []
 	published_list = []
 	published_date_list = []
 	total_applies_list = []
@@ -96,7 +104,7 @@ def main():
 			try:
 				title = row.find_element(
 					by=By.XPATH,
-					value=".//div[2]/p"
+					value=".//td[1]//div/p[1]"
 				).text
 			except:
 				title = ""
@@ -110,12 +118,21 @@ def main():
 			title_list.append(title)
 
 			try:
+				design_type = row.find_element(
+					by=By.XPATH,
+					value=".//td[1]//div/p[2]"
+				).text
+			except:
+				design_type = ""
+			design_type_list.append(design_type)
+
+			try:
 				published = row.find_element(
 					by=By.XPATH,
 					value=".//td[2]//p[2]"
 				).text
 			except:
-				published = "approved"
+				published = "Approved"
 			published_list.append(published)
 
 			try: 
@@ -146,12 +163,14 @@ def main():
 			total_usages_list.append(total_usages)
 
 		driver.execute_script("arguments[0].scrollIntoView(true)", rows[len(rows)-1])
+		
 
 	driver.close()
 
 	dataframe = pd.DataFrame({
 		'Image url': image_url_list,
 		'Title': title_list,
+		'Design Type': design_type_list,
 		'Published': published_list,
 		'Published date': published_date_list,
 		'Total Applies': total_applies_list,
@@ -159,6 +178,7 @@ def main():
 	})
 
 	dataframe.to_csv("./canva_bee_creativa_media.csv", index=False)
+	dataframe.to_excel("./canva_bee_creativa_media.xlsx", index=False)
 
 def gen_key(row):
 	try:
