@@ -59,8 +59,11 @@ def main():
 
 	wait.until(EC.presence_of_all_elements_located((
 		By.XPATH,
-		"//div[@role='tabpanel']//table[contains(@class, 'h74dDw')]//tbody/tr//div[2]/p"
+		"//div[@role='tabpanel']//table[contains(@class, 'h74dDw')]//tbody/tr//td[1]//div/p[1]"
 	)))
+
+	# pause for setup filter
+	time.sleep(30)
 
 	# key_set to avoid duplication
 	key_set = set()
@@ -178,7 +181,6 @@ def main():
 	})
 
 	dataframe.to_csv("./canva_bee_creativa_media.csv", index=False)
-	dataframe.to_excel("./canva_bee_creativa_media.xlsx", index=False)
 
 def gen_key(row):
 	try:

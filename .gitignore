@@ -1,0 +1,6 @@
+**/dist/ 
+**/build/  
+chromedriver.exe 
+**/*.spec 
+*.csv 
+**/__pycache__/
