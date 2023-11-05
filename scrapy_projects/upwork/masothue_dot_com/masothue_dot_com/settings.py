@@ -46,6 +46,10 @@ ROBOTSTXT_OBEY = True
 #    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 #    "Accept-Language": "en",
 #}
+DEFAULT_REQUEST_HEADERS = {
+    "X-Crawlera-Profile": "desktop",
+    "X-Crawlera-Cookies": "disable",
+}
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
@@ -57,8 +61,10 @@ ROBOTSTXT_OBEY = True
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
 #    "masothue_dot_com.middlewares.MasothueDotComDownloaderMiddleware": 543,
-	"masothue_dot_com.proxy_middlewares.ProxyMiddleware": 350,
+	'scrapy_zyte_smartproxy.ZyteSmartProxyMiddleware': 610
 }
+ZYTE_SMARTPROXY_ENABLED = True
+ZYTE_SMARTPROXY_APIKEY = '2008958cc16246f89b72731f69913659'
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -98,9 +104,8 @@ REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 
-# Proxy setup
-
-PROXY_HOST = os.environ.get("PROXY_HOST")
-PROXY_PORT = os.environ.get("PROXY_PORT")
-PROXY_USER = os.environ.get("PROXY_USER")
-PROXY_PASSWORD = os.environ.get("PROXY_PASSWORD")
+# Setting for zyte smart proxy manager
+CONCURRENT_REQUESTS = 32
+CONCURRENT_REQUESTS_PER_DOMAIN = 32
+AUTOTHROTTLE_ENABLED = False
+DOWNLOAD_TIMEOUT = 600
