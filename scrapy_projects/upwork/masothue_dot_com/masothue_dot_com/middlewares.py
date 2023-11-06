@@ -101,3 +101,7 @@ class MasothueDotComDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info("Spider opened: %s" % spider.name)
+
+class CustomProxyMiddleware(object):
+    def process_request(self, request, spider):
+        request.meta["proxy"] = "https://51.254.69.243:3128"

@@ -61,7 +61,10 @@ DEFAULT_REQUEST_HEADERS = {
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
 #    "masothue_dot_com.middlewares.MasothueDotComDownloaderMiddleware": 543,
-	'scrapy_zyte_smartproxy.ZyteSmartProxyMiddleware': 610
+	'scrapy_zyte_smartproxy.ZyteSmartProxyMiddleware': 610,
+
+    # try to test with 1 proxy
+    # 'masothue_dot_com.middlewares.CustomProxyMiddleware': 350,
 }
 ZYTE_SMARTPROXY_ENABLED = True
 ZYTE_SMARTPROXY_APIKEY = os.environ["ZYTE_SMART_PROXY_API_KEY"]
