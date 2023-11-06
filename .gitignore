@@ -6,4 +6,6 @@ chromedriver.exe
 **/__pycache__/
 **/*.csv
 **/*.env
-**/.vscode/
+**/.vscode
+
+masothue*.json
