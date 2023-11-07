@@ -39,8 +39,6 @@ class MasothueSpider(scrapy.Spider):
             )
 
     def parse_province_page(self, response):
-        time.sleep(0.1)
-
         district_items = response.xpath("//div[@id='sidebar']//li/a")
 
         for item in district_items:
@@ -55,8 +53,6 @@ class MasothueSpider(scrapy.Spider):
             )
 
     def parse_district_page(self, response):
-        time.sleep(0.1)
-
         ward_a_tags = response.xpath("//div[@id='sidebar']//li/a")
 
         for tag in ward_a_tags:
@@ -72,9 +68,7 @@ class MasothueSpider(scrapy.Spider):
             )
     
     def parse_ward_page(self, response):
-        time.sleep(0.1)
-
-        for page in range(11)[1:]:
+        for page in range(11)[1:2]:
             yield scrapy.Request(
                 url=f"{response.url}?page={page}",
                 callback=self.parse_companies_list_page,
@@ -88,8 +82,6 @@ class MasothueSpider(scrapy.Spider):
             )
 
     def parse_companies_list_page(self, response):
-        time.sleep(0.1)
-
         current_page_number = response.xpath('//span[@class="page-numbers current"]/text()').get()
         path_page_num = response.meta['page_num']
         if int(current_page_number) != path_page_num:
@@ -122,8 +114,6 @@ class MasothueSpider(scrapy.Spider):
             )
 
     def parse_item(self, response):
-        time.sleep(1)
-
         row_tags = response.xpath('//table[@class="table-taxinfo"]/tbody/tr')
 
         nation_name = ""
@@ -222,8 +212,8 @@ class MasothueSpider(scrapy.Spider):
             "Update the last tax code": last_updated_code,
             "The last tax code update date": last_updated_date[0:10],
             "Last tax code update time": last_updated_date[11:],
-            "Code - Business industry": ",".join(industry_codes),
-            "Industry - Business lines": ",".join(industry_texts),
+            "Code - Business industry": "\n".join(industry_codes),
+            "Industry - Business lines": "\n".join(industry_texts),
             "Type of business": type_of_business,
             "Ward": response.meta["ward_name"],
             "District": response.meta["district_name"],

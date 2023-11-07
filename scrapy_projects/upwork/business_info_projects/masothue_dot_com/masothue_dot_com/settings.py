@@ -30,7 +30,7 @@ ROBOTSTXT_OBEY = True
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-#DOWNLOAD_DELAY = 3
+# DOWNLOAD_DELAY = 3
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -61,13 +61,24 @@ DEFAULT_REQUEST_HEADERS = {
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
 #    "masothue_dot_com.middlewares.MasothueDotComDownloaderMiddleware": 543,
-	# 'scrapy_zyte_smartproxy.ZyteSmartProxyMiddleware': 610,
+    # use zyte smart proxy manager
+	'scrapy_zyte_smartproxy.ZyteSmartProxyMiddleware': 610,
 
-    # try to test with 1 proxy
-    'masothue_dot_com.middlewares.CustomProxyMiddleware': 350,
+    # rotate proxy with 1 free endpoint
+    # 'masothue_dot_com.middlewares.CustomProxyMiddleware': 350,
+
+    # use proxy list file with free
+    # 'rotating_proxies.middlewares.RotatingProxyMiddleware': 610,
+    # 'rotating_proxies.middlewares.BanDetectionMiddleware': 620,
 }
+
+# Setting for zyte smart proxy manager
 ZYTE_SMARTPROXY_ENABLED = True
 ZYTE_SMARTPROXY_APIKEY = os.environ["ZYTE_SMART_PROXY_API_KEY"]
+CONCURRENT_REQUESTS = 16
+CONCURRENT_REQUESTS_PER_DOMAIN = 16
+AUTOTHROTTLE_ENABLED = False
+DOWNLOAD_TIMEOUT = 600
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -107,8 +118,5 @@ REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 
-# Setting for zyte smart proxy manager
-CONCURRENT_REQUESTS = 32
-CONCURRENT_REQUESTS_PER_DOMAIN = 32
-AUTOTHROTTLE_ENABLED = False
-DOWNLOAD_TIMEOUT = 600
+# add proxy list path
+# ROTATING_PROXY_LIST_PATH = './proxy_list.txt'
