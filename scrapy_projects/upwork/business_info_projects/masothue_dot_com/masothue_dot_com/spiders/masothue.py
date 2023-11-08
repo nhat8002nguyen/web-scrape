@@ -181,7 +181,7 @@ class MasothueSpider(scrapy.Spider):
 
         company_name = response.xpath('//table[@class="table-taxinfo"]/thead/tr/th/span/text()').get()
 
-        industry_rows = response.xpath('//table[@class="table"]//tr/td/strong/a')
+        industry_rows = response.xpath('//table[@class="table"]//tr/td//a')
         industry_codes = []
         industry_texts = []
         for industry_row in industry_rows:
@@ -212,8 +212,8 @@ class MasothueSpider(scrapy.Spider):
             "Update the last tax code": last_updated_code,
             "The last tax code update date": last_updated_date[0:10],
             "Last tax code update time": last_updated_date[11:],
-            "Code - Business industry": "\n".join(industry_codes),
-            "Industry - Business lines": "\n".join(industry_texts),
+            "Code - Business industry": " - ".join(industry_codes),
+            "Industry - Business lines": " - ".join(industry_texts),
             "Type of business": type_of_business,
             "Ward": response.meta["ward_name"],
             "District": response.meta["district_name"],
