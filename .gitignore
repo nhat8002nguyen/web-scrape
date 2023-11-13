@@ -7,5 +7,7 @@ chromedriver.exe
 **/*.csv
 **/*.env
 **/.vscode
+**/inputs/
+**/outputs/
 
 masothue*.json
