@@ -1,0 +1,2 @@
+[scrapy]
+settings = masothue_dot_com.settings
