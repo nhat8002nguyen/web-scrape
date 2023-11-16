@@ -1,8 +1,6 @@
 from typing import Iterable
 import scrapy
 from scrapy.http import Request
-import time
-from random import choice
 
 
 class MasothueSpider(scrapy.Spider):
