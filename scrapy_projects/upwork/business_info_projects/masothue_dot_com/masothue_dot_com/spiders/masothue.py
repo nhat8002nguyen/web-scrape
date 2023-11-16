@@ -2,37 +2,50 @@ from typing import Iterable
 import scrapy
 from scrapy.http import Request
 import time
+from random import choice
 
+
+fake_user_agents = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0",
+    "Mozilla/5.0 (Linux; Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 13; SM-S908B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 13; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 6.0.1; SGP771 Build/32.2.A.0.253; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9",
+]
 
 class MasothueSpider(scrapy.Spider):
     name = "masothue"
     allowed_domains = ["masothue.com"]
     domain_url = "https://masothue.com"
 
-    headers = {
-        "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0", 
-        "Accept-Encoding":"gzip, deflate", 
-        "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", 
-        "DNT":"1",
-        "Connection":"close", 
-        "Upgrade-Insecure-Requests":"1"
-    }
+
+    def random_user_agent(self) -> str:
+        return choice(fake_user_agents)
 
     def start_requests(self):
+        random_user_agent = self.random_user_agent()
         yield scrapy.Request(
             url="https://masothue.com/",
-            headers=self.headers,
+            headers={
+                'User-Agent': random_user_agent
+            },
             callback=self.parse
         )
 
     def parse(self, response):
         provinces_items = response.xpath("//div[@id='sidebar']//li/a")
 
-        for a_tag in provinces_items[:1]:
+        for a_tag in provinces_items[1:2]:
             yield scrapy.Request(
                 url=self.domain_url + a_tag.xpath("./@href").get(),
                 callback=self.parse_province_page,
-                headers=self.headers,
+                headers={
+                    'User-Agent': self.random_user_agent()
+                },
                 meta={
                     "province_name": a_tag.xpath("./text()").get()
                 },
@@ -45,7 +58,9 @@ class MasothueSpider(scrapy.Spider):
             yield scrapy.Request(
                 url= self.domain_url + item.xpath("./@href").get(),
                 callback=self.parse_district_page,
-                headers=self.headers,
+                headers={
+                    'User-Agent': self.random_user_agent()
+                },
                 meta={
                     "province_name": response.meta["province_name"],
                     'district_name': item.xpath("./text()").get()
@@ -59,7 +74,9 @@ class MasothueSpider(scrapy.Spider):
             yield scrapy.Request(
                 url=self.domain_url + tag.xpath("./@href").get(),
                 callback=self.parse_ward_page,
-                headers=self.headers,
+                headers={
+                    'User-Agent': self.random_user_agent()
+                },
                 meta={
                     "province_name": response.meta["province_name"],
                     "district_name": response.meta["district_name"],
@@ -68,11 +85,13 @@ class MasothueSpider(scrapy.Spider):
             )
     
     def parse_ward_page(self, response):
-        for page in range(11)[1:2]:
+        for page in range(11)[1:6]:
             yield scrapy.Request(
                 url=f"{response.url}?page={page}",
                 callback=self.parse_companies_list_page,
-                headers=self.headers,
+                headers={
+                    'User-Agent': self.random_user_agent()
+                },
                 meta={
                     "province_name": response.meta["province_name"],
                     "district_name": response.meta["district_name"],
@@ -92,7 +111,10 @@ class MasothueSpider(scrapy.Spider):
         for tag in companies_a_tags:
             company_name = tag.xpath("./text()").get()
 
-            company_signs = ["CÔNG TY", "CHI NHÁNH", "VĂN PHÒNG", "DOANH NGHIỆP", "DNTN", "CTY", "TNHH", "CỔ PHẦN"]
+            company_signs = [
+                "CÔNG TY", "CHI NHÁNH", "VĂN PHÒNG", "DOANH NGHIỆP", "DNTN", "CTY", "TNHH", 
+                "CỔ PHẦN", "HÃNG", "KINH DOANH", "TẬP ĐOÀN", "HỘ", "ỦY BAN", "UBND", "TRƯỜNG", "VIỆN", 
+                "NGÂN HÀNG", "CƠ SỞ", "TRUNG TÂM", "TT", "SIÊU THỊ"]
             not_a_company = True
             for sign in company_signs:
                 if sign in company_name:
@@ -105,7 +127,9 @@ class MasothueSpider(scrapy.Spider):
             yield scrapy.Request(
                 url=self.domain_url + tag.xpath("./@href").get(),
                 callback=self.parse_item,
-                headers=self.headers,
+                headers={
+                    'User-Agent': self.random_user_agent()
+                },
                 meta={
                     "province_name": response.meta["province_name"],
                     "district_name": response.meta["district_name"],
