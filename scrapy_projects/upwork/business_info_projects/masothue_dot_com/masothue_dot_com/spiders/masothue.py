@@ -67,7 +67,7 @@ class MasothueSpider(scrapy.Spider):
             )
     
     def parse_ward_page(self, response):
-        for page in range(11)[1:6]:
+        for page in range(11)[6:]:
             yield scrapy.Request(
                 url=f"{response.url}?page={page}",
                 callback=self.parse_companies_list_page,
