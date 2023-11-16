@@ -30,7 +30,7 @@ ROBOTSTXT_OBEY = True
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 0.1 
+DOWNLOAD_DELAY = 0.2 
 # The download delay setting will honor only one of:
 # CONCURRENT_REQUESTS_PER_DOMAIN = 8
 # CONCURRENT_REQUESTS_PER_IP = 8
@@ -75,9 +75,9 @@ DOWNLOADER_MIDDLEWARES = {
 # Setting for zyte smart proxy manager
 # ZYTE_SMARTPROXY_ENABLED = True
 # ZYTE_SMARTPROXY_APIKEY = os.environ["ZYTE_SMART_PROXY_API_KEY"]
+# AUTOTHROTTLE_ENABLED = False
 CONCURRENT_REQUESTS = 32
 CONCURRENT_REQUESTS_PER_DOMAIN = 32
-# AUTOTHROTTLE_ENABLED = False
 DOWNLOAD_TIMEOUT = 3000
 
 # Enable or disable extensions
