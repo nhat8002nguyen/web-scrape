@@ -3,6 +3,8 @@
 chromedriver.exe 
 **/*.spec 
 *.csv 
+*.xlsx
+*.pkl
 **/__pycache__/
 **/*.csv
 **/*.env

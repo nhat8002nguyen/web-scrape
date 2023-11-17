@@ -3,6 +3,12 @@ import pickle
 import time
 import json
 from seleniumwire.utils import decode , decoder
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.webdriver import WebDriver
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -10,6 +16,8 @@ from selenium.common.exceptions import TimeoutException
 from datetime import datetime, timedelta
 import re
 from job_boards import insertJobBoardObject
+from chrome_web_driver import get_custom_driver, get_responses 
+
 def extract_numbers_from_string(input_string):
     # Use regular expression to find all numeric substrings
     numbers = re.findall(r'\d+', input_string)
@@ -69,9 +77,13 @@ def get_job_ids_month(driver):
         print("please wait to download all job id FROM AJAX API.")
         #f_TPR=r2592000 one month
         keywords = "Dynamics 365"
-        driver.get(f'https://www.linkedin.com/jobs/search/?f_TPR=r2592000&keywords={keywords}&location=United%20Kingdom&origin=JOB_SEARCH_PAGE_JOB_FILTER&start={page}')
+        url = f'https://www.linkedin.com/jobs/search/?f_TPR=r2592000&keywords={keywords}&location=United%20Kingdom&origin=JOB_SEARCH_PAGE_JOB_FILTER&start={page}'
+        driver.get(url)
         time.sleep(5)
         i =1
+
+        resp, resps = get_responses(driver=driver, url=url)
+
         for request in driver.requests:
                 
             if  f"/voyager/api/voyagerJobsDashJobCards?" in request.url:
@@ -215,30 +227,61 @@ def get_items(driver,compagnies,job_ids):
     return items
 
 chrome_options = uc.ChromeOptions()
-# chrome_options.headless = True
-chrome_options.add_argument({'headless':False})
+chrome_options.headless = True
+# chrome_options.add_argument({'headless':False})
+chrome_options.add_argument("--start-maximized")
 
 driver = uc.Chrome(
     options=chrome_options,
     seleniumwire_options={}
 )
-driver = login_linkedin(driver=driver)
 
+# service = Service(ChromeDriverManager().install())
+# driver = webdriver.Chrome(
+#     options=chrome_options,
+#     service=service
+# )
+# driver.maximize_window()
+# driver = login_linkedin(driver=driver)
 
-while True:
-    print("getting jobs for the last month...")
-    job_ids = get_job_ids_month(driver=driver)[0]
-    driver = get_job_ids_month(driver=driver)[1]
-    compagnies = get_job_ids_month(driver=driver)[2]
-    items = get_items(driver=driver,job_ids=job_ids,compagnies=compagnies)
-    print(items)
-    while True :
-        print("getting jobs for the last 24 hours...")
+# while True:
+#     print("getting jobs for the last month...")
+#     job_ids = get_job_ids_month(driver=driver)[0]
+#     driver = get_job_ids_month(driver=driver)[1]
+#     compagnies = get_job_ids_month(driver=driver)[2]
+#     items = get_items(driver=driver,job_ids=job_ids,compagnies=compagnies)
+#     print(items)
+#     while True :
+#         print("getting jobs for the last 24 hours...")
+#         job_ids = get_job_ids_month(driver=driver)[0]
+#         driver = get_job_ids_month(driver=driver)[1]
+#         compagnies = get_job_ids_month(driver=driver)[2]
+#         items = get_items(driver=driver,job_ids=job_ids,compagnies=compagnies)
+#         print(items)
+
+def main():
+    driver = get_custom_driver()
+
+    driver = login_linkedin(driver)
+
+    while True:
+        print("getting jobs for the last month...")
         job_ids = get_job_ids_month(driver=driver)[0]
         driver = get_job_ids_month(driver=driver)[1]
         compagnies = get_job_ids_month(driver=driver)[2]
         items = get_items(driver=driver,job_ids=job_ids,compagnies=compagnies)
         print(items)
+        while True :
+            print("getting jobs for the last 24 hours...")
+            job_ids = get_job_ids_month(driver=driver)[0]
+            driver = get_job_ids_month(driver=driver)[1]
+            compagnies = get_job_ids_month(driver=driver)[2]
+            items = get_items(driver=driver,job_ids=job_ids,compagnies=compagnies)
+            print(items)
+
+if __name__ == "__main__":
+    main()
+
 
     
     
