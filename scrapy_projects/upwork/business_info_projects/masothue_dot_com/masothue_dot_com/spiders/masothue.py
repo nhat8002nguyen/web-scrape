@@ -27,7 +27,7 @@ class MasothueSpider(scrapy.Spider):
     def parse(self, response):
         provinces_items = response.xpath("//div[@id='sidebar']//li/a")
 
-        for a_tag in provinces_items[1:2]:
+        for a_tag in provinces_items[8:10]:
             yield scrapy.Request(
                 url=self.domain_url + a_tag.xpath("./@href").get(),
                 callback=self.parse_province_page,
@@ -67,7 +67,7 @@ class MasothueSpider(scrapy.Spider):
             )
     
     def parse_ward_page(self, response):
-        for page in range(11)[6:]:
+        for page in range(11)[1:]:
             yield scrapy.Request(
                 url=f"{response.url}?page={page}",
                 callback=self.parse_companies_list_page,
@@ -94,7 +94,7 @@ class MasothueSpider(scrapy.Spider):
             company_signs = [
                 "CÔNG TY", "CHI NHÁNH", "VĂN PHÒNG", "DOANH NGHIỆP", "DNTN", "CTY", "TNHH", 
                 "CỔ PHẦN", "HÃNG", "KINH DOANH", "TẬP ĐOÀN", "HỘ", "ỦY BAN", "UBND", "TRƯỜNG", "VIỆN", 
-                "NGÂN HÀNG", "CƠ SỞ", "TRUNG TÂM", "TT", "SIÊU THỊ"]
+                "NGÂN HÀNG", "CƠ SỞ", "TRUNG TÂM", "TT", "SIÊU THỊ", "HỢP", "XÃ", "BAN"]
             not_a_company = True
             for sign in company_signs:
                 if sign in company_name:
