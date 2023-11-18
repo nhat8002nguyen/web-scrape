@@ -6,7 +6,6 @@
 from scrapy import signals
 
 # useful for handling different item types with a single interface
-from itemadapter import is_item, ItemAdapter
 from w3lib.http import basic_auth_header
 import os
 from dotenv import load_dotenv
