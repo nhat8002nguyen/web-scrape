@@ -4,11 +4,6 @@ import time
 import json
 from seleniumwire.utils import decode , decoder
 
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.webdriver import WebDriver
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -82,29 +77,29 @@ def get_job_ids_month(driver):
         time.sleep(5)
         i =1
 
-        resp, resps = get_responses(driver=driver, url=url)
+        driver_result = get_responses(driver=driver, url=url)
 
-        for request in driver.requests:
+        for resp in driver_result.responses:
                 
-            if  f"/voyager/api/voyagerJobsDashJobCards?" in request.url:
-                if request.response:
+            if  f"/voyager/api/voyagerJobsDashJobCards?" in resp.request_url:
+                if resp.data:
                     
-                    print(f"getting from API : {request.url}",request.response.status_code)
+                    print(f"getting from API : {resp.request_url}",resp.status_code)
                     #dict_keys(['data', 'meta', 'included'])
                     # try:
-                    body = decode(request.response.body,encoding=request.response.headers.get('Content-Encoding'))
             
-                # Load the JSON
-                    result = json.loads(body.decode('utf-8'))['included']
+                    items = []
+                    if "included" in resp.data:
+                        items = resp.data["included"]
                     
-                    for r in result:
+                    for item in items:
                         
                         try:
-                            job_id = r['jobPostingUrn'].replace('urn:li:fsd_jobPosting:','')
+                            job_id = item['jobPostingUrn'].replace('urn:li:fsd_jobPosting:','')
                             lenght_list_helper = len(job_ids)
                             if job_id not in job_ids: 
                                 job_ids.append(job_id)
-                            companies[job_id]= r['primaryDescription']['text']
+                            companies[job_id]= item['primaryDescription']['text']
                         except KeyError:
                             pass
         if lenght_list_helper == len(job_ids):
@@ -124,30 +119,34 @@ def get_job_ids_day(driver):
         print("please wait to download all job id FROM AJAX API.")
         #&f_TPR=r86400 24 hours
         keywords = "Dynamics 365"
-        driver.get(f'https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords={keywords}&location=United%20Kingdom&origin=JOB_SEARCH_PAGE_JOB_FILTER&start={page}')
+        url = f'https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords={keywords}&location=United%20Kingdom&origin=JOB_SEARCH_PAGE_JOB_FILTER&start={page}'
+        driver.get(url)
         time.sleep(5)
         i =1
-        for request in driver.requests:
+
+        driver_result = get_responses(driver=driver, url=url)
+
+        for resp in driver_result.responses:
                 
-            if  f"/voyager/api/voyagerJobsDashJobCards?" in request.url:
-                if request.response:
+            if  f"/voyager/api/voyagerJobsDashJobCards?" in resp.request_url:
+                if resp.data:
                     
-                    print(f"getting from API : {request.url}",request.response.status_code)
+                    print(f"getting from API : {resp.request_url}",resp.status_code)
                     #dict_keys(['data', 'meta', 'included'])
                     # try:
-                    body = decode(request.response.body,encoding=request.response.headers.get('Content-Encoding'))
             
-                # Load the JSON
-                    result = json.loads(body.decode('utf-8'))['included']
+                    items = []
+                    if "included" in resp.data:
+                        items = resp.data["included"]
                     
-                    for r in result:
+                    for item in items:
                         
                         try:
-                            job_id = r['jobPostingUrn'].replace('urn:li:fsd_jobPosting:','')
+                            job_id = item['jobPostingUrn'].replace('urn:li:fsd_jobPosting:','')
                             lenght_list_helper = len(job_ids)
                             if job_id not in job_ids: 
                                 job_ids.append(job_id)
-                            companies[job_id]= r['primaryDescription']['text']
+                            companies[job_id]= item['primaryDescription']['text']
                         except KeyError:
                             pass
         if lenght_list_helper == len(job_ids):
@@ -226,22 +225,16 @@ def get_items(driver,compagnies,job_ids):
         items.append(d)
     return items
 
-chrome_options = uc.ChromeOptions()
-chrome_options.headless = True
+# chrome_options = uc.ChromeOptions()
+# chrome_options.headless = True
 # chrome_options.add_argument({'headless':False})
-chrome_options.add_argument("--start-maximized")
+# chrome_options.add_argument("--start-maximized")
 
-driver = uc.Chrome(
-    options=chrome_options,
-    seleniumwire_options={}
-)
-
-# service = Service(ChromeDriverManager().install())
-# driver = webdriver.Chrome(
+# driver = uc.Chrome(
 #     options=chrome_options,
-#     service=service
+#     seleniumwire_options={}
 # )
-# driver.maximize_window()
+
 # driver = login_linkedin(driver=driver)
 
 # while True:
@@ -260,7 +253,7 @@ driver = uc.Chrome(
 #         print(items)
 
 def main():
-    driver = get_custom_driver()
+    driver = get_custom_driver(headless=True)
 
     driver = login_linkedin(driver)
 

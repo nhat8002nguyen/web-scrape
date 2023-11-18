@@ -3,34 +3,87 @@ from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.chrome.service import Service
+from seleniumwire.utils import decode , decoder
+from urllib.parse import unquote
 
 def get_custom_driver(headless=False, autoclose=True) -> WebDriver:
     options = webdriver.ChromeOptions()
-    options.headless = headless
+    if headless:
+        options.add_argument("--headless")
     options.set_capability("goog:loggingPrefs", {'performance': 'ALL'}) 
     driver = webdriver.Chrome(
-        options=options
+        options=options,
     )
     driver.maximize_window()
     return driver
 
-def get_responses(driver: WebDriver, url: str):
-    responses = []  # list to store each response
-    response = None
+class ResponseData:
+    request_url: str
+    status_code: int
+    headers: {}
+    data: {}
+
+    def __init__(self, status_code=0, headers={}, data={}, request_url="") -> None:
+        self.request_url = request_url
+        self.status_code = status_code
+        self.headers = headers
+        self.data = data
+
+class DriverResponseResult:
+    response: ResponseData | None
+    responses: list[ResponseData]
+
+    def __init__(self, response, responses) -> None:
+        self.response =  response
+        self.responses = responses
+
+def get_responses(driver: WebDriver, url: str) -> DriverResponseResult:
+    responses = list[ResponseData]()
+    cur_resp = None
+    unquote_url = unquote(url)
     perfLog = driver.get_log('performance')
-    for logIndex in range(0, len(perfLog)):  # Parse the Chrome Performance logs
-        logMessage = json.loads(perfLog[logIndex]["message"])["message"]
-        if logMessage["method"] == "Network.responseReceived":  # Filter out HTTP responses
-            # append each response to self.responses
-            responses.append(logMessage["params"]["response"])
-            # create instance attributes containing the response call for self.url
-            print(logMessage["params"]["response"]["url"])
-            if logMessage["params"]["response"]["url"] == url:
-                response = logMessage["params"]["response"]
+    for logIndex in range(0, len(perfLog)):  
+        logMessage: {} = json.loads(perfLog[logIndex]["message"])["message"]
+        if 'Network.response' in logMessage["method"]:  
+            if "params" not in logMessage:
+                continue
 
-    """TODO: normallize urls and compare:
-    https://www.linkedin.com/jobs/search/?f_TPR=r2592000&keywords=Dynamics%20365&location=United%20Kingdom&origin=JOB_SEARCH_PAGE_JOB_FILTER&start=0
-    https://www.linkedin.com/jobs/search/?f_TPR=r2592000&keywords=Dynamics 365&location=United%20Kingdom&origin=JOB_SEARCH_PAGE_JOB_FILTER&start=0
-    """
+            resp_data = None
+            response = {}
+            params: {} = logMessage["params"]
+            resp_data = ResponseData()
+            if "statusCode" in params:
+                resp_data.status_code = params["statusCode"]
+            if "headers" in params:
+                resp_data.headers = params["headers"]
 
-    return (response, responses)
+            if "response" in params:
+                response = params["response"]
+                if "status" in response:
+                    resp_data.status_code = response["status"]
+                if "headers" in response:
+                    resp_data.headers = response["headers"]
+                
+            if "requestId" in params:
+                requestId = params["requestId"]
+                try:
+                    response_data = driver.execute_cdp_cmd('Network.getResponseBody', {'requestId': requestId})
+                    if "body" in response_data:
+                        data = json.loads(response_data["body"])
+                        if "included" in data:
+                            resp_data.data = data
+                except:
+                    pass
+            
+            responses.append(resp_data)
+
+            if "url" in response:
+                resp_data.request_url = response["url"]
+
+                resp_url = response["url"]
+                unquote_resp_url = unquote(resp_url)
+
+                if unquote_resp_url == unquote_url:
+                    cur_resp = resp_data
+    
+    return DriverResponseResult(response=cur_resp, responses=responses)
