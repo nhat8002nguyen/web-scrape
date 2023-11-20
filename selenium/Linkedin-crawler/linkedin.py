@@ -253,7 +253,7 @@ def get_items(driver,compagnies,job_ids):
 #         print(items)
 
 def main():
-    driver = get_custom_driver(headless=True)
+    driver = get_custom_driver(headless=False)
 
     driver = login_linkedin(driver)
 

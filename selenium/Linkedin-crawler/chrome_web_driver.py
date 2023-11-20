@@ -3,17 +3,18 @@ from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.chrome.service import Service
-from seleniumwire.utils import decode , decoder
+from seleniumwire.utils import decode, decoder
 from urllib.parse import unquote
+from webdriver_manager.chrome import ChromeDriverManager
+
 
 def get_custom_driver(headless=False, autoclose=True) -> WebDriver:
     options = webdriver.ChromeOptions()
     if headless:
         options.add_argument("--headless")
-    options.set_capability("goog:loggingPrefs", {'performance': 'ALL'}) 
-    driver = webdriver.Chrome(
-        options=options,
-    )
+    options.set_capability("goog:loggingPrefs", {'performance': 'ALL'})
+    driver = webdriver.Chrome(service=Service(
+        ChromeDriverManager().install()), options=options)
     driver.maximize_window()
     return driver
 
@@ -29,22 +30,24 @@ class ResponseData:
         self.headers = headers
         self.data = data
 
+
 class DriverResponseResult:
     response: ResponseData | None
     responses: list[ResponseData]
 
     def __init__(self, response, responses) -> None:
-        self.response =  response
+        self.response = response
         self.responses = responses
+
 
 def get_responses(driver: WebDriver, url: str) -> DriverResponseResult:
     responses = list[ResponseData]()
     cur_resp = None
     unquote_url = unquote(url)
     perfLog = driver.get_log('performance')
-    for logIndex in range(0, len(perfLog)):  
+    for logIndex in range(0, len(perfLog)):
         logMessage: {} = json.loads(perfLog[logIndex]["message"])["message"]
-        if 'Network.response' in logMessage["method"]:  
+        if 'Network.response' in logMessage["method"]:
             if "params" not in logMessage:
                 continue
 
@@ -63,18 +66,19 @@ def get_responses(driver: WebDriver, url: str) -> DriverResponseResult:
                     resp_data.status_code = response["status"]
                 if "headers" in response:
                     resp_data.headers = response["headers"]
-                
+
             if "requestId" in params:
                 requestId = params["requestId"]
                 try:
-                    response_data = driver.execute_cdp_cmd('Network.getResponseBody', {'requestId': requestId})
+                    response_data = driver.execute_cdp_cmd(
+                        'Network.getResponseBody', {'requestId': requestId})
                     if "body" in response_data:
                         data = json.loads(response_data["body"])
                         if "included" in data:
                             resp_data.data = data
                 except:
                     pass
-            
+
             responses.append(resp_data)
 
             if "url" in response:
@@ -85,5 +89,5 @@ def get_responses(driver: WebDriver, url: str) -> DriverResponseResult:
 
                 if unquote_resp_url == unquote_url:
                     cur_resp = resp_data
-    
+
     return DriverResponseResult(response=cur_resp, responses=responses)

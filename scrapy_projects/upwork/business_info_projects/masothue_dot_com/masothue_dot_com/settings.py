@@ -29,7 +29,7 @@ DOWNLOAD_DELAY = 0.2
 # The download delay setting will honor only one of:
 CONCURRENT_REQUESTS_PER_DOMAIN = 32
 CONCURRENT_REQUESTS_PER_IP = 32
-# AUTOTHROTTLE_ENABLED = True
+AUTOTHROTTLE_ENABLED = False
 
 # Disable cookies (enabled by default)
 #COOKIES_ENABLED = False
