@@ -27,7 +27,7 @@ class MasothueSpider(scrapy.Spider):
     def parse(self, response):
         provinces_items = response.xpath("//div[@id='sidebar']//li/a")
 
-        for a_tag in provinces_items[28:30]:
+        for a_tag in provinces_items[34:38]:
             yield scrapy.Request(
                 url=self.domain_url + a_tag.xpath("./@href").get(),
                 callback=self.parse_province_page,
