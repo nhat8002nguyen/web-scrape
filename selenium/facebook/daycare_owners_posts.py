@@ -12,6 +12,7 @@ import json
 import os
 from time import sleep
 from dotenv import load_dotenv
+from chrome_web_driver import get_custom_driver
 
 
 def main():
@@ -21,21 +22,11 @@ def main():
     os_username = os.environ["USERNAME"]
     user_data_dir = f"C:\\Users\\{os_username}\\AppData\\Local\\Google\\Chrome\\User Data"
 
-    chrome_options = Options()
-    # chrome_options.add_argument('--headless')
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-dev-shm-usage')
-    chrome_options.add_argument('--start-maximized')
-    # chrome_options.add_argument(f"--user-data-dir={user_data_dir}")
-    # chrome_options.add_argument('--auto-open-devtools-for-tabs')
-
-    driver = webdriver.Chrome(options=chrome_options)
+    driver = get_custom_driver(headless=True)
     driver.get(website)
     wait = WebDriverWait(driver, 100)
 
-    # driver = uc.Chrome(use_subprocess=False, options=chrome_options)
-    # driver.get(website)
-    # wait = WebDriverWait(driver, 100)
+    driver.get_log
 
     email_input = wait.until(EC.presence_of_element_located((
         By.XPATH,
@@ -67,50 +58,184 @@ def main():
     keys = set()
 
     i = 0
+
+    driver.execute_script("window.scrollTo(0, 300)")
+
     while i < 20:
         i += 1
-        try:
-            posts = driver.find_elements(
+        posts = driver.find_elements(
+            by=By.XPATH,
+            value='//div[contains(@class, "x1yztbdb")]'
+        )
+        start_index = -10 if len(posts) > 10 else 0
+        for post in posts[start_index:]:
+            post_text_tags = post.find_elements(
                 by=By.XPATH,
-                value='//div[contains(@class, "x1yztbdb")]'
+                value='.//div[@data-ad-preview="message"]//div[contains(@style, "text-align")]'
             )
-            for post in posts[-40:]:
-                post_text_tags = post.find_elements(
-                    by=By.XPATH,
-                    value='.//div[@data-ad-preview="message"]//div[contains(@style, "text-align")]'
-                )
-                post_content = "\n".join([tag.text for tag in post_text_tags])
 
-                if post_content in keys or post_content == "":
+            post_content = "\n".join([tag.text for tag in post_text_tags])
+            if post_content in keys or post_content == "":
+                continue
+            keys.add(post_content)
+            print(post_content)
+
+            if post.find_element(
+                by=By.XPATH,
+                value='.//span[contains(text(), "comment")]'
+            ) is not None:
+                try:
+                    sleep(1)
+                    comment_tag = post.find_element(
+                        by=By.XPATH,
+                        value='.//div[@role="article"]//div[contains(@class, "x1r8uery")]//span[@lang="en"]'
+                    )
+                    comments = [
+                        {
+                            "main_comment": comment_tag.text if comment_tag is not None else "",
+                        }
+                    ]
+                except:
+                    pass
+
+            try:
+                popup_button = post.find_element(
+                    by=By.XPATH,
+                    value='.//span[contains(text(), " comments")]'
+                )
+                sleep(1)
+                popup_button.click()
+            except:
+                continue
+
+            # wait for content loaded in popup
+            try:
+                wait.until(EC.presence_of_all_elements_located((
+                    By.XPATH,
+                    '//div[@role="dialog"]//div[@role="article"]//div[contains(@class, "x1r8uery")]//span[@lang="en"]'
+                )))
+            except TimeoutError:
+                pass
+            except:
+                pass
+
+            dialog = driver.find_element(
+                by=By.XPATH,
+                value='.//div[@role="dialog"]'
+            )
+
+            main_comment_tags = dialog.find_elements(
+                by=By.XPATH,
+                value='.//div[@class="x1gslohp"]/div'
+            )
+
+            comments = []
+
+            for main_comment_tag in main_comment_tags:
+                sleep(0.5)
+                try:
+                    main_comment_div = main_comment_tag.find_element(
+                        by=By.XPATH,
+                        value='./div/div[1]//div[@role="article"]//div[contains(@class, "x1r8uery")]//span[@lang="en"]'
+                    )
+                except:
                     continue
-                keys.add(post_content)
+                main_comment_text = ""
+                if main_comment_div is not None:
+                    main_comment_text = main_comment_div.text
+                else:
+                    continue
 
-                comment_tags = post.find_elements(
+                # expand all replies
+                while True:
+                    try:
+                        view_all_expand_tag = main_comment_tag.find_element(
+                            by=By.XPATH,
+                            value='.//span[contains(text(), "View all")]'
+                        )
+                        view_1_reply_tag = main_comment_tag.find_element(
+                            by=By.XPATH,
+                            value='.//span[contains(text(), "View")]'
+                        )
+                        if view_all_expand_tag is None and view_1_reply_tag is None:
+                            break
+                    except:
+                        break
+
+                    try:
+                        sleep(1)
+                        if view_all_expand_tag is not None:
+                            view_all_expand_tag.click()
+                        if view_1_reply_tag is not None:
+                            view_1_reply_tag.click()
+                    except:
+                        pass
+
+                    sleep(3)
+
+                replies_spans = main_comment_tag.find_elements(
                     by=By.XPATH,
-                    value='.//div[@role="article"]//div[contains(@class, "x1r8uery")]//span[@lang="en"]'
+                    value='./div/div[2]//div[@role="article"]//div[contains(@class, "x1r8uery")]//span[@lang="en"]'
                 )
-                comments = []
-                for tag in comment_tags:
-                    comments.append(tag.text)
+                replies_texts = [
+                    replies_span.text for replies_span in replies_spans]
 
-                print(post_content)
-                print(comments)
+                comment = {
+                    "main_comment": main_comment_text,
+                    "replies": replies_texts
+                }
 
-                post_contents.append(post_content) 
-                post_comments.append(comments) 
+                comments.append(comment)
 
-            driver.execute_script("arguments[0].scrollIntoView(true)", posts[len(posts)-1])
-            sleep(6)
-        except:
-            pass 
-        
+            post_contents.append(post_content)
+            post_comments.append(comments)
+
+            close_dialog_btn = dialog.find_element(
+                by=By.XPATH,
+                value='.//div[@aria-label="Close"]'
+            )
+            close_dialog_btn.click()
+
+        driver.execute_script(
+            "arguments[0].scrollIntoView(true)", posts[len(posts)-1])
+        sleep(3)
+
+
+    col1 = []
+    col2 = []
+    col3 = []
+    for i in range(len(post_contents)):
+        if len(post_comments[i]) == 0:
+            col1.append(post_contents[i]) 
+            col2.append("") 
+            col3.append("") 
+            continue
+
+        for j in range(len(post_comments[i])):
+            replies = post_comments[i][j]["replies"]
+            if len(replies) == 0:
+                col1.append(post_contents[i] if j == 0 else "") 
+                col2.append(post_comments[i][j]["main_comment"]) 
+                col3.append("") 
+                continue
+
+            for k in range(len(replies)):
+                if k == 0:
+                    col1.append(post_contents[i] if j == 0 else "") 
+                    col2.append(post_comments[i][j]["main_comment"]) 
+                    col3.append(replies[k]) 
+                else:
+                    col1.append("") 
+                    col2.append("") 
+                    col3.append(replies[k]) 
+
     dataFrame = pd.DataFrame({
-        'Post Content': post_contents,
-        'Comments': post_comments
+        'col 1': col1,
+        'col 2': col2,
+        'col 3': col3
     })
 
-    dataFrame.to_excel("./daycare-owners-posts.xlsx")
-
+    dataFrame.to_excel("./daycare-owners-posts_1.xlsx")
 
 
 if __name__ == "__main__":
