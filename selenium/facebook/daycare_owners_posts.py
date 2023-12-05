@@ -5,6 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.action_chains import ActionChains
+
 
 import undetected_chromedriver as uc
 import pandas as pd
@@ -53,6 +55,7 @@ def main():
         '//div[contains(@class, "x1yztbdb")]'
     )))
 
+    post_urls = []
     post_contents = []
     post_comments = []
     keys = set()
@@ -61,7 +64,7 @@ def main():
 
     driver.execute_script("window.scrollTo(0, 300)")
 
-    while i < 20:
+    while i < 10:
         i += 1
         posts = driver.find_elements(
             by=By.XPATH,
@@ -79,6 +82,22 @@ def main():
                 continue
             keys.add(post_content)
             print(post_content)
+
+            # get the url
+            post_url = None
+            datetime_tag = post.find_element(
+                by=By.XPATH,
+                value='.//div[contains(@class, "x1cy8zhl")]//span[contains(@class, "x4k7w5x")]//a[@role="link"]'
+            )
+            if datetime_tag is not None:
+                hover = ActionChains(driver).move_to_element(datetime_tag)
+                hover.perform()
+                sleep(1)
+                post_url = post.find_element(
+                    by=By.XPATH,
+                    value='.//div[contains(@class, "x1cy8zhl")]//span[contains(@class, "x4k7w5x")]//a[@role="link"]'
+                ).get_attribute("@href")
+            post_urls.append(post_url if post_url is not None else "")
 
             if post.find_element(
                 by=By.XPATH,
@@ -200,34 +219,33 @@ def main():
             "arguments[0].scrollIntoView(true)", posts[len(posts)-1])
         sleep(3)
 
-
     col1 = []
     col2 = []
     col3 = []
     for i in range(len(post_contents)):
         if len(post_comments[i]) == 0:
-            col1.append(post_contents[i]) 
-            col2.append("") 
-            col3.append("") 
+            col1.append(post_contents[i])
+            col2.append("")
+            col3.append("")
             continue
 
         for j in range(len(post_comments[i])):
             replies = post_comments[i][j]["replies"]
             if len(replies) == 0:
-                col1.append(post_contents[i] if j == 0 else "") 
-                col2.append(post_comments[i][j]["main_comment"]) 
-                col3.append("") 
+                col1.append(post_contents[i] if j == 0 else "")
+                col2.append(post_comments[i][j]["main_comment"])
+                col3.append("")
                 continue
 
             for k in range(len(replies)):
                 if k == 0:
-                    col1.append(post_contents[i] if j == 0 else "") 
-                    col2.append(post_comments[i][j]["main_comment"]) 
-                    col3.append(replies[k]) 
+                    col1.append(post_contents[i] if j == 0 else "")
+                    col2.append(post_comments[i][j]["main_comment"])
+                    col3.append(replies[k])
                 else:
-                    col1.append("") 
-                    col2.append("") 
-                    col3.append(replies[k]) 
+                    col1.append("")
+                    col2.append("")
+                    col3.append(replies[k])
 
     dataFrame = pd.DataFrame({
         'col 1': col1,
