@@ -4,6 +4,9 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+from w3lib.http import basic_auth_header
+import os        
+from dotenv import load_dotenv
 
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
@@ -101,3 +104,14 @@ class FacebookGroupDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info("Spider opened: %s" % spider.name)
+
+class CustomProxyMiddleware(object):
+    def __init__(self) -> None:
+        load_dotenv()
+        self.proxy_url = os.environ["WEBSHARE_PROXY_ROTATION_URL"]
+        self.username = os.environ["WEBSHARE_PROXY_ROTATION_USERNAME"]
+        self.password = os.environ["WEBSHARE_PROXY_ROTATION_PASS"]
+
+    def process_request(self, request, spider):
+        request.meta["proxy"] = str(self.proxy_url)
+        request.headers["Proxy-Authorization"] = basic_auth_header(str(self.username), str(self.password))
