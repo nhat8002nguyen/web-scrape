@@ -68,7 +68,7 @@ def main():
 
     driver = Driver(uc=True, no_sandbox=True, headless=True)
     driver.get('https://www.blinkist.com/en/nc/login/')
-    wait = WebDriverWait(driver, 30)
+    wait = WebDriverWait(driver, 120)
 
     cookie_button = wait.until(EC.presence_of_element_located((
         By.XPATH,
@@ -130,8 +130,8 @@ def main():
         section18s = []
         section19s = []
 
-        num_book_urls = len(book_urls)
-        for url in book_urls:
+        num_book_urls = len(book_urls[:10])
+        for url in book_urls[:10]:
             bookData = scrapeDataFromBookUrl(driver, wait, url)
 
             # add to data export
@@ -210,6 +210,7 @@ def scrapeDataFromBookUrl(driver: WebDriver, driver_wait: WebDriverWait, url: st
     )))
     if book_name != None:
         book.book_name = book_name.text
+        print(f"Book name is: {book_name.text}")
 
     author = driver_wait.until(EC.presence_of_element_located((
         By.XPATH,
@@ -217,6 +218,7 @@ def scrapeDataFromBookUrl(driver: WebDriver, driver_wait: WebDriverWait, url: st
     )))
     if author != None:
         book.author = author.text
+        print(f"Author: {author.text}")
 
     read_btn = driver_wait.until(EC.presence_of_element_located((
         By.XPATH,
@@ -224,7 +226,7 @@ def scrapeDataFromBookUrl(driver: WebDriver, driver_wait: WebDriverWait, url: st
     )))
 
     read_btn.click()
-    time.sleep(2)
+    time.sleep(4)
 
     chapter_count = 0
     total_chapter_links = -1
@@ -245,7 +247,7 @@ def scrapeDataFromBookUrl(driver: WebDriver, driver_wait: WebDriverWait, url: st
 
         if chapter_count < len(chapter_links):
             chapter_links[chapter_count].click()
-            time.sleep(2)
+            time.sleep(3)
         else:
             break
         chapter_count += 1

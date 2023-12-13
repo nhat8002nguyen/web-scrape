@@ -3,3 +3,4 @@ python-dotenv==1.0.0
 selenium==4.16.0
 seleniumbase==4.22.0
 undetected_chromedriver==3.5.4
+openpyxl==3.0.10
