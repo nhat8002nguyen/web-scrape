@@ -63,47 +63,62 @@ class Book():
 
 
 def main():
-    print("Starting the program!")
+    print("Started the program!")
     dotenv.load_dotenv()
 
-    driver = Driver(uc=True, no_sandbox=True, headless=True)
+    driver = Driver(uc=True, no_sandbox=True, headless=True,
+                    proxy="webshareio005844-rotate:webshareio005844@p.webshare.io:80")
     driver.get('https://www.blinkist.com/en/nc/login/')
-    wait = WebDriverWait(driver, 120)
+    wait = WebDriverWait(driver, 60)
 
-    cookie_button = wait.until(EC.presence_of_element_located((
-        By.XPATH,
-        '//div[@class="cookie-disclaimer__actions"]/button//span'
-    )))
-    cookie_button.click()
+    try:
+        cookie_button = wait.until(EC.presence_of_element_located((
+            By.XPATH,
+            '//div[@class="cookie-disclaimer__actions"]/button//span'
+        )))
+        cookie_button.click()
+        time.sleep(1)
+    except Exception as err:
+        print(err)
+        pass
 
-    email_input = driver.find_element(
-        by=By.XPATH,
-        value='//input[@name="login[email]"]'
-    )
-    email_input.send_keys(os.environ["BLINKIST_EMAIL"])
+    try:
+        email_input = wait.until(EC.presence_of_element_located((
+            By.XPATH,
+            '//input[@name="login[email]"]'
+        )))
+        email_input.send_keys(os.environ["BLINKIST_EMAIL_3"])
 
-    pass_input = driver.find_element(
-        by=By.XPATH,
-        value='//input[@name="login[password]"]'
-    )
-    pass_input.send_keys(os.environ["BLINKIST_PASS"])
+        pass_input = wait.until(EC.presence_of_element_located((
+            By.XPATH,
+            '//input[@name="login[password]"]'
+        )))
+        pass_input.send_keys(os.environ["BLINKIST_PASS_3"])
 
-    submit_input = driver.find_element(
-        by=By.XPATH,
-        value='//input[@name="commit"]'
-    )
-    submit_input.click()
+        submit_input = wait.until(EC.presence_of_element_located((
+            By.XPATH,
+            '//input[@name="commit"]'
+        )))
+        submit_input.click()
+    except Exception as err:
+        logAndExit(driver, start_cate, end_cate, err)
 
     time.sleep(5)
 
-    for i in range(len(categories[0:2])):
-        start = time.perf_counter()
+    start_cate = 17
+    end_cate = 22 
+    for i in range(start_cate, end_cate):
+        start_time = time.perf_counter()
         driver.get(categories[i])
 
-        book_items = wait.until(EC.presence_of_all_elements_located((
-            By.XPATH,
-            '//a[@class="letter-book-list__item"]'
-        )))
+        try:
+            book_items = wait.until(EC.presence_of_all_elements_located((
+                By.XPATH,
+                '//a[@class="letter-book-list__item"]'
+            )))
+        except Exception as err:
+            logAndExit(driver, start_cate, end_cate, err)
+            
         book_urls = [item.get_attribute("href") for item in book_items]
 
         author_list = []
@@ -130,9 +145,14 @@ def main():
         section18s = []
         section19s = []
 
-        num_book_urls = len(book_urls[:10])
-        for url in book_urls[:10]:
-            bookData = scrapeDataFromBookUrl(driver, wait, url)
+        fail_urls = []
+        num_book_urls = len(book_urls)
+        for url in book_urls:
+            try:
+                bookData = scrapeDataFromBookUrl(driver, wait, url)
+            except:
+                fail_urls.append(url)
+                continue
 
             # add to data export
             author_list.append(bookData.author)
@@ -140,7 +160,7 @@ def main():
             introduction_list.append(bookData.introduction)
 
             key_ideas = bookData.key_ideas
-            section0s.append((key_ideas[0] if 0<len(key_ideas) else ""))
+            section0s.append((key_ideas[0] if 0 < len(key_ideas) else ""))
             section1s.append((key_ideas[1] if 1 < len(key_ideas) else ""))
             section2s.append((key_ideas[2] if 2 < len(key_ideas) else ""))
             section3s.append((key_ideas[3] if 3 < len(key_ideas) else ""))
@@ -161,7 +181,13 @@ def main():
             section18s.append(key_ideas[18] if 18 < len(key_ideas) else "")
             section19s.append(key_ideas[19] if 19 < len(key_ideas) else "")
 
-            time.sleep(2)
+            time.sleep(3)
+
+        fail_df = pd.DataFrame({
+            "urls": fail_urls
+        })
+        fail_df.to_json(
+            f"{os.environ['ABSOLUTE_PATH']}fail-url-categ-{i+1}.json", index=False)
 
         df = pd.DataFrame({
             "Author": author_list,
@@ -189,16 +215,27 @@ def main():
             "Section 20": section19s,
         })
 
-        df.to_json(f"./blinkist-output-categ-{i+1}.json")
-        df.to_excel(f"./blinkist-output-categ-{i+1}.xlsx")
+        try:
+            df.to_excel(
+                f"{os.environ['ABSOLUTE_PATH']}/blinkist-output-categ-{i+1}-all.xlsx", index=False)
+        except:
+            df.to_json(
+                f"{os.environ['ABSOLUTE_PATH']}/blinkist-output-categ-{i+1}-all.json", index=False)
+            logAndExit(driver, start_cate, end_cate, err)
 
-        print(f"Successfully scraped {num_book_urls} books in the category number {i+1}!")
-        print(f"Elapsed time: {time.perf_counter()-start}")
+        print(
+            f"Successfully scraped {num_book_urls} books in the category number {i+1}!")
+        print(f"Elapsed time: {time.perf_counter()-start_time}")
 
-        cate_delay = 60
+        cate_delay = 300
         print(f"Delay {cate_delay} seconds after moving to next category")
         time.sleep(cate_delay)
 
+def logAndExit(driver, start_cate, end_cate, err):
+    with open(f"log-{start_cate}-{end_cate}.txt", "x") as file:
+        file.write(f"Error: {err}") 
+    driver.close()
+    exit()
 
 def scrapeDataFromBookUrl(driver: WebDriver, driver_wait: WebDriverWait, url: str) -> Book:
     book = Book("", "", "", list())
@@ -226,7 +263,7 @@ def scrapeDataFromBookUrl(driver: WebDriver, driver_wait: WebDriverWait, url: st
     )))
 
     read_btn.click()
-    time.sleep(4)
+    time.sleep(3)
 
     chapter_count = 0
     total_chapter_links = -1
@@ -292,10 +329,10 @@ def scrapeDataFromBookUrl(driver: WebDriver, driver_wait: WebDriverWait, url: st
         else:
             book.key_ideas.append(content)
 
-        print(chapter)
-        print(title)
-        print(description)
-        print("--------------------------------------------------------------")
+        # print(chapter)
+        # print(title)
+        # print(description)
+        # print("--------------------------------------------------------------")
 
     return book
 

@@ -1,0 +1,2 @@
+scp -i "C:\Users\NhatNguyen\.ssh\id_rsa" "main.py" root@34.122.99.157:/root/blinkist/
+scp -i "C:\Users\NhatNguyen\.ssh\id_rsa" root@34.122.99.157:/root/blinkist/outputs/blinkist-output-categ-1.xlsx .\outputs\
