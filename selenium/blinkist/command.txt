@@ -1,2 +1,4 @@
 scp -i "C:\Users\NhatNguyen\.ssh\id_rsa" "main.py" root@34.122.99.157:/root/blinkist/
 scp -i "C:\Users\NhatNguyen\.ssh\id_rsa" root@34.122.99.157:/root/blinkist/outputs/blinkist-output-categ-1.xlsx .\outputs\
+
+ssh -i "E:\Dev\AWS\med-web-crawler-ec2.pem" ubuntu@ec2-13-212-251-198.ap-southeast-1.compute.amazonaws.com

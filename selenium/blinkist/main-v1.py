@@ -48,6 +48,10 @@ categories = [
 ]
 
 BATCH_LENGTH = 50
+START_CATE = 21
+END_CATE = 21
+START_BOOK_INDEX = 250
+
 
 class Book():
     author: str
@@ -124,7 +128,7 @@ class ExportFrame():
         if self.df != None:
             self.df.to_json(
                 f"{os.environ['ABSOLUTE_PATH']}/blinkist-output-categ-{cat_num+1}-{start_index}-{end_index}.json", index=False)
-        
+
         self.clear()
 
     def clear(self):
@@ -157,47 +161,12 @@ def main():
     print("Started the program!")
     dotenv.load_dotenv()
 
-    driver = Driver(uc=True, no_sandbox=True, headless=True)
-    driver.get('https://www.blinkist.com/en/nc/login/')
-    wait = WebDriverWait(driver, 60)
+    driver: WebDriver = Driver(uc=True, no_sandbox=True, headless=True)
+    wait = WebDriverWait(driver, 120)
 
-    try:
-        cookie_button = wait.until(EC.presence_of_element_located((
-            By.XPATH,
-            '//div[@class="cookie-disclaimer__actions"]/button//span'
-        )))
-        cookie_button.click()
-        time.sleep(1)
-    except Exception as err:
-        print("Cookie button not found!")
-        pass
+    login(driver=driver, wait=wait)
 
-    try:
-        email_input = wait.until(EC.presence_of_element_located((
-            By.XPATH,
-            '//input[@name="login[email]"]'
-        )))
-        email_input.send_keys(os.environ["BLINKIST_EMAIL_3"])
-
-        pass_input = wait.until(EC.presence_of_element_located((
-            By.XPATH,
-            '//input[@name="login[password]"]'
-        )))
-        pass_input.send_keys(os.environ["BLINKIST_PASS_3"])
-
-        submit_input = wait.until(EC.presence_of_element_located((
-            By.XPATH,
-            '//input[@name="commit"]'
-        )))
-        submit_input.click()
-    except Exception as err:
-        logAndExit(driver, start_cate, end_cate, "login fail!")
-
-    time.sleep(5)
-
-    start_cate = 17
-    end_cate = 27
-    for i in range(start_cate, end_cate):
+    for i in range(START_CATE, END_CATE+1):
         start_time = time.perf_counter()
         driver.get(categories[i])
 
@@ -207,7 +176,7 @@ def main():
                 '//a[@class="letter-book-list__item"]'
             )))
         except Exception as err:
-            logAndExit(driver, start_cate, end_cate,
+            logAndExit(driver, START_CATE, END_CATE+1,
                        "Could not found book items!")
 
         book_urls = [item.get_attribute("href") for item in book_items]
@@ -215,11 +184,18 @@ def main():
         exportFrame = ExportFrame()
 
         fail_urls = []
-        num_book_urls = len(book_urls)
-        batch_start_index = 0
-        for j in range(num_book_urls):
+        batch_start_index = START_BOOK_INDEX 
+        num_book_urls = len(book_urls[START_BOOK_INDEX:])
+        for j in range(START_BOOK_INDEX, START_BOOK_INDEX + num_book_urls):
+            if j % 100 == 0:
+                logout(driver, wait)
+                login(driver=driver, wait=wait, isStart=False)
+
             try:
                 bookData = scrapeDataFromBookUrl(driver, wait, book_urls[j])
+            except TimeoutException:
+                driver.close()
+                exit()
             except:
                 fail_urls.append(book_urls[j])
                 continue
@@ -273,7 +249,7 @@ def main():
 
             time.sleep(3)
 
-            if (j+1) % BATCH_LENGTH == 0 or j == num_book_urls-1:
+            if (j+1) % BATCH_LENGTH == 0 or j == (START_BOOK_INDEX + num_book_urls) - 1:
                 fail_df = pd.DataFrame({
                     "urls": fail_urls
                 })
@@ -287,7 +263,7 @@ def main():
                         f"Successfully saved xlsx data from {batch_start_index} to {j}!")
                 except:
                     exportFrame.exportJson(i, batch_start_index, j)
-                    logAndExit(driver, start_cate, end_cate,
+                    logAndExit(driver, START_CATE, END_CATE+1,
                                "Could not export to excel file")
 
                 batch_start_index = j+1
@@ -299,6 +275,55 @@ def main():
         cate_delay = 300
         print(f"Delay {cate_delay} seconds after moving to next category")
         time.sleep(cate_delay)
+
+
+def login(driver: WebDriver, wait: WebDriverWait, isStart=True):
+    driver.get('https://www.blinkist.com/en/nc/login/')
+
+    if isStart:
+        try:
+            cookie_button = wait.until(EC.presence_of_element_located((
+                By.XPATH,
+                '//div[@class="cookie-disclaimer__actions"]/button//span'
+            )))
+            cookie_button.click()
+            time.sleep(1)
+        except Exception as err:
+            print("Cookie button not found!")
+            pass
+
+    try:
+        email_input = wait.until(EC.presence_of_element_located((
+            By.XPATH,
+            '//input[@name="login[email]"]'
+        )))
+        email_input.send_keys(os.environ["BLINKIST_EMAIL_1"])
+
+        pass_input = wait.until(EC.presence_of_element_located((
+            By.XPATH,
+            '//input[@name="login[password]"]'
+        )))
+        pass_input.send_keys(os.environ["BLINKIST_PASS_1"])
+
+        submit_input = wait.until(EC.presence_of_element_located((
+            By.XPATH,
+            '//input[@name="commit"]'
+        )))
+        submit_input.click()
+        time.sleep(3)
+    except Exception:
+        exit()
+
+
+def logout(driver: WebDriver, wait: WebDriverWait):
+    driver.get("https://www.blinkist.com/en/app/library")
+
+    logout_button = wait.until(EC.presence_of_element_located((
+        By.XPATH,
+        '//a[@href="/nc/logout"]'
+    )))
+    logout_button.click()
+    time.sleep(10)
 
 
 def logAndExit(driver, start_cate, end_cate, err):
