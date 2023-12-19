@@ -48,9 +48,9 @@ categories = [
 ]
 
 BATCH_LENGTH = 50
-START_CATE = 21
-END_CATE = 21
-START_BOOK_INDEX = 250
+START_CATE = 14 
+END_CATE = 14 
+START_BOOK_INDEX = 0
 
 
 class Book():
@@ -268,6 +268,16 @@ def main():
 
                 batch_start_index = j+1
 
+        if len(exportFrame.author_list) > 0:
+            try:
+                exportFrame.exportXLSX(i, batch_start_index, (START_BOOK_INDEX + num_book_urls) - 1)
+                print(
+                    f"Successfully saved xlsx data from {batch_start_index} to {j}!")
+            except:
+                exportFrame.exportJson(i, batch_start_index, (START_BOOK_INDEX + num_book_urls) - 1)
+                logAndExit(driver, START_CATE, END_CATE+1,
+                            "Could not export to excel file")
+
         print(
             f"Successfully scraped {num_book_urls} books in the category number {i+1}!")
         print(f"Elapsed time: {time.perf_counter()-start_time}")
@@ -297,13 +307,13 @@ def login(driver: WebDriver, wait: WebDriverWait, isStart=True):
             By.XPATH,
             '//input[@name="login[email]"]'
         )))
-        email_input.send_keys(os.environ["BLINKIST_EMAIL_1"])
+        email_input.send_keys(os.environ["BLINKIST_EMAIL_3"])
 
         pass_input = wait.until(EC.presence_of_element_located((
             By.XPATH,
             '//input[@name="login[password]"]'
         )))
-        pass_input.send_keys(os.environ["BLINKIST_PASS_1"])
+        pass_input.send_keys(os.environ["BLINKIST_PASS_3"])
 
         submit_input = wait.until(EC.presence_of_element_located((
             By.XPATH,
