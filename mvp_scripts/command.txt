@@ -1,0 +1,12 @@
+
+// Access server through ssh
+ssh -i "E:\Dev\AWS\web-server-t2-med-1.pem" ubuntu@54.169.186.232
+ssh -i "C:\Users\NhatNguyen\.ssh\id_rsa" root@34.122.99.157
+
+// transfer file from local to instances
+scp -i "C:\Users\NhatNguyen\.ssh\id_rsa" "main.py" root@34.122.99.157:/root/blinkist/
+scp -i "E:\Dev\AWS\web-server-t2-med-1.pem" main-v1.py ubuntu@54.169.186.232:/home/ubuntu/blinkist
+
+// transfer file from intances to local
+scp -i "E:\Dev\AWS\web-server-t2-med-1.pem" ubuntu@54.169.186.232:/home/ubuntu/blinkist/outputs/* "D:\Backup-data\web-server-t2-med-1"
+scp -i "C:\Users\NhatNguyen\.ssh\id_rsa" root@34.122.99.157:/root/blinkist/outputs/* "D:\Backup-data\root@34.122.99.157"

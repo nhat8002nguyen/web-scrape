@@ -193,9 +193,6 @@ def main():
 
             try:
                 bookData = scrapeDataFromBookUrl(driver, wait, book_urls[j])
-            except TimeoutException:
-                driver.close()
-                exit()
             except:
                 fail_urls.append(book_urls[j])
                 continue
