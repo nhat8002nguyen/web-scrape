@@ -22,6 +22,7 @@ from tqdm import tqdm
 
 from models import ProductCategoryMeta, ProductMetaData
 from contants import default_headers
+from utilities import replace_dash_with_underscore
 
 
 def main():
@@ -124,19 +125,22 @@ def get_meta_products(categ_meta: ProductCategoryMeta) -> list[ProductMetaData]:
         headers=default_headers,
         params={
             "locale": "he_IL",
-            "taxons%5B%5D": categ_meta.deapest_slug,
+            "taxons[]": replace_dash_with_underscore(categ_meta.deapest_slug),
             "page": page,
             "limit": limit,
             "order_by": "popularity",
             "sort": "desc",
             "relevancyPercentage": 50,
-            "baseTaxon": categ_meta.deapest_slug
+            "baseTaxon": replace_dash_with_underscore(categ_meta.deapest_slug)
         }
     )
     if response.status_code != 200:
         return []
-
-    json = response.json()
+    try:
+        json = response.json()
+    except:
+        print(f"Could not fetch json response from slug {categ_meta.deapest_slug}!")
+        return []
     items = json["items"]
     if len(items) <= 0:
         return []
@@ -156,6 +160,7 @@ def get_meta_products(categ_meta: ProductCategoryMeta) -> list[ProductMetaData]:
 
     return result
 
+
 def getProductsCategMetas(
     categ: str, categ1: str, categ2: str, categ3: str, deapest_slug: str
 ) -> ProductCategoryMeta:
@@ -167,6 +172,7 @@ def getProductsCategMetas(
     p.deapest_slug = deapest_slug
 
     return p
+
 
 if __name__ == "__main__":
     main()
