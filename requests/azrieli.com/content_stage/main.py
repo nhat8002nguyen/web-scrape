@@ -26,6 +26,12 @@ from html2text import HTML2Text
 from models import ProductCategoryMeta, ProductVariant, ProductExportData
 from contants import default_headers
 from utilities import format_currency
+from openpyxl.utils.exceptions import IllegalCharacterError 
+
+
+BATCH_SIZE=1000
+START_INDEX=0
+END_INDEX=4999
 
 session = requests.Session()
 session.headers = {
@@ -44,80 +50,58 @@ session.headers = {
     "sec-fetch-site": "same-site",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
+session.verify = False
 session.proxies = {
-    "http": "webshareio005844-rotate:webshareio005844@p.webshare.io:80",
+    "http": "http://webshareio005844-rotate:webshareio005844@p.webshare.io:80",
+    "https": "http://webshareio005844-rotate:webshareio005844@p.webshare.io:80",
 }
 
+
 def main():
-    driver: WebDriver = Driver(uc=True, no_sandbox=True, headless=True)
+    dotenv.load_dotenv()
+    print("Program was started!")
+    # using seleniumbase
+    driver: WebDriver = Driver(
+        uc=True, no_sandbox=True, headless=False,
+        # proxy="webshareio005844-rotate:webshareio005844@p.webshare.io:80",
+    )
+
+    # use regular selenium webdriver
+    # chrome_options = Options()
+    # chrome_options.add_argument('--disable-gpu')
+    # chrome_options.add_argument("--headless")
+    # chrome_options.add_argument("--no-sandbox")
+    # chrome_options.add_argument("--disable-dev-shm-usage")
+    # chrome_options.add_argument("--verbose")
+    # chrome_options.add_argument("--log-path=chrome_log.txt")
+    # driver = webdriver.Chrome(
+    #     options=chrome_options
+    # )
+
+    print("Web driver connected!")
     driver_wait = WebDriverWait(driver, 15)
 
-    with open('./recovery_files/fashion-footwear-meta-products.json', 'r', encoding="utf8") as openfile:
+    name_category = "home-garden-meta-products"
+    with open(f'{os.environ["RECOVERY_PATH"]}/{name_category}.json', 'r', encoding="utf8") as openfile:
         # Reading from json file
         meta_products = load(openfile)
 
     if len(meta_products) <= 0:
         raise "Not found any meta products!"
 
-    product_export_data = get_products_from_meta(
-        driver, driver_wait, meta_products)
-    products = product_export_data.products
-    start_index = product_export_data.start_index
-    end_index = product_export_data.end_index
+    scrape_products_from_meta(
+        driver, driver_wait, meta_products,
+        name_category
+    )
 
-    if len(products) <= 0:
-        raise "Fail to process fetching products data!"
-
-    df = pd.DataFrame({
-        "Type": [p.type for p in products],
-        "SKU": [p.sku if p.sku else p.product_code for p in products],
-        "Name": [p.name for p in products],
-        "First Sentence": [p.description_first_sentence if p.product_code else "" for p in products],
-        "Description": [p.description if p.product_code else "" for p in products],
-        "Brand": [p.brand if p.product_code else "" for p in products],
-        "Brand description": [p.brand_description if p.product_code else "" for p in products],
-        "URL": [p.url if p.product_code else "" for p in products],
-        "Order number in the popularity sort": [p.product_number if p.product_code else "" for p in products],
-        "Sale Price": [p.sale_price for p in products],
-        "Regular Price": [p.regular_price for p in products],
-        "Category": [p.main_categ if p.product_code else "" for p in products],
-        "Sub Category": [p.sub_categ1 if p.product_code else "" for p in products],
-        "Sub Sub Category": [p.sub_categ2 if p.product_code else "" for p in products],
-        "Sub Sub Sub Category": [p.sub_categ3 if p.product_code else "" for p in products],
-        "Images": [p.image if p.image else ", ".join(p.images) for p in products],
-        "Parent": [p.parent_code for p in products],
-        "Attribute name 1": [p.attr_name1 if p.sku else (
-            p.attributes_values[0][0] if len(p.attributes_values) > 0 else ""
-        ) for p in products],
-        "Attribute value 1": [p.attr_value1 if p.sku else (
-            ", ".join(p.attributes_values[0][1]) if len(
-                p.attributes_values) > 0 else ""
-        ) for p in products],
-        "Attribute name 2": [p.attr_name2 if p.sku else (
-            p.attributes_values[1][0] if len(p.attributes_values) > 1 else ""
-        )for p in products],
-        "Attribute value 2": [p.attr_value2 if p.sku else (
-            ", ".join(p.attributes_values[1][1]) if len(
-                p.attributes_values) > 1 else ""
-        ) for p in products],
-        "Attribute name 3": [p.attr_name3 if p.sku else (
-            p.attributes_values[2][0] if len(p.attributes_values) > 2 else ""
-        ) for p in products],
-        "Attribute value 3": [p.attr_value3 if p.sku else (
-            ", ".join(p.attributes_values[2][1]) if len(
-                p.attributes_values) > 2 else ""
-        ) for p in products],
-    })
-
-    df.to_excel(
-        f"./content_stage_outputs/fashion-footwear-meta-products-{start_index}-{end_index}.xlsx", index=False)
-
+    print("DONE!")
     driver.close()
     session.close()
 
 
-def get_products_from_meta(
-    driver: WebDriver, driver_wait: WebDriverWait, items: list[dict]
+def scrape_products_from_meta(
+    driver: WebDriver, driver_wait: WebDriverWait, items: list[dict],
+    name_category: str
 ) -> ProductExportData:
     '''
         a dict example:
@@ -130,8 +114,9 @@ def get_products_from_meta(
         },
     '''
     result = list[ProductVariant]()
-    start_index = 10
-    end_index = 19
+    start_index = START_INDEX
+    end_index = END_INDEX
+    batch_start = start_index
     for i in tqdm(range(len(items[start_index:end_index+1]))):
         # make request to fetch product data for each item
         item = items[i]
@@ -260,6 +245,7 @@ def get_products_from_meta(
             )
             popup_close_btn.click()
         except NoSuchElementException:
+            print(f"Fail to close popup of {p.product_code}!")
             pass
 
         try:
@@ -270,6 +256,7 @@ def get_products_from_meta(
             if first_sentence_tag != None:
                 p.description_first_sentence = first_sentence_tag.text
         except:
+            print(f"Fail to fetch first sentence of {p.product_code}!")
             p.description_first_sentence = ""
             pass
 
@@ -288,19 +275,80 @@ def get_products_from_meta(
             )
             p.brand_description = about_text_container.text
         except Exception as err:
-            print(err)
+            print(f"Fail to fetch brand description {p.product_code}!")
             p.brand_description = ""
             pass
 
         result.append(p)
         result.extend(children)
 
-    result_data = ProductExportData()
-    result_data.products = result
-    result_data.start_index = start_index
-    result_data.end_index = end_index
+        if (i+1) % BATCH_SIZE == 0: 
+            try:
+                saveBatchToFile(result, name_category, batch_start, i)
+                batch_start = i+1
+                result = list[ProductVariant]()
+            except Exception:
+                print(f"Fail to save batch to file {p.product_code}!")
+                continue
 
-    return result_data
+    if len(result) > 0:
+        saveBatchToFile(result, name_category, batch_start, end_index)
+
+def saveBatchToFile(result: list[ProductVariant], name_category: str, start: int, end: int):
+    if len(result) <= 0:
+        raise "Fail to process fetching products data!"
+
+    products = result
+    start_index = start
+    end_index = end
+
+    try:
+        df = pd.DataFrame({
+            "Type": [p.type for p in products],
+            "SKU": [p.sku if p.sku else p.product_code for p in products],
+            "Name": [p.name for p in products],
+            "First Sentence": [p.description_first_sentence if p.product_code else "" for p in products],
+            "Description": [p.description if p.product_code else "" for p in products],
+            "Brand": [p.brand if p.product_code else "" for p in products],
+            "Brand description": [p.brand_description if p.product_code else "" for p in products],
+            "URL": [p.url if p.product_code else "" for p in products],
+            "Order number in the popularity sort": [p.product_number if p.product_code else "" for p in products],
+            "Sale Price": [p.sale_price for p in products],
+            "Regular Price": [p.regular_price for p in products],
+            "Category": [p.main_categ if p.product_code else "" for p in products],
+            "Sub Category": [p.sub_categ1 if p.product_code else "" for p in products],
+            "Sub Sub Category": [p.sub_categ2 if p.product_code else "" for p in products],
+            "Sub Sub Sub Category": [p.sub_categ3 if p.product_code else "" for p in products],
+            "Images": [p.image if p.image else ", ".join(p.images) for p in products],
+            "Parent": [p.parent_code for p in products],
+            "Attribute name 1": [p.attr_name1 if p.sku else (
+                p.attributes_values[0][0] if len(p.attributes_values) > 0 else ""
+            ) for p in products],
+            "Attribute value 1": [p.attr_value1 if p.sku else (
+                ", ".join(p.attributes_values[0][1]) if len(
+                    p.attributes_values) > 0 else ""
+            ) for p in products],
+            "Attribute name 2": [p.attr_name2 if p.sku else (
+                p.attributes_values[1][0] if len(p.attributes_values) > 1 else ""
+            )for p in products],
+            "Attribute value 2": [p.attr_value2 if p.sku else (
+                ", ".join(p.attributes_values[1][1]) if len(
+                    p.attributes_values) > 1 else ""
+            ) for p in products],
+            "Attribute name 3": [p.attr_name3 if p.sku else (
+                p.attributes_values[2][0] if len(p.attributes_values) > 2 else ""
+            ) for p in products],
+            "Attribute value 3": [p.attr_value3 if p.sku else (
+                ", ".join(p.attributes_values[2][1]) if len(
+                    p.attributes_values) > 2 else ""
+            ) for p in products],
+        })
+
+        df.to_excel(
+            f"{os.environ['CONTENT_PATH']}/{name_category}-{start_index}-{end_index}.xlsx", index=False)
+    except IllegalCharacterError:
+        print(f"IllegalCharacterError: in {name_category} from {start} to {end}")
+        pass
 
 
 def saveImagesToFiles(urls: list[str], p_code: str, v_code: str = "default") -> dict[str, str]:
@@ -311,12 +359,13 @@ def saveImagesToFiles(urls: list[str], p_code: str, v_code: str = "default") -> 
                 url=urls[i],
             )
             saved_name = f"{p_code}-{v_code}-{i+1}.jpg"
-            with open(f"./content_stage_outputs/images/{saved_name}", "wb") as f:
+            with open(f"{os.environ['CONTENT_PATH']}/images/{saved_name}", "wb") as f:
                 f.write(resp.content)
                 images_name[urls[i]] = saved_name
 
         return images_name
     except:
+        print(f"Fail to save image {p_code}-{v_code} to file!")
         return dict()
 
 

@@ -24,12 +24,40 @@ from models import ProductCategoryMeta, ProductMetaData
 from contants import default_headers
 from utilities import replace_dash_with_underscore
 
+session = requests.Session()
+session.headers = {
+    "Cache-Control": "no-cache",
+    "Accept-Encoding": "gzip, deflate, br",
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.9",
+    "origin": "https://www.azrieli.com",
+    "pragma": "no-cache",
+    "referer": "https://www.azrieli.com/",
+    "sec-ch-ua": '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"Windows"',
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
+session.verify = False
+session.proxies = {
+    "http": "http://webshareio005844-rotate:webshareio005844@p.webshare.io:80",
+    "https": "http://webshareio005844-rotate:webshareio005844@p.webshare.io:80",
+}
+
 
 def main():
     print("Started the program!")
     dotenv.load_dotenv()
 
-    driver: WebDriver = Driver(uc=True, no_sandbox=True, headless=True)
+    driver: WebDriver = Driver(
+        uc=True,
+        no_sandbox=True,
+        headless=True,
+        proxy="webshareio005844-rotate:webshareio005844@p.webshare.io:80",
+    )
     default_wait = WebDriverWait(driver, 30)
 
     base_url = "https://www.azrieli.com"
@@ -43,10 +71,10 @@ def main():
 
     categ_slugs = [url[url.rfind("/")+1:] for url in categories_urls]
 
-    for categ_slug in categ_slugs[5:6]:
+    for i in tqdm(range(len(categ_slugs))):
         all_product_categ_meta = list[ProductCategoryMeta]()
-        response = requests.get(
-            url=f"https://api.ecom.azrieli.com/shop-api/taxons/by-slug/{categ_slug}",
+        response = session.get(
+            url=f"https://api.ecom.azrieli.com/shop-api/taxons/by-slug/{categ_slugs[i]}",
             headers=default_headers,
             params={
                 "locale": "he_IL"
@@ -89,14 +117,16 @@ def main():
 
         # loop for each deapest slug
         all_meta_products = list[ProductMetaData]()
-        for j in tqdm(range(len(all_product_categ_meta))):
+        for j in range(len(all_product_categ_meta)):
             # get all product
             meta_products = get_meta_products(all_product_categ_meta[j])
             all_meta_products.extend(meta_products)
 
-        save_meta_products(categ_slug, all_meta_products)
+        save_meta_products(categ_slugs[i], all_meta_products)
+        time.sleep(5)
 
     driver.close()
+    session.close()
 
 
 def save_meta_products(categ_slug: str, meta_products: list[ProductMetaData]) -> None:
@@ -112,51 +142,59 @@ def save_meta_products(categ_slug: str, meta_products: list[ProductMetaData]) ->
         }
         products_dicts.append(product_dict)
 
-    with open(f'./recovery_files/{categ_slug}-meta-products.json', 'w', encoding='utf8') as f:
+    with open(f'{os.environ["RECOVERY_PATH"]}/{categ_slug}-meta-products.json', 'w', encoding='utf8') as f:
         dump(products_dicts, f, ensure_ascii=False)
+        print(f"Successfully saved meta products of {categ_slug}!")
 
 
 def get_meta_products(categ_meta: ProductCategoryMeta) -> list[ProductMetaData]:
     # fetch products' url from deapest slug
     page = 1
     limit = 40
-    response = requests.get(
-        url=f"https://api.ecom.azrieli.com/shop-api/search/products",
-        headers=default_headers,
-        params={
-            "locale": "he_IL",
-            "taxons[]": replace_dash_with_underscore(categ_meta.deapest_slug),
-            "page": page,
-            "limit": limit,
-            "order_by": "popularity",
-            "sort": "desc",
-            "relevancyPercentage": 50,
-            "baseTaxon": replace_dash_with_underscore(categ_meta.deapest_slug)
-        }
-    )
-    if response.status_code != 200:
-        return []
-    try:
-        json = response.json()
-    except:
-        print(f"Could not fetch json response from slug {categ_meta.deapest_slug}!")
-        return []
-    items = json["items"]
-    if len(items) <= 0:
-        return []
-
     result = list[ProductMetaData]()
-    for i in range(len(items)):
-        item = items[i]
-        p = ProductMetaData()
-        p.main_categ = categ_meta.main_categ
-        p.sub_categ1 = categ_meta.sub_categ1
-        p.sub_categ2 = categ_meta.sub_categ2
-        p.sub_categ3 = categ_meta.sub_categ3
-        p.product_code = item["code"]
-        p.product_number = (page-1)*limit + (i + 1)
+    while True:
+        response = session.get(
+            url=f"https://api.ecom.azrieli.com/shop-api/search/products",
+            headers=default_headers,
+            params={
+                "locale": "he_IL",
+                "taxons[]": replace_dash_with_underscore(categ_meta.deapest_slug),
+                "page": page,
+                "limit": limit,
+                "order_by": "popularity",
+                "sort": "desc",
+                "relevancyPercentage": 50,
+                "baseTaxon": replace_dash_with_underscore(categ_meta.deapest_slug)
+            }
+        )
+        if response.status_code != 200:
+            continue
+        try:
+            json = response.json()
+        except:
+            print(
+                f"Could not fetch json response from slug {categ_meta.deapest_slug}!")
+            return []
+        items = json["items"]
+        if len(items) <= 0:
+            break
 
-        result.append(p)
+        for i in range(len(items)):
+            item = items[i]
+            p = ProductMetaData()
+            p.main_categ = categ_meta.main_categ
+            p.sub_categ1 = categ_meta.sub_categ1
+            p.sub_categ2 = categ_meta.sub_categ2
+            p.sub_categ3 = categ_meta.sub_categ3
+            p.product_code = item["code"]
+            p.product_number = (page-1)*limit + (i + 1)
+
+            result.append(p)
+
+        if page >= json["pages"]:
+            break
+
+        page += 1
 
     return result
 

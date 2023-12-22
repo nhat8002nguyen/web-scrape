@@ -1,0 +1,23 @@
+// run this with powershell admin
+
+$path = ".\sshkeypair.pem"
+icacls.exe $path /reset
+icacls.exe $path /GRANT:R "$($env:USERNAME):(R)"
+icacls.exe $path /inheritance:r
+
+// instance 1
+ssh -i azrieli_dot_com_1.pem ubuntu@18.142.239.246
+scp -i azrieli_dot_com_1.pem requirements.txt ubuntu@18.142.239.246:/home/ubuntu/azrieli.com/
+scp -i azrieli_dot_com_1.pem recovery_stage/main.py ubuntu@18.142.239.246:/home/ubuntu/azrieli.com/recovery_stage
+scp -i azrieli_dot_com_1.pem ubuntu@18.142.239.246:/home/ubuntu/azrieli.com/recovery_files/backup/*.json ./recovery_files/ec2_backup/
+
+// instance 2
+scp -i azrieli_dot_com_1.pem content_stage/main.py ubuntu@13.250.43.173:/home/ubuntu/azrieli.com/content_stage
+ssh -i azrieli_dot_com_1.pem ubuntu@13.250.43.173
+
+// instance 3
+ssh -i azrieli_dot_com_1.pem ubuntu@13.214.122.186
+scp -i azrieli_dot_com_1.pem content_stage/main.py ubuntu@13.214.122.186:/home/ubuntu/azrieli.com/content_stage
+scp -i azrieli_dot_com_1.pem requirements.txt ubuntu@13.214.122.186:/home/ubuntu/azrieli.com/
+
+
