@@ -1,0 +1,16 @@
+// install google-chrome on linux
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt install -f
+
+// python3 pip depencencies
+sudo apt-get install libpq-dev python-dev
+
+// secure private key of ec2
+$path = ".\sshkeypair.pem"
+icacls.exe $path /reset
+icacls.exe $path /GRANT:R "$($env:USERNAME):(R)"
+icacls.exe $path /inheritance:r
+
+// move file to instances
+scp -i .\facebook\crawler-server-ec2-key.pem .\requirements.txt ubuntu@18.141.189.139:/home/ubuntu/selenium/daycareowner

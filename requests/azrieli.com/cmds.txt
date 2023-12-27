@@ -5,11 +5,16 @@ icacls.exe $path /reset
 icacls.exe $path /GRANT:R "$($env:USERNAME):(R)"
 icacls.exe $path /inheritance:r
 
+// run python
+python3 content_stage/main.py
+
 // instance 1
 ssh -i azrieli_dot_com_1.pem ubuntu@18.142.239.246
 scp -i azrieli_dot_com_1.pem requirements.txt ubuntu@18.142.239.246:/home/ubuntu/azrieli.com/
 scp -i azrieli_dot_com_1.pem recovery_stage/main.py ubuntu@18.142.239.246:/home/ubuntu/azrieli.com/recovery_stage
 scp -i azrieli_dot_com_1.pem ubuntu@18.142.239.246:/home/ubuntu/azrieli.com/recovery_files/backup/*.json ./recovery_files/ec2_backup/
+
+scp -i azrieli_dot_com_1.pem content_stage/main.py ubuntu@18.142.239.246:/home/ubuntu/azrieli.com/content_stage
 
 // instance 2
 scp -i azrieli_dot_com_1.pem content_stage/main.py ubuntu@13.250.43.173:/home/ubuntu/azrieli.com/content_stage
@@ -20,4 +25,77 @@ ssh -i azrieli_dot_com_1.pem ubuntu@13.214.122.186
 scp -i azrieli_dot_com_1.pem content_stage/main.py ubuntu@13.214.122.186:/home/ubuntu/azrieli.com/content_stage
 scp -i azrieli_dot_com_1.pem requirements.txt ubuntu@13.214.122.186:/home/ubuntu/azrieli.com/
 
+// instance large 5
+ssh -i azrieli_dot_com_1.pem ubuntu@18.141.206.235
+scp -i azrieli_dot_com_1.pem content_stage/main.py ubuntu@18.141.206.235:/home/ubuntu/azrieli.com/content_stage
+scp -i azrieli_dot_com_1.pem requirements.txt ubuntu@18.141.206.235:/home/ubuntu/azrieli.com/
+scp -i E:\Dev\web-scrape\requests\azrieli.com\azrieli_dot_com_1.pem -r azrieli.com\ ubuntu@18.141.206.235:/home/ubuntu/
 
+// instance 6
+ssh -i web-server-t2-med-1.pem ubuntu@54.179.191.121
+scp -i web-server-t2-med-1.pem content_stage/main.py ubuntu@54.179.191.121:/home/ubuntu/azrieli.com/content_stage
+scp -i web-server-t2-med-1.pem requirements.txt ubuntu@54.179.191.121:/home/ubuntu/azrieli.com/
+scp -i E:\Dev\web-scrape\requests\azrieli.com\web-server-t2-med-1.pem -r azrieli.com\ ubuntu@54.179.191.121:/home/ubuntu/
+
+// instance 7
+ssh -i web-server-t2-med-1.pem ubuntu@54.151.129.13
+scp -i web-server-t2-med-1.pem content_stage/main.py ubuntu@54.151.129.13:/home/ubuntu/azrieli.com/content_stage
+scp -i web-server-t2-med-1.pem requirements.txt ubuntu@54.151.129.13:/home/ubuntu/azrieli.com/
+scp -i E:\Dev\web-scrape\requests\azrieli.com\web-server-t2-med-1.pem -r azrieli.com\ ubuntu@54.151.129.13:/home/ubuntu/
+
+// instance 8
+ssh -i web-server-t2-med-1.pem ubuntu@18.141.147.9
+scp -i web-server-t2-med-1.pem content_stage/main.py ubuntu@18.141.147.9:/home/ubuntu/azrieli.com/content_stage
+scp -i web-server-t2-med-1.pem requirements.txt ubuntu@18.141.147.9:/home/ubuntu/azrieli.com/
+scp -i E:\Dev\web-scrape\requests\azrieli.com\web-server-t2-med-1.pem -r azrieli.com\ ubuntu@18.141.147.9:/home/ubuntu/
+
+// instance 9
+ssh -i web-server-t2-med-1.pem ubuntu@54.254.173.191
+scp -i web-server-t2-med-1.pem content_stage/main.py ubuntu@54.254.173.191:/home/ubuntu/azrieli.com/content_stage
+scp -i web-server-t2-med-1.pem requirements.txt ubuntu@54.254.173.191:/home/ubuntu/azrieli.com/
+scp -i E:\Dev\web-scrape\requests\azrieli.com\web-server-t2-med-1.pem -r azrieli.com\ ubuntu@54.254.173.191:/home/ubuntu/
+
+// instance 10
+ssh -i web-server-t2-med-1.pem ubuntu@54.255.223.105
+scp -i web-server-t2-med-1.pem content_stage/main.py ubuntu@54.255.223.105:/home/ubuntu/azrieli.com/content_stage
+scp -i web-server-t2-med-1.pem requirements.txt ubuntu@54.255.223.105:/home/ubuntu/azrieli.com/
+scp -i E:\Dev\web-scrape\requests\azrieli.com\web-server-t2-med-1.pem -r azrieli.com\ ubuntu@54.255.223.105:/home/ubuntu/
+
+// instance 11
+ssh -i azrieli_dot_com_1.pem ubuntu@13.215.206.244
+scp -i azrieli_dot_com_1.pem content_stage/main.py ubuntu@13.215.206.244:/home/ubuntu/azrieli.com/content_stage
+scp -i azrieli_dot_com_1.pem requirements.txt ubuntu@13.215.206.244:/home/ubuntu/azrieli.com/
+scp -i E:\Dev\web-scrape\requests\azrieli.com\azrieli_dot_com_1.pem -r azrieli.com\ ubuntu@13.215.206.244:/home/ubuntu/
+
+// instance 12
+ssh -i azrieli_dot_com_1.pem ubuntu@18.141.57.210
+scp -i azrieli_dot_com_1.pem content_stage/main.py ubuntu@18.141.57.210:/home/ubuntu/azrieli.com/content_stage
+scp -i azrieli_dot_com_1.pem requirements.txt ubuntu@18.141.57.210:/home/ubuntu/azrieli.com/
+scp -i E:\Dev\web-scrape\requests\azrieli.com\azrieli_dot_com_1.pem -r azrieli.com\ ubuntu@18.141.57.210:/home/ubuntu/
+
+// instance 13
+ssh -i azrieli_dot_com_1.pem ubuntu@54.255.244.159
+scp -i azrieli_dot_com_1.pem content_stage/main.py ubuntu@54.255.244.159:/home/ubuntu/azrieli.com/content_stage
+scp -i azrieli_dot_com_1.pem requirements.txt ubuntu@54.255.244.159:/home/ubuntu/azrieli.com/
+scp -i E:\Dev\web-scrape\requests\azrieli.com\azrieli_dot_com_1.pem -r azrieli.com\ ubuntu@54.255.244.159:/home/ubuntu/
+
+// instance 14
+ssh -i azrieli_dot_com_1.pem ubuntu@47.128.249.17
+scp -i azrieli_dot_com_1.pem content_stage/main.py ubuntu@47.128.249.17:/home/ubuntu/azrieli.com/content_stage
+scp -i azrieli_dot_com_1.pem requirements.txt ubuntu@47.128.249.17:/home/ubuntu/azrieli.com/
+scp -i E:\Dev\web-scrape\requests\azrieli.com\azrieli_dot_com_1.pem -r azrieli.com\ ubuntu@47.128.249.17:/home/ubuntu/
+
+// instance 15
+ssh -i azrieli_dot_com_1.pem ubuntu@3.1.100.21
+scp -i azrieli_dot_com_1.pem content_stage/main.py ubuntu@3.1.100.21:/home/ubuntu/azrieli.com/content_stage
+scp -i azrieli_dot_com_1.pem requirements.txt ubuntu@3.1.100.21:/home/ubuntu/azrieli.com/
+scp -i E:\Dev\web-scrape\requests\azrieli.com\azrieli_dot_com_1.pem -r azrieli.com\ ubuntu@3.1.100.21:/home/ubuntu/
+
+// install google-chrome on linux
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt install -f
+
+// .env
+RECOVERY_PATH=/home/ubuntu/azrieli.com/recovery_files/ec2_backup
+CONTENT_PATH=/home/ubuntu/azrieli.com/content_stage_outputs

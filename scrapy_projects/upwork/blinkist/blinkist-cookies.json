@@ -1,0 +1,52 @@
+[
+    {
+        "domain": "blinkist.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "_hjHasCachedUserAttributes",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "true"
+    },
+    {
+        "domain": "blinkist.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "G_AUTHUSER_H",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "2"
+    },
+    {
+        "domain": "blinkist.com",
+        "expirationDate": 1733926103,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "CookieConsent",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "{stamp:%27mHPeNx4UcmkT5mI98KkeIl9sK91RVVXpRMMSZDVaC4yZ83GaIjRIyA==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1702303703049%2Cregion:%27vn%27}"
+    },
+    {
+        "domain": "blinkist.com",
+        "expirationDate": 1704773267.796822,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "internal_session",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "false"
+    }
+]

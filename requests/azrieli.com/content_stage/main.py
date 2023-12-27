@@ -18,7 +18,7 @@ import time
 import os
 import dotenv
 import requests
-from json import load, dump
+from json import load, dump, JSONDecodeError
 from random import random
 from tqdm import tqdm
 from html2text import HTML2Text
@@ -26,12 +26,13 @@ from html2text import HTML2Text
 from models import ProductCategoryMeta, ProductVariant, ProductExportData
 from contants import default_headers
 from utilities import format_currency
-from openpyxl.utils.exceptions import IllegalCharacterError 
+from openpyxl.utils.exceptions import IllegalCharacterError
 
 
-BATCH_SIZE=1000
-START_INDEX=0
-END_INDEX=4999
+BATCH_SIZE = 500
+START_INDEX = 15000 
+END_INDEX = 19760
+CATEGORY_NAME="toys-games-meta-products"
 
 session = requests.Session()
 session.headers = {
@@ -62,7 +63,7 @@ def main():
     print("Program was started!")
     # using seleniumbase
     driver: WebDriver = Driver(
-        uc=True, no_sandbox=True, headless=False,
+        uc=True, no_sandbox=True, headless=True,
         # proxy="webshareio005844-rotate:webshareio005844@p.webshare.io:80",
     )
 
@@ -81,7 +82,7 @@ def main():
     print("Web driver connected!")
     driver_wait = WebDriverWait(driver, 15)
 
-    name_category = "home-garden-meta-products"
+    name_category = CATEGORY_NAME
     with open(f'{os.environ["RECOVERY_PATH"]}/{name_category}.json', 'r', encoding="utf8") as openfile:
         # Reading from json file
         meta_products = load(openfile)
@@ -114,10 +115,8 @@ def scrape_products_from_meta(
         },
     '''
     result = list[ProductVariant]()
-    start_index = START_INDEX
-    end_index = END_INDEX
-    batch_start = start_index
-    for i in tqdm(range(len(items[start_index:end_index+1]))):
+    batch_start = START_INDEX
+    for i in tqdm(range(START_INDEX, END_INDEX)):
         # make request to fetch product data for each item
         item = items[i]
 
@@ -137,8 +136,14 @@ def scrape_products_from_meta(
                 "locale": "he_IL",
             },
         )
+        if response.status_code != 200:
+            continue
 
-        resp_json = response.json()
+        try:
+            resp_json = response.json()
+        except JSONDecodeError:
+            print(f"Fail to load json from response of {p.product_code}")
+            continue
 
         p.name = resp_json["name"]
 
@@ -282,7 +287,7 @@ def scrape_products_from_meta(
         result.append(p)
         result.extend(children)
 
-        if (i+1) % BATCH_SIZE == 0: 
+        if (i+1) % BATCH_SIZE == 0:
             try:
                 saveBatchToFile(result, name_category, batch_start, i)
                 batch_start = i+1
@@ -292,7 +297,8 @@ def scrape_products_from_meta(
                 continue
 
     if len(result) > 0:
-        saveBatchToFile(result, name_category, batch_start, end_index)
+        saveBatchToFile(result, name_category, batch_start, END_INDEX)
+
 
 def saveBatchToFile(result: list[ProductVariant], name_category: str, start: int, end: int):
     if len(result) <= 0:
@@ -322,21 +328,24 @@ def saveBatchToFile(result: list[ProductVariant], name_category: str, start: int
             "Images": [p.image if p.image else ", ".join(p.images) for p in products],
             "Parent": [p.parent_code for p in products],
             "Attribute name 1": [p.attr_name1 if p.sku else (
-                p.attributes_values[0][0] if len(p.attributes_values) > 0 else ""
+                p.attributes_values[0][0] if len(
+                    p.attributes_values) > 0 else ""
             ) for p in products],
             "Attribute value 1": [p.attr_value1 if p.sku else (
                 ", ".join(p.attributes_values[0][1]) if len(
                     p.attributes_values) > 0 else ""
             ) for p in products],
             "Attribute name 2": [p.attr_name2 if p.sku else (
-                p.attributes_values[1][0] if len(p.attributes_values) > 1 else ""
+                p.attributes_values[1][0] if len(
+                    p.attributes_values) > 1 else ""
             )for p in products],
             "Attribute value 2": [p.attr_value2 if p.sku else (
                 ", ".join(p.attributes_values[1][1]) if len(
                     p.attributes_values) > 1 else ""
             ) for p in products],
             "Attribute name 3": [p.attr_name3 if p.sku else (
-                p.attributes_values[2][0] if len(p.attributes_values) > 2 else ""
+                p.attributes_values[2][0] if len(
+                    p.attributes_values) > 2 else ""
             ) for p in products],
             "Attribute value 3": [p.attr_value3 if p.sku else (
                 ", ".join(p.attributes_values[2][1]) if len(
@@ -347,7 +356,8 @@ def saveBatchToFile(result: list[ProductVariant], name_category: str, start: int
         df.to_excel(
             f"{os.environ['CONTENT_PATH']}/{name_category}-{start_index}-{end_index}.xlsx", index=False)
     except IllegalCharacterError:
-        print(f"IllegalCharacterError: in {name_category} from {start} to {end}")
+        print(
+            f"IllegalCharacterError: in {name_category} from {start} to {end}")
         pass
 
 
