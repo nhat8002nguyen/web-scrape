@@ -16,6 +16,7 @@ from time import sleep, perf_counter
 import os
 import dotenv
 from tqdm import tqdm
+from json import loads
 
 
 categories = [
@@ -48,9 +49,8 @@ categories = [
     "https://www.blinkist.com/en/nc/categories/creativity-en/books",
 ]
 
+LIST_FILE_NAMES = ["fail-url-categ-21-0-99", "fail-url-categ-21-100-199"]
 BATCH_LENGTH = 100
-START_CATE = 5
-END_CATE = 9 
 START_BOOK_INDEX = 0
 
 
@@ -104,6 +104,8 @@ class Book():
 
 
 class ExportFrame():
+    file_name: str = ""
+
     author_list = []
     book_name_list = []
 
@@ -140,7 +142,7 @@ class ExportFrame():
     section18s = []
     section19s = []
 
-    def exportXLSX(self, cat_num: int, start_index: int, end_index: int):
+    def exportXLSX(self, file_num: int, start_index: int, end_index: int):
         self.df = pd.DataFrame({
             "Author": self.author_list,
             "Book Name": self.book_name_list,
@@ -181,14 +183,14 @@ class ExportFrame():
         })
 
         self.df.to_excel(
-            f"{os.environ['ABSOLUTE_PATH']}/blinkist-output-categ-{cat_num+1}-{start_index}-{end_index}.xlsx", index=False)
+            f"{os.environ['ABSOLUTE_PATH']}/{self.file_name}-{file_num}-{start_index}-{end_index}.xlsx", index=False)
 
         self.clear()
 
-    def exportJson(self, cat_num: int, start_index: int, end_index: int):
+    def exportJson(self, file_num: int, start_index: int, end_index: int):
         if self.df != None:
             self.df.to_json(
-                f"{os.environ['ABSOLUTE_PATH']}/blinkist-output-categ-{cat_num+1}-{start_index}-{end_index}.json", index=False)
+                f"{os.environ['ABSOLUTE_PATH']}/blinkist-output-fail-file-{file_num}-{start_index}-{end_index}.json", index=False)
 
         self.clear()
 
@@ -234,27 +236,21 @@ def main():
     print("Started the program!")
     dotenv.load_dotenv()
 
-    driver: WebDriver = Driver(uc=True, no_sandbox=True, headless=False)
+    driver: WebDriver = Driver(uc=True, no_sandbox=True, headless=True)
     wait = WebDriverWait(driver, 60)
 
     login(driver=driver, wait=wait)
 
-    for i in tqdm(range(START_CATE, END_CATE+1)):
+    for i in tqdm(range(len(LIST_FILE_NAMES))):
         start_time = perf_counter()
-        driver.get(categories[i])
-
-        try:
-            book_items = wait.until(EC.presence_of_all_elements_located((
-                By.XPATH,
-                '//a[@class="letter-book-list__item"]'
-            )))
-        except Exception as err:
-            logAndExit(driver, START_CATE, END_CATE+1,
-                       "Could not found book items!")
-
-        book_urls = [item.get_attribute("href") for item in book_items]
-
         exportFrame = ExportFrame()
+        exportFrame.file_name = LIST_FILE_NAMES[i]
+
+        book_urls = list[str]()
+        with open(f"{os.environ['ABSOLUTE_PATH']}/{LIST_FILE_NAMES[i]}.json") as file:
+            json = loads(file.read())
+            urls_dict: dict = json["urls"]
+            book_urls = list(urls_dict.values())
 
         fail_urls = []
         batch_start_index = START_BOOK_INDEX
@@ -271,7 +267,7 @@ def main():
             try:
                 bookData = scrapeDataFromBookUrl(driver, wait, book_urls[j])
             except Exception as err:
-                print(err) 
+                print(err)
                 fail_urls.append(book_urls[j])
                 continue
 
@@ -341,18 +337,17 @@ def main():
                     "urls": fail_urls
                 })
                 fail_df.to_json(
-                    f"{os.environ['ABSOLUTE_PATH']}/fail-url-categ-{i+1}-{batch_start_index}-{j}.json", index=False)
+                    f"{os.environ['ABSOLUTE_PATH']}/fail-url-file-num-{i}-{batch_start_index}-{j}.json", index=False)
                 fail_urls = []
 
                 try:
                     exportFrame.exportXLSX(i, batch_start_index, j)
                     print(
                         f"Successfully saved xlsx data from {batch_start_index} to {j}!")
-                    print("------------------------------------------------------------------------")
+                    print(
+                        "------------------------------------------------------------------------")
                 except:
                     exportFrame.exportJson(i, batch_start_index, j)
-                    logAndExit(driver, START_CATE, END_CATE+1,
-                               "Could not export to excel file")
 
                 batch_start_index = j+1
 
@@ -365,14 +360,12 @@ def main():
             except:
                 exportFrame.exportJson(
                     i, batch_start_index, (START_BOOK_INDEX + num_book_urls) - 1)
-                logAndExit(driver, START_CATE, END_CATE+1,
-                           "Could not export to excel file")
 
         print(
-            f"Successfully scraped {num_book_urls} books in the category number {i+1}!")
+            f"Successfully scraped {num_book_urls} books in the fail file number {i}!")
         print(f"Elapsed time: {perf_counter()-start_time}")
 
-        cate_delay = 600
+        cate_delay = 60
         print(f"Delay {cate_delay} seconds after moving to next category")
         print("------------------------------------------------------------------------")
         sleep(cate_delay)

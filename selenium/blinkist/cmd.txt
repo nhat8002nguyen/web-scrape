@@ -1,0 +1,27 @@
+// Instance 1
+ssh -i blinkist-crawler.pem ubuntu@3.0.58.109
+scp -i blinkist-crawler.pem -r . ubuntu@3.0.58.109:/home/ubuntu/blinkist
+scp -i blinkist-crawler.pem main-v1.py ubuntu@3.0.58.109:/home/ubuntu/blinkist
+scp -i blinkist-crawler.pem -r ubuntu@3.0.58.109:/home/ubuntu/blinkist-outputs ./outputs
+scp -i blinkist-crawler.pem solve-fails.py ubuntu@3.0.58.109:/home/ubuntu/blinkist
+
+// Instance 2
+ssh -i ~/.ssh/id_rsa root@34.122.99.157
+scp -i ~/.ssh/id_rsa -r . root@34.122.99.157:/root/blinkist
+scp -i ~/.ssh/id_rsa main-v1.py root@34.122.99.157:/root/blinkist
+scp -i ~/.ssh/id_rsa -r root@34.122.99.157:/root/blinkist-outputs ./outputs
+scp -i ~/.ssh/id_rsa solve-fails.py root@34.122.99.157:/root/blinkist
+
+// Instance 3
+ssh -i blinkist-crawler.pem ubuntu@54.255.189.212
+scp -i blinkist-crawler.pem -r . ubuntu@54.255.189.212:/home/ubuntu/blinkist
+scp -i blinkist-crawler.pem main-v1.py ubuntu@54.255.189.212:/home/ubuntu/blinkist
+scp -i blinkist-crawler.pem -r ubuntu@54.255.189.212:/home/ubuntu/blinkist-outputs ./outputs
+scp -i blinkist-crawler.pem solve-fails.py ubuntu@54.255.189.212:/home/ubuntu/blinkist
+
+// install google-chrome on ubuntu
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt install -f
+// install python3-pip
+sudo apt install python3-pip
