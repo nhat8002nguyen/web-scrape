@@ -1,0 +1,1 @@
+scp -i blinkist-crawler.pem email_spider.py ubuntu@13.212.235.168:/home/ubuntu/zhenbo
