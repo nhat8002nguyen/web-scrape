@@ -19,6 +19,13 @@ scp -i blinkist-crawler.pem main-v1.py ubuntu@54.255.189.212:/home/ubuntu/blinki
 scp -i blinkist-crawler.pem -r ubuntu@54.255.189.212:/home/ubuntu/blinkist-outputs ./outputs
 scp -i blinkist-crawler.pem solve-fails.py ubuntu@54.255.189.212:/home/ubuntu/blinkist
 
+// Instance 4
+ssh -i blinkist-crawler.pem ubuntu@13.212.235.168
+scp -i blinkist-crawler.pem -r . ubuntu@13.212.235.168:/home/ubuntu/blinkist
+scp -i blinkist-crawler.pem main-v1.py ubuntu@13.212.235.168:/home/ubuntu/blinkist
+scp -i blinkist-crawler.pem -r ubuntu@13.212.235.168:/home/ubuntu/blinkist-outputs ./outputs
+scp -i blinkist-crawler.pem solve-fails.py ubuntu@13.212.235.168:/home/ubuntu/blinkist
+
 // install google-chrome on ubuntu
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb

@@ -49,8 +49,8 @@ categories = [
 ]
 
 BATCH_LENGTH = 100
-START_CATE = 5
-END_CATE = 9 
+START_CATE = 1
+END_CATE = 2 
 START_BOOK_INDEX = 0
 
 
@@ -263,6 +263,7 @@ def main():
             if j % BATCH_LENGTH == 0 and j > 0:
                 # logout and initialize a new web driver, avoid session timeout.
                 logout(driver, wait)
+                driver.close()
                 driver: WebDriver = Driver(
                     uc=True, no_sandbox=True, headless=True)
                 wait = WebDriverWait(driver, 60)
