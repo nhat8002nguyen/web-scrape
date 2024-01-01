@@ -1,6 +1,8 @@
 from typing import Any, Optional
 import scrapy
 import csv
+import os
+from dotenv import load_dotenv
 from json import loads
 import re
 from urllib.parse import urlparse
@@ -24,13 +26,15 @@ class EmailSpider(scrapy.Spider):
         'https': "http://webshareio005844-rotate:webshareio005844@p.webshare.io:80",
     }
 
-    def __init__(self, start_index: int = 0, end_index: int = 0, **kwargs: Any):
+    def __init__(self, file_name: str = "first.csv", start_index: int = 0, end_index: int = 0, **kwargs: Any):
         super().__init__(self.name, **kwargs)
+        load_dotenv()
+        self.csv_file = file_name
         self.proxy_with_auth = "http://webshareio005844-rotate:webshareio005844@p.webshare.io:80"
         self.start_index = start_index
         self.end_index = end_index
         self.phone_pattern = re.compile(r'''
-                (?:\+\d{1,4}[\s.-]?|\(\d{1,4}\)[\s.-]?)  # Either country code or area code wrapped in parentheses with an optional space
+                (?:\+\d{1,3}[\s.-]?|\(\d{1,3}\)[\s.-]?)  # Either country code or area code wrapped in parentheses with an optional space
                 \d{2,4}  # Main part of the phone number
                 [\s.-]?  # Optional space, dot, or dash as separators
                 \d{2,4}  # Second part of the phone number
@@ -39,51 +43,19 @@ class EmailSpider(scrapy.Spider):
             ''', re.VERBOSE)
 
     def start_requests(self):
-        urls = list[str]()
-        session = requests.Session()
-        # session.proxies = self.proxy
+        try:
+            urls = list[str]()
+            with open(f"{os.environ['OUTPUT_PATH']}/{self.csv_file[:self.csv_file.rfind('.')]}_success_urls_{self.start_index}_{self.end_index}.json") as file:
+                data = loads(file.read())
+                urls = list(data["success_urls"].values())
+        except FileNotFoundError:
+            findSuccessfulUrls(self.csv_file, self.start_index, self.end_index)
+            urls = list[str]()
+            with open(f"{os.environ['OUTPUT_PATH']}/{self.csv_file[:self.csv_file.rfind('.')]}_success_urls_{self.start_index}_{self.end_index}.json") as file:
+                data = loads(file.read())
+                urls = list(data["success_urls"].values())
 
-        start_time = perf_counter()
-        with open(self.csv_file, 'r') as file:
-            reader = csv.DictReader(file)
-            rows = list(reader)
-
-            target_rows = rows[self.start_index:self.end_index+1]
-            for i in tqdm(range(self.start_index, self.end_index+1)):
-                row = rows[i]
-                lower_domain = str(row['DOMAIN']).lower()
-                url = 'https://' + lower_domain
-                try:
-                    response = session.get(url, timeout=5)
-                except:
-                    print(
-                        f"INFO: Connection error: https://{lower_domain} not found.")
-                    continue
-
-                if response.status_code != 200:
-                    continue
-
-                print(f"INFO: Connection SUCCESS: {response.url}")
-                urls.append(response.url)
-
-        DataFrame({
-            "success_urls": urls
-        }).to_json(f"{self.csv_file[:self.csv_file.rfind('.')]}_success_urls_{self.start_index}_{self.end_index}.json")
-
-        cover_elapsed_time = (perf_counter() - start_time) / 60
-        print(f"Takes {cover_elapsed_time} minutes to collect success urls!")
-        print(
-            f"There are {len(urls)} with 200 response status in total {len(target_rows)} domain.")
-        break_second = 60
-        print(f"Break {break_second} seconds before moving to next step.")
-        sleep(break_second)
-
-        # step 2 navigate each url and extract info
-        urls = list[str]()
-        with open(f"{self.csv_file[:self.csv_file.rfind('.')]}_success_urls_{self.start_index}_{self.end_index}.json") as file:
-            data = loads(file.read())
-            urls = list(data["success_urls"].values())
-
+        # step 2: navigate each urls and find the contact information.
         for i in tqdm(range(len(urls))):
             url = urls[i]
             yield scrapy.Request(
@@ -107,7 +79,7 @@ class EmailSpider(scrapy.Spider):
 
         email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b'
 
-        emails = re.findall(email_pattern, page_text)
+        emails = list(set(re.findall(email_pattern, page_text)))
         phones = list(set(re.findall(self.phone_pattern, page_text)))
 
         domain = urlparse(response.url).netloc
@@ -142,48 +114,66 @@ class EmailSpider(scrapy.Spider):
     def valid_url(self, url: str) -> bool:
         if len(url) <= 1:
             return False
-        if url[-3:] in ["jpg", "png"]:
+        if url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif')):
             return False
 
         return True
 
+    def closed(self, reason):
+        #TODO: remove all duplicates on the outputs.
+        try:
+            pass
+        except:
+            pass
 
-# def main(input: str):
-#     cp = CrawlerProcess(
-#         settings={
-#             'ROBOTSTXT_OBEY': False,
-#             'DEPTH_LIMIT': 5,
-#             'CONCURRENT_REQUESTS_PER_DOMAIN': 8,
-#             'CONCURRENT_REQUESTS_PER_IP': 8,
-#             'FEED_EXPORT_ENCODING': "utf-8",
-#             # "FEED_EXPORTERS": {
-#             #     'xlsx': 'scrapy_xlsx.XlsxItemExporter',
-#             # },
-#             'FEED_FORMAT': 'json',
-#             'FEED_URI': 'output.json',
-#         }
-#     )
-#     cp.crawl(EmailSpider, input=input)
-#     cp.start()
+def findSuccessfulUrls(csv_file: str, start_index: str, end_index: str):
+    urls = list[str]()
+    session = requests.Session()
+    # session.proxies = proxy
+    start_time = perf_counter()
+    with open(f"{os.environ['INPUT_PATH']}/{csv_file}", 'r') as file:
+        reader = csv.DictReader(file)
+        rows = list(reader)
 
+        target_rows = rows[start_index:end_index+1]
+        for i in tqdm(range(start_index, end_index+1)):
+            row = rows[i]
+            lower_domain = str(row['DOMAIN']).lower()
+            url = 'https://' + lower_domain
+            try:
+                response = session.get(url, timeout=5)
+            except:
+                print(
+                    f"INFO: Connection FAIL: https://{lower_domain} not found.")
+                continue
 
-# if __name__ == "__main__":
-    # parser = argparse.ArgumentParser(
-    #     description='Find emails and phones from domains in csv file')
-    # parser.add_argument('--input', metavar='path', required=True,
-    #                     help='the path to input csv file')
-    # args = parser.parse_args()
-    # main(input=args.input)
+            if response.status_code != 200:
+                continue
 
+            print(f"INFO: Connection SUCCESS: {response.url}")
+            urls.append(response.url)
+
+    DataFrame({
+        "success_urls": urls
+    }).to_json(f"{os.environ['OUTPUT_PATH']}/{csv_file[:csv_file.rfind('.')]}_success_urls_{start_index}_{end_index}.json")
+
+    cover_elapsed_time = (perf_counter() - start_time) / 60
+    print(f"Takes {cover_elapsed_time} minutes to collect success urls!")
+    print(
+        f"There are {len(urls)} with 200 response status in total {len(target_rows)} domain.")
+    break_second = 60
+    print(f"Break {break_second} seconds before moving to next step.")
+    sleep(break_second)
 
 def run_spider(args):
     spider_name = args[0]
-    start_index = args[1]
-    end_index = args[2]
+    file_name = args[1]
+    start_index = args[2]
+    end_index = args[3]
     process = CrawlerProcess(
         settings={
             'ROBOTSTXT_OBEY': False,
-            'DEPTH_LIMIT': 5,
+            'DEPTH_LIMIT': 3,
             'CONCURRENT_REQUESTS_PER_DOMAIN': 16,
             'CONCURRENT_REQUESTS_PER_IP': 16,
             'FEED_EXPORT_ENCODING': "utf-8",
@@ -197,21 +187,21 @@ def run_spider(args):
     spider_classes = {
         "email_spider": EmailSpider,
     }
-    process.crawl(spider_classes[spider_name], start_index, end_index)
+    process.crawl(spider_classes[spider_name], file_name, start_index, end_index)
     process.start()
 
 
 if __name__ == "__main__":
-    # List of Scrapy spider names to run
-    spider_args = [
-        ("email_spider", 0, 9999),
-        ("email_spider", 10000, 19999),
-        ("email_spider", 20000, 29999),
-        ("email_spider", 30000, 39999),
+    parser = argparse.ArgumentParser(
+        description='Find emails and phones from domains in csv file')
+    parser.add_argument('--csv', metavar='path', required=True,
+                        help='the path to input csv file')
+    args = parser.parse_args()
 
-        # ("email_spider", 1, 299999),
-        # ("email_spider", 300000, 499999),
-        # ("email_spider", 500000, 799999)
+    spider_args = [
+        ("email_spider", args.csv, 0, 9999),
+        # ("email_spider", args.csv, 10000, 19999),
+        # ("email_spider", args.csv, 20000, 29999),
     ]
 
     # Create a multiprocessing pool

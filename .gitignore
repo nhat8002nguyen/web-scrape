@@ -1,12 +1,13 @@
+/**/*.pem
+/**/*.json
+/**/*.csv
+/**/*.xlsx
 **/dist/ 
 **/build/  
 chromedriver.exe 
 **/*.spec 
-*.csv 
-*.xlsx
 *.pkl
 **/__pycache__/
-**/*.csv
 **/*.env
 **/.vscode
 **/inputs/
