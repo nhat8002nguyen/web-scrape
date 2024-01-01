@@ -1,1 +1,4 @@
-scp -i blinkist-crawler.pem email_spider.py ubuntu@13.212.235.168:/home/ubuntu/zhenbo
+ssh -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem ubuntu@13.229.197.16
+ssh -i ~/.ssh/id_rsa root@34.122.99.157
+scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem .env ubuntu@13.229.197.16:/home/ubuntu/zhenbo
+scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem email_spider.py temp_remove_dup.py ubuntu@13.229.197.16:/home/ubuntu/zhenbo

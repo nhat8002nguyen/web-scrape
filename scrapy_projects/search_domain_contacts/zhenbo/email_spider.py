@@ -15,6 +15,7 @@ import argparse
 from tqdm import tqdm
 import multiprocessing
 from scrapy.utils.project import get_project_settings
+from temp_remove_dup import remove_duplicates_json
 
 
 class EmailSpider(scrapy.Spider):
@@ -28,7 +29,6 @@ class EmailSpider(scrapy.Spider):
 
     def __init__(self, file_name: str = "first.csv", start_index: int = 0, end_index: int = 0, **kwargs: Any):
         super().__init__(self.name, **kwargs)
-        load_dotenv()
         self.csv_file = file_name
         self.proxy_with_auth = "http://webshareio005844-rotate:webshareio005844@p.webshare.io:80"
         self.start_index = start_index
@@ -114,17 +114,27 @@ class EmailSpider(scrapy.Spider):
     def valid_url(self, url: str) -> bool:
         if len(url) <= 1:
             return False
-        if url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif')):
+        media_formats = (
+            ".mp3", ".wav", ".ogg", ".aac", ".flac",
+            ".mp4", ".webm", ".avi", ".mkv", ".mov",
+            ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".tif",
+            ".pdf", ".doc", ".docx", ".ppt", ".pptx", ".xls", ".xlsx",
+            ".zip", ".tar", ".gz", ".rar",
+            ".obj", ".stl", ".fbx",
+            ".ttf", ".otf",
+            ".svg", ".ai",
+            ".exe", ".dll",
+            ".sqlite", ".db"
+        )
+        if url.lower().endswith(media_formats):
             return False
 
         return True
 
     def closed(self, reason):
-        #TODO: remove all duplicates on the outputs.
-        try:
-            pass
-        except:
-            pass
+        remove_duplicates_json(
+            path=f'{os.environ["OUTPUT_PATH"]}/output_{self.start_index}_{self.end_index}.json')
+
 
 def findSuccessfulUrls(csv_file: str, start_index: str, end_index: str):
     urls = list[str]()
@@ -165,6 +175,7 @@ def findSuccessfulUrls(csv_file: str, start_index: str, end_index: str):
     print(f"Break {break_second} seconds before moving to next step.")
     sleep(break_second)
 
+
 def run_spider(args):
     spider_name = args[0]
     file_name = args[1]
@@ -181,17 +192,19 @@ def run_spider(args):
             #     'xlsx': 'scrapy_xlsx.XlsxItemExporter',
             # },
             'FEED_FORMAT': 'json',
-            'FEED_URI': f'output_{start_index}_{end_index}.json',
+            'FEED_URI': f'{os.environ["OUTPUT_PATH"]}/output_{start_index}_{end_index}.json',
         }
     )
     spider_classes = {
         "email_spider": EmailSpider,
     }
-    process.crawl(spider_classes[spider_name], file_name, start_index, end_index)
+    process.crawl(spider_classes[spider_name],
+                  file_name, start_index, end_index)
     process.start()
 
 
 if __name__ == "__main__":
+    load_dotenv()
     parser = argparse.ArgumentParser(
         description='Find emails and phones from domains in csv file')
     parser.add_argument('--csv', metavar='path', required=True,

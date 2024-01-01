@@ -81,9 +81,7 @@ def main():
             if j % BATCH_LENGTH == 0 and j > 0:
                 # logout and initialize a new web driver, avoid session timeout.
                 logout(driver, wait)
-                driver: WebDriver = Driver(
-                    uc=True, no_sandbox=True, headless=True)
-                wait = WebDriverWait(driver, 60)
+                driver.refresh()
                 login(driver=driver, wait=wait)
 
             try:
@@ -152,7 +150,7 @@ def main():
             exportFrame.section19s.append(
                 key_ideas[19] if 19 < len(key_ideas) else "")
 
-            sleep(3)
+            sleep(5)
 
             if (j+1) % BATCH_LENGTH == 0 or j == (START_BOOK_INDEX + num_book_urls) - 1:
                 fail_df = pd.DataFrame({

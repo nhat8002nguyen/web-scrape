@@ -19,9 +19,9 @@ import dotenv
 from tqdm import tqdm
 
 
-BATCH_LENGTH = 3
-START_CATE = 0
-END_CATE = 0
+BATCH_LENGTH = 1
+START_CATE = 16
+END_CATE = 26
 START_BOOK_INDEX = 0
 
 categories = [
@@ -60,7 +60,7 @@ def main():
     dotenv.load_dotenv()
 
     driver: WebDriver = Driver(uc=True, no_sandbox=True, headless=True)
-    wait = WebDriverWait(driver, 60)
+    wait = WebDriverWait(driver, 30)
 
     login(driver=driver, wait=wait)
 
@@ -87,11 +87,11 @@ def main():
         for j in tqdm(range(START_BOOK_INDEX, START_BOOK_INDEX + num_book_urls)):
             if j % BATCH_LENGTH == 0 and j > 0:
                 # logout and initialize a new web driver, avoid session timeout.
-                driver.close()
-                driver: WebDriver = Driver(
-                    uc=True, no_sandbox=True, headless=True)
-                wait = WebDriverWait(driver, 60)
-                login(driver=driver, wait=wait)
+                print("Logouting and closing...")
+                logout(driver, wait)
+                driver.refresh()
+                print("Logining...")
+                login(driver=driver, wait=wait, isStart=False)
 
             try:
                 bookData = scrapeDataFromBookUrl(driver, wait, book_urls[j])
@@ -159,7 +159,7 @@ def main():
             exportFrame.section19s.append(
                 key_ideas[19] if 19 < len(key_ideas) else "")
 
-            sleep(3)
+            sleep(5)
 
             if (j+1) % BATCH_LENGTH == 0 or j == (START_BOOK_INDEX + num_book_urls) - 1:
                 fail_df = pd.DataFrame({
@@ -198,7 +198,7 @@ def main():
             f"Successfully scraped {num_book_urls} books in the category number {i+1}!")
         print(f"Elapsed time: {perf_counter()-start_time}")
 
-        cate_delay = 900
+        cate_delay = 300
         print(f"Delay {cate_delay} seconds after moving to next category")
         print("------------------------------------------------------------------------")
         sleep(cate_delay)
@@ -224,13 +224,13 @@ def login(driver: WebDriver, wait: WebDriverWait, isStart=True):
             By.XPATH,
             '//input[@name="login[email]"]'
         )))
-        email_input.send_keys(os.environ["BLINKIST_EMAIL_0"])
+        email_input.send_keys(os.environ["BLINKIST_EMAIL_1"])
 
         pass_input = wait.until(EC.presence_of_element_located((
             By.XPATH,
             '//input[@name="login[password]"]'
         )))
-        pass_input.send_keys(os.environ["BLINKIST_PASS_0"])
+        pass_input.send_keys(os.environ["BLINKIST_PASS_1"])
 
         submit_input = wait.until(EC.presence_of_element_located((
             By.XPATH,
