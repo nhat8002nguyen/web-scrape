@@ -7,13 +7,21 @@ scp -i ~/.ssh/id_rsa solve-fails.py root@34.122.99.157:/root/blinkist
 scp -i ~/.ssh/id_rsa models.py root@34.122.99.157:/root/blinkist
 
 // Instance 2
-ssh -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem ubuntu@13.229.197.16
-scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem -r . ubuntu@13.229.197.16:/home/ubuntu/blinkist
-scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem main-v1.py ubuntu@13.229.197.16:/home/ubuntu/blinkist
-scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem -r ubuntu@13.229.197.16:/home/ubuntu/blinkist-outputs ./outputs
-scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem solve-fails.py ubuntu@13.229.197.16:/home/ubuntu/blinkist
-scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem models.py ubuntu@13.229.197.16:/home/ubuntu/blinkist
+ssh -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem ubuntu@47.128.228.1
+scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem -r . ubuntu@47.128.228.1:/home/ubuntu/blinkist
+scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem main-v1.py ubuntu@47.128.228.1:/home/ubuntu/blinkist
+scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem -r ubuntu@47.128.228.1:/home/ubuntu/blinkist-outputs ./outputs
+scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem solve-fails.py ubuntu@47.128.228.1:/home/ubuntu/blinkist
+scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem models.py ubuntu@47.128.228.1:/home/ubuntu/blinkist
 
+// Instance 3
+ssh -i ~/.ssh/id_rsa root@34.132.20.115
+scp -i ~/.ssh/id_rsa -r . root@34.132.20.115:/root/blinkist
+scp -i ~/.ssh/id_rsa main-v1.py root@34.132.20.115:/root/blinkist
+scp -i ~/.ssh/id_rsa -r root@34.132.20.115:/root/blinkist-outputs ./outputs
+scp -i ~/.ssh/id_rsa solve-fails.py root@34.132.20.115:/root/blinkist
+scp -i ~/.ssh/id_rsa models.py root@34.132.20.115:/root/blinkist
+scp -i ~/.ssh/id_rsa main-v1.py requirements.txt .env solve-fails.py models.py root@34.132.20.115:/root/blinkist
 
 // install google-chrome on ubuntu
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb

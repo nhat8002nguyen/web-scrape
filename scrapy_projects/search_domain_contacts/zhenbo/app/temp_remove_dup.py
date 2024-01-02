@@ -25,5 +25,12 @@ def remove_duplicates_json(path: str):
 
         # Print the cleaned data for review
         print(json.dumps(cleaned_data, indent=4))
+    except FileNotFoundError:
+        print(f"File not found: {path}")
     except:
         print("Could not remove duplicates!")
+
+if __name__ == "__main__":
+    absolute_path = "/Users/nhatnguyen/Workspaces/web-scrape/scrapy_projects/search_domain_contacts/zhenbo"
+    remove_duplicates_json(f"{absolute_path}/instances-outputs/output_0_9999.json")
+    remove_duplicates_json(f"{absolute_path}/instances-outputs/output_10000_19999.json")

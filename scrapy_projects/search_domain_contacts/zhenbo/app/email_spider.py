@@ -1,5 +1,6 @@
 from typing import Any, Optional
 import scrapy
+from datetime import datetime
 import csv
 import os
 from dotenv import load_dotenv
@@ -34,7 +35,7 @@ class EmailSpider(scrapy.Spider):
         self.start_index = start_index
         self.end_index = end_index
         self.phone_pattern = re.compile(r'''
-                (?:\+\d{1,3}[\s.-]?|\(\d{1,3}\)[\s.-]?)  # Either country code or area code wrapped in parentheses with an optional space
+                (?:(?:\+\d{1,3}[\s.-]?)|\(\d{1,3}\)[\s.-]?)  # Either country code or area code wrapped in parentheses with an optional space
                 \d{2,4}  # Main part of the phone number
                 [\s.-]?  # Optional space, dot, or dash as separators
                 \d{2,4}  # Second part of the phone number
@@ -81,6 +82,7 @@ class EmailSpider(scrapy.Spider):
 
         emails = list(set(re.findall(email_pattern, page_text)))
         phones = list(set(re.findall(self.phone_pattern, page_text)))
+        phones = filter(is_invalid_date, phones)
 
         domain = urlparse(response.url).netloc
         if "www." in domain:
@@ -131,10 +133,6 @@ class EmailSpider(scrapy.Spider):
 
         return True
 
-    def closed(self, reason):
-        remove_duplicates_json(
-            path=f'{os.environ["OUTPUT_PATH"]}/output_{self.start_index}_{self.end_index}.json')
-
 
 def findSuccessfulUrls(csv_file: str, start_index: str, end_index: str):
     urls = list[str]()
@@ -175,6 +173,12 @@ def findSuccessfulUrls(csv_file: str, start_index: str, end_index: str):
     print(f"Break {break_second} seconds before moving to next step.")
     sleep(break_second)
 
+def is_invalid_date(date_str, date_format='+%Y-%m-%d'):
+    try:
+        datetime.strptime(date_str, date_format)
+        return False
+    except ValueError:
+        return True
 
 def run_spider(args):
     spider_name = args[0]
@@ -184,9 +188,9 @@ def run_spider(args):
     process = CrawlerProcess(
         settings={
             'ROBOTSTXT_OBEY': False,
-            'DEPTH_LIMIT': 3,
-            'CONCURRENT_REQUESTS_PER_DOMAIN': 16,
-            'CONCURRENT_REQUESTS_PER_IP': 16,
+            'DEPTH_LIMIT': 2,
+            'CONCURRENT_REQUESTS_PER_DOMAIN': 32,
+            'CONCURRENT_REQUESTS_PER_IP': 32,
             'FEED_EXPORT_ENCODING': "utf-8",
             # "FEED_EXPORTERS": {
             #     'xlsx': 'scrapy_xlsx.XlsxItemExporter',
@@ -212,12 +216,22 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     spider_args = [
-        ("email_spider", args.csv, 0, 9999),
-        # ("email_spider", args.csv, 10000, 19999),
-        # ("email_spider", args.csv, 20000, 29999),
+        # debug closed function
+        ("email_spider", args.csv, 0, 99),
+        # ("email_spider", args.csv, 100, 199),
+        # ("email_spider", args.csv, 200, 299),
+        # ("email_spider", args.csv, 300, 399),
+
+        # large scale running
+        # ("email_spider", args.csv, 100000, 199999),
+        # ("email_spider", args.csv, 200000, 299999),
+        # ("email_spider", args.csv, 300000, 399999),
+        # ("email_spider", args.csv, 400000, 499999),
     ]
 
     # Create a multiprocessing pool
-    with multiprocessing.Pool() as pool:
+    num_workers = multiprocessing.cpu_count()
+    print(f"There are {num_workers} CPUs")
+    with multiprocessing.Pool(processes=num_workers) as pool:
         # Run each spider in a separate process
         pool.map(run_spider, spider_args)
