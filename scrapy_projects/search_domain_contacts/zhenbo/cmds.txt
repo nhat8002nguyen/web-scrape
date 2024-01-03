@@ -1,5 +1,4 @@
-ssh -i ~/.ssh/id_rsa root@34.122.99.157
-
+// instace 1
 ssh -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem ubuntu@175.41.167.132
 scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem .env ubuntu@175.41.167.132:/home/ubuntu/zhenbo
 scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem -r app ubuntu@175.41.167.132:/home/ubuntu/zhenbo

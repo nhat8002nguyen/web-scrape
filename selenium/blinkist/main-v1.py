@@ -166,7 +166,7 @@ def main():
                     "urls": fail_urls
                 })
                 fail_df.to_json(
-                    f"{os.environ['ABSOLUTE_PATH']}/fail-url-categ-{i+1}-{batch_start_index}-{j}.json", index=False)
+                    f"{os.environ['ABSOLUTE_PATH']}/fail-url-categ-{i+1}-{batch_start_index}-{j}.json")
                 fail_urls = []
 
                 try:
@@ -198,7 +198,7 @@ def main():
             f"Successfully scraped {num_book_urls} books in the category number {i+1}!")
         print(f"Elapsed time: {perf_counter()-start_time}")
 
-        cate_delay = 300
+        cate_delay = 60
         print(f"Delay {cate_delay} seconds after moving to next category")
         print("------------------------------------------------------------------------")
         sleep(cate_delay)

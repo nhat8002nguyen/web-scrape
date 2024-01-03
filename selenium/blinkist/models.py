@@ -119,7 +119,7 @@ class ExportFrame():
     def exportJson(self, cat_num: int, start_index: int, end_index: int):
         if self.df != None:
             self.df.to_json(
-                f"{os.environ['ABSOLUTE_PATH']}/blinkist-output-categ-{cat_num+1}-{start_index}-{end_index}.json", index=False)
+                f"{os.environ['ABSOLUTE_PATH']}/blinkist-output-categ-{cat_num+1}-{start_index}-{end_index}.json")
 
         self.clear()
 

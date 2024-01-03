@@ -17,6 +17,7 @@ from tqdm import tqdm
 import multiprocessing
 from scrapy.utils.project import get_project_settings
 from temp_remove_dup import remove_duplicates_json
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 class EmailSpider(scrapy.Spider):
@@ -50,11 +51,17 @@ class EmailSpider(scrapy.Spider):
                 data = loads(file.read())
                 urls = list(data["success_urls"].values())
         except FileNotFoundError:
-            findSuccessfulUrls(self.csv_file, self.start_index, self.end_index)
+            findSuccessfulUrls_v1(
+                self.csv_file, self.start_index, self.end_index)
+            sleep(3)
             urls = list[str]()
             with open(f"{os.environ['OUTPUT_PATH']}/{self.csv_file[:self.csv_file.rfind('.')]}_success_urls_{self.start_index}_{self.end_index}.json") as file:
                 data = loads(file.read())
                 urls = list(data["success_urls"].values())
+
+        break_second = 60
+        print(f"Break {break_second} seconds before moving to next step.")
+        sleep(break_second)
 
         # step 2: navigate each urls and find the contact information.
         for i in tqdm(range(len(urls))):
@@ -134,6 +141,39 @@ class EmailSpider(scrapy.Spider):
         return True
 
 
+def findSuccessfulUrls_v1(csv_file: str, start_index: str, end_index: str):
+    urls = list[str]()
+    start_time = perf_counter()
+    with open(f"{os.environ['INPUT_PATH']}/{csv_file}", 'r') as file:
+        reader = csv.DictReader(file)
+        rows = list(reader)
+
+        length = end_index-start_index+1
+        urls = list[str]()
+        with ThreadPoolExecutor(max_workers=8) as executor:
+            futures = [executor.submit(
+                makeRequests, rows, start_index + i *
+                length//8, start_index + (i+1)*length//8-1
+            ) for i in range(8)]
+
+            for future in as_completed(futures):
+                try:
+                    result = future.result()
+                    urls.extend(result)
+                except Exception as e:
+                    # Handle exceptions raised in makeRequests function
+                    print(f"An error occurred: {e}")
+
+    DataFrame({
+        "success_urls": urls
+    }).to_json(f"{os.environ['OUTPUT_PATH']}/{csv_file[:csv_file.rfind('.')]}_success_urls_{start_index}_{end_index}.json")
+
+    cover_elapsed_time = (perf_counter() - start_time)
+    print(f"Takes {cover_elapsed_time} seconds to collect success urls!")
+    print(
+        f"There are {len(urls)} with 200 response status in total {end_index-start_index+1} domain.")
+
+
 def findSuccessfulUrls(csv_file: str, start_index: str, end_index: str):
     urls = list[str]()
     session = requests.Session()
@@ -143,7 +183,6 @@ def findSuccessfulUrls(csv_file: str, start_index: str, end_index: str):
         reader = csv.DictReader(file)
         rows = list(reader)
 
-        target_rows = rows[start_index:end_index+1]
         for i in tqdm(range(start_index, end_index+1)):
             row = rows[i]
             lower_domain = str(row['DOMAIN']).lower()
@@ -165,13 +204,34 @@ def findSuccessfulUrls(csv_file: str, start_index: str, end_index: str):
         "success_urls": urls
     }).to_json(f"{os.environ['OUTPUT_PATH']}/{csv_file[:csv_file.rfind('.')]}_success_urls_{start_index}_{end_index}.json")
 
-    cover_elapsed_time = (perf_counter() - start_time) / 60
-    print(f"Takes {cover_elapsed_time} minutes to collect success urls!")
+    cover_elapsed_time = (perf_counter() - start_time)
+    print(f"Takes {cover_elapsed_time} seconds to collect success urls!")
     print(
-        f"There are {len(urls)} with 200 response status in total {len(target_rows)} domain.")
-    break_second = 60
-    print(f"Break {break_second} seconds before moving to next step.")
-    sleep(break_second)
+        f"There are {len(urls)} with 200 response status in total {end_index-start_index+1} domain.")
+
+
+def makeRequests(rows: list[str], start_index: str, end_index: str) -> list[str]:
+    urls = list[str]()
+    session = requests.Session()
+    # session.proxies = proxy
+    for i in tqdm(range(start_index, end_index+1)):
+        row = rows[i]
+        lower_domain = str(row['DOMAIN']).lower()
+        url = 'https://' + lower_domain
+        try:
+            response = session.get(url, timeout=5)
+        except:
+            print(
+                f"INFO: Connection FAIL: https://{lower_domain} not found.")
+            continue
+
+        if response.status_code != 200:
+            continue
+
+        print(f"INFO: Connection SUCCESS: {response.url}")
+        urls.append(response.url)
+    return urls
+
 
 def is_invalid_date(date_str, date_format='+%Y-%m-%d'):
     try:
@@ -180,6 +240,7 @@ def is_invalid_date(date_str, date_format='+%Y-%m-%d'):
     except ValueError:
         return True
 
+
 def run_spider(args):
     spider_name = args[0]
     file_name = args[1]
@@ -187,16 +248,19 @@ def run_spider(args):
     end_index = args[3]
     process = CrawlerProcess(
         settings={
+            'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
             'ROBOTSTXT_OBEY': False,
             'DEPTH_LIMIT': 2,
             'CONCURRENT_REQUESTS_PER_DOMAIN': 32,
             'CONCURRENT_REQUESTS_PER_IP': 32,
             'FEED_EXPORT_ENCODING': "utf-8",
-            # "FEED_EXPORTERS": {
-            #     'xlsx': 'scrapy_xlsx.XlsxItemExporter',
-            # },
             'FEED_FORMAT': 'json',
-            'FEED_URI': f'{os.environ["OUTPUT_PATH"]}/output_{start_index}_{end_index}.json',
+            'FEEDS':  {
+                f'{os.environ["OUTPUT_PATH"]}/output_{start_index}_{end_index}.json': {
+                    'format': 'jsonlines',
+                    'overwrite': True,  # Optional: Set to True if you want to overwrite the file
+                },
+            }
         }
     )
     spider_classes = {
@@ -217,10 +281,10 @@ if __name__ == "__main__":
 
     spider_args = [
         # debug closed function
-        ("email_spider", args.csv, 0, 99),
-        # ("email_spider", args.csv, 100, 199),
-        # ("email_spider", args.csv, 200, 299),
-        # ("email_spider", args.csv, 300, 399),
+        ("email_spider", args.csv, 0, 79),
+        ("email_spider", args.csv, 80, 159),
+        ("email_spider", args.csv, 160, 239),
+        ("email_spider", args.csv, 240, 319),
 
         # large scale running
         # ("email_spider", args.csv, 100000, 199999),
@@ -231,7 +295,7 @@ if __name__ == "__main__":
 
     # Create a multiprocessing pool
     num_workers = multiprocessing.cpu_count()
-    print(f"There are {num_workers} CPUs")
+    print(f"INFO: There are {num_workers} CPUs")
     with multiprocessing.Pool(processes=num_workers) as pool:
         # Run each spider in a separate process
         pool.map(run_spider, spider_args)
