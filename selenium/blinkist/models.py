@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import random
 
 class Book:
     def __init__(
@@ -71,7 +72,7 @@ class ExportFrame():
         self.section18s = []
         self.section19s = []
 
-    def exportXLSX(self, cat_num: int, start_index: int, end_index: int):
+    def exportXLSX(self, cat_num: int, start_index: int, end_index: int, is_random_postfix = False):
         self.df = pd.DataFrame({
             "Author": self.author_list,
             "Book Name": self.book_name_list,
@@ -110,9 +111,9 @@ class ExportFrame():
             "Section 19": self.section18s,
             "Section 20": self.section19s,
         })
-
-        self.df.to_excel(
-            f"{os.environ['ABSOLUTE_PATH']}/blinkist-output-categ-{cat_num+1}-{start_index}-{end_index}.xlsx", index=False)
+        random_postfix = "-" + str(random.randint(0, 100)) if is_random_postfix else ""
+        file_path = f"{os.environ['ABSOLUTE_PATH']}/blinkist-output-categ-{cat_num+1}-{start_index}-{end_index}{random_postfix}.xlsx"
+        self.df.to_excel(file_path, index=False)
 
         self.clear()
 

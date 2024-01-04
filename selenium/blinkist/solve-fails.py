@@ -20,7 +20,7 @@ from tqdm import tqdm
 from json import loads
 
 
-LIST_FILE_NAMES = ["fail-url-categ-21-0-99", "fail-url-categ-21-100-199"]
+LIST_FILE_NAMES = ["fail-url-categ-13-150-299"]
 BATCH_LENGTH = 100
 START_BOOK_INDEX = 0
 
@@ -78,7 +78,7 @@ def main():
         batch_start_index = START_BOOK_INDEX
         num_book_urls = len(book_urls[START_BOOK_INDEX:])
         for j in tqdm(range(START_BOOK_INDEX, START_BOOK_INDEX + num_book_urls)):
-            if j % BATCH_LENGTH == 0 and j > 0:
+            if j % BATCH_LENGTH == 0 and j > 0 and START_BOOK_INDEX == 0:
                 # logout and initialize a new web driver, avoid session timeout.
                 logout(driver, wait)
                 driver.refresh()
@@ -159,33 +159,33 @@ def main():
                 fail_df.to_json(
                     f"{os.environ['ABSOLUTE_PATH']}/fail-url-file-num-{i}-{batch_start_index}-{j}.json", index=False)
                 fail_urls = []
-
+                cat_index = int(LIST_FILE_NAMES[i][15:15+LIST_FILE_NAMES[i][15:].index("-")])-1
                 try:
-                    exportFrame.exportXLSX(i, batch_start_index, j)
+                    exportFrame.exportXLSX(cat_index, batch_start_index, j, True)
                     print(
                         f"Successfully saved xlsx data from {batch_start_index} to {j}!")
                     print(
                         "------------------------------------------------------------------------")
                 except:
-                    exportFrame.exportJson(i, batch_start_index, j)
+                    exportFrame.exportJson(cat_index, batch_start_index, j)
 
                 batch_start_index = j+1
 
         if len(exportFrame.author_list) > 0:
             try:
                 exportFrame.exportXLSX(
-                    i, batch_start_index, (START_BOOK_INDEX + num_book_urls) - 1)
+                    cat_index, batch_start_index, (START_BOOK_INDEX + num_book_urls) - 1, True)
                 print(
                     f"Successfully saved xlsx data from {batch_start_index} to {j}!")
             except:
                 exportFrame.exportJson(
-                    i, batch_start_index, (START_BOOK_INDEX + num_book_urls) - 1)
+                    cat_index, batch_start_index, (START_BOOK_INDEX + num_book_urls) - 1)
 
         print(
             f"Successfully scraped {num_book_urls} books in the fail file number {i}!")
         print(f"Elapsed time: {perf_counter()-start_time}")
 
-        cate_delay = 60
+        cate_delay = 5
         print(f"Delay {cate_delay} seconds after moving to next category")
         print("------------------------------------------------------------------------")
         sleep(cate_delay)

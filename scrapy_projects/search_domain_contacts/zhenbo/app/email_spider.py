@@ -2,6 +2,7 @@ from typing import Any, Optional
 import scrapy
 from datetime import datetime
 import csv
+import json
 import os
 from dotenv import load_dotenv
 from json import loads
@@ -16,7 +17,6 @@ import argparse
 from tqdm import tqdm
 import multiprocessing
 from scrapy.utils.project import get_project_settings
-from temp_remove_dup import remove_duplicates_json
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
@@ -59,7 +59,7 @@ class EmailSpider(scrapy.Spider):
                 data = loads(file.read())
                 urls = list(data["success_urls"].values())
 
-        break_second = 60
+        break_second = 10
         print(f"Break {break_second} seconds before moving to next step.")
         sleep(break_second)
 
@@ -89,7 +89,9 @@ class EmailSpider(scrapy.Spider):
 
         emails = list(set(re.findall(email_pattern, page_text)))
         phones = list(set(re.findall(self.phone_pattern, page_text)))
-        phones = filter(is_invalid_date, phones)
+        phones = list(filter(is_invalid_date, phones))
+        phones = list(filter(lambda x: False if str(
+            x).startswith("+0") else True, phones))
 
         domain = urlparse(response.url).netloc
         if "www." in domain:
@@ -150,11 +152,13 @@ def findSuccessfulUrls_v1(csv_file: str, start_index: str, end_index: str):
 
         length = end_index-start_index+1
         urls = list[str]()
-        with ThreadPoolExecutor(max_workers=8) as executor:
+        num_workers = os.cpu_count()
+        with ThreadPoolExecutor(max_workers=num_workers) as executor:
             futures = [executor.submit(
                 makeRequests, rows, start_index + i *
-                length//8, start_index + (i+1)*length//8-1
-            ) for i in range(8)]
+                (length//num_workers), start_index +
+                (i+1)*(length//num_workers)-1
+            ) for i in range(num_workers)]
 
             for future in as_completed(futures):
                 try:
@@ -250,14 +254,14 @@ def run_spider(args):
         settings={
             'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
             'ROBOTSTXT_OBEY': False,
-            'DEPTH_LIMIT': 2,
+            'DEPTH_LIMIT': 1,
             'CONCURRENT_REQUESTS_PER_DOMAIN': 32,
             'CONCURRENT_REQUESTS_PER_IP': 32,
             'FEED_EXPORT_ENCODING': "utf-8",
             'FEED_FORMAT': 'json',
             'FEEDS':  {
                 f'{os.environ["OUTPUT_PATH"]}/output_{start_index}_{end_index}.json': {
-                    'format': 'jsonlines',
+                    'format': 'json',
                     'overwrite': True,  # Optional: Set to True if you want to overwrite the file
                 },
             }
@@ -271,6 +275,88 @@ def run_spider(args):
     process.start()
 
 
+def remove_duplicates_of_files():
+    folder_path = os.environ["OUTPUT_PATH"]
+    output_file_pattern = re.compile(r"output_\d+_\d+\.json")
+
+    # Ensure the path is valid
+    if os.path.exists(folder_path) and os.path.isdir(folder_path):
+        # Iterate over all files in the folder
+        for filename in os.listdir(folder_path):
+            file_path = os.path.join(folder_path, filename)
+
+            # Check if it's a file (not a directory)
+            if os.path.isfile(file_path) and output_file_pattern.match(filename):
+                remove_duplicates_json(file_path)
+
+    # If the path is not valid, print an error message
+    else:
+        print("Invalid folder path.")
+
+
+def remove_duplicates_json(path: str):
+    try:
+        # Assuming the JSON data is in a file called 'data.json'
+        with open(path, 'r') as file:
+            data = json.load(file)
+
+        # Use a set to track unique entries
+        unique_entries = set()
+        cleaned_data = []
+
+        for entry in data:
+            # Create a tuple of the dictionary values to track uniqueness
+            identifier = tuple(entry.values())
+
+            if identifier not in unique_entries:
+                cleaned_data.append(entry)
+                unique_entries.add(identifier)
+
+        # Now `cleaned_data` contains unique entries
+        # Write the cleaned data back to a file or use it as needed
+        with open(f'{path[:path.rfind(".")]}_cleaned.json', 'w') as file:
+            json.dump(cleaned_data, file, indent=4)
+
+        # Print the cleaned data for review
+        print(json.dumps(cleaned_data, indent=4))
+    except FileNotFoundError:
+        print(f"File not found: {path}")
+    except:
+        print("Could not remove duplicates!")
+
+
+def convert_json_to_xlsx_files():
+    folder_path = os.environ["OUTPUT_PATH"]
+    output_file_pattern = re.compile(r"output_\d+_\d+_cleaned\.json")
+
+    # Ensure the path is valid
+    if os.path.exists(folder_path) and os.path.isdir(folder_path):
+        # Iterate over all files in the folder
+        for filename in os.listdir(folder_path):
+            file_path = os.path.join(folder_path, filename)
+
+            # Check if it's a file (not a directory)
+            if os.path.isfile(file_path) and output_file_pattern.match(filename):
+                data = None
+                with open(file_path, "r") as file:
+                    # Parse JSON
+                    data = json.loads(file.read())
+
+                if data == None:
+                    continue
+
+                # Create a DataFrame from the JSON data
+                df = DataFrame(data)
+
+                # Specify the output XLSX file path
+                output_path = f"{os.environ['XLSX_OUTPUT_PATH']}/{filename[:filename.rfind('.')]}.xlsx"
+
+                # Write the DataFrame to an Excel file
+                df.to_excel(output_path, index=False)
+
+                print(f"Excel file '{output_path}' created successfully.")
+
+
 if __name__ == "__main__":
     load_dotenv()
     parser = argparse.ArgumentParser(
@@ -280,17 +366,17 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     spider_args = [
-        # debug closed function
-        ("email_spider", args.csv, 0, 79),
-        ("email_spider", args.csv, 80, 159),
-        ("email_spider", args.csv, 160, 239),
-        ("email_spider", args.csv, 240, 319),
+        # testing
+        ("email_spider", args.csv, 0, 99),
+        ("email_spider", args.csv, 100, 199),
+        ("email_spider", args.csv, 200, 299),
+        ("email_spider", args.csv, 300, 399),
 
         # large scale running
-        # ("email_spider", args.csv, 100000, 199999),
-        # ("email_spider", args.csv, 200000, 299999),
-        # ("email_spider", args.csv, 300000, 399999),
-        # ("email_spider", args.csv, 400000, 499999),
+        # ("email_spider", args.csv, 420000, 439999),
+        # ("email_spider", args.csv, 440000, 459999),
+        # ("email_spider", args.csv, 460000, 479999),
+        # ("email_spider", args.csv, 480000, 499999),
     ]
 
     # Create a multiprocessing pool
@@ -299,3 +385,13 @@ if __name__ == "__main__":
     with multiprocessing.Pool(processes=num_workers) as pool:
         # Run each spider in a separate process
         pool.map(run_spider, spider_args)
+    sleep(3)
+
+    print("INFO: Removing duplicates entries in output json files...")
+    remove_duplicates_of_files()
+    sleep(2)
+
+    print("INFO: Converting JSON to XLSX...")
+    convert_json_to_xlsx_files()
+
+    print("DONE!")

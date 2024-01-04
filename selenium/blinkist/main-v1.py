@@ -85,13 +85,13 @@ def main():
         batch_start_index = START_BOOK_INDEX
         num_book_urls = len(book_urls[START_BOOK_INDEX:])
         for j in tqdm(range(START_BOOK_INDEX, START_BOOK_INDEX + num_book_urls)):
-            if j % BATCH_LENGTH == 0 and j > 0:
+            if j % BATCH_LENGTH == 0 and j > 0 and START_BOOK_INDEX == 0:
                 # logout and initialize a new web driver, avoid session timeout.
                 print("Logouting and closing...")
                 logout(driver, wait)
                 driver.refresh()
                 print("Logining...")
-                login(driver=driver, wait=wait, isStart=False)
+                login(driver=driver, wait=wait)
 
             try:
                 bookData = scrapeDataFromBookUrl(driver, wait, book_urls[j])
