@@ -11,13 +11,54 @@ from urllib.parse import urlparse
 from scrapy.crawler import CrawlerProcess
 import requests
 from requests.exceptions import ConnectionError, ReadTimeout
-from time import sleep, perf_counter
+from time import sleep, perf_counter, time
 from pandas import DataFrame
 import argparse
 from tqdm import tqdm
 import multiprocessing
 from scrapy.utils.project import get_project_settings
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from scrapy.exceptions import IgnoreRequest
+from scrapy import signals
+from scrapy.downloadermiddlewares.httpcompression import HttpCompressionMiddleware
+
+
+class DomainTimeoutMiddleware(HttpCompressionMiddleware):
+    def __init__(self, stats=None):
+        super().__init__(stats)
+        self.domain_timestamps = {}  # Dictionary to store the last timestamp for each domain
+        self.domain_timeout = 5.0
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        middleware = super(DomainTimeoutMiddleware, cls).from_crawler(crawler)
+        crawler.signals.connect(middleware.spider_closed,
+                                signal=signals.spider_closed)
+        return middleware
+
+    def process_request(self, request, spider):
+        # Check if the domain has exceeded the timeout
+        domain = self._get_domain(request)
+        if domain in self.domain_timestamps:
+            last_timestamp = self.domain_timestamps[domain]
+            elapsed_time = time() - last_timestamp
+            if elapsed_time > self.domain_timeout:
+                print(
+                    f"WARNING: Domain {domain} exceeded timeout. Skipping request.")
+                raise IgnoreRequest  # Skip the request
+
+    def process_response(self, request, response, spider):
+        # Update the timestamp for the current domain
+        domain = self._get_domain(request)
+        self.domain_timestamps[domain] = time()
+        return response
+
+    def spider_closed(self, spider):
+        # Clean up resources when the spider is closed
+        self.domain_timestamps.clear()
+
+    def _get_domain(self, request):
+        return request.url.split('/')[2]  # Extract domain from the URL
 
 
 class EmailSpider(scrapy.Spider):
@@ -178,42 +219,6 @@ def findSuccessfulUrls_v1(csv_file: str, start_index: str, end_index: str):
         f"There are {len(urls)} with 200 response status in total {end_index-start_index+1} domain.")
 
 
-def findSuccessfulUrls(csv_file: str, start_index: str, end_index: str):
-    urls = list[str]()
-    session = requests.Session()
-    # session.proxies = proxy
-    start_time = perf_counter()
-    with open(f"{os.environ['INPUT_PATH']}/{csv_file}", 'r') as file:
-        reader = csv.DictReader(file)
-        rows = list(reader)
-
-        for i in tqdm(range(start_index, end_index+1)):
-            row = rows[i]
-            lower_domain = str(row['DOMAIN']).lower()
-            url = 'https://' + lower_domain
-            try:
-                response = session.get(url, timeout=5)
-            except:
-                print(
-                    f"INFO: Connection FAIL: https://{lower_domain} not found.")
-                continue
-
-            if response.status_code != 200:
-                continue
-
-            print(f"INFO: Connection SUCCESS: {response.url}")
-            urls.append(response.url)
-
-    DataFrame({
-        "success_urls": urls
-    }).to_json(f"{os.environ['OUTPUT_PATH']}/{csv_file[:csv_file.rfind('.')]}_success_urls_{start_index}_{end_index}.json")
-
-    cover_elapsed_time = (perf_counter() - start_time)
-    print(f"Takes {cover_elapsed_time} seconds to collect success urls!")
-    print(
-        f"There are {len(urls)} with 200 response status in total {end_index-start_index+1} domain.")
-
-
 def makeRequests(rows: list[str], start_index: str, end_index: str) -> list[str]:
     urls = list[str]()
     session = requests.Session()
@@ -264,7 +269,11 @@ def run_spider(args):
                     'format': 'json',
                     'overwrite': True,  # Optional: Set to True if you want to overwrite the file
                 },
-            }
+            },
+            'DOWNLOADER_MIDDLEWARES': {
+                # Adjust priority accordingly
+                DomainTimeoutMiddleware: 543,
+            },
         }
     )
     spider_classes = {
@@ -367,16 +376,16 @@ if __name__ == "__main__":
 
     spider_args = [
         # testing
-        ("email_spider", args.csv, 0, 99),
-        ("email_spider", args.csv, 100, 199),
-        ("email_spider", args.csv, 200, 299),
-        ("email_spider", args.csv, 300, 399),
+        # ("email_spider", args.csv, 0, 99),
+        # ("email_spider", args.csv, 100, 199),
+        # ("email_spider", args.csv, 200, 299),
+        # ("email_spider", args.csv, 300, 399),
 
         # large scale running
-        # ("email_spider", args.csv, 420000, 439999),
-        # ("email_spider", args.csv, 440000, 459999),
-        # ("email_spider", args.csv, 460000, 479999),
-        # ("email_spider", args.csv, 480000, 499999),
+        ("email_spider", args.csv, 180000, 199999),
+        ("email_spider", args.csv, 200000, 219999),
+        ("email_spider", args.csv, 220000, 239999),
+        ("email_spider", args.csv, 240000, 259999),
     ]
 
     # Create a multiprocessing pool
