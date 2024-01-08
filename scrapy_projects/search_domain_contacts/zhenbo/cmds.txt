@@ -1,12 +1,13 @@
 // instace 1
-ssh -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem ubuntu@175.41.167.132
-scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem .env ubuntu@175.41.167.132:/home/ubuntu/zhenbo
-scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem -r app ubuntu@175.41.167.132:/home/ubuntu/zhenbo
+ssh -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem ubuntu@52.74.196.228
+scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem .env ubuntu@52.74.196.228:/home/ubuntu/zhenbo
+scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem -r app ubuntu@52.74.196.228:/home/ubuntu/zhenbo
 
 // instace 2
 ssh -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem ubuntu@18.140.235.245
 scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem .env ubuntu@18.140.235.245:/home/ubuntu/zhenbo
 scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem -r app ubuntu@18.140.235.245:/home/ubuntu/zhenbo
+scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem -r ubuntu@18.140.235.245:/home/ubuntu/zhenbo/outputs ./instance-2-outputs
 // Download all necessary files:
 scp -i /Users/nhatnguyen/Workspaces/web-scrape/power-web-crawler-server.pem -r app inputs outputs .env requirements.txt ubuntu@18.140.235.245:/home/ubuntu/zhenbo
 
