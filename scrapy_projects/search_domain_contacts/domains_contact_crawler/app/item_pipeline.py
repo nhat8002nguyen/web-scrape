@@ -1,36 +1,49 @@
 from itemadapter import ItemAdapter
-from openpyxl import Workbook
 import os
 from scrapy.exceptions import DropItem
+from scrapy.exporters import CsvItemExporter
+from dotenv import load_dotenv
+load_dotenv()
+
+ROOT_PATH = os.environ['PROJECT_ROOT']
+OUTPUT_PATH = ROOT_PATH + os.environ['OUTPUT_PATH']
 
 
 class XLSXPipeline:
-    def __init__(self, file_path: str, start_index: int, end_index: int):
-        self.file_path = file_path
+    def __init__(self, start_index: int, end_index: int):
         self.start_index = start_index
         self.end_index = end_index
-        self.count = 0
         self.save_count = 100 if start_index - end_index + 1 > 100 else 10
-        self.output_path = f'{os.environ["OUTPUT_PATH"]}/output_{self.start_index}_{self.end_index}.xlsx'
+        self.email_output_path = f'{OUTPUT_PATH}/email_output_{self.start_index}_{self.end_index}.csv'
+        self.phone_output_path = f'{OUTPUT_PATH}/phone_output_{self.start_index}_{self.end_index}.csv'
         self.ids_seen = set()
-        self.emails_seen = set()
+
+        self.phone_items_count = 0
+        self.email_items_count = 0
+        self.flush_count = 1000
 
     @classmethod
     def from_crawler(cls, crawler):
         return cls(
-            file_path=crawler.settings.get("OUTPUT_FILE_PATH"),
             start_index=crawler.settings.get("START_INDEX"),
             end_index=crawler.settings.get("END_INDEX")
         )
 
     def open_spider(self, spider):
-        self.workbook = Workbook()
-        self.sheet = self.workbook.active
-        self.sheet.append(["domain", "email", "phones"])
+        self.email_file = open(self.email_output_path, 'wb')
+        self.email_exporter = CsvItemExporter(self.email_file)
+        self.email_exporter.start_exporting()
+
+        self.phone_file = open(self.phone_output_path, 'wb')
+        self.phone_exporter = CsvItemExporter(self.phone_file)
+        self.phone_exporter.start_exporting()
 
     def close_spider(self, spider):
-        self.workbook.save(self.output_path)
-        self.workbook.close()
+        self.email_exporter.finish_exporting()
+        self.email_file.close()
+
+        self.phone_exporter.finish_exporting()
+        self.phone_file.close()
 
     def process_item(self, item, spider):
         item_dict = ItemAdapter(item).asdict()
@@ -40,19 +53,26 @@ class XLSXPipeline:
         else:
             self.ids_seen.add(item_dict["id"])
 
-        row = []
-        row.append(item_dict["domain"])
-        if item_dict["email"] in self.emails_seen:
-            row.append("")
-        else:
-            row.append(item_dict["email"])
-            self.emails_seen.add(item_dict["email"])
+        if "email" in item:
+            row = {}
+            row["XID"] = item_dict["XID"]
+            row["domain"] = item_dict["domain"]
+            row["email"] = item_dict["email"]
+            self.email_exporter.export_item(row)
 
-        row.append(item_dict["phones"] if "phones" in item_dict else "")
-        self.sheet.append(row)
+            self.email_items_count += 1
+            if self.email_items_count % self.flush_count == 0:
+                self.email_file.flush()
 
-        self.count += 1
-        if (self.count - self.start_index) % ((self.end_index-self.start_index+1)/self.save_count):
-            self.workbook.save(self.output_path)
+        elif "phone" in item:
+            row = {}
+            row["XID"] = item_dict["XID"]
+            row["domain"] = item_dict["domain"]
+            row["phone"] = item_dict["phone"]
+            self.phone_exporter.export_item(row)
+
+            self.phone_items_count += 1
+            if self.phone_items_count % self.flush_count == 0:
+                self.phone_file.flush()
 
         return item

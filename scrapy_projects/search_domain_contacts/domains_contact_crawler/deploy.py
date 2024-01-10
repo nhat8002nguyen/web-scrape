@@ -26,7 +26,6 @@ for instance in instances:
         connect_kwargs={'key_filename': PRIVATE_KEY_PATH},
     ) as c:
         c.run('sudo apt update -y && sudo apt upgrade -y')
-        c.run("sudo apt install -y neovim")
 
         # install python3.10
         c.run("sudo add-apt-repository ppa:deadsnakes/ppa -y")
@@ -39,15 +38,22 @@ for instance in instances:
         c.run("sudo apt install -y python3.10-lib2to3")
 
         # install google chrome
-        c.run(
-            "wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
+        find_google_deb = c.run(
+            "find -name google-chrome-stable_current_amd64.deb")
+        if len(find_google_deb.stdout) == 0:
+            c.run(
+                "wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
         try:
             c.run("sudo dpkg -i google-chrome-stable_current_amd64.deb")
         except:
             c.run("sudo apt -f install -y")
 
     #   Transfer the Python script
-        c.run("mkdir email_spider && cd email_spider && mkdir domains_inputs outputs app")
+        try:
+            find_email_spider = c.run("find email_spider")
+        except:
+            c.run(
+                "mkdir email_spider && cd email_spider && mkdir domains_inputs outputs app")
 
         c.put(f"{ROOT_PATH}/.env.prod",
               remote=f"{REMOTE_ROOT_PATH}/email_spider/")

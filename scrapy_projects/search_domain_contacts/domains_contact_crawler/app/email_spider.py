@@ -72,11 +72,12 @@ class EmailSpider(scrapy.Spider):
 
         # step 2: navigate each urls and find the contact information.
         for i in tqdm(range(len(urls))):
-            url = urls[i]
+            url = urls[i]["url"]
             yield scrapy.Request(
                 url=url, callback=self.parse,
                 meta={
-                    "proxy": self.proxy_with_auth
+                    "proxy": self.proxy_with_auth,
+                    "XID": urls[i]["XID"]
                 }
             )
 
@@ -109,21 +110,22 @@ class EmailSpider(scrapy.Spider):
             email for email in emails if email.endswith('@' + domain)]
 
         for i, email in enumerate(matching_emails):
-            if i == 0:
-                id = domain + "-" + email + "-" + ", ".join(phones)
-                yield {
-                    'id': id,
-                    'domain': domain,
-                    'email': email,
-                    'phones': ", ".join(phones),
-                }
-            else:
-                id = domain + "-" + email
-                yield {
-                    'id': id,
-                    'domain': domain,
-                    'email': email,
-                }
+            id = domain + "-" + email
+            yield {
+                'id': id,
+                'XID': response.meta["XID"],
+                'domain': domain,
+                'email': email,
+            }
+
+        for i, phone in enumerate(phones):
+            id = domain + "-" + phone
+            yield {
+                'id': id,
+                'XID': response.meta["XID"],
+                'domain': domain,
+                'phone': phone,
+            }
 
         # stop scanning urls
         if depth == 1:
@@ -140,7 +142,8 @@ class EmailSpider(scrapy.Spider):
                 yield scrapy.Request(
                     next_url, callback=callback,
                     meta={
-                        "proxy": self.proxy_with_auth
+                        "proxy": self.proxy_with_auth,
+                        "XID": response.meta["XID"]
                     },
                 )
 
@@ -166,14 +169,13 @@ class EmailSpider(scrapy.Spider):
 
 
 def findSuccessfulUrls_v1(csv_file: str, start_index: str, end_index: str):
-    urls = list[str]()
+    urls = list[dict]()
     start_time = perf_counter()
     with open(f"{INPUT_PATH}/{csv_file}", 'r') as file:
         reader = csv.DictReader(file)
         rows = list(reader)
 
         length = end_index-start_index+1
-        urls = list[str]()
         num_workers = os.cpu_count()
         with ThreadPoolExecutor(max_workers=num_workers) as executor:
             futures = [executor.submit(
@@ -200,12 +202,13 @@ def findSuccessfulUrls_v1(csv_file: str, start_index: str, end_index: str):
         f"There are {len(urls)} with 200 response status in total {end_index-start_index+1} domain.")
 
 
-def makeRequests(rows: list[str], start_index: str, end_index: str) -> list[str]:
-    urls = list[str]()
+def makeRequests(rows: list[str], start_index: str, end_index: str) -> list[dict]:
+    domains = list[dict]()
     with requests.Session() as session:
         # session.proxies = proxy
         for i in tqdm(range(start_index, end_index+1)):
             row = rows[i]
+            xID = str(row['XID']).lower()
             lower_domain = str(row['DOMAIN']).lower()
             url = 'https://' + lower_domain
             try:
@@ -219,9 +222,12 @@ def makeRequests(rows: list[str], start_index: str, end_index: str) -> list[str]
                 continue
 
             print(f"INFO: Connection SUCCESS: {response.url}")
-            urls.append(response.url)
+            domains.append({
+                'XID': xID,
+                'url': response.url,
+            })
 
-    return urls
+    return domains
 
 
 def is_invalid_date(date_str, date_format='+%Y-%m-%d'):
