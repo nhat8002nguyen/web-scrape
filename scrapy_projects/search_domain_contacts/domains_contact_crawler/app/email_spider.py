@@ -265,6 +265,7 @@ def run_spider(args):
             'REACTOR_THREADPOOL_MAXSIZE': 20,
             'RETRY_ENABLED': False,
             'DOWNLOAD_TIMEOUT': 30,
+            'CSV_INPUT_NAME': file_name
         }
     )
     spider_classes = {

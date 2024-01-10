@@ -1,0 +1,92 @@
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import Any, Hashable
+import paramiko
+from scp import SCPClient
+import time
+import os
+from dotenv import load_dotenv
+import pandas as pd
+load_dotenv()
+
+ROOT_PATH = os.environ['PROJECT_ROOT']
+CLOUD_PATH = ROOT_PATH + os.environ['CLOUD_PATH']
+REMOTE_FOLDER_ROOT_PATH = os.environ["REMOTE_ROOT"] + "/email_spider/outputs"
+OUTPUT_PATH = ROOT_PATH + "/remote_data"
+
+
+def main():
+    # Load the Excel file with instance details
+    df = pd.read_csv(f'{CLOUD_PATH}/instances.csv')
+    # Get a list of instances
+    instances = df.to_dict(orient='records')
+
+    with ThreadPoolExecutor(max_workers=os.cpu_count()) as executor:
+        runs = [executor.submit(load_file_from_instance, ins)
+                for ins in instances]
+
+        for run in as_completed(runs):
+            print(run.result())
+
+
+def load_file_from_instance(instance: dict[Hashable, Any]) -> str:
+    # Connection information
+    hostname = instance["ip_address"]
+    username = instance["username"]
+    key_file_path = f"{CLOUD_PATH}/{instance['key_file_name']}"
+    remote_file_path = f"{REMOTE_FOLDER_ROOT_PATH}"
+    local_file_path = f"{OUTPUT_PATH}"
+
+    # Setup SSH client
+    ssh = paramiko.SSHClient()
+    ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+
+    # Loop for connecting, transferring files, and waiting
+    try:
+        count = 0
+        while count < 10:
+            count += 1
+            try:
+                # Connect using the private key (.pem file)
+                key = paramiko.RSAKey.from_private_key_file(key_file_path)
+
+                print("Connecting to the cloud instance...")
+                ssh.connect(hostname=hostname, username=username, pkey=key)
+                print("Connected successfully!")
+
+                # Execute a command (e.g., 'ls') just to test
+                stdin, stdout, stderr = ssh.exec_command('ls')
+                print("Command execution result:", stdout.read().decode())
+
+                with SCPClient(ssh.get_transport()) as scp:
+                    print(
+                        f"Transferring {remote_file_path} to {local_file_path}")
+                    scp.get(remote_file_path, local_file_path, recursive=True)
+                    print("Transfer complete!")
+
+                # Disconnect from the server
+                ssh.close()
+            except paramiko.SSHException as ssh_error:
+                print(f"Connection failed: {ssh_error}")
+                break  # Or remove to attempt reconnection in the next loop
+            except Exception as e:
+                print(f"An error occurred: {e}")
+                break  # Or remove to attempt reconnection in the next loop
+
+            # Wait for 60 seconds before next operation
+            print("Waiting for 30 seconds...")
+            time.sleep(30)
+
+        return f"Disconnect to {username}@{hostname}"
+    except KeyboardInterrupt:
+        print("Process interrupted by user.")
+        return f"Disconnect to {username}@{hostname}"
+    finally:
+        # Ensure the connection is closed if it's still open
+        if ssh.get_transport().is_active():
+            ssh.close()
+
+        return f"Disconnect to {username}@{hostname}"
+
+
+if __name__ == "__main__":
+    main()

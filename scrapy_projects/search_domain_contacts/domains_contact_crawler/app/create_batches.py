@@ -28,8 +28,7 @@ def create_batches():
     with open(f"{INPUT_PATH}/{csv_name}") as csv_file:
         reader = csv.DictReader(csv_file)
         rows = list(reader)
-        # TODO: is debugging
-        batch_size = len(rows[0:4000]) // cpu_count
+        batch_size = len(rows) // cpu_count
 
     for i in range(cpu_count):
         batches['batches'].append({

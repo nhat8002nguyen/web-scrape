@@ -10,12 +10,13 @@ OUTPUT_PATH = ROOT_PATH + os.environ['OUTPUT_PATH']
 
 
 class XLSXPipeline:
-    def __init__(self, start_index: int, end_index: int):
+    def __init__(self, csv_name: str, start_index: int, end_index: int):
+        self.csv_name = csv_name
         self.start_index = start_index
         self.end_index = end_index
         self.save_count = 100 if start_index - end_index + 1 > 100 else 10
-        self.email_output_path = f'{OUTPUT_PATH}/email_output_{self.start_index}_{self.end_index}.csv'
-        self.phone_output_path = f'{OUTPUT_PATH}/phone_output_{self.start_index}_{self.end_index}.csv'
+        self.email_output_path = f'{OUTPUT_PATH}/{self.csv_name[:self.csv_name.rfind(".")]}_email_output_{self.start_index}_{self.end_index}.csv'
+        self.phone_output_path = f'{OUTPUT_PATH}/{self.csv_name[:self.csv_name.rfind(".")]}_phone_output_{self.start_index}_{self.end_index}.csv'
         self.ids_seen = set()
 
         self.phone_items_count = 0
@@ -25,6 +26,7 @@ class XLSXPipeline:
     @classmethod
     def from_crawler(cls, crawler):
         return cls(
+            csv_name=crawler.settings.get("CSV_INPUT_NAME"),
             start_index=crawler.settings.get("START_INDEX"),
             end_index=crawler.settings.get("END_INDEX")
         )
