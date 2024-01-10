@@ -1,2 +1,0 @@
-scp -i clouds/power-web-crawler-server.pem ./app/email_spider.py ubuntu@13.212.251.119:/home/ubuntu/email_spider/app/
-ssh -i clouds/power-web-crawler-server.pem ubuntu@13.212.251.119

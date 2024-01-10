@@ -1,7 +1,9 @@
+from typing import Any, Hashable
 import fabric
 import pandas as pd
 import os
 from dotenv import load_dotenv
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 load_dotenv()
 
@@ -18,7 +20,17 @@ df = pd.read_csv(f'{CLOUD_PATH}/instances.csv')
 instances = df.to_dict(orient='records')
 
 
-for instance in instances:
+def main():
+    with ThreadPoolExecutor() as executor:
+        runs = [executor.submit(setup_and_run, instance)
+                for instance in instances]
+
+        for run in as_completed(runs):
+            result = run.result()
+            print(result)
+
+
+def setup_and_run(instance: list[dict[Hashable, Any]]):
     # Use fabric to SSH into instances and run setup commands
     with fabric.Connection(
         host=instance['ip_address'],
@@ -85,3 +97,13 @@ for instance in instances:
         # Run the Python script
         c.run(
             "cd ~/email_spider/ && screen -d -m -S email_spider python3.10 app/email_spider.py")
+
+        screen_sessions = c.run("screen -ls")
+        if "email_spider" in str(screen_sessions.stdout):
+            return f"INFO: Done with {instance['username']}@{instance['ip_address']}"
+
+        return f"WARNING: Please check the {instance['username']}@{instance['ip_address']}, to make sure it's running!"
+
+
+if __name__ == "__main__":
+    main()
