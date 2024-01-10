@@ -1,3 +1,15 @@
+from item_pipeline import XLSXPipeline
+from domain_timeout_middleware import DomainTimeoutMiddleware
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import multiprocessing
+from tqdm import tqdm
+from pandas import DataFrame
+from time import sleep, perf_counter, time
+import requests
+from scrapy.crawler import CrawlerProcess
+from urllib.parse import urlparse
+import re
+from json import loads
 from typing import Any, Optional
 import scrapy
 from datetime import datetime
@@ -5,18 +17,13 @@ import csv
 import json
 import os
 from dotenv import load_dotenv
-from json import loads
-import re
-from urllib.parse import urlparse
-from scrapy.crawler import CrawlerProcess
-import requests
-from time import sleep, perf_counter, time
-from pandas import DataFrame
-from tqdm import tqdm
-import multiprocessing
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from domain_timeout_middleware import DomainTimeoutMiddleware
-from item_pipeline import XLSXPipeline
+load_dotenv()
+
+ROOT_PATH = os.environ['PROJECT_ROOT']
+INPUT_PATH = ROOT_PATH + os.environ['INPUT_PATH']
+OUTPUT_PATH = ROOT_PATH + os.environ['OUTPUT_PATH']
+BATCH_FILE_PATH = ROOT_PATH + os.environ['BATCH_FILE']
+APP_PATH = ROOT_PATH + "/app"
 
 
 class EmailSpider(scrapy.Spider):
@@ -46,7 +53,7 @@ class EmailSpider(scrapy.Spider):
     def start_requests(self):
         try:
             urls = list[str]()
-            with open(f"{os.environ['OUTPUT_PATH']}/{self.csv_file[:self.csv_file.rfind('.')]}_success_urls_{self.start_index}_{self.end_index}.json") as file:
+            with open(f"{OUTPUT_PATH}/{self.csv_file[:self.csv_file.rfind('.')]}_success_urls_{self.start_index}_{self.end_index}.json") as file:
                 data = loads(file.read())
                 urls = list(data["success_urls"].values())
         except FileNotFoundError:
@@ -54,7 +61,7 @@ class EmailSpider(scrapy.Spider):
                 self.csv_file, self.start_index, self.end_index)
             sleep(3)
             urls = list[str]()
-            with open(f"{os.environ['OUTPUT_PATH']}/{self.csv_file[:self.csv_file.rfind('.')]}_success_urls_{self.start_index}_{self.end_index}.json") as file:
+            with open(f"{OUTPUT_PATH}/{self.csv_file[:self.csv_file.rfind('.')]}_success_urls_{self.start_index}_{self.end_index}.json") as file:
                 data = loads(file.read())
                 urls = list(data["success_urls"].values())
 
@@ -161,7 +168,7 @@ class EmailSpider(scrapy.Spider):
 def findSuccessfulUrls_v1(csv_file: str, start_index: str, end_index: str):
     urls = list[str]()
     start_time = perf_counter()
-    with open(f"{os.environ['INPUT_PATH']}/{csv_file}", 'r') as file:
+    with open(f"{INPUT_PATH}/{csv_file}", 'r') as file:
         reader = csv.DictReader(file)
         rows = list(reader)
 
@@ -185,7 +192,7 @@ def findSuccessfulUrls_v1(csv_file: str, start_index: str, end_index: str):
 
     DataFrame({
         "success_urls": urls
-    }).to_json(f"{os.environ['OUTPUT_PATH']}/{csv_file[:csv_file.rfind('.')]}_success_urls_{start_index}_{end_index}.json")
+    }).to_json(f"{OUTPUT_PATH}/{csv_file[:csv_file.rfind('.')]}_success_urls_{start_index}_{end_index}.json")
 
     cover_elapsed_time = (perf_counter() - start_time)
     print(f"Takes {cover_elapsed_time} seconds to collect success urls!")
@@ -248,12 +255,10 @@ def run_spider(args):
             },
             'START_INDEX': start_index,
             'END_INDEX': end_index,
-            'LOG_LEVEL': 'INFO' if os.environ["ENV"] == "prd" else "DEBUG",
-            'COOKIES_ENABLED': False,
+            'LOG_LEVEL': 'INFO' if os.environ["ENV"] == "prod" else "DEBUG",
             'REACTOR_THREADPOOL_MAXSIZE': 20,
             'RETRY_ENABLED': False,
-            'DOWNLOAD_TIMEOUT': 10,
-            'REDIRECT_ENABLED': False
+            'DOWNLOAD_TIMEOUT': 30,
         }
     )
     spider_classes = {
@@ -265,10 +270,8 @@ def run_spider(args):
 
 
 if __name__ == "__main__":
-    load_dotenv()
-
     data = None
-    with open(os.environ["BATCH_FILE"], "r") as file:
+    with open(BATCH_FILE_PATH, "r") as file:
         data = json.loads(file.read())
 
     if data == None:

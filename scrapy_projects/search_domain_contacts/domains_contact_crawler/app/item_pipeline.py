@@ -10,7 +10,7 @@ class XLSXPipeline:
         self.start_index = start_index
         self.end_index = end_index
         self.count = 0
-        self.save_count = 10
+        self.save_count = 100 if start_index - end_index + 1 > 100 else 10
         self.output_path = f'{os.environ["OUTPUT_PATH"]}/output_{self.start_index}_{self.end_index}.xlsx'
         self.ids_seen = set()
         self.emails_seen = set()

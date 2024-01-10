@@ -9,6 +9,8 @@ chromedriver.exe
 *.pkl
 **/__pycache__/
 **/*.env
+**/*.env.dev
+**/*.env.prod
 **/.vscode
 **/inputs/
 **/outputs/
