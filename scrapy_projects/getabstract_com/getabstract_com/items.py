@@ -6,7 +6,7 @@
 import scrapy
 
 
-class PracticeScrapyItem(scrapy.Item):
+class GetabstractComItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass

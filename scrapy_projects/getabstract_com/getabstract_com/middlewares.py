@@ -7,9 +7,10 @@ from scrapy import signals
 
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
+from w3lib.http import basic_auth_header
 
 
-class TrainScrapySpiderMiddleware:
+class GetabstractComSpiderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
     # passed objects.
@@ -56,7 +57,7 @@ class TrainScrapySpiderMiddleware:
         spider.logger.info("Spider opened: %s" % spider.name)
 
 
-class TrainScrapyDownloaderMiddleware:
+class GetabstractComDownloaderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.
@@ -101,3 +102,19 @@ class TrainScrapyDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info("Spider opened: %s" % spider.name)
+
+
+class CustomProxyMiddleware(object):
+    def __init__(self) -> None:
+        # load_dotenv()
+        # self.proxy_url = os.environ["WEBSHARE_PROXY_ROTATION_URL"]
+        # self.username = os.environ["WEBSHARE_PROXY_ROTATION_USERNAME"]
+        # self.password = os.environ["WEBSHARE_PROXY_ROTATION_PASS"]
+        self.proxy_url = "http://p.webshare.io:80"
+        self.username = "proxy005844-rotate"
+        self.password = "proxy005844"
+
+    def process_request(self, request, spider):
+        request.meta["proxy"] = str(self.proxy_url)
+        request.headers["Proxy-Authorization"] = basic_auth_header(
+            str(self.username), str(self.password))
