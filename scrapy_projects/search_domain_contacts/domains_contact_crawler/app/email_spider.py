@@ -1,3 +1,4 @@
+from simplepush import send
 from item_pipeline import XLSXPipeline
 from domain_timeout_middleware import DomainTimeoutMiddleware
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -296,4 +297,7 @@ if __name__ == "__main__":
         # Run each spider in a separate process
         pool.map(run_spider, spider_args)
 
-    print("DONE!")
+    print("Notifying the program is done...")
+    send(os.environ["SIMPLEPUSH_KEY"], "message",
+         title=f"Crawler for {input_name} is DONE!", event=f"Crawler for {input_name} is DONE!")
+    print(f"Crawler for {input_name} is DONE!")

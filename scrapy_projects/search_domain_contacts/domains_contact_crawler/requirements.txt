@@ -1,4 +1,7 @@
+aiohttp==3.9.1
+aiosignal==1.3.1
 aspose-cells==23.12.0
+async-timeout==4.0.3
 attrs==23.1.0
 Automat==22.10.0
 bcrypt==4.1.2
@@ -21,6 +24,7 @@ execnet==2.0.2
 fabric==3.2.2
 fasteners==0.19
 filelock==3.13.1
+frozenlist==1.4.1
 h11==0.14.0
 hyperlink==21.0.0
 idna==3.6
@@ -34,6 +38,7 @@ JPype1==1.5.0
 lxml==5.0.0
 markdown-it-py==3.0.0
 mdurl==0.1.2
+multidict==6.0.4
 numpy==1.26.2
 openpyxl==3.0.10
 outcome==1.3.0.post0
@@ -80,6 +85,7 @@ scrapy-xlsx==0.1.1
 selenium==4.16.0
 seleniumbase==4.22.0
 service-identity==23.1.0
+simplepush==2.2.3
 six==1.16.0
 sniffio==1.3.0
 sortedcontainers==2.4.0
@@ -99,4 +105,5 @@ w3lib==2.1.2
 websockets==12.0
 wrapt==1.16.0
 wsproto==1.2.0
+yarl==1.9.4
 zope.interface==6.1
