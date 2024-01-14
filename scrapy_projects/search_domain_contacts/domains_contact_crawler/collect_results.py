@@ -4,8 +4,10 @@ import paramiko
 from scp import SCPClient
 import time
 import os
+import stat
 from dotenv import load_dotenv
 from deploy import CloudInstance
+import shutil
 import pandas as pd
 load_dotenv()
 
@@ -51,12 +53,25 @@ def load_file_from_instance(instance: CloudInstance) -> str:
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
+    # added permission for .pem key
+    os.chmod(key_file_path, stat.S_IRUSR)
+
     # Loop for connecting, transferring files, and waiting
     try:
         count = 0
-        while count < 10:
+        while count < 600:
             count += 1
             try:
+                # remove all existing files to receive a net set of files
+                # Use shutil.rmtree() to remove the directory and all of its contents
+                try:
+                    directory = f"{OUTPUT_PATH}/outputs"
+                    shutil.rmtree(directory)
+                    print(
+                        f"The directory {directory} and all of its contents have been removed")
+                except Exception as e:
+                    print(f"An error occurred: {e}")
+
                 # Connect using the private key (.pem file)
                 key = paramiko.RSAKey.from_private_key_file(key_file_path)
 
@@ -83,9 +98,8 @@ def load_file_from_instance(instance: CloudInstance) -> str:
                 print(f"An error occurred: {e}")
                 break  # Or remove to attempt reconnection in the next loop
 
-            # Wait for 60 seconds before next operation
-            print("Waiting for 30 seconds...")
-            time.sleep(30)
+            print("Waiting for 5 minutes...")
+            time.sleep(300)
 
         return f"Disconnect to {username}@{hostname}"
     except KeyboardInterrupt:

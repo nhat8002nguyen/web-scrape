@@ -2,6 +2,7 @@ from itemadapter import ItemAdapter
 import os
 from scrapy.exceptions import DropItem
 from scrapy.exporters import CsvItemExporter
+from utilities import get_email_output_csv_path, get_phone_output_csv_path
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -15,8 +16,11 @@ class XLSXPipeline:
         self.start_index = start_index
         self.end_index = end_index
         self.save_count = 100 if start_index - end_index + 1 > 100 else 10
-        self.email_output_path = f'{OUTPUT_PATH}/{self.csv_name[:self.csv_name.rfind(".")]}_email_output_{self.start_index}_{self.end_index}.csv'
-        self.phone_output_path = f'{OUTPUT_PATH}/{self.csv_name[:self.csv_name.rfind(".")]}_phone_output_{self.start_index}_{self.end_index}.csv'
+        self.email_output_path = get_email_output_csv_path(
+            csv_name, start_index, end_index)
+        self.phone_output_path = get_phone_output_csv_path(
+            csv_name, start_index, end_index
+        )
         self.ids_seen = set()
 
         self.phone_items_count = 0

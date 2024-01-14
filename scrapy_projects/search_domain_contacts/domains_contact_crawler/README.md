@@ -1,22 +1,27 @@
 ## Setup and Deploy the script
-Install pip dependencies:
-    $ pip install -r requirements.txt
+- Require Python3.10 
+- Folders and files you need to edit: /domains_inputs, /clouds, .env and .env.prd
+- After that, run the deploy.py and look at the shell, everything will be done.
 
-Go to .env and edit 
-    PROJECT_ROOT is absolute path to program folder of local computer
-    REMOTE_ROOT is home path of the remote machine, for example: /home/ubuntu
+1. Install pip dependencies:
+    `$ pip install -r requirements.txt`
 
-Edit the .env.prod:
-    PROJECT_ROOT is absolute path to program folder on the 'remote' machine
-    REMOTE_ROOT is home path of the remote machine, for example: /home/ubuntu (the same with .env)
+2. Go to .env and edit 
+    PROJECT_ROOT is the absolute path to program folder of your 'local' computer
+    REMOTE_ROOT is the home path of the remote machine, for example: /home/ubuntu or /root, type 'pwd' to see.
 
-Download your_ssh_key.pem files and locate it in the '/clouds' folder (which contains instances.csv file)
+3. Edit the .env.prod:
+    PROJECT_ROOT is the absolute path to program folder on the 'remote' machines
+    REMOTE_ROOT is the home path of the remote machine, for example: /home/ubuntu (the same with .env file)
 
-Edit the instances.csv file: your remote machines, name of input csv, and appropriate ssh key file (example in the file).
+4. Go to folder /domains_inputs folder and remove all sample files. Then add your input files to folder /domains_inputs
 
-Run the deploy.py with the command to deploy the scripts to remote machines based on instances.csv file: 
-    $ python3.10 deploy.py
+4. Download your_ssh_key.pem files and locate it in the '/clouds' folder (which contains instances.csv file)
 
-After running the deploy for a while, run the following command to get the data from remote to folder 'remote_data':
-    $ python3.10 collect_results.py
-This command will update the data after 30 seconds, end disconnect after 10 mins.
+5. Edit the instances.csv file: ip address, username, name of input csv, and appropriate ssh key file (example in the instances.csv).
+
+6. Run the deploy.py with the command to deploy the scripts to remote machines based on instances.csv file: 
+    `$ python3.10 deploy.py`
+
+7. Your Storage VPS will collect data from other machines after each 5 minutes, and will be expired in 4 days.
+    The data will be saved to folder ~/email_spider/remote_data/outputs
