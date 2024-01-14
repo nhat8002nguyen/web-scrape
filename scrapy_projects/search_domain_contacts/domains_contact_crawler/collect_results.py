@@ -5,6 +5,7 @@ from scp import SCPClient
 import time
 import os
 from dotenv import load_dotenv
+from deploy import CloudInstance
 import pandas as pd
 load_dotenv()
 
@@ -18,21 +19,31 @@ def main():
     # Load the Excel file with instance details
     df = pd.read_csv(f'{CLOUD_PATH}/instances.csv')
     # Get a list of instances
-    instances = df.to_dict(orient='records')
+    rows = df.to_dict(orient='records')
+
+    instances = dict[str, CloudInstance]()
+    for row in rows:
+        key = f"{row['ip_address']}@{row['username']}"
+        if key not in instances:
+            instances[key] = CloudInstance(
+                row['ip_address'], row['username'], row['key_filename'], [row["csv_file"]])
+        else:
+            instances[key].csv_names.append(row["csv_file"])
 
     with ThreadPoolExecutor(max_workers=os.cpu_count()) as executor:
-        runs = [executor.submit(load_file_from_instance, ins)
-                for ins in instances]
+        runs = [executor.submit(load_file_from_instance, instances[key])
+                for key in instances]
 
         for run in as_completed(runs):
-            print(run.result())
+            result = run.result()
+            print(result)
 
 
-def load_file_from_instance(instance: dict[Hashable, Any]) -> str:
+def load_file_from_instance(instance: CloudInstance) -> str:
     # Connection information
-    hostname = instance["ip_address"]
-    username = instance["username"]
-    key_file_path = f"{CLOUD_PATH}/{instance['key_file_name']}"
+    hostname = instance.ip_address
+    username = instance.username
+    key_file_path = f"{CLOUD_PATH}/{instance.key_filename}"
     remote_file_path = f"{REMOTE_FOLDER_ROOT_PATH}"
     local_file_path = f"{OUTPUT_PATH}"
 

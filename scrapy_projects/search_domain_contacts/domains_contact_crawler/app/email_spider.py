@@ -280,24 +280,31 @@ def run_spider(args):
 if __name__ == "__main__":
     data = None
     with open(BATCH_FILE_PATH, "r") as file:
-        data = json.loads(file.read())
+        data_list: list = json.loads(file.read())
 
-    if data == None:
+    if data_list == None or len(data_list) == 0:
         print("ERROR: error when reading batches.json, please check again!")
 
-    input_name = data["input"]
-    batches = data["batches"]
-    spider_args = [("email_spider", input_name, batch["start"], batch["end"])
-                   for batch in batches]
+    for data in data_list:
+        input_name = data["input"]
+        batches = data["batches"]
+        spider_args = [("email_spider", input_name, batch["start"], batch["end"])
+                       for batch in batches]
 
-    # Create a multiprocessing pool
-    num_workers = multiprocessing.cpu_count()
-    print(f"INFO: There are {num_workers} CPUs")
-    with multiprocessing.Pool(processes=num_workers) as pool:
-        # Run each spider in a separate process
-        pool.map(run_spider, spider_args)
+        # Create a multiprocessing pool
+        num_workers = multiprocessing.cpu_count()
+        print(f"INFO: There are {num_workers} CPUs")
+        with multiprocessing.Pool(processes=num_workers) as pool:
+            # Run each spider in a separate process
+            pool.map(run_spider, spider_args)
 
-    print("Notifying the program is done...")
-    send(os.environ["SIMPLEPUSH_KEY"], "message",
-         title=f"Crawler for {input_name} is DONE!", event=f"Crawler for {input_name} is DONE!")
-    print(f"Crawler for {input_name} is DONE!")
+        print("Notifying the program is done...")
+        send(os.environ["SIMPLEPUSH_KEY"], "message",
+             title=f"Crawler for {input_name} is DONE!", event=f"Crawler for {input_name} is DONE!")
+        print(f"Crawler for {input_name} is DONE!")
+        sleep(5)
+
+    send(
+        os.environ["SIMPLEPUSH_KEY"],
+        "message",
+        title=f"Crawler for all {len(data_list)} files: {', '.join([data['input'] for data in data_list])} is DONE!")
