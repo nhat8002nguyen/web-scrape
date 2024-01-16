@@ -6,6 +6,7 @@ from scrapy_splash import SplashRequest
 from scrapy_selenium import SeleniumRequest
 from scrapy.exceptions import CloseSpider
 import requests
+from bs4 import BeautifulSoup as BS
 
 
 class ClassicalMedicinesSpider(scrapy.Spider):
@@ -31,12 +32,59 @@ class ClassicalMedicinesSpider(scrapy.Spider):
         'Content-type': 'multipart/form-data; boundary={}'.format('wL36Yn8afVp8Ag7AmP8qZ0SA4n1v9T')
     }
 
-    def start_requests(self):
-        url = "https://www.avpayurveda.com/?wc-ajax=wopb_load_more"
+    def start_requests(self) -> Iterable[Request]:
+        combined_requests = []
 
+        concern_payloads = self.get_concern_payloads()
+        for concern_payload in concern_payloads:
+            requests = self.scrape_category(
+                taxonomy="concern",
+                term_id=int(concern_payload["term_id"]),
+                main_cat_slug="concern",
+                sub_cat_slug=concern_payload["cat_slug"],
+                cat_name=concern_payload["cat_name"],
+                sheet_number=1
+            )
+            combined_requests.extend(requests)
+
+        all_products_cat_payloads = self.get_all_products_payloads()
+        for payload in all_products_cat_payloads:
+            requests = self.scrape_category(
+                taxonomy="all_products",
+                term_id=int(payload["term_id"]),
+                main_cat_slug="all_products",
+                sub_cat_slug=payload["cat_slug"],
+                cat_name=payload["cat_name"],
+                sheet_number=3
+            )
+            combined_requests.extend(requests)
+
+        requests = self.scrape_category(
+            taxonomy="product_cat",
+            term_id=69,
+            main_cat_slug="product_cat",
+            sub_cat_slug="classical-medicines",
+            cat_name="Classical Medicines",
+            sheet_number=2
+        )
+        combined_requests.extend(requests)
+
+        return combined_requests
+
+    def scrape_category(
+        self, taxonomy: str,
+        term_id: int,
+        main_cat_slug: str,
+        sub_cat_slug: str,
+        cat_name: str,
+        sheet_number: int,
+    ):
+        url = "https://www.avpayurveda.com/?wc-ajax=wopb_load_more"
         # total 11 pages
-        total_pages = 25
-        for index in range(10, total_pages):
+        total_pages = 15
+        scrapy_requests = []
+
+        for index in range(0, total_pages):
             formdata = {
                 'action': 'wopb_load_more',
                 'paged': index+1,
@@ -44,30 +92,72 @@ class ClassicalMedicinesSpider(scrapy.Spider):
                 'postId': 4209,
                 'blockName': 'product-blocks_product-grid-1',
                 'filterAttributes[queryTax]': 'product_cat',
-                'filterAttributes[productTaxonomy][taxonomy]': 'product_cat',
-                'filterAttributes[productTaxonomy][term_ids][]': 69,
-                'builder': 'taxonomy###product_cat###classical-medicines',
+                'filterAttributes[productTaxonomy][taxonomy]': taxonomy,
+                'filterAttributes[productTaxonomy][term_ids][]': term_id,
+                'builder': f'taxonomy###{main_cat_slug}###{sub_cat_slug}',
                 'widgetBlockId': '',
-                'wpnonce': 'f2d521f3e7'
+                'wpnonce': '449399cfd8'
             }
 
             # check response after each 10 pages, to stop the spider.
-            if (index+1) % 10 == 0:
+            if (index+1) % 5 == 0:
                 response = requests.post(
                     url=url,
                     data=formdata,
                     # headers=self.headers,
                 )
                 if not response.text:
-                    return
+                    return scrapy_requests
 
-            yield scrapy.Request(
+            s_request = scrapy.Request(
                 url=url,
                 method='POST',
                 headers=self.headers,
                 body=parse.urlencode(formdata),
                 callback=self.parse,
+                meta={
+                    "cat_name": cat_name,
+                    "sheet_number": sheet_number
+                }
             )
+            scrapy_requests.append(s_request)
+
+        return scrapy_requests
+
+    def get_all_products_payloads(self):
+        return self.get_category_payloads(6, "all_products")
+
+    def get_concern_payloads(self):
+        return self.get_category_payloads(2, "concern")
+
+    def get_category_payloads(self, category_number: int, main_cat_slug: str):
+        response = requests.get(
+            url="https://www.avpayurveda.com/",
+            headers={
+                'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            },
+        )
+        soup = BS(response.text, 'html.parser')
+        concern_sub_columns = soup.select(
+            f'ul#ubermenu-nav-main-2-primary > li:nth-of-type({category_number}) > ul > li')
+        concern_payloads = []
+        for column in concern_sub_columns:
+            cats = column.select('ul > li')
+            for cat in cats:
+                cat_class = " ".join(cat.get_attribute_list("class"))
+                cat_class = cat_class[cat_class.find("term-")+5:]
+                term_id = cat_class[:cat_class.find(" ")]
+
+                cat_url = cat.select_one("a").get("href")
+                cat_slug = cat_url[cat_url.find(
+                    f"{main_cat_slug}/")+len(main_cat_slug)+1:cat_url.rfind("/")]
+
+                concern_payloads.append({
+                    "term_id": term_id,
+                    "cat_slug": cat_slug,
+                    "cat_name": cat.text,
+                })
+        return concern_payloads
 
     def parse(self, response):
         items = response.xpath(
@@ -97,6 +187,8 @@ class ClassicalMedicinesSpider(scrapy.Spider):
                 'basic_description': short_description,
                 'image': image_url,
                 'price': price,
+                'cat_name': response.meta["cat_name"],
+                'sheet_number': response.meta["sheet_number"]
             }
 
             yield scrapy.Request(
@@ -111,6 +203,7 @@ class ClassicalMedicinesSpider(scrapy.Spider):
                     'basic_description': short_description,
                     'image': image_url,
                     'price': price,
+                    'cat_name': response.meta["cat_name"],
                 }
             )
 
@@ -158,6 +251,7 @@ class ClassicalMedicinesSpider(scrapy.Spider):
                 'price': response.meta["price"],
                 "product_description": description,
                 "key_ingredient": total_ingredients,
+                'cat_name': response.meta["cat_name"],
             }
         )
 
@@ -223,5 +317,6 @@ class ClassicalMedicinesSpider(scrapy.Spider):
             'price': response.meta["price"],
             "product_description": response.meta["product_description"],
             "key_ingredient": response.meta["key_ingredient"],
-            "sub_images": images_text
+            "sub_images": images_text,
+            'cat_name': response.meta["cat_name"],
         }
