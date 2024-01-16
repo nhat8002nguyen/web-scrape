@@ -4,6 +4,8 @@ from scrapy.http import Request
 from urllib import parse
 from scrapy_splash import SplashRequest
 from scrapy_selenium import SeleniumRequest
+from scrapy.exceptions import CloseSpider
+import requests
 
 
 class ClassicalMedicinesSpider(scrapy.Spider):
@@ -30,10 +32,11 @@ class ClassicalMedicinesSpider(scrapy.Spider):
     }
 
     def start_requests(self):
+        url = "https://www.avpayurveda.com/?wc-ajax=wopb_load_more"
 
         # total 11 pages
-        total_pages = 1
-        for index in range(0, total_pages):
+        total_pages = 25
+        for index in range(10, total_pages):
             formdata = {
                 'action': 'wopb_load_more',
                 'paged': index+1,
@@ -47,8 +50,19 @@ class ClassicalMedicinesSpider(scrapy.Spider):
                 'widgetBlockId': '',
                 'wpnonce': 'f2d521f3e7'
             }
+
+            # check response after each 10 pages, to stop the spider.
+            if (index+1) % 10 == 0:
+                response = requests.post(
+                    url=url,
+                    data=formdata,
+                    # headers=self.headers,
+                )
+                if not response.text:
+                    return
+
             yield scrapy.Request(
-                url="https://www.avpayurveda.com/?wc-ajax=wopb_load_more",
+                url=url,
                 method='POST',
                 headers=self.headers,
                 body=parse.urlencode(formdata),
@@ -77,7 +91,7 @@ class ClassicalMedicinesSpider(scrapy.Spider):
                 './/div[contains(@class, "wopb-block-image")]//a//img/@src').get()
 
             yield {
-                'id': "card" + name + short_description,
+                'id': "card" + name + short_description + price,
                 'type': "card",
                 'name': name,
                 'basic_description': short_description,
@@ -85,12 +99,13 @@ class ClassicalMedicinesSpider(scrapy.Spider):
                 'price': price,
             }
 
-            yield response.follow(
+            yield scrapy.Request(
                 url=item.xpath(
                     './/h3[@class="wopb-block-title"]/a/@href').get(),
                 callback=self.parse_detail,
+                headers=self.headers,
                 meta={
-                    'id': "detail" + name + short_description,
+                    'id': "detail" + name + short_description + price,
                     'type': "detail",
                     'name': name,
                     'basic_description': short_description,
