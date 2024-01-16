@@ -3,22 +3,7 @@ import scrapy
 from scrapy.http import Request
 from urllib import parse
 from scrapy_splash import SplashRequest
-
-
-lua_script = """
-function main(splash, args)
-    local user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-    splash:set_user_agent(user_agent)
-
-    assert(splash:go(args.url))
-    assert(splash:wait(1))
-    return {
-        html = splash:html(),
-        png = splash:png(),
-        har = splash:har(),
-    }
-end
-"""
+from scrapy_selenium import SeleniumRequest
 
 
 class ClassicalMedicinesSpider(scrapy.Spider):
@@ -47,10 +32,11 @@ class ClassicalMedicinesSpider(scrapy.Spider):
     def start_requests(self):
 
         # total 11 pages
-        for page in range(1, 15):
+        total_pages = 1
+        for index in range(0, total_pages):
             formdata = {
                 'action': 'wopb_load_more',
-                'paged': page,
+                'paged': index+1,
                 'blockId': '31e766',
                 'postId': 4209,
                 'blockName': 'product-blocks_product-grid-1',
@@ -66,7 +52,7 @@ class ClassicalMedicinesSpider(scrapy.Spider):
                 method='POST',
                 headers=self.headers,
                 body=parse.urlencode(formdata),
-                callback=self.parse
+                callback=self.parse,
             )
 
     def parse(self, response):
@@ -143,14 +129,11 @@ class ClassicalMedicinesSpider(scrapy.Spider):
 
         total_ingredients = "\n\n".join(ingredients)
 
-        yield SplashRequest(
+        yield SeleniumRequest(
             url=response.url,
             callback=self.parse_splash_response,
-            endpoint='execute',
-            args={
-                'lua_source': lua_script,
-                'url': response.url
-            },
+            wait_time=1,
+            dont_filter=True,
             meta={
                 'id': response.meta["id"],
                 'type': "detail",

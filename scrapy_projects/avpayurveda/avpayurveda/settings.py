@@ -1,3 +1,9 @@
+from shutil import which
+from os import environ
+from dotenv import load_dotenv
+load_dotenv()
+
+
 # Scrapy settings for avpayurveda project
 #
 # For simplicity, this file contains only settings considered important or
@@ -46,7 +52,7 @@ DOWNLOAD_DELAY = 3
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 SPIDER_MIDDLEWARES = {
     #    "avpayurveda.middlewares.AvpayurvedaSpiderMiddleware": 543,
-    'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
+    # 'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
 }
 
 # Enable or disable downloader middlewares
@@ -55,9 +61,13 @@ DOWNLOADER_MIDDLEWARES = {
     #    "avpayurveda.middlewares.AvpayurvedaDownloaderMiddleware": 543,
     # 'avpayurveda.middlewares.CustomProxyMiddleware': 350,
 
-    'scrapy_splash.SplashCookiesMiddleware': 723,
-    'scrapy_splash.SplashMiddleware': 725,
-    'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+    # Splash middlewares
+    # 'scrapy_splash.SplashCookiesMiddleware': 723,
+    # 'scrapy_splash.SplashMiddleware': 725,
+    # 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+
+    # Selenium middlewares, replace the SeleniumMiddleware source in this url: https://www.zenrows.com/blog/scrapy-selenium#integrate-selenium-into-scrapy
+    'scrapy_selenium.SeleniumMiddleware': 800
 }
 
 # Enable or disable extensions
@@ -109,6 +119,10 @@ RETRY_TIMES = 1  # initial response + 2 retries = 3 requests
 RETRY_HTTP_CODES = [403]
 
 # Splash Server Endpoint
-SPLASH_URL = 'http://localhost:8050'
+# SPLASH_URL = 'http://localhost:8050'
 # Define the Splash DupeFilter
-DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+# DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+
+# Selenium setup
+SELENIUM_DRIVER_NAME = 'chrome'
+SELENIUM_DRIVER_ARGUMENTS = ['--headless=new']
