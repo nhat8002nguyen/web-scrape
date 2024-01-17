@@ -266,7 +266,9 @@ def run_spider(args):
             'END_INDEX': end_index,
             'LOG_LEVEL': 'INFO' if os.environ["ENV"] == "prod" else "DEBUG",
             'REACTOR_THREADPOOL_MAXSIZE': 20,
-            'RETRY_ENABLED': False,
+            'RETRY_ENABLED': True,
+            'RETRY_TIMES': 1,
+            'RETRY_HTTP_CODES': [403],
             'DOWNLOAD_TIMEOUT': 30,
             'CSV_INPUT_NAME': file_name
         }
