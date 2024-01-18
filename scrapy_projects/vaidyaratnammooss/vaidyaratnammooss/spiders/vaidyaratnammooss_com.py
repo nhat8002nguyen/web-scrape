@@ -6,6 +6,7 @@ from scrapy.http import Request
 class VaidyaratnammoossComSpider(scrapy.Spider):
     name = "vaidyaratnammooss_com"
     allowed_domains = ["shop.vaidyaratnammooss.com"]
+    base_url = "https://shop.vaidyaratnammooss.com"
 
     headers = {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
@@ -48,6 +49,7 @@ class VaidyaratnammoossComSpider(scrapy.Spider):
         lis = response.xpath(
             '//div[@id="main-wrapper"]//ul[@class="productbox"]/li')
         for li in lis:
+            image = self.base_url + "/" + li.xpath("./img/@src").get()
             name = li.xpath('./h4/a/text()').get()
             name = name.strip() if name is not None else ""
 
@@ -62,16 +64,18 @@ class VaidyaratnammoossComSpider(scrapy.Spider):
                 out_of_stock if out_of_stock else ""
             )
 
+            detail_url = li.xpath('./h4/a/@href').get()
+
             yield {
                 "id": f"card-{response.meta['cat']}-{name}-{price_value}-{','.join(pack_size_items)}",
                 "cat": response.meta["cat"],
                 "type": "card",
+                "product_url": f"{self.base_url}/{detail_url}",
                 "name": name,
                 "price": price_value,
-                "pack_size": " ,".join(pack_size_items)
+                "pack_size": " ,".join(pack_size_items),
+                "image": image
             }
-
-            detail_url = li.xpath('./h4/a/@href').get()
 
             yield response.follow(
                 url=detail_url,
@@ -81,12 +85,16 @@ class VaidyaratnammoossComSpider(scrapy.Spider):
                     "cat": response.meta["cat"],
                     "name": name,
                     "price": price_value,
-                    "pack_size": ", ".join(pack_size_items)
+                    "pack_size": ", ".join(pack_size_items),
                 }
             )
 
     def parse_detail_page(self, response):
         # XPath expressions to extract the information that follows the headers
+        images = response.xpath(
+            '//ul[@id="demo2carousel"]/li/a/img/@src').getall()
+        images = "\n".join([f"{self.base_url}/{image}" for image in images])
+
         ingredients = response.xpath(
             '//strong[contains(text(), "Ingredients")]/following::text()[2]').extract_first()
         indications = response.xpath(
@@ -105,9 +113,11 @@ class VaidyaratnammoossComSpider(scrapy.Spider):
             "type": "detail",
             "cat": response.meta["cat"],
             "name": response.meta["name"],
+            "product_url": response.url,
             "price": response.meta["price"],
             "pack_size": response.meta["pack_size"],
             'ingredients': ingredients,
             'indications': indications,
-            'dosage': dosage
+            'dosage': dosage,
+            'images': images
         }

@@ -44,6 +44,8 @@ class VaidyaratnammoossPipeline:
         if item["type"] == "card":
             row = {}
             row["id"] = item_dict["id"]
+            row["Product Link"] = item_dict["product_url"]
+            row["Image"] = item_dict["image"]
             row["Name"] = item_dict["name"]
             row["Price"] = item_dict["price"]
             row["Pack Size"] = item_dict["pack_size"]
@@ -63,8 +65,10 @@ class VaidyaratnammoossPipeline:
 
             row = {}
             row["id"] = item_dict["id"]
+            row["Product Link"] = item_dict["product_url"]
             row["Category"] = item_dict['cat']
             row["Name"] = item_dict["name"]
+            row["Images"] = item_dict["images"]
             row["Price"] = item_dict["price"]
             row["Pack Size"] = item_dict["pack_size"]
             row["ingredents"] = item_dict["ingredients"]

@@ -109,9 +109,10 @@ class VaidyaratnammoossDownloaderMiddleware:
 class CustomProxyMiddleware(object):
     def __init__(self) -> None:
         load_dotenv()
-        self.proxy_url = os.environ["WEBSHARE_PROXY_ROTATION_URL"]
-        self.username = os.environ["WEBSHARE_PROXY_ROTATION_USERNAME"]
-        self.password = os.environ["WEBSHARE_PROXY_ROTATION_PASS"]
+        if os.environ["PROXY_ROTATION_URL"]:
+            self.proxy_url = os.environ["PROXY_ROTATION_URL"]
+            self.username = os.environ["PROXY_ROTATION_USERNAME"]
+            self.password = os.environ["PROXY_ROTATION_PASS"]
 
         # self.proxy_url = "http://p.webshare.io:80"
         # self.username = "username"

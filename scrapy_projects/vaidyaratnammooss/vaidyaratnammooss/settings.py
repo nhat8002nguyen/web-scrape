@@ -30,7 +30,7 @@ ROBOTSTXT_OBEY = True
 # See also autothrottle settings and docs
 # DOWNLOAD_DELAY = 1
 # The download delay setting will honor only one of:
-if os.environ["WEBSHARE_PROXY_ROTATION_URL"] and os.environ["WEBSHARE_PROXY_ROTATION_USERNAME"]:
+if os.environ["PROXY_ROTATION_URL"] and os.environ["PROXY_ROTATION_USERNAME"]:
     CONCURRENT_REQUESTS_PER_DOMAIN = 16
     CONCURRENT_REQUESTS_PER_IP = 16
 else:
@@ -58,8 +58,9 @@ else:
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
     #    "vaidyaratnammooss.middlewares.VaidyaratnammoossDownloaderMiddleware": 543,
-    'vaidyaratnammooss.middlewares.CustomProxyMiddleware': 350,
 }
+if "PROXY_ROTATION_URL" in os.environ and os.environ["PROXY_ROTATION_URL"]:
+    DOWNLOADER_MIDDLEWARES['vaidyaratnammooss.middlewares.CustomProxyMiddleware'] = 350
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
