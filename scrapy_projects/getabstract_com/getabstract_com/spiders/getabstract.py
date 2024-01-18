@@ -43,9 +43,9 @@ class GetabstractSpider(scrapy.Spider):
 
     def parse(self, response):
         category_list = response.xpath(
-            "//div[@role='main']//div[contains(@class, 'row')]/div[@class='col']/a/@href").getall()
+            '//div[@role="main"]//a[@class="channel-card"]/@href').getall()
 
-        for category in category_list[0:2]:
+        for category in category_list:
             yield response.follow(
                 url=category,
                 callback=self.parse_category
