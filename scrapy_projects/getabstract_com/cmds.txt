@@ -1,0 +1,2 @@
+ssh -i ~/Workspaces/web-scrape/power-web-crawler-server.pem ubuntu@47.128.255.253
+scrapy_projects % scp -i ~/Workspaces/web-scrape/power-web-crawler-server.pem -r getabstract_com ubuntu@47.128.255.253:/home/ubuntu/

@@ -9,12 +9,17 @@ class GetabstractSpider(scrapy.Spider):
     allowed_domains = ["www.getabstract.com"]
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0",
-        "Accept-Encoding": "gzip, deflate",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "DNT": "1",
-        "Connection": "close",
-        "Upgrade-Insecure-Requests": "1"
+        'Accept': '*/*',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Connection': 'keep-alive',
+        'Referer': 'https://www.getabstract.com/',
+        'Sec-Fetch-Dest': 'empty',
+        'Sec-Fetch-Mode': 'cors',
+        'Sec-Fetch-Site': 'same-origin',
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"'
     }
 
     def start_requests(self):
@@ -52,20 +57,41 @@ class GetabstractSpider(scrapy.Spider):
             )
 
     def parse_category(self, response):
-        book_urls = response.xpath(
-            "//div[@role='main']//div[contains(@class, 'row')]/div[@class='col']//a/@href").getall()
-
         category = response.xpath(
             "//div[@class='channel-header__title']/h1/text()").get()
 
-        for book in book_urls:
+        resp = requests.get(
+            url=f"{response.url}?page={500}&sorting=relevance&audioFormFilter=false&languageFormFilter=en&_=1705578531350",
+            headers=self.headers,
+        )
+        if not resp.text or "Oops, nothing to see here" in resp.text:
+            return
+
+        book_infos = self.get_book_infos(resp.text)
+        for book in book_infos:
             yield response.follow(
-                url=book,
+                url=book["url"],
                 callback=self.activate_content,
                 meta={
-                    'category': category
+                    'category': category,
+                    'publisher': book["publisher"]
                 }
             )
+
+    def get_book_infos(self, text):
+        soup = BeautifulSoup(text, 'html.parser')
+        cards = soup.select("div.summary-card")
+        book_infos = []
+        for card in cards:
+            url = card.select_one("div.summary-card__cover > a").get("href")
+            publisher = card.select_one(
+                "div.summary-card__bibliographic > div.summary-card__publisher").text
+            book_infos.append({
+                'url': url,
+                'publisher': publisher,
+            })
+
+        return book_infos
 
     def activate_content(self, response):
         url: str = response.url
@@ -97,7 +123,8 @@ class GetabstractSpider(scrapy.Spider):
             callback=self.parse_content,
             dont_filter=True,
             meta={
-                'category': response.meta['category']
+                'category': response.meta['category'],
+                'publisher': response.meta['publisher']
             }
         )
 
@@ -158,14 +185,15 @@ class GetabstractSpider(scrapy.Spider):
             self.logger.error(f"Fail to get summary")
 
         return {
-            "Category": response.meta["category"],
             "Book name": book_name,
-            "Short title": short_title,
             "Authors": authors,
             "About the authors": about_authors,
+            "Publisher": response.meta["publisher"],
+            "Short title": short_title,
+            "Category": response.meta["category"],
             "Recommendation": recommendation,
             "Takeaways": takeaways,
-            "summary": summary
+            "Summary": summary
         }
 
     def parse_content(self, response):
@@ -228,12 +256,13 @@ class GetabstractSpider(scrapy.Spider):
             summary = ""
 
         yield {
-            "Category": response.meta["category"],
             "Book name": book_name,
-            "Short title": short_title,
             "Authors": authors,
             "About the authors": about_authors,
+            "Publisher": response.meta["publisher"],
+            "Category": response.meta["category"],
+            "Short title": short_title,
             "Recommendation": recommendation,
             "Takeaways": takeaways,
-            "summary": summary
+            "Summary": summary
         }
