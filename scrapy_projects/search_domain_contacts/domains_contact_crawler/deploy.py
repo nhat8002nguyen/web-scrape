@@ -90,6 +90,11 @@ def setup_and_run(instance: CloudInstance, all_ssh_keys_name: set[str]):
             c.run(
                 "mkdir email_spider && cd email_spider && mkdir domains_inputs outputs app")
 
+        try:
+            find_csv_outputs = c.run("find email_spider/csv_outputs")
+        except:
+            c.run("mkdir email_spider/csv_outputs")
+
         c.put(f"{ROOT_PATH}/.env.prod",
               remote=f"{REMOTE_ROOT_PATH}/email_spider/")
 

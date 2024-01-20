@@ -13,8 +13,9 @@ load_dotenv()
 
 ROOT_PATH = os.environ['PROJECT_ROOT']
 CLOUD_PATH = ROOT_PATH + os.environ['CLOUD_PATH']
-REMOTE_FOLDER_ROOT_PATH = os.environ["REMOTE_ROOT"] + "/email_spider/outputs"
-OUTPUT_PATH = ROOT_PATH + "/remote_data"
+REMOTE_FOLDER_ROOT_PATH = os.environ["REMOTE_ROOT"] + \
+    "/email_spider/csv_outputs"
+OUTPUT_PATH = os.environ["REMOTE_ROOT"] + "/remote_data"
 
 
 def main():
@@ -59,7 +60,7 @@ def load_file_from_instance(instance: CloudInstance) -> str:
     # Loop for connecting, transferring files, and waiting
     try:
         count = 0
-        while count < 600:
+        while count < 2000:
             count += 1
             try:
                 # remove all existing files to receive a net set of files

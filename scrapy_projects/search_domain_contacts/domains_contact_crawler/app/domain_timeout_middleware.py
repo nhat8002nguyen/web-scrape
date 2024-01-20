@@ -27,7 +27,7 @@ class DomainTimeoutMiddleware(HttpCompressionMiddleware):
     def __init__(self, stats=None):
         super().__init__(stats)
         self.domain_timestamps = {}  # Dictionary to store the last timestamp for each domain
-        self.domain_timeout = 5.0
+        self.domain_timeout = 10.0
 
     @classmethod
     def from_crawler(cls, crawler):

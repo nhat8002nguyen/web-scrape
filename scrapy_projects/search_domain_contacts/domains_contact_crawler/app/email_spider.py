@@ -281,40 +281,6 @@ def run_spider(args):
     process.start()
 
 
-def combine_output_files(input_name: str, batches: [dict]):
-    if len(batches) == 1:
-        os.rename(get_email_output_csv_path(
-            input_name, batches[0]["start"], batches[0]["end"]), get_single_email_output_path(input_name))
-        os.rename(get_phone_output_csv_path(
-            input_name, batches[0]["start"], batches[0]["end"]), get_single_phone_output_path(input_name))
-
-        return
-
-    os.rename(get_email_output_csv_path(
-        input_name, batches[0]["start"], batches[0]["end"]), get_single_email_output_path(input_name))
-    os.rename(get_phone_output_csv_path(
-        input_name, batches[0]["start"], batches[0]["end"]), get_single_phone_output_path(input_name))
-
-    for batch in batches[1:]:
-        csv1 = pd.read_csv(get_single_email_output_path(input_name))
-        csv2 = pd.read_csv(get_email_output_csv_path(
-            input_name, batch["start"], batch["end"]))
-        combined_csv = pd.concat([csv1, csv2], ignore_index=True)
-        combined_csv.to_csv(
-            get_single_email_output_path(input_name), index=False)
-        os.remove(get_email_output_csv_path(
-            input_name, batch["start"], batch["end"]))
-
-        csv1 = pd.read_csv(get_single_phone_output_path(input_name))
-        csv2 = pd.read_csv(get_phone_output_csv_path(
-            input_name, batch["start"], batch["end"]))
-        combined_csv = pd.concat([csv1, csv2], ignore_index=True)
-        combined_csv.to_csv(
-            get_single_phone_output_path(input_name), index=False)
-        os.remove(get_phone_output_csv_path(
-            input_name, batch["start"], batch["end"]))
-
-
 if __name__ == "__main__":
     data = None
     with open(BATCH_FILE_PATH, "r") as file:
@@ -336,9 +302,6 @@ if __name__ == "__main__":
             # Run each spider in a separate process
             pool.map(run_spider, spider_args)
         sleep(5)
-
-        # Combine all csv output files into a single file.
-        combine_output_files(input_name, batches)
 
         print("Notifying the program is done...")
         send(os.environ["SIMPLEPUSH_KEY"], "message",

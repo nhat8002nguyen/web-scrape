@@ -3,7 +3,7 @@ import dotenv
 dotenv.load_dotenv()
 
 ROOT_PATH = os.environ['PROJECT_ROOT']
-OUTPUT_PATH = ROOT_PATH + os.environ['OUTPUT_PATH']
+OUTPUT_PATH = ROOT_PATH + os.environ['CSV_OUTPUT_PATH']
 
 
 def get_email_output_csv_path(csv_name: str, start_index: int, end_index: int):
