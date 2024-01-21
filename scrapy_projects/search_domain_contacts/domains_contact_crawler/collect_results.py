@@ -63,16 +63,6 @@ def load_file_from_instance(instance: CloudInstance) -> str:
         while count < 2000:
             count += 1
             try:
-                # remove all existing files to receive a net set of files
-                # Use shutil.rmtree() to remove the directory and all of its contents
-                try:
-                    directory = f"{OUTPUT_PATH}/outputs"
-                    shutil.rmtree(directory)
-                    print(
-                        f"The directory {directory} and all of its contents have been removed")
-                except Exception as e:
-                    print(f"An error occurred: {e}")
-
                 # Connect using the private key (.pem file)
                 key = paramiko.RSAKey.from_private_key_file(key_file_path)
 

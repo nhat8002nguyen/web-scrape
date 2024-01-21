@@ -1,3 +1,4 @@
+import shutil
 from typing import Any, Hashable
 import fabric
 import pandas as pd
@@ -12,6 +13,7 @@ REMOTE_ROOT_PATH = os.environ["REMOTE_ROOT"]
 INPUT_PATH = ROOT_PATH + os.environ['INPUT_PATH']
 CLOUD_PATH = ROOT_PATH + os.environ['CLOUD_PATH']
 APP_PATH = ROOT_PATH + "/app"
+REMOTE_OUTPUT_PATH = REMOTE_ROOT_PATH + "/email_spider" + "/csv_outputs"
 
 
 class CloudInstance():
@@ -125,10 +127,22 @@ def setup_and_run(instance: CloudInstance, all_ssh_keys_name: set[str]):
         if is_screen_session_running(c, "email_spider"):
             return f"INFO: Email spider is still running on {instance.username}@{instance.ip_address}"
         elif is_screen_session_running(c, "collect_results"):
-            return f"INFO: Results collection is still running on {instance.username}@{instance.ip_address}"
+            # quit current collect_results task
+            c.run("screen -X -S collect_results quit")
 
         # Run the Python script
         if instance.for_storage == "no":
+            # Clear folder /csv_outputs
+            # remove all existing files to receive a net set of files
+            # Use shutil.rmtree() to remove the directory and all of its contents
+            try:
+                c.run("rm -r email_spider/csv_outputs")
+                c.run("mkdir email_spider/csv_outputs")
+                print(
+                    f"The directory {REMOTE_OUTPUT_PATH} and all of its contents have been resetted")
+            except Exception as e:
+                print(f"An error occurred: {e}")
+
             # Create batches.json file
             c.run(
                 f"cd ~/email_spider/app && python3.10 create_batches.py {' '.join(instance.csv_names)}")
@@ -165,7 +179,7 @@ def setup_and_run(instance: CloudInstance, all_ssh_keys_name: set[str]):
         elif is_screen_session_running(c, "collect_results"):
             return f"INFO: Successfully setup results collection done with {instance.username}@{instance.ip_address}"
 
-        return f"WARNING: Please check the {instance.username}@{instance.ip_address}, to make sure it's running!"
+        return f"ERROR: Fail with {instance.username}@{instance.ip_address}, please try again!"
 
 
 def is_screen_session_running(conn, session_name):
