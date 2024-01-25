@@ -1,3 +1,4 @@
+from combine_csv import combine_files, delete_sub_files, delete_successful_urls_files
 from utilities import get_phone_output_csv_path, get_email_output_csv_path, get_single_email_output_path, get_single_phone_output_path
 import pandas as pd
 from simplepush import send
@@ -303,7 +304,26 @@ if __name__ == "__main__":
             pool.map(run_spider, spider_args)
         sleep(5)
 
-        print("Notifying the program is done...")
+        # clear successful urls folder
+        prefix = data["input"][:data["input"].rfind(".")]
+        try:
+            delete_successful_urls_files(prefix=prefix)
+            print("INFO: Success to clear outputs folder")
+            sleep(1)
+        except Exception as err:
+            print(f"ERROR: {err}")
+
+        # combine all sub output files into a single file
+        try:
+            ok = combine_files(prefix=prefix)
+            if ok:
+                delete_sub_files(prefix=prefix)
+        except Exception as err:
+            print("ERROR: Fail to combine sub files")
+            send(os.environ["SIMPLEPUSH_KEY"], f"DONE but have error: {err}",
+                 title=f"Crawler for {input_name} is DONE!", event=f"Crawler for {input_name} is DONE!")
+
+        print("Success to combine sub files, notifying the program is done...")
         send(os.environ["SIMPLEPUSH_KEY"], "message",
              title=f"Crawler for {input_name} is DONE!", event=f"Crawler for {input_name} is DONE!")
         print(f"Crawler for {input_name} is DONE!")

@@ -28,5 +28,4 @@
 
 8. To pull data from storage vps to local computer run:
 `$ scp -i clouds/ramnode.pem -r root@167.88.113.102:/root/remote_data/csv_outputs ../remote_data`
-
-9.In the /remote_data/combine_csv.py, edit the prefixes at line 12, and then run it. It will combine all csv files into files prefixed with 'combined_'.
+the data will be located in remote-data folder on local computer.
