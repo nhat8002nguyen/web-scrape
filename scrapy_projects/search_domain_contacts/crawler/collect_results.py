@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 from deploy import CloudInstance
 import shutil
 import pandas as pd
+import glob
 load_dotenv()
 
 ROOT_PATH = os.environ['PROJECT_ROOT']
@@ -26,6 +27,9 @@ def main():
 
     instances = dict[str, CloudInstance]()
     for row in rows:
+        if "for_storage" in row and row["for_storage"] == "yes":
+            continue
+
         key = f"{row['ip_address']}@{row['username']}"
         if key not in instances:
             instances[key] = CloudInstance(
@@ -63,6 +67,19 @@ def load_file_from_instance(instance: CloudInstance) -> str:
         while count < 2000:
             count += 1
             try:
+                # remove all existing files to receive a net set of files
+                for csv_name in instance.csv_names:
+                    try:
+                        prefix = csv_name[:csv_name.rfind(".")]
+                        pattern = f"{prefix}_*.csv"
+                        files = sorted(
+                            glob.glob(os.path.join(OUTPUT_PATH + "/csv_outputs", pattern)))
+                        if files:  # Only proceed if there are files to concatenate
+                            for file in files:
+                                os.remove(file)
+                    except Exception as e:
+                        print(f"An error occurred: {e}")
+
                 # Connect using the private key (.pem file)
                 key = paramiko.RSAKey.from_private_key_file(key_file_path)
 
