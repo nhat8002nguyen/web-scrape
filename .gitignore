@@ -16,3 +16,4 @@ chromedriver.exe
 **/outputs/
 
 masothue*.json
+*.zip
