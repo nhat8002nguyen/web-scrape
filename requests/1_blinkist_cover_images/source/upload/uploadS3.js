@@ -1,6 +1,9 @@
 const AWS = require('aws-sdk');
 const fs = require('fs');
 const path = require('path');
+const xlsx = require('xlsx');
+
+require('dotenv').config();
 
 const jsonFilePath = './public_urls.json';
 
@@ -84,7 +87,7 @@ function uploadToS3(filePath) {
     Bucket: bucketName,
     Key: keyName,
     Body: fs.createReadStream(filePath),
-    ContentType: 'audio/mpeg',
+    ContentType: 'image/jpeg',
     ACL: 'public-read'  // Make the uploaded file publicly readable
   };
 
@@ -110,6 +113,7 @@ function uploadToS3(filePath) {
       // Write the updated data back to the JSON file
       fs.writeFileSync(jsonFilePath, JSON.stringify(jsonData, null, 2));
 
+      console.info("Successfully upload images:", data)
       try {
         // Use the writeToSheet function to write the data to the Google Sheet
         await writeToSheet([[publicUrl]]);
@@ -120,4 +124,58 @@ function uploadToS3(filePath) {
   });
 }
 
-uploadToS3("./814mI0-rkxL._SY466_.jpg")
+// Set up your AWS S3 configuration
+const s3 = new AWS.S3({
+  accessKeyId: 'a4880196fdd299cf0eee6db0f73c11a3',
+  secretAccessKey: '765671efdfb129e44b7f1d089e194d6fa172092929ed23009f1488853f48389c',
+  endpoint: 'https://761e7f63f330750cd2ad0e5d12d59fff.r2.cloudflarestorage.com/',
+  s3ForcePathStyle: true,
+  signatureVersion: 'v4'
+});
+
+async function uploadToS3AndWriteToExcel(excelFilePath, imageFolderPath) {
+  // Open the workbook
+  const workbook = xlsx.readFile(excelFilePath);
+  // Iterate through all images in the folder
+  const imageFiles = fs.readdirSync(imageFolderPath);
+
+  for (let file of imageFiles) {
+    const filePath = path.join(imageFolderPath, file);
+    const keyName = path.basename(filePath);
+    const publicUrlBase = 'https://delivery.happylife.ai/{keyName}';
+
+    // Upload to S3 and get the public URL
+    const params = {
+      Bucket: 'happylife',
+      Key: keyName,
+      Body: fs.createReadStream(filePath),
+      ContentType: 'image/jpeg',
+      ACL: 'public-read'
+    };
+
+    try {
+      const data = await s3.upload(params).promise();
+      const publicUrl = publicUrlBase.replace('{keyName}', keyName);
+      console.log(`File uploaded successfully. Public URL: ${publicUrl}`);
+
+      // Extract the index, book name, and author from the file name
+      const [index, bookName, authorName] = keyName.split('_');
+      // Assuming the sheet name or index is known and valid
+      const sheetName = 'Sheet1';
+      const sheet = workbook.Sheets[sheetName];
+
+      // Assuming that the index refers to an Excel row number
+      const cellAddress = `A${index}`; // Example for column A
+      xlsx.utils.sheet_add_aoa(sheet, [[publicUrl]], { origin: cellAddress });
+
+    } catch (error) {
+      console.error(`Error uploading file ${filePath}`, error);
+    }
+  }
+
+  // Finally, write the workbook out to the file
+  xlsx.writeFile(workbook, excelFilePath);
+}
+
+// Example usage:
+uploadToS3AndWriteToExcel(process.env.PROJECT_PATH + '/27-categories-books.xlsx', process.env.PROJECT_PATH + '/cover_images');
