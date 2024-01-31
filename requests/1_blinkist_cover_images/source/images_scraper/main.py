@@ -1,5 +1,6 @@
 import os
 from time import sleep
+import traceback
 import requests
 from bs4 import BeautifulSoup
 from openpyxl import load_workbook
@@ -20,7 +21,7 @@ import argparse
 from dotenv import load_dotenv
 load_dotenv()
 
-PROJECT_PATH = os.environ["PROJECT_PATH"]
+PROJECT_PATH = os.environ["PROJECT_ROOT"]
 COVER_IMAGES_PATH = PROJECT_PATH + "/cover_images"
 
 # Define the headers for HTTP requests to look like a browser request
@@ -45,37 +46,67 @@ def download_image(url, filename):
 
 def get_cover_image_url(session, amazon_url: str):
     '''Add your code to extract the image URL'''
-    resp = session.get(amazon_url, headers=HEADERS)
+    img_src = None
+    try:
+        count = 0
+        while count < 20:
+            count += 1
+            resp = session.get(amazon_url, headers=HEADERS)
 
-    soup = BeautifulSoup(resp.content, 'html.parser')
+            if resp.status_code == 200:
+                soup = BeautifulSoup(resp.content, 'html.parser')
 
-    img = soup.select_one("#imgTagWrapperId > img")
-    if img == None:
-        return None
+                img = soup.select_one("#imgTagWrapperId > img")
+                if img == None:
+                    return None
 
-    img_src = img.get("src")
+                img_src = img.get("src")
+                return img_src
+            else:
+                session = requests.Session()
+                session.proxies = {
+                    'http': "http://proxy005844-rotate:proxy005844@p.webshare.io:80",
+                    'https': "http://proxy005844-rotate:proxy005844@p.webshare.io:80",
+                }
+                if count < 10:
+                    print(f"Fail with status {resp.status_code}, retrying...")
+    except:
+        print(f"Fail with {amazon_url}")
 
     return img_src
 
 
 def search_google(book_name, author_name):
     '''Function to search Google for Amazon book page'''
-    # Construct search query
-    query = f'site:amazon.com "{book_name}" "{author_name}"'
+    try:
+        count = 0
+        while count < 20:
+            count += 1
+            query = f'site:amazon.com "{book_name}" "{author_name}"'
+            response = requests.get(
+                GOOGLE_SEARCH_URL, headers=HEADERS, params={'q': query}, proxies={
+                    'http': "http://proxy005844-rotate:proxy005844@p.webshare.io:80",
+                    'https': "http://proxy005844-rotate:proxy005844@p.webshare.io:80",
+                })
+            # Check if the request was successful
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.content, 'html.parser')
 
-    # Make request to Google
-    google_response = requests.get(
-        GOOGLE_SEARCH_URL, headers=HEADERS, params={'q': query})
+                # parse Google search results, extract Amazon links
+                first_result = soup.select_one("div.MjjYud .yuRUbf a")
+                if first_result == None:
+                    return None
 
-    soup = BeautifulSoup(google_response.content, 'html.parser')
-
-    # parse Google search results, extract Amazon links
-    first_result = soup.select_one("div.MjjYud .yuRUbf a")
-    if first_result == None:
-        return None
-
-    link = first_result.get("href")
-    return link
+                link = first_result.get("href")
+                return link
+            else:
+                # If the response status code is not 200, log the error and try the next proxy
+                print(
+                    f"Proxy failed with status code {response.status_code}.")
+    except:
+        # If an error occurs, print the traceback and try the next proxy
+        print(f"Proxy threw an exception.")
+        traceback.print_exc()
 
 
 def create_image_name(sheet_index: int, book_name: str, author_name: str) -> str:
@@ -106,7 +137,7 @@ def main():
     if args.start_index > args.end_index:
         return print("Start index should be less than end index.")
 
-    min_row = args.start_index+2
+    min_row = args.start_index+1
     max_row = args.end_index+1
 
     # Load the Excel workbook and get the first sheet
@@ -131,6 +162,10 @@ def main():
     # Loop over the rows in the Excel sheet
     # assuming first row is the header
     for i, row in enumerate(sheet.iter_rows(min_row=min_row, max_row=max_row)):
+        image_url = row[0].value
+        if image_url:
+            continue
+
         # replace 0 with actual index for book name
         book_name = row[2].value
         # replace 1 with actual index for author name

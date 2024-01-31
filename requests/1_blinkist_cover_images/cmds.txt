@@ -1,0 +1,10 @@
+scp -i power-web-crawler-server.pem ubuntu@18.141.199.99:/home/ubuntu/1_blinkist_cover_images/27-categories-books.xlsx ./result/18.141.199.99.xlsx
+scp -i power-web-crawler-server.pem ubuntu@13.215.173.59:/home/ubuntu/1_blinkist_cover_images/27-categories-books.xlsx ./result/13.215.173.59.xlsx
+scp -i power-web-crawler-server.pem ubuntu@18.141.183.9:/home/ubuntu/1_blinkist_cover_images/27-categories-books.xlsx ./result/18.141.183.9.xlsx
+scp -i power-web-crawler-server.pem ubuntu@13.213.74.168:/home/ubuntu/1_blinkist_cover_images/27-categories-books.xlsx ./result/13.213.74.168.xlsx
+
+
+scp -i power-web-crawler-server.pem -r ubuntu@18.141.199.99:/home/ubuntu/1_blinkist_cover_images/cover_images backups/18.141.199.99/
+scp -i power-web-crawler-server.pem -r ubuntu@13.215.173.59:/home/ubuntu/1_blinkist_cover_images/cover_images backups/13.215.173.59/
+scp -i power-web-crawler-server.pem -r ubuntu@13.213.74.168:/home/ubuntu/1_blinkist_cover_images/cover_images backups/13.213.74.168/
+scp -i power-web-crawler-server.pem -r ubuntu@18.141.183.9:/home/ubuntu/1_blinkist_cover_images/cover_images backups/18.141.183.9/
