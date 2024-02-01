@@ -32,6 +32,8 @@ HEADERS = {
 # Define the base URL for Google Search
 GOOGLE_SEARCH_URL = 'https://www.google.com/search'
 
+AMAZON_SEARCH_URL = 'https://www.amazon.com/s'
+
 # Create directory for cover images if it doesn't exist
 if not os.path.exists(COVER_IMAGES_PATH):
     os.makedirs(COVER_IMAGES_PATH)
@@ -80,9 +82,9 @@ def search_google(book_name, author_name):
     '''Function to search Google for Amazon book page'''
     try:
         count = 0
+        query = f'site:amazon.com "{book_name}" "{author_name}"'
         while count < 20:
             count += 1
-            query = f'site:amazon.com "{book_name}" "{author_name}"'
             response = requests.get(
                 GOOGLE_SEARCH_URL, headers=HEADERS, params={'q': query}, proxies={
                     'http': "http://proxy005844-rotate:proxy005844@p.webshare.io:80",
@@ -100,6 +102,7 @@ def search_google(book_name, author_name):
                 link = first_result.get("href")
                 return link
             else:
+                query = f'site:amazon.com {book_name} {author_name}'
                 # If the response status code is not 200, log the error and try the next proxy
                 print(
                     f"Proxy failed with status code {response.status_code}.")
