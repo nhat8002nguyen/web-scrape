@@ -63,14 +63,16 @@ def setup_and_run(instance: CloudInstance, all_ssh_keys_name: set[str]):
         user=instance.username,
         connect_kwargs={'key_filename': ssh_key_path},
     ) as c:
+        if is_screen_session_running(c, "email_spider"):
+            return f"INFO: Email spider is still running on {instance.username}@{instance.ip_address}"
+        elif is_screen_session_running(c, "collect_results"):
+            # quit current collect_results task
+            c.run("screen -X -S collect_results quit")
+
         try:
             find_email_spider = c.run("find email_spider")
         except:
-            c.run('sudo apt update -y && sudo apt upgrade -y')
-
-            # install python3.10
-            c.run("sudo add-apt-repository ppa:deadsnakes/ppa -y")
-            c.run("sudo apt update -y")
+            c.run('sudo apt update -y')
             c.run("sudo apt install -y python3.10")
             c.run('sudo apt install -y python3-pip')
             c.run("sudo apt install -y python3-venv")
@@ -79,15 +81,15 @@ def setup_and_run(instance: CloudInstance, all_ssh_keys_name: set[str]):
             c.run("sudo apt install -y python3.10-lib2to3")
 
             # install google chrome
-            find_google_deb = c.run(
-                "find -name google-chrome-stable_current_amd64.deb")
-            if len(find_google_deb.stdout) == 0:
-                c.run(
-                    "wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
-            try:
-                c.run("sudo dpkg -i google-chrome-stable_current_amd64.deb")
-            except:
-                c.run("sudo apt -f install -y")
+            # find_google_deb = c.run(
+            #     "find -name google-chrome-stable_current_amd64.deb")
+            # if len(find_google_deb.stdout) == 0:
+            #     c.run(
+            #         "wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
+            # try:
+            #     c.run("sudo dpkg -i google-chrome-stable_current_amd64.deb")
+            # except:
+            #     c.run("sudo apt -f install -y")
 
             c.run(
                 "mkdir email_spider && cd email_spider && mkdir domains_inputs outputs app")
@@ -110,25 +112,23 @@ def setup_and_run(instance: CloudInstance, all_ssh_keys_name: set[str]):
               remote=f'{REMOTE_ROOT_PATH}/email_spider/app/')
         c.put(f'{APP_PATH}/utilities.py',
               remote=f'{REMOTE_ROOT_PATH}/email_spider/app/')
+        c.put(f'{APP_PATH}/combine_csv.py',
+              remote=f'{REMOTE_ROOT_PATH}/email_spider/app/')
 
         if instance.for_storage == "no":
             for csv_name in instance.csv_names:
                 c.put(f"{INPUT_PATH}/{csv_name}",
                       remote=f"{REMOTE_ROOT_PATH}/email_spider/domains_inputs/")
 
-        c.put(f"{ROOT_PATH}/requirements.txt",
-              remote=f"{REMOTE_ROOT_PATH}/email_spider/")
-
         # install pip packages
-        c.run("cd ~/email_spider/ && python3.10 -m pip install -r requirements.txt")
+        try:
+            c.run(f"find {REMOTE_ROOT_PATH}/email_spider/requirements.txt")
+        except:
+            c.put(f"{ROOT_PATH}/requirements.txt",
+                  remote=f"{REMOTE_ROOT_PATH}/email_spider/")
+            c.run("cd ~/email_spider/ && python3.10 -m pip install -r requirements.txt")
 
         c.run("cd ~/email_spider/ && mv .env.prod .env")
-
-        if is_screen_session_running(c, "email_spider"):
-            return f"INFO: Email spider is still running on {instance.username}@{instance.ip_address}"
-        elif is_screen_session_running(c, "collect_results"):
-            # quit current collect_results task
-            c.run("screen -X -S collect_results quit")
 
         # Run the Python script
         if instance.for_storage == "no":
