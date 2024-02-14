@@ -23,11 +23,11 @@ class AryavaidyasalaPipeline:
         self.flush_count = 10
 
     def open_spider(self, spider):
-        self.cover_file = open(self.cover_output_path, 'wb')
+        self.cover_file = open(self.cover_output_path, 'ab')
         self.cover_exporter = CsvItemExporter(self.cover_file)
         self.cover_exporter.start_exporting()
 
-        self.detail_file = open(self.detail_output_path, 'wb')
+        self.detail_file = open(self.detail_output_path, 'ab')
         self.detail_exporter = CsvItemExporter(self.detail_file)
         self.detail_exporter.start_exporting()
 
@@ -81,4 +81,24 @@ class AryavaidyasalaPipeline:
             if self.detail_count % self.flush_count == 0:
                 self.detail_file.flush()
 
+        elif item["type"] == "images":
+            if item["id"] in self.ids_seen:
+                raise DropItem(f"Duplicate: {item['id']}")
+
+            self.ids_seen.add(item["id"])
+
+            row = {}
+            row["id"] = item_dict["id"]
+            row["Product Link"] = item_dict["product_url"]
+            row["Images"] = item_dict["images"]
+            row["Indication"] = item_dict["indication"]
+            row["Usage"] = item_dict["usage"]
+            row["Dosage"] = item_dict["dosage"]
+            row["Caution"] = item_dict["caution"]
+
+            self.detail_exporter.export_item(row)
+
+            self.detail_count += 1
+            if self.detail_count % self.flush_count == 0:
+                self.detail_file.flush()
         return item
