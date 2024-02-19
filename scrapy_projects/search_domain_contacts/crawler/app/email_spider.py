@@ -35,8 +35,8 @@ class EmailSpider(scrapy.Spider):
     csv_file = 'first.csv'
 
     proxy = {
-        'http': "http://webshareio005844-rotate:webshareio005844@p.webshare.io:80",
-        'https': "http://webshareio005844-rotate:webshareio005844@p.webshare.io:80",
+        'http': os.environ["PROXY_ROTATING_ENDPOINT"],
+        'https': os.environ["PROXY_ROTATING_ENDPOINT"],
     }
 
     def __init__(self, file_name: str = "first.csv", start_index: int = 0, end_index: int = 0, **kwargs: Any):
@@ -209,20 +209,29 @@ def findSuccessfulUrls_v1(csv_file: str, start_index: str, end_index: str):
 def makeRequests(rows: list[str], start_index: str, end_index: str) -> list[dict]:
     domains = list[dict]()
     with requests.Session() as session:
-        # session.proxies = proxy
+        if "PROXY_ROTATING_ENDPOINT" in os.environ:
+            session.proxies = {
+                "http": os.environ["PROXY_ROTATING_ENDPOINT"],
+                "https": os.environ["PROXY_ROTATING_ENDPOINT"],
+            }
         for i in tqdm(range(start_index, end_index+1)):
             row = rows[i]
             xID = str(row['XID']).lower()
             lower_domain = str(row['DOMAIN']).lower()
             url = 'https://' + lower_domain
-            try:
-                response = session.get(url, timeout=3)
-            except:
-                print(
-                    f"INFO: Connection FAIL: https://{lower_domain} not found.")
-                continue
 
-            if response.status_code != 200:
+            count = 0
+            response = None
+            while count < 3:
+                count += 1
+                try:
+                    response = session.get(url, timeout=3)
+                except:
+                    print(
+                        f"INFO: Connection FAIL: https://{lower_domain} not found.")
+                    continue
+
+            if response == None or response.status_code != 200:
                 continue
 
             print(f"INFO: Connection SUCCESS: {response.url}")

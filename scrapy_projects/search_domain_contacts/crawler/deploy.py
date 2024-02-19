@@ -80,17 +80,6 @@ def setup_and_run(instance: CloudInstance, all_ssh_keys_name: set[str]):
             c.run("sudo apt install -y python3.10-distutils")
             c.run("sudo apt install -y python3.10-lib2to3")
 
-            # install google chrome
-            # find_google_deb = c.run(
-            #     "find -name google-chrome-stable_current_amd64.deb")
-            # if len(find_google_deb.stdout) == 0:
-            #     c.run(
-            #         "wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
-            # try:
-            #     c.run("sudo dpkg -i google-chrome-stable_current_amd64.deb")
-            # except:
-            #     c.run("sudo apt -f install -y")
-
             c.run(
                 "mkdir email_spider && cd email_spider && mkdir domains_inputs outputs app")
 
@@ -152,10 +141,11 @@ def setup_and_run(instance: CloudInstance, all_ssh_keys_name: set[str]):
 
         elif instance.for_storage == "yes":
             try:
-                c.run("find email_spider/remote_data/")
+                c.run("find email_spider/clouds/")
             except:
                 c.run(
-                    "cd ~/email_spider && mkdir remote_data clouds")
+                    "cd ~/email_spider && mkdir clouds")
+                c.run("cd ~ && mkdir -p remote_data/csv_outputs")
 
             c.put(f"{ROOT_PATH}/clouds/instances.csv",
                   remote=f"{REMOTE_ROOT_PATH}/email_spider/clouds/")

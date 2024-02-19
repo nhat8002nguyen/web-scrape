@@ -106,8 +106,8 @@ def load_file_from_instance(instance: CloudInstance) -> str:
                 print(f"An error occurred: {e}")
                 break  # Or remove to attempt reconnection in the next loop
 
-            print("Waiting for 5 minutes...")
-            time.sleep(300)
+            print("Waiting for 1 minutes...")
+            time.sleep(60)
 
         return f"Disconnect to {username}@{hostname}"
     except KeyboardInterrupt:
