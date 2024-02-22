@@ -222,10 +222,12 @@ def makeRequests(rows: list[str], start_index: str, end_index: str) -> list[dict
 
             count = 0
             response = None
-            while count < 3:
+            while count < 2:
                 count += 1
                 try:
                     response = session.get(url, timeout=3)
+                    if response.status_code == 200:
+                        break
                 except:
                     print(
                         f"INFO: Connection FAIL: https://{lower_domain} not found.")

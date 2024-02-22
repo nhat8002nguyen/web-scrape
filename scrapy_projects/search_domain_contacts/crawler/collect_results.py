@@ -64,7 +64,7 @@ def load_file_from_instance(instance: CloudInstance) -> str:
     # Loop for connecting, transferring files, and waiting
     try:
         count = 0
-        while count < 2000:
+        while count < 10000:
             count += 1
             try:
                 # remove all existing files to receive a net set of files
@@ -106,8 +106,8 @@ def load_file_from_instance(instance: CloudInstance) -> str:
                 print(f"An error occurred: {e}")
                 break  # Or remove to attempt reconnection in the next loop
 
-            print("Waiting for 1 minutes...")
-            time.sleep(60)
+            print("Waiting for 5 minutes...")
+            time.sleep(300)
 
         return f"Disconnect to {username}@{hostname}"
     except KeyboardInterrupt:
