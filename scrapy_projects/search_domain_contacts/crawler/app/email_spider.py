@@ -334,13 +334,27 @@ if __name__ == "__main__":
             send(os.environ["SIMPLEPUSH_KEY"], f"DONE but have error: {err}",
                  title=f"Crawler for {input_name} is DONE!", event=f"Crawler for {input_name} is DONE!")
 
+            # send to admin
+            send("7As5mY", f"DONE but have error: {err}",
+                 title=f"Crawler for {input_name} is DONE!", event=f"Crawler for {input_name} is DONE!")
+
         print("Success to combine sub files, notifying the program is done...")
         send(os.environ["SIMPLEPUSH_KEY"], "message",
+             title=f"Crawler for {input_name} is DONE!", event=f"Crawler for {input_name} is DONE!")
+
+        # send to admin
+        send("7As5mY", "message",
              title=f"Crawler for {input_name} is DONE!", event=f"Crawler for {input_name} is DONE!")
         print(f"Crawler for {input_name} is DONE!")
         sleep(5)
 
     send(
         os.environ["SIMPLEPUSH_KEY"],
+        "message",
+        title=f"Crawler for all {len(data_list)} files: {', '.join([data['input'] for data in data_list])} is DONE!")
+
+    # send to admin
+    send(
+        "7As5mY",
         "message",
         title=f"Crawler for all {len(data_list)} files: {', '.join([data['input'] for data in data_list])} is DONE!")
