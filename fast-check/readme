@@ -1,0 +1,5 @@
+### Download chromedriver here:
+https://googlechromelabs.github.io/chrome-for-testing/#stable
+
+### Allow access to chromedriver on MacOS
+xattr -d com.apple.quarantine /path/to/chromedriver

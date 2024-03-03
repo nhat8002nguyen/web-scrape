@@ -1,42 +1,85 @@
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.chrome.webdriver import WebDriver
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
-import undetected_chromedriver as uc
+from selenium.common.exceptions import NoSuchElementException, TimeoutException, MoveTargetOutOfBoundsException
+from selenium.webdriver.common.by import By
 from seleniumbase import Driver
-import requests
-from bs4 import BeautifulSoup
 
-import pandas as pd
 from time import sleep, perf_counter
-import os
-import dotenv
-from tqdm import tqdm
+from selenium.webdriver.common.action_chains import ActionChains
+import easyocr
 
 
 def main():
     # Using selenium
     print("Started the program!")
-    dotenv.load_dotenv()
 
-    driver: WebDriver = Driver(uc=True, no_sandbox=True, headless=False)
-    wait = WebDriverWait(driver, 30)
+    driver: WebDriver = Driver(headless=False, no_sandbox=True, uc=True)
+    driver.maximize_window()
 
-    driver.get("https://allpeople.com/a+a+association_abta-us")
+    wait = WebDriverWait(driver, 120)
 
-    sleep(1000)
+    driver.get("https://demo.luckystreaklive.com")
 
-    # Using Requests and BeautifulSoup
-    # resp = requests.get("https://allpeople.com/ajah+sneed_belk_7067-us")
-    # if resp.status_code != 200:
-    #     print(f"Error getting the page: {resp.status_code}")
-    #     return
+    # username_box = driver.find_element(
+    #     by=By.CSS_SELECTOR,
+    #     value="input[id=sUsername]"
+    # )
+    # username_box.send_keys("LSICE24_143")
 
-    # soup = BeautifulSoup(resp.content, "html.parser")
-    # email = soup.select_one("div.c-email").text
-    # print(email)
+    # pass_box = driver.find_element(
+    #     by=By.CSS_SELECTOR,
+    #     value="input[id=sUserpassword]"
+    # )
+    # pass_box.send_keys("7ucky5tr34k_321")
 
-    print("Done")
+    # button = driver.find_element(
+    #     by=By.CSS_SELECTOR,
+    #     value="button[id=login-btn]"
+    # )
+    # button.click()
+
+    # game1 = wait.until(EC.presence_of_element_located(
+    #     (
+    #         By.CSS_SELECTOR,
+    #         "a[id='Game1']"
+    #     )
+    # ))
+    # driver.get(game1.get_attribute("href"))
+
+    sleep(120)
+
+    body = driver.find_element(by=By.CSS_SELECTOR, value="body")
+
+    # Get the size of the body element
+    size = body.size
+
+    # Calculate the middle of the body horizontally (x-coordinate)
+    middle_x = size['width'] // 2
+    # Calculate the y-coordinate at the bottom of the body
+    bottom_y = size['height'] - 10
+    actions = ActionChains(driver)
+    actions.move_by_offset(middle_x, bottom_y)
+
+    while True:
+        if driver.window_handles[1] != None:
+            driver.switch_to.window(driver.window_handles[1])
+        driver.save_screenshot("./room.png")
+
+        reader = easyocr.Reader(['en'])  # specify language(s)
+        results = reader.readtext('./room.png')
+        for (bbox, text, prob) in results:
+            if text == "REBET":
+                try:
+                    actions.click()
+                    actions.perform()
+                    print("Clicked the button REBET!")
+
+                    break
+                except MoveTargetOutOfBoundsException as e:
+                    print("Move target failed, retrying...")
+
+        sleep(5)
 
 
 if __name__ == "__main__":
