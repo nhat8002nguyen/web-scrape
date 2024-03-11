@@ -1,0 +1,18 @@
+// Run on clouds
+screen -S spider1
+source crawler/bin/activate; scrapy crawl debank_syve_ai -a start_index=2000 -a end_index=2299
+
+screen -S spider2
+source crawler/bin/activate; scrapy crawl debank_syve_ai_1 -a start_index=2300 -a end_index=2599
+
+screen -S spider3
+source crawler/bin/activate; scrapy crawl debank_syve_ai_2 -a start_index=2600 -a end_index=2999
+
+screen -S spider4
+source crawler/bin/activate; scrapy crawl debank_syve_ai_2 -a start_index=1500 -a end_index=1999
+
+// Get data to local
+scp -i crawler.pem -r ubuntu@54.254.187.251:/home/ubuntu/debank_com/output ./output/cloud
+
+// Update spider file
+scp -i crawler.pem -r ./debank_com/spiders/ ubuntu@54.254.187.251:/home/ubuntu/debank_com/debank_com

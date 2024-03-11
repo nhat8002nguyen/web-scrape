@@ -54,12 +54,14 @@ def main():
     # Get the size of the body element
     size = body.size
 
-    # Calculate the middle of the body horizontally (x-coordinate)
     middle_x = size['width'] // 2
-    # Calculate the y-coordinate at the bottom of the body
     bottom_y = size['height'] - 10
+    middle_y = size['height'] // 2 + 20
     actions = ActionChains(driver)
     actions.move_by_offset(middle_x, bottom_y)
+
+    keepPlayingActions = ActionChains(driver)
+    keepPlayingActions.move_by_offset(middle_x, middle_y)
 
     while True:
         if driver.window_handles[1] != None:
@@ -78,6 +80,14 @@ def main():
                     break
                 except MoveTargetOutOfBoundsException as e:
                     print("Move target failed, retrying...")
+
+            if str(text).lower() == "keep playing":
+                try:
+                    keepPlayingActions.click()
+                    keepPlayingActions.perform()
+                    break
+                except:
+                    pass
 
         sleep(5)
 

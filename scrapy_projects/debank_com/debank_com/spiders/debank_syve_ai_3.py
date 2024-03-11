@@ -25,12 +25,12 @@ import dotenv
 dotenv.load_dotenv()
 
 
-class DebankSyveAiSpider(scrapy.Spider):
-    name = "debank_syve_ai"
+class DebankSyveAiSpider3(scrapy.Spider):
+    name = "debank_syve_ai_3"
     allowed_domains = ["debank.com"]
 
     def __init__(self, start_index=None, end_index=None, *args, **kwargs):
-        super(DebankSyveAiSpider, self).__init__(*args, **kwargs)
+        super(DebankSyveAiSpider3, self).__init__(*args, **kwargs)
         # Convert parameters to integers and handle defaults if necessary
         self.start_index = int(start_index) if start_index is not None else 0
         self.end_index = int(end_index) if end_index is not None else 0
