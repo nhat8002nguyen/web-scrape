@@ -90,16 +90,14 @@ def main():
                 is_end = False
                 post_ids.add(post_id)
 
-                cleaned_content = clean_content(post_text)
-
                 writer.writerow(
-                    [f'Post number {added_count+1}', cleaned_content])
+                    [f'Post number {added_count+1}', post_text])
 
                 doc.add_heading(f'Post number {added_count+1}:', level=2)
                 added_count += 1
-                doc.add_paragraph(cleaned_content)
+                doc.add_paragraph(post_text)
 
-                print(cleaned_content)
+                print(post_text)
                 print("-----------")
 
         if is_end:
@@ -132,37 +130,6 @@ def get_scroll_height(driver: WebDriver):
 
 def scroll_to_bottom(driver: WebDriver):
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-
-
-def clean_content(content: str) -> str:
-    content = convert_special_characters_to_text(content)
-    content = remove_emojis(content)
-    content = content.lower()
-
-    return content
-
-
-def remove_emojis(text: str) -> str:
-    # Regex pattern to match emojis, ensuring we don't remove Chinese characters.
-    # We use a broad regex pattern to match emojis that excludes the Chinese character range.
-    emoji_pattern = re.compile(
-        "["
-        "\U0001F600-\U0001F64F"  # emoticons
-        "\U0001F680-\U0001F6FF"  # transport & map symbols
-        ']+',
-        flags=re.UNICODE
-    )
-
-    # Substitute found emojis with an empty string
-    return emoji_pattern.sub(r'', text)
-
-
-def convert_special_characters_to_text(input_string: str):
-    converted_string = input_string.replace("/", " slash")
-    converted_string = input_string.replace("|", " or")
-    converted_string = converted_string.replace("&", " and ")
-
-    return converted_string
 
 
 if __name__ == "__main__":
