@@ -1,6 +1,9 @@
+import simplepush
+import requests
 from tqdm import tqdm
 import csv
 from docx import Document
+from docx.shared import Inches
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 import re
@@ -61,15 +64,16 @@ def main():
     if not os.path.exists(doc_path):
         doc = Document()
     else:
-        doc = Document(doc_path)
+        os.remove(doc_path)
+        doc = Document()
 
     added_count = 0
     post_ids = set()
 
     while True:
         current_posts = wait.until(EC.presence_of_all_elements_located((
-            By.CSS_SELECTOR,
-            '.scaffold-finite-scroll__content .break-words'
+            By.XPATH,
+            '//div[contains(@class, "scaffold-finite-scroll__content")]//div[contains(@class, "feed-shared-update-v2__description-wrapper")]'
         )))
 
         len_posts = len(current_posts)
@@ -81,7 +85,13 @@ def main():
             writer = csv.writer(file)
 
             for post in current_posts[start_index:]:
-                post_text = post.text
+                try:
+                    post_text = post.find_element(
+                        by=By.XPATH,
+                        value=".//span[contains(@class, 'break-words')]"
+                    ).text
+                except:
+                    post_text = ""
 
                 post_id = post_text[0:100]
                 if post_id in post_ids:
@@ -90,15 +100,33 @@ def main():
                 is_end = False
                 post_ids.add(post_id)
 
+                try:
+                    images = post.find_elements(
+                        by=By.XPATH,
+                        value='./following-sibling::div[contains(@class, "update-components-image")]//img'
+                    )
+                except:
+                    images = []
+
+                image_names = []
+                for i, img in enumerate(images):
+                    src = img.get_attribute("src")
+                    name = downloadImage(added_count + 1, i, src)
+                    if name != "":
+                        image_names.append(name)
+
                 writer.writerow(
-                    [f'Post number {added_count+1}', post_text])
+                    [f'Post number {added_count+1}', post_text, "\n".join(image_names)])
 
                 doc.add_heading(f'Post number {added_count+1}:', level=2)
                 added_count += 1
                 doc.add_paragraph(post_text)
+                for img_name in image_names:
+                    doc.add_picture(
+                        f"{os.environ['ROOT']}/images/{img_name}", width=Inches(5))
 
                 print(post_text)
-                print("-----------")
+                print("----------------------------------------------------")
 
         if is_end:
             break
@@ -120,8 +148,25 @@ def main():
 
     doc.save(doc_path)
 
+    simplepush.send(
+        key=os.environ["SIMPLEPUSH"], title='Done scraping linkedin posts!',
+        message=f'Scraped total {len(post_ids)} from linkedin account!')
+
     print("Done! Program closes after 1 min")
-    sleep(60)
+
+
+def downloadImage(index: int, image_index: int, src: str) -> str:
+    response = requests.get(src)
+
+    if response.status_code == 200:
+        with open(f"{os.environ['ROOT']}/images/post_{index}_{image_index}.jpg", 'wb') as file:
+            file.write(response.content)
+        print("Image downloaded successfully.")
+        return f"post_{index}_{image_index}.jpg"
+    else:
+        print("Error: Failed to download image.")
+
+    return ""
 
 
 def get_scroll_height(driver: WebDriver):

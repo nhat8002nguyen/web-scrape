@@ -1,95 +1,19 @@
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.chrome.webdriver import WebDriver
-from selenium.common.exceptions import NoSuchElementException, TimeoutException, MoveTargetOutOfBoundsException
-from selenium.webdriver.common.by import By
-from seleniumbase import Driver
-
-from time import sleep, perf_counter
-from selenium.webdriver.common.action_chains import ActionChains
-import easyocr
+from openai import OpenAI
+import os
+import dotenv
 
 
 def main():
-    # Using selenium
-    print("Started the program!")
+    client = OpenAI(api_key=os.environ["OPENAI_KEY"])
 
-    driver: WebDriver = Driver(headless=False, no_sandbox=True, uc=True)
-    driver.maximize_window()
+    prompt = "Write a short story about a dog who goes on an adventure."
 
-    wait = WebDriverWait(driver, 120)
+    response = client.completions.create(
+        model="gpt-3.5-turbo-instruct",
+        prompt=prompt
+    )
 
-    driver.get("https://demo.luckystreaklive.com")
-
-    # username_box = driver.find_element(
-    #     by=By.CSS_SELECTOR,
-    #     value="input[id=sUsername]"
-    # )
-    # username_box.send_keys("LSICE24_143")
-
-    # pass_box = driver.find_element(
-    #     by=By.CSS_SELECTOR,
-    #     value="input[id=sUserpassword]"
-    # )
-    # pass_box.send_keys("7ucky5tr34k_321")
-
-    # button = driver.find_element(
-    #     by=By.CSS_SELECTOR,
-    #     value="button[id=login-btn]"
-    # )
-    # button.click()
-
-    # game1 = wait.until(EC.presence_of_element_located(
-    #     (
-    #         By.CSS_SELECTOR,
-    #         "a[id='Game1']"
-    #     )
-    # ))
-    # driver.get(game1.get_attribute("href"))
-
-    sleep(120)
-
-    body = driver.find_element(by=By.CSS_SELECTOR, value="body")
-
-    # Get the size of the body element
-    size = body.size
-
-    middle_x = size['width'] // 2
-    bottom_y = size['height'] - 10
-    middle_y = size['height'] // 2 + 20
-    actions = ActionChains(driver)
-    actions.move_by_offset(middle_x, bottom_y)
-
-    keepPlayingActions = ActionChains(driver)
-    keepPlayingActions.move_by_offset(middle_x, middle_y)
-
-    while True:
-        if driver.window_handles[1] != None:
-            driver.switch_to.window(driver.window_handles[1])
-        driver.save_screenshot("./room.png")
-
-        reader = easyocr.Reader(['en'])  # specify language(s)
-        results = reader.readtext('./room.png')
-        for (bbox, text, prob) in results:
-            if text == "REBET":
-                try:
-                    actions.click()
-                    actions.perform()
-                    print("Clicked the button REBET!")
-
-                    break
-                except MoveTargetOutOfBoundsException as e:
-                    print("Move target failed, retrying...")
-
-            if str(text).lower() == "keep playing":
-                try:
-                    keepPlayingActions.click()
-                    keepPlayingActions.perform()
-                    break
-                except:
-                    pass
-
-        sleep(5)
+    print(response.choices[0].text)
 
 
 if __name__ == "__main__":
