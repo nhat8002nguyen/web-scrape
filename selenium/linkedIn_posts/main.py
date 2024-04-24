@@ -77,7 +77,7 @@ def main():
         )))
 
         len_posts = len(current_posts)
-        start_index = 0 if len_posts < 20 else len_posts-20
+        start_index = 0 if len_posts < 50 else len_posts-50
         is_end = True
 
         # Open the file in append mode ('a') and write the new data
