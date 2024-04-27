@@ -1,6 +1,6 @@
 ## how to run this
 
-1. Install dependencies by running 'python3.10 -m pip install -r requirements.txt'
+1. Install dependencies with python3.10
 
 2. Modify the 'ROOT' variable in .env to match the project folder path of current machine. 
 

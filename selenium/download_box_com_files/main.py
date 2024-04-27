@@ -1,25 +1,14 @@
 import argparse
-import simplepush
-import requests
 from tqdm import tqdm
-import csv
-import re
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.chrome.webdriver import WebDriver
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
-import undetected_chromedriver as uc
 from selenium.webdriver.common.action_chains import ActionChains
 
 from seleniumbase import Driver
 
-import pandas as pd
-from time import sleep, perf_counter
+from time import sleep
 import os
 import dotenv
 
