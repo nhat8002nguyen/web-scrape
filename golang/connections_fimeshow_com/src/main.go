@@ -7,7 +7,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"net/http"
 	"net/mail"
+	"net/url"
 	"os"
 	"strings"
 	"time"
@@ -69,7 +71,7 @@ func main() {
 	defer cancel()
 
 	// give the browser up to 10 seconds to start
-	ctx, cancel = context.WithTimeout(ctx, 3600*time.Second)
+	ctx, cancel = context.WithTimeout(ctx, 10000*time.Second)
 	defer cancel()
 
 	err = chromedp.Run(ctx, setCookies(cookies...))
@@ -98,13 +100,35 @@ func main() {
 	}
 
 	collectProfileInfo(ctx, urls)
+
+	notifyProcessDone()
+}
+
+func notifyProcessDone() {
+	apiUrl := "https://api.simplepush.io/send"
+	data := url.Values{}
+	data.Set("key", "nathan123")
+	data.Set("title", "Golang Crawling")
+	data.Set("msg", "Crawling process is done!")
+	data.Set("event", "Event done")
+
+	u, _ := url.ParseRequestURI(apiUrl)
+	urlStr := u.String()
+
+	client := &http.Client{}
+	r, _ := http.NewRequest(http.MethodPost, urlStr, strings.NewReader(data.Encode()))
+
+	client.Do(r)
 }
 
 func collectProfileInfo(ctx context.Context, urls []string) {
 	// Navigate each URL
-	outputFile, err := os.Create("output.csv")
+	outputFile, err := os.Open("output.csv")
 	if err != nil {
-		log.Fatal(err)
+		outputFile, err = os.Create("output.csv")
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
 	defer outputFile.Close()
 
@@ -117,29 +141,41 @@ func collectProfileInfo(ctx context.Context, urls []string) {
 		colly.MaxDepth(2),
 	)
 
-	for _, url := range urls[:30] {
-		profile := Profile{}
+	for _, url := range urls[1550:] {
+		done := make(chan bool, 1)
 
-		var body string
-		err := chromedp.Run(ctx,
-			// TODO: remove hard code
-			chromedp.Navigate(url),
-			chromedp.WaitVisible(`main div ~ h2`, chromedp.ByQuery),
-			chromedp.Text(`main div ~ h2`, &profile.ProfileName, chromedp.ByQuery),
-			chromedp.WaitVisible(`main h2 ~ h4`, chromedp.ByQuery),
-			chromedp.WaitVisible(`main h4 ~ h3`, chromedp.ByQuery),
-			chromedp.Text(`main h4 ~ h3`, &profile.CompanyName, chromedp.ByQuery),
-			chromedp.WaitVisible(`//main//h2[contains(text(), "About me")]`, chromedp.BySearch),
-			chromedp.OuterHTML("html", &body),
-		)
-		if err != nil {
-			log.Fatal(err)
+		go func(url string, done chan bool) {
+			profile := Profile{}
+
+			var body string
+			err := chromedp.Run(ctx,
+				// TODO: remove hard code
+				chromedp.Navigate(url),
+				chromedp.WaitVisible(`main div ~ h2`, chromedp.ByQuery),
+				chromedp.Text(`main div ~ h2`, &profile.ProfileName, chromedp.ByQuery),
+				chromedp.Text(`main h4 ~ h3`, &profile.CompanyName, chromedp.ByQuery),
+				chromedp.WaitVisible(`//main//h2[contains(text(), "About me")]`, chromedp.BySearch),
+				chromedp.OuterHTML("html", &body),
+			)
+			if err != nil {
+				log.Fatal(err)
+			}
+
+			// Use the body variable for parsing or further processing
+			processBody(c, body, url, &profile)
+			csvWriter.Write([]string{profile.ProfileName, profile.CompanyName, profile.Email, profile.LinkedIn})
+			csvWriter.Flush()
+
+			done <- true
+		}(url, done)
+
+		select {
+		case <-done:
+			fmt.Println("Operation finished successfully.")
+		case <-time.After(15 * time.Second):
+			chromedp.Stop()
+			fmt.Println("Operation timed out, moving on.")
 		}
-
-		// Use the body variable for parsing or further processing
-		processBody(c, body, url, &profile)
-		csvWriter.Write([]string{profile.ProfileName, profile.CompanyName, profile.Email, profile.LinkedIn})
-		csvWriter.Flush()
 	}
 
 	if err = csvWriter.Error(); err != nil {
@@ -192,7 +228,8 @@ func collectInfoFromWebsite(c *colly.Collector, url string) (string, string) {
 	email := ""
 
 	c.OnHTML("a[href]", func(h *colly.HTMLElement) {
-		if strings.Contains(strings.ToLower(h.Attr("href")), "contact") {
+		if strings.Contains(strings.ToLower(h.Attr("href")), "contact") ||
+			strings.Contains(strings.ToLower(h.Text), "contact") {
 			c.Visit(h.Request.AbsoluteURL(h.Attr("href")))
 		}
 	})
