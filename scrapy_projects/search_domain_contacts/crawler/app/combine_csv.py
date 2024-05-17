@@ -44,6 +44,7 @@ def combine_files(prefix) -> bool:
             output_filename = f"combined_{prefix}_{output_type}_output.csv"
             concatenate_files(files, output_filename)
 
+    combine_email_phone(prefix)
     return True
 
 
