@@ -4,21 +4,21 @@ import os
 import dotenv
 dotenv.load_dotenv()
 
+CSV_INPUT_PATH = os.environ["PROJECT_ROOT"] + "/" + "domains_inputs"
 CSV_OUTPUT_PATH = os.environ["PROJECT_ROOT"] + "/" + "csv_outputs"
 
-# TODO: Rename those file to match your in the 'csv_outputs' folder
-INPUT_FILE = 'one.csv'
-EMAIL_FILE = 'combined_one_email_output.csv'
-PHONE_FILE = 'combined_one_phone_output.csv'
-FINAL_FILE = 'one_output.csv'
 
+def combine_email_phone(prefix: str):
 
-def combine_email_phone():
+    input_file = f'{prefix}.csv'
+    email_file = f'combined_{prefix}_email_output.csv'
+    phone_file = f'combined_{prefix}_phone_output.csv'
+    final_file = f'combined_{prefix}_output.csv'
     # Read the CSV files
     # assuming the file is named emails.csv
-    df_emails = pd.read_csv(f'{CSV_OUTPUT_PATH}/{EMAIL_FILE}')
+    df_emails = pd.read_csv(f'{CSV_OUTPUT_PATH}/{email_file}')
     # assuming the file is named phones.csv
-    df_phones = pd.read_csv(f'{CSV_OUTPUT_PATH}/{PHONE_FILE}')
+    df_phones = pd.read_csv(f'{CSV_OUTPUT_PATH}/{phone_file}')
 
     # Sort the dataframes just in case they are not sorted
     df_emails = df_emails.sort_values(by=['domain', 'email'])
@@ -49,7 +49,7 @@ def combine_email_phone():
 
     # Load the data from both CSV files
     # Replace with your actual file path
-    first_csv = pd.read_csv(f'{CSV_OUTPUT_PATH}/{INPUT_FILE}')
+    first_csv = pd.read_csv(f'{CSV_INPUT_PATH}/{input_file}')
 
     # Merge the two DataFrames on the XID column
     merged_csv = pd.merge(
@@ -57,9 +57,6 @@ def combine_email_phone():
 
     # Save the merged DataFrame to a new CSV file
     # Replace with your desired file path
-    merged_csv.to_csv(f'{CSV_OUTPUT_PATH}/{FINAL_FILE}', index=False)
+    merged_csv.to_csv(f'{CSV_OUTPUT_PATH}/{final_file}', index=False)
 
     print("Merged file, and added additional values successfully!")
-
-
-combine_email_phone()

@@ -67,7 +67,7 @@ def load_file_from_instance(instance: CloudInstance) -> str:
         while count < 10000:
             count += 1
             try:
-                # remove all existing files to receive a net set of files
+                # remove all existing files to receive a next set of files
                 for csv_name in instance.csv_names:
                     try:
                         prefix = csv_name[:csv_name.rfind(".")]
