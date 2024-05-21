@@ -46,7 +46,16 @@ def combine_files(prefix) -> bool:
             concatenate_files(files, output_filename)
 
     combine_email_phone(prefix=prefix)
+    remove_email_phone_files(prefix)
     return True
+
+
+def remove_email_phone_files(prefix: str):
+    try:
+        os.remove(f"{folder_path}/combined_{prefix}_email_output.csv")
+        os.remove(f"{folder_path}/combined_{prefix}_phone_output.csv")
+    except:
+        print("Failed to remove combined email/phone outputs")
 
 
 def delete_sub_files(prefix):
