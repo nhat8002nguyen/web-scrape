@@ -1,0 +1,13 @@
+mkdir scraper
+cd scraper
+sudo apt update
+sudo apt install python3-pip
+sudo apt install python3-venv
+python3 -m venv scrape_env  
+source scrape_env/bin/activate
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb; sudo dpkg -i google-chrome-stable_current_amd64.deb; sudo apt -f -y install
+
+scp -i scrape.pem ./instagram_link_extractor/look_for_instagram_1.xlsx ubuntu@ec2-18-143-116-247.ap-southeast-1.compute.amazonaws.com:/home/ubuntu/scraper
+scp -i scrape.pem ./instagram_link_extractor/look_for_instagram_2.xlsx ubuntu@ec2-13-229-181-8.ap-southeast-1.compute.amazonaws.com:/home/ubuntu/scraper
+scp -i scrape.pem ./instagram_link_extractor/look_for_instagram_3.xlsx ubuntu@ec2-54-255-192-0.ap-southeast-1.compute.amazonaws.com:/home/ubuntu/scraper
