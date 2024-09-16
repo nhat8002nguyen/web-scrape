@@ -31,12 +31,14 @@ def wait_for_element(selector, by=By.CSS_SELECTOR, timeout=15):
     return WebDriverWait(driver, timeout).until(EC.presence_of_element_located((by, selector)))
 
 
-def get_detail_data(detail_url):
+def get_detail_data(detail_url) -> list[object, bool]:
     driver.get(detail_url)
 
     try:
-        wait_for_element('#exhibitor_details_showobjective p')
-        # If needed, insert more waits for other elements
+        try:
+            wait_for_element('div.details-header h1')
+        except:
+            pass
 
         soup = BeautifulSoup(driver.page_source, 'html.parser')
 
@@ -45,7 +47,8 @@ def get_detail_data(detail_url):
             "Facebook": "",
             "Twitter": "",
             "LinkedIn": "",
-            "Instagram": ""
+            "Instagram": "",
+            "Youtube": ""
         }
 
         social_networks = soup.select('.section-container a')
@@ -75,10 +78,10 @@ def get_detail_data(detail_url):
             **social_links  # Adding social network links to data dictionary
         }
 
-        return data
+        return [data, True]
     except Exception as e:
         print(f"Error loading detail page {detail_url}: {e}")
-        return {}
+        return [{"failed_url": detail_url}, False]
 
 
 def scrape_list():
@@ -86,6 +89,7 @@ def scrape_list():
         "https://www.barconvent.com/en-gb/for-visitors/ExhibitorList.html#/")
 
     data_list = []
+    failed_list = []
 
     accept_button = wait_for_element(
         'button[id="onetrust-accept-btn-handler"]')
@@ -94,8 +98,13 @@ def scrape_list():
     yes_button.click()
 
     # for i in range(6):  # Loop through the first 6 span items
-    for i in range(6):  # Loop through the first 6 span items
+    for i in range(6, 11):  # Loop through the first 6 span items
         time.sleep(5)
+        driver.find_element(
+            by=By.CSS_SELECTOR,
+            value='a[class="leaves text-primary more-less"]'
+        ).click()
+
         try:
             # Wait for and click span item
             wait_for_element(
@@ -126,11 +135,14 @@ def scrape_list():
 
             # for link in exhibitor_links:
             for link in exhibitor_links:
-                detail_data = get_detail_data(link)
-                if detail_data:
+                result = get_detail_data(link)
+                if result[1] == True and result[0]:
+                    detail_data = result[0]
                     print(detail_data)
                     detail_data['Filter group'] = filter_group
                     data_list.append(detail_data)
+                elif result[1] == False:
+                    failed_list.append(result[0]["failed_url"])
 
             # Refresh page after each category
             driver.get(
@@ -140,6 +152,9 @@ def scrape_list():
         except Exception as e:
             print(f"Error in list scraping for span item {i+1}: {e}")
             continue  # Skip to the next span item
+
+    if len(failed_list) > 0:
+        export_to_csv(failed_list, "failed_urls.csv")
 
     return data_list
 
