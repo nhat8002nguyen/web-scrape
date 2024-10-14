@@ -1,9 +1,14 @@
 import fs from "fs"
 import puppeteer, { Page } from "puppeteer"
 
+// constants for running
+const startIndex = 0
+const endIndex = 10
+
 // Function to extract email addresses from a string using regex
 function extractEmails(text: string): string[] {
-  const emailRegex = /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/gi
+  const emailRegex =
+    /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]*[a-zA-Z]+[a-zA-Z0-9._-]*\.[a-zA-Z0-9_-]*[a-zA-Z]+[a-zA-Z0-9_-]*)/gi
   const emails = text.match(emailRegex) || []
   return emails
 }
@@ -16,7 +21,7 @@ function sleep(ms: number) {
   const startTime = Date.now()
 
   // Launch the browser
-  const browser = await puppeteer.launch({ headless: false, timeout: 10000 }) // Set to true for headless mode
+  const browser = await puppeteer.launch({ headless: true, timeout: 10000 }) // Set to true for headless mode
   const page = await browser.newPage()
 
   // Navigate to the main exhibitor page
@@ -64,7 +69,7 @@ function sleep(ms: number) {
   }
 
   // Create a CSV file to store the data
-  const csvFile = fs.createWriteStream(`exhibitors-${Date.now()}.csv`)
+  const csvFile = fs.createWriteStream(`output/exhibitors-${Date.now()}.csv`)
   csvFile.write(
     "title,website,full_address,country,linkedin,facebook,instagram,twitter,all_categories,email,exhibitor_link\n"
   )
@@ -73,7 +78,7 @@ function sleep(ms: number) {
   const failedItems: string[] = []
 
   // Iterate through each exhibitor link
-  for (const link of exhibitorLinks.slice(1, 2)) {
+  for (const link of exhibitorLinks.slice(startIndex || 0, endIndex || exhibitorLinks.length)) {
     try {
       await page.goto(link)
 
@@ -130,7 +135,7 @@ function sleep(ms: number) {
       let emails: string[] = []
       if (exhibitorData.website) {
         try {
-          await page.goto(exhibitorData.website, { timeout: 20000 })
+          await page.goto(exhibitorData.website)
           let pageContent = await page.content()
           emails.push(...extractEmails(pageContent))
 
@@ -138,8 +143,7 @@ function sleep(ms: number) {
           const contactLink = await findContactAElement(page)
 
           if (contactLink) {
-            console.log(contactLink)
-            await page.goto(contactLink.href, { timeout: 20000 })
+            await page.goto(contactLink)
             pageContent = await page.content()
             emails.push(...extractEmails(pageContent))
           }
@@ -182,7 +186,7 @@ function sleep(ms: number) {
   console.log(`\nScraper finished in ${runtimeInSeconds} seconds`)
 })()
 
-async function findContactAElement(page: Page): Promise<HTMLAnchorElement | undefined> {
+async function findContactAElement(page: Page): Promise<string | undefined> {
   const contactElement = await page.evaluate(() => {
     const translationOfContact = [
       "kontakti",
@@ -377,18 +381,18 @@ async function findContactAElement(page: Page): Promise<HTMLAnchorElement | unde
       "contact",
     ]
 
-    const pageLinks = document.querySelectorAll("nav a")
-    const el = Array.from(pageLinks.values()).find((el) => {
-      const anchor = el as HTMLAnchorElement
-      console.log("log1", anchor.href)
-      for (const contactWord of translationOfContact) {
-        if (anchor.href.includes(contactWord)) {
-          console.log("log2", anchor.href)
-          return anchor
+    const pageLinks = document.querySelectorAll("li a")
+    const el = Array.from(pageLinks.values())
+      .slice(0, 50)
+      .find((el) => {
+        const anchor = el as HTMLAnchorElement
+        for (const contactWord of translationOfContact) {
+          if (anchor.href.includes(contactWord)) {
+            return anchor
+          }
         }
-      }
-    })
-    return el ? (el as HTMLAnchorElement) : el
+      })
+    return el ? (el as HTMLAnchorElement).href : el
   })
   return contactElement
 }
