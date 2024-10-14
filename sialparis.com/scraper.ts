@@ -1,5 +1,5 @@
 import fs from "fs"
-import puppeteer from "puppeteer"
+import puppeteer, { Page } from "puppeteer"
 
 // Function to extract email addresses from a string using regex
 function extractEmails(text: string): string[] {
@@ -16,11 +16,11 @@ function sleep(ms: number) {
   const startTime = Date.now()
 
   // Launch the browser
-  const browser = await puppeteer.launch({ headless: true, timeout: 10000 }) // Set to true for headless mode
+  const browser = await puppeteer.launch({ headless: false, timeout: 10000 }) // Set to true for headless mode
   const page = await browser.newPage()
 
   // Navigate to the main exhibitor page
-  await page.goto("https://www.sialparis.com/fr-FR/exposants-2024/exhibitors")
+  await page.goto("https://www.sialparis.com/fr-FR/exposants-2024/exhibitors", { timeout: 2 * 60 * 1000 })
 
   const cookiesbutton = await page.waitForSelector(".banner-actions-container #onetrust-accept-btn-handler")
   await cookiesbutton?.click()
@@ -65,13 +65,15 @@ function sleep(ms: number) {
 
   // Create a CSV file to store the data
   const csvFile = fs.createWriteStream(`exhibitors-${Date.now()}.csv`)
-  csvFile.write("title,website,full_address,country,linkedin,facebook,instagram,twitter,all_categories,email\n")
+  csvFile.write(
+    "title,website,full_address,country,linkedin,facebook,instagram,twitter,all_categories,email,exhibitor_link\n"
+  )
 
   // Array to store failed items
   const failedItems: string[] = []
 
   // Iterate through each exhibitor link
-  for (const link of exhibitorLinks) {
+  for (const link of exhibitorLinks.slice(1, 2)) {
     try {
       await page.goto(link)
 
@@ -98,10 +100,10 @@ function sleep(ms: number) {
           return ""
         }
 
-        const linkedin = getSocialLink(".CatalogExhibitorStrip-socialitem .cc2-icon-linkedin")
-        const facebook = getSocialLink(".CatalogExhibitorStrip-socialitem .cc2-icon-facebook")
-        const instagram = getSocialLink(".CatalogExhibitorStrip-socialitem .cc2-icon-instagram")
-        const twitter = getSocialLink(".CatalogExhibitorStrip-socialitem .cc2-icon-twitter")
+        const linkedin = getSocialLink(".CatalogExhibitorStrip-socialitem .cc2-icon-linkedin.CatalogRoundedButton")
+        const facebook = getSocialLink(".CatalogExhibitorStrip-socialitem .cc2-icon-facebook.CatalogRoundedButton")
+        const instagram = getSocialLink(".CatalogExhibitorStrip-socialitem .cc2-icon-instagram.CatalogRoundedButton")
+        const twitter = getSocialLink(".CatalogExhibitorStrip-socialitem .cc2-icon-twitter.CatalogRoundedButton")
 
         const categoryLists = Array.from(document.querySelectorAll(".Section-content ul[class=CatalogActivityList]"))
         const allCategories = categoryLists
@@ -133,13 +135,11 @@ function sleep(ms: number) {
           emails.push(...extractEmails(pageContent))
 
           // Check for a contact page
-          let contactLink = await page.$("::-p-xpath(//a[contains(text(), 'contact')])")
-          if (!contactLink) {
-            contactLink = await page.$("::-p-xpath(//a[contains(@href, 'contact')])")
-          }
+          const contactLink = await findContactAElement(page)
+
           if (contactLink) {
-            const contactHref = await contactLink.evaluate((el) => (el as HTMLAnchorElement).href)
-            await page.goto(contactHref, { timeout: 20000 })
+            console.log(contactLink)
+            await page.goto(contactLink.href, { timeout: 20000 })
             pageContent = await page.content()
             emails.push(...extractEmails(pageContent))
           }
@@ -155,7 +155,7 @@ function sleep(ms: number) {
         exhibitorData.country
       }",${exhibitorData.linkedin},${exhibitorData.facebook},${exhibitorData.instagram},${exhibitorData.twitter},"${
         exhibitorData.allCategories
-      }",${uniqueEmails.join("; ")}\n`
+      }","${uniqueEmails.join("; ")}","${link}"\n`
       csvFile.write(csvLine)
     } catch (error) {
       console.error(`Error processing ${link}: ${error}`)
@@ -169,6 +169,9 @@ function sleep(ms: number) {
     console.log(`${failedItems.length} items failed. See failed_items.json for details.`)
   }
 
+  // sleep for debugging
+  // await sleep(5 * 60 * 1000)
+
   // Close the CSV file and the browser
   csvFile.end()
   await browser.close()
@@ -178,3 +181,214 @@ function sleep(ms: number) {
   const runtimeInSeconds = (endTime - startTime) / 1000
   console.log(`\nScraper finished in ${runtimeInSeconds} seconds`)
 })()
+
+async function findContactAElement(page: Page): Promise<HTMLAnchorElement | undefined> {
+  const contactElement = await page.evaluate(() => {
+    const translationOfContact = [
+      "kontakti",
+      "contacte",
+      "կապ",
+      "kontakt",
+      "əlaqə",
+      "кантакт",
+      "contact",
+      "kontakt",
+      "контакти",
+      "kontakt",
+      "επικοινωνία",
+      "kontakt",
+      "kontakt",
+      "kontakt",
+      "yhteystiedot",
+      "contact",
+      "კონტაქტი",
+      "kontakt",
+      "επικοινωνία",
+      "kapcsolat",
+      "hafa samband",
+      "teagmháil",
+      "contatti",
+      "kontakt",
+      "kontakti",
+      "kontakt",
+      "kontaktai",
+      "contact",
+      "kuntatt",
+      "contacte",
+      "contact",
+      "kontakt",
+      "contact",
+      "контакт",
+      "kontakt",
+      "kontakt",
+      "contactos",
+      "contact",
+      "контакты",
+      "contatti",
+      "контакт",
+      "kontakt",
+      "kontakt",
+      "contacto",
+      "kontakt",
+      "kontakt",
+      "iletişim",
+      "контакти",
+      "contact",
+      "تماس",
+      "اتصال",
+      "contacto",
+      "contacto",
+      "contact",
+      "যোগাযোগ",
+      "contact",
+      "contact",
+      "contact",
+      "འབྲེལ་བ་",
+      "contacto",
+      "contact",
+      "contato",
+      "hubungi",
+      "contact",
+      "contact",
+      "ទំនាក់ទំនង",
+      "contact",
+      "contact",
+      "contacto",
+      "contact",
+      "contact",
+      "contacto",
+      "联系",
+      "contacto",
+      "contact",
+      "contact",
+      "contact",
+      "contacto",
+      "contact",
+      "contacto",
+      "contact",
+      "contact",
+      "contacto",
+      "kontaktu",
+      "contacto",
+      "اتصال",
+      "contacto",
+      "contacto",
+      "ርክብ",
+      "contact",
+      "ግንኙነት",
+      "contact",
+      "contact",
+      "contact",
+      "contact",
+      "contact",
+      "contacto",
+      "contact",
+      "contacto",
+      "contact",
+      "kontak",
+      "contacto",
+      "संपर्क",
+      "kontak",
+      "تماس",
+      "اتصال",
+      "קשר",
+      "contact",
+      "連絡",
+      "اتصال",
+      "байланыс",
+      "contact",
+      "contact",
+      "اتصال",
+      "байланыш",
+      "ຕິດຕໍ່",
+      "اتصال",
+      "contact",
+      "contact",
+      "اتصال",
+      "fifandraisana",
+      "contact",
+      "hubungi",
+      "ގުޅުން",
+      "contact",
+      "contact",
+      "اتصال",
+      "contact",
+      "contacto",
+      "contact",
+      "اتصال",
+      "contacto",
+      "ဆက်သွယ်ရန်",
+      "contact",
+      "contact",
+      "सम्पर्क",
+      "contact",
+      "contacto",
+      "contact",
+      "contact",
+      "련락",
+      "اتصال",
+      "رابطہ",
+      "contact",
+      "contacto",
+      "contact",
+      "contacto",
+      "contacto",
+      "makipag-ugnayan",
+      "اتصال",
+      "contact",
+      "contact",
+      "contact",
+      "fesoʻotaʻi",
+      "contacto",
+      "اتصال",
+      "contact",
+      "contact",
+      "contact",
+      "contact",
+      "contact",
+      "xiriir",
+      "contact",
+      "연락",
+      "contact",
+      "සම්බන්ධ වන්න",
+      "اتصال",
+      "contact",
+      "اتصال",
+      "聯絡",
+      "тамос",
+      "mawasiliano",
+      "ติดต่อ",
+      "contact",
+      "fetu'utaki",
+      "contact",
+      "اتصال",
+      "habarlaşmak",
+      "contact",
+      "contact",
+      "اتصال",
+      "contact",
+      "contacto",
+      "aloqa",
+      "contact",
+      "contacto",
+      "liên hệ",
+      "اتصال",
+      "contact",
+      "contact",
+    ]
+
+    const pageLinks = document.querySelectorAll("nav a")
+    const el = Array.from(pageLinks.values()).find((el) => {
+      const anchor = el as HTMLAnchorElement
+      console.log("log1", anchor.href)
+      for (const contactWord of translationOfContact) {
+        if (anchor.href.includes(contactWord)) {
+          console.log("log2", anchor.href)
+          return anchor
+        }
+      }
+    })
+    return el ? (el as HTMLAnchorElement) : el
+  })
+  return contactElement
+}
