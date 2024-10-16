@@ -1,0 +1,13 @@
+sudo apt update; sudo apt install nodejs -y; 
+node -v; sudo apt install npm -y; 
+sudo apt install node-typescript;
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb; 
+sudo dpkg -i google-chrome-stable_current_amd64.deb; 
+sudo apt -f install -y;
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+
+scp -i scraping-eu.pem -r sialparis.com/temp ubuntu@ec2-18-153-104-105.eu-central-1.compute.amazonaws.com:/home/ubuntu/;
+scp -i scraping-eu.pem -r sialparis.com/temp ubuntu@ec2-18-153-109-182.eu-central-1.compute.amazonaws.com:/home/ubuntu/;
+
+npx tsc; node dist/scraper.js
