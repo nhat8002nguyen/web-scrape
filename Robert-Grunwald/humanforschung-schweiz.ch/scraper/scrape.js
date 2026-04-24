@@ -21,6 +21,8 @@ const REDIS_URL   = flagVal('--redis-url', 'redis://127.0.0.1:6379');
 const REDIS_KEY   = flagVal('--redis-key', 'humres:urls');
 const INPUT_FILE  = flagVal('--input', 'all-urls.txt');
 const OUTPUT_FILE = flagVal('--output', 'results.xlsx');
+const PROXY_URL   = flagVal('--proxy-url', '');
+const PROXY_FILE  = flagVal('--proxy-file', '');
 const NUM_WORKERS = Math.max(1, parseInt(flagVal('--workers', '3'), 10));
 const DELAY_MS    = Math.max(0, parseInt(flagVal('--delay', '1500'), 10));
 const RESUME      = flag('--resume');
@@ -31,6 +33,7 @@ const OUTPUT_DIR      = path.join(__dirname, 'output');
 const EXCEL_PATH      = path.join(OUTPUT_DIR, OUTPUT_FILE);
 const FAILED_PATH     = path.join(OUTPUT_DIR, 'failed-urls.txt');
 const PROGRESS_PATH   = path.join(OUTPUT_DIR, 'scrape-progress.json');
+const DEFAULT_PROXY_FILE = path.join(__dirname, 'free_proxies.txt');
 
 const RETRY_ATTEMPTS  = 3;
 const RETRY_BASE_MS   = 1000;
@@ -82,8 +85,91 @@ async function withRetry(fn, maxAttempts = RETRY_ATTEMPTS, baseMs = RETRY_BASE_M
   throw lastErr;
 }
 
-async function fetchHtml(url) {
-  const res = await httpClient.get(url);
+function parseProxyLine(line) {
+  const trimmed = line.trim();
+  if (!trimmed || trimmed.startsWith('#')) return null;
+
+  if (trimmed.startsWith('http://') || trimmed.startsWith('https://')) {
+    let parsed;
+    try {
+      parsed = new URL(trimmed);
+    } catch {
+      return null;
+    }
+    if (!parsed.hostname || !parsed.port) return null;
+    return {
+      host: parsed.hostname,
+      port: Number(parsed.port),
+      username: decodeURIComponent(parsed.username || ''),
+      password: decodeURIComponent(parsed.password || ''),
+    };
+  }
+
+  const parts = trimmed.split(':');
+  if (parts.length < 2) return null;
+  const [host, portRaw, username = '', password = ''] = parts;
+  const port = Number(portRaw);
+  if (!host || Number.isNaN(port)) return null;
+  return { host, port, username, password };
+}
+
+function loadProxies() {
+  const proxies = [];
+
+  if (PROXY_URL) {
+    const parsed = parseProxyLine(PROXY_URL);
+    if (!parsed) {
+      console.warn(`Invalid --proxy-url format: ${PROXY_URL}`);
+    } else {
+      proxies.push(parsed);
+    }
+  }
+
+  const proxyFilePath = PROXY_FILE
+    ? (path.isAbsolute(PROXY_FILE) ? PROXY_FILE : path.join(__dirname, PROXY_FILE))
+    : DEFAULT_PROXY_FILE;
+
+  if (fs.existsSync(proxyFilePath)) {
+    const fileProxies = fs.readFileSync(proxyFilePath, 'utf8')
+      .split('\n')
+      .map(parseProxyLine)
+      .filter(Boolean);
+    proxies.push(...fileProxies);
+  }
+
+  const dedup = new Map();
+  for (const p of proxies) {
+    const key = `${p.host}:${p.port}:${p.username}:${p.password}`;
+    if (!dedup.has(key)) dedup.set(key, p);
+  }
+
+  return Array.from(dedup.values());
+}
+
+function getProxyForIndex(index, proxies) {
+  if (!proxies.length) return null;
+  return proxies[index % proxies.length];
+}
+
+async function fetchHtml(url, requestIndex, proxies) {
+  const proxy = getProxyForIndex(requestIndex, proxies);
+  const proxyCfg = proxy
+    ? {
+        host: proxy.host,
+        port: proxy.port,
+        auth: proxy.username ? { username: proxy.username, password: proxy.password } : undefined,
+      }
+    : undefined;
+
+  let res;
+  try {
+    res = await httpClient.get(url, proxyCfg ? { proxy: proxyCfg } : undefined);
+  } catch (proxyErr) {
+    // If proxy fails, fallback to direct request so long runs keep going.
+    if (!proxyCfg) throw proxyErr;
+    res = await httpClient.get(url, { proxy: false });
+  }
+
   if (!res.data.includes('contact-box')) {
     throw new Error('contact-box not found in response — page may not be server-rendered');
   }
@@ -205,6 +291,7 @@ async function runWorkerPool(queue, totalCount, processUrl, numWorkers) {
 
 async function main() {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  const proxies = loadProxies();
 
   // ── Load URLs and set up queue ──
 
@@ -250,6 +337,11 @@ async function main() {
   }
 
   console.log(`Workers: ${NUM_WORKERS}  |  Delay: ${DELAY_MS}ms/worker  |  Output: ${EXCEL_PATH}`);
+  if (proxies.length > 0) {
+    console.log(`Proxy mode: enabled (${proxies.length} proxies, auto-fallback to direct IP)`);
+  } else {
+    console.log('Proxy mode: disabled (direct/public IP only)');
+  }
   console.log(`Retry: ${RETRY_ATTEMPTS} attempts with exponential backoff\n`);
 
   // ── Set up Excel writer ──
@@ -266,7 +358,7 @@ async function main() {
   const processUrl = async (url, index, workerId) => {
     let rows = [];
     try {
-      const html = await withRetry(() => fetchHtml(url));
+      const html = await withRetry(() => fetchHtml(url, index, proxies));
       rows = parseDetailPage(html, url);
     } catch (err) {
       failedCount++;

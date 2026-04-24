@@ -1,6 +1,7 @@
 'use strict';
 
 const puppeteer = require('puppeteer');
+const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 const { createQueue } = require('./queue');
@@ -23,6 +24,7 @@ const REDIS_KEY   = flagVal('--redis-key', 'humres:urls');
 
 const BASE_URL    = 'https://www.humanforschung-schweiz.ch';
 const SEARCH_URL  = `${BASE_URL}/en/trial-search/`;
+const SEARCH_API_URL = `${BASE_URL}/de/`;
 const OUTPUT_DIR  = path.join(__dirname, 'output');
 const URLS_FILE   = path.join(OUTPUT_DIR, 'all-urls.txt');
 const PROGRESS_FILE = path.join(OUTPUT_DIR, 'gather-progress.json');
@@ -33,6 +35,7 @@ const CHECKPOINT_EVERY = 50;
 const PAGE_CLICK_DELAY = 1500;
 // Batch size when pushing URLs to Redis
 const REDIS_BATCH_SIZE = 200;
+const API_PAGE_SIZE = 10;
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -68,6 +71,46 @@ function loadExistingUrls() {
 function appendUrls(urls) {
   if (!urls.length) return;
   fs.appendFileSync(URLS_FILE, urls.join('\n') + '\n', 'utf8');
+}
+
+function buildSearchApiUrl(offset) {
+  return `${SEARCH_API_URL}?type=1738164853`
+    + `&tx_studysearch_studysearchapi[language]=en`
+    + `&tx_studysearch_studysearchapi[filter][countries][]=Germany`
+    + `&tx_studysearch_studysearchapi[filter][countries][]=Austria`
+    + `&tx_studysearch_studysearchapi[sort]=updated_at`
+    + `&tx_studysearch_studysearchapi[order]=desc`
+    + `&tx_studysearch_studysearchapi[offset]=${offset}`;
+}
+
+const FETCH_RETRY_ATTEMPTS = 5;
+const FETCH_RETRY_BASE_MS  = 2000;
+
+async function fetchSearchPage(offset) {
+  const url = buildSearchApiUrl(offset);
+  const requestCfg = {
+    timeout: 30000,
+    headers: {
+      'User-Agent':
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+      'Accept': 'application/json,text/plain,*/*',
+      'Accept-Language': 'en-US,en;q=0.9',
+    },
+  };
+
+  let lastErr;
+  for (let attempt = 1; attempt <= FETCH_RETRY_ATTEMPTS; attempt++) {
+    try {
+      const response = await axios.get(url, requestCfg);
+      return response.data;
+    } catch (err) {
+      lastErr = err;
+      const waitMs = FETCH_RETRY_BASE_MS * 2 ** (attempt - 1); // 2s, 4s, 8s, 16s, 32s
+      console.warn(`  API fetch failed (attempt ${attempt}/${FETCH_RETRY_ATTEMPTS}): ${err.message} — retrying in ${waitMs / 1000}s…`);
+      await sleep(waitMs);
+    }
+  }
+  throw lastErr;
 }
 
 // ── Puppeteer helpers ─────────────────────────────────────────────────────────
@@ -132,14 +175,45 @@ async function extractPageUrls(page) {
 }
 
 async function clickNextPage(page) {
-  const nextBtn = await page.$('.fTjoUN0DQMY0bqIV');
-  if (!nextBtn) return false;
-  const isDisabled = await page.evaluate(
-    el => el.disabled || el.classList.contains('disabled'), nextBtn
-  );
-  if (isDisabled) return false;
-  await nextBtn.click();
+  const beforeFirstUrl = await page.evaluate(() => {
+    const link = document.querySelector('a[href*="/study-detail/"]');
+    if (!link) return '';
+    const href = link.getAttribute('href') || '';
+    return href.split('#')[0];
+  });
+
+  const moved = await page.evaluate(() => {
+    const buttons = Array.from(document.querySelectorAll('button.sfp-pagination-button'));
+    if (!buttons.length) return false;
+
+    // The site currently uses class "prev" for going forward to the next page.
+    // Fall back to aria-label matching in case markup changes again.
+    const candidate = buttons.find(btn =>
+      !btn.disabled &&
+      !btn.classList.contains('disabled') &&
+      (
+        btn.classList.contains('prev') ||
+        /next page/i.test(btn.getAttribute('aria-label') || '')
+      )
+    );
+    if (!candidate) return false;
+    candidate.click();
+    return true;
+  });
+
+  if (!moved) return false;
+
   await page.waitForNetworkIdle({ timeout: 10000 }).catch(() => {});
+  await page.waitForFunction(
+    (previous) => {
+      const link = document.querySelector('a[href*="/study-detail/"]');
+      if (!link) return false;
+      const href = (link.getAttribute('href') || '').split('#')[0];
+      return href && href !== previous;
+    },
+    { timeout: 15000 },
+    beforeFirstUrl
+  ).catch(() => {});
   await sleep(PAGE_CLICK_DELAY);
   return true;
 }
@@ -158,46 +232,34 @@ async function main() {
   }
 
   // Load resume state
-  let { pageCount, totalCollected } = RESUME ? loadProgress() : { pageCount: 0, totalCollected: 0 };
+  let { totalCollected } = RESUME ? loadProgress() : { totalCollected: 0 };
   const seenUrls = RESUME ? loadExistingUrls() : new Set();
 
+  // Derive the true next page from the actual number of URLs on disk, not the
+  // checkpoint page counter — they can differ when the process crashes between
+  // checkpoints, which would otherwise cause 3 consecutive "no new URLs" and
+  // a premature stop.
+  let pageCount = RESUME ? Math.ceil(seenUrls.size / API_PAGE_SIZE) : 0;
+
   if (RESUME) {
-    console.log(`Resuming from page ${pageCount}, ${seenUrls.size} URLs already collected.`);
+    console.log(`Resuming from page ${pageCount} (offset ${pageCount * API_PAGE_SIZE}), ${seenUrls.size} URLs already collected.`);
   }
 
-  const browser = await puppeteer.launch({ headless: true });
-  const page = await browser.newPage();
-
-  // Block heavy resources
-  await page.setRequestInterception(true);
-  page.on('request', req => {
-    if (['image', 'font', 'media'].includes(req.resourceType())) req.abort();
-    else req.continue();
-  });
-
   try {
-    // Always apply filters fresh (filters are session state, not persisted across restarts)
-    await applyFilters(page);
-
-    // If resuming, skip to the correct page by clicking through
-    if (RESUME && pageCount > 0) {
-      console.log(`Fast-forwarding to page ${pageCount}…`);
-      for (let i = 0; i < pageCount; i++) {
-        const moved = await clickNextPage(page);
-        if (!moved) {
-          console.log('Reached last page during fast-forward — already complete.');
-          await browser.close();
-          if (redisQueue) await redisQueue.close();
-          return;
-        }
-        if ((i + 1) % 100 === 0) console.log(`  Fast-forwarded ${i + 1} pages…`);
-      }
-    }
-
+    let total = null;
     let pagesWithNoNew = 0;
 
     while (true) {
-      const rawUrls = await extractPageUrls(page);
+      const offset = pageCount * API_PAGE_SIZE;
+      const payload = await fetchSearchPage(offset);
+      const hits = Array.isArray(payload && payload.hits) ? payload.hits : [];
+      if (typeof payload.total === 'number') total = payload.total;
+
+      const rawUrls = hits
+        .map(hit => hit && hit._source && hit._source.id)
+        .filter(id => Number.isInteger(id))
+        .map(id => `${BASE_URL}/en/trial-search/study-detail/${id}`);
+
       const newUrls = rawUrls.filter(u => !seenUrls.has(u));
 
       for (const u of newUrls) seenUrls.add(u);
@@ -228,14 +290,21 @@ async function main() {
       // Checkpoint
       if (pageCount % CHECKPOINT_EVERY === 0) {
         saveProgress(pageCount, totalCollected);
-        console.log(`[Page ${pageCount}] ${totalCollected} URLs collected so far…`);
+        if (total !== null) {
+          console.log(`[Page ${pageCount}] ${totalCollected}/${total} URLs collected so far…`);
+        } else {
+          console.log(`[Page ${pageCount}] ${totalCollected} URLs collected so far…`);
+        }
       }
-
-      const hasMore = await clickNextPage(page);
-      if (!hasMore) {
-        console.log('No more pages.');
+      if (hits.length < API_PAGE_SIZE) {
+        console.log('Last API page reached.');
         break;
       }
+      if (total !== null && totalCollected >= total) {
+        console.log('Collected all URLs reported by API.');
+        break;
+      }
+      await sleep(150);
     }
 
     saveProgress(pageCount, totalCollected);
@@ -247,7 +316,6 @@ async function main() {
     }
 
   } finally {
-    await browser.close();
     if (redisQueue) await redisQueue.close();
   }
 }

@@ -37,6 +37,42 @@ That's it. No other setup is needed for a local single-machine run.
 
 Run these two commands in order. Each can be left running unattended.
 
+### Full Production Run (No Redis, local in-memory queue)
+
+If you want the final full dataset (~67k URLs) on one local machine, use this
+flow. This is the recommended setup for clients because it does not require
+Redis.
+
+```bash
+# 1) Collect all study URLs (Germany + Austria filters)
+node gather-urls.js
+
+# 2) Scrape all URLs using local in-memory queue
+node scrape.js --queue memory --input all-urls.txt --output results-final.xlsx
+```
+
+- `gather-urls.js` now reads from the website search API and collects all
+  filtered URLs into `output/all-urls.txt`.
+- `scrape.js --queue memory` runs fully locally from that file.
+- Final Excel file: `output/results-final.xlsx`.
+
+Optional: use proxies with safe fallback to direct/public IP if a proxy fails:
+
+```bash
+# Load rotating proxies from scraper/free_proxies.txt
+node scrape.js --queue memory --input all-urls.txt --output results-final.xlsx --proxy-file free_proxies.txt
+
+# Or use a single proxy URL
+node scrape.js --proxy-url "http://user:pass@host:port"
+```
+
+If the run is interrupted, resume with:
+
+```bash
+node gather-urls.js --resume
+node scrape.js --queue memory --input all-urls.txt --output results-final.xlsx --resume
+```
+
 ### Step 1 — Collect all study URLs
 
 ```bash
