@@ -1,0 +1,16 @@
+{
+  "name": "humres-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for Human Research Switzerland trial contact data",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "exceljs": "^4.4.0",
+    "ioredis": "^5.10.1",
+    "puppeteer": "^23.11.1"
+  }
+}

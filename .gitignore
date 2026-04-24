@@ -1,9 +1,13 @@
 /**/*.pem
 /**/*.json
+# Allow npm manifest files so EC2 / CI can run npm install
+!**/package.json
+!**/package-lock.json
 /**/*.csv
 /**/*.xlsx
 **/dist/ 
 **/build/  
+**/node_modules/
 chromedriver.exe 
 **/*.spec 
 *.pkl
