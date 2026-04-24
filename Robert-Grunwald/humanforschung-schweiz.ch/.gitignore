@@ -1,0 +1,25 @@
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependencies
+node_modules/
+scraper/node_modules/
+
+# Build/temp/output artifacts
+dist/
+build/
+tmp/
+temp/
+scraper/output/

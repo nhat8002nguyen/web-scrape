@@ -1,0 +1,13 @@
+- Use puppeteer to visit the website: https://www.humanforschung-schweiz.ch/en/trial-search/?utm_source=chatgpt.com
+- The page html includes a section main-page.html
+- The section main-page.html includes a filter button name: Further filters like in popup-modal.html
+- Click this button and check the 2 checkboxes: Germany and Autria like in filter.html.
+- Then click the button Apply Filters.
+- the page will load a list containing items like in list-container.html.
+- check the button class .fTjoUN0DQMY0bqIV, it will render items in page 2 in the same screen (we will have about 7000 pages)
+- Gather all urls of a tag and put them in a file urls.txt.
+- the detail-page.html is an example. It contains the contact section with h2 <h2 class="">Contact</h2>.
+- Gather all data in this contact section and put then in a row in a excel file.
+- The contact extraction rules should be strictly followed in the "Data Export - Brief.pdf" file.
+- Complete it first simple version quickly to scrape 20 samples for phase 1.
+- Then I will give an architecture document to you to make it scalable and efficient.
