@@ -131,6 +131,31 @@ function decodeEmail($, anchorEl) {
   return cloned.text().trim();
 }
 
+function findContactBoxes($) {
+  let contactContainer = null;
+
+  $('h2').each((_, el) => {
+    if ($(el).text().trim() !== 'Contact') return;
+
+    // The contact boxes are siblings or descendants of the parent row.
+    contactContainer = $(el).closest('div.row, section, div').filter((_, p) =>
+      $(p).find('.contact-box').length > 0
+    ).first();
+
+    if (!contactContainer.length) {
+      contactContainer = $(el).parent();
+    }
+  });
+
+  if (contactContainer && contactContainer.length) {
+    const sectionBoxes = contactContainer.find('.contact-box');
+    if (sectionBoxes.length) return sectionBoxes;
+  }
+
+  // Some study pages expose contact boxes without a "Contact" heading.
+  return $('.contact-box');
+}
+
 function extractContactBlocks($, studyUrl) {
   const rows = [];
 
@@ -143,24 +168,10 @@ function extractContactBlocks($, studyUrl) {
   const studyId = studyIdParts.join(' | ');
   const studyTitle = $('h1.study-detail-title').text().trim();
 
-  // Find the Contact h2 then locate all .contact-box elements in its container
-  let contactContainer = null;
-  $('h2').each((_, el) => {
-    if ($(el).text().trim() === 'Contact') {
-      // The contact boxes are siblings or descendants of the parent row
-      contactContainer = $(el).closest('div.row, section, div').filter((_, p) =>
-        $(p).find('.contact-box').length > 0
-      ).first();
-      if (!contactContainer.length) {
-        // fallback: use the parent of the h2
-        contactContainer = $(el).parent();
-      }
-    }
-  });
+  const contactBoxes = findContactBoxes($);
+  if (!contactBoxes.length) return rows;
 
-  if (!contactContainer || !contactContainer.length) return rows;
-
-  contactContainer.find('.contact-box').each((_, box) => {
+  contactBoxes.each((_, box) => {
     const $box = $(box);
 
     const blockTitle = $box.find('h3').first().text().trim();
