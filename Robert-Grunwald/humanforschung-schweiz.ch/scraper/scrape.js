@@ -4,8 +4,11 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 const ExcelJS = require('exceljs');
+const simplepush = require('simplepush-notifications');
 const { parseDetailPage } = require('./parser');
 const { createQueue } = require('./queue');
+
+const SIMPLEPUSH_KEY = '56F6LP';
 
 // ── CLI args ──────────────────────────────────────────────────────────────────
 
@@ -423,9 +426,22 @@ async function main() {
     console.log(`  Failed URLs    : ${FAILED_PATH}`);
     console.log(`  Re-run with   : node scrape.js --input output/failed-urls.txt --output output/results-retry.xlsx`);
   }
+
+  const notifMessage =
+    `Done in ${elapsed} min | ` +
+    `${completedCount - failedCount - skippedCount} rows | ` +
+    `${skippedCount} skipped | ` +
+    `${failedCount} failed`;
+  simplepush.send(
+    { key: SIMPLEPUSH_KEY, title: 'Scrape finished ✓', message: notifMessage },
+    (err) => { if (err) console.warn('Simplepush error:', err); },
+  );
 }
 
 main().catch(err => {
   console.error('Fatal:', err.message);
-  process.exit(1);
+  simplepush.send(
+    { key: SIMPLEPUSH_KEY, title: 'Scrape FAILED ✗', message: err.message.slice(0, 200) },
+    () => process.exit(1),
+  );
 });
