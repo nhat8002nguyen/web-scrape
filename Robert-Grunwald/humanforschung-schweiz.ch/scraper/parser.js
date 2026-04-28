@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 // Whole-word institution markers (case-sensitive for abbreviations, case-insensitive via regex flag where needed)
 const INSTITUTION_KEYWORDS_EXACT = [
   'AG', 'GmbH', 'Ltd', 'LLC', 'Inc', 'Inc.', 'Corp', 'Corp.',
-  'A/S', 'N.V.', 'B.V.', 'S.A.', 'S.p.A.',
+  'A/S', 'N.V.', 'B.V.', 'S.A.', 'S.p.A.', 'SpA',
 ];
 
 // Substrings that indicate institutional/org text when found anywhere in the value
@@ -31,7 +31,7 @@ const INSTITUTION_SUBSTRINGS = [
 
 const TITLE_PREFIXES = new Set([
   'Dr.', 'Dr', 'Prof.', 'Prof', 'PD', 'MD', 'PhD', 'Ass.',
-  'med.', 'rer.', 'nat.', 'phil.', 'habil.',
+  'med.', 'rer.', 'nat.', 'phil.', 'habil.', 'dent.', 'sc.',
   'Dipl.', 'Dipl.-Psych.', 'Dipl.-Med.', 'Dipl.-Biol.',
   'MSc', 'BSc', 'MPH',
 ]);
@@ -88,6 +88,9 @@ function looksLikePersonName(text) {
   // Each name word should start with a capital letter (personal names always capitalised)
   const allCapitalised = nameWords.every(w => /^[A-ZÄÖÜÀÂÉÈÊËÎÏÔÙÛÜÆŒ]/.test(w));
   if (!allCapitalised) return false;
+
+  // Any all-uppercase token (2+ letters) is an institution abbreviation, not a name word
+  if (nameWords.some(w => /^[A-Z]{2,}$/.test(w))) return false;
 
   return true;
 }
@@ -195,6 +198,9 @@ function extractContactBlocks($, studyUrl) {
       if (txt && !/^not available$/i.test(txt)) textParts.push(txt);
     });
 
+    // Raw contact text: capture all visible parts BEFORE any extraction removes the phone
+    const rawContactText = textParts.join('\n');
+
     // Phone: first text part matching a phone pattern
     let phone = '';
     const phoneIndex = textParts.findIndex(t => /[+\d][\d\s\-().]{5,}/.test(t));
@@ -203,25 +209,31 @@ function extractContactBlocks($, studyUrl) {
       textParts.splice(phoneIndex, 1);
     }
 
-    // Raw contact text: join remaining parts
-    const rawContactText = textParts.join('\n');
-
-    // Institution: parts that look like org names (not personal names).
-    // Each part may contain "institution name\n\naddress lines" — keep only what's before the first blank line.
-    const institutionParts = textParts
-      .filter(t => !looksLikePersonName(t))
-      .map(t => t.split('\n\n')[0].trim())
-      .filter(Boolean);
-    const institutionName = institutionParts.join('\n');
-
-    // Name: first part that looks like a personal name
-    const namePart = textParts.find(t => looksLikePersonName(t)) || '';
+    // Name / institution split depends on block title.
+    // Only "Contact Person Switzerland" blocks are expected to contain a real person name.
+    // All other block types (General Information, Scientific Information, …) leave name
+    // fields blank and route everything into institutionName.
     let firstName = '';
     let lastName = '';
-    if (namePart) {
-      const split = splitName(namePart);
-      firstName = split.firstName;
-      lastName = split.lastName;
+    let institutionName = '';
+
+    if (blockTitle === 'Contact Person Switzerland') {
+      const namePart = textParts.find(t => looksLikePersonName(t)) || '';
+      if (namePart) {
+        const split = splitName(namePart);
+        firstName = split.firstName;
+        lastName  = split.lastName;
+      }
+      institutionName = textParts
+        .filter(t => !looksLikePersonName(t))
+        .map(t => t.split('\n\n')[0].trim())
+        .filter(Boolean)
+        .join('\n');
+    } else {
+      institutionName = textParts
+        .map(t => t.split('\n\n')[0].trim())
+        .filter(Boolean)
+        .join('\n');
     }
 
     // Only include this block if there is at least one useful field

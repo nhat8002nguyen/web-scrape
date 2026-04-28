@@ -24,7 +24,7 @@ const OUTPUT_FILE = flagVal('--output', 'results.xlsx');
 const PROXY_URL   = flagVal('--proxy-url', '');
 const PROXY_FILE  = flagVal('--proxy-file', '');
 const NUM_WORKERS = Math.max(1, parseInt(flagVal('--workers', '3'), 10));
-const DELAY_MS    = Math.max(0, parseInt(flagVal('--delay', '1500'), 10));
+const DELAY_MS    = Math.max(0, parseInt(flagVal('--delay', '500'), 10));
 const RESUME      = flag('--resume');
 
 // ── Constants ─────────────────────────────────────────────────────────────────
@@ -32,6 +32,7 @@ const RESUME      = flag('--resume');
 const OUTPUT_DIR      = path.join(__dirname, 'output');
 const EXCEL_PATH      = path.join(OUTPUT_DIR, OUTPUT_FILE);
 const FAILED_PATH     = path.join(OUTPUT_DIR, 'failed-urls.txt');
+const SKIPPED_PATH    = path.join(OUTPUT_DIR, 'skipped-urls.txt');
 const PROGRESS_PATH   = path.join(OUTPUT_DIR, 'scrape-progress.json');
 const DEFAULT_PROXY_FILE = path.join(__dirname, 'free_proxies.txt');
 
@@ -351,19 +352,27 @@ async function main() {
   // ── Shared counters (safe for single-threaded async) ──
   let completedCount = progress.completedCount;
   let failedCount    = progress.failedCount;
+  let skippedCount   = 0;
   let pendingFlush   = 0; // URLs completed since last Excel flush
   const startTime    = Date.now();
 
   // ── Per-URL processor ──
   const processUrl = async (url, index, workerId) => {
     let rows = [];
+    let fetchFailed = false;
     try {
       const html = await withRetry(() => fetchHtml(url, index, proxies));
       rows = parseDetailPage(html, url);
     } catch (err) {
+      fetchFailed = true;
       failedCount++;
       appendFailedUrl(url, err.message.replace(/\t|\n/g, ' '));
       console.error(`  [W${workerId}] FAIL ${url}  — ${err.message.slice(0, 80)}`);
+    }
+
+    if (!fetchFailed && rows.length === 0) {
+      skippedCount++;
+      fs.appendFileSync(SKIPPED_PATH, `${url}\n`, 'utf8');
     }
 
     flushBuffer.store(index, rows);
@@ -406,7 +415,8 @@ async function main() {
   console.log(`\n${'─'.repeat(60)}`);
   console.log(`Done in ${elapsed} min`);
   console.log(`  URLs processed : ${completedCount}`);
-  console.log(`  Succeeded      : ${completedCount - failedCount}`);
+  console.log(`  With rows      : ${completedCount - failedCount - skippedCount}`);
+  console.log(`  Skipped (no data): ${skippedCount}  → ${SKIPPED_PATH}`);
   console.log(`  Failed         : ${failedCount}`);
   console.log(`  Excel output   : ${EXCEL_PATH}`);
   if (failedCount > 0) {

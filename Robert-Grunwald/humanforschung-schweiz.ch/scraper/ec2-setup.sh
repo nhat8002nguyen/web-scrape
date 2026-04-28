@@ -25,7 +25,7 @@ SESSION="scraper"
 
 # Scraper tuning — 10 workers @ 1 s delay ≈ 10 req/s → ~67k URLs in ~1.9 h
 WORKERS=10
-DELAY=1000
+DELAY=500
 
 YELLOW='\033[1;33m'
 GREEN='\033[0;32m'
@@ -115,14 +115,22 @@ else
   log "Found $URL_COUNT URLs in output/all-urls.txt — skipping gather step."
 fi
 
-# ── 6. Kill any existing scraper session ─────────────────────────────────────
+# ── 6. Clean stale output files from any previous run ────────────────────────
+
+log "Removing stale output files from previous run…"
+rm -f "$OUTPUT_DIR/results-final.xlsx" \
+      "$OUTPUT_DIR/failed-urls.txt" \
+      "$OUTPUT_DIR/skipped-urls.txt" \
+      "$OUTPUT_DIR/scrape-progress.json"
+
+# ── 7. Kill any existing scraper session ─────────────────────────────────────
 
 if tmux has-session -t "$SESSION" 2>/dev/null; then
   warn "Existing tmux session '$SESSION' found — killing it."
   tmux kill-session -t "$SESSION"
 fi
 
-# ── 7. Launch scraper inside tmux ────────────────────────────────────────────
+# ── 8. Launch scraper inside tmux ────────────────────────────────────────────
 
 SCRAPE_CMD="node scrape.js \
   --queue memory \
@@ -143,7 +151,7 @@ log "  Est. time: ~$((67441 / (WORKERS * 1000 / DELAY / 1) / 3600 + 1))h for 67k
 
 tmux new-session -d -s "$SESSION" -c "$SCRAPER_DIR" "bash -c '$SCRAPE_CMD'"
 
-# ── 8. Done ───────────────────────────────────────────────────────────────────
+# ── 9. Done ───────────────────────────────────────────────────────────────────
 
 EC2_IP=$(curl -sf http://169.254.169.254/latest/meta-data/public-ipv4 2>/dev/null || echo "<EC2-IP>")
 
