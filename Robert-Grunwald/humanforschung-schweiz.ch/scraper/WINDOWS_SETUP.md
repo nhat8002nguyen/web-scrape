@@ -44,7 +44,7 @@ Use this to confirm everything works before running the full scrape.
 
 ```powershell
 node gather-urls.js --pages 5 --output sample-urls.txt
-node scrape.js --queue memory --input sample-urls.txt --output sample-results.xlsx
+node scrape.js --input sample-urls.txt --output sample-results.xlsx
 ```
 
 Expected output files:
@@ -56,7 +56,7 @@ Expected output files:
 
 ```powershell
 node gather-urls.js
-node scrape.js --queue memory --input all-urls.txt --output results-final.xlsx
+node scrape.js --input all-urls.txt --output results-final.xlsx
 ```
 
 Expected output files:
@@ -70,7 +70,7 @@ If PowerShell closes or the computer restarts, resume with:
 
 ```powershell
 node gather-urls.js --resume
-node scrape.js --queue memory --input all-urls.txt --output results-final.xlsx --resume
+node scrape.js --input all-urls.txt --output results-final.xlsx --resume
 ```
 
 ## 7. Optional: Run Faster
@@ -79,13 +79,13 @@ The default scraper uses 3 workers. If the website responds well, you can use
 more workers:
 
 ```powershell
-node scrape.js --queue memory --input all-urls.txt --output results-final.xlsx --workers 5 --delay 1000
+node scrape.js --input all-urls.txt --output results-final.xlsx --workers 5 --delay 1000
 ```
 
 If you see many failed URLs, reduce workers or increase delay:
 
 ```powershell
-node scrape.js --queue memory --input all-urls.txt --output results-final.xlsx --workers 2 --delay 2000
+node scrape.js --input all-urls.txt --output results-final.xlsx --workers 2 --delay 2000
 ```
 
 ## 8. Troubleshooting

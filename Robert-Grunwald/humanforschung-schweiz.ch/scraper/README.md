@@ -52,7 +52,7 @@ without waiting for the full ~67k dataset. Each search API page contains about
 node gather-urls.js --pages 5 --output sample-urls.txt
 
 # 2) Scrape details from that smaller URL list
-node scrape.js --queue memory --input sample-urls.txt --output sample-results.xlsx
+node scrape.js --input sample-urls.txt --output sample-results.xlsx
 ```
 
 - Sample URL list: `output/sample-urls.txt`
@@ -70,19 +70,19 @@ Redis.
 node gather-urls.js
 
 # 2) Scrape all URLs using local in-memory queue
-node scrape.js --queue memory --input all-urls.txt --output results-final.xlsx
+node scrape.js --input all-urls.txt --output results-final.xlsx
 ```
 
 - `gather-urls.js` now reads from the website search API and collects all
   filtered URLs into `output/all-urls.txt`.
-- `scrape.js --queue memory` runs fully locally from that file.
+- `scrape.js` runs fully locally from that file (in-memory queue by default).
 - Final Excel file: `output/results-final.xlsx`.
 
 Optional: use proxies with safe fallback to direct/public IP if a proxy fails:
 
 ```bash
 # Load rotating proxies from scraper/free_proxies.txt
-node scrape.js --queue memory --input all-urls.txt --output results-final.xlsx --proxy-file free_proxies.txt
+node scrape.js --input all-urls.txt --output results-final.xlsx --proxy-file free_proxies.txt
 
 # Or use a single proxy URL
 node scrape.js --proxy-url "http://user:pass@host:port"
@@ -92,7 +92,7 @@ If the run is interrupted, resume with:
 
 ```bash
 node gather-urls.js --resume
-node scrape.js --queue memory --input all-urls.txt --output results-final.xlsx --resume
+node scrape.js --input all-urls.txt --output results-final.xlsx --resume
 ```
 
 ### Step 1 — Collect all study URLs

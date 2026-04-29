@@ -19,7 +19,7 @@ const flagVal = (name, def) => {
   return i !== -1 && args[i + 1] !== undefined ? args[i + 1] : def;
 };
 
-const QUEUE_TYPE  = flagVal('--queue', 'memory');
+const QUEUE_TYPE  = flagVal('--queue', 'memory'); // default: in-memory queue (no Redis required)
 const REDIS_URL   = flagVal('--redis-url', 'redis://127.0.0.1:6379');
 const REDIS_KEY   = flagVal('--redis-key', 'humres:urls');
 const INPUT_FILE  = flagVal('--input', 'all-urls.txt');
