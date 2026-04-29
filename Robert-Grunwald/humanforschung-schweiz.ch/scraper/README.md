@@ -275,6 +275,7 @@ Merge them in Excel when all workers have finished.
 | `--workers` | `10` | Number of concurrent HTTP workers |
 | `--delay` | `500` | Milliseconds to wait between requests **per worker** |
 | `--queue` | `memory` | Queue backend: `memory` or `redis` |
+| `--simplepush` | _(empty)_ | Simplepush key for completion notifications (overrides `SIMPLEPUSH_KEY` in `.env`) |
 | `--redis-url` | `redis://127.0.0.1:6379` | Redis connection string (when `--queue redis`) |
 | `--redis-key` | `humres:urls` | Redis list key name |
 | `--resume` | off | Skip already-processed URLs and append to existing Excel |

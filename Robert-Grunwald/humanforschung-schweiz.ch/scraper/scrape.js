@@ -8,7 +8,14 @@ const simplepush = require('simplepush-notifications');
 const { parseDetailPage } = require('./parser');
 const { createQueue } = require('./queue');
 
-const SIMPLEPUSH_KEY = '56F6LP';
+// Load .env from the scraper directory (ignored by git; copy from .env.example to configure)
+const envPath = path.join(__dirname, '.env');
+if (fs.existsSync(envPath)) {
+  fs.readFileSync(envPath, 'utf8').split('\n').forEach(line => {
+    const match = line.match(/^\s*([^#=\s]+)\s*=\s*(.*)\s*$/);
+    if (match) process.env[match[1]] = match[2];
+  });
+}
 
 // ── CLI args ──────────────────────────────────────────────────────────────────
 
@@ -19,7 +26,8 @@ const flagVal = (name, def) => {
   return i !== -1 && args[i + 1] !== undefined ? args[i + 1] : def;
 };
 
-const QUEUE_TYPE  = flagVal('--queue', 'memory'); // default: in-memory queue (no Redis required)
+const QUEUE_TYPE        = flagVal('--queue', 'memory'); // default: in-memory queue (no Redis required)
+const SIMPLEPUSH_KEY    = flagVal('--simplepush', process.env.SIMPLEPUSH_KEY || '');
 const REDIS_URL   = flagVal('--redis-url', 'redis://127.0.0.1:6379');
 const REDIS_KEY   = flagVal('--redis-key', 'humres:urls');
 const INPUT_FILE  = flagVal('--input', 'all-urls.txt');
@@ -346,7 +354,8 @@ async function main() {
   } else {
     console.log('Proxy mode: disabled (direct/public IP only)');
   }
-  console.log(`Retry: ${RETRY_ATTEMPTS} attempts with exponential backoff\n`);
+  console.log(`Retry: ${RETRY_ATTEMPTS} attempts with exponential backoff`);
+  console.log(`Simplepush: ${SIMPLEPUSH_KEY ? `enabled (key: ${SIMPLEPUSH_KEY})` : 'disabled (no key set)'}\n`);
 
   // ── Set up Excel writer ──
   const excelWriter = createExcelWriter();
@@ -427,21 +436,27 @@ async function main() {
     console.log(`  Re-run with   : node scrape.js --input output/failed-urls.txt --output output/results-retry.xlsx`);
   }
 
-  const notifMessage =
-    `Done in ${elapsed} min | ` +
-    `${completedCount - failedCount - skippedCount} rows | ` +
-    `${skippedCount} skipped | ` +
-    `${failedCount} failed`;
-  simplepush.send(
-    { key: SIMPLEPUSH_KEY, title: 'Scrape finished ✓', message: notifMessage },
-    (err) => { if (err) console.warn('Simplepush error:', err); },
-  );
+  if (SIMPLEPUSH_KEY) {
+    const notifMessage =
+      `Done in ${elapsed} min | ` +
+      `${completedCount - failedCount - skippedCount} rows | ` +
+      `${skippedCount} skipped | ` +
+      `${failedCount} failed`;
+    simplepush.send(
+      { key: SIMPLEPUSH_KEY, title: 'Scrape finished ✓', message: notifMessage },
+      (err) => { if (err) console.warn('Simplepush error:', err); },
+    );
+  }
 }
 
 main().catch(err => {
   console.error('Fatal:', err.message);
-  simplepush.send(
-    { key: SIMPLEPUSH_KEY, title: 'Scrape FAILED ✗', message: err.message.slice(0, 200) },
-    () => process.exit(1),
-  );
+  if (SIMPLEPUSH_KEY) {
+    simplepush.send(
+      { key: SIMPLEPUSH_KEY, title: 'Scrape FAILED ✗', message: err.message.slice(0, 200) },
+      () => process.exit(1),
+    );
+  } else {
+    process.exit(1);
+  }
 });
