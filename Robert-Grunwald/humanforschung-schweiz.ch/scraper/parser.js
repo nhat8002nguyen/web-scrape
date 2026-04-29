@@ -34,7 +34,21 @@ const TITLE_PREFIXES = new Set([
   'med.', 'rer.', 'nat.', 'phil.', 'habil.', 'dent.', 'sc.',
   'Dipl.', 'Dipl.-Psych.', 'Dipl.-Med.', 'Dipl.-Biol.',
   'MSc', 'BSc', 'MPH',
+  // Gendered honorifics (German/French/English)
+  'Herr', 'Frau', 'Mr', 'Mr.', 'Mrs', 'Mrs.', 'Ms', 'Ms.',
+  // Latin conjunctions used in compound academic titles (e.g. "Dr. med. et phil.")
+  'et',
 ]);
+
+// Case-insensitive prefix check so capitalised or period-less variants like "Med" or "Nat" are stripped.
+// Tries: exact, lowercase, lowercase+period (handles "Med" → "med."), uppercase+period.
+function isTitlePrefix(word) {
+  const lower = word.toLowerCase();
+  return TITLE_PREFIXES.has(word) ||
+         TITLE_PREFIXES.has(lower) ||
+         TITLE_PREFIXES.has(lower + '.') ||
+         TITLE_PREFIXES.has(word + '.');
+}
 
 // Lowercase-only articles / prepositions that appear in org names (surname particles like "Le", "Von" are capitalised so they pass)
 const NON_NAME_WORDS = new Set(['für', 'fuer', 'de', 'la', 'le', 'les', 'van', 'von', 'und', 'and', 'of', 'for', 'di', 'del', 'della', 'des', 'du', 'soins', 'pour']);
@@ -72,8 +86,8 @@ function looksLikePersonName(text) {
     if (words.includes(kw)) return false;
   }
 
-  // Strip title prefixes to get the actual name words
-  const nameWords = words.filter(w => !TITLE_PREFIXES.has(w));
+  // Strip title prefixes (case-insensitive) to get the actual name words
+  const nameWords = words.filter(w => !isTitlePrefix(w));
   if (nameWords.length < 2) return false;
 
   // Reject if any name word is a lowercase article/preposition (indicates org phrase).
@@ -106,8 +120,8 @@ const SURNAME_PARTICLES = new Set([
 
 function splitName(text) {
   const words = text.trim().split(/\s+/).filter(Boolean);
-  // Remove title prefixes (Dr., Prof., PD, med., etc.) — only the given/family names remain
-  const nameWords = words.filter(w => !TITLE_PREFIXES.has(w));
+  // Remove title prefixes (case-insensitive) — only the given/family names remain
+  const nameWords = words.filter(w => !isTitlePrefix(w));
   if (nameWords.length < 2) return { firstName: '', lastName: '' };
 
   // Detect a surname particle between the first given-name word and the last word.
@@ -123,6 +137,33 @@ function splitName(text) {
   const lastName = nameWords.slice(surnameStart).join(' ');
   const firstName = nameWords.slice(0, surnameStart).join(' ');
   return { firstName, lastName };
+}
+
+// Tries progressively relaxed variants of a text part to find a person name inside it.
+// Only used for 'Contact Person Switzerland' blocks, so conservative fallbacks are safe.
+function extractNameFromPart(text) {
+  if (looksLikePersonName(text)) return text;
+
+  // "Franzisca Rusca (AbbVie Medical Information)" → try before first parenthesis
+  const beforeParen = text.split('(')[0].trim();
+  if (beforeParen && beforeParen !== text && looksLikePersonName(beforeParen)) return beforeParen;
+
+  // "Simon Häfliger – Inselspital Bern" → try before em-dash / en-dash
+  const beforeDash = text.split(/\s*[–—]\s*/)[0].trim();
+  if (beforeDash && beforeDash !== text && looksLikePersonName(beforeDash)) return beforeDash;
+
+  // "Prof. Dr. med. Markus Denzinger, MHBA" → try before first comma
+  const beforeComma = text.split(',')[0].trim();
+  if (beforeComma && beforeComma !== text && looksLikePersonName(beforeComma)) return beforeComma;
+
+  // "SAKK, Céline Rüegsegger" or "SAKK, Dr. Jana Musilova" → try segment after first comma
+  const commaIdx = text.indexOf(',');
+  if (commaIdx >= 0) {
+    const afterFirstComma = text.slice(commaIdx + 1).split(',')[0].trim();
+    if (afterFirstComma && looksLikePersonName(afterFirstComma)) return afterFirstComma;
+  }
+
+  return '';
 }
 
 function decodeEmail($, anchorEl) {
@@ -218,14 +259,20 @@ function extractContactBlocks($, studyUrl) {
     let institutionName = '';
 
     if (blockTitle === 'Contact Person Switzerland') {
-      const namePart = textParts.find(t => looksLikePersonName(t)) || '';
-      if (namePart) {
-        const split = splitName(namePart);
+      let nameCandidate = '';
+      let nameSourcePart = '';
+      for (const t of textParts) {
+        const candidate = extractNameFromPart(t);
+        if (candidate) { nameCandidate = candidate; nameSourcePart = t; break; }
+      }
+      if (nameCandidate) {
+        const split = splitName(nameCandidate);
         firstName = split.firstName;
         lastName  = split.lastName;
       }
+      // Institution: all parts that are not the identified person name part
       institutionName = textParts
-        .filter(t => !looksLikePersonName(t))
+        .filter(t => t !== nameSourcePart && !looksLikePersonName(t))
         .map(t => t.split('\n\n')[0].trim())
         .filter(Boolean)
         .join('\n');
