@@ -19,6 +19,8 @@ const RESUME      = flag('--resume');
 const SEED_REDIS  = flag('--seed-redis');
 const REDIS_URL   = flagVal('--redis-url', 'redis://127.0.0.1:6379');
 const REDIS_KEY   = flagVal('--redis-key', 'humres:urls');
+const OUTPUT_FILE = flagVal('--output', 'all-urls.txt');
+const MAX_PAGES   = Math.max(0, parseInt(flagVal('--pages', '0'), 10));
 
 // ── Constants ─────────────────────────────────────────────────────────────────
 
@@ -26,8 +28,12 @@ const BASE_URL    = 'https://www.humanforschung-schweiz.ch';
 const SEARCH_URL  = `${BASE_URL}/en/trial-search/`;
 const SEARCH_API_URL = `${BASE_URL}/de/`;
 const OUTPUT_DIR  = path.join(__dirname, 'output');
-const URLS_FILE   = path.join(OUTPUT_DIR, 'all-urls.txt');
-const PROGRESS_FILE = path.join(OUTPUT_DIR, 'gather-progress.json');
+const URLS_FILE   = path.isAbsolute(OUTPUT_FILE) ? OUTPUT_FILE : path.join(OUTPUT_DIR, OUTPUT_FILE);
+const PROGRESS_BASENAME = path.basename(OUTPUT_FILE, path.extname(OUTPUT_FILE)).replace(/[^a-zA-Z0-9_-]/g, '_');
+const PROGRESS_FILE = path.join(
+  OUTPUT_DIR,
+  PROGRESS_BASENAME === 'all-urls' ? 'gather-progress.json' : `gather-progress-${PROGRESS_BASENAME}.json`
+);
 
 // Save checkpoint every N pages
 const CHECKPOINT_EVERY = 50;
@@ -240,9 +246,13 @@ async function main() {
   // checkpoints, which would otherwise cause 3 consecutive "no new URLs" and
   // a premature stop.
   let pageCount = RESUME ? Math.ceil(seenUrls.size / API_PAGE_SIZE) : 0;
+  const startPage = pageCount;
 
   if (RESUME) {
     console.log(`Resuming from page ${pageCount} (offset ${pageCount * API_PAGE_SIZE}), ${seenUrls.size} URLs already collected.`);
+  }
+  if (MAX_PAGES > 0) {
+    console.log(`Limiting URL collection to ${MAX_PAGES} page(s) starting from page ${startPage}.`);
   }
 
   try {
@@ -298,6 +308,10 @@ async function main() {
       }
       if (hits.length < API_PAGE_SIZE) {
         console.log('Last API page reached.');
+        break;
+      }
+      if (MAX_PAGES > 0 && pageCount - startPage >= MAX_PAGES) {
+        console.log(`Reached --pages limit (${MAX_PAGES}).`);
         break;
       }
       if (total !== null && totalCollected >= total) {

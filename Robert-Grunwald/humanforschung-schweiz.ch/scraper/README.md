@@ -31,11 +31,33 @@ npm install
 
 That's it. No other setup is needed for a local single-machine run.
 
+> Windows users: follow the dedicated setup guide in
+> [`WINDOWS_SETUP.md`](WINDOWS_SETUP.md), from installing Node.js/npm to running
+> the small test and full scrape.
+
 ---
 
 ## Quick Start — Single Machine (recommended for first run)
 
 Run these two commands in order. Each can be left running unattended.
+
+### Small Test Run — A Few Search Pages
+
+Use this first when you only want to verify URL collection and detail scraping
+without waiting for the full ~67k dataset. Each search API page contains about
+10 study URLs, so `--pages 5` collects about 50 URLs.
+
+```bash
+# 1) Collect only the first 5 pages of study URLs
+node gather-urls.js --pages 5 --output sample-urls.txt
+
+# 2) Scrape details from that smaller URL list
+node scrape.js --queue memory --input sample-urls.txt --output sample-results.xlsx
+```
+
+- Sample URL list: `output/sample-urls.txt`
+- Sample Excel file: `output/sample-results.xlsx`
+- Increase or decrease `--pages` depending on how large a test you want.
 
 ### Full Production Run (No Redis, local in-memory queue)
 
@@ -94,8 +116,8 @@ node scrape.js
 - Reads `output/all-urls.txt`, fetches each detail page in parallel using
   3 concurrent workers, parses all contact blocks, and writes the result to
   `output/results.xlsx`.
-- **Expected time:** ~9 hours with default settings (3 workers, 1.5 s delay).
-  For a faster run use `--workers 5 --delay 1000` (~3.7 hours).
+- **Expected time:** ~3.7 hours with default settings (3 workers, 500 ms delay).
+  For a more conservative run use `--workers 3 --delay 1500` (~9 hours).
 - Progress and estimated time remaining are printed every 100 URLs.
 
 ---
@@ -118,15 +140,51 @@ node scrape.js --resume
 ## Retrying Failed URLs
 
 After a full scrape run, any URLs that failed all 3 retry attempts are logged
-to `output/failed-urls.txt`. Re-scrape them with:
+to `output/failed-urls.txt`.
+
+### Step 1 — Prepare the retry URL list
+
+`failed-urls.txt` contains a URL and an error reason separated by a tab on each
+line. Strip the error column before passing the file to `scrape.js`:
+
+```bash
+cut -f1 output/failed-urls.txt | grep -v '^$' > output/retry-urls.txt
+```
+
+### Step 2 — Re-scrape
+
+Use a lower concurrency and longer delay to avoid re-triggering any rate limit
+that caused the original failures:
 
 ```bash
 node scrape.js \
-  --input  output/failed-urls.txt \
-  --output output/results-retry.xlsx
+  --input   retry-urls.txt \
+  --output  results-retry.xlsx \
+  --workers 3 \
+  --delay   2000
 ```
 
-Merge `results-retry.xlsx` with `results.xlsx` in Excel when done.
+### Step 3 — Merge back into the main file in original order
+
+`merge-retry.js` reads both `results-final.xlsx` and `results-retry.xlsx`,
+sorts every URL group by its original position in `all-urls.txt`, and writes
+`results-merged.xlsx`:
+
+```bash
+node merge-retry.js
+```
+
+Optional flags (all paths are relative to `output/`):
+
+```bash
+node merge-retry.js \
+  --final  results-final.xlsx \   # default
+  --retry  results-retry.xlsx \   # default
+  --out    results-merged.xlsx     # default
+```
+
+`results-merged.xlsx` is the final deliverable — it contains all rows from the
+main run plus the retried rows inserted at their correct positions.
 
 ---
 
@@ -134,7 +192,8 @@ Merge `results-retry.xlsx` with `results.xlsx` in Excel when done.
 
 | Workers | Delay | Approx. RPS | Time for 67 k URLs |
 |---|---|---|---|
-| 3 (default) | 1500 ms (default) | ~2 | ~9 h |
+| 3 (default) | 500 ms (default) | ~6 | ~3.1 h |
+| 3 | 1500 ms | ~2 | ~9 h |
 | 5 | 1500 ms | ~3.3 | ~5.5 h |
 | 5 | 1000 ms | ~5 | ~3.7 h |
 | 10 | 1000 ms | ~10 | ~1.9 h |
@@ -202,6 +261,8 @@ Merge them in Excel when all workers have finished.
 | Flag | Default | Description |
 |---|---|---|
 | `--resume` | off | Continue from the last saved checkpoint |
+| `--pages` | `0` | Limit URL collection to N search API pages (`0` means all pages) |
+| `--output` | `all-urls.txt` | URL list filename written under `output/` |
 | `--seed-redis` | off | Push collected URLs into Redis instead of writing to file |
 | `--redis-url` | `redis://127.0.0.1:6379` | Redis connection string (used with `--seed-redis`) |
 | `--redis-key` | `humres:urls` | Redis list key name |
@@ -213,7 +274,7 @@ Merge them in Excel when all workers have finished.
 | `--input` | `output/all-urls.txt` | Path to URL list file (relative to `output/` or absolute) |
 | `--output` | `output/results.xlsx` | Output Excel filename (placed in `output/`) |
 | `--workers` | `3` | Number of concurrent HTTP workers |
-| `--delay` | `1500` | Milliseconds to wait between requests **per worker** |
+| `--delay` | `500` | Milliseconds to wait between requests **per worker** |
 | `--queue` | `memory` | Queue backend: `memory` or `redis` |
 | `--redis-url` | `redis://127.0.0.1:6379` | Redis connection string (when `--queue redis`) |
 | `--redis-key` | `humres:urls` | Redis list key name |
