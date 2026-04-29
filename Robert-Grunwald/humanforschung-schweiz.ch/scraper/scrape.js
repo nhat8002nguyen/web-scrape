@@ -26,7 +26,7 @@ const INPUT_FILE  = flagVal('--input', 'all-urls.txt');
 const OUTPUT_FILE = flagVal('--output', 'results.xlsx');
 const PROXY_URL   = flagVal('--proxy-url', '');
 const PROXY_FILE  = flagVal('--proxy-file', '');
-const NUM_WORKERS = Math.max(1, parseInt(flagVal('--workers', '3'), 10));
+const NUM_WORKERS = Math.max(1, parseInt(flagVal('--workers', '10'), 10));
 const DELAY_MS    = Math.max(0, parseInt(flagVal('--delay', '500'), 10));
 const RESUME      = flag('--resume');
 

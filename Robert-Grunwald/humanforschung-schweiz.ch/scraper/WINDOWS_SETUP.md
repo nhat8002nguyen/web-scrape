@@ -75,14 +75,14 @@ node scrape.js --input all-urls.txt --output results-final.xlsx --resume
 
 ## 7. Optional: Run Faster
 
-The default scraper uses 3 workers. If the website responds well, you can use
-more workers:
+The default scraper uses 10 workers at 500 ms delay. If you see many failed
+URLs the server may be rate-limiting — reduce concurrency:
 
 ```powershell
-node scrape.js --input all-urls.txt --output results-final.xlsx --workers 5 --delay 1000
+node scrape.js --input all-urls.txt --output results-final.xlsx --workers 3 --delay 1500
 ```
 
-If you see many failed URLs, reduce workers or increase delay:
+For an even more conservative run:
 
 ```powershell
 node scrape.js --input all-urls.txt --output results-final.xlsx --workers 2 --delay 2000

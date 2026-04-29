@@ -114,9 +114,9 @@ node scrape.js
 ```
 
 - Reads `output/all-urls.txt`, fetches each detail page in parallel using
-  3 concurrent workers, parses all contact blocks, and writes the result to
+  10 concurrent workers, parses all contact blocks, and writes the result to
   `output/results.xlsx`.
-- **Expected time:** ~3.7 hours with default settings (3 workers, 500 ms delay).
+- **Expected time:** ~1 hour with default settings (10 workers, 500 ms delay).
   For a more conservative run use `--workers 3 --delay 1500` (~9 hours).
 - Progress and estimated time remaining are printed every 100 URLs.
 
@@ -192,11 +192,10 @@ main run plus the retried rows inserted at their correct positions.
 
 | Workers | Delay | Approx. RPS | Time for 67 k URLs |
 |---|---|---|---|
-| 3 (default) | 500 ms (default) | ~6 | ~3.1 h |
-| 3 | 1500 ms | ~2 | ~9 h |
-| 5 | 1500 ms | ~3.3 | ~5.5 h |
+| 10 (default) | 500 ms (default) | ~20 | ~1 h |
+| 5 | 500 ms | ~10 | ~1.9 h |
 | 5 | 1000 ms | ~5 | ~3.7 h |
-| 10 | 1000 ms | ~10 | ~1.9 h |
+| 3 | 1500 ms | ~2 | ~9 h |
 
 ```bash
 # Example: 5 workers, 1 second delay
@@ -273,7 +272,7 @@ Merge them in Excel when all workers have finished.
 |---|---|---|
 | `--input` | `output/all-urls.txt` | Path to URL list file (relative to `output/` or absolute) |
 | `--output` | `output/results.xlsx` | Output Excel filename (placed in `output/`) |
-| `--workers` | `3` | Number of concurrent HTTP workers |
+| `--workers` | `10` | Number of concurrent HTTP workers |
 | `--delay` | `500` | Milliseconds to wait between requests **per worker** |
 | `--queue` | `memory` | Queue backend: `memory` or `redis` |
 | `--redis-url` | `redis://127.0.0.1:6379` | Redis connection string (when `--queue redis`) |
