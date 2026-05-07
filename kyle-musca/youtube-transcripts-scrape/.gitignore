@@ -1,0 +1,10 @@
+.tmp-build-test/
+
+__pycache__/
+build/
+dist/
+*.pyc
+transcripts/
+.env
+Webshare*.txt
+*proxies*.txt

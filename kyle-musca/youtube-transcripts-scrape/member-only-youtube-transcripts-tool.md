@@ -1,0 +1,9 @@
+- This tool uses browser automation like puppeteer to open a specified chrome profile which have a chrome extension installed.
+- It will fetch all the video urls using the same api in the @download_channel_transcripts.py script. This phase doesn't require a headless tool. 
+- Then will use puppeteer to open the chrome profile and fetch the transcripts for each video. This phase requires a headless tool.
+- the @extension.html is a div inside a div with id = "-extension-root". This is the chrome extension html.
+- Click the button with text = "Subtitles" then the button with tittle "Get Subtitles" will be displayed. Click it to get the transcript.
+- Then wait a bit until it displays a div including a list of transcripts like in @transcript-list-div.html. 
+- Extract the text and put them in a .txt file like in @download_channel_transcripts.py script.
+- If there is error, and timeout that we can not load any transcript, we will skip the video. But if 3 videos are skipped in a row, we will stop the script. And send a push notfication via simplepush using the @code-snippets/simplepush-example.js script. And the key will read via an arg in the command line.
+- Keep extracting the transcripts for all the videos in videos tab. 
