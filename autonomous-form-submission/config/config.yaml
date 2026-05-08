@@ -1,0 +1,105 @@
+kafka:
+  brokers: ["localhost:9092"]
+  topics:
+    discovery: "discovery-tasks"
+    submission: "submission-tasks"
+  consumer_group: "form-submitters"
+  partition_count:
+    discovery: 3
+    submission: 5
+
+redis:
+  host: "localhost:6379"
+  password: ""
+  db: 0
+  ttl_days: 7
+  pool_size: 10
+
+postgres:
+  host: "localhost"
+  port: 5432
+  database: "form_submissions"
+  user: "formbot"
+  password: "formbot123"
+  max_connections: 20
+  
+captcha:
+  provider: "capsolver"
+  api_key: "${CAPSOLVER_API_KEY}"
+  timeout_seconds: 30
+  max_retries: 2
+  solve_delay_ms: 1000
+
+proxy:
+  provider: "webshare"
+  api_key: "${PROXY_API_KEY}"
+  rotation_strategy: "per_domain"
+  fallback_free_proxies: true
+  enable_direct: true
+  health_check_interval_seconds: 300
+  max_failures_before_remove: 3
+  
+workers:
+  discovery_count: 5
+  submission_count: 10
+  concurrent_browsers: 3
+  max_tasks_per_worker: 100
+  restart_interval_minutes: 60
+
+budget:
+  captcha_limit_usd: 30.0
+  captcha_solve_types: ["recaptcha_v2_checkbox"]
+  skip_on_budget_exceeded: true
+  alert_threshold_usd: 25.0
+
+browser:
+  headless: false
+  disable_gpu: true
+  window_size: "1920,1080"
+  user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  timeout_seconds: 30
+  page_load_timeout_seconds: 20
+  idle_timeout_seconds: 0  # Disable idle timeout (0 = keep browsers open). Recommended: 300 for local dev
+
+discovery:
+  max_depth: 3
+  max_pages_per_domain: 10
+  contact_path_patterns:
+    - "/contact"
+    - "/contact-us"
+    - "/get-in-touch"
+    - "/support"
+    - "/help"
+    - "/reach-us"
+    - "/about/contact"
+  
+submission:
+  verify_success_timeout_seconds: 10
+  screenshot_on_failure: true
+  max_retries: 2
+  retry_delay_seconds: 5
+
+monitoring:
+  prometheus_port: 9090
+  metrics_port: 8080
+  log_level: "info"
+  
+templates:
+  - name: "default"
+    email: "contact@business-inquiry.com"
+    sender_name: "Michael Anderson"
+    company: "TechVentures Inc"
+    phone: "+1-555-0123"
+    subject: "Business Partnership Inquiry"
+    message: |
+      Hello,
+      
+      I came across your website and was impressed by your offerings. 
+      I represent TechVentures Inc, and we're interested in exploring 
+      potential partnership opportunities.
+      
+      Would you be available for a brief call to discuss how we might 
+      work together?
+      
+      Best regards,
+      Michael Anderson

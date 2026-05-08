@@ -1,0 +1,790 @@
+hey guys my name is Matt and over the
+past five or six years I have run
+outbound teams for a ton of companies
+and I've also gone in from anywhere from
+billion doll companies all the way down
+to companies doing $10,000 a month and
+help them structure sales outbound
+processes and in this video what I'm
+going to teach you is all the things
+that are happening in your business
+right now that you don't know about that
+are potential massive compliance risk
+fines risks and also taking away from
+the efficacy of what you're doing and
+I'm going to do this specifically for
+outbound dialing and I'm going to
+explain to you the tools that are
+available to you things that you're
+supposed to be doing that you're
+probably not because like how do we find
+these things out it's through trial and
+error but also by going out and doing
+the research so I spent the last eight
+months of my life building a call center
+and so I've had to go deep deep deep
+into the compliance world and I'm going
+to tell you all the things right now
+that are happening in your business or
+most of the things in your outbound
+Department specifically and calling your
+leads that you may or may not be doing
+that could be causing you a potential
+significant risk so that you are now
+armed of the information be a to change
+that all right so if you like this kind
+of stuff make sure to subscribe
+notification bell all that kind of good
+stuff and I will see you after the intro
+all right guys so I have been asked to
+come in and have a look at the outbound
+processes sales processes businesses all
+the way from Bradley Russell Brunson
+some of the Acquisitions clients like
+gym launch and NCI I've helped
+businesses like clean health you know
+there's a large number of businesses a
+lot of the uh common faults are very
+very the same like whether you're a
+small business or a big business and
+some of the things that small businesses
+do well big businesses don't and vice
+versa what I'm going to focus on today
+is the things that people just don't
+know that are going to cause you a huge
+headache if something were to get found
+out now what are the odds of getting
+found out I have no idea it's kind of
+how long is a pie of string type
+question where like it just takes
+someone who's pissed off in order to be
+able to you know just kind of go through
+the relatively simple process of having
+you find and then potentially sue you
+I'm working with a customer at the
+moment of mine that before they came on
+with us they got a $100,000 lawsuit
+because stripe sends a notification on
+their behalf to a client and they'd say
+oh but that Stripes thing well no
+because it's client communication
+between you and the client and Stripes
+sending that on your beh off you can
+turn those things off if you want to
+also like stripe is a much harder
+business to sue than you I would
+probably assume and so what what what
+they did it was uh basically it was a
+customer in Florida they got sente a hey
+your payment failed we're we're going to
+redbit it type thing and so what that
+did is it ticked a bunch of boxes first
+of all was in Florida past 800 p.m. so
+there you go there's your first FCC tick
+right then from there it was soliciting
+payment and uh something to do with debt
+as well like deck collection and so it
+ticked three boxes which meant the fine
+was going to be around 150,000 so he
+sued him for 100,000 basically saying
+like hey I'm going to go through and put
+all these fines through if you don't
+compensate me which is not blackmail
+it's actually just like you know
+technically you harass them you're
+godamn right right so anyway they
+settled for like 7 grand um because it's
+just easier that way to settle uh in
+lawsuits which is a shame but like
+that's what those slap suits are for in
+the same way that back in the day used
+to fall like ah my back oh my back right
+and like I'll settle at a court right
+now if you give me 100 bucks type stuff
+right so this is happening in today's
+world and something we need to be aware
+of and in the digital age Age and what
+we're all dealing with is like you can't
+hide if somebody wants to they can ruin
+your business through just opting into
+your funnels that's all they have to do
+and then go through a series of things
+where maybe you haven't ticked every box
+and you haven't quite understood the
+wording of what you're supposed to be
+doing and you don't have processes in
+place they could get your business
+easily find in the seven figures it
+would not be difficult for me to go
+through almost any business and find
+seven figures worth of fins within an
+hour or two so what I'm going to do is
+explain to you some of the things that
+you can now do in order to mitigate that
+whether you're a sales guy doing it for
+yourself whether you're a business owner
+or no matter what these are things that
+you should be aware of so the first
+thing is DNC so DNC is the do not
+callist okay the DNC is it's readily
+available um and everyone who's calling
+their leads is supposed to be registered
+for the API now I'm going to talk in
+American terms a lot of the rules are
+very similar in Australia so I'm just
+just going to going to go over like
+America and and again you know what I
+say is [ __ ] go I'm an idiot don't listen
+to me what uh this is not like
+compliance or legal advice this is just
+me talking [ __ ] okay but basically the
+DNC the Do Not Call it this is a
+registry a National Registry that you
+can go onto where teley marketers can't
+call you or are not supposed to call you
+now how that works is it works through
+an API to where you register your phone
+number there and then from there like
+we're supposed to as Telly marketers
+like do a scrub of our leads that come
+in or our databases to make sure we
+don't call people on the Do Not Call
+list now Matt they opted an an Osment
+call yes fantastic now if you are tcpa
+compliant and in some states gdpr
+compliant which means that you have all
+the boxes ticked with the right wording
+then yes you can call those leads now
+there are limits to how much you can
+call them okay but also that tcpa that
+ability for you to call them it lies
+with the prospect not with you so they
+can at any stage revoke their status of
+I want to be called they can say that
+through please don't call me again you
+could probably argue that ignoring your
+calls is probably a way to do it it
+would depend on the court case you know
+it's very much at the behest of the
+prospect because what we're trying to do
+here what the Taos are trying to do is
+limit harassment and people do harass
+people on like that is a thing like you
+know I've been involved in businesses
+that'll call people 10 times times in a
+day like that's not okay you can't do
+that it it is harassing people right and
+so the Do Not Call US is a National
+Registry you have the API and if you're
+doing opt-in leads okay then it's free
+or I think it's like 22 bucks a year or
+something like that now like that you
+have access to the API you is
+recommended that you scrub your old
+leads okay cuz that tcpa it doesn't
+really like last forever right you know
+what I mean if they send an email or a
+text or tell somebody and you don't have
+the proper procedures in place you're
+better off just kind of scrubbing leads
+when they get to a certain age and you
+have to be seen to be doing that because
+if you do get they're going to ask for
+your procedures around the DNC right now
+in my system we do that for you as a
+part of it right so people come on to
+our dialer okay which is dialer doio
+it's all being the website's being built
+but right now it's SDR call center then
+we do that as as part of it right and
+then if you're doing code calling then
+really you have to pay about I think
+it's $22,000 a year to have access to
+that DNC because if you're cold calling
+you must DNC scrub it is a requirement
+you also have to register with the FTC
+that you are cold calling people which
+you are allowed to do okay I'm not
+saying that these things aren't allowed
+to be done but there are rules and
+regulations like you're allowed to drive
+but you can't drive like an idiot right
+it's the same sort of thing okay the
+next thing okay is the coal reassignment
+registry now what is that I've never
+heard of this okay so you know when like
+you you have a phone number and then
+like you change phone numbers well if
+you've opted into something in the past
+and it's under like Devon's name and
+Devon no longer has that phone and and
+you call them you're not calling Devon
+anymore so now you're doing an
+unsolicited B Toc code call which is not
+allowed right and that person's on the
+DNC list now you're triple [ __ ]
+yourself okay cuz you're doing an
+unsolicited b2c code call to a person's
+on do not call list that's probably
+50,000 bucks for the fines even up to
+like getting close to seven figures if
+they really want to double down triple
+down on you and make an example out of
+you okay the coal reassignment registry
+is available to everybody is a National
+Registry you are supposed to be doing it
+but the mere fact that you are calling
+leads it is implied that you have this
+process in place in your business so I
+would ask you do you have this in place
+if you don't there's a tremendous amount
+of risk and life ability that you're
+taking right like you can use systems
+like aircoil and cloes and they're
+relatively cheap but they don't do any
+of the stuff for you which is fine right
+or you can use alware whatever but like
+it's a tremendous risk is it's one fine
+a year for example like on my system I
+don't want to plug my [ __ ] too much in
+this video but like one fine a year
+would would like pay for my system five
+times right we want to make sure that
+we're we're doing this the national call
+number reassignment registry okay so you
+have to be scrubbing your list regularly
+for that right and then that way when
+you're doing your outbound dolls and all
+that kind of stuff like you're you're
+seem to be doing the right thing the
+next is a procedure in place for do not
+call now on my system do not call done
+it's it's just a drop down it's done
+right if someone asks you not to call
+them again you are not allowed to call
+them again flat out you're not allowed
+to if they reopt in okay and ask to be
+called then you can do that but like if
+they say hey would you mind not calling
+me again and then seven other people
+call them that's an escalation of fine
+that is astronomical and all it takes is
+that person to screenshot it and submit
+it to the FCC or FTC website and it's
+insta find then what they can do is go
+okay now show us all your call recordss
+they can then do a comparison they go
+hey you called that person too many
+times you called this person too many
+times you done this here's $27 million
+of the fun right and you laugh it's been
+done before it's the easiest way to shut
+a business down because most of you are
+not doing it and if you have no
+procedures in place for these things and
+there like ignorance is no excuse if you
+do not have procedures in place for
+these things you are doing the wrong
+thing okay make sense so okay so the
+next thing okay that we're supposed to
+be doing is that um and that could
+potentially cause fines is we have to
+have limiters right on the call cadences
+okay every state is a little bit
+different but you cannot just be calling
+the living beesus set of people
+constantly and expect to not get in
+trouble there are limits most of them
+are seven times in 7 days or three times
+in a day is the absolute maximum okay so
+if you're calling people 10 times in a
+day I don't care how much they've asked
+like if they've opted into 37 different
+funnels you can't do that and a text
+message is considered an attempt right
+so text and voicemail and dials are all
+in the same realm so if you sort of doll
+someone five times text them twice and
+leave three voicemails like you know
+what I mean and those voicemails are say
+separate so two more dolls so you've got
+seven attempts plus the text you like
+nine attempts anything over the three
+okay is going to be a $10,000 fine per
+attempt right so and again you are
+allowed to contact and call your leads
+and you know the rules are are a little
+bit different when you're like doing a
+booked coal right that's a bit different
+although there still are communication
+uh limits like you can't send someone
+seven reminders in a day you're not
+allowed to do that right because they're
+not a customer so it still falls under
+the tcpa rules which I suggest that you
+have a look at and and sort of get to
+know each other right again if your
+system doesn't allow for these things
+then you have to make sure you build it
+in and that there's an accountability
+measure and metric and way to audit it
+if you can't audit it then you don't
+know what's going on then ignorance will
+not be allowed whereas if you have
+procedures in place if you ever do get
+looked at they're going to say show me
+your procedures and what you do if
+you're doing mitigation but it's like
+there's human error involved they're
+actually going to be pretty cool with
+that if you're doing nothing that's on
+you and you're going to get hosed right
+because like you should as a
+professional as someone in business you
+should know the limitations and
+boundaries of the things that you're
+doing so that you don't break the rules
+right I think that's a fair enough
+assumption right if you don't know what
+a speed limit is you shouldn't be
+allowed to drive that's a fair concept
+right the next thing is understanding
+the state-by-state regulation okay every
+single month the states release the
+individual days of where Telly marketing
+is not allow out right certain states
+allow teley marketing on public holidays
+certain states don't like you have to
+understand that and you should have
+someone in your organization that is
+actively out there looking for things
+and then putting mitigation factors in
+place like for example every month I go
+through and look at all the states right
+and then I go okay September 12th you
+can't call Utah so in the dialer in our
+dialer in our system we take out Utah no
+calling Utah that day now if they've
+done a book call that's fine if they're
+a client it's different clients don't
+fall under tcpa right they're a little
+bit different there's still rules and
+regulations around it but if they're an
+actual paying client like they're it's a
+little bit different but there's still
+regulation so like if you're just out
+bounding a lead magnet orever and it's
+in Utah it's a no cold day they just
+take a screenshot of every single
+attempt submit it boom done good to go
+that's a problem for you right so you
+have to be aware of that we also have to
+be aware of the state limitations based
+on time like Florida for example is 8
+p.m. most other states are 9:00 p.m. but
+it kind of fluctuates and rotates so you
+have to have something in place to where
+you're not calling people outside of
+those times cuz you cannot call and
+solicit anything that you're selling
+outside of those times you can't call
+people at 1000 p.m. you you can't do it
+if you do it's illegal right it's
+considered harassment and the whole
+business can be sort of shut down and
+massively fined due to these things so
+your system or something should limit
+that so if you've got people calling EST
+and then MST and then PST you have to be
+able to sort of have the limitations in
+there to where they can still call
+people at 8:00 p.m. or 7:30 p.m. PST but
+not then accidentally they call people
+at 10:30 p.m. EST cuz that just pisses
+people off in some in you know in some
+countries like Australia it's really
+hard to do because mobile numbers of all
+have the same phone prefix so you just
+have to work within a more confined time
+space of like 12: to 8 right instead of
+having a much bigger time frame that you
+can call from so it's just something you
+have to do so but you should really be
+aware of those things and you should
+make sure that something in your system
+like my system just does it we
+pre-program it it can't be altered right
+you just can't call people too many
+times you can't call them at the wrong
+times it's all set with the tech to
+limit that so that you know you're doing
+everything you can OB someone could
+force through a manual dollar or
+something like that but like you have
+all the things in place to where like
+you are as a business are doing all the
+right things right which is important
+that needs to be done and looked at
+right because I just don't think that
+the findes are worth it like if you were
+to make five less sales a month but you
+didn't get fined like it's it's worth it
+over the course of a year right the risk
+mitigation is is definitely worth it so
+spam flagging is one of the biggest
+issues that everybody faces and
+everyone's like why am I getting marked
+to spam I'm doing all the right things
+it's like well you're not cuz you don't
+know all the right things to do also
+spam flagging isn't being done because
+you're breaking rules that's not what
+what it is like you can call a billion
+times a day on a phone number as long as
+it's the right amount of dials to the
+right amount of clients stuff like that
+it's just that like that will be
+perceived by the algorithm as being a
+potential bad actor now put yourself in
+the position of the tailo so you've been
+charged with putting like this person's
+phone number on your network they're
+paying you and all of a sudden you start
+getting 30,00 ,000 calls a day I
+actually had it happen recently I got a
+second phone number and that number was
+obviously on some sort of like spam list
+or whatever and the moment I turned it
+on it was a call every 40 seconds every
+40 seconds I got a phone call I turned
+it off called them was like hey man
+what's going on they reassigned the
+number it's it's fixed but like that's a
+problem and Australia has very bad very
+huge problems at the moment with that
+issue because like the tel codes here
+are a bit behind right which is causing
+all kinds of issues for people doing
+outbound dialing so you're charged with
+you know that person it's going to be
+your ass on the line if they get a th000
+Spam calls a day so what they do is they
+hire companies in like independent
+companies companies like ay and TNS and
+these companies are charged with
+figuring out what to look for to prevent
+those Bad actors now unfortunately you
+look exactly like a bad actor no you're
+calling leads you're doing high volume
+you're not warming phone numbers up
+which means that you just get a new
+phone number
+and Smash It To Death the moment you get
+it right uh I know you've done it
+probably don't have limited in place
+you're calling people five or six times
+a day right guilty you're probably
+calling people on weekends you're not
+that probably call people after things
+but also you're just doing a very high
+volume of outbound now even if you were
+in all the restrictions there you're
+still doing a really high volume of
+dialing from probably a relatively small
+amount of numbers so who else does that
+scam call centers do that right that's
+why scam call centers would never set up
+on my system it's too transparent right
+like you can see everything they can see
+everything that's why we get such good
+numbers with high pickup rates and high
+contact rates and all that kind of stuff
+right and why we're allowed to do
+certain things because just like it's
+too expensive to set up because call
+centers set up on crappy systems and
+they burn them down constantly right cuz
+as as they get busted so you're you look
+like a bad actor so they're just going
+Hey listen to them it's just not worth
+it they don't care about you and why
+should they right so to them it's not
+worth having your numbers go through
+because the likelihood statistically of
+you being a scam caller is very high
+because of the behavior of how you're
+dialing even if you were within all the
+rules it's it looks odd right because
+there are thresholds they have to put in
+because they have to do it through
+software they can't do it any other way
+so what they do is they have thresholds
+like 50 to say I'm just going to say
+numbers I know the numbers but it's like
+$100 a day per number if it goes over
+$100 a day per number that's no longer
+going to look like a standard phone
+number like me using my personal phone
+to even call leads or to call my parents
+or to call my friends and family it
+looks very different it looks like I am
+just dialing on an auto dialer non-stop
+okay so they're going to go that looks
+dodgy I don't see that registered with
+any business in particular because you
+can go through a registration for that
+it's lengthy it costs some money and you
+know not all business are going to pass
+it mean you also have to then
+transparently go to the FTC and tell
+them exactly what you're doing right but
+once you do that hunky dory right we do
+it for a lot of our clients so that we
+don't have to have 7 [ __ ] hundred
+phone numbers in constant rotation right
+so once you do that it's like you're
+just marked as spam now what happens the
+reason why spam flagging the how it
+works and the reason why a lot of people
+get frustrated by it is because like you
+start up a new number and it's like yay
+we fixed the problem guys we got a new
+dialer and it has 20% pickup rates and
+then 6 weeks later it's back down to sh
+[ __ ] it's like yes guys yes of course so
+the first thing that happens is as soon
+as you hit certain thresholds they're
+going to spam flag the first one to spam
+flag is always going to be AT&T so AT&T
+is like half the country so you're going
+to go from 20% to 10% pickup rates
+almost immediately all right the next
+thing you're going to lose like Sprint
+Verizon T-Mobile and then you're going
+to go down to like 5% pickup rates then
+it's going to be a trajectory all the
+way down to one right because you then
+you only have the carriers that are like
+nobody's on right I need don't want
+those people anyway then what happens if
+you continue to just blast through that
+you get what's on an FTC flag the Telos
+and those like analytics companies like
+TNS and Orion they alert the FTC saying
+like hey business X has 47 numbers that
+are just [ __ ] toxic spam flags and
+they just keep down living [ __ ] out of
+everybody so they go okay cool the FTC
+hits a button and then on your end it
+sounds like it's ringing but on the
+customer's end it's not it just goes
+straight to voicemail that's designed to
+stop scammers and it just goes straight
+to voicemail the other thing they do is
+that that they've brought in is where
+you have to hit a touchdown number to
+connect and what that does is it
+prevents power dialing so power dialing
+which is the only really power Auto dial
+is really only available on most dialers
+I have like five different ones that I
+can use on mine so it doesn't really
+affect me at all you don't have access
+to the touchdown when you're power
+dialing it's only when the Coe connects
+right you can't fix it it's a very very
+clever mechanism for them to stop power
+dialing people go oh but I'm just trying
+to call my leads it's like yes but like
+understand the system that you're
+working within and work within it like
+be smarter you know what I mean so what
+we did is we set up not only do we
+register numbers for businesses and all
+that kind of stuff so that they can get
+much higher pickup rates because you can
+actually call these companies and get
+higher pickup rates and speak to them
+you can also things get things like
+branded Coler IDs but also what we did
+is like a number Rotator that makes sure
+it works in the thresholds and keeps the
+numbers nice and healthy and fresh and
+they're not being used too much that
+means spending a lot of money so not
+only do we have to build a custom
+Rotator that does it at the right times
+that we wanted to do it so the numbers
+don't get used too much but also mean we
+have to spend a lot of money on a lot of
+numbers like like thousands of numbers
+right like there's an investment cost
+there not only and then you have to have
+the tech to be able to do it and the
+people to be able to run the tech and it
+has to be able to be updated that kind
+of stuff and then from there it also
+looks at things like pattern dialing
+right so if you're dialing like we're
+going to dial them boom boom boom boom
+like that there's a particular pattern
+to it right which a lot of you probably
+wouldn't have that's actually more due
+to like stopping call centers cuz on my
+system I can pre-program when they're
+dialed because the the agents don't
+really have a choice like if your sdrs
+come my system like we just tell them
+what happens and happens in front of
+them but I can set it up so every 6
+hours or whatever right so that's that's
+the stop call centers uh who have more
+advanced software so then you have to do
+like off pattern dialing right there's
+all kind of stuff and again it's because
+like these things are difficult so most
+crappy coal centers that are doing
+scraped leads and doing dodgy cold
+calling are not going to get through to
+people which is a good thing I think
+right you know it's it's really
+important that you have an understanding
+as to the limitations and what you're
+working within then have your mitigation
+measures in place is because like spam
+flagging is a huge issue like I'm
+working with the business at the moment
+and like their pickup rates are so low
+they're like in less than 1% that they
+have 30 in-house sdrs they hired three
+of our guys and our three guys talk to
+more people people than what their 30 do
+every day so we're actually building out
+a system for them so that they can have
+access to that they'll probably only
+need 20 sdrs from that on it because
+again if your contact rates are high you
+actually need less leads less staff and
+you can have a much higher Roi just from
+the simple fact that you're going to
+talk to an awful lot more people which
+is the main reason why I built this over
+the last you know six or seven years
+whatever it's been since like 2019 I've
+been doing outbound I've been doing
+outbound myself for about 12 years
+before that just using my phone call L
+and I have persistently and consistently
+seen the exact same issues the moment
+you get into any sort of volume any like
+sort of volume at all you start to hit
+these limitations because you don't
+understand what you're dealing with and
+none of the systems out there are
+designed to work within or counteract or
+mitigate any of these things none of the
+systems have any good compliance
+measures in place like my doar is hippoc
+compliant for example like not many of
+them are like I think it might actually
+be the only one maybe doll central has
+some hippoc compliance in there but
+they're certainly not because like you
+can't do safe storage of data right
+because they don't have firewalls so
+like compliance equals compl it because
+you have to work within a regulatory
+system which means you need certain
+things you have to have you know like
+for some things if you're doing Hippa
+stuff like if you're doing medical you
+do need to have a secure ISP for example
+right and even if you're doing like
+Financial stuff where you're like
+getting Financial like deep financial
+information on people technically
+speaking you're probably looking at
+Financial Services which probably
+require secure ISP as well you know even
+online fitness businesses stuff like
+that you are taking like some medical
+information there so it's not hippo but
+it works under a different set of rules
+and laws and so you know the these are
+these are real risk points and so like
+those cheap dialers like they're I think
+they're good and they they serve a
+purpose but we have to realize what
+they're for and what they're not if we
+are going to be doing high volume out
+Ving these are things that we're going
+to come up against and so we have to
+have some mitigation strategies in place
+to be able to make sure that we can keep
+the business going because you know the
+risk is just not really worth it and
+over the course of years every single
+time I've been in an outbound team I've
+seen just pickup rates go like that so
+what is the natural conclusion is like
+well more people more leads more dials
+the answer is break more of the rules
+when you break more of the rules then
+you just go into the Realms where
+they're going to make it harder and
+harder and harder for you to actually
+get through to people it's a
+self-fulfilling prophecy or of
+self-licking ice cream where you're
+acting like a bad actor and the more
+rules you break the more rules you have
+to break to get the outcome that you're
+looking for the more of a bad actor you
+are you know what I mean and so the
+higher likelihood you you have of going
+into a bit of a death spiral or a fine
+spiral where like it's just going to end
+up you know shutting the business down
+there was an Australian business that
+got $2 billion worth of fines because
+they accidentally called everyone on the
+Do Not Call List instead of calling no
+one on the Do Not Call list right it was
+$2 billion that Asic which is like our
+version of the SEC find them right now
+they shut the company down and they
+didn't have to obviously pay it because
+like they couldn't but they had to
+liquidate the whole company which is a
+real problem right cuz like it was a
+honest mistake but hey they still did it
+you know 200,000 calls or two 2 million
+dials at 100 at $10,000 a pop I think it
+was a 2 billion but yeah so like there
+it is so you know you have to be able to
+understand the constraints that you're
+working with and if you are doing high
+volume outbound d you have to understand
+that you are allowed to do it within
+certain constraints and you have to play
+bow and you can't just go Rogue and do
+whatever the [ __ ] you want because
+you're like hey they're my leads I'm
+going to make some [ __ ] money bro
+like it's stupid you are putting your
+entire existence at risk because like
+you can't be bothered looking at some
+regulation you just think the odds of
+you getting done or low and which they
+probably are until that one person wants
+to [ __ ] you over and all they have to do
+is go through and go ooh the wording on
+your funnels wrong all opt in someone
+will call me I'll go hey would you mind
+not calling me again very softly and
+sweetly right and then from there you
+get Cod 10 more times screenshot
+screenshot screenshot screenshot submit
+[ __ ] you your business is now bank it's
+a very easy thing to do on that note
+I'll see you in the next one

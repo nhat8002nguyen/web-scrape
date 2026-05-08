@@ -1,0 +1,294 @@
+In this video, I'm going to be breaking
+down the exact steps that you as someone
+who is calling people or managing people
+who are calling people for a living uh
+and calling leads in order to make sales
+needs to do in order to make sure that
+you have the most success possible. My
+name is Matt and I own a business called
+Dialer.io and I've done the and I've
+done the sales for about 165 different
+businesses. I've also run my own large
+outbound teams and now I own a dialer
+and I can see basically what everybody's
+doing. I have got of have clients like
+Cole Gordon, Tony Robbins, Andy Elliot,
+um, and lots and lots of other ones. And
+they all use my software in order to get
+higher contact rates and speak to more
+of their leads. And over the past, uh,
+sort of six to eight months of running
+this business, I've learned an awful lot
+about what are the effective strategies
+that you need to do in order to increase
+your outbound effectiveness. So number
+one is that you need to turn d uh KPIs
+away from dials and towards time. So uh
+time is the factor that most people just
+do not use effectively. And what do I
+mean by that? So the number one thing
+that you can do in order to increase the
+revenue of your business in my opinion
+is increase your speed to lead. uh MIT
+and um MIT just released a study where
+they uh took I think it was like 16 or
+18,000 leads, tracked them all the way
+through HubSpot with multiple different
+businesses and if someone was contacted
+in less than 5 minutes, they had a 100
+times higher likelihood of buying in the
+end. Um and and this is a huge metric
+that most people are just not even
+trying to fix. they have a system where
+a Slack channel, you know, they they
+send a random thing to a Slack channel
+and then from there like they hope that
+the person gets to them and they're
+using Zapier and they don't even really
+know what the delays are instead of
+using web hooks or APIs or something
+that's more precise. Um, and this is the
+overall problem on my on my system. We
+we we've seem to have fixed that. Uh,
+but on everyone's on my system, so you
+know, I want to be able to give
+everybody the opportunity to fix it. So
+optimizing for speed to lead, what you
+need is time because you do not know
+when leads are going to come in. So, if
+your if your reps are, you know, doing
+two, three hours a day, which they
+probably are, uh, if you don't have
+something that's doing screen recording
+or recording, you know, anything in
+particular of what they're doing,
+there's a great, um, a great company
+called Time Camp, Camp with a K. And
+what that will do, it's not a screen
+recorder, but it is a way that you can
+see where they're spending their time
+and what they're doing and hold them
+more accountable. And you can even put
+an hourly rate attached to them, so you
+can see even what lead sources they're
+doing stuff on. So, it's a really great
+software. a guy called Nick Fischer,
+shout out to New Reach Education, uh was
+the one that got me onto that and it's
+really really good. I have it on my own
+computer as well. Um so getting more
+time, you know, you also need to space
+that out throughout the day. And if
+you're in the States, for example, you
+need to have EST all the way through to
+PST because you have leads opting in all
+the time, but your guys are not on
+enough in order to actually hit them. So
+what you're doing is they're
+cherrypicking leads or you have this
+like weird system of which you've
+Frankenstein together. Um, but what you
+don't have is a roster that actually
+allows you to call people all of the
+time. Okay? So, roster out and then have
+a system that heavily incentivizes the
+speed to lead, right? Um, and and you
+will uh be doing your best to increase
+that. And again, if you can get them in
+less than 5 minutes, then then that's
+going to give you uh statistically,
+according to recent studies, a 100x
+higher likelihood of having that person
+buy. Okay. Um the next thing that you
+should be doing is that uh you should be
+stop segmenting leads based off um weird
+things, weird subjective metrics like
+this lead source and this lead source
+and all all that that kind of stuff.
+What you want to do is you want to have
+a clear priority as to like how you
+contact leads. Have a system and then
+have your agents and have your your
+business set up to where you can like
+systematically hit things. I see a lot
+of people that are really they're trying
+to do really really complex things but
+they haven't they haven't fixed or
+sorted out their simple. Do not go
+complex before you get simple. If you
+don't have a good speed to lead or a way
+of tracking that or a way of holding
+people accountable for that and because
+you're using KPIs like dials, I can tell
+you right now you can fudge that
+instantaneously. I've seen dudes just go
+at that and just skip through a hundred
+leads in a day. I've seen people leave
+uh blank voicemails instead of actual
+having high talk time. And all of this
+is just to avoid working right and this
+is a real problem. But you need to start
+you know setting up simple systems um in
+in in which can scale up and not trying
+to go through these complex series of
+lead routing and if this then that and
+complex lead scoring when you don't even
+know if the people that are opting in
+are being called once a day, three times
+a day or you guys triple dialing or you
+like doing some crazy nonTCPA stuff.
+like let's just keep it really nice and
+simple. Have some good solid KPIs. Make
+sure you have enough time in order to
+actually be able to call people um and
+and and you will be able to then have a
+nice good simple system in which you can
+expand out from there. Okay. One of the
+next things is to have uh set openers
+for each one of your lead sources. So do
+not have the same generic opener every
+single time. It just doesn't work. It's
+not a good way of doing it. You want to
+be able to like use a lead magnet.
+People say lead magnet leads are bad. I
+think that they're fantastic. I think
+that you can have really, really niche,
+really problemsp specific lead magnets.
+Like if you go to dialer.io right now,
+you'll see lead magnets on a manager's
+guide to increasing addistation scores.
+This is very niche. Okay. But if I call
+you up and go, hey, is this just Matt
+from dialer.io? Looks like you
+downloaded our guide to increasing your
+addestation scores. Is that right? All
+right, cool, man. Like, what kind of
+sparked your interest in that? And like,
+why are your scores so bad, dude? What's
+going on? Right? And then like that's a
+very specific lead. that person is in my
+demographic. Otherwise, they would not
+have downloaded it. Okay? So, but you
+need to have a nice specific
+uh you know, a nice specific uh script
+for that. Otherwise, like it's just
+going to be generic and it's
+not going to work. Right. Next thing you
+need to do is track the following
+metrics. One is time, then dials, then
+pickups, then calls over 15 seconds,
+calls over two minutes. Okay? And then
+how many people are offered a next step,
+whatever that may be, and how many
+people accept it. Okay? Those are your
+essential metrics because you need to
+know your pickup rate. You need to know
+how much time you've got to make sure
+that people are being rostered
+appropriately and that you're actually
+having enough time in order to do it.
+You need to know what the like rate of
+people that pick up to have a
+conversation over 15 seconds and 2
+minutes and are actually offered because
+that's how you're going to tell your
+training apart. If someone's being told,
+"Hey, I'm busy. Can you call me back
+later?" I don't pick up the phone when
+I'm busy. So, if I'm picking up the
+phone, I have at least a couple minutes
+to spare. And so, it's just something
+that you're doing. like it's it's just a
+you thing, okay? And the more you
+realize that, the more that you can try
+and fix it. So, if you're tracking those
+metrics, then you should then you're at
+least you're in a position to be able
+to, you know, to be able to uh get the
+data that you need in order to make your
+setters better. That's why in dial.io,
+all of the dispositions that we have are
+set out for that. A lot of the filtering
+we have, so you can actually make guys
+better. The last one that I'm gonna say
+is stop dialing leads so much that like
+it's ridiculous. Like, dude, she's just
+not that into you. Get over it. It is
+what it is. She doesn't like your face.
+Okay. If you've dialed someone 15, 18,
+20 times, like the chances are they're
+just not a demographic of person that
+responds well to phone calls. They don't
+know it's you calling unless you're
+using like branded caller IDs, but they
+don't know it's you calling. So, like
+they're just not a person that's good to
+call. That's why you have text and email
+and other mechanisms of getting a hold
+of people, right? Or you could do book a
+call retargeting, stuff like that. What
+you don't want to do is just dial people
+50 times for absolutely no reason so
+that you can pretend that you're keeping
+your team busy. That's not the way that
+it works. All they end up doing is you
+end up having this skewed metric where
+you have a bunch of people called a lot
+and a bunch of people that are barely
+called. And that's because like you're
+not rostering and the times and the
+segmentation, everything is too complex,
+right? And you're calling people way too
+much. I can see that the efficacy of
+dialing people past 10 dials is
+extremely inefficient. the pickup rates
+are low and the set rates are very low
+and the sale rates are very low. And the
+reason for that is if you have a 100
+people and on day one 20 of them pick
+up. Now you've got 80, but you removed
+20 of the people that would have picked
+up. So let's just say there are 40
+people or 30 people in that mix that
+will never pick up the phone. So now
+you're going from 100 to 70 and you've
+got 20 of them day one. Now you've got
+50 left, right? And then you're like,
+"No, but I've got 80 leads." No, you
+don't, mate. like you just there's a
+percentage of people that will never
+pick up. The next day 10 pick up the
+next day eight pick up the next day
+seven. So what you're doing is you're
+left with a pool of people who are
+statistically unlikely because of their
+personal characteristics and trait to
+answer an unknown phone number. Now
+there are ways at dial that we can try
+and combat that with like branded caller
+ids and 1800 numbers and certain pattern
+interrupts and stuff like that. However,
+those are not easy to do in other
+systems. But also like even doing all
+that, it's not an extraordinarily
+effective use of time where speed to
+lead is. So I'd rather have a setter
+doing nothing for 10 minutes, right?
+Sitting there like this and then a lead
+comes in, boom, they get them, right?
+That is a better use of time than them
+sitting there calling the living
+out of everybody a thousand times. It's
+a stupid way of doing it. So stop it.
+All right, guys. This is going to be
+like a low edit. I'm going to try and do
+some sort of daily upload thing or every
+other day uh where I just give you guys
+as much value as humanly possible. Hope
+you like it. Make sure you like,
+subscribe, hit notification bell. If
+you're want to increase your contact
+rate, go over to dialer. And if you want
+to do sales training with me, go down
+below and I've got a thing. It's like 50
+bucks a month. Okay, bye.

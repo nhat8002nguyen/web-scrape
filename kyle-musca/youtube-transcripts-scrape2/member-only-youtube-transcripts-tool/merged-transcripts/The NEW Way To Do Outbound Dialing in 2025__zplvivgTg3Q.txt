@@ -1,0 +1,1216 @@
+everything that you're doing on your
+phone is being tracked and every text
+message you do every call that you make
+is all tracked in real time and they're
+tracked by algorithms the reason why
+your phone works everyone done outbound
+on their phone and everyone's like these
+[ __ ] just pick up like it's weird
+like 30 40% of people picking up the
+phone it's because there's two things
+one is that so what dialer iio is it's a
+full dialing software and I'll tell you
+some of the clever things that I did to
+boast so the first thing is um so what
+happens on our software if you can see
+they have 200 numbers they do about
+$70,000 a month and they only have two
+numbers that are flagged which might not
+sound impressive but it [ __ ] is uh
+Hey guys so today I'm going to be
+talking about uh not just like my stuff
+I'm not going to make it pitch Fest 2025
+what I'm going to try and do is give
+some kind of tangible action points and
+steps that you guys can do and take away
+right so do. is my newest Vance and
+outbound dialing software right um and
+so what we're going to do is talk about
+how to do outbound in 2025 it's getting
+more difficult and seems to be a bit of
+pain in the ass for absolutely everybody
+and so um I wanted to try and fix that
+so uh my so I've been in sales for a
+long time I had a sales agency called
+sales sniper uh we did the sales for 157
+different offers um so I've seen a lot
+of backends right and I've also done a
+bit of sales for people as well but and
+um and so I learned a lot about outbound
+sales and lots of different types of
+selling because I've sold a lot of
+different offers and I've had uh
+hundreds and hundreds of sales reps over
+the years and then during that same time
+I also then uh became the sort of uh one
+of the uh Partners so I was an equity
+partner and then I was a CEO of seventh
+level for four years when I came in it
+was about 20,000 a month and then it was
+at about 3 million a month when I left
+right um so before that I was in uh
+Special Operations Command in the
+Australian military and I was a sniper
+so that's me in Afghanistan in 2008
+[ __ ] spreading Freedom with bullets
+right cuz if you don't want to be free
+I'll [ __ ] kill you right so um so
+that's what I did before this and it
+gave me a pretty good mentality around
+like um how to use data and how to be
+quite strategic and sort of you know try
+not to miss as much as other people um
+so in uh 2023 to 2020 2023 I paid $15
+million in commissions and did $150
+million in sales um for sales sniper and
+seventh level we just we did lots of
+sales we sold a lot of people to a lot
+of
+things um these are some of the people
+that I've done sales
+for so there you go Tony was on all of
+those accounts I think at one stage
+right and now I have dollar. so dollar.
+is like the crescendo of uh trying to
+fix all the things that pissed me off
+right I built a dialer with a
+deep-seated hatred of outbound teams um
+and sdrs in particular and so what I
+wanted to do is fix as many of the
+problems as I possibly could because at
+the end of my tenure at 7th level we had
+55 full-time outbound stuff and uh we
+were doing lots and lots of dollars we
+had around 35,000 leads uh New Leads a
+month coming in and we had like a 2%
+pickup rate and it seemed like no matter
+what I did no matter what we did no
+matter what we bolted on we could never
+get good reporting we could never sort
+of figure out what people were doing it
+was really difficult to hold them
+accountable we couldn't talk to enough
+of our leads and like the more I looked
+into it the more non-compliant things
+you had to do in order to get a good
+result right and so that's why I built
+dialer and also like software multiples
+right it's more fun to sell things that
+can sell for a lot of money right so I
+really hated um the whole premise of
+outbound like I love it as a sales
+methodology I prefer outbound to inbound
+just as an actual like personal
+preference
+uh I've been in sales fulltime since I
+was like I left the Army at like 26 27
+and I've been in sales pretty much
+full-time since then uh doing Fitness
+sales and all that kind of stuff and I
+would prefer to core leads rather than
+have inbound leads right as a as a
+personal preference because I have more
+control however running an outbound team
+is extraordinarily frustrating right the
+pickups rate seem to suck the contact
+rate suck contact rate for reference is
+like the leads the amount of leads you
+get to the amount of people you actually
+speak to right um keeping sdrs is uh
+accountable is very difficult especially
+in postco in like kind of a in like in a
+like remote environment right five
+points for anyone who can figure that
+one
+out it's span flagging yep there you go
+and then um speed to lead is really hard
+to track I heard some people talking
+about it before it's also very difficult
+to achieve and overall the outbound data
+just kind of sucks right um so that's
+like the real issue and that's the issue
+that a sort of tried to solve and I'll
+take you through uh how I solved it and
+some of the things that are getting that
+are that you guys can implement but just
+overall what I found is that you know
+outbound is just kind of getting harder
+right um
+so all righty so what I'm going to be
+covering today is first spam flagging
+and how it works how to prevent being
+flagged and what flagging actually is um
+using AI to call leads the goods the
+bads and how you should do it if you're
+going to do it uh pickup rate contact
+rate speed to lead sales rep
+transparency how to get real-time data
+and what data I think actually matters
+and then compliance which is the most
+fun one that absolutely no one wants to
+talk about right okay so pickup rates
+okay anyone here struggle with pickup
+rates yeah raise your hand no everyone
+else is [ __ ] CRA the code good all
+right so the average is
+4.3% okay now pickup rate should be
+calculated off a single
+dial right so is anyone here like triple
+dialing quadruple dialing quintuple
+dialing leads and counting that as
+one yeah yeah that guy right there you
+got a little yeah I see your face all
+right so um that's about normal right as
+a as a sort of pickup rate and there's a
+lot of things that people will then do
+because pickup rate is a top of funel
+metric right so it's sort of like it's
+like uh you know it's the equivalent of
+like your click-through rate on your ads
+right right if you can double that or
+triple that then you can double and
+triple everything else all thing else
+everything else being equal right so
+that was the number that I sort of
+wanted to go after because we had worse
+than that we were in the 1 to 2% range I
+now know why I had no idea at the time
+because once I kind of sold I had some
+money and I was like I wonder if I can
+go down the rabbit hole and actually
+figure out how to solve this problem and
+so turns out uh you talked to a bunch of
+people who are kind of middle management
+at spam monitoring companies and you
+offer them $5,000 for a couple hours of
+their time they're usually going to say
+yes and then they're going to tell you
+just kind of how the actual system works
+okay so there's a lot of ways that
+people fix pickup rate the first is that
+they multi-line dials anyone here
+multi-line dial like parallel predictive
+yada y y sweet that that's a that's one
+way that people do it which is just like
+I will dial five people at
+once okay and then that will give me a
+better like perceived pickup right right
+the other one is like local presence
+wrapping that's another way that people
+try and fix it so they use a system that
+wraps their number of local presence
+there's some issues with that um they
+use number verification is anyone else
+using that number verification right
+they use a service to do that right
+there's like spam monitoring right where
+you figure out if your numbers are being
+flagged and then you kind of like burn
+them and just kind of cop the money
+another one is like calling from
+personal phones okay and then using AI
+agents and then just like just like
+straight volume you just like smash
+things and just like dial to living B
+Jesus okay so all right so now these are
+like why these things don't work okay so
+unfortunately all of those things are
+like
+uh they're like like sort of Band-Aid
+Solutions but they ultimately make
+everything worse all right so I'll take
+you through like kind of one by one and
+I'll explain to you what they do so
+multi-line dialing um is a convention
+that is like you just absolutely smash
+through dials but you burn phone numbers
+like crazy right also it's extremely
+easy to pick up and monitor so
+everything that we're doing on phones is
+being monitored at all times right not
+necessarily what we say although
+depending on how far in the conspiracy
+Rabbit Hole you want to go right then
+right but everything that you're doing
+on your phone is being tracked and every
+text message you do every coal that you
+make is all tracked in real time right
+and they're tracked by algorithms and so
+and there are a couple in particular
+that in 2019 when Trump taged the tcpa
+to be far less friendly to the
+businesses and far better to the
+consumer right which I would argue is
+probably a good thing because like it
+stops grandma from getting scammed and
+all that kind of good stuff um then what
+what it did is it like created a new a
+new kind of flourish in an industry of
+like spam monitoring right so there's
+like the major carriers are TNT T-Mobile
+Verizon you know Sprint um and they all
+have unique ways of monitoring for spam
+and they all use different companies to
+do it okay so if you have spam
+monitoring right now and it just says
+flagged or not it doesn't tell you
+anything right because you have to
+because each carrier has a different
+percentage of the market and each
+carrier uses a different company like
+AT&T uses haa right and then you you've
+got Newar then you've got Orion you got
+TNT right and they're all companies that
+provide spam flagging services to
+protect the customers of the carrier is
+that make sense y all right cool and
+they all have different thresholds so
+T-Mobile is the least tolerant of all of
+your shenanigans right I can tell you
+that right now right and AT&T is
+recently bringing in all new numbers
+that go into a VoIP Network right so our
+phones don't call from a vo network but
+your dialers do right uh they're all
+coming in pre- flagged and then you have
+to prove that you're not a scumbag right
+so these are these are some of the
+issues that you have to deal with and
+then uh people think that you use number
+verification or use like a remediation
+service in order to fix that that's
+again another Band-Aid issue because
+what you're not fixing is the underlying
+core root of the problem which is the
+number Behavior so using things like
+multi-line dialers just confirms their
+Pres position that you are a scam call
+center now you are not a scam call
+center unless you are right however like
+they don't know that because you act
+like
+one okay does that make sense right
+because what you're being compared
+against is your
+phone okay so if you don't act like you
+do on this then they are going to say
+you're probably not
+this okay so because they want you to
+manually
+dial they do not want you to use an atds
+everyone ever heard that before
+automatic telephone dialing system well
+you guys are about to get a [ __ ] rude
+shock when I go to the compliance bit
+all right um how do I go backwards yeah
+there we go okay so that's one so
+multi-line dialing right it's really
+obvious you're dialing an absolute ton
+it's very clear that's not a human-like
+Behavior so you're instantly or very
+quickly probably within two hours going
+to flag most of those numbers okay local
+presence wrapping okay local presence
+wrapping is a legal gray area at best I
+will tell you that right now um because
+you have to have the number provisioned
+in the United States according to FCC
+rules the number must be provisioned for
+your business and the Coler ID out must
+match the Coler ID in so if you have the
+numbers provisioned for you and you have
+a way of uh rotating them appropriately
+right then you can do local presence
+there's no problem with it however if
+you're using a pooled system there is a
+problem
+okay so it is a gray area at absolute
+best right also you're using a pool of
+numbers that is being used by every
+scammer on the [ __ ] planet right so
+you just someone just got scammed
+grandma with number yada yada yada
+because it's coming out being pulled and
+then that's the caller ID that's being
+wrapped onto it and then all of a sudden
+you call and that's the same number
+going out some dude goes on Reddit and
+says my grandma was scamed from X number
+and now it's your number it's a stupid
+way of doing it right and P pooled
+systems are just not going to last a
+long time okay so number verification
+that's another one that people use okay
+number verification right um what it's
+doing is like again you're only doing it
+with one of those four companies so
+unless you have number verification on
+every single platform that covers every
+carrier you're really not solving the
+problem you think you're solving
+T-Mobile has about 33% of the market
+right AT&T has like 34% of the market so
+if you're like I've got number
+verification spam monitoring and it
+doesn't tell you what carrier you're on
+you're probably just on like Metro
+PCS right because that'd be the cheap
+way of doing it right and if you don't
+tell anyone just go on the [ __ ] ones and
+then charge people for it but you're not
+going to know because you're probably
+not going to look into it or ask the
+question because you don't know
+to right and this is the stuff that I
+started to uncover because I was
+infinitely infuriated by calling so many
+leads all the time and not being able to
+figure out the problem okay okay calling
+from personal phones right again not a
+great way to do it because technically
+all call records must be stored unless
+otherwise done in a data retention
+policy for 5 years that is a law in the
+United States right so the call record
+has to be tracked the call log the
+recording right who made the call to who
+what call what phone number was called
+and what number it was called
+from anyone doing
+that sweet right so that's why calling
+from personal phones is not a great idea
+right although it is really effective
+and I can explain why using uh AI voice
+agents I think it's probably a cool way
+of doing it um there are some issues
+with the compliance side of it right
+because like the rules the AI has to
+state that they're an AI they have to
+provide an opt out right in in the
+conversation early on and the tcpa
+opt-in box that you guys will have on
+your uh ad
+has to expressly state that one you are
+calling from
+an you are calling this is what you'd
+have to have on your opin
+books
+right it's a long one but that's what
+you have to
+put right so you can take a photo of
+that or I can give it to you later in
+the same way where if you're using a
+power dialer anyone use a power dialer
+in order di here right do you say in
+your opin box that you're going to call
+them from an
+atds sweet this non-compliant you can't
+make a phone call right so if you do you
+just or you can actually that's not true
+you just con call cell
+phones right so uh every single dial is
+a $500 fine just so you know if someone
+decides to to to sort of go after you
+it's pretty easy you screenshot the
+number you send it off to a
+whistleblowing network and then you get
+30% it's [ __ ] not bad right it's a
+good little business model there okay so
+and again I knew none of this running a
+business doing hundreds of thousands of
+dials being the CEO checking it off I
+knew none of it because it's sort of not
+many places okay and so but the
+compliance the ones that reason why I
+harp on it is because it's one of the
+reasons none of the systems work because
+everyone is forced to do
+things uh that work right triple dial
+quadruple doal just [ __ ] go after
+them call them whenever right you have
+to do it because none of the systems
+have ever been designed by anyone who's
+ever sold a [ __ ] thing in their life
+right or ever actually been on the phone
+and so like they're they're not thinking
+about these things and they don't know
+that you're going to be doing $400 a day
+they don't know that like you're going
+to try and achieve a speed lead what
+they're trying to do is create a
+profitable software company which is
+fair enough like I don't have a problem
+with that and if you're doing low volume
+B2B right a lot of this stuff isn't
+going to affect you too much
+okay however if you're doing more B Toc
+or more high volume stuff then it's
+going to start to be a problem okay
+so all righty let's go here all right so
+this is how these is what they track
+okay so this is what they're looking for
+this is how these numbers because
+basically what determines the the
+success of your outbound is your speed
+to lead the quality of your setters
+right the quality of your leads and your
+ability to actually talk to them yeah
+all right cool so number one is dolls
+per day about $50 per day per number is
+about the max you can get away with
+right so if you're doing any more than
+$50 per day per number you're going to
+be flagged pretty quickly right now
+flagging is like the kids say it's like
+a spectrum right it's not just like on
+or off right there's like gradients of
+flagging and it will Cascade by carrier
+right usually it's team old with an AT&T
+Sprint doesn't seem to give a [ __ ] to be
+honest but um so and then it kind of
+Cascades down the worst you get right
+and then you end up once you've got rid
+of like the three or four major carriers
+then you've got the apps right Robo
+killer no more Robo then you've got like
+it goes down that's why is anyone
+experienced like they get a new dialer
+and their pickup rates are high and then
+it just kind of like does this over time
+right that's you losing carrier that's
+market share that's what you're losing
+right so that's like if you can picture
+it that way right you're losing 30% of
+people 30% of people 30% then you're on
+like the real regional carriers right
+that have like 4% of people it just goes
+down like that then you hit what's
+called an FTC flag which is where it
+calls for the agent but not for the
+person which is I think a particularly
+cruel trick that they played on people
+but it's kind of funny but what's when
+you have like 1% pickup rates and it
+goes straight to voicemail a lot and
+stuff like that right so that's what
+that is okay I've seen a lot of people
+with that right doesn't mean the FTC
+boogeyman is going to come after you but
+it's it's called an FTC flag right the
+next one is consistency of dolls okay so
+who here uses their phone the exact same
+amount of times every day no I don't
+either right so it's looking for that
+because if it's not that then it's
+obviously something else if it's $50
+every single day that will raise a flag
+right talk time if you have a very very
+low talk time per call right so every
+then then it raises a flag right um
+voicemail usage voicemails are one of
+the worst things you can do if you want
+to have a high volume outbound right
+they trigger spam Flags again because
+like no
+human leaves 150 voicemails a day right
+like no one [ __ ] does that unless
+you're a psychopath right abandoned rate
+does anyone know what abandoned rate
+means does any hear multi-line
+dial raise your [ __ ] hand I know you
+did it right right do you know what a
+banner rate means all right that's a
+problem so if you go over 3% of banner
+rate it's a massive FCC violation like
+that one they'll [ __ ] you for like I
+guarantee you right so that means that
+like people who you're calling whether
+it be inbound or like one of the multi
+lines you hang up on
+them right 3% is the cut off they get
+super shitty outside of that right
+pattern dialing pattern dialing is like
+you know when you use a power dial it's
+like 15 seconds every dial that's a bit
+of a pattern right it's pretty easy to
+pick up that's what it looking for oh
+hello High usage too quickly okay that
+kind of an easy one for you guys to fix
+get like 10 times the numbers you think
+you need right and have some VA in the
+Philippines use them to call each other
+right just warm them up because like no
+one gets a brand new phone and makes
+$150 day one
+right and then [ __ ] kicks it away and
+doesn't use it again for a month right
+no one does that so again that's warming
+up numbers
+okay so because otherwise it'll just
+flag it instantaneously inconsistent
+usage okay who here when they get spam
+flagged they like rest the number they
+they rest it for a while anyone do that
+right so if you stop using the number
+the flag never goes
+away right so but you can make it go
+away you just have to wind down usage
+and cool it down rather than warming it
+up right attestation uh attestation
+levels okay so the reason why your phone
+works everyone done outbound on their
+phone and everyone's like these [ __ ]
+just pick up like it's weird like like
+you get like 30 40% of people picking up
+the phone right it's because there's two
+things one is that this this has what's
+called T1 routing right so uh like
+routing phone numbers I know this is
+like kind of tedious [ __ ] but like it
+makes it starts to makes sense why like
+you're getting [ __ ] around a bit right
+so think of uh like Spirit Airlines
+right when you want to go to like LA to
+New York you have like 17 connections
+okay the chances of one of those planes
+being light is pretty high chances of
+missing one is pretty high it's a piece
+of [ __ ] experience right that's what
+most dialers use they use T3 routing
+because it's cheap it's on the twio
+network right twilio is meant for
+texting not calling right some people
+made an API that made it cold that's
+fine however that's why there's like uh
+that's why there's like uh like like
+ghosts in the machine there's delays
+there's like Echoes there's like
+inconsistent Coler ID [ __ ] right this is
+the problems with that Network it's a
+great network but it's not great for
+coing okay that's why like no large
+Enterprise uses that Network right so it
+gets scored at the at the routing
+station and there's like a bunch of
+different information packets that have
+to come with it and the more routing it
+goes through the less of that
+information that gets to lower it scores
+right and that's what decides whether or
+not it gets delivered well or not right
+so that's a score okay so you want to an
+a is the highest score and then B and
+then C okay so anything coming on a too
+network is going to come through as a c
+usually stir shaking protocols has
+anyone ever seen stir shaking
+verification [ __ ] going on out there
+anyone ever like paid for that if you do
+it's a scam don't do it stir shaking is
+the protocols that decide like how good
+uh phone numbers are okay and then
+you've got adherence to tcpa and basic
+Telly sales rules okay is anyone aware
+is anyone not aware of what the tcpa
+is I know you guys don't know look at
+you no we don't for sure we follow it
+yep targeting yep something or other so
+tcpa is the guidelines that dictate it's
+the it's the it's the
+Telecommunications uh consumer
+protection act okay so it protects
+consumer so you can't dial them 4,000
+times a day right those are the rules
+that govern okay now each state has got
+different times okay so there's like
+Federal rules and state rules but like
+you cannot call anyone in Florida past
+8:00
+p.m. if you do it's a little finey fine
+okay but like Louisiana you can go to
+nine Most states are nine Sumer eight
+okay you can't call on voting days in
+some states if there's a state of
+emergency like when hurricane Milton you
+can't call
+Florida right you just can't do it if
+they're opt-ins or not guys like this
+tcpa is exclusively for opt-in leads
+just so you know right so this is like
+please call me you know that right and
+just like you're not allowed to use a
+dialer unless you expressly say that
+you're going to be calling from an atds
+system otherwise you are pigeon held
+into only
+calling uh landline
+right so you have to add that in
+everyone add that in automatic dialing
+automatic telephone dialing system okay
+that gives you permission to call um
+from a dialer again you can manually
+dial them but if you're going to Auto
+dial them which is a nonhuman initiated
+dial you have to let them know because
+the FCC [ __ ] hates Auto diers they
+hate them with a passion because every
+scammer that's ever scammed a scamming
+has used one and so they want to make
+sure that people don't use them like
+irresponsibly okay all
+right Bo boom
+okay so how does that you
+know okay sweet so that's all a little
+bit Doom and Gloom I know that right but
+there are things that you can do first
+you give me some money and I'll fix it
+all for you but I basically so my whole
+I sort of discovered it took me about
+I'd say six to 12 months to figure all
+that [ __ ] out right um and the first
+iteration of what I did so I launched a
+call center and that was basically so
+that I could figure stuff out without
+having a front-facing UI and so I had a
+lot of clients and I was you know we
+were doing you know7 or $800,000 a month
+and so we started to learn a lot and we
+started to go okay well that didn't work
+because the first time we we tried we
+had like 3% pickup rates and everything
+got spam flagged in the first three days
+and we're like [ __ ] that didn't work and
+so we we just systematically over the
+course of the last year we just kind of
+figured out what works right and so
+um so let me go through this
+so like in order to make it work there's
+a couple things that you kind of have to
+do so the first is that you you like
+conservative dialing works better than
+non-conservative okay so because you
+have to realize that the system is too
+big to beat like you will not beat the
+Telo algorithm you just won't like
+you're not going to be able to come up
+with some [ __ ] fancy dangled thing
+that like you can Dow people horrendous
+amounts and harass people and they're
+not going to figure it out because
+everything that we're doing on a phone
+is monitored and so you have to learn to
+work within the system right that's kind
+of the key so what we did what I sort of
+came up with was like okay well what if
+we just like put in
+super conservative and and and try and
+make everything that we do work within a
+system and so the first thing I did was
+I need to get on a system that's not
+going to be like tier three I needed a
+T1 routing system so that's what I went
+out and found so I went out negotiated
+and got access to a T1 routing system
+right and so and then we got onto a
+really good vo Network and then it was
+like okay like how do we start to do
+this and so we um those behaviors right
+those those behaviors um we rotate the
+numbers dynamically using our software
+to make sure that we don't trigger
+anything right so that's what we do so
+that's how we solve the problem right
+now if you go on to website dollar. I
+have like guides on things that you can
+tangibly do to fix some of these things
+yourself because I think like it there's
+there's no point everyone buying
+software I mean you definitely should
+but there's things that you can do right
+in order to fix these things but you
+have to be quite diligent about it and
+it is pretty much a full-time job right
+and then that's not including if you
+want to have a good speed to lead and
+all that kind of [ __ ] right because all
+this stuff is great to get not flagged
+and getting not flagged is a big deal
+because if I was to look at most of your
+numbers right now most of you would be
+flagged on most carriers right it's just
+kind of the way that it is um and then
+and then you end up having a lot of
+numbers and you end up having a lot of
+cost over time because it's just sort of
+that way right and so but then what you
+want to do is you want to solve a couple
+other things in the first and you want
+to solve like well how do now that's one
+component right cuz the other one is
+like how good are my agents okay and
+then like what are they actually doing
+and you know like how I'm I actually
+getting to them right
+so uh I wanted to build a system that
+solved all the problems that I had and I
+was like I think I have enough money to
+do it right turned out I didn't right so
+I have a business partner right he's a
+great dude name is Dean exited his
+business for 35 million uh he knows what
+he's doing he's pretty good at marketing
+and so together we sort of uh to figure
+it out so what dialer IO is it's a it's
+a full uh like a dialing software and
+I'll tell you some of the clever things
+that I did to boast right so the first
+thing is um we got into a really good
+Network the second thing is that we um
+built it from more of a Coal Center
+perspective because I think that um that
+was a more effective way of holding
+people accountable and so that was like
+the headp space that I went in I was
+like how can I turn like SDR teams into
+like semic centers because coal centers
+have way better data they have way
+better reporting they have much higher
+levels of accountability and there must
+be a reason for that because I don't
+think that they're smarter or better
+than anyone who's in the high ticket
+space or in solar or in sort of a
+different space right and so I was like
+okay I'll come at it from that angle
+then from there the not being an uh Auto
+dialing is a problem because it makes
+everything more difficult right so I
+don't want to Pho doll but I also hate
+Setters and think they're stupid and so
+I don't want to allow them to make any
+choices so I had to figure out a way to
+automatically ceue up everything I
+wanted them to do but they had to push
+the button otherwise you have to have
+that ridiculous compliance thing on your
+opt-ins right and then you're actually
+limited you're more limited into how
+many times you can call them then I
+wanted to figure out speed to lead I
+think a lot of people have speed to
+leads systems like oh yeah we have a
+slack Channel or whatever um like speed
+to that on my system is like 10 seconds
+right so like if a lead Ops in your guys
+will call them they call them within 10
+seconds right so like um if as long as
+somebody's online and so that's one of
+the reasons why we get like you know 60%
+contact rates it's
+because um all of those things are
+happening in
+conjunction and then there's a lot of
+very uh uh specific specific reporting
+that helps with outbound so when I talk
+about the spee leads this is like the
+activity tracker that's in the portal
+and I don't know if you can see but like
+the lead came
+in when I did this screenshot six
+minutes ago and that same thing that
+lead was
+cool right so it's like basically
+instantaneous if you're using an API
+there's going to be like it it'll be
+about by the time they opt in if you're
+using API they'll be in the system
+within about 4 to 7 seconds and then
+they'll be cold within 10 to 15 seconds
+after that and so speed to
+lead uh I think I think we cracked that
+one that one's good right so as long as
+you got people online they will be
+called basically
+instantaneously and so that's one of
+that that's a way to Boom
+instantaneously get higher pickup rates
+when you get higher pickup rates and
+also when they're that fresh you have
+higher talk time because they're super
+Keen they're fresh they're there they're
+on their phone they're available able
+because they're opting in they're
+certainly not working right and so
+that's how we fix that one right um the
+second one is like so like spam flagging
+um there's a lot of things that go into
+spam flagging and sort of a difficult
+one to solve overall because we have to
+warm every number up so every number
+that comes into the system we monitor it
+on Verizon 18t T-Mobile Robo killer no
+Robo right um that seems to be a good
+mixture it gives you a large amount of
+the market and it's a pretty good it's a
+it's a good enough swath right and so
+but every number that comes in we have
+to warm it up right because you warm up
+your numbers so you got to call all that
+kind of stuff so our our software just
+kind of does that for you but and then
+from there we monitor the all so what
+happens on our software if you can see
+they have 200 numbers okay this is a
+business code of flip Secrets right they
+have 200 numbers they do about $70,000 a
+month and they only have two numbers
+that are
+flagged right which might not sound
+impressive but it [ __ ] is right
+that's like that's very difficult to do
+right and so our system as soon as
+you're flagged on two or more it
+automatically places it on cool down
+cooldown is a way to organically remove
+spam
+flagging right so we don't need like
+remediation Services takes about seven
+days so how it does it um I'll just tell
+you it removes it from it systematically
+removes it from New Leads over the
+course of a couple days and then so it
+only has old leads so it it it it
+controls uh a a reduction of usage
+because if you stop using it right the
+flag never goes away right and then from
+there as soon as the flag is gone it
+winds it back up so your numbers are
+just kind of do on this all the time but
+you never have to lose any which means
+that you keep the same numbers all the
+time and that's how many they've done
+this month they had a bit of a low
+volume month but that's how many dolls
+they've done this month right 36,18637
+and so we came up with this so
+essentially when sdrs log on to our
+system they have to like hit ready ready
+is like they're available to take leads
+they can go in and manually search and
+they can manually dial and they can do
+all that kind of stuff and they can go
+hunting however the system is designed
+that we pre-populate a lead management
+system right uh based on a series of
+priorities and I'll explain that in a
+second because I think it's useful and
+can sort to be adapted into a lot of
+different businesses um but they hit
+ready so that ready is them at work
+they're able to take leads right and so
+and then from there we have like preview
+um we don't the preview is the lead pop
+that comes up before the actual lead is
+cool right and you can set how long they
+have to look at it then from there you
+got dial which is dial like actual dials
+like listen to like listening to a dial
+tone you have talk time right so this is
+an interesting little one right because
+this person here did 13 hours
+right and they had $292 and this person
+did 13 hours and
+$723 now you may ask with the system or
+that do it does it for them how does
+that happen well because this person is
+lazy as [ __ ]
+so after work is the time that the
+business set right I had this person
+fired just so you know so uh after work
+is the time that they set right on how
+long they want the person to have to
+take notes before the next lead is
+queued up right they decided to have a
+long time I told them it was a bad idea
+however they did it anyway so she right
+just lets it
+run because you can just click through
+it and just go next when you're done she
+doesn't do that she likes coffee so she
+spent six hours on that
+state right in the 13-hour period and
+that's their production but most people
+are just going to have that or just have
+that and so like now I can Pro prove
+you're lazy cuz I [ __ ] hate these
+people right and so like I wanted the
+ability to to to to keep people pretty
+transparent because like I think it's a
+real problem and it was really annoying
+for me and I figured it had to be
+annoying for other people and so you
+know I think like having things like
+this is Handy like being able to do that
+I'm sure you can do it in other systems
+I haven't found them but I'm sure you
+can but that's more of a call center way
+of doing it right but call centers have
+extremely high levels of accountability
+right and so it's one way that I know
+that I can be like okay people are
+actually doing their job right because
+like if outbound lead generation or
+outbound calling is like a significant
+part of a business which for me it
+always was like the infuriation of not
+being able to know what these [ __ ]
+22y old morons were doing each day right
+was just too much and so I was like all
+right well if I'm going to create a
+system that kind of does a lot of it for
+them I want to know they're actually
+going to sit there and do it right the
+next is like how we prioritize leads
+right um my CTO chief tism officer right
+because he was [ __ ] nicked by it a
+bit but that's what you want in a good
+software company you don't want ignore
+me doing it right so um we when new
+leads come in they get like ASAP Tagged
+so essentially like a new lead is always
+going to prioritize anything right now
+the pickup rates and stuff are actually
+pretty consistent with age leads and
+stuff like that it sort of does doesn't
+matter it's not how many times they've
+like how old they are it's how many
+times they've been cold that tends to
+make a difference however on our like
+but however like dial one and dial two
+are like if you take out those dials
+like everything else is sort of
+relatively similar so
+91% of all the sets or successful
+outcomes on our system are in the first
+three
+dials like that's a pretty [ __ ] wild
+stat considering there's like millions
+of dollars being done we have like a
+hundred businesses on there's like
+millions of dollars
+91% of all successful calls right that's
+like a set or a sale 76% of those are on
+dial
+one right like so your first dial if you
+get it right is an enormous lever that
+most people don't think they can pull
+okay and so I've done tons of outbound
+from my phone like I spent six years
+calling Fitness leads right selling for
+gyms uh doing nothing but that and I
+never had a pick up raid problem ever
+right it was just I just called them and
+I sold them it was fine right and it was
+only into coming in this world that I
+realized what a problem it was and it
+seemed like we just kind of brute forced
+our way through it right which what
+everyone does it's fair enough it's what
+you have to do to make it work right
+it's just the fcc's coming I can tell
+you so what we do is we set up a
+priority right so generally speaking
+depending on how the leads are generated
+we we'll do this a little bit
+differently but I'll just give you a
+broad a broad brush example right so
+three dials in day one now the system we
+don't double dial and we don't triple
+dial okay there are reasons for that I
+won't go into them right but this is all
+just like boom boom boom okay so Dow one
+is instant as you guys saw lead comes in
+they get cold right Dow two is say 30
+minutes later Dow three is like 30
+minutes later right some are longer some
+are shorter but that's a good one and so
+what we're going to do is like there's a
+queue of leads coming in and it's always
+going to prioritize the absolute newest
+one that's how it works okay and so and
+so like I think who is asking for the
+speed to lead
+report no I could send that to you in
+like 10 seconds this is super easy I
+just joke speed to lead report and then
+[ __ ] send it and you can get every
+lead on the exact speed to lead like
+it's it's it's when when your system is
+built to like track it it tracks it
+right so um and then so so it's it's
+like it goes like that and so and then
+it's going to prioritize by least amount
+of context right so and so we're going
+to set that up and we're going to
+prioritize P1 Priority One so Priority
+One is always going to get the priority
+and then it's going to prioritize
+internally the newest lead to the least
+amount of contact attempts in P1 right
+and then it's like okay but what do we
+do if people opt in overnight because
+that was a problem and it's like well
+what do we do with them so we classify
+those as a pak2 so we set the work hours
+of the business right and if they have
+multinational leads we set the work
+hours of the Nations right because each
+Nation will have different campaign
+structures because each nation has
+different dialing rules and regulations
+and we build in the dialing rules and
+regulations like so in our system you
+can't call Florida
+802 it just won't dial it right right so
+um and then like if it's a state of
+emergency like we turn off the
+state right so like we let people know
+yeah so like you can't AO doll you can
+go in and manually do them so if you
+have like booked in calls you can do
+that right but it won't like Auto do
+them right Auto di we don't Auto do it's
+a automatically queued up manual dial
+for the human thing right so you remove
+a layer of compliance so then it moves
+to Priority two which is like people who
+have done P1 or who are opting in
+overnight and then it's going to uh
+triage them via the newest leave the
+least amount of contacts so if somebody
+comes in at like at like 6:00 a.m.
+right and someone comes in at midnight
+it's going to call the 6 a.m. one first
+right make sense yeah and then it goes
+into like P3 and P4 and then we can move
+it out to P5 as well and so like it's
+just just how many times a lead has been
+dialed over what period right
+now the numbers on dial 10 onwards are
+it's
+05% of every dial will result a
+success right so I'm not saying you
+shouldn't call Old leads but like what
+you're doing is like it's not even old
+leads it's like doll for how long I
+think there comes a point when you're
+probably just trying to keep Setters
+busy right um and email and text might
+work better um from what I can see right
+like that's kind of the case but that's
+not necessarily going to be true for
+every business but it's it's what I can
+see right and so um that we sort of
+decide how long we're going to call P
+them for and then you can have long-term
+campaigns that might just bump them in
+right maybe once or twice a week and you
+just settle that up we just settle that
+up right and so we build these out for
+people at the moment we're sort of
+working on automating it but right now
+our team kind of builds it out and so we
+we build out like a lead management
+system right and then we install lead
+management system we decide how things
+are going to be dialed and then it gets
+dialed like that does that make sense
+sweet all right cool so compliance okay
+so we don't use automated dialing okay
+for the reasons that I specified we
+automate the number rotation okay so
+like we one of the cool things that we
+did I thought was kind of clever is we
+don't attach a lead to an agent we
+attach a lead to we attach a number to
+an agent we attach a number to a lead
+right it allow it stops us from having
+idiot sdrs burning leads right and
+burning numbers so it means that like we
+can control the rotation of the numbers
+a little bit easier and and it and it
+removes uh some things for us we have T1
+routing we have DOA compliant storage I
+don't know if you guys know uh if you
+have things like credit score right in
+your CRM just Google The Fair Credit
+Reporting Act of 1994 and then decide if
+you want to keep them in there right
+because there are some very stringent
+laws around how you store data we are
+fully data stored compliant right we use
+the same back end as Bank of America
+right um we put in all the tcpa fences
+we store all the Coe recordings we store
+the coal logs we always match the coal
+in and coal out number we do the coal
+maximums we do state of emergency
+compliance so we do all that stuff and
+that's also one of the reasons why the
+pickup rates are higher because we don't
+[ __ ] around so we don't find out
+essentially right and so this is just a
+quick like you know uh you know
+obviously hypothetical situation right
+so like pickup rate it doubles
+everything everything else being equal
+it's pretty easy right and so for me it
+was like I just wanted to figure out a
+way to do it because I used to own a
+sales training company I love sales
+training but [ __ ] me it's a hell of a
+lot easier to get more people to talk to
+I just want to talk to more people right
+and I think we talked to about 8% of our
+leads at seventh level which was [ __ ]
+infuriating at all times and so I just
+wanted to have a system and I the more
+on the rabbit hole I went the more
+difficult I found that it was but like
+you know at the end of the day you just
+don't need to and triple doll people
+like you're only doing it because you
+have to right but you don't actually
+have to do it if you get good outcomes
+right see [ __ ] 50% pickup rate is
+that normal everyone gets no they have
+good leads they have good speed to lead
+but their contact rate is like 68% right
+so of the leads that come through
+they're speaking to 68% of them right
+unique doll rate is something that
+everyone can start tracking it's not
+maybe not be easy to track in your
+system but it's a good one to track I
+made it up so it's of all the dolls that
+you do how many of them are calling
+individual leads right if you're in the'
+70s that's not good you want to be in
+the 40s from what I've found right that
+means that like you're dialing everybody
+about twice a day right and if you're
+focusing on your newer leads that's a
+pretty good average right number Health
+dollar attempts pickup rates you know
+total leads in the system Etc right
+here's another one okay so again you
+know roughly the same numbers okay and
+it sort of it tends to stay the same the
+way that our dialer works it tends to
+get a bit better over time the longer
+you use it for the better the results
+will get because the more you can dial
+it
+in right the more you can make little
+tweaks on read all time and dial
+attempts and all that kind of stuff

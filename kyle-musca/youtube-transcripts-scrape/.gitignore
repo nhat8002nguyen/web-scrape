@@ -8,3 +8,5 @@ transcripts/
 .env
 Webshare*.txt
 *proxies*.txt
+.venv/
+.venv-desktop-build/

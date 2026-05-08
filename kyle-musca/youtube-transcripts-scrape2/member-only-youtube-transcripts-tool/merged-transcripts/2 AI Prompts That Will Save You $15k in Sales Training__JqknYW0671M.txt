@@ -1,0 +1,370 @@
+AI is one of those things that sales
+people try to use. They don't try to use
+it. I see a whole lot of kind of
+ridiculous and stupid, overly
+complicated YouTube videos online about
+like how to get rich with AI in 2026.
+I'm not here to teach you any of that
+crap. What I want to teach you is like
+two prompts that you can use with AI and
+ways that you can actually use it to
+figure out how to get better at sales.
+[music] Maybe it means that you can save
+10, 15 grand on sales training. This is
+what I've used for a long time to
+actually use AI to get better. [music]
+or find some tangible points from people
+that I coach or myself or guys that work
+for me and it's super easy, super simple
+and I'm going to be going through the
+exact prompts and giving you exactly
+what to put in there and then how to
+extrapolate the right amount of data,
+etc., etc. Okay, let's get into it. So,
+the two ways that I like to use AI is
+one for storing core reviews and then
+finding like lowhanging fruit to get
+better at and then two is finding
+patterns. So AI is just better at
+finding patterns especially if you give
+it well formatted information and you
+can find things in sales teams or in an
+individual that is really really
+helpful. I'm going to give you exactly
+what information you have to input uh
+into it like how you should format it
+and then I'm going to give you the exact
+prompts that you can use in order to get
+some really really tangible information.
+So the first one I'm going to teach you
+is how to get really good quality core
+views. Now uh this is using chat GBT.
+I'm assuming you can use whatever the
+[ __ ] you want like Grock, whatever you
+want. But chat DBT is pretty is good.
+Obviously, I've got the paid version cuz
+I'm not a broky.
+>> A year salary right here. What I call
+them, fun coupons.
+>> And what we're going to do is we're
+going to go through. Okay. So, uh I'm
+going to put in the exact parameters of
+how I want it to score. And then you're
+going to put the transcript into it and
+you're going to allow it to score. Then
+what you do if you're a manager, you
+just keep a particular sort of chat per
+rep. Okay? And then you want to store
+it. You want to see tangible increases
+and you're going to try and work on
+their lowest performing metric. Okay? So
+I have a core v process that I've used
+for years. But it says here, you are a
+senior sales coach performing a
+structured core using the sales sniper
+full core view process. yada yada yada.
+Here's the information. Okay. Length of
+call is a really good one. Coal outcome.
+length of call is because like sometimes
+your reps or yourself uh your biggest
+lowest hanging fruit to making more
+money in sales is going is like
+shortening your calls, right? You can
+imagine if you go from a 90-minute call
+to a 45minute call, you're doubling your
+potential of income. Then what you would
+do is go away and you would work on
+specific things or analyze your calls as
+to what areas are causing you to go long
+and then you can start to chip away at
+it in five to seven minute blocks. Okay,
+the scoring system. Okay, I've developed
+this scoring system. It works well. It's
+pretty tried and tested. Okay, we go one
+to five. Okay, one being bad, five being
+great. The first is tone, cadence, and
+timing. Okay, evaluate how effectively
+the rep uses tone, pacing, silence,
+timing, all that kind of stuff in order
+to get meaningful answers and control
+the call. Okay, we want to score them
+and then we want to give some notes. All
+right, this is good because like this is
+a difficult thing to get right. So this
+is going to be like if you like these
+are final tweaks, okay? It's very
+important but difficult to fix
+especially if people are new. So it's
+something but I want to see it getting
+better and better. If I have a tangible
+scoring system and I can just creep it
+up, creep it up and I'll make sweet your
+tone is getting better. Your tone is
+getting better and we can take some
+really good notes there. Now command of
+the call. So assess how well you're
+controlling the conversation, keeping
+the prospects on track, avoiding
+sidetracks, rabbit holes, stuff like
+that. This is great because this will
+like massively shorten the amount of
+time. A lot of sales reps, they talk
+about stuff that is essentially
+irrelevant to the conversation. Like I
+was coaching a guy the other day and he
+sells like sleep coaching, right? Which
+is kind of cool. Um, and one of the
+things that he was talking about was
+like the medication that the person's
+taking for sleep. And I was like, I
+understand like why that may sound
+relevant. However, if it doesn't affect
+the prescription at the end, if it's not
+affecting what you're going to give them
+at the end, it's just sort of
+unrequired. Like, it doesn't actually
+it doesn't change your pitch. If it if
+it's not about the exact problem that
+you solve, you can't change their
+medications. You can't do any of that
+stuff. So, like why talk about it? It's
+just a rabbit hole and it might be
+interesting and it's ultimately
+unproductive. And if you can just remove
+those rabbit holes, it makes the sales
+call much more simple. And if you can
+see that because again you're storing
+this oil in the ass, you can start to
+see the patterns of what people's goods
+and bads are. Then we've got number
+three which is intact in cold tactics
+and probing. How well are you probing?
+How well are you uh uh clarifying? Are
+you diagnosing the problem? Are you
+getting below the surface? Okay, again
+really important. Uh it's going to be is
+someone able to get to the real problem
+or are they keeping things surface
+level? If someone doesn't answer a call,
+right, doesn't answer a question, are
+they then able to then reask it again?
+It's like, hey, what happens if you go
+to your wife and she's like, no, I'm not
+happy with you doing this. And the guy
+answers, well, you know, I don't think
+that will happen because it's like,
+that's not the question you answered.
+You have to go, okay, sorry, that wasn't
+clear. But what happens if you do ask
+her and she says no, right? Well, she
+wouldn't do that. It's like, okay, let's
+say she had a terrible day at work,
+right? Shitty day. Becky was a [ __ ] We
+know now Becky is at work, right? She
+comes home miserable. hasn't eaten and
+just no. It's like what happened? So,
+you've got to have ways to get the
+actual outcome, right? You got to get
+the answer. And too many people are
+accepting the answers to questions
+they're not really asking. Okay. Number
+four is scripting and word economy. Um,
+again, I think word economy is like how
+close they sticking to the script, how
+well are they using the script, um, is
+their word economy, are they concise or
+are they just kind of like justifying
+all their own questions? These are all
+things. Okay. And then objection
+handling, pretty obvious. You get a
+score out of 20 or 25 because if there's
+no objection handling, then there's no
+objections. Okay? Uh and then you do a
+call summary, okay? And then you get
+like an immediate action plan. So, um
+the prompt is like here's everything
+right from top to bottom. And you can
+just go and grab this. We'll have this
+linked in the description. Put all of
+this in. Enter all the data. Put in the
+call transcript and bingo bango bongo.
+You look like a much better sales
+manager. All
+>> [music]
+>> right. So, you get a score uh out of 20
+or 25 because if you had no objections,
+then you don't get a score for the
+objection handling. Uh then we're going
+to get you're going to get like overall
+call quality um what you did well and
+you can start to uh find the precise
+thing that was done well and wasn't done
+well, which is incredibly useful, right?
+Then you can start to create a tangible
+action plan of like the one thing. One
+of the best ways to get good at sales or
+get good at anything in general is to
+fix one thing and ignore the rest of
+them. If I make three changes, I get
+like a tangible increase in close rate.
+Which one did it? I have no idea, right?
+So, I I have to then uh guess which one
+did it, but also I might have had two
+that did a tangible increase and one
+that did a decrease, but overall it was
+a net increase, right? So, it's like I
+want to be really precise. There's a
+good book called The Hard Thing About
+Hard Things and it goes through that
+very particularly. But in general, if I
+get good at something, you can have the
+discipline to go, okay, well, these 10
+things are being done wrong. This is the
+one that I want to fix and have the
+discipline to go, well, I know that
+these other nine are being done
+incorrectly. However, at least that
+they're a constant variable, like I know
+what it's going to produce, and then I
+can make one really good increase as we
+go. So, you can do that and you're going
+to get really unique insights on rabbit
+holes, etc., etc., And then you can you
+can make your calls better and you can
+see a a nice tangible increase, right?
+The next thing is an end of call form. I
+know people hate doing data and stuff
+like that, but like [ __ ] you, you know,
+like you suck at this. I'm I'm better at
+this than you are, so just do it.
+But after every single call, just make a
+Google form. It's super easy. Um I'm
+going to like here's the template,
+right? So it's like name, date, time
+group. Okay, it's an important one
+because when you have date time group,
+you can start to get things like show up
+rate per hour, show up rate per day,
+close rate per hour, per day. If I do
+five calls in a row, what's my close
+rate after the fifth one, right? Or like
+if I do 10 in a row, what's my close
+rate after the fifth one? Because a lot
+of you are doing like 10 calls in a row
+and you're not closing the last five and
+it's just because your brain is melted
+and you're being [ __ ] [ __ ]
+right? [laughter]
+Don't do that. Like, unless sales is
+super easy for you, you can't do 10
+goals in a row, right? Marketing origin
+is always a good one because then you
+can give feedback to the business. Also,
+it allows you if you can control kind of
+what marketing comes in, you'll be able
+to go, well, there's three marketing
+sources, two of them are fire, one's
+[ __ ] Now, you have an actual like this
+is definitive proof. And so, I can just
+try and remove that sneakily or
+something like that, right? Uh coal
+length. A lot of people are sleeping on
+coal length. If I have 90-minute calls
+versus 45minute calls, like I can I
+double my income potential with a
+45minute call over having 90-minute
+calls. And there are tons of ways that
+you can shorten your calls out. And if
+you're doing the core abuse regularly,
+you'll be able to see that and you can
+ask, are there any areas that take me
+longer than others or that do
+unproductive rabbit holes that don't
+really affect the outcome in the future?
+Okay. Then you're going to get
+objections faced uh if they showed, if
+they didn't show it, stuff like that.
+So, you have all that and the prompt is
+like, you're a sales analysis. Analyze
+the oldest sales data.
+I want show up rate per hour. Group them
+by hours by day. Calculate the show
+rate, identify best and worst, close
+rate versus call order, fatigue
+analysis, right? Close rate, total hours
+worked, call length versus conversion. I
+remember when I was running seventh
+level, I did this big push to make all
+the calls 45 minutes. Everyone was like,
+"No, you can't do it." I did a super
+in-depth analysis, right? And this is
+like before chat GPT and stuff or it
+would just come out and it was [ __ ] Um,
+and it was like uh of the sales, it was
+like 97% of the sales happened in coals
+that were 45 minutes or less, like the
+actual call time. And it was only 3% of
+sales were in the calls that were 45
+minutes or more, right? So, we had
+60-minute calls booked out and I was
+like, but let's just do 45minut calls
+and then we will not close the 3%.
+Right? that do but we get so many more
+calls booked like because we had a
+problem with like we we never had enough
+time. So this means that we can every
+rep can take two to three more calls per
+day which shrinks the time okay from
+marketing to sales call increases show
+rate right naturally and then the close
+rate only goes down by 3%.
+like this is a no-brainer. And people
+were so [ __ ] stupid. They were like,
+"We can't do it." It's like
+statistically it's proven that you
+[ __ ] can. And everyone was like,
+"No." Like the whole [ __ ] company had
+a little [ __ ] hissy feed over. So I
+was like, "Fuck you. STAY BROKE."
+>> [laughter]
+[screaming]
+>> SO, UH, THEN YOU'VE GOT LIKE objections
+and you can link the objections to the
+like if you have a pattern specifically
+or if there's one for like the actual
+origin of the call, right? Um, then from
+there you can get all these insights,
+man. Like it's such a useful thing to
+do. Um, and it's so simple these days I
+see and all these people are trying to
+make these complicated [ __ ] It's like
+don't use AI to try and solve every
+problem and do your follow-up for you
+and stuff like that. It's like no, what
+you can do is you can use it to take the
+data that you are getting and just like
+do the hard work for you with analyzing
+it. And if you prompt it well and give
+it good information, it will actually
+spit out some really really quality
+information back to you. And if you're a
+sales manager, you can do this stuff. If
+you're a salesperson, you can do this
+stuff. All you need is like the
+transcripts. Um, and then, you know,
+that's pretty much it. You can make your
+own end of day form and you sorry, your
+own um like end of call form and you
+just [ __ ] do it. like there's very
+very low barrier of entry and you will
+get a tremendous amount of insight uh
+for very little effort and then it's
+like just ask it if if you could fix one
+thing in my sales what would it be or
+you can download my AI you can put the
+answers that it gives you and then you
+can ask my AI to hey what's the one
+thing that you would work on giving this
+data and uh it'll tell you so link will
+be in the description all right guys
+hope that was helpful bye

@@ -1,0 +1,37 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'discovery-workers'
+    static_configs:
+      - targets: 
+        - 'discovery-worker-1:8080'
+        - 'discovery-worker-2:8080'
+        - 'discovery-worker-3:8080'
+        - 'discovery-worker-4:8080'
+        - 'discovery-worker-5:8080'
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: instance
+        regex: '([^:]+):\d+'
+        replacement: '${1}'
+
+  - job_name: 'submission-workers'
+    static_configs:
+      - targets:
+        - 'submission-worker-1:8080'
+        - 'submission-worker-2:8080'
+        - 'submission-worker-3:8080'
+        - 'submission-worker-4:8080'
+        - 'submission-worker-5:8080'
+        - 'submission-worker-6:8080'
+        - 'submission-worker-7:8080'
+        - 'submission-worker-8:8080'
+        - 'submission-worker-9:8080'
+        - 'submission-worker-10:8080'
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: instance
+        regex: '([^:]+):\d+'
+        replacement: '${1}'

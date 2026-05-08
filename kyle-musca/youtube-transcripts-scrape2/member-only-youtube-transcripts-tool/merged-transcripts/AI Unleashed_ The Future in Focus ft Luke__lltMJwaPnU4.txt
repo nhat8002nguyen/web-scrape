@@ -1,0 +1,1132 @@
+your best sales reps will be your worst
+offenders yeah right yeah I always a
+little bit different but I learned that
+in being a sniper right so I learned the
+importance of daughter and all little
+tweaks and I started to like that side
+because it was interesting to me so then
+I applied that to my sales and like
+that's I was able to dial everything in
+you know what I mean hey guys welcome to
+episode of coffee is for closers I'm
+here today with big Luke and we're going
+to be going over a cool thing that he's
+building um and a bunch of other stuff
+with to do with calendar management and
+uh coming up with a singular source of
+Truth when it comes to the daughter of
+salespeople and all the filthy reps that
+won't do their
+daughter but yeah make that easy for
+them yeah give us a background my
+background of why you're smarter than me
+and most of the people listening oh
+that's a troubling thought uh yeah so uh
+I have a technology background been
+building tech companies my whole career
+um been involved in some pretty exciting
+businesses over the years and some um
+unmitigated disasters along the way as
+well um today I run a studio called
+super luminal uh so we build uh all
+sorts of really interesting tech for
+people um mostly in AI at the moment
+there's a ton of AI um and then we also
+have our own internal projects um as
+well okay um and that's where the
+project we're talking about today comes
+from yeah exactly what are some of the
+projects that you've worked on can you
+talk about them or yeah for sure um G14
+G14 classified yeah yeah I mean we've
+built uh some some great software in um
+for trading for trading platforms um
+there's one where we're doing AI
+analysis of 40,000 companies per day y
+um and sort of putting it through the
+lens of value investing and and making
+some some assessments of each company um
+we're doing a lot of work in education
+map between different syllabuses and
+educational content and it's very
+difficult to try and do that with
+classical Computing but AI has a really
+strong hand to play with that um we're
+doing some other interesting stuff for
+sales teams uh for one of our clients
+where we're sort of consolidating all of
+this useful data around leads and um
+projects and so on and then turning them
+into these little customized podcasts
+that you can listen to so while you're
+driving to your sales meeting can be
+sort of getting briefed um so some of
+the synthetic AI stuff that's coming out
+is incredible so synthetic AI yes
+synthetic voice AI so um it's sort of a
+long way from what you might think of as
+the sort of robotic sounding stuff from
+you know back in the day uh it's it's
+really hard to tell that it's not a real
+voice and so being able to kind of get
+briefed on things as you're driving to a
+meeting um you know are thinking with AI
+is that there's uh a lot of concern
+around people's jobs getting replaced
+and so on and I think a lot of that's
+will be figured out over time but I
+think in the meantime there are a lot of
+excellent opportunities to um help
+enhance Human Relationships rather than
+diminish them or replace them yeah I
+think like I know when I hear AI because
+in the space that I'm in I think it's
+just a lot of people who have like chat
+GPT prompts yeah right so like when when
+you like what's like so the thing we're
+we're we're sort of talking about the
+thing that we're kind of doing together
+is this calendar system that can read
+everything and do everything and there's
+an AI component to that but like what is
+the differen in something like a real AI
+system that does you know this kind of
+stuff or and like just someone who can
+run like a prompt on GPT I I don't
+really know that much about it for the I
+mean I obviously do but for the people
+at home you know explain the kind of are
+there different types of AI or is it all
+kind of running off the same thing there
+arear language models and yeah I I think
+they
+um without I I'll sort of avoid going
+like too deep into that topic but
+suffice to say that conversational AI
+which is chat GPT and things like that
+um is is one type and then if you I
+think the best way to think about it is
+in terms of how you interact with it
+it's not always typing and obviously now
+you can increasingly speak with them
+verbally as well um but it's also around
+the sorts of data that you put into
+these systems and the the data and
+insights that you can get out of them
+again okay so I think that without
+getting into the like technical
+delineations between those systems I
+think that's a good way to think about
+it um you know I think for a lot of
+people AI equals chatbot or some
+permutation of that um whereas you know
+with the system we'll be talking about
+today um you know you see AI at work
+doing the heavy lifting trying to figure
+out insights and then the way that
+that's output is not conversational AI
+it's it's full fully integrated into the
+product in a way that the end user
+doesn't need to kind of see behind the
+curtains of how that's being figured out
+it's it's not relevant to them doing
+their job better we're just giving you
+the Punchy insights to do your job
+better which is essentially what
+computers did you know what I mean like
+the first time it's like you know
+instead of yeah you don't need to know
+how it does it it's I don't know how my
+computer works yeah I don't know how my
+phone works I just I remember I made
+them my dad's a bit of a buffen right
+like he was a kind of an inventor Tech
+guy he was the first person on the
+internet in Australia so he was he was
+yeah contracted by the Australian patent
+office to figure out how to get the
+patents from the us so we hooked up an
+acoustic coupler with a fax machine and
+then managed to piggyback off internet
+through the fax Network in the US right
+and then basically had a fax machine
+that was just live printing every patent
+as a every patent request as it came in
+Imagine kind of an interesting way to do
+it right with that fact paper you know
+what I mean it cost a fortune yeah I
+remember that stuff was was was back but
+yeah that's what he he did and he event
+a bunch of other stuff but I remember
+like um remember I made the mistake once
+of going like how's a phone work he was
+like well sit down and it was like like
+an hour later I very much regretted it I
+know how a phone works um but yeah so
+like you know I think it's like it's one
+of those things right just makes I
+always see it as like it's just going to
+make everything like it should make
+everything better and more creative
+because you're taking it the menial y I
+think that's right and and a lot of the
+stuff that we're building is kind of put
+through that prism of rather than just
+saying okay well we've got this new
+shiny object how do we just use it in
+everything it's how do we look at the
+commercial objectives that we're trying
+to achieve and then leverage that
+technology and service of that right
+because I think when you do it the other
+way around um you know God knows a lot
+of uh Capital gets torched just building
+fluffy stuff I think uh blockchain is
+unfortunately an example of that as well
+where people just got so enamored with
+blockchain that they just wanted to
+build stuff with it um rather than
+saying well what are we trying to
+achieve what's the best technology to do
+that Gary ve just yarn everyone to buy n
+FTS right yeah yeah I think Gary ve
+should go back to Wine Library that was
+his prime days man I love that stuff
+yeah yeah all right so what do we um
+what's this new product explain it to me
+okay so um rev base is uh I guess
+working for sales professionals trying
+to help them
+um I guess fill in some of the gaps in
+some of the products that are already
+out there today um I think maybe one
+preliminary thing I would say before we
+get into the specifics of that is
+obviously there are a ton of sales tools
+out there unfortunately I think that
+there are some really key components of
+what people need to be doing that are
+currently left to boring repetitive
+tasks for humans yes right and so that's
+where I think you and I have really
+started to uh meld Minds on that and say
+how do we find those boring tasks and
+sort of pluck them out and make it
+trivially easy um which is better for
+the teams because like no one wants to
+do those jobs and it's better for the
+management and the executive who need
+the the data coming out of it so having
+now talked around it what the actual um
+features that we're looking at are
+things like making sure that sales teams
+are able to uh really easily update the
+statuses of each of their their calls um
+make sure that they can uh understand
+where the gaps are in their calendars
+and what the opportunity cost is of
+those gaps and then using that as more
+of an input into what is actually an AI
+system is start to generate insights
+that we can feed back into those teams
+so they can optimize their their
+scheduling and their calendars around
+what's going to get them the best
+results yeah and a lot of this came from
+the fact that like we met through Ben
+mhm and I think I was just complaining I
+think it was like so like having having
+run a lot of sales teams now it's got to
+be close to it's getting close to 100
+I'm pretty sure and I'm running the
+biggest one I've ever run right now
+which we have 12,000 sales calls in the
+month of May right across a number of
+different like lead Partners so you've
+got like slightly different marketing
+coming from different places coming into
+like a singular thing having none of the
+systems are really structured to kind of
+handle all of that you know and so you
+have like two or three systems running
+at once um all of which sort of like
+don't want to play nice with each other
+that much you know what I mean like
+they'll play nice with other stuff but
+not with with each other right which I'm
+sure is by Design same way when you plug
+a road mic into a Sony it buzzes for no
+reason whatsoever um right it's a f yeah
+it's a f right um but yeah and so like
+but what so what you end up with is you
+end up with like if you want to get all
+the data you have to militantly demand
+your salespeople to do it which is
+unlikely because they're contractors so
+you really can't even it's hard to tell
+them even to do it yeah right because
+you start flirting with the lines of
+employment versus contractor versus
+whatever right CU really you're just
+asking for an outcome yeah so you know
+like so then what you end up doing is
+you end up kind of like uh not knowing
+the truth and then you end up guessing
+and I've always there's a lot of tropes
+within the sales uh organizations which
+is like don't book out more than 72
+hours because they'll know show and I
+beli that to be true however if you were
+to ask me a lie detector I've never seen
+Dada I just think it's true yeah yeah
+and like I even it was just today that I
+thought well I've never actually seen
+that that's true I just you just take it
+to B this I just feel like it is because
+it makes sense and I'm like people know
+show then I go ah they're booked out too
+far right yeah right and I like and and
+for me when I was a sales rep full-time
+I tracked like every day and so I knew
+when my Revenue times were but I'm sort
+of a unicorn sales rep in that way and
+like there not many around when it comes
+to like really kind of understanding
+their diary but I had kids and I didn't
+want to waste time so to me that made
+sense but most people aren't going to do
+that and then when you have a team but
+when you have a team of a 100 there's no
+way you could do that I mean yeah you
+know and so like and and also um those
+trisms are very personal to either the
+that individual or the product that
+they're selling or the team that they're
+a part of or or the in which it's being
+sold exactly so um yeah I think that
+there are obviously some universally
+accepted best practices but I think a
+lot of that stuff where especially when
+you're already a high performing team
+and you're trying to like get to that
+next level um yeah there's there's very
+little data associated with this and
+going back to your your sort of first
+point there what you're describing is
+true of so many Industries where you've
+got these sort of big software platforms
+that people use that do a lot of what
+they need but not everything and so
+teams are forced to use multiple systems
+because there's this sort of competitive
+overlap between them they have to have
+API support but they don't really want
+to play that nicely in the sand pit
+together and so you get stuck with these
+semi-integrated things what will
+generally happen if you look at the
+history of how technology markets evolve
+is that you end up with some sort of
+aggregation solution you know um and so
+that's essentially what we're talking
+about for sales Apple TV yeah exactly
+that yeah but then you can see it like
+oh this is a rabbit hole but I mean
+Amazon is now trying to be their own
+aggregation play because they've got
+other streaming services aggregated into
+Amazon Prime and you know like these
+these things will continually reagate TV
+again yeah exactly right um but yeah I
+mean I think that's I your lived
+experience is exactly that for these
+sales platforms where now what we're
+saying is Well in spite of the fact that
+there's these quite mature products
+there are really significant gaps in
+their feature sets they kind of talk to
+each other but not that well and then
+even if you do get them to play okay
+together you still haven't solved those
+gaps and so that's what rev Bas is all
+about is saying let's pull these
+different data sources together create
+this single source of Truth um make it
+really easy for the team teams to um do
+what they need to do so that the
+management and the sales sales guys are
+kind of all you know not rubbing each
+other the wrong way yeah um and also
+provide really useful actionable
+feedback into those teams of saying well
+based on historical performance we we
+predict that you would get an x% bump in
+your conversions if you move this type
+of meeting to these periods or whatever
+it is cu for example like you know you
+might have a daily sales hotel at 11:00
+a.m. every day but then you know like
+you might have extremely high show up
+rates in between the hours of 10 to 3
+yeah and then terrible show up rates
+outside of that and it's like well do
+your your opportunity cost is really
+high at that time yeah like you get your
+entire team on a meeting yeah like in
+times where like it's the highest
+revenue generation you know and so and
+then it's like well you know and then
+people start to the problem is that
+people have a tendency and this is one
+thing that like as a sales manager and
+running sales teams I don't do and it's
+the reason why I sort of outperformed
+most people is because I look for
+reasons to not make changes whereas
+everyone looks for reasons to make
+changes generally speaking so like you
+know if it's a holiday coming up and a
+large group of people don't show up I
+would never change process because of
+that I would have a mitigation strategy
+in place we're not going to change a
+system that fundamentally works because
+of a an outlying particular thing you
+got to be careful for false negatives
+exactly right so but people want to
+change things and what ends up happening
+in organizations over time is it's a
+series of people who make changes and
+nobody reverts back to Simplicity which
+is generally what people need so like if
+you can see the actual source of Truth
+and be able to because there are so many
+variables that like if I wanted to see
+everything I wanted to see on a sales
+team like I would have to hire seven or
+eight people to look at one particular
+line to do the manual reconciliations
+right if it's like if I have 100 sales
+staff or even five sales stuff what lead
+Source what time of day you know like
+what area are because people in the
+midwest in US act totally differently
+than people in Florida yeah and also
+just to your earlier anecdote um things
+like when did I book this meeting in
+yeah because that's another dimension to
+like it a meeting time is not a static
+thing like there's there's the input to
+that and obviously the output of it um
+and trying to aggregate all of that and
+then discern insights from it yeah is
+it's huge yeah all the booking systems
+talk and stuff like that I remember when
+I was in Fitness like if somebody opted
+in at 2 a.m. I knew that they were
+likely going to be a crap
+lead right because I was like this is
+weight L they're out light questioning
+that they've seen a weight loss the
+guy's sitting there with a beer and is
+digging his hand going like I hate
+myself right next day he's like oh I'm
+Champion right you know what I mean so I
+was like okay and then it was actually
+like what was fundamentally weird was
+that people people always want people to
+have these like application forms and
+they want really in-depth ones and I
+found that my personal anecdote is the
+more someone outlays on that the less
+likely they are to buy whereas like
+everyone would argue the opposite but
+like I've tracked it personally but it's
+only an N equals one but I and so I
+stopped reading them I stopped having
+anything to do with it I thought that it
+gave me a bias and that but also if
+someone's willing to just pour their
+heart out on this application form that
+such an emotional decision and most
+emotional emotional things are like like
+if you can't if you were to call that
+personin 5 minutes you probably get them
+but a day later you know like they've
+tried to resolve that you know
+internally yeah that's really
+interesting in thought um we there's no
+way that I could get the inside though
+it was just because like anecdotally
+right like I thought that but with an
+actual system that saw that stuff then
+you could pull that yeah you know what I
+mean so and I think the other
+interesting thing about R Bas is that it
+it doesn't preclude you from doing your
+own Creative Solutions to things to see
+how they work but if you do that let's
+say you go you know what buget I'm just
+going to try doing this particular kind
+of call at 7:30 and just see what
+happens like maybe that's a bad example
+but let's just run with that um then you
+can do that and then track that data
+through the system and then the insights
+that you receive will give you some kind
+of feedback loop on that without you
+having to do the heavy lifting of
+crunching all those numbers yeah and
+it'll do it in a way that's consistent
+with the way that the rest of rev Bas
+works so that you'll have a comparative
+analysis between well here's what you're
+normally doing and then here's this
+other yeah experimental Corner if you
+like yeah yeah and then the other thing
+is like getting sales reps to like it
+you know as from being a sales rep it's
+like generally speaking like you you'll
+either like they'll have a VA kind of
+following you around doing everything
+for you right or you're going to be
+asked to update multiple systems usually
+so remember like I was doing updating
+the CRM and doing end of days and doing
+end of weeks and it's like no one wants
+to do that it's like no one wants to do
+it and then it's like you know sales
+people are not that way inclined like
+they're sales people are generally
+people who are high risk tolerant people
+that's kind of how they work and they're
+more creative and they generally either
+care an awful lot of what what people
+think of them or they don't care at all
+that's the two sort of avatars like I
+don't give a [ __ ] or like please please
+accept me for who I am that's that's why
+they make decent salese right because
+they the lean out lean in right you know
+the hard either way so like you know but
+they're not Administration people high
+levels of ADHD in sales reps from what
+I've seen like high levels of Dyslexia
+because there's no sales degree there's
+no requirement for school so it is a
+purely my ability to talk to people so
+generally speaking there are people who
+have the most successful sales reps are
+generally people who have a odd
+childhood right are neurod Divergent in
+some way and like you know just don't
+have a pability to to do Administration
+interesting and so like by asking them
+to do complex Administration you you are
+fundament like your best sales reps will
+be your worst offenders yeah right I was
+a little bit different but I learned
+that in being a sniper right so I
+learned the importance of daughter and
+all little tweaks and I started to like
+that side because it was interesting to
+me so then I applied that to my sales
+and like that's I was able to dial
+everything in you know what I mean but I
+think also it sounds like
+the the dialing and the data of uh
+sniping is is different but you could
+kind of
+align the admin forms you had to do in
+sales with like you could associate
+those two things together even though
+they're completely different kinds of
+admin but well like it it gives you what
+to fix right so the way I think about
+that um I guess zooming out a little
+from particular product and just there a
+a general observation around product
+development is there needs to be a give
+and a take if you just ask of your user
+and you don't give them anything in
+return then it it people are going to
+churn they they don't want to do stuff
+if they're not if there's no reciprocal
+benefit from it and so I think we've
+found a really constructive balance
+there with with revbase where you know
+you you first of all the tool is just um
+helping you not have to juggle all these
+different tools you should shouldn't
+have to enter the same piece of
+information twice that's already
+beneficial um but then in addition to
+that in providing the the reporting and
+so forth that's useful for management
+and executive and so forth um it's also
+giving you the insights that help you
+ultimately make more
+money yeah so if you just want to be
+purely transactional about it that I
+would argue is a worthwhile trade
+absolutely you know do the admin make
+more money yeah and the admin's easy
+it's like the calendar open it's it's so
+instead of having like your Google
+calendar open right or your Microsoft
+calendar whatever you just have this
+open yes and it's you can see everything
+you're doing and you know you can go
+through and just like update your status
+within the coal and it's good to go and
+then it will just kind of do its thing
+yeah that's right yeah and then you're
+periodically getting insights around how
+to how you might tweak subsequent uh
+mating times and things like that as
+well yeah yeah cuz like you know
+especially like if you if we can you
+know if it like event because you know
+it's going to give the information
+that's given right and you know a lot of
+you can in a lot of the booking systems
+and crms you can attach lead sources and
+stuff like that you know and so like
+having the ability to sort of just take
+it all in is so important because like
+marketing is getting harder and harder
+and harder um and like you know there's
+a heavy consolidation in the online
+space at the moment because you know um
+that you know Co was such a boom right
+for the online space that now it's like
+oh there's a bit of normalization
+happening you know um and online
+advertising is getting more
+expensive uh because there's more
+competition but also like the the
+methods are you know becoming people
+become numb to it right marketing exists
+to interrupt the pattern of life and if
+the pattern of life includes a lot of
+marketing then that just becomes white
+noise it's quite poetically said I have
+to say yeah thank you thank you um I'm
+sure someone else said it at some stage
+but that's what it is you know and so
+you know Facebook and meta and all that
+kind of stuff it's just billboard
+advertising on the highway of the
+internet that's all it is you know I
+mean so it's like how do you you know
+yeah like how do how do you stand out in
+that World um well I think also
+um on the product side I think a lot
+about the sort of cognitive burden that
+you put on people by them using your
+product and the the best amount in most
+cases obviously there are exceptions is
+um Close To None you know and
+so the the best interface design or or
+however you want to look at that is that
+it's so intuitive that you're not really
+even that conscious of the fact that
+you're using a system it's just like
+I've got I've got the information I need
+I'm doing the tasks I'm doing
+everything's where it should be and it
+feels intuitive um and it's in support
+of me doing the task that I need to do
+yeah and I think that we've got that to
+a really um you know you're never quite
+at that ideal but I think we're we're
+doing a pretty damn good job with rev
+Bas where um you can just sit there and
+you can do your job and you're not
+ideally that conscious of all these
+tools that are kind of plugged into this
+in the background you're just like
+rocking and rolling getting your job
+done yeah because you know I've used
+like it's just such a pain to be able to
+like and it's funny like if you don't
+know what you're doing like then you
+know you can see the insights that
+whatever Crum gives you and you think
+you're fine but it's like when you
+actually know what you're doing like
+you're like I don't that's like I need I
+don't need this like I need other stuff
+I need to know more because I know like
+you know all the interactions that
+happen with each other and so it's you
+know it's kind of like the more you
+learn about it the more like information
+you need to make a really good decision
+yeah you know and so like having the
+ability a lot of people think they have
+bad show up rates but it's like maybe
+you don't maybe it's just that you don't
+know when people shop yeah you know and
+by the way this is a really uh great
+example of where AI comes into its own
+so um I lived in Silicon Valley for many
+years and at one point I ran a data
+science team and um one of the things
+that we had to contend with is you would
+have all these different stakeholders
+asking you questions about stuff and the
+push back you had to give quite often
+was like what action would you take
+based on the results of this because if
+I'm going to go get a data scientist to
+spend a couple of days churning through
+zillions of of database records then um
+to distill this down to a statistic what
+are you going to do with that you
+because if it's just interesting to know
+then I'm sorry I can't help you yeah you
+know what's great about AI is that you
+know you can you can put these huge data
+sets in um and often it will find
+inferences that are are really non
+obvious where you're not even you know
+part of the the problem is just thinking
+about the right question to even ask you
+know what I mean whereas the way these
+AIS are evolving now you don't even have
+to ask that you can just put it in a
+more general form and say you know where
+are some key insights out of this yeah
+the stuff that we're seeing rev Bas
+produce is is pretty uh amazing in that
+I mean I'm involved in building it and
+I'm still shocked sometimes by what it
+comes out of it um where it's just
+building these little correlations and
+so on that a human just wouldn't pick up
+yeah you know and so many of these like
+you know HubSpot for example I think
+it's great it's a great tool like in
+terms of like bang for bucks CRM for
+most businesses I think it's probably
+the best right yeah Salesforce is like
+just a giant Lego box you know it's like
+you going to spend 90% of your revenue
+on it right and then like clothes is
+good for some things and there's all
+these other ones but in terms of like
+you know ghl is good for some things but
+like it's like a a the the the poor
+man's version of hubs but right don't
+sue me ghl they're suing clickfunnels
+right now no clickfunnels is suing them
+yeah someone suing someone someone some
+um but yeah so um like you know but like
+you have to create the dashboard I have
+to tell it what I want to see and then
+it has to be set up in order like I have
+to go and set it up in order to do that
+so I'm just connecting dots you know
+what I mean but only the adults I know
+how to connect and a lot of the time
+like you know there's a rise of
+fractional Sales Management because like
+if you're a company even doing a few
+million do a year $5 million a year with
+a good net profit you can't afford the
+guy that can actually give you the
+Insight yeah you know um because not
+many people know how to do that it's
+funny I was talking to one a guy today
+really good friend of mine name Will and
+he's on an account right now it's at
+about 1.5 million a month and it will be
+at 4 very soon it's going like that it's
+a hot offer happens every now and then
+and I ran a hot offer a while ago we
+took it to $3 million a month in six
+months and today he went to me and he
+goes I just figured out what you were
+doing this is about three two and a half
+three years ago he goes I see now why
+that was able to happen because he's now
+had years more of experience and I've
+told a ton of stuff he's a great guy
+he's super smart um he's done a lot of
+stuff now outside of what I what I've
+done with him and he was like oh I saw I
+see what you were doing I see why they
+could never cuz they had an internal
+team and they desperately wanted to fire
+me because we were way more expensive
+right but they couldn't figure out even
+paying their team onethird what they
+were paying our team they couldn't
+figure out how to get the numbers to
+work out in fires right it took him nine
+months to figure out how to do it and by
+that time [ __ ] crypto buun but um
+right so yeah like all those little tiny
+tweaks and stuff like that and like
+where you you see like all the
+correlations like okay if we do that
+that will happen if we do that that will
+happen right like a lot of people don't
+realize that like rate is just an
+interesting metric it's not
+actually like a reflection of much
+because I can double A team's close rate
+instantly like if you said double this
+team's close rate I go okay done and all
+I have to do is make it a bit harder to
+get on a sales call just add friction
+that's it done and all of a sudden it's
+like Hey look it's like but I have less
+sales no I doubled your clo rate you
+didn't say you didn't say double your
+sales you said double the clo rate right
+and then I could in they come in with a
+team that's closing 80% and go like that
+turn down to 20 like that right like
+close rate is a lagging indicator it's a
+it's a skill-based thing but it's also
+an environment thing well it needs to be
+contextualized with everything else
+exactly and so the way that I've always
+run it is I've got opportunity and I've
+got quality the whole point of a sales
+team is to have the most amount of the
+best leads available so it's like if
+there aren't really leads available
+you're going to speak to everyone that's
+the way it's going to be because
+opportunity is King because if we have a
+one chance chance of closing someone
+it's better than 100% chance of closing
+no one yeah so I'm just going to fill
+you up with people and go sorry champ
+closing is going to suck this month and
+then at least that feeds
+Revenue right um which which then they
+have opportunity they can create
+pipeline then from there we kind of dial
+it back up as we go there was one
+account that I was running they were
+spending about $5 $20,000 a day us on
+ads and we were overrun with people and
+every day about twice a day we were
+changing the questions on the applic
+form to match the demand we're just like
+like that like just playing this game
+all day long to increase friction
+dynamically is that yeah every now and
+then I'd go do you have $30,000 cash to
+spend in the next 72 hours on this right
+and they would go people said yes
+straight through everyone who said like
+you know there was like three or four
+different categories of like things that
+they could answer and I had conditional
+logic all set up so if you answer this
+this this you'd go here here or here
+here here here and I could just switch
+it all around but the volume was so high
+that we were switching it multiple times
+per day depending on how stacked people
+were and how fast we get new people on
+stuff like that right like n people know
+how to do that yeah yeah uh most people
+just set the hard qualifier and go but
+like then that's not going to last
+forever so then you get everyone used to
+that the moment you back it off your
+team shits to bed and it's done right
+like and then you've ruined the
+opportunity so just keeping everybody
+full but not full like with the easiest
+all the time you sort of you mitigate
+stuff
+you know but like that's such a heavy
+manual process but like like I was
+saying the guys who can do that are few
+and far between right and like um
+they're very expensive and so fractional
+management has become a real thing
+that's very helpful for a lot of
+businesses because you can get a guy
+like you do fractional CTO work right so
+it's like hey get a guy who knows what
+the hell they're talking about it's one
+day every two weeks help you steer the
+shape correctly without cting omin yeah
+for sure and so that they bring these
+guys in and they manage the teams but
+they're managing 15 teams
+yeah yeah you know what I mean so like
+but that means they have to have
+different CRM different things you know
+what I mean and where you can unify
+processes it it's very helpful for those
+guys for sure so those guys can actually
+charge less and deliver more or they can
+have more clients at the same price so
+their businesses can scale but then also
+for the businesses who like don't want
+that or can't afford that they can
+actually start to like get the insights
+that that person would intuitively have
+which is very difficult to pass on
+unless it's in like a mentoring
+environment because they're going to see
+those correlations but it's not always
+that you can just point them out and go
+okay do this you know experience is
+definitely a thing yeah exactly but it's
+really just being able to see patterns
+other people can't see yeah you know you
+raised an interesting point before
+around um the box of Lego you called
+Salesforce I think that's a a really
+good area to kind of delve into a bit as
+well um HubSpot is uh you could say it's
+a FID of or they are guilty of however
+you want to put it but a lot of these
+systems uh sort of try to be all things
+to all people and while that's great
+from a flexibility standpoint it is uh
+exactly the issue you you raised where
+you sort of get handed this blank canvas
+yeah and um there are underlying
+assumptions around that around the level
+of sophistication that you have to even
+know what your setup should be or even
+if you think you know what you want what
+exists in levels of refinement above
+what you've currently attained that you
+would you would be able to embrace if
+you knew about them and you know that's
+it's a pro it's part of the reason why
+people spend millions of dollars on
+Salesforce implementations with these
+third party like development teams and
+so on um but then you can have these
+enormous change management issues and
+sometimes they overstep the mark of it
+and then they don't get adopted properly
+and there's just a lot of issues that
+exist in that I've never met someone who
+uses Salesforce that says we use it to
+its fullest capability and we're very
+happy with the outcome yeah does great
+things we just don't use it exactly and
+not like I don't think anyone would say
+that Salesforce is not an incredibly
+powerful Suite of products um but there
+is a a sophistication Delta quite often
+that is difficult to overcome I think
+where we're philosophically different
+from that is working with you know a
+market leader like yourself um it's not
+about saying well we want to allow every
+permutation of how a sales team operates
+um and you can go and drag and build
+your own this and like that's that's not
+the our objective yeah ours is to say
+here are some best practices here is a
+uh like framework that will give you a
+good feedback loop so that everything
+that you do results in a set of
+you know performance analytics so that
+you can make
+informed um quantitative decisions
+around how to improve next week or
+tomorrow whatever yeah yeah which is
+brilliant because like right now like
+I've got you know one company there's
+probably nine people employed full-time
+just to figure
+out like who's doing what where and why
+in in the space of the calendars because
+like it just can't be known because like
+and I see it from a rest perspective to
+update it is like it's a morale like
+there's a whole thing and if you're back
+to back you just don't want to do it
+yeah because you have to be in two or
+three different systems at once and it's
+like it just doesn't there's no benefit
+then it's like well if you're not going
+to update I'll have you do it in the day
+then they do it end the day but they
+don't
+really like even remember you know the
+day you've got one foot out the door
+already and yeah and you're just getting
+random data you know so then like we're
+making decisions cuz if you think you
+like you know there's one account where
+it's like it automatically registers as
+a as a show up if it's happened
+if it doesn't get to otherwise it's a
+shop so if You' have got a 15% close
+rate or whatever and you assume your sh
+rate is
+85 you have no idea because what if you
+show up rate is 60 that would make your
+close rate
+25 right because like your close R off
+to people who show up yeah and so it's
+like you actually can't you're you're
+paralyzed with the decisions that you
+can make because you're like I'm aware
+this datter is incorrect M so if I if
+I'm to make decisions based on it yeah
+if you act on that you could
+be it's either great or not yeah right
+and so like it's not worth making a
+change because so in that business like
+we're doing little tiny tweaks here and
+there based off the anecdotal stuff that
+we're seeing but I'm not I don't use the
+dotter at all because like I know there
+is no source of Truth yeah you know and
+so it's like putting that thing that
+just
+is going off multiple things it's like
+okay cool now I know that is accurate so
+it's like Perfecto because I can see
+like oh that hasn't been updated like
+there is no update there so it's like at
+least I could then you know really
+remove all that data like if there's 15%
+of people that just aren't doing it I'll
+just remove them from the [ __ ] data
+set yeah and then go the ones that we do
+coming back to the the why in ref Bas
+the incentive for you to update the
+status of every meeting for example is
+that you get your personalized insights
+for how you personally can do better
+with your next round of calls so it's
+it's not even just doing the work for
+them yeah me one little thing and I'll
+give you all this yeah and so it's like
+here at insights that pertain to across
+your team yeah and here are things that
+pertain to you specifically and so you
+like why would you not want to you know
+if you're going to be there doing the
+job and you're trying to earn a
+yeah why would you not take that it's
+not like you know when I do an end of
+day form that all that's doing is giving
+my sales manager the ability to do their
+job but it's not like that person is
+rarely going to then sit down with me
+exactly and go hey man you shouldn't do
+calls Monday morning yeah exactly so in
+this scenario like yes your sales
+manager is getting the benefit of
+accurate data but even if you look at it
+purely from a selfish I'm putting time
+in for my own benefit standpoint you're
+getting the insights out of it
+yeah that's a bit of
+a I didn't know that but that's good
+yeah I like that yeah I like that um so
+yeah and like do you have uh do you have
+any plans for the uh for the future of
+it have you got like a a grandm plan or
+you want to go into that uh might be a
+little early to talk about that in too
+much detail but suffice to say that I
+think um you know there seems to be this
+uh sort of notion that because so much
+money has been put towards building
+these various SAS products that um we
+sort of live in a you know in a world
+where it's sort of post opportunity to
+build useful new tools yeah that is
+absolutely not the case I mean if you
+just look at you know our our ongoing
+conversations there's just this um very
+rich backlog of things that of problems
+that still need to be
+solved what we excel at is trying to
+figure out how to these stitch together
+into a single cohesive product right so
+rev bases we've been talking about it
+today is really just the beginning of a
+a suite of of tools that will be rolled
+out for sales professionals and people
+who interact with them directly as well
+again in the spirit of trying to reduce
+that sort of um pain in the ass gap of
+okay some data is in that system and
+some's in that system and you know just
+it exists in a thousand different
+Industries you know we deal with it in
+uh you know software engineering you
+know it's it's not unique to sales by
+any stretch but uh it's an area that
+we've got some good experience at fixing
+so that's that's what rev Bas will
+continue to evolve into over time and I
+think it gives it it finally gives
+businesses the ability like it's not not
+many people can afford a good CTO or
+like you know can afford someone to come
+in a data scientist to come in and build
+out these you know complex systems and
+you know I tried I had a data scientist
+that we had for a year to try and BR out
+like a integromat system that you know
+which it's Google Lookers J type stuff
+now right like to kind of put everything
+together and it was just like it like
+it's a huge gamble it's a h it was just
+a giant I don't want to say waste of
+time but it was just like it just never
+really kind of fit the bill because it
+just still required like me to be so
+heavily involved in it you know and then
+you know as things updated it never
+really was able to do it but um like I
+think that this this this provides
+someone with like some small tangible
+changes because yeah everyone wants he's
+like there's no Silver Bullet doesn't
+work like that but if you can make
+yourself 5% more efficient 5% more
+efficient five by the end of a six-month
+period you are an it's incred you're
+different time yeah radically different
+results but very incremental uh data
+driven Improvement yeah exactly well I
+mean that's I think we just nailed it
+right we
+can right um I think we'll put a uh like
+an expression of Interest form yeah
+great down below so so you guys want to
+go down below and learn a bit more about
+this we'll do an expression of interest
+um it'll be live very soon it's sort of
+in stress testing mode at the moment um
+but yeah we're going to be rolling it
+out AC c a couple teams and then uh
+launching it live very very soon
+probably
+very similar time as to when this comes
+out so if you guys do want to learn more
+about this go down below we'll have some
+links there and then from there we can
+give you a call and see if we can you
+know if you want just bit more insight
+bit more Revenue you know and you want
+to be able to make some small
+incremental data driven decisions there
+you go rolls off the tongue it does it's
+beautiful all right thanks very much
+good stuff bye
+[Music]

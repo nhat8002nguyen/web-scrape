@@ -1,0 +1,22 @@
+{
+  "name": "member-only-youtube-transcripts-tool",
+  "version": "1.0.0",
+  "description": "Download member-only YouTube transcripts via a Chrome profile + extension (Puppeteer)",
+  "type": "module",
+  "bin": {
+    "member-only-yt-transcripts": "./src/cli.mjs"
+  },
+  "scripts": {
+    "start": "node src/cli.mjs",
+    "retry-skipped": "node src/cli.mjs --retry-skipped transcripts/skipped.jsonl",
+    "merge-transcripts-xlsx": "node scripts/merge-transcripts-to-xlsx.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.2.0",
+    "simplepush-notifications": "^1.0.13",
+    "xlsx": "^0.18.5"
+  }
+}

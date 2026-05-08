@@ -1,0 +1,177 @@
+# Docker Compose for Instance 2: Submission Workers, Prometheus
+version: '3.8'
+
+services:
+  # Submission Workers (10 instances)
+  submission-worker-1:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.submission
+    container_name: submission-worker-1
+    environment:
+      - KAFKA_BROKERS=${KAFKA_BROKERS:-kafka:29092}
+      - REDIS_HOST=${REDIS_HOST:-redis:6379}
+      - POSTGRES_HOST=${POSTGRES_HOST:-postgres}
+      - CAPSOLVER_API_KEY=${CAPSOLVER_API_KEY}
+      - PROXY_API_KEY=${PROXY_API_KEY}
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+  submission-worker-2:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.submission
+    container_name: submission-worker-2
+    environment:
+      - KAFKA_BROKERS=${KAFKA_BROKERS:-kafka:29092}
+      - REDIS_HOST=${REDIS_HOST:-redis:6379}
+      - POSTGRES_HOST=${POSTGRES_HOST:-postgres}
+      - CAPSOLVER_API_KEY=${CAPSOLVER_API_KEY}
+      - PROXY_API_KEY=${PROXY_API_KEY}
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+  submission-worker-3:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.submission
+    container_name: submission-worker-3
+    environment:
+      - KAFKA_BROKERS=${KAFKA_BROKERS:-kafka:29092}
+      - REDIS_HOST=${REDIS_HOST:-redis:6379}
+      - POSTGRES_HOST=${POSTGRES_HOST:-postgres}
+      - CAPSOLVER_API_KEY=${CAPSOLVER_API_KEY}
+      - PROXY_API_KEY=${PROXY_API_KEY}
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+  submission-worker-4:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.submission
+    container_name: submission-worker-4
+    environment:
+      - KAFKA_BROKERS=${KAFKA_BROKERS:-kafka:29092}
+      - REDIS_HOST=${REDIS_HOST:-redis:6379}
+      - POSTGRES_HOST=${POSTGRES_HOST:-postgres}
+      - CAPSOLVER_API_KEY=${CAPSOLVER_API_KEY}
+      - PROXY_API_KEY=${PROXY_API_KEY}
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+  submission-worker-5:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.submission
+    container_name: submission-worker-5
+    environment:
+      - KAFKA_BROKERS=${KAFKA_BROKERS:-kafka:29092}
+      - REDIS_HOST=${REDIS_HOST:-redis:6379}
+      - POSTGRES_HOST=${POSTGRES_HOST:-postgres}
+      - CAPSOLVER_API_KEY=${CAPSOLVER_API_KEY}
+      - PROXY_API_KEY=${PROXY_API_KEY}
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+  submission-worker-6:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.submission
+    container_name: submission-worker-6
+    environment:
+      - KAFKA_BROKERS=${KAFKA_BROKERS:-kafka:29092}
+      - REDIS_HOST=${REDIS_HOST:-redis:6379}
+      - POSTGRES_HOST=${POSTGRES_HOST:-postgres}
+      - CAPSOLVER_API_KEY=${CAPSOLVER_API_KEY}
+      - PROXY_API_KEY=${PROXY_API_KEY}
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+  submission-worker-7:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.submission
+    container_name: submission-worker-7
+    environment:
+      - KAFKA_BROKERS=${KAFKA_BROKERS:-kafka:29092}
+      - REDIS_HOST=${REDIS_HOST:-redis:6379}
+      - POSTGRES_HOST=${POSTGRES_HOST:-postgres}
+      - CAPSOLVER_API_KEY=${CAPSOLVER_API_KEY}
+      - PROXY_API_KEY=${PROXY_API_KEY}
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+  submission-worker-8:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.submission
+    container_name: submission-worker-8
+    environment:
+      - KAFKA_BROKERS=${KAFKA_BROKERS:-kafka:29092}
+      - REDIS_HOST=${REDIS_HOST:-redis:6379}
+      - POSTGRES_HOST=${POSTGRES_HOST:-postgres}
+      - CAPSOLVER_API_KEY=${CAPSOLVER_API_KEY}
+      - PROXY_API_KEY=${PROXY_API_KEY}
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+  submission-worker-9:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.submission
+    container_name: submission-worker-9
+    environment:
+      - KAFKA_BROKERS=${KAFKA_BROKERS:-kafka:29092}
+      - REDIS_HOST=${REDIS_HOST:-redis:6379}
+      - POSTGRES_HOST=${POSTGRES_HOST:-postgres}
+      - CAPSOLVER_API_KEY=${CAPSOLVER_API_KEY}
+      - PROXY_API_KEY=${PROXY_API_KEY}
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+  submission-worker-10:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.submission
+    container_name: submission-worker-10
+    environment:
+      - KAFKA_BROKERS=${KAFKA_BROKERS:-kafka:29092}
+      - REDIS_HOST=${REDIS_HOST:-redis:6379}
+      - POSTGRES_HOST=${POSTGRES_HOST:-postgres}
+      - CAPSOLVER_API_KEY=${CAPSOLVER_API_KEY}
+      - PROXY_API_KEY=${PROXY_API_KEY}
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+  # Prometheus
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ../monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus-data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--storage.tsdb.retention.time=7d'
+    restart: unless-stopped
+
+volumes:
+  prometheus-data:
+
+networks:
+  default:
+    name: form-submission-network
+    external: true

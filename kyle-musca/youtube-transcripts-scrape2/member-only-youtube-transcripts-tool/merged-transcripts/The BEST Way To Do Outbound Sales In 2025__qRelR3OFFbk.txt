@@ -1,0 +1,419 @@
+hey guys what's up today I'm going to be
+talking about the SDR call center and
+the SDR autopilot system so I'm going to
+talk about where it came from why we
+made it and why it might help you get a
+little bit of a higher lead to set and
+then hopefully close more deals I don't
+know maybe we'll see so why did we
+create the strr cool center I've been
+running teams and doing outbound since
+about 2010 when I got out of the army so
+actually that's a about a lie about 2012
+right which is when I opened up my first
+gym so I used to do sales I just found
+myself as a sales rep I didn't like plan
+on it I didn't think this would be my
+life very thankful that it is cuz as
+Kanye once said my life is dope and I do
+dope [ __ ] right but like someone who
+specialized in outbound sales you know
+and had done a lot of it was not really
+part of the plan but you know who knows
+I did sales uh for gyms basically
+non-stop for about 6 years and I would
+do sales 8 hours a day you know 10 hours
+a day 5 six days a week and I would just
+do outbound I didn't know that inbound
+calls were a thing I thought that the
+way that you got it was I would just get
+a CSV file cuz Excel you know it was
+about $1 minute with a phone but like
+you have a high pickup rate because it's
+your phone and I'm going to go into that
+in a different video about the differ
+between your soft phone the dialers and
+some of the rules around it and the
+difference between your phone and why it
+works so much better from a pickup and
+contact rate standpoint rather than what
+you're using now most likely however
+it's ultimately unscalable and you don't
+want everyone having their own personal
+phone numbers attached everything
+they're doing because that's weird so I
+was doing abbound dialing all day and
+just making sales from that my my goal
+was around uh two sales an hour so I
+would work for about 8 hours a day of
+that I could sell for about uh six to
+seven of it so my goal was anywhere
+between 12 to 14 sales per day of
+anywhere between a 97 and a
+$197 program which is usually some sort
+of 28 day challenge and then every now
+and then we would go to like $1,600
+program and then I would bump it down to
+about eight sales a day so like one sale
+an hour cuz those calls were generally a
+little bit longer or I had to bring more
+people into the gym to be able to sell
+it but I was really focused on doing Gym
+Sales over the phone without bringing
+them into a consult the main reason for
+that is because I found the show up rate
+to the console it negated any benefit to
+just not closing over the phone even the
+close rate was lower but the lead to
+sale was higher okay and those are
+important things to know because that's
+how I learned how to problem solve sales
+um I literally just finished about a
+half an hour video on how I problem
+solve sales we might include it
+somewhere here as a free gift or
+whatever to help you out okay so why the
+SDR call center so after running all
+those things I run about 100 businesses
+in terms of these sales ranging from fex
+like air wallx and they're a large
+fintech in Australia I think the most
+one of the most valuable companies in
+Australia or second most fintech or
+whatever it is in in in the southern
+hemisphere I've done stuff for like
+liman cleaning products I've done stuff
+for like Bradley at light speed done a
+lot of things done stuff in some of the
+Acquisitions companies like NCI and gym
+launch so sort of been spread out and
+then obviously had my own business being
+sales where we did done for you sales
+and then uh ran a large sales training
+organization about 4 years of which
+we're getting you know 30 40,000 leads a
+month and we did a lot of outbound it
+was a large component of it however one
+of the ultimate frustrations that I've
+had whether it' be running any company
+whether it's in sales sniper my own
+stuff or at that sales training company
+was that eventually the CRM broke and
+what I mean by that is that the dialing
+component would absolutely die the
+reason for that is because we would get
+so many dolls that like it just the
+pickup rate just kind of slowly dropped
+into Oblivion to where it would end up
+being around 1% now I thought that that
+was like a weird anomaly and I thought
+that like rotating phone numbers would
+work and I thought all these things and
+at the end of the day they really didn't
+we tried local pres we tried all that
+stuff and ultimately they worked for a
+little bit and then die so I didn't
+really have the time to dive in deep and
+to figure out how so the way that we fix
+that is by throwing human suffering at
+it right just get a lot of people to do
+stuff you know what I mean um but
+ultimately I saw it as a a really big
+issue amongst a large amount of
+Industries not just the high ticket but
+a lot of different Industries whether it
+be solar whether it be Insurance whether
+it be all these things and they're
+struggling so when I exited from my last
+business and I had a little bit of time
+a little bit of money to play with I was
+like man I really want to solve this
+problem not because I'm particularly
+passionate about outbound and call
+centers however it feels like a real
+problem to solve and it was a real bug
+bear of mine and so I went out to fix it
+what I discovered is that ultimately
+those systems are doomed to fail the
+reason being is because like they stand
+up very quickly they're really easy to
+use you can rotate numbers and get new
+phone numbers and you can get
+International numbers and a heartbeat
+right and that convenience is ultimately
+what is the downfall of the system
+there's a couple other ones as well but
+I'll explain more so if we have a look
+at the fundamental um how the Telos work
+and this is a really if you're like
+right into the Telco space and like you
+you know this is a simplified version
+right so we have a Telco so something
+like an AT&T or a telra or whatever it
+is of like whatever country you're in
+that's like who's issuing the phone
+numbers the people with the
+infrastructure right uh the people with
+the cell towers and the the lines and
+all that kind of stuff they're issuing
+numbers now then you have a on top of
+that you have a data analytics company
+that's an independent company that's
+contracted to track everything that's
+going on in the network that's every
+interaction every call thing because
+they have to from volume perspective but
+also they're trying to protect their
+customers from scammers like you you're
+not a scammer but you're being put into
+that same little genre okay because
+you're dialing people doing it too much
+okay cuz they're not picking up so I get
+it right however you're going to call
+yourself some issues and I'm going to go
+over that later there's a DOT they track
+everything if someone hangs up straight
+away they track it it's algorithmically
+and there's software that's looking for
+stuff that is like what's genuine human
+interaction what is it what do it call
+friends and family right cuz we know
+that that that those phone calls look a
+certain way those texts look a certain
+way right so it's like that they can
+tell that they know that that's a real
+phone if I was to call from my phone I
+would get a very high pickup rate all
+that kind of stuff cuz that's a real
+human number to issued by a TCO to me
+directly okay there's no third party
+involved right then from there we have
+that Don company and then above them we
+have sort of three main bucket right and
+I'm sure there's more but this is as
+many things as like it affects me one is
+like personal communication so on a
+phone talking to your mom right me
+talking to your mom she picks up hey
+sweetie last night was
+great got thank you very much right but
+you know they know that it's it's me
+talking them up right the next thing is
+we have like businesses like registered
+businesses you know people going through
+the right thing they're getting their
+lines they're getting their mobiles you
+know they're getting them from the TCO
+they can still do outbound dialing all
+that kind of stuff from but they're
+registered businesses right the next
+thing is where you scumbags come in
+which is where you're buying your
+numbers off third parties right so the
+reason why you can buy numbers so
+quickly like you know that like you know
+in order to get a phone number like you
+have to go through a process right you
+know burner phones are hard to get these
+days because like you have to like put
+ID and stuff down to get one of these in
+most places right that's cuz they want
+to track who's going because they want
+to stop scammers from using phones to
+call old ladies and selling them you
+know stupid [ __ ] right so that that
+third party is where like VoIP numbers
+and all these really quick numbers come
+from where you can get a UK number in 10
+seconds I used to use one called crazy
+Co I get a number anywhere in the world
+in like 2 seconds it was fantastic it
+really helped me out cuz I was doing
+sales all over the world and I could
+just scroll through and have it come up
+as a local number so that I'm not
+calling someone in the UK from a Texas
+number right cuz that's just silly no
+one's going to pick that up right now is
+that a real UK number no it's a spoofed
+number okay so the Coler ID is coming up
+as that but really it's a series of VP
+and interactions and stuff like that
+it's not a real number that's been
+issued to me by a UK Telco okay cuz that
+would be quite difficult these systems
+are utilized by scammers a lot and so as
+soon as you buy numbers off of this
+particular bucket you're automatically
+in like the high we're looking at you
+bucket specifically yes you we're
+looking at you specifically for
+dodginess because coal centers and I'm
+sure you've all been called by them but
+most call centers are built off the back
+of these like really quick to raise and
+really quick to burn systems okay why
+it's because they're scraping data and
+calling a large list our call center
+will never do that because everyone that
+comes into our ecosystem that we dial
+has to be gdrp compliant okay so we are
+audited with that we are DNC list
+audited we have to register each number
+it takes us a couple of weeks to get
+phone numbers they're quite expensive
+there's a lot of paperwork involved
+there's a lot of rigar involved in
+everything that we do and that is what
+affords us the things that we're
+afforded which is why we can usually no
+guarantees thank you Taylor why we can
+get a larger than average or pickup
+rates and contact rates and stuff like
+that so like we can actually handle less
+leads for us a full-time SDR will only
+be able to handle about 500 leads per
+month that'll be about 150 hours because
+of the dialing Cadence that we've set up
+our high contact rate our high pickup
+rates and the fact that around 63% of
+the time is spent talk to leads and
+Prospects right so you can imagine like
+the most I've been able to get through
+in an hour is 25 leads while sitting
+there on the dialer just having it ring
+I've only been able to get through 25
+because I've had good pickup rates and
+I've had good conversations and I've
+made sets and I've gone through and I'm
+not able to really get more than that
+because I'm talking to six or seven
+people an hour right so you can't punch
+through 10,000 leads because you you
+speak to people right so and that's
+fundamentally the the big difference
+right our system is different difficult
+to set up there is a large barrier of
+Entry being both money and time we've
+spent hundreds and hundreds of thousands
+we're contracted for Millions right we
+are on the hook for millions of dollars
+over the next couple years and we are
+giving our clients access to an
+Enterprise level system that they
+couldn't dream of affording right and
+we're doing that because we're able to
+do it at scale there's a very high
+minimum seat it's in the high hundreds
+minimum seat that we had to agree to
+right and so what we're doing is we're
+taking our seats and then we've built
+out the system in a very particular way
+with a bespoke Cadence that I've
+developed over the last you know 12
+years of doing full-time sales that is
+within the FCC guidelines and
+regulations which I'll go into in a
+second that gives us the maximum amount
+of dollars that we can do without
+harassing people is structured in a way
+that gives us the best opportunity to be
+able to talk to people cuz that's really
+what we're looking for we just want to
+talk to people you know what I mean so
+and and and that lead to set you know
+goes up because you're talking to a
+higher volume of the lead right the
+other thing that we give is we give
+hardworking people a lot of our guys are
+out of Africa or other countries like
+that with very minimal accents we have a
+quite uh heavy 4-we quality assurance
+process they have to go to and they all
+have Coal Center backgrounds that are we
+looking to get the highest quality
+killer unicorn sdrs no we're not right
+because you can't afford them right and
+if you do have a unicorn SDR guess what
+champ be a sales rep next week right
+there is no rockstar SDR and the reason
+is is because it's not a rockstar
+position it's the guy playing the
+triangle you still need it that little
+ding is fire and it works really well
+and it's very important right or it's
+the bass player right it gives you you
+know that nice melody and that Rhythm
+but it's not the guy that's screaming
+out in front with panties getting puffed
+in his face okay it's not that person
+you're never going to get a rockstar SDR
+and if you do they're only there for a
+week and they're doing something else
+right so what we're looking for is oak
+trees people who can sit there stay in
+the saddle dial your leads for 8 hours a
+day right 8 hours a day with a system
+that is designed to to maximize the
+efficiency of those leads on numbers
+that are certified and registered with
+custom caller IDs that come up is your
+name right with a speed to lead of 5 to
+15 minutes during work hours and not a
+speed to lead that's like relying on
+some guy going to the top of a list no
+as soon as that lead is generated it
+auto slots in as the next call right on
+a Cadence that the person cannot control
+right they are the passenger in that
+system they are not the driver they do
+not decide who to call when to call why
+to call what to call that has all
+decided for them in a system that we've
+designed to get the highest possible
+contact rates that we can so that we can
+get the highest lead to set possible so
+that you can stop mocking around paying
+hundred And1 for book call or paying 22y
+old sdrs to sit down jerk off play XBox1
+hundred leads a day and pretend to be
+working right also if somebody wants to
+pulls our system or our dialar they have
+to tell us why every single second
+they're on that thing is being counted
+right and you only going to be charged
+from our SDR call center if you decide
+to go down the route of us being your
+sdrs for the time that people are
+working your leads that's it 20 bucks an
+hour $5 a book coal it's the godamn
+greatest St you've ever heard it's the
+biggest no-brainer ever I created it
+after being frustrated for years with
+systems that are ill equipped to do what
+we need to do with wasting money on
+excess leads paying people who do not
+want to be in the role spending 3 months
+training an SDR and $1,000 on ad spend
+and another $10,000 on bases and
+commissions and managers right and CRM
+fees to then have the person finally get
+good enough to make me an Roi and then
+go boss I want to be a closer so then I
+have to make them a closer right or I've
+just paid to train somebody else's SDR
+and then they suck for 3 months and I
+spend $50,000 on leads and $20,000 on
+this and this and this now I'm $80,000
+into this person and they probably
+produce me $50,000 worth Revenue it's a
+[ __ ] system entry level positions we
+it's very difficult to invest in them
+because you rarely get the ROI back and
+so what we've done is created a system
+that I think is fantastic and I think is
+a culmination of all the years of my
+learning the hundred sales teams that
+I've run and the years and years of
+doing outbound sales myself and I think
+going to be a [ __ ] Ripper

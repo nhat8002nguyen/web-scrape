@@ -1,0 +1,363 @@
+Everyone lost their mind when call
+screening in iOS 26 came out and I'm
+here to give you the exact data of
+what's happened in outbound dialing
+since that roll out. I own a dialer. I
+can see millions of dials in hundreds of
+different businesses calling all
+different sorts of leads from cold
+calling to inbound to outbound
+everything. Opt-in, non-optin, you name
+it. And I'm going to give you the exact
+nitty-gritty data. What's working,
+what's not working, the real tangible
+impact it's had on the numbers. and I'm
+going to give you step-by-step
+strategies that you can use in order to
+maximize your chance of getting people
+to pick up the phone so you can actually
+make some sales. Okay, so what is this
+iOS call screening? Okay, if you have an
+iPhone, if you have an Android, you're
+like, "Hey, this has been out for years,
+right? Uh but if you have an iPhone,
+you're like, "What's this new thing?"
+So, what it is is it's uh people that
+are not in your contacts, you have the
+option and the ability to uh screen
+those. And so, it's automatically going
+to get sent to a live transcribed
+voicemail. um and it's going to
+transcribe exactly why you're calling
+and then they can decide to pick up or
+not. So there there are some things
+behind the scenes that are happening.
+Essentially it's um automatic span
+detection for unknown callers. Right now
+I have been told that at a station score
+and the overall health of the number and
+the score of the number will play a role
+in if this is automatically triggered or
+not. There's little evidence to support
+that that is the case. However, that may
+be coming in future updates. Um but
+essentially like it's just designed to
+stop spam callers. Now if you're an
+opt-in, you're not a spam caller. So, we
+want to make sure that it doesn't
+actually screw you up. Okay. The the
+overall promise that Apple's saying is
+fewer mis calls and fewer spam. It's
+going to divert lowquality flagged
+things automatically to voicemail. Um,
+anything that's suspicious or spam
+likely, all that kind of stuff. And, um,
+it's going to label allow you to label
+it as spam very, very easily. And so, it
+it does add some friction points.
+However, I don't really think it's that
+massive of a deal. And I'm going to kind
+of explain why. So, when it comes to
+like D, there's a couple things
+happening that you may not know about.
+And one of them is like the meta
+analysis of all of the information that
+comes with the data and the signal.
+Okay? And that's call origin and call
+volume, repeatable patterns, anything
+that looks suspicious, all that kind of
+stuff may trigger it. Um, but really
+it's going to be like anyone who's not
+in the contacts. Now, the big thing is
+like how many people actually use these
+features? And the good thing is we have
+some data on that because you know Apple
+is a very consumerheavy product and the
+people who use Apple are usually less
+tech-minded than uh Android. That's just
+kind of how it works. You can argue with
+me in the comments, but that's usually
+kind of the break up in demographic. But
+on the Android platform, the spam
+filtering um was only like a 5 to 15%
+uptake um on the actual feature because
+it it's kind of annoying because
+especially like if you're a salesperson,
+you're never going to turn it on. If
+you're an entrepreneur, you're never
+going to turn it on because one in eight
+and one in eight people is a
+salesperson. A lot of people are
+entrepreneurs. A lot of people use their
+phones and they're in constant
+communication with people they don't
+know, um like business owners or
+whatever for a living. And so it's it's
+going to be an incredibly annoying thing
+to have. Like I haven't turned mine on.
+and I never will because I I would find
+it annoying to have to sit there and
+read it and then I can just decide
+whether or not I call or call back. Like
+it's a very I I feel like it's solving a
+problem that isn't necessarily exist
+because I don't feel like it solves the
+problem. It just kind of gives you a
+different way now you have to read it
+instead of hearing it. I don't really
+think it is too much of a difference. So
+the uptake has has never been enormous
+in terms of this and having owning a
+dialer having seen the amount of people
+that go to Google voice although it's
+definitely it's a good chunk like you
+know say 10 15% of all the non-pickups
+but you know then you got to take the
+pickups and like into account so it's a
+relatively small proportion that
+actually end up with that outcome and
+even then you can bypass Google voice
+with a call within 15 minutes and then
+just it rings through anyway and
+realistically I think there is a couple
+ways in order to I guess make it a semi
+positive but overall uptake isn't huge.
+So I went through the numbers of like I
+took a random segment of clients that
+are on dialer from different industries.
+I've taken like infospace. I've taken
+people with organic leads. I've taken
+like infrastructure. I've taken
+financial services, roofing trades,
+coaching. I've taken a good chunk and
+I've gone through the data specifically
+from the month before to the month now.
+So August 15th to September 15th, it
+rolled out midepptember and September
+15th to now, which at the filming this
+is like October 14th. And this is
+exactly what I saw. Okay. In terms of uh
+like Andy Elliot, so he's on our dialer.
+Overall, there was a 2% drop in pickup
+rate from those two days. That's it. So
+2%. So he went from a total pickup rate
+of 15% to 13%. And that's one dial, one
+pickup, right? Across all different
+campaigns, new leads, old leads,
+everything. Uh Cole Gordon, for example,
+he saw a a he went from 17.1% to 22.99%.
+So he saw an increase of nearly 7%
+pickup rate. Gator Roofing, which is a
+roofing company, there's a large volume
+through our platform. They went from 12
+to 9.5. So again, statistically somewhat
+there. We had a financial services
+company called Crown and they uh went
+from 18 to 15.4. Smart Trading, which is
+an infospace product, which has a heavy
+organic presence, went from 16 to 25 in
+that same time period, and Viva, uh,
+which didn't have the time period before
+that, but they are a new client of DA.
+They've been on for about 4 weeks now,
+and they're an infrastructure team doing
+high volume outbound, and they have a
+28.5% pickup rate. So, all in all, I see
+really no statistical increase or
+decrease given the roll out of iOS 26.
+adaptation uptake of this feature will
+obviously increase over time, I I would
+assume, although the iOS 26 rollout has
+been pretty disastrous anyway because
+the software has been so glitchy. But I
+haven't turned it on. I haven't had it I
+haven't seen it be too much of an issue.
+The statistical variances that I'm
+seeing across all different swaths of
+industries are the same as the variance
+that you would get from month to month
+anyway because you know speed to lead
+plays a factor. 2% pickup rate here.
+It's really neither here nor there. I
+will continue to track and monitor this
+and see if it does create an issue. But
+you know what we have to understand is
+that this has been on Android for years.
+I mean Android has been doing this in
+all of its skins since I think like for
+five plus years. I think in two in 2020
+the Google voice stuff came out and that
+was adapted and you know it's been going
+for years. carriers have also been doing
+this in the spam detection features.
+Plus, they've been using addestation
+scoring and the uh stir shaken protocols
+in order to to block before it even gets
+there, which is I think is a far more um
+aggressive thing and nobody seemed to
+give a about that cuz you didn't
+know it was happening, right? So,
+they've been doing that since 2018. Um
+but let's talk about like what you can
+actually do, the tangible action steps
+that you can take in order to maximize
+um this if if you are seeing a downturn.
+Okay. Um or if you expect or if you
+think you're seeing a downturn orever, I
+don't think you really are, at least not
+from that. It could just be a
+statistical variance based on monthto
+month. However, I think that the core
+screening and the Google voice and the
+uh iOS screening, I think that brings up
+an interesting opportunity to where uh
+you need to be good at that little
+30-second drop. So, I hear a lot and
+it's like, "Yeah, it's Matt from
+Dialer." And they just sit there and
+wait. Like, that is a really shitty
+message. Like, I'm not reading that, you
+know? It's like so that is sales copy
+and that should be scripted. So if I
+have running an outbound team and and
+they hit Google voice, they should have
+a specific script for when they hit
+Google voice. They should have a
+specific script for when they hit iOS
+transcribing because one's going to be
+listened to and one's going to be read.
+So and try a bunch of different variants
+and see which gets the highest rate.
+Have them track it manually, whatever.
+Right? How many of those did you hit
+versus how many picked up? Hey, it's
+just Matt from Dollars to give you a
+call about increasing your pickup rates.
+uh let me know if you have some time.
+I'll stay on the line until you pick up
+like something like that. I don't know
+what's going to work. I guess you just
+have to try it. But testing different
+variants and whoever figures that out
+will absolutely crush it. Because when
+you think about it, now you have the
+opportunity to guarantee that they're
+going to read something or have a high
+likelihood they're going to read it.
+Whereas before they were probably just
+doing that, now they're actually reading
+a message from you. So you have another
+opportunity to be able to send your
+message to someone. Okay. The next thing
+um besides that is like using verified
+caller IDs. So, don't use shitty
+numbers. Don't change your numbers out
+constantly. That's really going to burn
+you. If a number is marked as to spam,
+okay? It doesn't mean that you kill it.
+That's just not what you do. Uh what you
+do is you you then use that number
+differently. You need to rotate through
+your numbers. I have other uh things on
+that. Dialer doesn't automatically, but
+you want to use like good quality
+numbers. You want to abide by the stir
+shaken protocols. If you don't know what
+they are, just Google it. Okay. I would
+say single line dialing only. Multi-line
+dialing. Uh lowers addestation scoring.
+Also a lot of the time automatic uh
+answering machine detection is on.
+Automatic answering machine will
+automatically if you get sent to
+screening it'll automatically uh like
+cut the call. I think that that is a
+thing that a lot of people are going to
+have to change because they probably
+don't realize um that that's going to
+happen. So if they are seeing a
+significant downturn since the uptake in
+the iOS 26 um I think it's probably
+going to be through that uh AMD right
+automatic uh answering machine
+detection. Um and then that's just
+automatically cutting way more calls.
+So, you know, because it's it's just
+there now. So, now instead of it being
+15%, maybe it's 30% of all the calls
+between the iOS and the Android and and
+now it's just automatically kind of
+cutting them down. All right. Uh monitor
+your numbers, okay, for spam. Numerical.
+You can do it through number verifier.
+There's a bunch of different ways to do
+it. Like, I don't think there's any
+really good solution, but there are
+plenty of solutions out there that will
+give you somewhat of an idea. Rotate
+your numbers, okay? Make sure that
+they're being used under a certain
+threshold. So, I would say less than $75
+to $100 per day per number. And try not
+to do on a pattern. So, rotate them
+every hour or two. Encourage uh warming
+up and proper call cadences. So, like
+when you get a new number, don't just
+like dive in and start going balls to
+the walls immediately. You want to kind
+of use time to just kind of be able to
+um you know, making sure that you're
+warming numbers up just like you would
+with an email. Also, like making sure
+that you're not overdialing with a
+single number or like calling too
+aggressively in a short period of time.
+Register your number with a trusted
+database. Also, the free call registry
+is a fantastic thing. It works quite
+well. This actually works a lot better
+than most like remediation services. I
+would say uh fallback options like have
+SMS, have email. So have multi-
+channelannel things going on because
+it's going to be very beneficial. And
+then if you know the numbers that you're
+calling from, then you can have them in
+an email or have them in a text and say,
+"Hey, I'm calling from this number."
+Save it. And then if it's in the
+contacts, they're going to it's it's not
+going to get screened anyway. And then
+have regular audits of which numbers are
+being flagged, etc., etc., right? So you
+know, my final thoughts are don't panic
+over iOS 26. Like I don't think it's the
+outbound dialing apocalypse. I I just
+don't see any data to support that it
+would be. Nor do I think it would be
+beneficial for any of the companies
+involved to totally alienate themselves
+from the businesses that are the
+lifeblood of the economy. So I think
+that's a good idea. I think the people
+who win are going to be the people who
+adapt to this quickly and who start to
+realize there is an opportunity here.
+It's not just all doom and
+gloom. I think that if you are on a
+dialer that has low out ofstation
+scoring and I think especially if you're
+using local presence dialing I think
+you're going to be in serious trouble
+because that is like the lowest form of
+like call quality and I I have a feeling
+that at some point either now or in the
+future those are going to be
+automatically like at a station level C
+automatically sent out right and they
+will be screened and there's nothing you
+can do about it because you're a ship
+using a ship system but um yeah I'm
+going to keep digging into the numbers
+but overall Well, man, I don't think
+that there's any need to panic.

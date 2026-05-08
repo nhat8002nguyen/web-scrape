@@ -25,7 +25,7 @@ For example, if the project was extracted to `Downloads`, the folder should look
 similar to:
 
 ```powershell
-cd Downloads\humanforschung-schweiz.ch\scraper
+cd Downloads\scraper
 ```
 
 ## 3. Install Dependencies

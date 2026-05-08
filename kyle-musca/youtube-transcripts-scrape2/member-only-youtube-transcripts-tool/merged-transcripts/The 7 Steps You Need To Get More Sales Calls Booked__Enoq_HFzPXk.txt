@@ -1,0 +1,331 @@
+in this video I'm going to explain the
+exact ways that you can actually speak
+to more of your prospects in 2025 it's
+going to get harder and harder and
+harder in order to actually be able to
+get your prospect to pick at the phone
+so what I'm going to do is break down
+the exact steps that you need to take in
+your business or as a sales rep in order
+to maximize the potential of being able
+to actually talk to your leads my name
+is Matt I've been running outbound sales
+teams for a very long time I was 100K
+per month commission closer and then I
+managed to grow multiple a figure
+companies in the agency space Fitness
+space and then the coaching space as
+well all these required a lot of
+outbound in a lot of coing leads getting
+in touch with them and there are some
+key things you need to do in order to
+actually be able to get your leads on
+the line so you even have the chance of
+selling them the first thing that you
+need to understand is that speed to lead
+is incredibly important and there are a
+number of studies that state that the
+faster the speed to lead the better the
+chance you have of actually selling them
+even down to like the per minute level
+so if you are able to get someone within
+30 seconds you have I think some of the
+stats are about 200% higher likelihood
+of being able to get that prospect on
+the phone and selling them then you do
+if it's like 2 minutes and so most
+people think they have a speed to lead
+or they think they have a process for it
+because like you know it goes into the
+CRM and then gets tossed to somebody or
+it goes into a slack Channel and gets
+pain it's like oh no we have a fast
+speed to lead a lot of time you don't
+even have a way of tracking it and so
+one of the important things you can do
+in 2025 in order to actually be able to
+have a higher pickup rate and have a
+chance of talking to your prospects is
+that you have an actual speed to lead
+system where the person is dialed with
+with worst case scenario of 5 minutes
+now there's a couple things that go
+along with this the first is that you
+have to have the the correct ratio of of
+sales reps to leads if you don't have
+that ratio down then like you can't have
+a speed to lead and I'll give you an
+example if I was to give you the person
+watching this let's just say that you're
+doing sales and I was to give you a
+million leads a month that there's no
+physical way that you could handle that
+many leads and so giving you that many
+leads is just a waste of time you would
+probably give me the exact same amount
+of sales and if I gave you a th000 leads
+cuz a th000 leads is a lot it's a lot to
+deal with if that's your full-time job
+chances are you'd be spending most of
+your time just trying to get in touch
+with them and then you're only going to
+have one or two touch points maybe with
+each person because then you the people
+you do get on the phone you have to
+spend time with and so there's not
+infinite time and so we can't just
+handle an infinite amount of leads so
+you have to have that Staffing ratio
+correct right and we can link actually
+did a video a little while ago on like
+how to sort of have that ratio okay so
+we'll we'll link that down below the
+next thing you have to understand is
+that you want to have a system or some
+sort of Auto dial system that people are
+on almost like a call center there's a
+reason why call centers are so so much
+better than most businesses so like at
+my company so .io we built out outbound
+systems for people and then we use our
+own contact center software that the
+moment the lead is generated there's an
+API that sent it straight and it's
+dialed because the guys are just online
+all day with a headset in and you
+pre-program exactly what happens
+something like that I think it's
+essential either that or like you
+probably over sto and then have a quite
+militant system to be able to actually
+speak to people so that's how you get
+your fast speed to lead okay number two
+is all about spam flag monitoring okay
+there are a number of different things
+that would call spam flagging I'll do a
+separate video on that but the important
+thing is that you are monitoring for it
+now if you're monitoring and it just
+like says whether it's been spam flagged
+or not that's probably a scam you're not
+really paying for anything each carrier
+has a different spam flagging metric and
+a different company which monitors the
+spam flagging for them and so if your
+simply says whether it's been spam
+flagged or not or your sales manager or
+you are just calling yourself on the
+numbers like these are futile ways of
+doing things or you're doing is seeing
+if it's spam Flag by your carrier so
+unless you have Verizon phone a Sprint
+phone T-Mobile whatever other ones
+you're you're going to be using there's
+sort of no point doing it so you
+actually have to pay for proper spam
+monitoring we do that we have our own
+spam monitoring and we we monitor every
+single number that's in our system 24
+hours a day 7 days a week in real time
+on every single carrier so having that
+really important because if you have
+numbers that are spam flagged then you
+are going to get significantly reduced
+pickup rates and you're just not going
+to have a chance to actually speak to
+your prospects AT&T is always the first
+one to go which has about 30 % of the
+overall carrier Network and so like the
+moment let's say you're at 20% at the
+moment you lose AT&T which will be the
+first one every single time you're going
+to drop massively and so you have to
+figure out ways of monitoring and then
+have more numbers than what you think
+you need and then rotate these things in
+and out right the next one is all about
+quality training so there are a lot of
+uh this is for managers and also for
+your people selling one of the key
+things that people don't realize is that
+the length of the conversation is
+tracked and monitored at all times and
+if that conversation is really short
+consistently like under a minute on
+average like let's say you do 5,000
+calls and it's like you know 3,000 hours
+of talk time like those numbers are
+going to be flagged as spam and so you
+need quality training to be able to have
+your openers really solid to give
+yourself the best chance of actually
+being able to to get the results that
+you're looking for and so in order to
+maintain the ability to have people pick
+up you actually have to have the skill
+to keep them on the phone it's sort of
+like a bit of a chicken egg scenario but
+you really must have that you have to
+have that quality training in place for
+your sales reps to be able to get your
+openers dialed in otherwise again you're
+just going to be spaming flagged and
+it's all going to go to sh and then for
+managers they have to understand the
+compliance regulatory issues and what's
+being looked for by these companies in
+order to actually spam flag and sort of
+keep your numbers at a high health and
+be able to recognize when things are not
+going right be able to look at data like
+abandon rates right there are there's
+about a 3% abandon rate which is the
+maximum before you're going to have to
+start having significant issues FTC
+Flags spam Flags talk time number
+frequency you know uh warming up numbers
+a lot of things that I think managers
+should should should know because this
+is this is out there so with quality
+training you can really maximize the
+ability for your business and your team
+and yourself to be able to talk to more
+and more people I'm going to go through
+a couple more things in the end but if
+you guys like this content uh make sure
+you like And subscribe and all that kind
+of good stuff the next one we're going
+to be talking about is number rotation
+so this one is quite difficult to do if
+you don't have Tech doing it for you we
+we have our own like proprietary number
+Rotator that takes into account a ton of
+different factors however on the basis
+of it if you rotate your numbers on a
+fairly regular basis you're going to
+have a a higher likelihood of getting to
+your prospects and what I don't mean is
+like buy a number use it for a week and
+then burn it and then like get a new one
+I mean like rotating them throughout the
+day right you don't really want to be
+using a number more than about a 100
+times a day so if you're doing $300 a
+day and you're doing it on one number
+the chances of that number being healthy
+even if you have good talk time that
+kind of stuff it's just a really high
+frequency of using that particular
+number and if it hasn't been warmed up
+correctly it's going to be difficult in
+order for that to maintain Health okay
+so rotating your numbers is essential to
+maintaining a high pickup rate and being
+able to actually talk to your leads and
+you can do this manually we do it
+through Tech so if you want to find out
+more about that you can go down to our
+website and I believe that there's some
+guides there about how to increase
+pickup rates and all that kind of good
+stuff so you can go there and check out
+those resources all right the next thing
+is better phone numbers getting off a
+system that uses the twilio network twio
+is a phenomenal thing it's great for
+texting but it's been hijacked by
+companies that figured out how to use it
+for dialing when in reality it wasn't
+really meant for that okay and so
+there's a whole bunch of reasons why it
+doesn't work and I can do a whole
+separate video on that if you guys want
+me to you can just comment down below
+like why twio sucks for coing or
+something like that but but really it's
+about that Network just isn't built for
+it and so when you use it there's a
+number of factors that stop that number
+from being delivered consistently to the
+Prospect and so that generally gets
+worse and worse and then what happens is
+that people counteract that through like
+brute forcing like stupid things like
+what uh you know here in the industry
+like the Bulldog strategy or like you
+know triple dialing triple dialing is
+literally the number one thing that gets
+you spam flagged like literally if you
+look at any of the documentation around
+spam flagging which is hard to find but
+it's there the number one thing is a
+triple dial if you triple dial prospects
+you will always be spam flagged and you
+will likely be FTC flagged okay so uh we
+don't want to do that but if you get
+onto a better Network even if it's a
+VoIP Network or if you get onto a tier
+one asent orent it's a very difficult
+word to pronounce right basically the
+quality of the number right quality of
+the routing Network then you will have a
+much better chance of getting through to
+your prospects okay and the very last
+one is just an overall better Software
+System so I got sick of these not being
+very good using things like alware kixie
+coal tools all these kind of things um
+that just in my opinion just weren't fit
+for purpose and actually to be able to
+succeed the way that spam flagging and
+the way that outbound dialing works is
+that if you don't do everything there's
+no point doing anything so like cuz
+they're looking for Behavioral triggers
+they're not looking for like threshold
+right and so if any of the behavioral
+triggers are triggered then you're going
+to be spam flagged and then all of a
+sudden it becomes very very difficult to
+actually speak to your people so if
+you're going to do seven out of the 10
+things you have to do there's no point
+because the three are going to get you
+flagged so what we've done is developed
+a system that is constantly adapting and
+changing over time where we are
+feverishly trying to keep up to date
+with old the algorithms and what's
+happening and then putting in measures
+to make sure that our clients stick
+within the thresholds that are legally
+allowed they stay compliant because not
+many people are and and that's what
+allows us to have really high pickup
+rate and contact rates but you know we
+are a premium service it's about $250
+per seat per month as opposed to
+something like clothes which is about
+150 or you know some of the really
+really like cheaper ones like air coil
+or something like that but again you
+know there's a lot more things going on
+and so if you can find the software for
+you and your company try out different
+ones don't be fooled into a false sense
+of security if you like start on a brand
+new dialer and get 20% pickup rates day
+one like that's just the fact that you
+have like new numbers it's all going to
+everything kind of end up the same way
+unless you're doing a lot of these
+things so you really want to have like a
+I guess a more longer term or super high
+volume approach to it um and then see
+like what the strategy is the dialer is
+using or the software is using in order
+to maintain those pickup rates all right
+guys hope that was helpful make sure you
+like subscribe notification bell all
+that kind of good stuff and we will see
+you on the next video bye

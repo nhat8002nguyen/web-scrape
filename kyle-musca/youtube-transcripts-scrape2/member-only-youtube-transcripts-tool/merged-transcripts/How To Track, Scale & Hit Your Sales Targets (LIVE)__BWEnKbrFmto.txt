@@ -1,0 +1,726 @@
+all righty so what are the main kind of
+questions so probably I understand the
+process of like Discovery uh we grouping
+strategy and sales closing that makes
+sense but the really probably the most
+important metrics to a sales manager and
+then we can dive into how they will be
+calculated because from everything that
+we're saying probably looking at just a
+calendar view probably does a good job
+of that I've got total number of meeting
+types so discover your Sal clothing the
+show up rate which obviously is if
+you're looking at a single week it's
+progressing over time so that fluctuates
+quite a lot closing rate number of
+closed deals over completed sales
+closing calls y so I guess if you do
+like so the close rate is going to be in
+a percentage mhm right and it's going to
+be that one is going to be like calls
+held right right okay so and it's so
+there's two calls held over closed deals
+right yeah now that's that's closing
+calls held
+yeah not right excluding Discovery no
+like yes exactly right so but you got
+the held because that's that's ones that
+have shown up oh held means shown up you
+can say held turned up whatever it is
+you want right because scheduled to
+close is I guess probably a better
+overall metric because it like takes in
+like you still want to know that cuz
+that's going to be like Gil based but
+also some of those other factors that we
+talked about where it's like lolly gag
+and only the best people through so
+scheduled to close is going to be like
+booked so it's like say closing calls
+booked right to close over close but
+it's not going to take into account if
+half of them didn't turn up yeah so with
+the same stats you'd have 50 and 25 yeah
+right but this one is sort of probably
+better for the manager because like it's
+going to give overall efficacy because
+yeah it's building that broader context
+because you're not looking at a single
+metric it's like what do all the metrics
+say yeah and so this has to take into
+account like you know this yeah again
+this is just the booked over the actual
+closed this is the
+right so they're they're going to tell
+you different things like if that's low
+and that's high that means they're not
+showing up which you'd see in the no
+show rates anyway but sort of gives you
+a more accurate indication of to the
+overall efficacy because like your
+Revenue per book call right is Tak into
+account the total book yeah so that's
+another one that I'd love to just dive
+in a little bit deeper is those monetary
+metrics and where they come from for a
+sales rep and sales manager yeah yeah so
+when you're saying Revenue per book call
+you're not going to take into count the
+discovery calls y right because
+Discovery calls are acting as like a one
+not everyone's going to do them but but
+two like I think I remember I said last
+week so you've got kind of like the two
+forms you've got the this and you've got
+the this you know what I mean so in in
+this one you're you're pushing them
+through right so you're going to have
+and then you're going to push them out
+essentially right so in this case the
+like the discovery coil is acting as
+like the liver of the sales process
+right it's the filtration mechanism
+because the marketing here and the sales
+here like you're kind of ramping
+everyone through yeah whereas out here
+you're pushing them out right get out
+and so like realistically like the
+discovery coal you don't even need it
+because you're ramping everybody out so
+that would just be a straight sales call
+you know what I mean because the
+marketing is acting as that filtration
+system you know and in the in the
+examples that I sent you it's that
+application you know there's an
+application funnel where it has like the
+if this then that yeah right and so
+they're going to either end up seeing
+this or seeing this so like if I might
+have one where I'm running both the
+people who like answer all my questions
+perfect they're going to go straight
+through to a sales coal and then I'm
+going to try and sell everybody that's
+there in the discovery Co no well so
+like if I'm disqualifying everybody out
+I'm going to have a shorter sales
+process so that would just be a sales C
+right straight away and then I'm going
+just going to try and sell everybody
+right but if I if the marketing is not
+doing that and we're going more of a
+wider approach then I'm going to put
+them into a discovery hole here and then
+that's going to be used to push
+everybody out there' be a sales call
+here and then we end up with the money
+over here but you know what I mean it
+really just depends on on the
+methodology and you might have both
+running simultaneously some might have
+Discovery calls on some might depending
+on what what where the marketing's
+coming from mhm and that's all really
+clear and so who is setting that
+Discovery versus you sales like that top
+although that bottom way who is deciding
+that well it'll be like they're going to
+come in on a different marketing
+calendar yeah right so they come in they
+ask one 2 3 four five questions
+depending how they answer this one right
+it's going to be there you know just to
+say it's really easy this one is like
+how much money do you have to invest and
+it's like0 to 5K and 5K plus right
+that's going to be like a conditional
+logic they might go straight to a
+discovery call they might go straight to
+a sales call Y because we've identified
+well we don't need to go through that
+extra filtering step these people do the
+discovery call go to their sales call
+and they buy these people just buy yeah
+right so we do it that way yeah that
+makes sense but then like that not
+anything red base has to worry about
+because the person's just going to come
+in it's just coming in yeah although
+like it would [ __ ] like that's where
+like if they are doing both that's where
+like having aggregate number of
+Discovery calls and aggregate number of
+sales calls doesn't work because they're
+going to skip that step yeah but that's
+less likely yeah so like that might be
+version 1.1 where they do all that kind
+of stuff but like you know what I mean
+like or maybe you can filter out people
+that have done a discovery call and and
+a sales call so you can see the close
+rate on the people who just went
+straight here and the close rate on
+people who did this right so you
+probably need to be able to filter it
+like what they've done you know what I
+mean yeah per person and at A Team level
+right well I would say not per person
+you just want to be able to go like
+because what you don't want to do is see
+cuz you might end up having 110% of
+people right cuz let's just say 100
+people book a sales call Direct and 55
+50 people book Discovery calls yeah and
+you're looking at the pass through rate
+right and if you let's say it's 25
+people but let's just say that now now
+there's 125 sales calls so if you go and
+do your Discovery C to sales core rate
+you I mean all the all the mass [ __ ]
+yeah yeah right so you'd have to be able
+to take them out that makes sense so
+when we were talking earlier around pass
+through rates yeah it's not something
+you need on a per client or customer
+basis you just you can have an aggregate
+view of that right or like like of the
+discoveries call set how many pass
+through yes and would you want that at a
+per sales rep yes yeah big time cuz
+again that's going to tell you like you
+know cuz if if they if they have goes
+Discovery and then sales Co and then
+they they're going to like you know
+they're going to do whatever they're
+going to do there yeah but there's also
+these right so disqualify show no Show
+cancellation reschedule whatever but you
+know if if it's if it's 100 here and
+then from there you know it's 25 25 25 2
+it's like sweet 25 have passed through
+yeah so now we've got bang 25 and then
+it's like well 20 of them show up right
+and then we've got well you know 10 of
+them close so it's a 50% close rate and
+80% show rate right so that would be
+like a pass through of of of of 25% do
+you what I mean yeah assuming 100 showed
+up yeah right cuz it might be 120 and
+then they show you know what I mean and
+that's booked yeah show pass through do
+we because this is what I'm going to
+have to um tell John is at what point do
+you classify as pass through is it I've
+had the discovery I've qualified them
+we've booked the next call they have
+passed through and then if they don't
+show they're dropped there or so it's
+still passed through but it's a noow to
+this cour yeah okay that's yeah that's
+what I thought too okay yeah yeah cuz it
+would it's still an opportunity even if
+they don't pass even if they don't show
+up still yeah they're still qualified
+and that's really the metric that you
+want and then if they're no show that's
+a different metric so yeah you've got
+your pass through metric and then we had
+no show just calculated as number of no
+shows over calls booked but would you
+then need it a um now cuz you're going
+to segment it call by call right yeah
+okay so like there's a there's a clear
+delineator here yeah between Discovery
+core and sales call and because there'll
+be they'll be totally different right
+because like this might have come in
+from an SDR right from an SDR someone
+calling it also might have come in from
+a like a marketing campaign yeah and
+when the source becomes critical too
+it's good to know because you'll have
+totally different show rates yeah you
+know what I mean and then from there you
+would you would then have different post
+through rates but that's been
+traditionally really hard to find is
+like what's the pass through rate for
+lead Source you know what I mean cuz
+you're just filtering through like a lot
+of data right yeah and so that's where
+part of my challenge work with John and
+Andy is like are we just straight up
+showing this information at all are we
+allowing for filtering and customization
+well it depends on how much I guess the
+AI is going to need to see it anyway so
+like whether or not I think it needs
+access to all of it I think it needs to
+be there yeah but whether or not in the
+initial terms people have access to all
+of it or whether it's more like those
+insights are generated for them based on
+like you know like I guess if you took
+if you've F the AI like look for
+statistical outliers yeah right then it
+would be able to see oh well s s SDR has
+a 72% % show rate and meta has 54% show
+rate yeah that's statistically
+significant yeah that would be an
+interesting Insight yeah you know the
+way that I've been thinking about it in
+the background is maybe like an end of
+week synops like yeah feedback on here
+are the insights here's what the
+recommendation is and I mean I haven't
+spoken to John about this but being able
+to prompt and ask like yeah is is where
+I'm thinking as well cuz my otter I use
+sometimes for like really long technical
+meetings or exploring a lot of different
+things I put it around in the background
+and then you know 2 days later I'm like
+[ __ ] what were we even talking about and
+I go back and like what was the outcome
+of this specific feature that we
+discussed and it's so valuable so I've
+kind of been thinking about that in the
+background as get prompting the insights
+but a deeper and more enriching
+experience being I want to them be able
+to ask so that you can feed that back to
+me with the statistical numbers of
+relevance as well kind of where you have
+been thinking is yeah 100% so it's like
+there might be some things that are like
+just glaringly obvious you know what I
+mean yeah where it's like hey man like
+Johnny's [ __ ] you know what I mean yeah
+right so because it's like yeah like if
+you've got all these people and then if
+you were to have them all checked right
+but then you kind of uncheck this guy
+and then everything goes up it's like
+well that guy is dragging everyone down
+like what's going on there yeah which is
+where it goes links back to remember how
+I said last time being able to link
+things back to like the aura rings and
+the whoops and stuff yeah right
+I mean eventually because you be a to
+see like oh John's not sleeping and then
+you could literally predict that like a
+week out you know hey last time he
+wasn't sleeping there a real issue y you
+know but because what I go back and I do
+is I redefine the calculations and the
+priority of what how John will calculate
+it but then also how Andy will need to
+work to display it yeah and and then I
+think like if we break it up into right
+like Monday Tuesday Wednesday Thursday
+Friday and then break it up into like
+that in terms of like you know so it's
+like three different distinct time
+periods and then like that because
+ideally like sort of I guess what sort
+of got this whole thing we thed this
+whole thing off is like I reckon that
+there would be significant difference in
+show operate per time of day and show
+operate per day yeah but then that gets
+a bit challenging Bas if it's based on
+the caller's time is different to the
+sorry the customer's time is different
+to the caller time time well no because
+you're going to be basing it off like
+our stuff you I mean and most people are
+going to be in the same country yeah the
+variance is like hours a couple hours
+not 12 hours yeah yeah cuz you could
+just go like because you know let's just
+say like this is a terrible time and
+this is a terrible time yeah and you
+know like let's say this is a terrible
+time for whatever reason yeah right and
+if you've got like let's say this is
+money and this is money and this is
+money and you got a [ __ ] hourong team
+meeting there what a waste of time so
+because if you have 10 reps and they do
+1 hour slots that's 10 hours yeah so
+that one meeting yeah if if if that has
+an 80% show rate and a 40% close rate
+right then you you've got you know 10
+meeting slots you've got eight you I
+mean so you got like three guaranteed
+closes yeah right if it's 5K per close
+it's
+$155,000 to have that meeting there when
+you [ __ ] have it here right like that
+is but because no one like I track that
+with end of days and I use chat GPT so I
+put the end of days in chat GPT and then
+from there I go like hey can you do an
+association of the date convert that
+into the day of the week and then give
+me the show up rate per day of week yeah
+and in like in a percentage form I just
+get chat GPT to do that for me yeah and
+so then from there like I I make
+adjustments but like I'm the only person
+I know that does that yeah now I'm sure
+there are people that do it but like I'm
+the only only one that I know that does
+it so if I release this video more
+people will do it but but yeah so like
+but I want that to be like you know cuz
+if you can flag it for like good times
+that are being underutilized yeah you
+know that's super handy because you have
+the time of the day and if you block
+them who I don't know that was a thing
+right so cuz cuz if you block them off
+like appropriately you know what was
+that if you hold it no I don't know what
+that was wait so the next layer of that
+will be into the prompting of AI because
+what your the video that you shared is
+definitely is the framework for the
+prompt for AI it's the parameters
+because otherwise it'll go so broad or
+so General that it doesn't have value so
+the more detailed you can feed it the
+more enriched the insights are come back
+so like there's really obvious stuff
+like this that makes sense but then
+being able to go more specific and
+deeper is kind of the ne I think that's
+also we're like having a hive mind kind
+of thing is helpful cuz it cuz it well
+if you have if you have a hundred
+accounts that are on this yeah and
+everyone's seeing a similar Trend yeah
+of that or of that right and all of a
+sudden it goes like you know you're
+asking it how do I increase the show
+rate and it goes to be honest show rates
+across are down this month you know what
+I mean across everyone that we can see
+yeah maybe that's not the thing to focus
+on maybe it's just an anomaly you know
+what I mean something like that or you
+know what I mean or like basically of
+like you saying about the um Black
+Friday sales and election stuff yeah
+like are there any you know cuz at the
+end of like a really experienced sales
+manager looks at it and goes like why
+would I not make a change as opposed to
+why would I make a change yeah so you
+have like Step One is like external
+factors I spoke about this in the thing
+in the video I think are there any
+external factors that are causing the
+change right and and is is it short term
+right like the election don't just yeah
+pause like the the election so the
+consumer confidence Index right mm the
+CCI which you can get a live API too
+right so like that if that's trending
+downward so were your show rates and
+close rates and stuff generally speaking
+for like for most things right so it's
+like like CU it's there's a tremendous
+amount of uncertainty so during an
+election uncertainty goes up right cuz
+it Doesn't Matter What side you're on no
+one knows what's going to happen yeah
+then from there like in if Trump wins
+like red States the CCI will Skyrock it
+and then blue States it'll Plum it and
+then VI Versa right so sort of you know
+external factors then from there it's
+like you've got two sort of types of
+changes that you can make and you can do
+additive or you can do like sub like
+like subtract so it's like the problem
+with like constant additive measures is
+that like they compound into like over
+complex processes and this is the one
+that like people never try yeah right
+you know what I mean so it's like how
+can I make things simpler going back to
+and can't believe haven't asked this but
+where the the the people that you have
+sold to so far the company that you have
+their us Bas right is this largely going
+to be us Bas companies with us based
+customers yeah yeah yeah for the most
+part cool be cool to have like an
+insights like economic cuz the real
+things that like for example like if
+somebody uses funding I could probably
+predict their revenue ups and downs
+based on uh interest rates right so they
+usually like there are usually like five
+economic factors that really affect a
+business called like a five forces model
+you can look that up yeah but like for
+example like if somebody does funding so
+in the States you can borrow for
+anything right you can borrow for a
+[ __ ] Fitness package as terrible as
+an idea as that is they do in Australia
+as well business SCH pay right so you'll
+get like you know it's a
+$5,000 uh offer and they normally the
+people put like say 500 down and they
+borrow 4500 right that business gets
+paid you know 3500 plus the five so they
+make 4K and then the landing company
+makes $1,000 profit and it but it's
+extend it out over time right yeah you
+know I mean so like they're financing it
+so but what happens is like you're your
+the interest rate right like the actual
+like the like the FED interest rate will
+play a huge role in that and then there
+are usually anywhere from two to four
+different factors that that will go up
+and down right the first is like like
+debt to equity ratio is one so like I
+figured out when they brought debt to
+equity ratio in I figured out that
+basically I said hey we're not to offer
+funding to any males between the age of
+29 and 40 and everyone's like why I was
+like don't [ __ ] worry about it just
+don't do it not allowed to like don't do
+it so like what because they brought in
+debt to equity ratio so usually speaking
+it's going to be that's when a man is
+going to like buy their family home mhm
+and they haven't had time to pay any of
+it off yet yeah so their debt to equity
+ratio is [ __ ] so it's like they're never
+going to get approved yeah right then
+it's income and then it's like income
+verification and then there's like
+credit score you know what I mean so
+like but like the overall interest rate
+and then inflation rate like inflation
+kills a lot of offers and they don't
+really realize it so like if the
+interest rate of a state and the
+inflation rate are going up
+significantly yeah the [ __ ] efficacy
+of the sales in that state are going to
+drop yeah you know what I mean like
+that's just a fact of life that people
+don't even think about but it really is
+a massive thing because like their money
+doesn't go as far and you're asking them
+to buy something which is not required
+yeah so like you know I don't know how
+much of that we want to go into prob
+probably none of it at the moment but
+it's just like those are factors that I
+would think of if I'm going to make like
+a significant change so maybe if
+someone's like promp maybe there's some
+sort of thing as like hey if you're
+maybe we there's some sort of like you
+can see they're scrambling I don't know
+like you know it's like hey like maybe
+there's like a ask for help and it's
+like just consider these factors right
+yeah so so as a product that's where it
+comes into whether how much we want to
+refine that and bring that in for the
+like feeding in those sales manager
+insides versus like even having like a a
+public opinion or like a business
+opinion that can be fed like if if you
+do like a cro like a next thing is like
+you know the chief sales officer cro
+Edition which is like $1,000 a month cuz
+like just for like statista it's $400
+bucks a month yeah and like statista
+just gives you access to the data yeah
+right which you can like feed onto a
+[ __ ] thingy bob yeah well that's yeah
+that's the other layer of of this is if
+you have enough companies in users in
+there feeding enough data then you can
+create value in that data yeah right
+that you can then either sell or make
+accessible to certain people yeah which
+I could imagine would be really
+appealing to like those um SARS yeah
+exactly that is I think would be great
+mhm I don't know like that's that's
+filtering right I guess in the
+background like if you're filtering per
+block yeah and then per day you know and
+it's like I don't know if that's super
+possible but whe whether whether or not
+you go like Hey listen like eight to 11
+is block a yeah right and then it's like
+11 to one or whatever it is right like 8
+to 12 12 to three and whatever they're
+put into blocks so you can filter per
+block because like that is when it comes
+to optimizing your sales team that is
+really really really useful information
+you know like the show rates and all
+that kind of stuff you can calculate all
+that [ __ ] with a [ __ ] spread sheeet
+yeah right and I think what we want want
+to do is you want to make sure that we
+can give the simple stuff that you can
+get with a spreadsheet but the whole
+point of this is to be able to break
+this stuff down further you know what I
+mean without having like too much
+trouble whereas like to get this at the
+moment is not easy yeah but that's a
+value right you know so this is where it
+came from which is like being able to to
+have some of this inside because if you
+really realize that like this is just
+garbage time then don't use it yeah you
+know see what happens when you add an
+extra hour down here right like what
+happens there yeah let's start at 8
+instead of 9 yeah like I mean there are
+some inter insights you know there's a
+couple of accounts where guys are doing
+10 calls in a row like I guarantee you
+if you looked at it their last four
+coals they never close a single thing
+like it's a giant waste of time right
+which is sort of like common sense but
+people don't think about it you know so
+you know again if you can break down the
+close rate and you can filter it per day
+per person and you're like well these
+[ __ ] dudes like they don't close
+anything here so maybe you know you have
+to split it up in a certain way cuz some
+guys will just go ballistic and they'll
+they'll do 12 closing calls a day six
+days a week and it's like what are you
+like are you actually effective yeah and
+the overall numbers might look all right
+but they're not really you know what I
+mean like there has to be a time where
+like you're like hey calm the [ __ ] down
+yep yeah no that's that's super helpful
+that's given me a lot it's a good
+challenge for sure because it's not just
+about the calculation is actually really
+straightforward it's more the
+visualization which is it's it's getting
+it all into a single system where it
+makes sense and it isn't like I don't
+know but that's that's where I would
+Andy trying them yeah yeah cuz even if
+you did have a calendar like this and it
+was broken up like this and this is what
+you saw and you had
+like you know what I mean and then you
+could see like what happens when I turn
+different things on and off yeah like if
+we had that in the background that we
+could [ __ ] around with as like a like a
+de version of it even if it was ugly but
+it was like oh [ __ ] like look at the
+closes they're all here yeah you know
+it's like oh well that's that's
+interesting you know what I mean yeah
+and then it's like oh look at the no
+shows they're all they're all like you
+here and does that vary by like you've
+been doing this for so long do you have
+your like general rules around my
+general rules are Monday morning and
+Friday afternoon suck yeah right
+generally speaking but again like it is
+not always yeah you know so but in
+generally speaking like you don't want
+people taking too many calls in a row
+like if someone's taking seven calls in
+a row I'd flag that yeah be like hey
+like what are you doing mate like that's
+silly you know generally speaking like
+from like a numbers perspective just for
+like scalability reasons you kind of
+want to have like certain you know you
+you sort of want to have like you know a
+show rate of
+65% right you want to be upwards of that
+if it's below that it's an issue if it's
+at or above that it's probably not your
+biggest lever to move you I mean you've
+got like
+35% as a close rate of Coal's held like
+closed from held is like pretty good if
+you're way above that you're either over
+filtering or too cheap right if you're
+way under that there can be a number of
+different reasons right which could be
+intentional or because people suck or
+whatever but if you have like 45% plus
+clothes rate you're too cheap yeah or
+you're overfiltering so like I can say
+like that's a flag for me this an offers
+closing at 60% I'd be like what are you
+doing like why like what's your cost of
+acquisition you know what I mean like
+what is this why why don't we get this
+down to 35% but like 2x the like 2x the
+amount of coals booked yeah right which
+then will result in a drop of close rate
+and then I shouldn't freak out about the
+drop on close rate you you know what I
+mean cuz I can do things to close rate
+it's a lagging indicator you know yeah
+it's geometric right well it's a lagging
+indicator cuz I can [ __ ] with it up here
+you know what I mean so like it's not
+it's important to know but you're not
+going to make a ton of decisions off it
+you're going to look at it and then see
+what decisions led to it being that you
+know what I mean because if I like open
+the floodgates with every Tom Dick and
+Harry the close rate will go down yeah
+and if I make it really really targeted
+in my marking rate the close rate will
+if I have a really high value product
+that is cheap as [ __ ] when it should be
+you know this many expensives right then
+the close rate is going to be high cuz
+it's a [ __ ] hell of a deal yeah right
+you know so like so many factors go into
+if that close rate and and to be honest
+the the skill of the person is is sort
+of nearly here near there like I I can
+take an amazing closer who's really
+highly skilled and I can dump the ass
+out of their clothes rate and vice versa
+obviously the better somebody is the
+more they'll close right but again it's
+not like the be all and indor you know y
+that makes sense that's yeah that's
+probably enough for me to go back and
+then re prioritize and Rel look at these
+calculations cuz I think I've included
+maybe things that are a bit like less
+valuable and rudimentary but yeah and
+can I get the yeah I'll upload
+it awesome that'll be great thank you so
+much

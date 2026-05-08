@@ -1,0 +1,167 @@
+# Docker Compose for Instance 1: Kafka, Redis, PostgreSQL, Discovery Workers
+
+services:
+  # Apache Kafka
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    hostname: zookeeper
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    volumes:
+      - zookeeper-data:/var/lib/zookeeper/data
+      - zookeeper-logs:/var/lib/zookeeper/log
+    restart: unless-stopped
+
+  kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    hostname: kafka
+    container_name: kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: 'zookeeper:2181'
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: 'true'
+      KAFKA_LOG_RETENTION_HOURS: 24
+    volumes:
+      - kafka-data:/var/lib/kafka/data
+    restart: unless-stopped
+
+  # Redis
+  redis:
+    image: redis:7-alpine
+    hostname: redis
+    container_name: redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --appendonly yes
+    restart: unless-stopped
+
+  # PostgreSQL
+  postgres:
+    image: postgres:15-alpine
+    hostname: postgres
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: form_submissions
+      POSTGRES_USER: formbot
+      POSTGRES_PASSWORD: formbot123
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ../../migrations:/docker-entrypoint-initdb.d
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U formbot"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Discovery Workers (5 instances)
+  discovery-worker-1:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.discovery
+    container_name: discovery-worker-1
+    depends_on:
+      - kafka
+      - redis
+      - postgres
+    environment:
+      - KAFKA_BROKERS=kafka:29092
+      - REDIS_HOST=redis:6379
+      - POSTGRES_HOST=postgres
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+  discovery-worker-2:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.discovery
+    container_name: discovery-worker-2
+    depends_on:
+      - kafka
+      - redis
+      - postgres
+    environment:
+      - KAFKA_BROKERS=kafka:29092
+      - REDIS_HOST=redis:6379
+      - POSTGRES_HOST=postgres
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+  discovery-worker-3:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.discovery
+    container_name: discovery-worker-3
+    depends_on:
+      - kafka
+      - redis
+      - postgres
+    environment:
+      - KAFKA_BROKERS=kafka:29092
+      - REDIS_HOST=redis:6379
+      - POSTGRES_HOST=postgres
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+  discovery-worker-4:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.discovery
+    container_name: discovery-worker-4
+    depends_on:
+      - kafka
+      - redis
+      - postgres
+    environment:
+      - KAFKA_BROKERS=kafka:29092
+      - REDIS_HOST=redis:6379
+      - POSTGRES_HOST=postgres
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+  discovery-worker-5:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.discovery
+    container_name: discovery-worker-5
+    depends_on:
+      - kafka
+      - redis
+      - postgres
+    environment:
+      - KAFKA_BROKERS=kafka:29092
+      - REDIS_HOST=redis:6379
+      - POSTGRES_HOST=postgres
+    volumes:
+      - ../../config:/root/config
+    restart: unless-stopped
+
+volumes:
+  zookeeper-data:
+  zookeeper-logs:
+  kafka-data:
+  redis-data:
+  postgres-data:
+
+networks:
+  default:
+    name: form-submission-network
