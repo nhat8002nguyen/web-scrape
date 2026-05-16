@@ -1,0 +1,156 @@
+Meeting: Fathom Demo
+Date: 2025-10-07T10:24:01Z
+Scheduled: 2021-09-16T20:40:00Z - 2021-09-16T21:00:00Z
+Recording: 2021-09-16T20:42:47Z - 2025-10-07T10:24:01Z
+Language: unknown
+URL: https://fathom.video/calls/434024049
+Share Link: https://fathom.video/share/Bt-1b3gUKpyNJWwnq9DgTHD8kw-rh5hk
+Recording ID: 92295282
+
+Participants: Susannah DuRant (susannah.durant@fathom.video), Kyle Musca (kyle@empcoaching.com.au)
+Recorded by: Kyle Musca (kyle@empcoaching.com.au)
+--- TRANSCRIPT ---
+
+[00:00:00] Richard White: All right.
+[00:00:01] Richard White: Hello.
+[00:00:01] Richard White: And welcome to Fathom.
+[00:00:03] Richard White: I'm Richard White, founder of Fathom.
+[00:00:05] Richard White: And this call here is designed to be just a quick sample recording.
+[00:00:09] Richard White: We're actually gonna do a demo of Fathom, but we figure we give you a demo.
+[00:00:12] Richard White: So you'd have a sample recording that's already in your Fathom account.
+[00:00:15] Richard White: So even if you haven't done a call with Fathom yet, you have something to play around with and see.
+[00:00:19] Richard White: What do you get out of fathom after using it on a call?
+[00:00:21] Richard White: Joining me today is Susanna from our growth and success team.
+[00:00:25] Richard White: Hi Suz.
+[00:00:26] Richard White: How are you?
+[00:00:26] Susannah DuRant: Hey, doing great.
+[00:00:27] Susannah DuRant: How are you?
+[00:00:28] Richard White: Cool.
+[00:00:29] Richard White: So let me go ahead and share my screen here so we can kind of start the demo.
+[00:00:35] Richard White: I just share my desktop now.
+[00:00:38] Richard White: I'm using the Zoom app version of Fathom.
+[00:00:41] Richard White: We also have a desktop.
+[00:00:42] Richard White: That version has a few more features in it and kind of see at the top here.
+[00:00:46] Richard White: But when you're on the call, whether you're using a desktop app or the Zoom map, you'll see what we call the Fathom panel right here.
+[00:00:52] Richard White: And the whole concept of Fathom is I built Fathom because I always tired of being on a bunch of calls with people and trying to hurt.
+[00:00:59] Richard White: We take notes while.
+[00:01:00] Richard White: On the call, having clean up those notes after the call is over and then showing my team or my manager a week later and then being like this or whatever.
+[00:01:09] Richard White: Right.
+[00:01:09] Richard White: And so the whole goal of Fathom is we don't want you to take notes.
+[00:01:12] Richard White: We want you just to stay present the conversation.
+[00:01:14] Richard White: When you hear something interesting or noteworthy, you click one of these buttons, so we'll show them how this works.
+[00:01:19] Richard White: Why don't I just go ahead and and us what's, like a top question you get from our users and what's the answer to it?
+[00:01:26] Susannah DuRant: Yeah.
+[00:01:27] Susannah DuRant: I think that one of the main questions that I get is actually how that highlights works.
+[00:01:30] Susannah DuRant: So when you're on a call, then attend and you hear something important that you're wanting to note, you can actually just click one of those highlights and it'll start marking that moment for you.
+[00:01:38] Susannah DuRant: The cool thing here is it is actually going to detect when that attendee started talking and retroactively start recording, so you can be sure you'll get that entire monologue.
+[00:01:46] Susannah DuRant: Another thing to note is that when you start talking again, that highlight is going to automatically stop.
+[00:01:51] Susannah DuRant: However, if you're wanting to manually end it, you have that choice as well.
+[00:01:54] Susannah DuRant: Cool.
+[00:01:56] Susannah DuRant: Yeah.
+[00:01:56] Richard White: I think that's one of the unique things you can see here, like, as soon as I started talking again.
+[00:02:00] Richard White: And it said, cool, that highlight is ended.
+[00:02:01] Richard White: If you notice, you don't have to know.
+[00:02:04] Richard White: Obviously, I'm not going to immediately know that this thing you're saying, it's noteworthy.
+[00:02:07] Richard White: It's often like, oh, you're 30 seconds in.
+[00:02:09] Richard White: I'm like, wow, this is really interesting.
+[00:02:10] Richard White: Some great feedback he would like to see.
+[00:02:12] Richard White: Or this is a really interesting objection or something like that.
+[00:02:14] Richard White: You click that button.
+[00:02:15] Richard White: But Fat won't go back in time and figure out, as Sus mentioned.
+[00:02:19] Richard White: So that's basically what you do.
+[00:02:20] Richard White: It very straightforward.
+[00:02:21] Richard White: You can type notes.
+[00:02:23] Richard White: I think when I'm collecting accidents on call, I might write a one word note just so if I need to refer back to within the call, but our best path just don't write any notes.
+[00:02:31] Richard White: We have the option, too.
+[00:02:32] Richard White: But we really say, like, keep your hands off your keyboard on the call.
+[00:02:35] Richard White: Just focus on the conversation.
+[00:02:37] Richard White: Now, after the call is over, one of the things we get to is the call recording.
+[00:02:44] Richard White: And so if I open up the call recording here, I open up an example one.
+[00:02:49] Richard White: So when the call is over, you get something that kind of looks like this.
+[00:02:53] Richard White: Right.
+[00:02:53] Richard White: So we've got your entire recording.
+[00:02:55] Richard White: You've got the entire transcript.
+[00:02:57] Richard White: But most importantly, we have the moments that you highlighted.
+[00:03:00] Richard White: And you can kind of jump right directly back to them.
+[00:03:03] Richard White: So the workflow for Fathom typically is, you know, a push button hole on the call.
+[00:03:08] Richard White: The call is over.
+[00:03:09] Richard White: I come in here.
+[00:03:10] Richard White: I jumped to my thing.
+[00:03:11] Richard White: I'm, like, scan the transcript or what's in the club and say, oh, yes.
+[00:03:14] Richard White: I remember that she was explaining that her should a use case that was for internal.
+[00:03:20] Richard White: Right.
+[00:03:21] Richard White: So you kind of just do that, walking down in the rest of action, trans and insights.
+[00:03:25] Richard White: You could still take your notes.
+[00:03:26] Richard White: But now you're doing it with the benefit of the recording.
+[00:03:28] Richard White: You're not live on a conversation, and you can kind of do it pretty briefly.
+[00:03:33] Richard White: Suzanne, quick question for you.
+[00:03:35] Richard White: What would you say is, like, the top feature or the top like, the killer feature of kind of like this kind of post call recording piece.
+[00:03:45] Richard White: Good question.
+[00:03:47] Susannah DuRant: I think one that I like a lot and we've seen a lot of our users, like, a lot so far is going to be that CRM sync.
+[00:03:52] Susannah DuRant: So most folks I talked to, in fact, Fathom is able to actually directly sync all of your call notes right into your CRM.
+[00:03:59] Susannah DuRant: Your CRM.
+[00:04:00] Susannah DuRant: So that you don't manually have to, which is a post admin saving that time.
+[00:04:04] Susannah DuRant: That is a game changer.
+[00:04:06] Richard White: That's great.
+[00:04:07] Richard White: Yeah.
+[00:04:08] Richard White: So what things we do is once you do fill this in, we can create these auto generate summaries and you can get a summary that you can copy and paste in Google Docs into notion into an email to a prospect somewhere for action is actually is.
+[00:04:20] Richard White: We want to specifically send into our Asana copy and paste in there.
+[00:04:23] Richard White: We've got that.
+[00:04:23] Richard White: But certain you're using Salesforce, you're using HubSpot, we can automatically connect to that.
+[00:04:29] Richard White: And basically these are kind of auto generated based upon the moments I selected.
+[00:04:35] Richard White: One thing to also note that I think people can always know if you miss something after the call, you can come back in here and you know, oh, I miss this insight, right?
+[00:04:44] Richard White: I can immediately flag it afterwards, or I can flag an action item.
+[00:04:47] Richard White: And the other thing that's cool is if I type as you update anything, if you come back later and update it, it's going to immediately sync and re update that thing you share.
+[00:04:58] Richard White: So Fathom is kind of.
+[00:05:00] Richard White: Always in sync with what's happening in your serum.
+[00:05:03] Richard White: You updated the blah, blah, cool.
+[00:05:07] Richard White: Let's see.
+[00:05:07] Richard White: Is there anything else on this page that I didn't cover that I probably should have, Susannah?
+[00:05:12] Susannah DuRant: I think the one thing another question that we typically get is how people can actually get to this page and find their call recordings.
+[00:05:19] Susannah DuRant: So one way you can do that is when the call is over, you'll see the live panel itself actually transition to a screen that will say view recording.
+[00:05:27] Susannah DuRant: Clicking on that button will pop up this call recording screen that you see here.
+[00:05:31] Susannah DuRant: But one other way that you can get those recordings is simply go to Fathom video.
+[00:05:35] Susannah DuRant: So a couple of options there for you.
+[00:05:36] Richard White: Cool.
+[00:05:37] Richard White: Yeah.
+[00:05:37] Richard White: One of the killer features of Fathom is how quickly you will get this.
+[00:05:42] Richard White: You will get your call recording if you're familiar with using Zoom Cloud Recording or any other app.
+[00:05:47] Richard White: It also takes 510 something, 20 or 30 minutes to get that recording.
+[00:05:52] Richard White: As soon as your call is over, usually within 5 seconds.
+[00:05:55] Richard White: We will have the recording ready for you.
+[00:05:57] Richard White: And that's really killer because we found.
+[00:06:00] Richard White: I don't want to wait 30 minutes later to review what happened and get it all to the right places.
+[00:06:04] Richard White: One, two.
+[00:06:05] Richard White: Asking I want to highlight is that you have the ability to share this.
+[00:06:11] Richard White: You can either share just the recording and the transcript, or you can share basically your view with all the things you highlighted.
+[00:06:17] Richard White: So you want to send this to internal your manager or something or share with your team.
+[00:06:22] Richard White: We also have a team view.
+[00:06:24] Richard White: If you are working on a team and you'll see each other's calls, if your manager does just picking Susanna or or just go up here and hit help message us, we'll get you set that something we're beta testing, but the last thing is, not only can you share the I call, you can also share individual clips, so I can take a copy of this clip and even open this up in an Incog needle.
+[00:06:45] Richard White: And if I sent this into one of my team members, hey, check this part out.
+[00:06:48] Richard White: I got some interesting feedback.
+[00:06:50] Richard White: Or this is an interesting mention of a competitor.
+[00:06:52] Richard White: You can watch just that portion of the call that we pull out and probably the like, the sexiest, technological things.
+[00:07:00] Richard White: We can also wire up the slack.
+[00:07:02] Richard White: So one of the things that you might have seen is I got these old Slack icons here.
+[00:07:06] Richard White: The inside one is a Slack icon.
+[00:07:08] Richard White: And that's because I have basically connected this button to a channel.
+[00:07:14] Richard White: And so when Suzanne earlier was giving that answer about what's the tough question within about 30 seconds of her finishing that we had this video in the Slack channel.
+[00:07:22] Richard White: And this is pretty powerful stuff.
+[00:07:24] Richard White: If you can get busy, a live stream of product feedback that's happening on your customer calls were one of my favorites is I have a button here for tech questions.
+[00:07:31] Richard White: So if I get tech question on a call, I don't know the answer to.
+[00:07:34] Richard White: Rather than doing a follow, my team, get back to you later.
+[00:07:36] Richard White: I push that button within 30 seconds.
+[00:07:39] Richard White: It's in an engineering channel.
+[00:07:40] Richard White: My engineers are looking at it.
+[00:07:41] Richard White: They're listing to the question in the customers on the words, they're slacking me back the answer.
+[00:07:45] Richard White: And so it helps me look really smart on these calls.
+[00:07:48] Richard White: Cool as everything I think you want to cover.
+[00:07:51] Richard White: Thank you so much for trying out our products.
+[00:07:54] Richard White: If you have any feedback, there's just great feedback button in the corner of.
+[00:08:00] Richard White: The app.
+[00:08:01] Richard White: Please send us feedback.
+[00:08:02] Richard White: We love it.
+[00:08:03] Richard White: We read all of it.
+[00:08:04] Richard White: We're trying to get some product that every day.
+[00:08:06] Richard White: So thanks so much.

@@ -1,0 +1,466 @@
+Meeting: Impromptu Zoom Meeting
+Date: 2025-10-24T06:33:04Z
+Scheduled: 2025-10-24T06:06:20Z - 2025-10-24T06:21:20Z
+Recording: 2025-10-24T06:07:17Z - 2025-10-24T06:32:52Z
+Language: en
+URL: https://fathom.video/calls/452454195
+Share Link: https://fathom.video/share/DNVpVHPDUYGsnzRY9tzDmrx4ayryVx6E
+Recording ID: 96505496
+
+Participants: Kyle Musca (kyle@empcoaching.com.au)
+Recorded by: Kyle Musca (kyle@empcoaching.com.au)
+--- TRANSCRIPT ---
+
+[00:00:00] Kyle Musca: This meeting is being recorded.
+[00:00:32] flexmethod: Probably a little bit slow.
+[00:00:34] flexmethod: I've got to do a post today, but she was away for an AHP Labs event last week, which meant she pretty much just didn't do anything and didn't reply to our messages or didn't put any polls or anything up.
+[00:00:47] flexmethod: So there was only like six sales on her side the last week, which is still six sales, but like it could be 20.
+[00:00:58] Kyle Musca: Yeah, okay.
+[00:01:00] flexmethod: How many did you get overall across the two?
+[00:01:02] flexmethod: So six there, how many through you guys?
+[00:01:11] flexmethod: Just check.
+[00:01:15] flexmethod: Bit slow on our side as well, 10.
+[00:01:18] Kyle Musca: Yeah.
+[00:01:18] Kyle Musca: I know it's like across a few different people's accounts that it's just sort of slowed this week, maybe end of October.
+[00:01:24] flexmethod: My engagement at the moment, it's just going, it's like booming and then just suddenly, I'm like, what is going on?
+[00:01:31] flexmethod: Yeah.
+[00:01:32] Kyle Musca: Yeah, not ideal.
+[00:01:35] flexmethod: They change like the algorithm of what they want to be popular, apparently.
+[00:01:40] flexmethod: Yeah.
+[00:01:40] flexmethod: I mean, that doesn't really make sense for stories though.
+[00:01:42] flexmethod: Like you post a story.
+[00:01:44] flexmethod: I don't know.
+[00:01:45] flexmethod: It's there.
+[00:01:47] flexmethod: Have you tried this new ManyChat AI?
+[00:01:52] Kyle Musca: Not really.
+[00:01:54] Kyle Musca: I've tried my AI thing, but I find, I don't know, the AI things are just  very hidden.
+[00:02:00] Kyle Musca: It depends how hard you can train it, just because it lacks all the nuance in an actual conversation and then, like, you know, it gets real clunky.
+[00:02:09] Kyle Musca: People can tell it's AI unless you can train it really well.
+[00:02:13] Kyle Musca: So I kind of just pulled the pin on the AI setter I was using just because I could do things, like, decently, but I was booking calls and everything like that.
+[00:02:20] Kyle Musca: But the quality of conversations just wasn't great.
+[00:02:23] flexmethod: Well, that was the thing.
+[00:02:24] flexmethod: was like, with our chat GPT setter, it's like, yeah, you're teaching it as you go, but, like, you're...
+[00:02:30] flexmethod: You're still the mistakes, teaching it, and then sending the message.
+[00:02:33] flexmethod: I feel like AI ManyChat, it's like, if it just sends the message and then you're like, oh, by the way, that was  , but the message is already sent.
+[00:02:40] Kyle Musca: Yeah, yeah.
+[00:02:41] Kyle Musca: So it really depends.
+[00:02:44] Kyle Musca: I mean, it's all right.
+[00:02:46] Kyle Musca: It's also a bit lazy at the same time.
+[00:02:48] Kyle Musca: And people will be able to tell pretty quickly that it's AI.
+[00:02:52] Kyle Musca: Like, I had a fair few people, not a crazy amount of people that did pick up that it was AI and, like, that just completely ruined it.
+[00:02:58] Kyle Musca: And obviously, they didn't convert.
+[00:03:00] Kyle Musca: Book anything in from that point onwards.
+[00:03:02] Kyle Musca: So I was just like, no, I'd rather just a human setter, that they can actually manage certain things.
+[00:03:09] Kyle Musca: And saying that, I haven't played around with many chats AI too much.
+[00:03:16] Kyle Musca: But yeah, we'll see.
+[00:03:17] Kyle Musca: Have you played around with them much?
+[00:03:19] flexmethod: No, I was too nervous to even turn it on because I just didn't know if I was just going to bring up so many rogue automations to  go off and out thing.
+[00:03:29] flexmethod: Last thing I did, many chat trying to take over a combo for me after I turned it off.
+[00:03:33] flexmethod: Yeah, that might give it some time to properly play out.
+[00:03:37] Kyle Musca: Depends if you train.
+[00:03:38] flexmethod: If you train, it might be all right, but mine was just a headache.
+[00:03:41] flexmethod: think it might be okay.
+[00:03:42] flexmethod: Like, if you could trigger it to only start on, like, keywords.
+[00:03:49] flexmethod: The thing is, like, so, like, only a conversation for, say, like, you know, the low-ticket app that we're creating.
+[00:03:56] flexmethod: Like, if you're running an ad for that, you can answer questions about that.
+[00:03:59] flexmethod: But...
+[00:03:59] flexmethod: Yeah.
+[00:04:00] flexmethod: Even like with our trigger words, like ready, stuff like that, like even though I've only got set that it's only that word on its own, it'll just pick it up in a random conversation that somebody replies to Hattie's story and just like start sending them the automations.
+[00:04:15] flexmethod: Like they'll be like, oh, yeah, like, you know, I've already started implementing this myself.
+[00:04:19] flexmethod: And it'll be like, oh, ready?
+[00:04:20] flexmethod: Yeah.
+[00:04:21] flexmethod: I mean, here you go.
+[00:04:23] flexmethod: And it's like already a client of ours.
+[00:04:25] flexmethod: It's just like, but that's not even turned on.
+[00:04:29] flexmethod: So it's weird.
+[00:04:30] Kyle Musca: Yeah.
+[00:04:31] flexmethod: the?
+[00:04:32] flexmethod: My old, old, old ones from Izzy Bots showed up in my thing between Derek and Rachel.
+[00:04:37] flexmethod: Yeah.
+[00:04:38] flexmethod: I'm like, how the  do I stop these things?
+[00:04:42] flexmethod: Derek.
+[00:04:43] flexmethod: Dude, how do you tell you a week that when I was on that other call that we're building the other app?
+[00:04:52] flexmethod: No, I didn't.
+[00:04:53] Kyle Musca: Oh.
+[00:04:54] Kyle Musca: What's happening there?
+[00:04:55] flexmethod: So we're just doing essentially a low ticket item.
+[00:04:59] flexmethod: Um.
+[00:05:00] flexmethod: Let's
+[00:05:00] flexmethod: If this, like if somebody can't afford our coaching, right now I just send them a free resource to kind of keep them in the ecosystem.
+[00:05:06] flexmethod: I send them the fat loss guide with the 12-week plan, but instead we're creating like a version of Train Heroic on my strength book that's like just, if someone's paying, say, $39 a week, or if they book for longer, it's cheaper.
+[00:05:23] flexmethod: They can like choose from a bunch of set programs and they can, you know, put their stats in and it'll automatically give them macros that are like kind of appropriate and suggest like meals and stuff like that.
+[00:05:37] flexmethod: So it's like self-paced coaching without check-ins or calls, essentially like the hands-off thing that you're talking about where you can just put them there and like essentially everybody on that app kind of pays for the coaches and the advertising.
+[00:05:51] Kyle Musca: Yeah.
+[00:05:52] Kyle Musca: Yeah.
+[00:05:52] Kyle Musca: Yeah.
+[00:05:52] Kyle Musca: No, that's a good idea.
+[00:05:54] Kyle Musca: The other thing I want to try, I'm kind of like building it in the back end at the moment for mine is like, and you'd be able.
+[00:06:00] Kyle Musca: to do it pretty similar to that is like it's called a tripwire offer where you basically get them in on that and then like you'll start the conversation.
+[00:06:07] Kyle Musca: Maybe it's like a week long or I'm going to do a four-week thing for like 27 bucks.
+[00:06:10] Kyle Musca: And then, you know, for me, there'll be a coaching call on week one, which is just straight into an upsell into an actual program.
+[00:06:18] flexmethod: Every week, I've got something going on.
+[00:06:21] flexmethod: Every week, I'm trying to sing.
+[00:06:23] Kyle Musca: I'm trying to sing every single week.
+[00:06:25] flexmethod: You know, success is failing 100 times.
+[00:06:30] Kyle Musca: It's the same as like what I wanted to do with the breakeven offer, but it's like slight.
+[00:06:35] Kyle Musca: It's pretty much similar.
+[00:06:36] Kyle Musca: It's just a tripwire offer.
+[00:06:39] Kyle Musca: So, yeah.
+[00:06:40] Kyle Musca: And then I've always got things that pop up.
+[00:06:42] Kyle Musca: Oh,  it.
+[00:06:47] Kyle Musca: Cool.
+[00:06:48] Kyle Musca: All right.
+[00:06:48] Kyle Musca: Well, that's good.
+[00:06:50] Kyle Musca: I've got Vaughn sent the ads back.
+[00:06:52] Kyle Musca: Have you had a chance to watch them?
+[00:06:55] flexmethod: I sent them to Corbin.
+[00:06:56] flexmethod: They said, do you want to take a look at them?
+[00:06:57] flexmethod: But I personally don't enjoy watching.
+[00:06:59] flexmethod: working.
+[00:07:00] flexmethod: I haven't had time to look at them, no.
+[00:07:03] flexmethod: Have you looked at them?
+[00:07:05] Kyle Musca: Yeah, I thought they came pretty good.
+[00:07:07] Kyle Musca: Okay.
+[00:07:08] Kyle Musca: Nice and professional and everything like that.
+[00:07:12] Kyle Musca: So did you guys want to get them up and running or?
+[00:07:18] flexmethod: Yeah.
+[00:07:19] flexmethod: This is the other thing that I made.
+[00:07:22] flexmethod: That's why I wasn't on the call this week.
+[00:07:24] flexmethod: I was on a call with another guy.
+[00:07:25] flexmethod: So essentially this is like an addition to the Stripe checkout that's going to come up with the automatic upsell for if they pay annually up front.
+[00:07:34] flexmethod: They save $728 so everybody that, you know, kind of comes in, they can see that there.
+[00:07:39] flexmethod: And once they click on their offer, it comes up with the terms and conditions, which is essentially like they have a 12-week minimum commitment, the early cancellation fee, post-commitment cancellation, and they, like, can't pay without accepting it, which is something that we don't have with Stripe.
+[00:07:54] flexmethod: And then the other thing is I just say that, like, our thing's 99.
+[00:08:00] flexmethod: A week, and this site automatically picks up where in the world they are and converts it to their currency.
+[00:08:06] flexmethod: So if they're in the US, and I said it was $99, it shows up in USD.
+[00:08:09] flexmethod: If they're in the UK, it shows up in pounds.
+[00:08:13] flexmethod: If they're in Europe, it shows up in euro.
+[00:08:14] flexmethod: So essentially, anyone outside of Australia, it'll automatically be a 50% upsell without me kind of sussing out where they're at.
+[00:08:22] Kyle Musca: Yeah, okay.
+[00:08:23] Kyle Musca: Yeah, so have you tried this?
+[00:08:26] flexmethod: Yeah, that's what I've been using for the last week, and it's working.
+[00:08:29] Kyle Musca: Yeah, sick.
+[00:08:31] Kyle Musca: Yeah, cool.
+[00:08:32] Kyle Musca: All right.
+[00:08:36] Kyle Musca: Yeah, okay.
+[00:08:37] Kyle Musca: Yeah, that's sick.
+[00:08:39] Kyle Musca: That's definitely handy with the sub-by-chat stuff.
+[00:08:44] Kyle Musca: Okay, cool.
+[00:08:46] Kyle Musca: So as I was saying to Addy last week, it's basically like we just do step-by-step now until the end of the year, then we should be pretty good.
+[00:08:53] Kyle Musca: So we've got the ads done.
+[00:08:55] Kyle Musca: Next thing we'll be doing probably the podcast.
+[00:08:59] Kyle Musca: In preparation.
+[00:08:59] Kyle Musca: In you.
+[00:09:00] Kyle Musca: Or the, I guess, the mastermind type thing.
+[00:09:03] flexmethod: Yeah, so because Michelle is going to Canada for four and a half weeks next week, there's like a very small window of opportunity to do the podcast with her.
+[00:09:16] flexmethod: I've done the prep work with her, I did the prep work today, but finding a podcast studio that can fit us in so last minute on the Monday is really hard.
+[00:09:27] flexmethod: So I'm still in the process of finding the podcast studio that can accommodate us for next Monday.
+[00:09:34] flexmethod: Why don't you put something in your stories?
+[00:09:36] flexmethod: Yeah, I might do that.
+[00:09:37] flexmethod: Well, that actually started in Sydney.
+[00:09:41] flexmethod: Yeah, because the last studio that I used, the guy was super rude and the colours and the lighting was really underwhelming.
+[00:09:50] flexmethod: I really didn't like it and I just didn't want to use them again because I just didn't like my experience with them.
+[00:09:58] flexmethod: So, yeah, it's it's been...
+[00:10:00] flexmethod: Yeah, I'll do that now because I want to try and get that locked in.
+[00:10:04] flexmethod: She's already going to be there.
+[00:10:05] flexmethod: I've just got to get my flights over there.
+[00:10:08] flexmethod: But that's essentially we're all set up except for getting the studio.
+[00:10:11] flexmethod: We just don't have the studio, but everything else has been prepped.
+[00:10:15] Kyle Musca: Yeah, okay.
+[00:10:16] Kyle Musca: Yeah, perfect.
+[00:10:16] Kyle Musca: And then you guys did the prep in terms of like what you guys want to run over, all the key points and everything you want to talk on?
+[00:10:22] Kyle Musca: Yeah.
+[00:10:23] Kyle Musca: Okay, sick.
+[00:10:25] Kyle Musca: In that case, what I can probably do is because I'll fly back on Monday.
+[00:10:30] Kyle Musca: So, I can send you through the document and if just fill out basically what you guys spoke about, then I can just build out the presentation for you.
+[00:10:39] Kyle Musca: I won't write you a script.
+[00:10:41] Kyle Musca: You'll know exactly what you want to talk about as long as you've kind of got the slide breakdown there to go off.
+[00:10:45] Kyle Musca: And then that should be pretty easy to implement from that point.
+[00:10:52] Kyle Musca: And then from there, it would just be about getting marketing done up for it.
+[00:10:56] Kyle Musca: But we can just run with graphics to start with and then get some videos in.
+[00:11:00] Kyle Musca: After it, if that makes sense.
+[00:11:02] Kyle Musca: Yeah.
+[00:11:03] Kyle Musca: Perfect.
+[00:11:04] Kyle Musca: Cool.
+[00:11:05] Kyle Musca: Is Millie back now?
+[00:11:06] Kyle Musca: Is she going to be, like,  full steam ahead or is there anything else coming up?
+[00:11:10] flexmethod: She's back.
+[00:11:10] flexmethod: I wouldn't count on her being full steam ahead, but she's back.
+[00:11:13] Kyle Musca: Yeah.
+[00:11:14] Kyle Musca: Well, what else?
+[00:11:15] flexmethod: We were like, she's like, so do a poll tonight?
+[00:11:18] flexmethod: We're like, yeah.
+[00:11:19] flexmethod: We get up today.
+[00:11:21] flexmethod: No poll.
+[00:11:21] flexmethod: No poll till, what, 9 a.m.?
+[00:11:23] flexmethod: I had to write the whole thing for her.
+[00:11:24] flexmethod: She's like, well, what should I say?
+[00:11:26] flexmethod: I'm like, Millie, think about the niche.
+[00:11:28] flexmethod: Like, think about the conversations we've had with a girl so far.
+[00:11:31] flexmethod: Like, who is it you're trying to speak to?
+[00:11:33] flexmethod: Like, I'm trying to get her to think instead of just, like, be a robot.
+[00:11:38] flexmethod: I I'm talking to these girls.
+[00:11:39] flexmethod: You know what comes up a lot?
+[00:11:40] flexmethod: I don't know if this is a generational thing or, like, if this is because Millie talks about it a lot.
+[00:11:46] flexmethod: I don't really know, to be honest.
+[00:11:47] flexmethod: But all of them are like, I have bad gut health.
+[00:11:51] flexmethod: My gut health is ruined.
+[00:11:52] flexmethod: Yeah, I'm really struggling with my gut health.
+[00:11:54] flexmethod: I'm like, you couldn't even  name one thing that's happening in the gut.
+[00:11:58] flexmethod: And, like, you're, like, diagnosing yourself.
+[00:12:00] flexmethod: And, like, I have to, like, decipher if, like, they're legit, like, have you legitimately been diagnosed with a disorder?
+[00:12:06] flexmethod: Like, do you have IBS?
+[00:12:08] flexmethod: Do you have Crohn's?
+[00:12:08] flexmethod: Or, like, are you just saying that I think it's because she brought you back and she'd be like, I'm bloated.
+[00:12:13] flexmethod: So girls would be like, I'm bloated.
+[00:12:14] Kyle Musca: I must have a gut issue.
+[00:12:15] Kyle Musca: Congrats.
+[00:12:16] Kyle Musca: You have a period.
+[00:12:17] Kyle Musca: You're older than 12.
+[00:12:19] Kyle Musca: Yeah.
+[00:12:20] Kyle Musca: I mean, I was chatting to Hattie about it last week is, like, if she's just being really tardy and everything like that, you might want to just give it the ultimatum.
+[00:12:27] Kyle Musca: Like, hey, like, obviously, we're leaving a lot of money and potential on the table right now.
+[00:12:31] Kyle Musca: I will jump into your account and I will do, like, literally everything for you.
+[00:12:36] Kyle Musca: But obviously, it's going to require a lot more time and effort on my behalf.
+[00:12:40] Kyle Musca: So, like, if you want to do that, have you just to renegotiate it down and you take 25% for the additional  100% of work that I'll have to take on.
+[00:12:48] Kyle Musca: But in saying that, you don't do anything at all and we can just make the most of this.
+[00:12:54] flexmethod: Yeah, I mean, to be honest, like, the only thing standing between Hattie and I and, like, a clean run is me having her Instagram password.
+[00:12:59] flexmethod: So, I can put...
+[00:13:00] flexmethod: The poll up and send the messages and Hattie probably having her Mighty Networks password to the, Hattie can send the initial message on her behalf.
+[00:13:08] Kyle Musca: Yeah.
+[00:13:09] Kyle Musca: And you just say that's okay.
+[00:13:10] Kyle Musca: You know, maybe taking 20, 30, 25, 30% less, but I guarantee you'll be able to get like  five, 10 times more clients if you just let me actually do what you're meant to be doing.
+[00:13:23] flexmethod: It would just be nice to have her contribute.
+[00:13:26] flexmethod: That's the thing for me.
+[00:13:27] flexmethod: I'm like, we're in a team.
+[00:13:28] flexmethod: It would be nice to do.
+[00:13:30] flexmethod: Take this seriously.
+[00:13:32] flexmethod: yeah, I think it's great if she came to the table.
+[00:13:35] Kyle Musca: Yeah.
+[00:13:36] Kyle Musca: Yeah.
+[00:13:36] Kyle Musca: But I think it's just one of those things.
+[00:13:38] Kyle Musca: I think it's one of those things where she's just like one of those girls that are so warped for reality of what like actually is required to, you know, put in.
+[00:13:47] Kyle Musca: And it's kind of because they're so used to that and so set to that to be able to like get them to actually come to the table is going to be, you know, fun,  brick wall, man.
+[00:13:56] Kyle Musca: It'd be like very hard to do, I think.
+[00:13:59] Kyle Musca: Just because because like this.
+[00:14:00] Kyle Musca: It has already been set for what she can expect from just doing nothing.
+[00:14:05] flexmethod: Yeah.
+[00:14:06] flexmethod: Yeah.
+[00:14:10] Kyle Musca: So, and then, yeah, and then just trying to get her to be the face of it, essentially, and then you just candle everything.
+[00:14:15] Kyle Musca: But if you're going to do that, I would definitely give her the ultimatum of, like, obviously, we'll just take much more of a cut.
+[00:14:22] flexmethod: It's so much extra more work.
+[00:14:25] flexmethod: Like, if you responded to all the polls, it's a whole day of you not having conversations.
+[00:14:29] flexmethod: That's an expensive day.
+[00:14:32] flexmethod: Unless you get me to do, I do the first initial conversations to the poll, and then you do the.
+[00:14:40] Kyle Musca: In saying that, though, you could also, like, look at then training it, because it's going to be hard to, obviously, if you're just one-man unit across all accounts.
+[00:14:50] Kyle Musca: You could just look at getting a DM setter in there just to train them up, right?
+[00:14:54] Kyle Musca: You don't have to use Clemé.
+[00:14:55] Kyle Musca: So, Sage actually found a company that basically hires the DM setter in, like, trap.
+[00:15:00] Kyle Musca: Trains and reviews them, all that.
+[00:15:02] Kyle Musca: For 14 AUD an hour, no commissions on top of it.
+[00:15:08] flexmethod: That's cheap.
+[00:15:09] flexmethod: They're obviously offshore.
+[00:15:10] flexmethod: I don't even think that's legal in Australia.
+[00:15:12] Kyle Musca: No, they'd be offshore, but it's like the fee obviously goes to the center, but then they've also got like a small management fee that makes sure that they're reviewing and training them and everything is ongoing.
+[00:15:23] flexmethod: Yeah, right, okay.
+[00:15:25] flexmethod: What agency is that?
+[00:15:28] Kyle Musca: I'd have to ask him about it, but he's pretty happy with them.
+[00:15:31] Kyle Musca: Like he said, he's only had to pull her up once because she went through old messages and started saying like, hey, beautiful, do you want to see if can come up with a game plan?
+[00:15:40] Kyle Musca: But that's the only thing he says.
+[00:15:45] flexmethod: So she's obviously in his Instagram, not ManyChat.
+[00:15:50] Kyle Musca: I think probably ManyChat or something like that.
+[00:15:54] flexmethod: You can't message old people on ManyChat if they haven't replied to you in seven days.
+[00:15:58] Kyle Musca: cut off.
+[00:15:59] Kyle Musca: Okay.
+[00:16:00] Kyle Musca: Yeah, it might be.
+[00:16:00] Kyle Musca: It could be through meta or something, I'm not sure, but apparently that's the only issue she's had with her though.
+[00:16:07] Kyle Musca: So yeah, because you probably want to be a lot more hands-on with Hattie's stuff, but like if it's hers and the conversations are still good and you've trained them right, it's like.
+[00:16:16] flexmethod: I mean, like speaking to my audience, it's different to speaking to Amelia.
+[00:16:20] flexmethod: You could just get, hey girl.
+[00:16:22] flexmethod: Yeah.
+[00:16:23] flexmethod: And so you couldn't do that with mine.
+[00:16:26] Kyle Musca: Yeah.
+[00:16:26] Kyle Musca: Gut health is definitely, you know.
+[00:16:30] flexmethod: I don't know, I feel like, yeah, I feel like I have to challenge their beliefs a lot more than when I talk to people in yours, like.
+[00:16:38] flexmethod: I don't know if that makes sense.
+[00:16:40] flexmethod: Yeah.
+[00:16:42] flexmethod: The young girls are hard.
+[00:16:44] flexmethod: I even noticed on the calls, I'm like, these are my least favourite calls to do in a week.
+[00:16:48] flexmethod: Yeah.
+[00:16:50] flexmethod: In terms of like, I just don't.
+[00:16:51] flexmethod: like, can you just get Millie to do the calls without me?
+[00:16:55] flexmethod: We know she's not going to be doing that one.
+[00:16:58] flexmethod: Hey, you want some work?
+[00:16:59] flexmethod: Do the whole thing yourself.
+[00:17:02] Kyle Musca: Yeah.
+[00:17:02] Kyle Musca: I think that's probably, I would take that to her because like, yeah, I mean, ideally she'd come to the table, but I really just don't think you'll get her to do that.
+[00:17:14] Kyle Musca: And then you guys obviously, you know, take a lot more home in your pockets as well.
+[00:17:18] Kyle Musca: So it's like, it's not like you're just taking a loss.
+[00:17:22] flexmethod: Yeah.
+[00:17:23] flexmethod: That put me to sleep.
+[00:17:25] flexmethod: Sorry.
+[00:17:29] Kyle Musca: Cool.
+[00:17:30] Kyle Musca: All right.
+[00:17:31] Kyle Musca: Is there anything specific that you guys want to run over at all?
+[00:17:43] flexmethod: So will we just swap out the ads?
+[00:17:46] flexmethod: Yeah, I can just.
+[00:17:48] flexmethod: I know what the keywords you said were.
+[00:17:50] flexmethod: Reset.
+[00:17:51] Kyle Musca: Okay.
+[00:17:52] Kyle Musca: Yeah, I can just upload them.
+[00:17:54] Kyle Musca: The other thing would be cool, actually, is do you have any video?
+[00:17:59] Kyle Musca: Bye-bye.-bye.-bye.-bye.
+[00:18:00] Kyle Musca: Bye Bye you.
+[00:18:00] Kyle Musca: Testimonials?
+[00:18:02] flexmethod: Yeah.
+[00:18:05] Kyle Musca: That and then potentially even just like even recordings of your group coaching calls when you're doing the educational stuff or getting on a call with like your best clients and stuff like that, like you specifically, Hattie, literally just like a Zoom call.
+[00:18:21] Kyle Musca: And then just be like, you know, what would have been the biggest goals you've achieved?
+[00:18:25] Kyle Musca: Like what would, you know, asking questions like that where it's kind of like a loaded question where you'll record it and they'll be like, oh, I've done X, Y, Z, and I'm so happy with X, Y, Z, et cetera.
+[00:18:35] Kyle Musca: And then we just add those as like retargeting it.
+[00:18:38] Kyle Musca: So it's like when you're having these messages and then people messaging you obviously for it, they start to see like all the value and the social proof and everything like that just to support.
+[00:18:47] Kyle Musca: So like if Coben's messaging directly, then they're also seeing all these like, you know, value-driven social proof ads as well.
+[00:18:56] Kyle Musca: It is an ad to like videos essentially.
+[00:18:58] flexmethod: Yeah.
+[00:18:59] flexmethod: Yeah, we've got it.
+[00:19:00] flexmethod: All those video testimonials that we just haven't put together because Sabir went MIA.
+[00:19:09] Kyle Musca: Is that your video editor?
+[00:19:11] flexmethod: Yeah.
+[00:19:12] flexmethod: The guy that put together your ads, will he be able to do that?
+[00:19:14] flexmethod: Couldn't Vaughn do it?
+[00:19:16] Kyle Musca: I've got my video editor.
+[00:19:18] Kyle Musca: He's pretty sick.
+[00:19:19] Kyle Musca: Not Mehdi.
+[00:19:20] Kyle Musca: I got rid of Mehdi.
+[00:19:22] Kyle Musca: He does, like, for my full coach, like, education wants to do it for, like, 20 USD, but he's, like, bad, good editing.
+[00:19:29] flexmethod: I think it's good to do something with those.
+[00:19:35] flexmethod: There's a few in there.
+[00:19:36] flexmethod: Yeah.
+[00:19:43] flexmethod: You know, there's even, like, so the Monday call that I did with them, you know, we put a post, I put a post in the community about community, and they were all, like, oh, my God, the best thing about community is, and, like, there's so much, there's almost, like, so many people.
+[00:19:58] flexmethod: know, they're nuggets in those Zooms.
+[00:20:00] flexmethod: But...
+[00:20:00] flexmethod: We won't have the time to go through them.
+[00:20:02] Kyle Musca: Yeah, I wouldn't do it yourself.
+[00:20:05] flexmethod: It literally has to be finding someone who you could pay to go through all those streams and pick out the golden nuggets of things that are said.
+[00:20:15] flexmethod: I don't think they would land very well on social media because of the quality of the report.
+[00:20:20] flexmethod: I guess so.
+[00:20:21] flexmethod: Just having like...
+[00:20:23] flexmethod: Yeah.
+[00:20:23] Kyle Musca: Yeah.
+[00:20:25] Kyle Musca: Do they actually talk?
+[00:20:26] Kyle Musca: Like they talk and say the community's great?
+[00:20:29] flexmethod: They talk, but it's...
+[00:20:30] flexmethod: Yeah, we have people all the time that give glowing reviews and I make jokes about the fact that we pay them to say it's for the new people on the calls and that, but...
+[00:20:38] Kyle Musca: Yeah.
+[00:20:40] Kyle Musca: Yeah, okay.
+[00:20:41] Kyle Musca: I mean, the social proof, if you got onto a one-to-one call, like it doesn't have to be super high quality.
+[00:20:50] Kyle Musca: Like, that kind of makes it authentic and it kind of just makes it look real, you know what mean?
+[00:20:54] Kyle Musca: Especially to like older, middle-aged-ish women.
+[00:20:56] Kyle Musca: So, Um, but what you could do is...
+[00:21:00] Kyle Musca: Like when you're on these calls, maybe just have something you can write on that if something does pop up that was like a good little nugget, you just obviously write the timestamp and then just go give it to Ed and say, like, want you to pick apart all these pieces.
+[00:21:11] Kyle Musca: And then you could do cool things where you're like, you know, probably this is leaving more up to the editor, but like integrate all these things.
+[00:21:18] Kyle Musca: So it's like goes to the group coaching call and it goes to one-on-one saying like, oh, I've completely changed my life.
+[00:21:23] Kyle Musca: It's the best decision I've ever made.
+[00:21:25] Kyle Musca: I absolutely love the community XYZ.
+[00:21:27] Kyle Musca: And then it goes to, you know, maybe you covering something about like the educational, like doing the education side of things as well.
+[00:21:34] flexmethod: You know what mean?
+[00:21:38] Kyle Musca: It's like almost like a little trailer or something.
+[00:21:41] flexmethod: Kind of the vision that I've got for the video testimonials where it kind of chops and changes between the people on that.
+[00:21:47] Kyle Musca: Yeah, yeah, exactly.
+[00:21:49] Kyle Musca: So it's like, yeah, you'd have something that's just maybe one-to-one, that is the video.
+[00:21:53] Kyle Musca: And it's just one question, you know, what is it being the biggest goal?
+[00:21:56] Kyle Musca: and that's just the video.
+[00:21:57] Kyle Musca: It's like 20, 30 seconds.
+[00:21:59] Kyle Musca: One where it's...
+[00:22:00] Kyle Musca: it's...
+[00:22:00] Kyle Musca: it's...
+[00:22:00] Kyle Musca: it's...
+[00:22:00] Kyle Musca: Thank you.
+[00:22:00] Kyle Musca: Maybe a full actual testimony of them saying it, and then you've got, like, one where it's a combination of, like, multiple testimonies all crammed into one.
+[00:22:09] flexmethod: Yep.
+[00:22:11] Kyle Musca: They're super, like, super cheap.
+[00:22:12] Kyle Musca: Like, I do $2 a day per ad.
+[00:22:16] Kyle Musca: So it's like, I've got, like, seven, so it's like 14 bucks.
+[00:22:18] Kyle Musca: And it just retargets people that have messaged you in the last, like, seven days.
+[00:22:23] flexmethod: Yeah, okay.
+[00:22:25] flexmethod: Yeah.
+[00:22:25] flexmethod: So what would we need to do?
+[00:22:27] flexmethod: Just put together those videos so that you can run them as a retargeting campaign.
+[00:22:31] flexmethod: Okay.
+[00:22:33] Kyle Musca: Yeah.
+[00:22:34] Kyle Musca: And then the testimonials, I can send you, his name is Ron, I can send you his contact to get them edited.
+[00:22:41] Kyle Musca: But I think don't necessarily worry about going back through old calls, but just, like, for future calls, just timestamp anything good that comes up, and then just send it off.
+[00:22:50] Kyle Musca: So I just want you to click this.
+[00:22:52] flexmethod: Okay.
+[00:22:53] flexmethod: Yeah.
+[00:22:55] flexmethod: Okay, cool.
+[00:22:56] flexmethod: I think the Friday morning calls always, and, like, the lighting's always better.
+[00:22:59] flexmethod: It's, like, much more visual.
+[00:23:00] flexmethod: And there's always lots of people on there.
+[00:23:02] flexmethod: What are you looking at?
+[00:23:03] flexmethod: The lighting.
+[00:23:03] flexmethod: The lighting.
+[00:23:07] flexmethod: That would be useful.
+[00:23:09] flexmethod: Like this morning, was trying to take a photo because we had like 20-something people on the call.
+[00:23:12] flexmethod: I was trying to take a photo to show how many people come on the group call.
+[00:23:18] Kyle Musca: Is it on?
+[00:23:20] Kyle Musca: I've tried it before.
+[00:23:22] Kyle Musca: Is it on Mac?
+[00:23:23] flexmethod: Like, use Mac?
+[00:23:24] Kyle Musca: Like, you could just Ctrl-Shift-Command-5 and I'll just screenshot the whole screen.
+[00:23:34] Kyle Musca: I've tried to do this before.
+[00:23:36] Kyle Musca: I think it was.
+[00:23:38] Kyle Musca: Yeah.
+[00:23:39] Kyle Musca: Yeah.
+[00:23:42] Kyle Musca: Cool.
+[00:23:43] Kyle Musca: But yeah.
+[00:23:45] Kyle Musca: Biggest thing, yeah, trying to get that podcast to you on Monday and then pretty good.
+[00:23:49] Kyle Musca: And then if you could, I'll send you through that form.
+[00:23:51] Kyle Musca: If could get it back by Monday because I'll be in the plane.
+[00:23:53] Kyle Musca: So I've plenty of time to sort of drop everything up.
+[00:23:57] flexmethod: Yeah.
+[00:23:58] flexmethod: Okay.
+[00:23:59] Kyle Musca: Okay.
+[00:24:00] Kyle Musca: Cool.
+[00:24:00] Kyle Musca: Cool.
+[00:24:00] Kyle Musca: Anything else you guys want to run over at all?
+[00:24:03] flexmethod: We're possibly thinking about changing this time of a call, like on Fridays.
+[00:24:09] flexmethod: Can we do earlier?
+[00:24:10] flexmethod: Well, what's the time there?
+[00:24:12] flexmethod: It's pretty early for you, isn't it?
+[00:24:14] Kyle Musca: It's 10.30 here, but I get back on Monday.
+[00:24:17] Kyle Musca: So it'll be fine for next week.
+[00:24:21] Kyle Musca: So I can do from, you know, it's 2 p.m.
+[00:24:26] Kyle Musca: So I can do from like 1 p.m.
+[00:24:29] flexmethod: Do want to do 1 or 2?
+[00:24:30] flexmethod: 2 p.m.
+[00:24:31] Kyle Musca: 2 p I got a call at 2, but I could look at shifting back.
+[00:24:39] Kyle Musca: Do you want to lock in 1 and then I'll try and shift back to 2?
+[00:24:42] flexmethod: All right.
+[00:24:43] flexmethod: Sounds good.
+[00:24:44] Kyle Musca: Okay, cool.
+[00:24:45] flexmethod: I'll move that now.
+[00:24:46] flexmethod: I just noticed every time it's 4 o'clock on a Friday, I'm like, oh, , I could take a nap.
+[00:24:51] Kyle Musca: And then Hattie's always like, cool time.
+[00:24:55] Kyle Musca: No, it's all good.
+[00:24:58] Kyle Musca: Let me update that.
+[00:25:01] Kyle Musca: Cool.
+[00:25:05] Kyle Musca: All right.
+[00:25:07] Kyle Musca: All right.
+[00:25:08] Kyle Musca: I'll send that stuff through now, and then, yeah, just keep me updated.
+[00:25:11] Kyle Musca: And if you do propose that stuff to me, let me know how that goes, because I'd be keen to, yeah.
+[00:25:18] flexmethod: I'm going to get her into a routine.
+[00:25:20] Kyle Musca: Yeah.
+[00:25:21] Kyle Musca: Do you want me to ask Sage who he uses for the setting?
+[00:25:24] flexmethod: Yeah.
+[00:25:24] flexmethod: Yeah, might as well.
+[00:25:25] Kyle Musca: Yeah.
+[00:25:26] Kyle Musca: Cool.
+[00:25:26] Kyle Musca: I'll send him a message now.
+[00:25:28] Kyle Musca: We'll suss that out as well.
+[00:25:30] Kyle Musca: Awesome.
+[00:25:30] Kyle Musca: Thank you.
+[00:25:31] Kyle Musca: Kyle.
+[00:25:31] Kyle Musca: Have a good weekend.
+[00:25:33] Kyle Musca: You too.
+[00:25:33] Kyle Musca: See you.
+[00:25:34] Kyle Musca: Bye.

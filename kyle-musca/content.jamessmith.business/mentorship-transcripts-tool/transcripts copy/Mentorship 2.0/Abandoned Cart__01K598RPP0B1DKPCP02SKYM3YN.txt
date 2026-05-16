@@ -1,0 +1,55 @@
+one thing i slept on for years was how many people we could
+capture from an abandoned cart secrets so what is it in
+digital marketing an abandoned cart refers to when a
+potential customer adds item to their online shopping cart
+before they leave the website before completing the purchase
+this is a common issue in e-commerce with an abandonment
+rate between 60 to 80 percent the reasons for cart
+abandonment vary but typically include unexpected shipping
+costs complicated checkout processes simply getting
+distracted marketers combat this with abandoned cart
+recovery strategies such as email sequences reminding
+customers of their unfinished purchase retargeting ads that
+display the abandoned products on other websites or social
+media and discount offers or free shipping incentives to
+encourage checkout and maybe even just streamline checkout
+processes to reduce friction for me this was also a perfect
+time to add an autoresponder to anyone that got cold feet
+this is good for when people are going to direct to the
+sales page which can and will happen just from general
+exposure people will check out your stuff now even if you
+have someone's email address already you could categorize
+these people as super hot leads as they're close to the
+point of the sale the email marketing response here could be
+to double down on the money-back guarantee or even just to
+put their fears at ease and ensure them that they're making
+the right decision that means that in marketing every few
+campaigns you can just say hey check out what i do by
+clicking here some people don't want to do the email part
+they want to jump straight into bed so an abandoned car is a
+great way to do this and by the way when i say campaign it's
+a bit of a marketing slogan so in marketing a campaign
+refers to a coordinated series of emails that you can send
+to your email address if you're thinking
+about who handles abandoned cart sequences your website's e
+-commerce platforms like shopify typically has built-in
+abandoned cart recovery features email marketing tools like
+clavio mailchimp active campaign can integrate with your
+store to send abandoned cart emails and third-party apps
+also offer abandoned cart recovery with sms push
+notifications and the way it works is a user adds an item to
+their carp doesn't complete the purchase the e-commerce
+platform then detects this and you can go ahead and get rid
+of the cart and if the app and triggers an automated
+abandoned cart sequence, which could be an hour later, 24
+hours later. The email then reminds them of the items left
+behind. Amazon do this well, sometimes offering an
+incentive. And if integrated, retargeting ads on Facebook
+and Google can also show them the abandoned product. If you
+use Stripe, Stripe does not send the abandoned cart emails,
+but can track incomplete payments. Some e-commerce platforms
+like Shopify use Stripe as their processor, but the
+abandoned cart recovery is still handed by Shopify. Don't
+sleep on abandoned carts. Get one set up and occasionally
+fire direct traffic for the purpose of hoping they bounce
+and you acquire their email address that way.

@@ -1,0 +1,8 @@
+instaloader>=4.14
+faster-whisper>=1.1.0
+pyannote.audio>=3.3.2
+simplepush>=2.2.4
+python-dotenv>=1.0.1
+tqdm>=4.66.0
+requests>=2.31.0
+redis>=5.0.0

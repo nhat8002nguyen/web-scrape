@@ -1,0 +1,224 @@
+I'm a bit of a dopamine junkie and this gives me a love-hate
+relationship with social media because every time I upload a
+video I'm still refreshing YouTube studio and I've got the
+app on my phone see if I'm getting a one out of ten how many
+comments am I getting what's the click-through rate I wasted
+hours a week reviewing every small change in the analytics
+when I should have been using this time to make more videos
+instead but everything changed when I started my similar
+business channel and suddenly I realized I was massively
+over-complicating analytics and most YouTube gurus will tell
+you to track 47 different metrics install TubeBuddy and
+vidIQ and run a b split tests on your thumbnails obsess over
+your impressions to click-through rate ratio bollocks I
+started making more money on YouTube before when I stopped
+listening to all of this shit advice about analytics instead
+if you do everything we've covered in this course
+positioning packaging scripting monetization you're not
+going to need to obsess over analytics if you want to make
+money from YouTube and grow your channel fast you need to
+track three things that's it so let me show you what they
+are and then I'll give you a little bit of a walkthrough
+metric one this is obvious it's how most people look at
+metric one but don't get many views but it's not did I get a
+hundred thousand views did I get a hundred thousand views
+did I get a hundred thousand views did I get a thousand
+views or go viral instead you want to ask yourself did this
+recent upload get more or less views than my usual average
+so if you usually get two thousand views per video and your
+new one got five thousand that's a win make more videos like
+that similar topics similar packaging in fact just repeat 80
+% of the video I do this all the time but if you're normally
+getting two thousand views and your new video gets 500
+that's a loss don't do this video again probably a shit
+title thumbnail that didn't appeal to a viewer you're going
+to need at least 10 videos posted before you can even know
+what your average video view count is so if you're on video
+three just stop checking analytics just keep going keep
+posting metric number two it's the only metric that actually
+really matters for business you won't ask yourself did this
+video generate sales check stripe your course platform
+whatever email signups check aweber convertkit mailchimp
+whatever if yes the video works ignore views ignore anything
+else in the ecosystem it works but if it didn't work your
+call to action wasn't strong enough your traffic doesn't
+match your offer go back to module 60 and run the pp test oh
+big boy you didn't get enough views however as a general
+rule if you're getting three to five percent of viewers
+click your call to action that's really good but honestly
+don't even obsess over this just check did i get emails did
+i get sales if yes keep doing what you're doing if you're
+serious about tracking which videos lead to sales you can
+use something like rev track which i'll show you in a second
+which shows you exactly what youtube videos generated what
+revenue but this is sort of nice to have a bit on it's a bit
+you know super it is essential but ultimately just check if
+your bank balance goes up a metric three the final metric to
+check is your retention but it's only useful for one thing
+figuring out where your script is boring or confusing and
+discovering why and how to improve it's a good way to
+improve your content going forward so how would you analyze
+retention after you post video wait 48 hours youtube studio
+go to the video analytics look at the retention we're gonna
+have a little look in a second and you might be thinking
+what's good retention mr smith honestly it depends some
+niches can get crazy amounts like 70 other education
+business might get 35 to 40 percent but don't compare
+yourself to logan paul or ksi compare yourself to your
+previous videos if your retention is improving over time
+you're doing fine but what about all the other data in the
+youtube studio well here's what to ignore click through rate
+everyone's obsessed over this it's five percent good it's
+ten percent good but it doesn't matter because it's a bit of
+a paradox you can have a high click-through rate and really
+low impressions when your video is not getting shown to many
+people or you can have a low click-through rate and high
+impressions but your video is getting pumped to millions of
+viewers click-through rate is only in relation to
+impressions how many people it's put in front of you can't
+control impressions youtube does so stop checking it and
+focus on views instead then you've got average view duration
+same logic as click-through rate it's relative to
+impressions and a whole host of other factors because if
+your video goes mega viral you're going to tank the average
+view duration as interested people subscribers gained nice
+to see but doesn't directly affect your revenue because you
+can make 30 grand a month with 5 000 subs who are
+positioning and offer a tight like i showed you now the
+impressions you can't control this youtube decides ignore it
+but the brutal truth i wish somebody told me when i was
+first starting on youtube was if you're checking analytics
+more than you're posting videos you are just procrastinating
+post your video check in a week see if it did better or
+worse than before more views or less see if you've got any
+sales emails then move on and make the next video that's it
+youtube is a bank you're depositing videos they pound over
+time you just don't know which one will take off so you need
+to stay in the game long enough for that to happen stop
+refreshing youtube studio every 10 minutes go make another
+video now that's it we're gonna look into uh the analytics
+for a second here love that you know oh don't get obsessed
+with it but let's have a look anyway okay so we'll start on
+the business channel so most recent video ollie did this
+thumbnail lovely uh two out of ten again we don't want to
+look at this too much although i am quite happy with that so
+this video is pumping click-through rate's a bit lower who
+cares average view duration 10 minutes awesome so we can
+look at the analytics of this video so these are the things
+that i'll look more views than usual more watch time than
+usual which is great 34 subscribers cool retention not there
+yet it's not been there long enough we can look here see
+which videos are working well come and have a look at the
+analytics again more views than usual happy with that more
+watch time than usual happy with that these are actually
+ollie's ideas that have been doing very well now this one
+could be interesting this is 2022 i did this as a youtube
+live stream now you'll see that the views are pretty normal
+but it's massive now although the subscribers are small on
+this that would have been a good one for converting people
+now if we go to the analytics here this for me is fine you
+know views okay watch time okay subscribers okay i'll tell
+you where the analytics really interest me we go over to
+here we can see in the last 48 hours 10 000 views 5 000
+views a day great now look at this one here and this one is
+nearly a year old nearly a year old and you'll see for for
+months it never really did anything then just took off
+that's why i love youtube that's what you should get excited
+for 2 000 subscribers the watch time the subscriber rate it
+just decided to take off probably do need to trim that call
+to action off you tell i just let it was a bit laborsome
+with that last part from where it dips off but you know
+great again we can look at the content i don't really get
+caught up too much in this it is quite interesting for
+instance so uh let's make this a little bit longer just go
+90 days now these are the things i'd get interested in
+impressions 5 million average click-through rate 5 average
+view duration 6% is now what's the actual time people are
+searching so all right this is a very important concept of
+youtube for everyone to understand people are not searching
+for videos they're finding them search here eight percent
+browse 54 all the videos we are making are to be discovered
+not to be searched for so we want a title and thumbnail that
+is optimized to be found not to be searched and then
+platforms is a very good one as well so if we go to audience
+we can casual viewers regular viewers new viewers lovely
+little split there channels your audience watches alex for
+Mosey, Ed Lawrence, Daniel Priestley, Mike Thurston. Now,
+when we post, I don't think is that important because I
+think over the average of a week, it doesn't matter if you
+post it at the right time. Now, this is where things get
+interesting. So mobile phone, 50%, computer TV. So really, I
+should be probably putting a QR code in some of these so
+that people could scan the TV for 20%. That could be a good
+idea. 93% mail. So that's why in this course, I would
+reference to saying things like, you meet a fit bird. Now,
+not subscribed 53%. Am I bothered? No. Country, interesting
+for what currencies we might talk in or whatever. But here's
+the interesting one. So this is RevTrack. This is Ed
+Lawrence's platform. And what's good here is I can now see
+the amount of money that I'm making from videos. Now we can
+put them in order of clicks. So laziest way to make money, 2
+,900 clicks. It's done $16,000, but the beautiful thing is
+here. I see where the clicks came from. I can see where the
+clicks came from. I can see through. Content mastery, 1,200.
+Email advantage, 800. PT starter kit. We're probably running
+ads on these to retarget them. So that's great. Now look at
+these two, right? So this video went out, performed really
+well, but it's kind of flatlined a bit recently. So I should
+probably change that one soon. But if we look at the online
+fitness business one, this one just continues to churn over
+time, which is really interesting. The videos that talk
+about being a PT and starting over are bringing me much more
+consistent revenue. So although it pains me to say it, this
+one probably needs a new title and thumbnail because it's
+died a bit of a death, died a bit of a death. So really
+these are the videos that I should be remaking. So clicks
+aren't always everything. We also want to look at money. So
+here we can go this video, how to start an online business
+for blueprints. This is the one we just saw recently. Again,
+seven people into the mentorship. So to get 21,000. So we
+said before that my biggest ever month on YouTube was like
+what? 10 grand? 20 grand just from a single video. And not
+to
+get out of the way of these hands. So you have to give me a
+lot of time, but I'm really happy with that. So the way this
+works is I can look at my analytics to see how many clicks
+are coming through. Cause this is really the thing. That's
+the most important, how much revenue that we've done. We can
+then go to our dashboard and RevTrak will give us like a one
+out of 10, a better score. And we can see which videos are
+producing the most clicks. And then the way this works is
+basically when I've got a landing page, I'll actually show
+you here. If we go into the most recent video, we then have
+these links here and that is the tracking link. You'll
+notice it's the the same code from this bit here do you know
+what i'm going to get rid of that so i'll show you how i'm
+going to do that go settings upload defaults i should delete
+that so what i'd say is get all your links that you want to
+put in your description put them into your upload defaults
+it's going to be a really good place to put that another
+thing customization click on the home tab and it's just
+worth having these in an order so i have a channel trailer
+here which is a vsl that i've just put through there then
+you've got popular videos videos whatever we just want to
+optimize this page so when people land this one i only put
+there a week ago 168 views it's got all the links they need
+so remember what we said about free things can take you
+through to lead magnets paid things can take you through to
+landing pages i think that's it that's the youtube course
+you've got everything you need to turn your youtube machine
+into an organics leads machine that supports your business
+so if you have bought this course on its own you want more
+one-to-one support check out the business mentorship uh you
+get direct feedback from me but in the meantime go and post
+get that video out there those of you in the mentorship when
+using the discord title and thumbnail first use thumbs up.tv
+screenshot outliers don't use chat gpt for titles if i see
+any of that you'll be dead if there's anything that feels
+missing from this course please do reach out give us
+feedback and we will add it in due time and i'll bring in
+other people and youtube experts to make this course one of
+the best ones available online i want to thank you all for
+being patient enough to sit through this it's time to get on
+with it get your next few videos out and try to bloody enjoy
+it thank you

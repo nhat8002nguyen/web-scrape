@@ -1,0 +1,71 @@
+in email marketing reputation is like your credit score but
+for sending emails if too many of your emails are ignored
+marked as spam or deleted without being opened email
+providers like gmail and outlook start to distrust you this
+means your future emails are more likely to end up in spam
+folders instead of inboxes when it comes to maintaining a
+good sender reputation only email people who want to hear
+from you never buy email lists never do anything dodgy make
+sure that you send valuable content not just constant sales
+pitches keep engagement high make it very easy to
+unsubscribe if people can't opt out easily instead of
+unsubscribing they're going to mark you as spam your
+reputation is built on how people interact with your emails
+if they engage email providers trust you if they ignore or
+report you your email stop reaching people's inboxes if
+you're new to email marketing and want to avoid having your
+emails marked as spam follow these key steps make sure you
+get permission first never send emails to anyone that
+haven't explicitly agreed to receive them if you can use
+double opt-in where subscribers confirm their email address
+and ensure that your list is full of engaged people number
+two i would avoid spammy subject lines email providers scan
+subject lines for suspicious words like free act now you've
+won instead write natural subject lines that match your
+audience and what they expect from you and sometimes one
+thing i wish i knew earlier was that your subject line
+should be treated a bit like a youtube title sometimes you
+should spend a good amount of time because if you don't get
+that response you're not going to be able to get that right
+they're not going to look at all the amazing information
+inside number three i would say probably keep your email
+list clean regularly removing active subscribers maybe
+people that have fake emails and by fake emails they
+probably signed up using the wrong email address and any
+addresses that bounce a high number of undeliverable emails
+can damage your sender reputation and number four i would
+say send emails from a professional domain you can use a
+free email provider like gmail or yahoo.com but these can
+trigger spam filters instead use a custom domain
+you can authenticate your emails with something called spf
+dkim or dmarc long story short we now need to authenticate
+our domains this is to stop people from buying jamesmith
+.google.com and then pretending i work at google number five
+avoid too many images and links emails packed with images
+and attachments or too many links can look suspicious this
+is a place we should be trying to use majority text and six
+if you can keep a consistent sending schedule so whether
+it's daily once a week three times a week just try and get
+some flow through your email list and if you're don't go
+quiet for two weeks then hit people with four emails a day
+for a week number seven i'd personalize your emails you can
+get people's names so there'll be a bit of code if you go
+into aweber when someone signs up they give you their name
+and you can put in that code so it'll say hey james or hey
+declan or hey sarah and although these are less likely to
+mark to spam people also like the customization when the
+emails are personalized it just makes it look better even
+though they know it's email marketing it looks better and
+again just to reiterate make it easy to unsubscribe we don't
+want to try and make it difficult for people to block us
+number nine would be to use a reputable email marketing
+platform active campaign clavio convert kit aweber mailchimp
+whatever it is they have tools in here to manage your sender
+reputation and ensure your emails land in inboxes and i'll
+say number 10 monitor your email metrics check your open
+rates click-through rates and spam complaints if spam
+complaints increase adjust your approach by improving
+whatever it is you've been doing to make this go worse if
+you follow these steps you'll keep emails out of spam and
+ensure they actually get seen by your audience if you don't
+do anything dodgy it could be fun

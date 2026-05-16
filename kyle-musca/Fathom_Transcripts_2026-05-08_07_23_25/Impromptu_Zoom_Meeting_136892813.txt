@@ -1,0 +1,1137 @@
+Meeting: Impromptu Zoom Meeting
+Date: 2026-04-10T04:01:49Z
+Scheduled: 2026-04-10T02:57:37Z - 2026-04-10T03:12:37Z
+Recording: 2026-04-10T02:58:54Z - 2026-04-10T04:01:38Z
+Language: en
+URL: https://fathom.video/calls/632433031
+Share Link: https://fathom.video/share/ctcyyny-M6LmPNHiYMvJscohijzf82ns
+Recording ID: 136892813
+
+Participants: Kyle Musca (kyle@empcoaching.com.au)
+Recorded by: Kyle Musca (kyle@empcoaching.com.au)
+--- TRANSCRIPT ---
+
+[00:00:00] Kyle Musca: Hey, how going?
+[00:00:01] Imogen Harris: This meeting is being recorded.
+[00:00:06] Kyle Musca: How's things?
+[00:00:07] Kyle Musca: How are you feeling?
+[00:00:08] Imogen Harris: Yeah, it's good.
+[00:00:09] Imogen Harris: I feel like it's just been a  week, to be honest.
+[00:00:11] Kyle Musca: That's okay.
+[00:00:12] Imogen Harris: How are you?
+[00:00:14] Kyle Musca: Good, good.
+[00:00:15] Kyle Musca: This week's actually flying by.
+[00:00:16] Imogen Harris: heaps of  going on, which is good.
+[00:00:18] Imogen Harris: Oh, yeah, that's good.
+[00:00:19] Imogen Harris: Very good.
+[00:00:21] Kyle Musca: Let me log into JotForm.
+[00:00:24] Kyle Musca: I feel like we already know what we're going to cover for the most part of the day.
+[00:00:28] Kyle Musca: Is there anything specific that you want to run over besides the shop, right?
+[00:00:31] Imogen Harris: Nah, nah.
+[00:00:32] Imogen Harris: think that's probably the main thing.
+[00:00:34] Imogen Harris: I know, yeah, as I said, I know it's probably, by the sounds of something that's happening a lot, but obviously there's things that I can implement on my end to make sure that we reduce it, so.
+[00:00:43] Kyle Musca: Yeah, yeah.
+[00:00:44] Kyle Musca: So, a lot of this comes down to just picking it all apart, so that's what we're going to do.
+[00:00:49] Kyle Musca: We'll dive in.
+[00:00:50] Kyle Musca: We'll quickly go through the JotForm.
+[00:00:56] Kyle Musca: Did you fill that one out?
+[00:00:57] Imogen Harris: I did, if I can.
+[00:01:01] Kyle Musca: Yeah, perfect.
+[00:01:03] Kyle Musca: Okay.
+[00:01:04] Kyle Musca: So four calls taken, 11 booked, one upfront nutrition, one weekly nutrition, apparently, Sage.
+[00:01:12] Kyle Musca: Yeah.
+[00:01:13] Kyle Musca: So reschedules and stuff, no shows.
+[00:01:17] Kyle Musca: I mean, we're past Easter and stuff like that.
+[00:01:19] Kyle Musca: So realistically, I think that's just a set-up problem and that's what we need to really pick apart.
+[00:01:24] Kyle Musca: So this is something I really have heavily focused on over the last, probably last week or so.
+[00:01:30] Imogen Harris: Yeah.
+[00:01:31] Kyle Musca: And changing the script a little bit, quite a decent amount.
+[00:01:36] Imogen Harris: So we'll pull that up.
+[00:01:37] Imogen Harris: Yeah.
+[00:01:38] Kyle Musca: Now, you've got the automations and the text.
+[00:01:45] Imogen Harris: Yeah.
+[00:01:46] Imogen Harris: So in terms of the Calendly, because obviously I've been booking, I haven't been using Calendly for myself booking, if I'm booking them.
+[00:01:54] Imogen Harris: Obviously, she is as well, but I need to refine the back end of Calendly, which obviously said grow high levels, probably the better way to
+[00:02:00] Imogen Harris: Go, which I think is probably going to be better long term.
+[00:02:02] Imogen Harris: So I need to have a look at that, think, moving forward.
+[00:02:05] Kyle Musca: Just because it's a bit of a  head case with it sometimes.
+[00:02:09] Kyle Musca: Yeah, so Calendly, I mean, it's just, GoHallover is just a good all-in-one system.
+[00:02:15] Kyle Musca: I think you've proven that you can get the lead flow and everything like that.
+[00:02:17] Kyle Musca: And I always encourage people to move over there eventually.
+[00:02:20] Kyle Musca: It's not overly complicated.
+[00:02:22] Kyle Musca: It looks really complicated and confusing setting it up.
+[00:02:26] Kyle Musca: But realistically, the only things you're really going to need it for is obviously the calendar to book people in.
+[00:02:33] Kyle Musca: It makes it a lot easier when you have like setters and stuff like that, especially closers and stuff.
+[00:02:37] Kyle Musca: Because like, you can see I've got, you know, my US calls here from one of my closers and my Australian calls here.
+[00:02:45] Kyle Musca: And that's not even like a packed out week, like that's next week.
+[00:02:47] Kyle Musca: So, you know, it's just easier to sort of manage.
+[00:02:51] Kyle Musca: Also having the setters in here, you know, they can be like, cool.
+[00:02:54] Kyle Musca: You know, I can do tomorrow at 4 p.m.
+[00:02:57] Imogen Harris: Great, book that in.
+[00:02:58] Imogen Harris: And it's just a really nice stream.
+[00:02:59] Imogen Harris: So I feel like the setterers and I have had to be quite back and forth about like making sure that the times are good on my end as well.
+[00:03:07] Imogen Harris: So I feel like having this, it just means like I can block things that I know that like I can't do so then she can just see it all and it's just going to make it so much easier.
+[00:03:15] Kyle Musca: Yeah.
+[00:03:16] Kyle Musca: So one, you can connect your calendar here so you can see everything else, but you can also set like booking time so they can't book.
+[00:03:23] Imogen Harris: So for example, Tommy, right?
+[00:03:25] Kyle Musca: Yeah.
+[00:03:26] Kyle Musca: Tommy, Australian Eastern Standard Time and Star Time.
+[00:03:33] Kyle Musca: So you'll see, so that's not working properly.
+[00:03:41] Kyle Musca: What am I trying to show here?
+[00:03:43] Kyle Musca: So that's because it's like stuck on that.
+[00:03:46] Kyle Musca: But realistically, usually what will happen here is if he goes Monday and then...
+[00:03:59] Kyle Musca: That's right.
+[00:04:02] Kyle Musca: There we go.
+[00:04:03] Kyle Musca: Yeah, so Tommy.
+[00:04:04] Kyle Musca: And then, yeah, you'll see what we should do is I don't obviously book these people in.
+[00:04:11] Kyle Musca: Oh, it's because it's on custom.
+[00:04:12] Kyle Musca: That would definitely be why.
+[00:04:15] Kyle Musca: So let's say it's like, you know, one, this is the only times where he can actually book out calls, right?
+[00:04:22] Imogen Harris: Cool.
+[00:04:22] Kyle Musca: So I should definitely have a chat to him about that real quick, actually, because he's blocked that out because he's on the thing.
+[00:04:31] Kyle Musca: It was his birthday this week.
+[00:04:32] Imogen Harris: I'm thinking like five different ones.
+[00:04:34] Kyle Musca: Yeah, good.
+[00:04:35] Imogen Harris: I love that.
+[00:04:35] Imogen Harris: Yeah, I feel like the last two weeks I've spoken to a few people.
+[00:04:38] Imogen Harris: I feel like everything's just happening at once, which is a good and bad thing.
+[00:04:43] Imogen Harris: Yeah, I've got him at five today, I believe.
+[00:04:47] Imogen Harris: So that should be helpful.
+[00:04:53] Kyle Musca: All right, back to it.
+[00:04:54] Kyle Musca: So, yeah.
+[00:04:55] Kyle Musca: So, for example, let's say it's just Tuesday and then you can see.
+[00:05:00] Kyle Musca: The only one he has available right now is 6.30, right?
+[00:05:03] Kyle Musca: Because I assume that the other times have been booked.
+[00:05:05] Kyle Musca: But if we come into, let's say, the 23rd, you can see he'll take calls from...
+[00:05:10] Imogen Harris: Okay, cool.
+[00:05:11] Imogen Harris: Yeah.
+[00:05:12] Kyle Musca: Again, that's not even...
+[00:05:13] Kyle Musca: Oh, that's ours.
+[00:05:13] Imogen Harris: So again, it's just ...
+[00:05:16] Kyle Musca: But yeah, so 3 p.m.
+[00:05:17] Kyle Musca: to 6 p.m.
+[00:05:18] Imogen Harris: is when he takes calls.
+[00:05:19] Kyle Musca: So they can only book in there.
+[00:05:21] Kyle Musca: Yeah.
+[00:05:21] Kyle Musca: Wasn't the best explanation.
+[00:05:23] Imogen Harris: I get what you're trying to say, so that's fine.
+[00:05:26] Kyle Musca: But the other thing is, the other thing you'll need is automation.
+[00:05:29] Kyle Musca: So when you actually, like, it's very, it's a lot easier to actually sort of set up and like clearly see.
+[00:05:35] Imogen Harris: Yeah.
+[00:05:35] Kyle Musca: Because for example, this automation is, you can see like the emails and stuff when they go out, what's included of them, and you can just see it all in one place.
+[00:05:50] Imogen Harris: Yeah.
+[00:05:51] Kyle Musca: Yeah.
+[00:05:52] Kyle Musca: We just get someone to set that up.
+[00:05:53] Imogen Harris: it's not like...
+[00:05:54] Imogen Harris: I was going to say, is there someone I can pay to do that?
+[00:05:56] Kyle Musca: So I don't have to...
+[00:05:57] Kyle Musca: Yeah.
+[00:05:58] Imogen Harris: It's not like 20 bucks or something.
+[00:05:59] Kyle Musca: They don't charge.
+[00:06:00] Kyle Musca: The other cool thing that you will need is the conversation.
+[00:06:04] Kyle Musca: So again, this is really helpful when you have setters in there because if many chats  up or whatever, they can come in and use this.
+[00:06:10] Kyle Musca: And you can connect Australian or you can get any numbers, but I've got an Australian and a US number.
+[00:06:15] Kyle Musca: So if they come from the US, I can text them straight through go high level on this or the closers can, the setters can.
+[00:06:21] Kyle Musca: This is also where the automations come from.
+[00:06:24] Kyle Musca: Obviously, if they're Australian, you can text them through that one.
+[00:06:27] Kyle Musca: So you can also connect Instagram and everything like that as well.
+[00:06:33] Kyle Musca: So you can do SMS, WhatsApps, emails, and Instagram when it's an Instagram message, which I'm not going to find right now because there's a , there's too many of these.
+[00:06:44] Imogen Harris: What's going on there?
+[00:06:45] Kyle Musca: Yeah.
+[00:06:46] Kyle Musca: So maybe like Nicholas.
+[00:06:51] Kyle Musca: Maybe he's self-booked.
+[00:06:53] Kyle Musca: Yeah.
+[00:06:53] Kyle Musca: Anyway.
+[00:06:53] Kyle Musca: Yeah.
+[00:06:54] Kyle Musca: Just a simple overview.
+[00:06:55] Kyle Musca: Everything else is pretty much irrelevant.
+[00:06:57] Kyle Musca: You don't really like, we can't do more with it if we want.
+[00:07:00] Kyle Musca: Let's set the  up, but just keep it nice and simple.
+[00:07:02] Imogen Harris: I feel like it's probably more overwhelming because I don't want to set the automations up.
+[00:07:06] Kyle Musca: So if someone I can pay to do it, it's probably going to be a little bit more convincing to get over.
+[00:07:11] Kyle Musca: Yeah.
+[00:07:12] Kyle Musca: Yeah.
+[00:07:12] Kyle Musca: I've got someone that can set that up fairly easily for you.
+[00:07:15] Imogen Harris: So that's fine.
+[00:07:16] Imogen Harris: Yeah.
+[00:07:16] Imogen Harris: All right.
+[00:07:16] Imogen Harris: Well, I'll get on top of that and get that sorted this week or today.
+[00:07:21] Kyle Musca: Perfect.
+[00:07:22] Kyle Musca: Now, the main things I changed with the script, right, is the post-booking flow.
+[00:07:27] Kyle Musca: Everything above is the same.
+[00:07:29] Kyle Musca: The confirmation email is still the same, right?
+[00:07:32] Kyle Musca: That hasn't changed.
+[00:07:34] Kyle Musca: Yeah.
+[00:07:34] Kyle Musca: It's more so from the shop.
+[00:07:36] Kyle Musca: So instead of kind of saying, like, we're going to put so much time and effort into it, I kind of sat down and sort of, like, looked at that and I was like, well, you know, we've only really spoken about their goal and their struggle, like, how much time and effort can you really put into it?
+[00:07:49] Imogen Harris: Kind of can come across as, like, in a way, like, lying a little bit.
+[00:07:53] Kyle Musca: Yeah.
+[00:08:00] Kyle Musca: No, that is not the right one I'm looking at.
+[00:08:03] Imogen Harris: You're like reading it going, hold on a second.
+[00:08:05] Imogen Harris: I thought you closed for a second.
+[00:08:06] Kyle Musca: awfully close to the old one.
+[00:08:08] Kyle Musca: I'm just going to use this one.
+[00:08:09] Kyle Musca: This is my actual one.
+[00:08:16] Kyle Musca: So, save book with closer.
+[00:08:22] Kyle Musca: right, done.
+[00:08:26] Kyle Musca: Cool.
+[00:08:27] Kyle Musca: But yeah, so it changes.
+[00:08:29] Kyle Musca: I should have kept the other one on.
+[00:08:30] Kyle Musca: But beautiful, bro.
+[00:08:31] Kyle Musca: And just on that, we don't usually do reschedules.
+[00:08:34] Kyle Musca: We found the girls that get the best results are the ones that have the self-accountability show up on time.
+[00:08:38] Kyle Musca: So, we can get it sorted properly.
+[00:08:40] Kyle Musca: So, we label them.
+[00:08:41] Kyle Musca: You do seem like that type of girl.
+[00:08:43] Kyle Musca: So, what we do there, it's a...
+[00:08:45] Imogen Harris: They want it to.
+[00:08:46] Kyle Musca: If you read the book, Influence, it's about, or Pre-Suasion, one of them.
+[00:08:49] Kyle Musca: It's both by the same author.
+[00:08:51] Kyle Musca: It's about them remaining congruent with how they're seen.
+[00:08:55] Kyle Musca: You know what I mean?
+[00:08:55] Kyle Musca: Like, you seem like that type of girl to show up, right?
+[00:08:58] Imogen Harris: Yeah.
+[00:08:58] Kyle Musca: So, that's why I've added that in there.
+[00:09:00] Kyle Musca: Before we go any further, though, I just want to confirm, will you 100% be able to make that time?
+[00:09:04] Kyle Musca: No, it's a good thing to still commit and confirm that they will do that.
+[00:09:08] Imogen Harris: Yeah.
+[00:09:09] Kyle Musca: The other thing I changed is in this message on the old one, it says, if something pops up, I've removed that because we want to remove any terminology that allows for that.
+[00:09:18] Kyle Musca: We just want to set the standard as this is just what it is.
+[00:09:22] Kyle Musca: It's expected for you to show up on time.
+[00:09:24] Kyle Musca: So I've changed it to if you have any issues jumping on, which was already a part of it, feel free to shoot me a message here.
+[00:09:29] Imogen Harris: I'm more than happy to lend a hand.
+[00:09:30] Imogen Harris: Yeah.
+[00:09:31] Imogen Harris: Yeah.
+[00:09:32] Kyle Musca: Saying it's on Google Meet as usual, but I've taken away the link because there's no, like, we don't want information overload because we've got the link in the automation set up.
+[00:09:41] Kyle Musca: And we're also going to send them the link on the, like, the morning off message, if that makes sense.
+[00:09:47] Imogen Harris: Okay.
+[00:09:47] Kyle Musca: Yeah.
+[00:09:49] Kyle Musca: So, yeah, there's no point in sending heaps and heaps and just overwhelming them and making it seem too salesy, right?
+[00:09:54] Imogen Harris: Yeah.
+[00:09:55] Kyle Musca: Does that all make sense?
+[00:09:56] Kyle Musca: Just want to make sure we can dive in.
+[00:10:00] Kyle Musca: Awesome chatting to you, Sarah, super keen to see what we've come up with.
+[00:10:03] Kyle Musca: Also giving them something to think about.
+[00:10:06] Kyle Musca: To get the most out of this call, have a think about where you're at, where you want to be, like, oh, sorry, why you want to make that change and what the change is actually going to do for you.
+[00:10:14] Kyle Musca: Yeah.
+[00:10:14] Kyle Musca: So just trying to get them to think a little bit deeper.
+[00:10:17] Kyle Musca: Send the videos and then chat soon, Sarah.
+[00:10:20] Kyle Musca: Right?
+[00:10:21] Imogen Harris: Yeah.
+[00:10:22] Kyle Musca: Now, you'll obviously only have one video there.
+[00:10:25] Kyle Musca: Yeah.
+[00:10:25] Kyle Musca: Now, the other thing I changed is in the night before one.
+[00:10:29] Kyle Musca: Before, it was, like, can you confirm on your side as well?
+[00:10:32] Imogen Harris: Yeah.
+[00:10:32] Kyle Musca: I remove that because I just want to, like, re-engage conversation.
+[00:10:36] Imogen Harris: I just want to get an answer out of them, essentially.
+[00:10:38] Kyle Musca: Yeah.
+[00:10:39] Kyle Musca: So it's like, hey, just look through my calendar for tomorrow.
+[00:10:41] Kyle Musca: Can't confirm we're good for 4 p.m.
+[00:10:42] Kyle Musca: So we are just keeping it top of mind for them instead of saying, like, you know, it's a reminder or anything, like, or can you confirm?
+[00:10:48] Kyle Musca: It's just saying, you know, the time, so it's top of mind for them.
+[00:10:52] Imogen Harris: Yeah.
+[00:10:53] Kyle Musca: Just wanted to check, have you had a chance to – now, what I would do is change this for you because you're the one.
+[00:10:58] Kyle Musca: So – Yeah.
+[00:11:00] Kyle Musca: You're the one that's actually going to be taking the call.
+[00:11:03] Kyle Musca: So what I would do here is I would change this part to something like, I'm just reviewing our conversation, super keen to have a chat, just so I can make the call as valuable as possible for you.
+[00:11:18] Imogen Harris: Is there anything specific you want to cover?
+[00:11:21] Imogen Harris: Okay.
+[00:11:21] Imogen Harris: Yeah.
+[00:11:22] Kyle Musca: Okay.
+[00:11:23] Kyle Musca: So again, what we're trying to do here is we're trying to show the value that they're going to get from just showing up to the call, essentially.
+[00:11:30] Imogen Harris: Yeah.
+[00:11:31] Kyle Musca: Right.
+[00:11:32] Kyle Musca: And then once they reply, that's when I would say, awesome.
+[00:11:36] Kyle Musca: And have you had a chance to check the video I sent above?
+[00:11:39] Imogen Harris: Yeah.
+[00:11:40] Kyle Musca: So just adding that like little extra step, because if they watch this video, then one, they're to be quite bought in, but they're also very likely to show up to the call.
+[00:11:48] Imogen Harris: Yeah.
+[00:11:50] Kyle Musca: Now, what I would potentially do here is if you're going to do this, I would remove.
+[00:11:58] Kyle Musca: So again, this is why I don't like counting.
+[00:11:59] Kyle Musca: Yeah.
+[00:12:00] Kyle Musca: Because it's not as easy to see the workflows that are involved.
+[00:12:05] Kyle Musca: But what I'll do here, so this is the generic booking, which is going to be more like your one, whereas this is the one I have for my closers.
+[00:12:24] Kyle Musca: So that should be the same.
+[00:12:28] Kyle Musca: So this, that should be the same.
+[00:12:44] Kyle Musca: Now these are, so essentially what I'm trying to say here is the automations for you should be more so just reminders for them to get on the call because you're adding the personal touch with the night before message, what the set is up, but it's coming from you.
+[00:12:58] Kyle Musca: And also the...
+[00:13:00] Kyle Musca: The morning or voice message that you send them.
+[00:13:02] Kyle Musca: You know what mean?
+[00:13:03] Imogen Harris: Yeah.
+[00:13:04] Kyle Musca: So it's like these just want to be kind of reminders more than anything.
+[00:13:08] Kyle Musca: Yeah.
+[00:13:08] Kyle Musca: Because if we're constantly asking for like confirmations through here and then we're asking confirmations on Instagram as well, it can just be a little bit annoying.
+[00:13:16] Kyle Musca: You know what I Yeah.
+[00:13:17] Kyle Musca: Okay.
+[00:13:17] Kyle Musca: So and adding that nice personalization is better than just an automated reminder.
+[00:13:22] Imogen Harris: Yeah.
+[00:13:23] Imogen Harris: Yeah.
+[00:13:23] Imogen Harris: Yeah.
+[00:13:23] Imogen Harris: Cool.
+[00:13:25] Kyle Musca: So is this what you all want?
+[00:13:28] Kyle Musca: Is this like, please make sure you check out this video?
+[00:13:30] Imogen Harris: Yeah.
+[00:13:31] Imogen Harris: Yeah.
+[00:13:32] Kyle Musca: Yeah.
+[00:13:33] Kyle Musca: Perfect.
+[00:13:33] Kyle Musca: So I would probably keep that there.
+[00:13:36] Imogen Harris: Yeah.
+[00:13:37] Imogen Harris: Yeah.
+[00:13:39] Imogen Harris: I'll download and I'll get this go high level sorted tonight.
+[00:13:44] Imogen Harris: So then we can try and get that rolling and try and just leave Calendly.
+[00:13:48] Kyle Musca: Yeah.
+[00:13:50] Kyle Musca: Yeah.
+[00:13:50] Kyle Musca: And then what I would probably do is I'd probably remove the morning of SMS because you're sending a personalized voice message.
+[00:13:59] Kyle Musca: So there's no point in having
+[00:14:00] Kyle Musca: Having an SMS go out at the same time and then just leave the two hours and the 10 minutes one.
+[00:14:06] Imogen Harris: Yeah, okay.
+[00:14:07] Kyle Musca: What I would say, so this is my updated one.
+[00:14:12] Kyle Musca: So one is on the 10 minutes one, just saying jump on a couple minutes early so we can dive straight in.
+[00:14:19] Kyle Musca: Text me if you have any issues jumping on.
+[00:14:21] Imogen Harris: Yeah.
+[00:14:24] Kyle Musca: And then that one's the same.
+[00:14:28] Kyle Musca: But you can see I've removed the morning of one.
+[00:14:30] Imogen Harris: Yeah.
+[00:14:32] Imogen Harris: Yeah, okay.
+[00:14:32] Kyle Musca: Does that all make sense?
+[00:14:34] Imogen Harris: Yeah, yeah, yeah.
+[00:14:35] Imogen Harris: I'll kind of map out, I'll write stuff for like the 10 and 2 and stuff like that.
+[00:14:39] Imogen Harris: So then I've got the information there.
+[00:14:40] Imogen Harris: So then if someone's creating the automations for it, then I can kind of say the language that I want and stuff like that.
+[00:14:47] Kyle Musca: Yeah, yeah, definitely.
+[00:14:49] Kyle Musca: What I'll do here as well is let me actually find the template.
+[00:14:54] Kyle Musca: one.
+[00:15:45] Kyle Musca: Now, the other thing I want to do is just pick apart how these conversations are going down.
+[00:16:05] Imogen Harris: Yeah, definitely think, yeah, my biggest downfall right now is some of the calls that I am doing.
+[00:16:13] Imogen Harris: I'm just not confident enough to, like, I guess, rebut more to then get them to sell on the call.
+[00:16:20] Imogen Harris: That's my biggest downfall, I feel, right now.
+[00:16:23] Kyle Musca: Yeah.
+[00:16:24] Imogen Harris: So what, in terms of, like, give me a scenario that's come up?
+[00:16:31] Imogen Harris: I just, I'm getting the, like, I'll talk to my partner or, like, I want to start in a couple of weeks.
+[00:16:38] Imogen Harris: Like, I've got this on or this on, and then I'm kind of just, like, more understanding that I'm, like, questioning that, if that makes sense.
+[00:16:46] Kyle Musca: Yeah, okay.
+[00:16:47] Kyle Musca: So, I mean, give me one that you've actually done.
+[00:16:51] Kyle Musca: Like, give me, give me one, give me a real scenario that happened.
+[00:16:54] Imogen Harris: Before I even had a call with that Laura girl, and she was, like.
+[00:17:00] Imogen Harris: yeah, yeah, yeah, cool.
+[00:17:00] Imogen Harris: Like, that sounds all really good.
+[00:17:01] Imogen Harris: And, like, she was really happy with everything.
+[00:17:03] Imogen Harris: And then she's like, I've just got to talk to my partner tonight.
+[00:17:06] Imogen Harris: And then I can let you know.
+[00:17:07] Imogen Harris: And I was just like, yeah, okay, babe.
+[00:17:09] Imogen Harris: Like, that's, like, that's all good.
+[00:17:10] Imogen Harris: Just making sure, like, obviously I've only got one spot left for Monday.
+[00:17:13] Imogen Harris: Like, I just want to make sure that that spot doesn't get taken up between now and then.
+[00:17:18] Kyle Musca: And she's like, yeah, no, I'll know before, like, 6 p.m.
+[00:17:20] Kyle Musca: tonight.
+[00:17:20] Kyle Musca: And then I was just, yeah.
+[00:17:21] Kyle Musca: So I was just kind of like, oh, , okay.
+[00:17:25] Kyle Musca: Okay, so do you have this sheet?
+[00:17:30] Imogen Harris: I do not.
+[00:17:32] Imogen Harris: I have any objection to cheats, and that's the bit that I'm not good at.
+[00:17:39] Kyle Musca: Yeah, so that thing is, yeah, yeah, yeah.
+[00:17:41] Kyle Musca: So I need, yeah, this one.
+[00:17:43] Imogen Harris: Yeah.
+[00:17:43] Kyle Musca: Now, keep in mind with this, this will cover, you know, that scenario specifically.
+[00:17:48] Imogen Harris: Yeah.
+[00:17:50] Kyle Musca: But the issue with, like, objection handling cheat sheets is the objection handle will change a million different ways depending on what they say.
+[00:17:59] Imogen Harris: Yeah, 100%.
+[00:17:59] Imogen Harris: Yeah.
+[00:17:59] Kyle Musca: Yeah.
+[00:18:00] Kyle Musca: All right.
+[00:18:01] Kyle Musca: So this is a good framework to follow, but obviously don't say that if it doesn't make sense.
+[00:18:06] Kyle Musca: Yeah.
+[00:18:06] Kyle Musca: So I need to speak to my partner.
+[00:18:08] Kyle Musca: Now, the first thing you need to do is you need to basically agree with them, right?
+[00:18:11] Kyle Musca: Because if you instantly go into objection handling, their guard is going to go straight up because they're expecting you to either just let them get off the phone or more likely you try and sell them into it, right?
+[00:18:22] Imogen Harris: If you do that, their guard will, they'll get extremely defensive.
+[00:18:25] Kyle Musca: Yeah.
+[00:18:25] Kyle Musca: So, yeah.
+[00:18:26] Kyle Musca: Yeah, no, that's not stressful.
+[00:18:27] Kyle Musca: I completely understand that.
+[00:18:28] Kyle Musca: I guess, like, how long do you sort of feel like you'd need to actually have a chat with your partner, right?
+[00:18:32] Kyle Musca: So actually just indulge in the conversation with them and act like you're, you know, going along with it, right?
+[00:18:39] Kyle Musca: Yeah.
+[00:18:40] Kyle Musca: Now, you can throw this in there depending, make sure you don't ask this in a snarky or, you know, bad way, but like try and make it like a little bit jokingly.
+[00:18:51] Kyle Musca: Like, yeah, I could, I would know by like 6pm tomorrow.
+[00:18:54] Kyle Musca: Are you sure?
+[00:18:55] Kyle Musca: Like, is that enough time?
+[00:18:56] Kyle Musca: Like, you don't need like a couple more days, like maybe a week or something?
+[00:18:59] Imogen Harris: Yeah.
+[00:18:59] Imogen Harris: Yeah.
+[00:19:00] Kyle Musca: You know what mean?
+[00:19:01] Imogen Harris: Just like, just kind of lightheartedly.
+[00:19:04] Kyle Musca: Yeah.
+[00:19:05] Kyle Musca: Just like planting the seed, depending on, you know, if you want to ask, it's not super important, but like, yeah.
+[00:19:11] Kyle Musca: And then it's like, okay, so now we need to like re-loop back into it, right?
+[00:19:15] Kyle Musca: Okay.
+[00:19:16] Kyle Musca: No, that's no stress at all.
+[00:19:17] Kyle Musca: I'm like, sure, you know, when you chat with your partner, you'll probably have some questions for me afterwards.
+[00:19:21] Kyle Musca: I guess just so I can prepare, like, what specifically did you want to run through with your partner?
+[00:19:26] Imogen Harris: Right.
+[00:19:27] Imogen Harris: Because the issue that you're facing right now is I need to speak to my partner.
+[00:19:30] Imogen Harris: It's not a real objection because you can't overcome it because you don't, like, the real objection is what are you speaking to your partner about?
+[00:19:36] Imogen Harris: Yeah.
+[00:19:37] Kyle Musca: Right?
+[00:19:38] Imogen Harris: Yeah.
+[00:19:39] Kyle Musca: Okay.
+[00:19:42] Kyle Musca: You know, they'll say, it usually does come down to finances, like, whatever.
+[00:19:46] Kyle Musca: Right?
+[00:19:47] Kyle Musca: Okay.
+[00:19:47] Kyle Musca: So just so we're on the same page, it sounds like you want to check it with a partner and just make sure it makes sense financially.
+[00:19:54] Kyle Musca: So I guess, is that the only thing that's, you know, really like stopping you from getting started today?
+[00:20:00] Kyle Musca: So we're isolating the objection.
+[00:20:01] Kyle Musca: The reason we do this is because you don't want to like solve one objection, right?
+[00:20:06] Kyle Musca: Only for them to pull out another one once you solve that.
+[00:20:09] Imogen Harris: Yeah, yeah.
+[00:20:10] Kyle Musca: If we isolate the objection and they confirm that's the only thing stopping them from it, if we solve this objection, then we're good to go forward.
+[00:20:16] Imogen Harris: Yeah.
+[00:20:21] Kyle Musca: So let's say they probably said just make sure it fits financially.
+[00:20:24] Kyle Musca: Okay.
+[00:20:25] Kyle Musca: Yeah, I guess I'm like price aside.
+[00:20:26] Kyle Musca: you like actually want to do the program?
+[00:20:29] Imogen Harris: Yeah.
+[00:20:30] Kyle Musca: So the reason right now is what they're thinking is they're logistically thinking about price alone.
+[00:20:35] Kyle Musca: And that's why when they get off the phone, they'll start justifying why they shouldn't do it, right?
+[00:20:41] Kyle Musca: So yeah, price aside, do you actually want to do the program?
+[00:20:43] Kyle Musca: Yeah.
+[00:20:44] Kyle Musca: Okay.
+[00:20:44] Kyle Musca: And again, just so I'm on the same page, we're going to scale up one to 10, the 10 being, you know, the program is perfect and, you know, I couldn't add anything to it.
+[00:20:51] Kyle Musca: And one being I've completely missed the mark.
+[00:20:53] Kyle Musca: I'm just a dickhead who's wasting your time.
+[00:20:55] Kyle Musca: Like where are we sitting?
+[00:20:56] Kyle Musca: You know, make a joke out of it.
+[00:20:57] Imogen Harris: Like being, I'll your eyes.
+[00:20:58] Kyle Musca: Yeah.
+[00:20:59] Kyle Musca: Amen.
+[00:21:00] Kyle Musca: They'll say seven, eight, or nine.
+[00:21:01] Kyle Musca: Okay.
+[00:21:02] Kyle Musca: Seven's pretty high.
+[00:21:03] Kyle Musca: Like, why is it lower?
+[00:21:06] Kyle Musca: Lower.
+[00:21:07] Imogen Harris: Yeah.
+[00:21:07] Kyle Musca: The reason we do lower is because they're going to come back and start telling you all the things that's great about the program.
+[00:21:13] Kyle Musca: Oh, I love the structure and the accountability.
+[00:21:16] Kyle Musca: seem like you really care and the girls get such great results.
+[00:21:18] Imogen Harris: Yeah.
+[00:21:19] Kyle Musca: They're talking about, they're telling you the value and they're telling themselves the value.
+[00:21:24] Imogen Harris: Yeah.
+[00:21:25] Kyle Musca: Okay.
+[00:21:27] Kyle Musca: I guess, okay, awesome.
+[00:21:28] Kyle Musca: And I guess, like, what would we, what would you like to see in it to make it a 10?
+[00:21:32] Kyle Musca: They'll either say nothing.
+[00:21:34] Kyle Musca: They might say something you can add, which you just have, like, yeah, no stress, that's included in the program.
+[00:21:38] Kyle Musca: It's just, there's so much, it's, like, hard to say at all.
+[00:21:41] Kyle Musca: Or they'll say, like, price or something, right?
+[00:21:42] Imogen Harris: It doesn't matter.
+[00:21:43] Kyle Musca: Yeah.
+[00:21:45] Kyle Musca: Okay.
+[00:21:45] Kyle Musca: So, from the sounds of things, it's like, you do actually want to do the program.
+[00:21:48] Kyle Musca: And the only thing stopping you is just making sure it works financially, if I'm hearing you correct.
+[00:21:53] Kyle Musca: Yeah.
+[00:21:54] Kyle Musca: Okay.
+[00:21:54] Kyle Musca: Well, that makes sense.
+[00:21:55] Kyle Musca: Look, what I can do is I can work with a billing company, right?
+[00:21:58] Kyle Musca: Kind of like Afterpay.
+[00:21:59] Kyle Musca: So, instead of.
+[00:22:00] Kyle Musca: Covering, you know, two and a half grand or three grand, whatever, today, we could just bring it right down to, you know, $1,500.
+[00:22:06] Kyle Musca: And then the payments wouldn't start till, you know, basically five weeks from now because we didn't officially start till Monday.
+[00:22:12] Kyle Musca: So that would just be $400 a month from that point.
+[00:22:14] Kyle Musca: Makes it super easy on cash flow.
+[00:22:15] Kyle Musca: Does it make it a little bit more reasonable for you to get started?
+[00:22:19] Imogen Harris: Yeah.
+[00:22:20] Kyle Musca: Now, again, this is a bit of nuance because we're going down the financial objection pathway right now.
+[00:22:26] Kyle Musca: Now, the issue with this specifically with, I need to ask my partner, is they can always fall back onto that.
+[00:22:33] Imogen Harris: Yeah.
+[00:22:34] Kyle Musca: So what you kind of got to do in that situation is determine whether it isn't like purely financial or if it's fear-based.
+[00:22:40] Kyle Musca: Yeah.
+[00:22:41] Kyle Musca: Right.
+[00:22:41] Kyle Musca: So I guess you could definitely come to this part here.
+[00:22:44] Imogen Harris: Yeah.
+[00:22:44] Kyle Musca: Right.
+[00:22:45] Kyle Musca: So one, you should always get to this part irrespectively because you shouldn't be breaking it down until you get to this part.
+[00:22:51] Imogen Harris: Yeah.
+[00:22:52] Kyle Musca: If that makes sense.
+[00:22:53] Kyle Musca: Right.
+[00:22:53] Kyle Musca: You never just drop prices.
+[00:22:54] Kyle Musca: You never just break it down without reason because we want to work towards a solution.
+[00:22:59] Imogen Harris: Right.
+[00:23:00] Imogen Harris: Right.
+[00:23:00] Imogen Harris: Because that's how we get them across the line.
+[00:23:02] Imogen Harris: Yeah.
+[00:23:02] Imogen Harris: Yeah.
+[00:23:03] Kyle Musca: So this is going to establish essentially what path we go down.
+[00:23:06] Kyle Musca: Right.
+[00:23:07] Kyle Musca: Okay.
+[00:23:08] Kyle Musca: Well, you know, yes, but I'd still have to check with my partner.
+[00:23:12] Kyle Musca: Okay.
+[00:23:13] Kyle Musca: Yeah.
+[00:23:13] Kyle Musca: No, I completely understand that.
+[00:23:14] Kyle Musca: And like, at the end of the day, it is a big decision.
+[00:23:16] Kyle Musca: I know, you know, if I made a big decision without running through my partner, I'd be on the dog, in the dog bed or whatever the .
+[00:23:23] Imogen Harris: Right.
+[00:23:24] Imogen Harris: Just agree with, relate to him.
+[00:23:25] Kyle Musca: Yeah.
+[00:23:26] Kyle Musca: I assume you're probably not someone who's going to go ask your partner if you can invest in yourself, but, you know, it is what it is.
+[00:23:34] Kyle Musca: I guess just so I'm on the same page with you, like, if you want to do the program, I'd love to sort of help you do it.
+[00:23:39] Kyle Musca: If not, that's life sometimes.
+[00:23:40] Kyle Musca: Right.
+[00:23:41] Kyle Musca: So always just give them an out by saying that, you know, if we can't do it, that's fine.
+[00:23:45] Imogen Harris: Yeah.
+[00:23:45] Kyle Musca: Just so I'm on the same page.
+[00:23:47] Kyle Musca: Is it a matter of like, you actually do have the funds available and you just need to make sure it fits within everything else, like bills and stuff?
+[00:23:53] Kyle Musca: Or is it more of like, you just visit you don't have those funds.
+[00:23:56] Imogen Harris: And it's a matter of like, how can you actually sort of find them?
+[00:24:00] Imogen Harris: Yeah.
+[00:24:02] Kyle Musca: So, because realistically, if they tell us that they have the funds and it's just a thing to make it work financially, then it's like, okay, we know that we can get a close here and now.
+[00:24:12] Imogen Harris: Yeah.
+[00:24:12] Kyle Musca: If they don't have the funds, it's a matter of like just logistically breaking it down.
+[00:24:16] Imogen Harris: Like, okay, what are you spending money on each week?
+[00:24:18] Imogen Harris: Yeah, okay.
+[00:24:20] Imogen Harris: You know what mean?
+[00:24:20] Kyle Musca: Because I guarantee most people are spending a lot of money on   they don't need.
+[00:24:23] Imogen Harris: Yeah.
+[00:24:25] Kyle Musca: Right.
+[00:24:27] Kyle Musca: Cool.
+[00:24:27] Kyle Musca: Well, if it's just a cash flow problem, which I completely understand, instead of doing, you know, $1,500 now, what we could do is, yeah, instead of doing $1,500, what we could do is bring that right down to just, okay, so you'd actually save $500 to get started, which would obviously give you that breathing room with all the bills and everything like that.
+[00:24:49] Kyle Musca: And then it would just be $500 a month from that point, again, in five weeks' time.
+[00:24:52] Imogen Harris: So, it's super easy on cash flow.
+[00:24:54] Imogen Harris: Is that going to be a bit more reasonable for you?
+[00:24:56] Imogen Harris: Yeah.
+[00:24:57] Kyle Musca: You know, NC, we've kind of checkmate them there, because if they just said they
+[00:25:00] Imogen Harris: have the funds, financial, like physical funds.
+[00:25:03] Kyle Musca: And it's just a matter of like having breathing room with bills where we've just saved you $500.
+[00:25:07] Imogen Harris: Yeah.
+[00:25:08] Kyle Musca: They didn't save $500, but that's how we were.
+[00:25:12] Imogen Harris: Yeah.
+[00:25:13] Imogen Harris: Yeah.
+[00:25:13] Imogen Harris: Okay.
+[00:25:13] Imogen Harris: Cool.
+[00:25:14] Imogen Harris: Yeah.
+[00:25:14] Imogen Harris: I think I'm just, I'm not thinking of a more of like a, I need to get out of, I'm not, I'm trying to make a sale, not like I'm trying to help them all the time, if that makes sense.
+[00:25:26] Kyle Musca: Yeah.
+[00:25:26] Kyle Musca: So, I mean, like it's a fine line, objection handling and coaching.
+[00:25:30] Imogen Harris: Yeah.
+[00:25:31] Kyle Musca: Because in a way you are coaching them, but they haven't yet given you the authority to do that.
+[00:25:38] Kyle Musca: it's a high pressure situation.
+[00:25:39] Kyle Musca: So, you have to approach it from a different angle.
+[00:25:41] Kyle Musca: But realistically, these people are coming to you because they struggle with accountability.
+[00:25:46] Kyle Musca: They struggle with making the right decisions that they know they should make.
+[00:25:49] Kyle Musca: So, it's your job to sort of coach them and break their beliefs into actually committing with it.
+[00:25:54] Kyle Musca: And the way you do that is just by asking them questions and moving them through an objection cycling thing.
+[00:25:58] Kyle Musca: Yeah.
+[00:25:59] Kyle Musca: Right?
+[00:26:00] Kyle Musca: Now, if it is, let's say you do this and they're like, oh, I still need to ask with my partner.
+[00:26:05] Kyle Musca: It's a fear-based thing, right?
+[00:26:08] Kyle Musca: We know that it's a fear-based thing.
+[00:26:10] Imogen Harris: Yeah.
+[00:26:14] Kyle Musca: What you can do that is, again, the partner objection is kind of, it is the hardest one, in my opinion, because they can always relate back to it and they can always give themselves an out.
+[00:26:22] Kyle Musca: So we kind of have to move them through.
+[00:26:25] Kyle Musca: We have to do two things.
+[00:26:26] Kyle Musca: So one, we have to break their belief and make them realize that it's their life and they're the ones in control of it.
+[00:26:31] Kyle Musca: And they're the ones that need to make the decision for their life.
+[00:26:34] Kyle Musca: And in the same matter, almost try and not pin their partner as the bad guy, but pin it as such as like, you know, your partner is probably not going to see the worthy investment because they're not struggling with the same pains as you're struggling with.
+[00:26:51] Kyle Musca: They don't know how that's making you feel.
+[00:26:54] Kyle Musca: And essentially, if you give away that control to them in six months time, when you haven't made a change and you're feeling even worse.
+[00:27:00] Kyle Musca: Worse than you're feeling right now.
+[00:27:01] Kyle Musca: Who do you think you're going to blame for that?
+[00:27:04] Imogen Harris: Yeah.
+[00:27:05] Kyle Musca: You know what mean?
+[00:27:05] Kyle Musca: So again, you don't just get to that point there, but like you do eventually get to that point.
+[00:27:09] Kyle Musca: So it's like, I still need to ask my partner and be like, so a really good one to do there is like, if they still say I need to ask my partner, be like, okay, yeah, completely understand.
+[00:27:18] Kyle Musca: I guess like, well, I guess like if you did go and ask your partner and they just turned around and said, no, you're not doing it.
+[00:27:23] Kyle Musca: What would you do then?
+[00:27:26] Kyle Musca: You know what mean?
+[00:27:27] Kyle Musca: Some like about a third of the time, they'd be like, oh, I just have to figure a way to do it anyway.
+[00:27:31] Kyle Musca: And then you're just like, okay, well, I mean, would you rather, I guess if that's the case and you're going to figure a way to do it anyway, would you rather just sort of get started?
+[00:27:41] Kyle Musca: Yeah, get started.
+[00:27:42] Kyle Musca: So that way, when you do go have a conversation with them, it's a place of, I'm so excited.
+[00:27:46] Kyle Musca: I've just invested in my health for all these great reasons.
+[00:27:49] Kyle Musca: Or would you rather go have the conversation where you're essentially just asking for permission for them?
+[00:27:55] Kyle Musca: And if they say no, you're just going to do it anyway.
+[00:27:58] Imogen Harris: Yeah.
+[00:27:58] Imogen Harris: Okay.
+[00:27:58] Imogen Harris: Yeah.
+[00:27:59] Imogen Harris: I'm definitely not asking.
+[00:28:00] Imogen Harris: Asking enough questions to dive deeper into why they don't sign up then and there.
+[00:28:05] Imogen Harris: I think, yeah, I think I've just kind of not scared off, but I'm just kind of like, , I don't want to like pressure them.
+[00:28:12] Imogen Harris: But at the same time, that's kind of how I'm going to get the sale at the end of the day.
+[00:28:16] Kyle Musca: Yeah, I mean, like, again, with the pressure situation, you've always just given out.
+[00:28:20] Kyle Musca: And you always just kind of keep re-asking, like, I just want to make sure, you actually want to do the program?
+[00:28:26] Kyle Musca: Because if you don't, we can just wrap this call up right now.
+[00:28:29] Imogen Harris: That's absolutely fine.
+[00:28:30] Imogen Harris: Yeah.
+[00:28:30] Kyle Musca: What that does is it just gives an out, because then you can say whatever the  you want.
+[00:28:33] Kyle Musca: You know what mean?
+[00:28:34] Kyle Musca: Like, they've just confirmed that they want to do the program, and you're just trying to help them do it.
+[00:28:38] Imogen Harris: Yeah, yeah, okay.
+[00:28:40] Kyle Musca: So every new objection cycle, like, as you'll see here, objection cycle, essentially, I always just start with giving them an out.
+[00:28:48] Imogen Harris: Yeah, okay, yeah.
+[00:28:50] Kyle Musca: Now, let's say, now, really important with this as well, when you go, they say, I need to go ask my partner, and what happens if they said no?
+[00:28:57] Kyle Musca: They'll say, like, oh, I just have to figure a way.
+[00:29:00] Kyle Musca: To get it done or figure a way how to, you know, do this, like not the program, but like do the, like make, get the results.
+[00:29:08] Kyle Musca: Very importantly, you don't just take that at a vague level response.
+[00:29:11] Kyle Musca: A lot of people would just move on there, but you can't move on from that because it's not a specific response and it's not a real response.
+[00:29:19] Kyle Musca: I mean, like if they've struggled with their way for two years and they're just like, oh, I'm just going to figure it out.
+[00:29:23] Kyle Musca: It's like, how are you going to figure it out?
+[00:29:26] Imogen Harris: Yeah.
+[00:29:26] Imogen Harris: So you've got to ask literally out, like, oh, yeah, how are going to do that?
+[00:29:30] Kyle Musca: Yeah.
+[00:29:30] Kyle Musca: I don't know.
+[00:29:30] Kyle Musca: I'll just figure it out.
+[00:29:31] Kyle Musca: No, well, it's really important that we do understand, like you have a plan in place.
+[00:29:35] Kyle Musca: If we're going to wrap this call up, I guess, like how are you actually going to figure that out realistically?
+[00:29:39] Kyle Musca: Or I don't know.
+[00:29:41] Imogen Harris: Well, yeah, I mean, like, do you see the problem there?
+[00:29:45] Kyle Musca: Because like you're saying that you're just going to figure it out, but you don't actually know how you're going to figure it out.
+[00:29:49] Kyle Musca: Do you see how that possibly would get you in the cycle of just going in circles and not actually achieving any kind of real results?
+[00:29:56] Imogen Harris: Yeah.
+[00:29:57] Kyle Musca: Oh, yeah, I get you.
+[00:29:59] Kyle Musca: Okay.
+[00:30:00] Kyle Musca: So I guess, and then again, usually from here, I'll move into an analogy one.
+[00:30:06] Imogen Harris: So you can still use the analogy part here.
+[00:30:09] Kyle Musca: Like, do you mind if I, do you mind if I like sort of challenge you on that for a second?
+[00:30:14] Kyle Musca: Yeah.
+[00:30:15] Kyle Musca: Okay.
+[00:30:16] Kyle Musca: So I guess, have you ever heard the analogy, heavy is the head that wears the crown?
+[00:30:23] Kyle Musca: No.
+[00:30:24] Kyle Musca: So essentially, it's basically talking about like kings and queens, right?
+[00:30:27] Kyle Musca: And how it's, you know, perceived to be a blessing that obviously you get born into a life of privilege, which it absolutely is.
+[00:30:33] Kyle Musca: But a lot of people fail to consideration the responsibilities and the burdens that come from those responsibilities from actually having to make the decisions that influence the kingdom, right?
+[00:30:44] Kyle Musca: Now, realistically, you are the leader of your own life, right?
+[00:30:49] Kyle Musca: And the decisions you make in that process will determine which directions you go in and the, I guess, the prosperity of that life.
+[00:30:57] Kyle Musca: So I guess, let me ask you this, like, So...
+[00:30:59] Kyle Musca: So...
+[00:31:00] Kyle Musca: If you're the leader of your life, and right now you're experiencing the pains you're experiencing with, you know, not being confident, being 20 kilos of weight, that's making you feel really insecure about your own body.
+[00:31:10] Kyle Musca: Do you feel like you're going to be the leader of your own life and make the decisions that are going to directly impact that life?
+[00:31:16] Kyle Musca: Or do you feel like you're going to pass off that responsibility to someone else who doesn't understand what it's like living with those pains to make that decision for you and therefore basically direct the direction of your life?
+[00:31:31] Kyle Musca: Well, I guess I should make the decision.
+[00:31:33] Kyle Musca: And well, I guess let me ask you as well, like if you do sort of pass off that responsibility of making that decision, you know, in six months time, when things likely haven't changed, probably even got worse, and you're feeling even worse than you're feeling right now, who do you think you're going to blame in that situation?
+[00:31:52] Kyle Musca: Sometimes they'll say to me, like, do you think it'll be you?
+[00:31:54] Kyle Musca: Or do you feel like it'll be the person that made the decision to say that you can't do something you want to do?
+[00:32:01] Kyle Musca: Oh yeah, I guess so.
+[00:32:03] Kyle Musca: So I guess like, you know, and I hope you, I don't mean to overstep you or anything like that, but like, I guess, what decision are you going to make so that you actually are in control of, of where your life actually heads?
+[00:32:17] Imogen Harris: Yeah.
+[00:32:17] Imogen Harris: Okay.
+[00:32:18] Kyle Musca: So yeah, we're trying to like, now is the, again, you can word it differently, word it in your own words, but see how we're trying to shift it into, if you give your partner the responsibility of making this decision and he makes the wrong one, you know what mean?
+[00:32:30] Kyle Musca: Like, who do you think you're going to blame?
+[00:32:32] Imogen Harris: Yeah.
+[00:32:33] Imogen Harris: Yeah.
+[00:32:34] Imogen Harris: Okay, cool.
+[00:32:35] Imogen Harris: Yeah, I definitely, I need to, cause like, I know I'm so good at selling my like package and everything like that, but the rebut or like the head, like, I think it's been the partner and it's like, well, I'm going away in two weeks or I've got a, like, I'm moving house or in two, three weeks.
+[00:32:51] Imogen Harris: And then it's just kind of like, okay, so you, you, you've gotten on a call, but, and you wanting to do it, but you wanting to do it when it kind of suits you.
+[00:32:59] Imogen Harris: And I just can't.
+[00:33:00] Imogen Harris: Seem to rebut that bit with the kind of wanting to do it in like two or three weeks situation.
+[00:33:06] Kyle Musca: Yeah.
+[00:33:06] Kyle Musca: So one is for that, I'll come back to this in a second.
+[00:33:10] Kyle Musca: For that, that's why I always ask before I drop the price, you know, when are you hoping to get started?
+[00:33:14] Kyle Musca: Because if they say now, then it's like, cool.
+[00:33:18] Kyle Musca: You already acknowledged the only thing that influences that is price.
+[00:33:21] Kyle Musca: If they say they're moving or something, so they're not going to want to do it, you know, after two weeks or whatever, just be like, no, that's no stress.
+[00:33:28] Kyle Musca: Look, that actually works out quite well, because what I'll do is I'll go have a look at everything we've spoken about and build a package based off that.
+[00:33:34] Kyle Musca: And then once you're settled into your new home, we can jump on a call, rehash things and go from there.
+[00:33:39] Imogen Harris: Yeah.
+[00:33:40] Kyle Musca: So you don't drop price if they're not ready to sign.
+[00:33:42] Imogen Harris: My biggest  up then.
+[00:33:44] Imogen Harris: I will not do that moving forward.
+[00:33:46] Kyle Musca: Yeah.
+[00:33:46] Kyle Musca: Because like, again, you can't overcome that.
+[00:33:48] Kyle Musca: If you do save price and then they whip out, you know, I'm moving, so I want to do this after.
+[00:33:53] Kyle Musca: But like, yeah, look, no stress at all.
+[00:33:55] Kyle Musca: You know, at the moment, I do have one spot left available.
+[00:33:58] Kyle Musca: So in that case, what we can do.
+[00:34:00] Kyle Musca: Is we can just lay a deposit down, let's say maybe $500, whatever you want to say in that situation.
+[00:34:06] Kyle Musca: Maybe even K, whatever you want to put out there, right?
+[00:34:10] Kyle Musca: That's going to secure your spot.
+[00:34:12] Kyle Musca: It also means that I'll actually get to work on your program and everything like that for you.
+[00:34:17] Kyle Musca: I'll be able to get it done well before then.
+[00:34:19] Kyle Musca: So I'll give you access to it.
+[00:34:21] Kyle Musca: So essentially, you'll get those weeks for free.
+[00:34:23] Kyle Musca: And then that way, once you are settled in, we can just dive straight in.
+[00:34:26] Kyle Musca: Yeah.
+[00:34:27] Kyle Musca: So you're just going to assume the close.
+[00:34:29] Kyle Musca: Because then they'll say like, oh, you know, they'll rebuttal.
+[00:34:33] Kyle Musca: Like, oh, yeah, no, I just want to need to make sure I save the money for the move and everything like that.
+[00:34:37] Kyle Musca: But I completely understand that.
+[00:34:40] Kyle Musca: Do you mind if I challenge you on that perspective?
+[00:34:43] Kyle Musca: Yeah.
+[00:34:44] Kyle Musca: I guess, you know, the move's happening and obviously there's expenses involved in that move.
+[00:34:49] Kyle Musca: But like, I guess, what's the real difference between you investing into it now versus you investing after the move?
+[00:34:55] Imogen Harris: Yeah.
+[00:34:56] Imogen Harris: Yeah.
+[00:34:57] Imogen Harris: Yeah.
+[00:34:58] Imogen Harris: I'm just being too nice.
+[00:35:00] Kyle Musca: I'm not, like, I'm just allowing it and I'm not raising more questions to make them think about why I put it off or why I wait with it.
+[00:35:07] Kyle Musca: Yeah, Brie, this is why I think it would be good for you to jump on a call with Brie because she's really, really good at objection handling girls into it.
+[00:35:15] Imogen Harris: Yeah.
+[00:35:16] Kyle Musca: Because she's, like, very, she's very ruthless.
+[00:35:18] Kyle Musca: She just won't.
+[00:35:19] Imogen Harris: No, I think people are, like, hearing how a female does it might kind of make me feel like I can resonate with the tone that she uses or, like, the type of word that she uses as well a little bit.
+[00:35:30] Kyle Musca: Yeah, yeah, definitely.
+[00:35:31] Kyle Musca: You've got a call booked in with her, right?
+[00:35:34] Imogen Harris: No, I haven't.
+[00:35:34] Imogen Harris: I've got one with Tommy this afternoon at five.
+[00:35:37] Kyle Musca: Okay.
+[00:35:38] Kyle Musca: Yeah, I did speak to Brie about jumping on a call with you as well.
+[00:35:42] Kyle Musca: So I think that would be really good.
+[00:35:44] Kyle Musca: And then I can definitely ask her about.
+[00:35:45] Imogen Harris: I'll reach out to her later and we can tee up her time, whatever she's happy to.
+[00:35:50] Kyle Musca: Yeah, perfect.
+[00:35:52] Kyle Musca: And then, yeah, so, again, a lot of the time it's just about continuously asking questions.
+[00:35:57] Kyle Musca: And one thing I really, really like to keep.
+[00:36:00] Kyle Musca: Keep in the back pocket is if they say they struggle with accountability or, yeah, realistically accountability, right, or motivation, one thing I'd just bring up in those situations is be like, well, you know, I know that you said you sort of struggle with, you know, keeping yourself accountable and I guess making the right decisions.
+[00:36:18] Kyle Musca: Do you feel like right now you're sort of pushing this off to avoid that accountability and therefore, you know, potentially making the decision that you'll regret later?
+[00:36:28] Imogen Harris: Yeah, okay, yeah.
+[00:36:30] Kyle Musca: The accountability one is a fantastic thing because if you challenge them on the accountability thing and they've said it, then it like instantly snaps them out of it because they're like, oh, , I can't really argue with that.
+[00:36:39] Imogen Harris: I'd say 95% of the calls, the way I'm kind of asking them, they end up saying they can't do it themselves, they can't, like it's accountability, like every time.
+[00:36:48] Kyle Musca: Yeah, so just keep it in your back pocket because that's such a powerful piece of ammunition is just like, well, you said you struggle with accountability.
+[00:36:56] Kyle Musca: you feel like that's what's happening right now?
+[00:36:58] Kyle Musca: Oh, yeah, okay.
+[00:37:00] Kyle Musca: So are going to change that?
+[00:37:03] Imogen Harris: I could probably have used that in nearly every conversation that I've had.
+[00:37:07] Imogen Harris: So, yeah, I definitely need to use that moving forward.
+[00:37:11] Kyle Musca: Perfect.
+[00:37:12] Kyle Musca: Now, this part of the objection cycle four, I usually go into an identity shift.
+[00:37:16] Kyle Musca: So, again, if it's I need to ask my partner, it's relatively similar, but you're just obviously changing it around the identity shift part.
+[00:37:23] Kyle Musca: So it's like, do you mind if I put my coaching hand on for a second?
+[00:37:25] Kyle Musca: And I just want to make sure, like, you know, before we even go any further, I just want to make sure, like, is the program something you actually want to do?
+[00:37:33] Kyle Musca: Because if it's not, just tell me right now.
+[00:37:35] Kyle Musca: Like, you know, at the end of the day, it's your life.
+[00:37:37] Kyle Musca: If you don't want do it, that's absolutely fine.
+[00:37:38] Kyle Musca: But if you do want to do it, I would like to see and help you.
+[00:37:41] Kyle Musca: And after everything you've told me as a coach, I almost feel obligated to make sure you almost see this through.
+[00:37:47] Kyle Musca: So just tell me right now, is the program something you actually want to do?
+[00:37:51] Kyle Musca: Yeah.
+[00:37:51] Kyle Musca: Okay.
+[00:37:52] Kyle Musca: Would you mind if I put on my coaching hand for a second?
+[00:37:54] Kyle Musca: Yeah.
+[00:37:55] Kyle Musca: When it comes to situations like this, it kind of seems like, you know, you're almost holding yourself.
+[00:38:00] Kyle Musca: Which is completely normal when you're faced with a big change.
+[00:38:03] Kyle Musca: So what I like to do is this, like, I guess, think about the woman that you want to be in six months' time, right?
+[00:38:09] Kyle Musca: She's lost 20 kilos.
+[00:38:10] Kyle Musca: She's the leanest, strongest, most confident version of herself.
+[00:38:14] Kyle Musca: And she's not just confident in how she looks.
+[00:38:17] Kyle Musca: She's confident in her ability to follow through on the things that she said she knows will improve her life.
+[00:38:24] Kyle Musca: When you think of that woman, I guess, you know, the woman that, sorry, the woman you want to become, what decisions do you feel like she would make right now?
+[00:38:34] Kyle Musca: Do you think, or do you feel like she would sit on the sidelines, you know, keep arming and uhring and making, I hope you don't mind me saying, but making excuses as to why she can't start and do something that she knows that she wants to do?
+[00:38:47] Kyle Musca: Or do you feel like she would commit and do everything in her power to make sure that the change actually happened so she could become that woman that she knows she's capable of becoming?
+[00:38:58] Kyle Musca: What do you see?
+[00:38:59] Kyle Musca: What decision?
+[00:39:00] Kyle Musca: Do you feel like she would make right now?
+[00:39:05] Imogen Harris: Yeah, okay.
+[00:39:07] Imogen Harris: Yeah, I'm definitely not going into it as deep as what this is.
+[00:39:11] Kyle Musca: Yeah, now the identity shift one is a really, really powerful one because it takes them out of their mindset and the decisions they'd make and puts them in the body and the mind of the person that they want to, like they envision themselves becoming.
+[00:39:23] Kyle Musca: And that person of themselves doesn't struggle with accountability.
+[00:39:27] Imogen Harris: Yeah.
+[00:39:28] Kyle Musca: So it's a different decision-making process because it's not them.
+[00:39:31] Imogen Harris: And it's the person they envision themselves becoming.
+[00:39:34] Imogen Harris: Yeah.
+[00:39:38] Kyle Musca: Then you can see heavy is the head, weight, the crown.
+[00:39:40] Kyle Musca: So partner objection is still in here.
+[00:39:43] Kyle Musca: All right, so that's definitely in there.
+[00:39:46] Kyle Musca: Now, by this time, like you've probably been objection handling for 20, 30 minutes.
+[00:39:52] Kyle Musca: Also on this as well, at the end of every objection cycle, you always need to make the re-ask.
+[00:39:57] Kyle Musca: That is a super, super important part of
+[00:40:00] Kyle Musca: But a lot of people miss, because if you don't make the re-ask, they're not going to be like, all right, cool, here's my credit card.
+[00:40:04] Imogen Harris: You know what mean?
+[00:40:05] Kyle Musca: So it's like, you know, what decision do you feel like you need to make?
+[00:40:08] Kyle Musca: Oh, you know, I need to do it.
+[00:40:10] Kyle Musca: Okay.
+[00:40:11] Kyle Musca: So I guess, do you want to do it then?
+[00:40:13] Kyle Musca: Like you have to directly re-ask, you know what mean?
+[00:40:15] Imogen Harris: Yeah.
+[00:40:18] Kyle Musca: Now, by this time, I'm, yes, there is a part of the thing here.
+[00:40:28] Kyle Musca: By this point, I'm like, you know, because if they get off the phone, like, again, they're not coming back, right?
+[00:40:36] Kyle Musca: They're going to talk themselves out of it.
+[00:40:37] Kyle Musca: I would rather come across as too pushy and in a way salesy than just let them get off the phone.
+[00:40:45] Imogen Harris: That's why I need to remove out of my head.
+[00:40:47] Imogen Harris: I'm like, no, like, just don't feel like I'm, it's a bad thing that I'm trying to push it.
+[00:40:52] Kyle Musca: That's like the whole point of being on the  call.
+[00:40:55] Kyle Musca: Well, mean, if they get angry at you and stuff like that, it's, it's more of a reflection of them because it's like.
+[00:41:00] Kyle Musca: Um, realistically, and you just turn around and be like, look, you know, I do understand how you could see it as, you know, salesy and everything like that.
+[00:41:07] Kyle Musca: The reality is, and this is basically what we're about to say here.
+[00:41:10] Kyle Musca: The reality is like, you've told me X, Y, and Z.
+[00:41:13] Kyle Musca: You've told me that you're really struggling with this.
+[00:41:15] Kyle Musca: And I know that I'm capable of helping you.
+[00:41:17] Kyle Musca: Uh, if you, if you think this is a salesy, I would argue that you're just not very coachable.
+[00:41:22] Imogen Harris: Hmm.
+[00:41:24] Imogen Harris: Yeah.
+[00:41:26] Imogen Harris: Yeah.
+[00:41:26] Kyle Musca: Yeah.
+[00:41:27] Kyle Musca: Cause it's like, are you going to call me salesy if, you know, you do join the program and you haven't done any of your meal plans or your training sessions and I get, you know, up you for, for not actually committing to it?
+[00:41:37] Kyle Musca: Is that salesy in your opinion?
+[00:41:38] Kyle Musca: Or is that just a coach keeping you accountable?
+[00:41:41] Imogen Harris: Yeah.
+[00:41:41] Imogen Harris: Yeah.
+[00:41:42] Kyle Musca: You know what mean?
+[00:41:43] Kyle Musca: Um, so by this point, I'm like, I'm not really prepared to go any further.
+[00:41:48] Kyle Musca: You're kind of  me off.
+[00:41:49] Kyle Musca: So it's just that you, and this is what the objection cycling does, right?
+[00:41:52] Kyle Musca: You get more direct as you go through it.
+[00:41:55] Kyle Musca: So at the start, I like to think of is you're just a friendly neighborhood Spider-Man.
+[00:41:58] Kyle Musca: You're just there to try and help them.
+[00:41:59] Imogen Harris: You know,
+[00:42:00] Imogen Harris: If they don't want to do it, it's their life.
+[00:42:01] Imogen Harris: don't really give a  what you do.
+[00:42:03] Kyle Musca: If want to do it, cool.
+[00:42:04] Kyle Musca: Here, it's just like, you know, literally, do you mind if I'm just completely up front?
+[00:42:09] Kyle Musca: You know, just put all the cards on the table.
+[00:42:11] Kyle Musca: Yeah.
+[00:42:11] Kyle Musca: All right.
+[00:42:12] Kyle Musca: Look, you've told me that you've been struggling for the last three years and you've been feeling insecure in your own body.
+[00:42:17] Kyle Musca: You're stopping going out and doing experiences that you want to do because of that.
+[00:42:21] Kyle Musca: And, you know, whatever the  they said.
+[00:42:23] Kyle Musca: Now, you've told me that you've struggled with accountability and everything we've spoken about, you know that you need this change.
+[00:42:29] Kyle Musca: And you feel confident that this program is what's going to allow you to actually make that change.
+[00:42:34] Kyle Musca: Now, I know I can get you there.
+[00:42:35] Kyle Musca: And I wouldn't say I want to work with you if I didn't genuinely know that.
+[00:42:39] Kyle Musca: All right.
+[00:42:39] Kyle Musca: At the end of the day, it is your life.
+[00:42:41] Kyle Musca: But I almost feel obligated to make sure that you see this through because I know how much this change has meant it.
+[00:42:48] Kyle Musca: I know how much change.
+[00:42:50] Kyle Musca: Obviously, proofread this before we jump on.
+[00:42:52] Kyle Musca: I know how much this change has meant to every other woman that's been through this program.
+[00:42:56] Kyle Musca: So I guess I want to ask you, what decision do you need to make right now?
+[00:42:59] Kyle Musca: know.
+[00:43:00] Kyle Musca: So when you go to bed tonight, you know you've put yourself in the best possible position so that in six months' time you've lost that 20 kilos, you're feeling extremely confident in your own skin, you're wearing the things that you haven't worn in years, and you're walking into social events feeling incredible.
+[00:43:15] Kyle Musca: Like you don't have to put all that together, obviously make it unique to what they said.
+[00:43:18] Kyle Musca: What decision do need to make right now to make sure that that actually happens, right?
+[00:43:25] Imogen Harris: Yeah, yeah.
+[00:43:27] Kyle Musca: Now obviously this is the sort of partner side of things, right?
+[00:43:31] Kyle Musca: Can I put my coaching account on for a second?
+[00:43:34] Kyle Musca: Like let's say you've gone through a couple of objection cycles, they're just like, I need to answer my partner.
+[00:43:38] Kyle Musca: You know, I've done a hundred of these calls, and when girls tell me that they need to ask their partner or they need to think about it, my actual statistics, my real statistics for that, 98% of the time, once they get off the phone, we never speak again.
+[00:43:52] Kyle Musca: And the reason for that is your brain is immediately going to go into self-defense mode.
+[00:43:56] Kyle Musca: It will start generating all the reasons why now isn't the right time.
+[00:44:00] Kyle Musca: Time, or you're too busy, something's got like come up or whatever it is, your brain's trying to protect you from change because staying comfortable is safe and familiar, even if you know that you don't want to be there, right?
+[00:44:14] Kyle Musca: Here's the thing, the biggest cause of failure statistically is indecision, which is not making a decision and in itself is actually making a decision, right?
+[00:44:24] Kyle Musca: So by pushing off the responsibility of not making the decision, you are inherently making a decision to do that.
+[00:44:30] Kyle Musca: And that always leads to the same result, which is failure.
+[00:44:35] Kyle Musca: Now, realistically, you don't need time to think about this, right?
+[00:44:38] Kyle Musca: You need information.
+[00:44:40] Kyle Musca: And I'm the only source of that right now.
+[00:44:42] Kyle Musca: So I guess if there's something specific that you're unsure about, let's talk about it.
+[00:44:47] Kyle Musca: But I don't want you to leave this call not making a decision because if you do that, like the decision is to accept that nothing is going to change and things are probably only going to get worse from here.
+[00:44:57] Imogen Harris: Yeah, I really like that one.
+[00:44:58] Imogen Harris: think that I would be so.
+[00:45:00] Imogen Harris: So applicable to a lot of the conversations that I've had without it kind of coming across pushy, but just also like giving them the facts at the same time.
+[00:45:08] Kyle Musca: Yeah.
+[00:45:09] Kyle Musca: So it's like, yeah.
+[00:45:12] Kyle Musca: So one thing I would, I would do there is just, this is just an audience, have to do it now.
+[00:45:21] Kyle Musca: Yeah.
+[00:45:22] Kyle Musca: So, and you can see here through the different objection cycles, like one, two, three, four, and five, six, like, you know, passive, curious, collaborative, solution-focused, storytelling, light pressure, you know, coaching, empathetic, challenging, direct, urgent, confronting.
+[00:45:40] Imogen Harris: Yeah, I like that.
+[00:45:41] Kyle Musca: So as you move forward, it's like you're getting more and more direct.
+[00:45:45] Imogen Harris: Yeah.
+[00:45:47] Kyle Musca: Yeah, cool.
+[00:45:50] Kyle Musca: Yeah.
+[00:45:51] Kyle Musca: And then from the sounds of things before, were, you are still using the limited spots type thing.
+[00:45:58] Imogen Harris: The what?
+[00:45:59] Kyle Musca: Sorry?
+[00:46:00] Imogen Harris: The limited spots type thing.
+[00:46:02] Imogen Harris: Yeah, that's something that I'm using in every conversation and call.
+[00:46:07] Imogen Harris: And like, to be honest, like some of it, that's all that's needed.
+[00:46:10] Imogen Harris: But then when they kind of rebut that, then I'm not really kind of digging that little bit deeper.
+[00:46:13] Imogen Harris: So that's definitely on me to fix.
+[00:46:16] Kyle Musca: Yeah.
+[00:46:17] Kyle Musca: Now, there are certain circumstances where maybe they do like actually need to ask their partner and check their finance, whatever, right?
+[00:46:23] Kyle Musca: Or it's just like really hard to get them to budge on anything.
+[00:46:28] Kyle Musca: The best way to figure out what is causing that, like if it's legitimate or not, it's just like, cool, we can lay a deposit of $500.
+[00:46:36] Kyle Musca: And that way, you if you go check your finances and you say, look, it's just absolutely something that I can't do.
+[00:46:41] Kyle Musca: What I'll do is I can just refund you.
+[00:46:43] Kyle Musca: That's no stress at all.
+[00:46:45] Kyle Musca: One, it just secures your spot.
+[00:46:46] Kyle Musca: And it shows me that you're actually serious.
+[00:46:48] Kyle Musca: So I can actually start to get to work on things for you.
+[00:46:50] Kyle Musca: Yeah.
+[00:46:50] Kyle Musca: Sounds fair.
+[00:46:51] Kyle Musca: If they say no to that, then it's like, just go all in on the call.
+[00:46:57] Kyle Musca: Because they're just like, if they're actually serious.
+[00:47:00] Kyle Musca: about it and they need to check their numbers or ask their partner, there's no reason they wouldn't lay a refundable deposit.
+[00:47:05] Imogen Harris: Yeah.
+[00:47:06] Imogen Harris: Like they'll get a back or another.
+[00:47:09] Kyle Musca: Yeah.
+[00:47:09] Kyle Musca: Like it just doesn't make sense.
+[00:47:10] Kyle Musca: It's refundable.
+[00:47:11] Imogen Harris: Yeah.
+[00:47:14] Kyle Musca: That's like, just go all in.
+[00:47:16] Imogen Harris: Okay.
+[00:47:17] Imogen Harris: Yeah.
+[00:47:17] Imogen Harris: It sounds like a plan.
+[00:47:19] Imogen Harris: Yeah.
+[00:47:19] Imogen Harris: It's definitely my biggest focus.
+[00:47:20] Kyle Musca: think moving forward is that.
+[00:47:23] Kyle Musca: And also on that, if you get a call that's not qualified, get them through to this because you know that they're going to say no, which means that you can just objection handle like a .
+[00:47:35] Kyle Musca: Yeah.
+[00:47:35] Kyle Musca: Like just practice and do things that you wouldn't do on a normal call that's higher pressure.
+[00:47:39] Kyle Musca: mean, say things that you wouldn't say, push harder, you know, not come across as salesy, but certainly don't be afraid to come across salesy if you say something, if you  up something, you know what I mean?
+[00:47:50] Kyle Musca: Better  up on one of those calls than  up on a call that actually is potentially going to get across the line.
+[00:47:56] Imogen Harris: Yeah.
+[00:47:56] Imogen Harris: Okay.
+[00:47:56] Imogen Harris: Yeah, cool.
+[00:47:57] Imogen Harris: I might, even if I'm honest, get  Caitlin on the other end.
+[00:48:00] Imogen Harris: Another call or something and just get her to  fire random  at me and just practice, if I'm honest.
+[00:48:04] Kyle Musca: I would.
+[00:48:05] Kyle Musca: Yeah, the more role play you can do, the better.
+[00:48:07] Imogen Harris: Yeah, 100%.
+[00:48:07] Imogen Harris: Cool.
+[00:48:10] Kyle Musca: Any questions on any of that stuff?
+[00:48:12] Imogen Harris: Nah, nah, that's good.
+[00:48:13] Imogen Harris: Nah, that's good.
+[00:48:15] Kyle Musca: So Laura was one of the girls that got off?
+[00:48:18] Imogen Harris: Yeah, that was the one that I had just before you.
+[00:48:20] Imogen Harris: So yeah, she said she gets home at 4pm and she would talk to her partner and I was kind like, yep, okay, no worries.
+[00:48:27] Imogen Harris: So yeah, yeah, definitely something that I need to work on.
+[00:48:31] Kyle Musca: Is it close?
+[00:48:33] Kyle Musca: It's probably not tagged with book calls, is it?
+[00:48:38] Kyle Musca: Nah, so what I would recommend doing is just letting a setter to know also to tag them, one, with call prompted.
+[00:48:44] Kyle Musca: So when they offer the call, like they get to that part of the script of like, how about we jump on a call?
+[00:48:49] Kyle Musca: That's tagging with call prompted.
+[00:48:51] Imogen Harris: Okay.
+[00:48:51] Kyle Musca: And then once they actually book a call, tagging with call booked.
+[00:48:55] Kyle Musca: And that way, you know, if we want to come and have a look at these, then we can just quickly easily.
+[00:48:59] Imogen Harris: you.
+[00:48:59] Imogen Harris: Thank you.
+[00:48:59] Imogen Harris: you.
+[00:49:00] Imogen Harris: Yeah.
+[00:49:00] Imogen Harris: Okay.
+[00:49:01] Imogen Harris: So calls booked and then prompt call.
+[00:49:04] Kyle Musca: Yeah.
+[00:49:05] Kyle Musca: Yeah.
+[00:49:05] Kyle Musca: So let me know who out of these guys have booked a call.
+[00:49:13] Imogen Harris: I don't, half of them, I wouldn't even know because the set has done a lot of them, but that Caitlin Barry girl.
+[00:49:19] Imogen Harris: Oh my God.
+[00:49:20] Imogen Harris: I mean, the setter were talking about how it was so, she refused to give her number and her email.
+[00:49:25] Imogen Harris: And then she insisted that the call was over Instagram, which I was kind of like, you know what, fine, whatever.
+[00:49:29] Imogen Harris: If that's what you want, that's all good.
+[00:49:31] Imogen Harris: And then didn't obviously rock up.
+[00:49:36] Kyle Musca: Yeah.
+[00:49:36] Kyle Musca: So I don't do that.
+[00:49:38] Kyle Musca: yeah.
+[00:49:38] Kyle Musca: You got to set the standard stuff.
+[00:49:40] Kyle Musca: Like if they don't want to give their phone, that's one thing, but like, I need to, I need to lock it in on my calendar.
+[00:49:45] Imogen Harris: need an email.
+[00:49:46] Imogen Harris: Yeah.
+[00:49:47] Imogen Harris: Okay.
+[00:49:47] Imogen Harris: Yeah.
+[00:49:48] Imogen Harris: Yeah.
+[00:49:48] Imogen Harris: was just like, even the setter, she was like, I don't know what the , like, she's just being very hard to talk.
+[00:49:53] Imogen Harris: I was like, yeah.
+[00:49:54] Imogen Harris: So look, I didn't really think that was going to go ahead anyway, to be honest.
+[00:49:58] Imogen Harris: Um, and yeah.
+[00:50:00] Imogen Harris: Because then, obviously, after the setter had forgotten, obviously, that we would say it was through Instagram.
+[00:50:05] Imogen Harris: And then she's like, it's through Instagram, remember?
+[00:50:07] Imogen Harris: And then, I don't know, after that, when I was like, I'm not going to see her at all.
+[00:50:11] Imogen Harris: So, yeah, that was, I, yeah, I said to the setter, like, for this, I'd be like, she just said number, to be fair.
+[00:50:30] Kyle Musca: So, I don't know, unless she said email somewhere else, I would have just said, be like, okay, no stress.
+[00:50:35] Kyle Musca: We can just do email so I can send you some details.
+[00:50:39] Imogen Harris: That was the first time that that happened, so I was just like, yeah, , okay.
+[00:50:43] Imogen Harris: And then the, I'm to look at who's booked calls.
+[00:50:51] Imogen Harris: Or that, the second last one above Hayley, I'm not going to try and pronounce her  name.
+[00:50:57] Imogen Harris: She got on a call and then it
+[00:51:00] Imogen Harris: It's like 10 minutes in.
+[00:51:00] Imogen Harris: She's like, I have to go back now for my break.
+[00:51:03] Imogen Harris: And I was like, okay.
+[00:51:04] Imogen Harris: So, and then, yeah, didn't obviously hear back.
+[00:51:07] Imogen Harris: So, yeah, because I ended up messaging her, like text messaging her on WhatsApp because she was a bit late to the call.
+[00:51:14] Imogen Harris: And then she got on and then she had to get off quite quickly.
+[00:51:16] Kyle Musca: Just the one below that, not her.
+[00:51:18] Kyle Musca: Oh, this girl.
+[00:51:20] Imogen Harris: Sorry.
+[00:51:20] Imogen Harris: Yeah.
+[00:51:22] Imogen Harris: So, yeah, she got on just after, yeah, 3.30, I think it was yesterday.
+[00:51:27] Imogen Harris: And then it was like 3.40.
+[00:51:29] Imogen Harris: She's I'm sorry, I'm going to have to go.
+[00:51:30] Imogen Harris: And then I messaged her on WhatsApp and yeah.
+[00:51:32] Imogen Harris: I didn't hear back.
+[00:51:34] Imogen Harris: So, think it was just yesterday.
+[00:51:36] Imogen Harris: was just like, it's not that I felt like a waste of time, but I was like, I had a no-show, then rescheduled, and like she  off after 10 minutes.
+[00:51:43] Imogen Harris: And I was just like, 's sake.
+[00:51:50] Kyle Musca: Did we gauge what she's doing for work?
+[00:51:53] Imogen Harris: I have no idea.
+[00:51:54] Imogen Harris: did not do this conversation at all.
+[00:51:57] Kyle Musca: Yeah.
+[00:51:57] Kyle Musca: So, she skipped.
+[00:52:00] Kyle Musca: The work question, which is in the end of the world.
+[00:52:03] Kyle Musca: mean, it's like 3.30.
+[00:52:09] Imogen Harris: Yeah, it was that one.
+[00:52:10] Kyle Musca: Yeah, so I guess she did probably say afternoon.
+[00:52:14] Imogen Harris: Yeah.
+[00:52:16] Kyle Musca: And then she went.
+[00:52:19] Kyle Musca: But what I do in that as well, I think it's in here.
+[00:52:25] Imogen Harris: So I definitely think having the go high level as well would just make sure, like, those text reminders there, and probably just saying, like, making sure you're blocking out the time so there's no distractions or something like that.
+[00:52:36] Kyle Musca: Yeah, so this part here, when we were talking about day and times, preferably outside of work or driving.
+[00:52:43] Imogen Harris: That's definitely in the script that I've given the setup, but I might just reiterate that just to make sure that they're booking out that time.
+[00:52:52] Imogen Harris: Because I've had, like, an organic, she's come from a motherfucking client, but she's rescheduled twice, and then she's like.
+[00:53:00] Imogen Harris: Oh, I can quickly call now.
+[00:53:01] Imogen Harris: Like, I'm on the way to work now.
+[00:53:02] Imogen Harris: I like, I'm not calling you.
+[00:53:03] Imogen Harris: Why are you quickly on the way?
+[00:53:04] Imogen Harris: Because you're not going to be listening.
+[00:53:05] Kyle Musca: Yeah.
+[00:53:06] Imogen Harris: Like, it's just, yeah.
+[00:53:08] Kyle Musca: Yeah.
+[00:53:08] Kyle Musca: So if that's a problem, anything like that, you just need to feed back to the setter.
+[00:53:12] Kyle Musca: Like, so for you, I would definitely keep a real close eye on these, just small sort of screenshot and send feedback to the setter.
+[00:53:19] Imogen Harris: Yeah.
+[00:53:20] Imogen Harris: Yeah, definitely.
+[00:53:25] Kyle Musca: Any of these other ones?
+[00:53:28] Kyle Musca: This one, the Brittany shot?
+[00:53:30] Imogen Harris: I don't think that was a no-show.
+[00:53:36] Imogen Harris: I think that was Tuesday.
+[00:53:40] Imogen Harris: No, it wasn't Tuesday.
+[00:53:42] Imogen Harris: It was Wednesday morning.
+[00:53:44] Imogen Harris: Yeah, that was a no-show.
+[00:53:46] Imogen Harris: Tried contacting her because she'd replied to me confirming through WhatsApp as well.
+[00:53:50] Imogen Harris: And then I never heard back from her.
+[00:53:52] Imogen Harris: So, which I probably should have followed up on Instagram as well.
+[00:53:55] Kyle Musca: So that's probably my fault.
+[00:53:57] Kyle Musca: Yeah, I think she said that there.
+[00:54:00] Kyle Musca: I would avoid using another platform to contact them before the call just because like some people might have WhatsApp and not have an education turned on.
+[00:54:10] Kyle Musca: Girls specifically don't check text messages very often either as a whole.
+[00:54:15] Imogen Harris: Yeah.
+[00:54:16] Imogen Harris: Okay.
+[00:54:16] Imogen Harris: Just go straight through there.
+[00:54:17] Kyle Musca: Yeah.
+[00:54:18] Imogen Harris: Yeah.
+[00:54:23] Kyle Musca: Was the call booked in at 6.30 a.m.?
+[00:54:28] Imogen Harris: Yeah.
+[00:54:28] Imogen Harris: Yeah.
+[00:54:34] Imogen Harris: Which, look, was a bit early, but I was ready and then not that she didn't show.
+[00:54:39] Imogen Harris: So that's, yeah.
+[00:54:46] Kyle Musca: Yeah.
+[00:54:46] Kyle Musca: So, and when did you send her the message to confirm?
+[00:54:54] Imogen Harris: That night prior, I believe.
+[00:54:56] Imogen Harris: And then I sent one like 10 minutes prior.
+[00:54:59] Imogen Harris: That's why.
+[00:55:00] Imogen Harris: I think it's probably going to be easier, obviously, having go high-level to do automation, so I'm not  manually doing them as well.
+[00:55:08] Imogen Harris: But, yeah, and then, yeah, I just never heard back.
+[00:55:12] Imogen Harris: So, yeah, because I did one the night prior, and then, like, yeah, 10, 15 minutes prior, before, and then 10 minutes during when the call was actually meant to be.
+[00:55:23] Kyle Musca: Okay, and are you calling them if they don't get on the Zoom?
+[00:55:27] Imogen Harris: I, no, I'm not.
+[00:55:29] Imogen Harris: I'm just on the Zoom.
+[00:55:29] Kyle Musca: Yeah, so just start  spam calling them.
+[00:55:31] Imogen Harris: Okay.
+[00:55:32] Kyle Musca: Yeah, mean, like, especially if it's told you to get up at 6.30, 6.30, you get on a call, it's like, what are you doing?
+[00:55:40] Imogen Harris: Yeah, I was a bit off of the, and I've got their number, right, so I can call them.
+[00:55:46] Kyle Musca: So, this was on this Tuesday, I think.
+[00:55:51] Imogen Harris: When was the call booked for?
+[00:55:53] Imogen Harris: It was Wednesday morning.
+[00:55:55] Kyle Musca: Yeah, so that's tough.
+[00:55:56] Kyle Musca: That's one.
+[00:56:00] Kyle Musca: The thing that could have helped here, there's not anything really you could have done beyond this because of how early the call was booked.
+[00:56:08] Kyle Musca: But just adding in there like that middle message of...
+[00:56:13] Imogen Harris: Yeah, it don't sound like that kind of girl, but yeah.
+[00:56:16] Kyle Musca: Yeah.
+[00:56:16] Imogen Harris: Yeah.
+[00:56:20] Kyle Musca: A little bit harder as well, but like if that was me actually doing it as well, I'd be like, it's usually a bit early, but if you can absolutely make 6.30.
+[00:56:29] Kyle Musca: Or like even something like that, like it's a lot earlier than I usually take calls, which I'm happy to do, but obviously I don't want to, whatever, wake up that early if you just don't show up.
+[00:56:42] Imogen Harris: So I just want to confirm that you're absolutely going to do that.
+[00:56:44] Imogen Harris: Yeah.
+[00:56:45] Kyle Musca: Too hard to tell the setter about that specifically, but...
+[00:56:48] Imogen Harris: Yeah, because I was like, there was a reschedule.
+[00:56:49] Imogen Harris: I  rushed her home yesterday because I had a call at 1.30 and then like she rescheduled like within like, I think she was five minutes late to the call.
+[00:56:57] Imogen Harris: And she's like, oh, so I'm going to have to do it tomorrow.
+[00:56:58] Imogen Harris: And I was like, for 's sake.
+[00:57:00] Imogen Harris: So, yeah, I think I'd need to really refine, which obviously the automations and being in them frequently as well through the go-high level, think will just make a massive difference as well.
+[00:57:08] Kyle Musca: Yeah, so that's something I'd probably set up, I assume, like over the weekend, ideally.
+[00:57:14] Kyle Musca: What I would also do here, this girl didn't show up?
+[00:57:20] Imogen Harris: No, she did.
+[00:57:21] Imogen Harris: She's the one that's, she's ended up doing the weekly nutrition.
+[00:57:25] Imogen Harris: Because, yeah, I did go rebut with her back and forth and she was like, just, I've got five kids, like, I feel like I can only afford weekly right now.
+[00:57:32] Imogen Harris: So, I just broke down the package into weekly and then that was fine.
+[00:57:36] Imogen Harris: I was just like, wow.
+[00:57:40] Kyle Musca: No boots.
+[00:57:45] Imogen Harris: That was a no-show.
+[00:57:47] Kyle Musca: Yeah, so see the reason for that.
+[00:57:50] Kyle Musca: She didn't really reply for it.
+[00:57:51] Kyle Musca: Let's see when she booked.
+[00:57:53] Kyle Musca: I can do today, 12.30.
+[00:57:56] Kyle Musca: I appreciate that we could possibly do today.
+[00:58:04] Kyle Musca: How did she book on the same day and not show up?
+[00:58:06] Kyle Musca: That's  up.
+[00:58:11] Imogen Harris: Yeah, that was the same day too.
+[00:58:14] Kyle Musca: So it would have been 9 a.m.
+[00:58:19] Imogen Harris: Yeah, because the original time that she wanted until that time, I couldn't do.
+[00:58:24] Kyle Musca: I would say what's very potentially even happened here is like, again, the setter should never, ever, ever do this.
+[00:58:31] Kyle Musca: You know what mean?
+[00:58:32] Imogen Harris: Yeah.
+[00:58:32] Kyle Musca: I've just locked that in.
+[00:58:34] Kyle Musca: Yeah, I've just locked that in.
+[00:58:35] Kyle Musca: Nah, but I've just locked that in, excited to chat to you.
+[00:58:39] Kyle Musca: And then basically just wrap up the call.
+[00:58:41] Kyle Musca: Or what could have happened is she could have just been expecting a phone call because she doesn't know it's a Google Meet.
+[00:58:47] Kyle Musca: I would say that's probably very, very likely what's happened.
+[00:58:50] Imogen Harris: Yeah.
+[00:58:53] Kyle Musca: So the setter needs to, like, you need to have a chat with the setter.
+[00:58:57] Kyle Musca: Like, every single step needs to be done after the post.
+[00:59:00] Imogen Harris: Cool.
+[00:59:01] Imogen Harris: Yeah.
+[00:59:02] Kyle Musca: Like every single step.
+[00:59:04] Imogen Harris: You cannot skip a step.
+[00:59:05] Imogen Harris: Yeah.
+[00:59:07] Kyle Musca: Yeah.
+[00:59:09] Kyle Musca: Then what I would also start doing as well, for your sake, is getting the setter to have access to your call sheet, because you'll be marking them if they're a no-show, whatever.
+[00:59:18] Kyle Musca: If they're a no-show, the setter needs to come in and re-engage the conversation.
+[00:59:21] Kyle Musca: Like, hey, girl, I was waiting on the Google Meet call, but you never showed, is everything okay?
+[00:59:27] Imogen Harris: Yeah.
+[00:59:28] Imogen Harris: Yeah, okay.
+[00:59:28] Imogen Harris: Cool.
+[00:59:29] Kyle Musca: And then try and get them re-booked in on a, like, re-booked.
+[00:59:32] Kyle Musca: I'm usually not a fan of re-bookings, but, like, we don't want to be wasting leads here.
+[00:59:40] Imogen Harris: Yeah.
+[00:59:41] Kyle Musca: And we just need to make, if they do re-book it, we just need to make it very, very clear that, like, don't waste my time.
+[00:59:47] Imogen Harris: Yeah.
+[00:59:48] Kyle Musca: Are you going to show up to this call?
+[00:59:49] Imogen Harris: Yeah.
+[00:59:50] Imogen Harris: I'll edit the new bit that you've kind of done in the script part that you've just sent me, and I'll put it into my script, and she's got it.
+[00:59:56] Imogen Harris: So then I'll just reiterate to focus.
+[01:00:00] Imogen Harris: On that last bit as well.
+[01:00:01] Kyle Musca: Yeah.
+[01:00:02] Kyle Musca: One thing I want you to do as well as like straight after this, go take a screenshot of this chat and send it to your setter because this was the same issue we're kind of dealing with a few, like last time we went through the DMs is then not fully following the post-booking stuff.
+[01:00:17] Kyle Musca: So this can't happen again, essentially, like from the setter's perspective.
+[01:00:21] Imogen Harris: Yeah.
+[01:00:21] Imogen Harris: Yeah.
+[01:00:22] Imogen Harris: Okay.
+[01:00:22] Imogen Harris: Absolutely.
+[01:00:23] Imogen Harris: Yeah.
+[01:00:24] Imogen Harris: Cool.
+[01:00:49] Kyle Musca: Is there, do you want maybe look at your, we probably don't have a heap of time.
+[01:00:54] Kyle Musca: yeah.
+[01:00:55] Kyle Musca: Okay.
+[01:00:56] Kyle Musca: So I think, I think the biggest thing is changing the script.
+[01:01:00] Kyle Musca: Yeah, I think changing the script, make sure the set is doing every single part of the post-booking flow, and then getting GoHighLevel to set up the automations easier.
+[01:01:11] Imogen Harris: Yeah, absolutely.
+[01:01:12] Imogen Harris: I'll get that paid for and sorted tonight, and then we can try and get some automations and  like that sorted ASAP.
+[01:01:20] Kyle Musca: Yeah, perfect.
+[01:01:22] Kyle Musca: GoHighLevel can be a little bit annoying to add the Australian number, but I'm pretty sure my GoHighLevel guy will be able to help you sort that anyway, so it be fine.
+[01:01:31] Imogen Harris: Amazing.
+[01:01:32] Imogen Harris: Yeah, all right, cool.
+[01:01:33] Imogen Harris: That all sounds like a plan.
+[01:01:34] Kyle Musca: Thank you.
+[01:01:35] Imogen Harris: Awesome.
+[01:01:36] Kyle Musca: All right, keep me updated with how you go on that, and if you have any questions, especially with GoHighLevel, just let me know, because again, look over one week.
+[01:01:42] Imogen Harris: Yeah, okay, cool.
+[01:01:43] Imogen Harris: Easy.
+[01:01:43] Imogen Harris: Thank you.
+[01:01:44] Imogen Harris: Appreciate it.
+[01:01:45] Kyle Musca: I'll talk to you soon.
+[01:01:46] Kyle Musca: One thing, very quick, but GoHighLevel, they'll  start spamming you with, like, trainings, calls, and everything like that, so you might even want to, I mean, you might want to take them up on their offer, because, like, obviously, they must have a lot of people that do jump on.
+[01:02:00] Kyle Musca: It gets really overwhelming, which is why they've got them.
+[01:02:02] Kyle Musca: So it might not be a bad idea to sort of jump on with it.
+[01:02:05] Imogen Harris: so right before we started working together, I signed up to some course or something with Caitlin, and they were recommending go to high level, but then they wanted to, it just looked so overwhelming on the videos.
+[01:02:17] Imogen Harris: I was like, oh, 's sake.
+[01:02:18] Imogen Harris: But yeah, if there's someone that can kind of show it, but yeah.
+[01:02:22] Kyle Musca: Yeah, I think they give you the option to like, yeah, on training, like a one-to-one training thing.
+[01:02:26] Kyle Musca: I don't know what they do on it, but I think when I look at it, I think it was helpful.
+[01:02:31] Imogen Harris: Yeah, okay.
+[01:02:32] Imogen Harris: Yeah, nah, worth a shot.
+[01:02:33] Imogen Harris: Yeah, cool.
+[01:02:34] Imogen Harris: Yeah, I'll do that tonight and then get that sorted ASAP.
+[01:02:37] Kyle Musca: Yeah, perfect.
+[01:02:38] Kyle Musca: Awesome.
+[01:02:39] Kyle Musca: All right, well, good luck with that, and we'll chat to you very soon.
+[01:02:41] Kyle Musca: All right, thank you.
+[01:02:42] Kyle Musca: Bye.
+[01:02:43] Kyle Musca: Yeah, bye.

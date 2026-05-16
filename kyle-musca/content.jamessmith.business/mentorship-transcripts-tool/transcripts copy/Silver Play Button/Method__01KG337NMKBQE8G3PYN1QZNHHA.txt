@@ -1,0 +1,228 @@
+There are seven design mistakes I see come up all the time
+with thumbnails that makes them look completely amateur. And
+if your thumbnails look amateur, you're never going to get
+views and sales. But really, these seven things all come
+down to just one principle that I want you to think about.
+Does this design of the thumbnail make the image look clear
+and readable? That's it. That's the only rule you need to
+think about. So in this video, I want to show you the seven
+ways people break this rule with their design, and I've
+organized it into what I call the method. You'll see why in
+a second. So to show you exactly how this method works so
+that you can avoid making these same design mistakes for
+yourself, I'm going to use one of James's thumbnails and
+remake it with these errors so that you know how to spot
+them. Now, this is one of my favorite thumbnails that James
+has made. It brought in over 40,000 views, which is
+incredible for the business channel because it also brought
+in over five figures in sales, just one video alone. Now, it
+follows most of these design rules to a T. And for that
+reason, although it looks really simple, the image is also
+incredibly clear and understandable to grasp, right? But let
+me show you what happens when you break some of these design
+rules and how you fix them, starting with the first C in our
+method. Now, what do you think of this version of the
+thumbnail where we put James's eyes at the bottom of the
+frame? Now, compare this with the original where his eyes
+sit at the top line of this kind of grid that you can see.
+This one is way better, right? And that's because it uses
+something called the rule of thirds. And this rule creates a
+natural feeling of balance within your image. And this is
+the first C of design, composition. Now, our eyes are
+naturally drawn to these kind of intersection points on the
+grid. So when you place your subject's eyes, you place some
+text or an object at these points of intersection, the
+thumbnail feels way more professional, but also it's a lot
+clearer to instantly read. And how can you do this for
+yourself? Well, in Photoshop, you can turn on these lines by
+hitting view, guides, new guide layout, and then hitting OK.
+Then you just want to line up your items in the frame on
+this grid. This brings us onto the next C of design. So for
+a second, think about whenever you're reading a book. In the
+West, we read from left to right, right? But look what
+happens if we flip the text to the other side of the
+thumbnail in James's image. Now, look, it's not impossible
+to read, but it takes a heck of a lot longer to understand
+than if we put the text on the left. And when your viewers
+spend longer than necessary trying to figure out what's
+going on in your thumbnail, they're just going to move on to
+the next video and ignore yours. So the second C of design
+is copy placement. And here, all you want to do is make sure
+that if you're ever using text in your thumbnails, you just
+put it on the left-hand side of the image. Unless you're in
+a country where you read from right to left, in which case,
+just ignore me and knock yourself out. Now, if you've ever
+spent time in London and you've taken the tube, you'll know
+that the underground is filled with billboards and adverts
+from loads of different companies, all trying to win your
+attention. Now, personally, I use the tube pretty much every
+single day. And in my experience, I've seen some shocking
+adverts that I don't know who have approved. But at the same
+time, I've seen some fantastic adverts that have made me
+stop out of my busy commute and pay attention. And maybe
+even Google what's, you know, what the advert's about. Like
+this advert, for example. And actually, if you think about
+it, this is very similar to the way that YouTube and
+thumbnails work too. Because just like these companies that
+make adverts on the underground designed to stop you out of
+your commute, we're also trying to design thumbnails that
+get people to stop browsing YouTube and click on one of our
+videos. So if I show you this killer advert from the
+underground, what do you think sticks out to you first and
+gets your attention? It's the text, right? It's great
+copywriting and a fantastic headline, but it's also big,
+bold, and really, really easy to read, which is the third C,
+clarity. Now, let's go back to the YouTube example and apply
+the same principle now. Because look what happens if we make
+the text on James's thumbnail way smaller. This is
+incredibly harder to read, right? And as you've seen, the
+harder a thumbnail is to read, the less likely a viewer is
+going to stop, click, and watch. So rule three is to make
+sure there's no, what I call, empty space in your
+thumbnails. You want to make sure that you expand your text
+to fill any gaps. And if there's a big blank area in your
+thumbnail, make sure that you make your text bigger so it
+just takes up more of that frame. Which brings us on to C,
+number four. So, hopefully by now, you can see that all of
+these design rules I'm showing you are all there to make
+sure that the viewer can read your thumbnail in a split
+second. In fact, I've even heard that there's a really
+interesting way Stephen Bartlett tests this for his diary of
+a CEO thumbnails. Now, he gets somebody to put a potential
+thumbnail on their phone and stand six feet away from him,
+and he'll see if he can still read the text on the image.
+Now, the easiest way to get your thumbnail to pass this test
+is actually with how you design your text. Because take a
+look at this image. Can you see here how much harder it is
+to quickly read the text if I use two different fonts? Now,
+look, even though the text is taking up a good amount of
+space, it's still pretty hard to read. So, the fourth C of
+design here is what I call having clear fonts. Now, the
+easiest way to make sure your fonts are clear and easy to
+read are to use what's known as sans-serif fonts. Now, in
+simple terms, these are the kinds of fonts that look less
+kind of squiggly and not in italics. They're fonts like
+Montserrat, Poppins, and Roboto. You also want to make sure
+that you use the bold versions of these fonts so that
+they're really easy to read. Look at the difference it makes
+to the readability when I make the text bold versus non-bold
+on James' thumbnail here. This is Montserrat regular, but
+this is Montserrat bold. But Ollie, I hear you cry. I see
+loads of examples of thumbnails with fancy looking fonts. In
+fact, some of these thumbnails you've shown us today have
+squiggly looking fonts, and you're not even using this rule
+with the fonts on your slides now. Well, yeah, and you'd be
+absolutely correct. Just like with all of these Cs of design
+I'm going to show you, there are people that break these
+rules, and that's totally fine. But these are also people
+that have been in the YouTube space for years and have a bit
+of an eye for what works, if I do say so myself. So, to be
+honest, if you're a beginner to YouTube or you just feel
+like you've tried everything but nothing's working, I would
+very highly recommend you stick to these simple design rules
+until you've got that momentum, knowledge of YouTube
+strategy, and skills to know when to effectively break these
+rules. Great. So, now we're on to the fifth C of design,
+which, if you ever break this rule, I will personally come
+to your house and shake my head at you in disappointment,
+like this. Now, you don't want that, do you? So, what is
+this next rule of design? Well, a lot of educational
+creators and business owners look at what gets bigger views
+in the entertainment niches, and they then think that they
+need to copy that style of thumbnail. Now, these are
+thumbnails like this, this, and this. But look at what
+happens if I run this image through AI and get James to make
+one of these shocked faces. Ah! Kind of bloody scary. So,
+hopefully you can see why this kind of expression just
+doesn't work if you're an educational creator or you have a
+channel designed to try and get you more leads for your
+business. Because, think about it, would you, as an
+established, successful, good-looking, popular, intelligent
+business owner, like I'm sure you are because you bought
+this course, actually click on one of these styles of
+thumbnails? Probably not, right? But that's not even the
+worst part. Because if you make these kind of faces on your
+videos, do you think that they're going to bring in serious
+clients for your business? Or do you reckon they'll just
+bring in a lot of unqualified viewers who are younger and
+spend their time watching entertainment content online?
+Exactly. So, the fifth C of design here is all to do with
+credibility. And the rule of thumb is very simple. You
+never, ever want to make a face in your thumbnail that you
+wouldn't make if you're meeting a date for the first time.
+So, you can do this, this, or maybe even this, but none of
+this, or this. If you're ever in doubt, just kiss. Keep it
+simple, stupid, and have a neutral expression to your face.
+Wow, I'm really going full on with these dating analogies
+here in this course. Let's move on to the sixth C before it
+all gets too much. Okay, so look at what happens to the
+readability of this thumbnail if I massively increase the
+brightness of the background and remove the drop shadow that
+we had on the text. You have absolutely no idea what this
+says, right? Even if you squint really, really hard, there's
+no way you can read that. But now look at what happens if we
+bring back the darker background and add a little bit of
+drop shadow to the text. It's way easier to read, right? So,
+the rule here is that if you're ever using text, you just
+want to make sure that it's incredibly readable. Now,
+another great way to do this is with the sixth C, contrast.
+Now, look, it's a very general rule of thumb. If you have
+text on a dark background, you want to make the text white.
+And if you're using text on a light background, you want to
+make the text black. You also want to make sure that your
+text has a slight drop shadow. Awesome. Now, this brings us
+on to the seventh C of design and it works like this. So,
+imagine if I changed the text on this thumbnail from edit
+less to this. Do you think it's clear what this is? No. And
+that's exactly why edit less is way better text to use here.
+It's specific enough so that somebody who looks at the
+thumbnail without reading the title gets curious enough to
+click. Whereas, don't do this is extremely unclear, vague,
+and look, it could mean literally anything, especially when
+it's James telling us this. Anyways, if you take anything
+away from this thumbnail module, let it be this. You want to
+make your thumbnails so bloody good and intriguing that
+people want to click on your video without even reading your
+title. But then, Ollie, I hear you asking again. I've seen
+loads of creators using the text. Don't do this or something
+similar. Even James does this. Well, in this example that
+you can see on screen, James gets away with using text that
+isn't very specific like fix this. Why? Well, that's because
+the red arrow in the Instagram description show us what the
+text is referring to. It gives us something called context
+and that's the seventh C of design. So, how do you actually
+create context for yourself? Well, this is when things like
+arrows, circles, and boxes come into play. What you do is
+you draw the viewer's attention to a specific part of an
+image in your thumbnail and actually shows what the text
+means. Now, context is used all of the time, particularly in
+the fitness space, like in this thumbnail. The arrows here
+immediately show us where the bad circulation is. And take a
+look here at how Dea uses context in this thumbnail all out
+business. The arrow in the whiteboard immediately show us
+what system replaced Dea's old method. But take a look here
+at what happens if we remove the context of the arrow and
+the whiteboard and just have the text all on its own. Here,
+I have no idea what this is. Well, that's because the arrows
+and the whiteboard give the thumbnail visual context. And
+when something isn't clear and isn't contextualized, nobody
+clicks on the video. Look, the exact same is true if we
+remove the arrows on the circulation thumbnail. Now, look,
+AI has given the legs some pretty popping veins here, but
+hopefully you can see how the thumbnail isn't terrible, but
+it's just incredibly, incredibly more intriguing with the
+arrows because it gives the image immediate context. So if
+you ever find yourself wanting to use vague text, like don't
+do this, fix this, or avoid this, please, please, please
+just make sure you're using arrows, circles, boxes, or any
+other image to clearly highlight what exactly this is. So
+there you have it. If you follow my method, you'll never,
+ever, ever, ever make a terrible thumbnail again. At least
+you better not. But as a quick recap, in this video, we've
+been through composition, copy placement, coverage, clean
+fonts, credibility, contrast, and context. The seven C's of
+design. Now, if you go ahead and watch the next video, I put
+together a little quiz to test to see if you've been paying
+attention all this time. Now, click ahead, young padawan.
+Padawan? I didn't even watch Star Wars. Who wrote this
+bloody script? Oh, wait. It was me. Yeah.

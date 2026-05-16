@@ -1,0 +1,169 @@
+So as we looked before, we can only connect one account at a
+time. So if you do have several Instagram pages,
+unfortunately, you will have to have a different account for
+each one, unless there's a setting or something that I don't
+know about. But this is actually quite nice because you can
+keep your campaigns separate. And I assume this is also so
+you can keep contacts a little bit separate. So the next
+thing that we're going to have a little look at is the fact
+that replying to someone's comments and replying to
+someone's DM is slightly different. So let's get into it. So
+we go to an automation and we create an automation.
+Actually, I can show you some here as well. So what's quite
+nice about something I just put on my story is here, the
+prompt is Facebook and for Instagram. So because I put a
+story on my Instagram and it gets pushed to Facebook, I can
+create it so that both channels can come through and get the
+same response, which is going to be getting people to go
+through and look at the landing page for our challenge. So
+very simply, if I want to create an automation and we start
+from scratch, I need to create a prompt. What is the very
+thing that is going to get that person to get the message?
+We call this a trigger. So we come through to the trigger
+here. Now we have an Instagram and we have a Facebook.
+Comments on your post are real, replies to a story, sends a
+message, clicks an ad, comments on your live, whatever.
+There are live things very good as well because you can say
+to people whilst they're on a live stream, hey guys, comment
+the word dad. I don't know why I always have dad or daddy,
+why I don't know what it is. Comment the word Alfie. And
+when you leave this live, there'll be a DM in the inbox.
+Because what we don't want to do during a live stream is
+incentivize people to leave, where instead we can just give
+them a certain response or chatbot prompt. And then after
+the live, when we finish, people can go do the very call to
+action things that we want. So when we do a response to a
+comment or a reel or whatever it is, we can go next post or
+reel or all posts and reel, let's say, include keyword
+newtonic.
+We can now decide whether or not they get kind of a follow
+-up DM. This is the only thing that I would say looks a bit
+tacky. So you don't want every single person to comment on
+your post and then thanks bro. Check your DMs. Check your
+DMs. Just don't do it. It's just, nah, not a fan. Cool. So
+we've got that set up as a response to someone commenting on
+your post. Brilliant. So now we want to make sure that we go
+to Instagram here and you will see that we can then send a
+reply. Thank you so much for the comment. You're the man.
+And we can add a button. Now that button can be several
+things, uh, condition, randomizer, smart delay. There are so
+many different things here, but really all we want them to
+do is open a website. We put the URL in. It's there. Or
+even, well, there's my little shortcuts, me showing off
+again. Sweet. That's in there. Button text. Buy now. So it's
+fairly straightforward. It's fairly simple. Another thing we
+can do up here is click on a sign called preview. When we
+click on preview, we get to see what that looks like. And we
+can even test the link and we can click on the link and it
+will take us through to the website. Okay. So responding to
+a comment is the most basic automation that we can get. Now,
+if we decide instead to send this person through a DM, we
+then can do so much more with it. So what I'll do is I'm
+going to delete this one. I'm going to start again. So in
+essence, what I'm saying is if we can decide to use the
+route of getting someone to DM us, we have more options. So
+this automation instead, we're going to say to people,
+please DM me. So the trigger we want, user sends a message.
+Now we want to detect a certain word in the message, offer,
+let's say. Cool. So that's there. The word offer is there.
+We have a trigger set up. So anyone does that, boom. Then
+the next stage is they're going to get an Instagram DM. Now
+you'll notice that there is more things here that we can
+work with. And this is where we can have a bit of fun. So we
+can even say, cheers for that. Hold on one second. Then I
+can actually bring a delay in. Now that delay, I could make
+12 seconds. And then the text that comes after it, right,
+I'm here now. This is where we can start some bit of fun. So
+we preview it. They get the message. Cheers for that. Hold
+on one second. In about 10 seconds, a second message is
+going to arrive. So if you do want this to make it seem like
+you're someone who is real and that is actually there,
+three, two, one, boom. This is where things can get very
+exciting. Okay. Maybe 12 seconds. Let's just put that to
+three for the sake of an argument. Cool. We could have some
+kind of data collection in here. Now, actually, what's
+interesting is sometimes I put audio in there. So sometimes
+you can put a voice note. So within that, you can go, hold
+on a minute. Wait, I'm here. You can send them a voice note
+going, sorry, just out and about. Couldn't DM me at a worse
+time. Just wanted to let you know about a 12-week challenge.
+We can add a video in there. We can have up to 10 images.
+There's so many things we can do. Now, ultimately, I think
+that text is the best. I think delays are quite good. I
+think images can be quite good. But when people DM us, we
+just have so many more options. Now, let me see if I've got
+one. Actually, let's see if my big hitter is there. So
+there's one, JustBlood, 11,400, just from that. The other 1
+,000 came from Facebook. So look at this one. I think I
+might have deleted some of my good ones. Okay, here we go.
+Cool. So here is an automation, which I set up a while ago.
+And you can see when we click on it, that there's some
+pauses that go throughout it. And this just means that if we
+zoom into this, well, bonjour, three seconds, did a massive
+business event, wait three seconds. We're going to go
+through this, wait three seconds. Then they can go through
+to here. And we got a 65% click-through rate, which is
+pretty good. Now, another thing we need to talk about is the
+prompt that we give people verbally to say to them, hey,
+okay, there's an automation in place. I'd like you to use
+it. Do not always wait till the end of a video because most
+people have left by then. So one thing that's very good is,
+let's say you're doing an introduction to a video. Imagine
+there was a way that you could eat more and actually lose
+fat. Well, today we're going to go through a study that came
+out in 1914 about blah, blah, blah, blah, blah. So, oh, by
+the way, if you want to be sent that study and actually four
+ways that you can teach your dog to see it, just comment the
+word poodle at any point. Then you get into the rest of the
+reel. Then you have the opportunity to get a call to action
+earlier on in that, which is very important. So just make
+sure that you are verbally using the call to action. It
+doesn't have to just be once. It doesn't have to be at the
+end of the video. It can go in wherever you want. Just don't
+use it to ruin your setup. Don't use it as your hook.
+Imagine there was a way that you could eat more and still
+lose weight. Comment the word weight loss, and then I will
+send you a guide. They're like, oh, fuck off, mate. One of
+the things we need to look into is you get something here
+called a contact list, which is basically all of the people
+that have subscribed to your chatbot. I delete them because
+I do not utilize them. There are certain ways you can be
+very clever with these and you can broadcast to them or
+whatever. But to be honest, I just delete them. And this
+keeps the cost down of your membership as well because you
+get charged on the amount of contacts that you have. There's
+just no need to do this. I don't feel the need to broadcast
+to these people any more than anyone else. And actually keep
+in mind that when people go through the certain automations
+that I'm running, I'm going to get their email address at
+the end of it anyway. So I would rather just have that. Now,
+one hack that I think is a really good idea is to let people
+know it's an automation, to not pretend that you are
+actually there in the DMs because it's just disingenuous.
+And actually, I think it's quite cool. If you do an
+automation properly, they're going to go, damn, this person
+switched on. Damn, this person has systems in place that
+when I comment on a post at two in the morning, they get me
+a response, they can send me to the right place. I can't
+believe that so many people have got chat prompts in their
+bio, DM me the word finance and I'll help you. And then they
+don't get a response 12 hours. To me, that's just crazy. How
+you can go run a business. If I comment dog training on a
+dog trainer's bio and he doesn't get back to me for a day,
+I'm like, bro, you could have just set up a chatbot.
+Ridiculous. So I think that's some of the most basic things
+that we need to know about operating chatbots. The main
+thing is that if someone's going to reply to a post with a
+comment, we can have a one barrel tool to set up a response
+and communicate with them. But if they comment on our
+stories or if they send us a DM, we can open a massive, much
+bigger conversation with many more tactics like delays and
+other things that we can do. Now there is an Uno reverse
+plus four in this. So if you want someone to DM you, chances
+are they're going to comment. So set up a response to their
+comment that says, hey mate, I need you to DM me the word,
+not comment it. That will go to them in the DMs. So they're
+going to go, all right, but I'm in the DMs with you. Then
+when they comment the word, it starts the proper automation.
+Hopefully that's not too complicated. That's the beginner's
+stuff.

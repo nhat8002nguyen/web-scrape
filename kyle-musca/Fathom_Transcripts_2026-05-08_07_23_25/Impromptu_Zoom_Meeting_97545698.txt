@@ -1,0 +1,832 @@
+Meeting: Impromptu Zoom Meeting
+Date: 2025-10-29T06:55:45Z
+Scheduled: 2025-10-29T06:02:34Z - 2025-10-29T06:17:34Z
+Recording: 2025-10-29T06:02:51Z - 2025-10-29T06:55:38Z
+Language: en
+URL: https://fathom.video/calls/457222710
+Share Link: https://fathom.video/share/9E-RFijsgyd1QjVgmzv4Hg4Cr9tk2sKy
+Recording ID: 97545698
+
+Participants: Kyle Musca (kyle@empcoaching.com.au)
+Recorded by: Kyle Musca (kyle@empcoaching.com.au)
+--- TRANSCRIPT ---
+
+[00:00:01] Kyle Musca: This meeting is being recorded.
+[00:00:03] Kyle Musca: Yeah.
+[00:00:04] Kyle Musca: So, booked in, 12, is that total between the two of you?
+[00:00:09] jese Smith-shields: Yeah, we had a bit of a  around people.
+[00:00:13] jese Smith-shields: I had to get my VA to quickly jump into that one because I've been flat out today with errands within around the house.
+[00:00:23] jese Smith-shields: That's the CEO dashboard.
+[00:00:29] jese Smith-shields: Yeah, think it was 12 from last Wednesday to this one.
+[00:00:36] Kyle Musca: Between the two?
+[00:00:38] jese Smith-shields: Yeah, yeah.
+[00:00:40] Kyle Musca: Okay.
+[00:00:42] Kyle Musca: And, I mean, your ads are performing well cost per lead.
+[00:00:47] Kyle Musca: Have you read through the conversations to look at the quality of conversations and if people have thought of it?
+[00:00:53] jese Smith-shields: The conversations, there's still a lot of, like, duds and then it always kind of gets to the point of...
+[00:01:00] jese Smith-shields: They put over the call, and then they kind of either ghost or  go walkabouts, and then she's been booking heaps, but then they'll get like an hour out from the call, and then they'll have to cancel for some unknown reason or whatnot.
+[00:01:18] jese Smith-shields: I am finding that we're getting a lot less ghosting, so it's not like they're waiting all the way up to the call to cancel, because we obviously got that automation from go high level.
+[00:01:29] jese Smith-shields: But it's getting like an hour out when they obviously get that update, and then they're texting in saying that they can't do it anymore.
+[00:01:37] Kyle Musca: Are you sending the day-before message with Clemaeus?
+[00:01:41] jese Smith-shields: Yeah, yeah, yeah.
+[00:01:44] Kyle Musca: Have you got that video template to create the pre-call video?
+[00:01:49] jese Smith-shields: Yeah, I've already done it.
+[00:01:50] Kyle Musca: I've already created it.
+[00:01:51] Kyle Musca: What you might want to do is go back and recreate it.
+[00:01:54] Kyle Musca: If you didn't say, like when it says make sure to show up, be like, you know, make
+[00:02:00] Kyle Musca: Make sure to basically show up on time and make sure you just, like, prioritise that actual time.
+[00:02:06] Kyle Musca: I get, as you see in mind, I get at least one person today that texted me last minute saying that some crazy emergency has happened or once-in-a-lifetime  issues just popped up out of the blue.
+[00:02:18] Kyle Musca: So, like, at the end of the day, if you can't prioritise, you know, setting aside 20, 30 minutes to get to the rubies, you're probably going to struggle prioritising everything else.
+[00:02:26] jese Smith-shields: Yeah, okay.
+[00:02:27] jese Smith-shields: I can probably go a bit deeper.
+[00:02:29] jese Smith-shields: I did touch on it, but probably not that deep.
+[00:02:31] Kyle Musca: Yeah, I did it the same one, and then I was going to recreate it, so I just threw that in there because it's like, if you just, again, it's just an objection handle.
+[00:02:39] Kyle Musca: Don't come to me saying you've had something last minute  pop up.
+[00:02:43] Kyle Musca: You know what mean?
+[00:02:44] jese Smith-shields: Like, maybe.
+[00:02:45] jese Smith-shields: Yeah, think this week alone we've had something like four or five deaths or something.
+[00:02:50] Kyle Musca: Yeah, I mean, it's .
+[00:02:52] Kyle Musca: And then just be like, you know, me and my team block out that whole hour.
+[00:02:56] Kyle Musca: And as I say in my video, me and my team block out the whole hour.
+[00:03:00] jese Smith-shields: So if you just don't show up, it just wastes our time.
+[00:03:02] Kyle Musca: Yeah.
+[00:03:03] Kyle Musca: Or if you cancel like an hour earlier, it just wastes our time.
+[00:03:06] jese Smith-shields: Yeah.
+[00:03:07] jese Smith-shields: Yeah, no, I'll redo that.
+[00:03:08] Kyle Musca: I can probably go deeper into it then.
+[00:03:10] Kyle Musca: Yeah.
+[00:03:11] Kyle Musca: Like it doesn't have to be anything like  crazy, but like definitely just, yeah, 20, 30 seconds, just basically saying, show up, don't be a cunch, show up.
+[00:03:19] jese Smith-shields: Yeah.
+[00:03:20] jese Smith-shields: Yeah.
+[00:03:20] jese Smith-shields: No, that's fair.
+[00:03:21] jese Smith-shields: I can do that.
+[00:03:23] Kyle Musca: Cool.
+[00:03:27] Kyle Musca: I mean, it says 11 pulls booked and then, I mean, 12 booked and 11 shown up.
+[00:03:31] Kyle Musca: Like that's still pretty high.
+[00:03:33] jese Smith-shields: Yeah.
+[00:03:34] Kyle Musca: Is that, I mean, that's a high.
+[00:03:36] jese Smith-shields: That may not be right then.
+[00:03:40] Kyle Musca: Yeah, because that.
+[00:03:43] jese Smith-shields: I may need to touch base with her on this again and we'll get her to re-watch those videos because it does seem like some of her stats are just a little bit off across the board on it.
+[00:03:55] Kyle Musca: But when you go into, go at my level, you can just filter by.
+[00:04:00] Kyle Musca: We'll go into the calendar and just quickly count how many calls are actually booked, especially if it's only 12, will take a second.
+[00:04:27] Kyle Musca: We're also getting very close to being able to do a magic hat as well.
+[00:04:30] jese Smith-shields: I'm going to tell Clemabe to start.
+[00:04:38] jese Smith-shields: Um, might I just share my screen over, just so you can show me how to do this again?
+[00:04:45] Kyle Musca: Yeah, I'm just looking real quick.
+[00:04:49] Kyle Musca: Yeah, so, in the last week, yeah, the last seven days, you've got 57 leads total in there.
+[00:04:56] jese Smith-shields: Yeah.
+[00:04:57] Kyle Musca: So.
+[00:05:00] Kyle Musca: Yeah, realistically, I'd say you're following.
+[00:05:04] Kyle Musca: I'll just, we'll have a look at your screen.
+[00:05:10] jese Smith-shields: Is that sharing over?
+[00:05:13] Kyle Musca: Try sharing now, I just gave you permission.
+[00:05:20] Kyle Musca: Yeah, that's good.
+[00:05:22] Kyle Musca: So go calendar view.
+[00:05:28] Kyle Musca: And then, yeah, okay, cool.
+[00:05:31] Kyle Musca: And then just scroll up.
+[00:05:35] Kyle Musca: So, yeah, one, two, three, four, five, six, seven, eight, nine, 10, 11, 12, 13, 14, 15, 16.
+[00:05:45] Kyle Musca: Scroll up a little bit more.
+[00:05:47] Kyle Musca: Oh, 17, 18, 19.
+[00:05:50] Kyle Musca: So 19 calls booked.
+[00:05:53] Kyle Musca: And then, obviously, that's including the councils, though.
+[00:05:59] Kyle Musca: So 19 book.
+[00:06:00] Kyle Musca: It's more accurate.
+[00:06:01] Kyle Musca: Now, are these people getting rebooked?
+[00:06:05] jese Smith-shields: Yeah, there is a few rebookings.
+[00:06:08] jese Smith-shields: It seems like a lot of Maria's ones, she gets them to rebook.
+[00:06:14] jese Smith-shields: If she can't sell on the call, she'll try and get them to at least rebook in once they've got like over their finances and everything like that.
+[00:06:24] jese Smith-shields: So a few of these have been rebooked.
+[00:06:28] Kyle Musca: They're pretty, oh, like in terms of, okay.
+[00:06:31] jese Smith-shields: Yeah, so Sophie was a rebook.
+[00:06:34] Kyle Musca: What I would do there is I would create a second calendar and just say like, well, use this calendar and then just give it a different color.
+[00:06:41] Kyle Musca: Yeah.
+[00:06:42] Kyle Musca: It's easy to filter.
+[00:06:43] jese Smith-shields: Would that come up with the same automation that, what's her name's done?
+[00:06:51] Kyle Musca: You just go into automations.
+[00:06:53] jese Smith-shields: Yeah.
+[00:06:54] jese Smith-shields: And then just plug it in.
+[00:06:56] Kyle Musca: Yeah, get automations and then plus, and then it's like, you just add the calendar trigger.
+[00:07:00] jese Smith-shields: Yeah.
+[00:07:00] Kyle Musca: So, I'll show you now quickly, just so, so go there, go automations, then go to the actual automation one.
+[00:07:14] Kyle Musca: Appointments?
+[00:07:15] Kyle Musca: Yeah, yeah.
+[00:07:26] Kyle Musca: And then, yeah, all you need to do is just, I, I click on the one you're using, then I'll just duplicate.
+[00:07:33] jese Smith-shields: Oh, yeah.
+[00:07:36] Kyle Musca: Yeah, okay.
+[00:07:38] Kyle Musca: That should, should be sweet.
+[00:07:40] Kyle Musca: Yeah.
+[00:07:42] Kyle Musca: Come on.
+[00:07:43] Kyle Musca: If you have any issues, just let me know.
+[00:07:46] Kyle Musca: That's pretty easy.
+[00:07:48] jese Smith-shields: So, I'll just stop sharing this one.
+[00:07:53] Kyle Musca: Okay.
+[00:07:55] Kyle Musca: So, 55% close rate, what are that, six new clients, six new signs?
+[00:07:59] Kyle Musca: Yeah.
+[00:07:59] Kyle Musca: So,
+[00:08:00] Kyle Musca: A lot of that on reoccurring revenue?
+[00:08:02] jese Smith-shields: No, one of them was weekly because she was a young mother and I wasn't going to try and put across the paid in full, just with the feeling from the conversation.
+[00:08:16] jese Smith-shields: Then the rest were the packages.
+[00:08:21] Kyle Musca: With ads, still do it.
+[00:08:23] Kyle Musca: You still want that gasp out of them.
+[00:08:25] Kyle Musca: Yeah.
+[00:08:26] Kyle Musca: And then, you know, ultimately, you want to get her to weekly, obviously.
+[00:08:30] Kyle Musca: Even if she, like, I mean, if she was going to pay more than fantastic, but I would still do it and then just get her weekly.
+[00:08:37] jese Smith-shields: Yeah, okay.
+[00:08:38] jese Smith-shields: So at least try it first.
+[00:08:40] Kyle Musca: Yeah, because you're still working as a price anchor that way, because it's like three and a half thousand.
+[00:08:44] Kyle Musca: Hey, we can do a hundred a week.
+[00:08:46] jese Smith-shields: Oh, that's way better.
+[00:08:49] jese Smith-shields: Yeah, that's fair.
+[00:08:50] Kyle Musca: Yeah, cool.
+[00:08:52] Kyle Musca: Sorry, continue on.
+[00:08:53] jese Smith-shields: Um, and then the rest were all on packages.
+[00:08:57] Kyle Musca: Okay.
+[00:08:59] Kyle Musca: What were the packages?
+[00:09:00] jese Smith-shields: They range mostly from our middle package.
+[00:09:03] jese Smith-shields: So I got one on the 16-week and then a few on the middle package of three months and then two on the lifestyle package.
+[00:09:13] Kyle Musca: Okay.
+[00:09:14] Kyle Musca: Was this a pretty low cash-collected type, like more reoccurring type thing?
+[00:09:20] jese Smith-shields: Yeah.
+[00:09:21] jese Smith-shields: Yeah.
+[00:09:21] jese Smith-shields: So more of deposit put down and then monthly reoccurring.
+[00:09:25] Kyle Musca: Yeah.
+[00:09:26] Kyle Musca: Okay.
+[00:09:26] Kyle Musca: That's good.
+[00:09:26] Kyle Musca: Like that's, you it's great to have massive  cash-collected weeks, but really we want to stack on that reoccurring revenue more.
+[00:09:32] jese Smith-shields: So.
+[00:09:33] Kyle Musca: Yeah.
+[00:09:34] Kyle Musca: So happy days there.
+[00:09:38] Kyle Musca: Do you know the cash-collected total for the week?
+[00:09:40] Kyle Musca: Is that on the CEO dashboard?
+[00:09:44] jese Smith-shields: No, maybe it is.
+[00:09:46] jese Smith-shields: Maybe it isn't.
+[00:09:46] jese Smith-shields: I haven't had time to actually look into it.
+[00:09:48] jese Smith-shields: only just sat down into my computer just before.
+[00:09:55] jese Smith-shields: Fft.
+[00:09:56] jese Smith-shields: Na, doesn't look, actually is Fun with that in.
+[00:10:02] Kyle Musca: Okay, are you putting that on, are you and Mareen putting it on your sheets of the, you know, cash collected and closed?
+[00:10:07] jese Smith-shields: Yeah, yeah.
+[00:10:09] Kyle Musca: Yeah.
+[00:10:12] Kyle Musca: Do you want to even just, like, quickly copy it all and then throw it into, like, ChatGPT or something?
+[00:10:16] jese Smith-shields: Yeah.
+[00:10:17] jese Smith-shields: When was our last call?
+[00:10:21] jese Smith-shields: What date was that, you reckon?
+[00:10:22] jese Smith-shields: The 29th, it would have been, .
+[00:10:26] Kyle Musca: What's the date?
+[00:10:27] Kyle Musca: second, the second.
+[00:10:29] Kyle Musca: Let's get with the 22nd.
+[00:10:30] Kyle Musca: That sounds right.
+[00:10:50] Kyle Musca: And when you say a lot of duds coming through, like, what do you mean?
+[00:10:54] jese Smith-shields: Well, Maria had, like, three or four girls get on the call and then basically say they got no...
+[00:11:00] jese Smith-shields: No.
+[00:11:00] jese Smith-shields: No money in their account.
+[00:11:07] Kyle Musca: Okay.
+[00:11:12] Kyle Musca: What we could do, let's have a look at your age.
+[00:11:18] Kyle Musca: So 70% of the girls you're chatting to are older than 21 years old, which is still pretty good.
+[00:11:26] Kyle Musca: Okay.
+[00:11:27] jese Smith-shields: Yeah, it's only coming up with $1,050 for cash collected.
+[00:11:32] Kyle Musca: Is that accurate?
+[00:11:35] jese Smith-shields: I feel like, I feel like last week was a reasonably decent week.
+[00:11:47] jese Smith-shields: Nothing like  through the roof, but I feel like it was a bit better than that.
+[00:11:57] Kyle Musca: I mean, if there was only 1,000 across six.
+[00:12:01] Kyle Musca: Sales, then you break, don't know if you should be  high if that's the case.
+[00:12:17] jese Smith-shields: Yeah.
+[00:12:21] jese Smith-shields: Okay.
+[00:12:22] jese Smith-shields: Yeah.
+[00:12:24] Kyle Musca: Maybe.
+[00:12:26] jese Smith-shields: Yeah, I'll spend a bit of time in that and actually come up with a number for you and send it over.
+[00:12:31] Kyle Musca: Yeah.
+[00:12:31] Kyle Musca: Have a chat to your VA and stuff because you want to make sure you're getting the numbers accurate and that as well because, like, we'll base decisions around that.
+[00:12:39] Kyle Musca: Yeah.
+[00:12:39] Kyle Musca: So it's like, that's incorrect.
+[00:12:41] Kyle Musca: I'm like,   us up a bit.
+[00:12:45] Kyle Musca: Cool.
+[00:12:47] Kyle Musca: Okay.
+[00:12:47] Kyle Musca: Sick.
+[00:12:48] Kyle Musca: Now, the main thing we just need to focus on is obviously the challenge stuff.
+[00:12:54] Kyle Musca: I think what you said the other day was a good addition.
+[00:12:58] Kyle Musca: So...
+[00:12:59] Kyle Musca: Okay.
+[00:12:59] Kyle Musca: So...
+[00:13:00] Kyle Musca: So...
+[00:13:00] Kyle Musca: ...
+[00:13:00] Kyle Musca: Thank
+[00:13:00] Kyle Musca: All expenses paid trip to Bali for them and a friend.
+[00:13:03] Kyle Musca: It's not a giveaway.
+[00:13:03] Kyle Musca: It's a results-driven campaign, rewards, commitment, consistency leading into 31st.
+[00:13:08] Kyle Musca: Yeah.
+[00:13:08] Kyle Musca: So one, I definitely think needing to start the challenge sooner just because we market heavily through December or a New Year's challenge.
+[00:13:16] jese Smith-shields: If it's like end of January, like most people have quit the gym, I just base that off like the timing of when people were actually going back to work.
+[00:13:27] Kyle Musca: Yeah.
+[00:13:28] Kyle Musca: So it's like we want, everyone hits the gym as the New Year's  resolution is like first or second week back.
+[00:13:36] jese Smith-shields: So it's like we want to capture them.
+[00:13:37] Kyle Musca: Yeah.
+[00:13:38] Kyle Musca: Otherwise, if we do it too late, then all the marketing campaign will be too late.
+[00:13:42] Kyle Musca: Like we might as well just start that marketing campaign in January at that point because you don't want really anything longer than a month.
+[00:13:50] Kyle Musca: However, so every week client active coaching plan counts as one entry to the Bali trip.
+[00:13:57] Kyle Musca: Okay.
+[00:13:58] Kyle Musca: Resigns the new contract entries.
+[00:14:00] jese Smith-shields: That was more, that was based around my current clients because my client, my, I was trying to use it as like getting people to commit to contracts over this point in time.
+[00:14:11] Kyle Musca: Yeah, okay.
+[00:14:12] Kyle Musca: Yeah, no, that's a good idea.
+[00:14:13] jese Smith-shields: And then I was just going to have the winner and her friend or whatever their friend is, that would be a tag along with my current clients.
+[00:14:22] Kyle Musca: Yeah, that's actually, yeah, that's a good idea.
+[00:14:24] Kyle Musca: You go like, hey, I'm running this new challenge for December.
+[00:14:28] Kyle Musca: Remember, it's actually going to apply for, you know, all current, current clients.
+[00:14:34] Kyle Musca: If you, you know, you'd be, this is where you'd be tricky around the wording.
+[00:14:40] Kyle Musca: Yeah.
+[00:14:40] Kyle Musca: If you agree to say till, you know, March, 2026 is basically what you'd be trying to say.
+[00:14:44] Kyle Musca: I'd be like, you'd have to.
+[00:14:46] jese Smith-shields: Yeah, I came up with a point system.
+[00:14:49] jese Smith-shields: So I came up with like a contract that they would agree to and they can determine like how long.
+[00:14:55] jese Smith-shields: So I did, the least was three months.
+[00:14:58] jese Smith-shields: It went three, six, eight, and then a full year.
+[00:15:00] jese Smith-shields: And then each week was a point.
+[00:15:03] jese Smith-shields: So then this would be based off their points that they get into that sort of trip.
+[00:15:08] jese Smith-shields: Because I always do like an MVP challenge of the month.
+[00:15:10] jese Smith-shields: So I was just going to drag this out as like a big MVP challenge and try to get that back in points.
+[00:15:17] jese Smith-shields: And then there's other ways of getting points into it, like referrals and  like that.
+[00:15:22] Kyle Musca: Yeah, sick.
+[00:15:23] Kyle Musca: Yeah, that's a good idea.
+[00:15:24] Kyle Musca: I'll definitely implement that.
+[00:15:26] jese Smith-shields: Yeah.
+[00:15:28] Kyle Musca: Yeah, sick.
+[00:15:30] Kyle Musca: On that as well, have I told you about the three-week onboarding upsell?
+[00:15:35] jese Smith-shields: No.
+[00:15:37] Kyle Musca: Okay.
+[00:15:38] Kyle Musca: Remind me, come back to this.
+[00:15:39] Kyle Musca: But basically, like every new sign-up I get, I'm going to like reach out to them three weeks later.
+[00:15:43] Kyle Musca: And basically, that's when we try and upsell them into, you know, if they sign up for three weeks, then we try and sign them for six weeks.
+[00:15:49] Kyle Musca: Sorry, six months.
+[00:15:52] Kyle Musca: Three weeks, they should have seen enough results.
+[00:15:53] Kyle Musca: They're still super motivated.
+[00:15:55] Kyle Musca: They know that what you do works, but they don't have the confidence to go do it on themselves.
+[00:15:59] Kyle Musca: Yeah.
+[00:15:59] Kyle Musca: Yeah.
+[00:15:59] Kyle Musca: You know saw OK.
+[00:16:00] Kyle Musca: in
+[00:16:00] Kyle Musca: I'll sell them there and then, like, oh, do you want to actually go for, you know, six months?
+[00:16:04] Kyle Musca: And usually it'd be, you know, $1,000 more.
+[00:16:08] Kyle Musca: But I'll actually just, like, waive that and you can just continue on.
+[00:16:11] Kyle Musca: That's right.
+[00:16:13] jese Smith-shields: Yeah, okay.
+[00:16:13] Kyle Musca: I like that idea.
+[00:16:15] Kyle Musca: Yeah, so that's a good look.
+[00:16:16] Kyle Musca: If you're trying to wait to, week 8, 9, 10, it's, like, a little bit too late.
+[00:16:19] jese Smith-shields: Yeah, because I was trying to break down, because NeuroEA brought in their new system of, like, your LTV.
+[00:16:27] Kyle Musca: Oh, yeah.
+[00:16:28] jese Smith-shields: So, was trying to break down.
+[00:16:29] jese Smith-shields: Mine's currently 104 days, which isn't bad, but isn't great either.
+[00:16:35] jese Smith-shields: So, I was looking at ways of trying to increase that.
+[00:16:38] Kyle Musca: Yeah, so that's a good one.
+[00:16:40] Kyle Musca: But you just treat it as, like, a client success call.
+[00:16:42] Kyle Musca: Yeah.
+[00:16:43] Kyle Musca: How you going?
+[00:16:44] Kyle Musca: How you finding?
+[00:16:44] Kyle Musca: Good to, yeah, it's probably a bit early to try and get a testimonial from them.
+[00:16:48] jese Smith-shields: Yeah.
+[00:16:49] Kyle Musca: But, yeah, you kind of just, yeah, and then lead into it.
+[00:16:53] Kyle Musca: Like, oh, X, Y, Z, doing a stay around for six months.
+[00:16:57] Kyle Musca: Yeah, cool.
+[00:16:59] Kyle Musca: Paid info gets double.
+[00:17:00] Kyle Musca: That's a good idea.
+[00:17:01] Kyle Musca: I like that.
+[00:17:04] Kyle Musca: It does take away the recurring, but...
+[00:17:11] jese Smith-shields: Yeah, I put a ballpark of the whole trip being roughly 15 to 18k.
+[00:17:20] Kyle Musca: In terms of your expenses?
+[00:17:23] jese Smith-shields: Yeah.
+[00:17:24] Kyle Musca: .
+[00:17:25] jese Smith-shields: Yeah.
+[00:17:27] Kyle Musca: That's a lot.
+[00:17:30] Kyle Musca: What's...
+[00:17:31] Kyle Musca: Is that just flights and accommodation?
+[00:17:34] jese Smith-shields: Yeah.
+[00:17:36] Kyle Musca: Wow.
+[00:17:39] Kyle Musca: That seems a bit expensive, doesn't it?
+[00:17:42] jese Smith-shields: For...
+[00:17:43] jese Smith-shields: 8 to 10 people.
+[00:17:50] Kyle Musca: In total?
+[00:17:51] jese Smith-shields: Yeah.
+[00:17:52] Kyle Musca: Oh, .
+[00:17:53] Kyle Musca: At that point, you might as well just host the retreat.
+[00:17:55] jese Smith-shields: Well, that's what I was doing.
+[00:17:56] Kyle Musca: That's what it is.
+[00:17:59] Kyle Musca: Yeah.
+[00:18:00] Kyle Musca: Right.
+[00:18:04] jese Smith-shields: Were you thinking a trip for them?
+[00:18:07] Kyle Musca: Yeah, I was thinking like the winner of the challenge gets that as the normal expenses paid trip to Bali.
+[00:18:16] jese Smith-shields: How would you get?
+[00:18:20] jese Smith-shields: Yeah, okay.
+[00:18:22] jese Smith-shields: How would you get your current clients into that though?
+[00:18:28] Kyle Musca: Because they can still win the challenge if they, because you can go off like transformation, but you can also go off like, you know, adherence and  like that.
+[00:18:38] Kyle Musca: This is the other cool thing you could do, like add on to this as well, is like, you'd have to figure a way to track it.
+[00:18:44] Kyle Musca: Like every time you share a story, you know, tagging us, you get a point, you get five points or something.
+[00:18:51] jese Smith-shields: Yeah, that's what I was trying to come up with that.
+[00:18:54] jese Smith-shields: And how, how they could actually accumulate points.
+[00:18:57] jese Smith-shields: I came up with points, collaborate, a lot of my.
+[00:19:00] jese Smith-shields: Clients like to collaborate posts.
+[00:19:03] jese Smith-shields: It's like social media posts on our Shields Fit page.
+[00:19:06] jese Smith-shields: So that, referrals, and stuff like that to try and accumulate points.
+[00:19:12] Kyle Musca: Yeah, I would just do that.
+[00:19:15] Kyle Musca: Because that would still work for your current clients.
+[00:19:17] jese Smith-shields: Yeah.
+[00:19:18] Kyle Musca: I wouldn't do eight to ten people.
+[00:19:22] Kyle Musca: You'd find it hard to just eat away at all your profits.
+[00:19:28] Kyle Musca: What you could do.
+[00:19:36] jese Smith-shields: What if I was pretty keen on doing this sort of retreat vibe?
+[00:19:40] jese Smith-shields: Obviously, it takes profits out of the margin.
+[00:19:43] Kyle Musca: I would, what's, what's like your estimated spend for one person for flights and accommodation?
+[00:19:48] jese Smith-shields: It came at roughly $850 to $1,000 per head, depending on the village.
+[00:19:56] Kyle Musca: If you're going to do that, I would just  do a high ticket offer.
+[00:19:59] Kyle Musca: And just say like, this is a...
+[00:20:00] Kyle Musca: At the end of three months, we're going on  Bali.
+[00:20:05] Kyle Musca: You know what mean?
+[00:20:06] jese Smith-shields: So within the new people coming in?
+[00:20:10] Kyle Musca: Yeah.
+[00:20:11] Kyle Musca: So like, so, because that's really not that bad.
+[00:20:15] Kyle Musca: Because you could just do like, if you're currently selling two grand for three months, just be like, well, it's three grand.
+[00:20:19] Kyle Musca: You get all that plus, you know, your trips to Bali is sorted for you.
+[00:20:23] jese Smith-shields: Well, that's what I was going to try and do within the sales point of view.
+[00:20:26] jese Smith-shields: How you try and get your point of view on it is either do you sell that as a challenge or do you sell that into a booked call?
+[00:20:33] jese Smith-shields: And then you try and upsell them into six months, eight months, whatever, and use that as like a sales tactic to try and get them over the top.
+[00:20:44] Kyle Musca: So I would, I would just sell it as like, at the end of the challenge, the winner, at the end of the challenge, you have the option to come to Bali for our retreat.
+[00:21:00] Kyle Musca: So that's.
+[00:21:00] Kyle Musca: Included in the challenge for that set price.
+[00:21:05] Kyle Musca: And the winner gets an all-expenses-paid trip to Bali for that retreat.
+[00:21:11] Kyle Musca: Otherwise, if you just want to be a part of the challenge, then it's $1,000 less.
+[00:21:18] Kyle Musca: Does that make sense?
+[00:21:20] jese Smith-shields: Yeah, okay.
+[00:21:21] Kyle Musca: Because you package that, it's like you get all the customized training, like everything a VIP client gets, plus your flights and accommodation paid for for your trip to Bali by the end of it.
+[00:21:32] Kyle Musca: So you can, you know,  enjoy your holiday with a great group of people.
+[00:21:40] Kyle Musca: Obviously, being in peak physical, mental shape, et cetera, et cetera.
+[00:21:43] jese Smith-shields: Like, that's a  strong offer.
+[00:21:45] jese Smith-shields: Yeah.
+[00:21:47] Kyle Musca: And realistically, like, if it's only  $1,000 max per person, you can do that every three months, man.
+[00:21:52] jese Smith-shields: That's what I was like, kind of trying to play into.
+[00:21:55] jese Smith-shields: But I would want to try and bring it in, too.
+[00:21:58] jese Smith-shields: I was almost trying to think about it because I got a really loyal...
+[00:22:03] jese Smith-shields: So if I can try and leverage into them being like obviously the weekly recurring, the steady money, then using this as like a quarterly or even like once every six months, advertise it as they kind of pay, they're in the full to try and cover the loss on my end.
+[00:22:23] jese Smith-shields: And then that would be, that would only be one or two people coming from that sort of challenge setting on the retreat sort of vibe.
+[00:22:32] Kyle Musca: In terms of current clients?
+[00:22:34] jese Smith-shields: No, the challenge, the new clients.
+[00:22:38] jese Smith-shields: Because I was just kind of setting it as like an in-house challenge within my loyal clients.
+[00:22:44] jese Smith-shields: So now they've, now they would agree to longer terms of contract.
+[00:22:49] jese Smith-shields: That would obviously increase LTV, they'll increase my weekly sort of expenditure and then having the new challenge of the advertisement point, trying to use that.
+[00:23:00] jese Smith-shields: That is like an upsell within the three, six-year sales, saying we've actually got a retreat at X date.
+[00:23:09] jese Smith-shields: If you commit to this now, you go into the chance of winning a fully paid-for trip.
+[00:23:20] Kyle Musca: I don't think it even really...
+[00:23:38] Kyle Musca: I just think if you...
+[00:23:39] Kyle Musca: What, for every client that extends?
+[00:23:42] jese Smith-shields: To bring them over?
+[00:23:44] jese Smith-shields: Yeah, like, yeah.
+[00:23:45] jese Smith-shields: No, there would be a set amount, and then I'd pick and choose based off that leaderboard score.
+[00:23:53] jese Smith-shields: Or I can basically just pick and choose where I want to go.
+[00:23:58] Kyle Musca: I would have it as a point.
+[00:24:00] Kyle Musca: If you're going
+[00:24:00] Kyle Musca: I would have it as a point scoring system, yeah, where it's based off, you know, things like adherence and, like, how much you actually like them stuff.
+[00:24:08] Kyle Musca: But, like, yeah, how much did you actually, like, basically how much do they promote your business is how I'd have it.
+[00:24:15] jese Smith-shields: Which I do have a lot of clients that do really well in that as well.
+[00:24:19] Kyle Musca: Yeah, because if you've just got someone who's, like, promoting the  out of your business and you've given them even more incentive to do it, that will itself give you a lot of referrals.
+[00:24:29] Kyle Musca: And then it's, like, if they've promoted you for , you know, three months, six months straight and then it's, like, you've given them a  all-expense-to-pay trip to Bali and they're just, like, promoting even more of that, that's going to draw more people in.
+[00:24:43] jese Smith-shields: Yeah, because I can nearly guarantee if I'm pulling that contract to say, this is how you enter the Bali trip or the Bali retreat, I'll have nearly, I'd say, at least 10 people commit to six to a year in a contract.
+[00:24:58] Kyle Musca: Yeah, I would.
+[00:25:00] Kyle Musca: I would do that.
+[00:25:02] Kyle Musca: We're getting a little bit not off topic, but like the main thing we want to do is the challenge.
+[00:25:08] Kyle Musca: Honestly, I think it's a good as a definite option to like get people like extended.
+[00:25:16] Kyle Musca: I think for the challenge itself, I reckon just whip at a higher ticket package where it's like, you know, whether you just want to cover that cost of the, maybe for the first one, especially just want to cover the expenses of the trip.
+[00:25:30] Kyle Musca: So, you know, from 2,000 to 3,000.
+[00:25:34] Kyle Musca: And then like get hype around the retreat, you know, get it all filmed, get plenty of marketing material from it.
+[00:25:42] Kyle Musca: And then have the winner as an all expenses paid trip to Bali.
+[00:25:48] Kyle Musca: That's what I would probably do.
+[00:25:49] Kyle Musca: Because otherwise, if you don't want 8 to 10, you know, 10 to 18 grand, that would just, you know, chew into all your profit margins.
+[00:25:57] jese Smith-shields: Yeah, okay.
+[00:25:59] jese Smith-shields: Yeah, no, that kind of makes sense.
+[00:26:00] Kyle Musca: Yeah, Yeah, Yeah,
+[00:26:01] Kyle Musca: And then probably be a  huge headache for you as well.
+[00:26:05] Kyle Musca: But then, and then I would definitely, yeah, have it as like, I would do a point scoring system of, because you got to think about like, it's an expense and it's a good expense because like, obviously it makes a nice, unique service, but you also got to make sure that you're profiting off it at the end of the day because you're a business.
+[00:26:24] Kyle Musca: Or at least breaking even, you know what mean?
+[00:26:25] Kyle Musca: Like if you, you know, break even on this, but someone again, promotes the  out of your business and you get, I mean, even one new client from it, but you know,  a couple of new clients from just that loan.
+[00:26:35] Kyle Musca: it's like that itself was just a paid marketing system or technically with an affiliate system.
+[00:26:41] jese Smith-shields: Cause I was trying to, trying to differ away from the whole challenge setting.
+[00:26:45] jese Smith-shields: Cause I remember last year it was , every time I opened up my phone, it was a challenge, challenge, eight week challenge.
+[00:26:53] jese Smith-shields: So if I can try to come up with like a big,  you.
+[00:26:56] jese Smith-shields: And then people will be like, what the 's this  doing?
+[00:26:59] Kyle Musca: Yeah, that would just.
+[00:27:00] Kyle Musca: The packaging of it.
+[00:27:02] Kyle Musca: Unfortunately, challenges are just like a buzzword.
+[00:27:04] Kyle Musca: People  love challenges.
+[00:27:06] Kyle Musca: The reason being because it drives urgency and scarcity.
+[00:27:09] Kyle Musca: You what mean?
+[00:27:09] Kyle Musca: Like, I have to start by December 20th, right?
+[00:27:12] Kyle Musca: It's a challenge.
+[00:27:13] jese Smith-shields: Yeah.
+[00:27:14] jese Smith-shields: I mean, like, yeah, it'd still be a challenge setting because obviously that wording and everything works quite well, but try and differ from like how everyone else does it.
+[00:27:23] Kyle Musca: Yeah.
+[00:27:23] Kyle Musca: I would just do it.
+[00:27:25] jese Smith-shields: And like the thing that would differ is just the prizes.
+[00:27:27] Kyle Musca: You know what mean?
+[00:27:29] Kyle Musca: Yeah.
+[00:27:29] Kyle Musca: Because it's like if we're...
+[00:27:31] Kyle Musca: You know, because we've got a lot of prize options now, right?
+[00:27:36] Kyle Musca: It's, you know, over $10,000 in cash, in giveaways, including 250 Define, EHP,  keep that pump.
+[00:27:45] Kyle Musca: Plus the grand winner will win an all expenses paid trip to Bali with them and a friend or something.
+[00:27:52] jese Smith-shields: Yeah.
+[00:27:54] Kyle Musca: Yeah.
+[00:27:54] Kyle Musca: I mean?
+[00:27:54] Kyle Musca: Because that's...
+[00:27:55] Kyle Musca: Now you've got a lot of potential for winning and you've got cool actual rewards.
+[00:28:00] Kyle Musca: I mean, can almost prefer a trip to Bali, like that'd be, you know what I mean?
+[00:28:06] jese Smith-shields: Yeah.
+[00:28:13] Kyle Musca: Yeah, does that all make sense?
+[00:28:14] jese Smith-shields: Yeah, yeah, no, I like that idea.
+[00:28:16] Kyle Musca: And then basically with what you're doing, because you come up with a point system anyway, is just, yeah, referrals.
+[00:28:29] Kyle Musca: I would try and make it seem like, like, again, this is a very small thing, but to me, instead of saying like, 10 for current clients, 5 for new signups, I would try and make it seem like, you know, instead of 10, you know, you get 100 points for a new current client or 50 points.
+[00:28:50] jese Smith-shields: So it just seems like they're getting more points.
+[00:28:52] jese Smith-shields: Yeah.
+[00:28:53] jese Smith-shields: For like referrals and signups.
+[00:28:56] Kyle Musca: Yeah.
+[00:28:58] Kyle Musca: Yeah.
+[00:28:59] Kyle Musca: And then you get buying options.
+[00:29:00] Kyle Musca: So 12 weeks, 6 months, 24 months.
+[00:29:04] Kyle Musca: It depends on how often you're going to be doing these.
+[00:29:07] jese Smith-shields: Well, was going to try and use this as like a testing ground.
+[00:29:13] jese Smith-shields: And if it works well, obviously double down on it.
+[00:29:16] jese Smith-shields: And you can pretty much just use this as like a high-ticket service.
+[00:29:20] Kyle Musca: Yeah.
+[00:29:21] jese Smith-shields: Differ out from that.
+[00:29:24] jese Smith-shields: Or if it  flops, don't ever do it again.
+[00:29:29] Kyle Musca: No, I think I've done a, I ran a challenge once where the winner won an all-expenses-paid trip to the Gold Coast.
+[00:29:35] Kyle Musca: Oh, yeah.
+[00:29:36] Kyle Musca: Yeah, so that went well.
+[00:29:38] Kyle Musca: I just marked with the  out of it though, but that went well.
+[00:29:40] jese Smith-shields: Yeah.
+[00:29:42] Kyle Musca: And then it's sad when you actually have to pay for it, but.
+[00:29:47] Kyle Musca: Cool, okay.
+[00:29:51] Kyle Musca: Yeah, and then I would just say like we do one of these every six months to start with on the course.
+[00:29:56] Kyle Musca: Yeah.
+[00:29:58] Kyle Musca: Because realistically, people aren't going to  remember.
+[00:30:00] Kyle Musca: So that's like it.
+[00:30:00] Kyle Musca: Flops and you never do it again.
+[00:30:03] jese Smith-shields: Yeah.
+[00:30:07] Kyle Musca: Yeah.
+[00:30:07] Kyle Musca: Plus two, like, yeah.
+[00:30:14] Kyle Musca: Yeah.
+[00:30:15] Kyle Musca: And then 12 weeks, I would just add a zero to all your numbers.
+[00:30:18] Kyle Musca: 12 weeks, you get 120 entries.
+[00:30:19] Kyle Musca: For six months, you get 240.
+[00:30:21] Kyle Musca: For 12 months, you get 520.
+[00:30:29] Kyle Musca: And then paid-in-full double entries, I like.
+[00:30:32] Kyle Musca: If it was me personally doing it, I would basically say if you cover at least half.
+[00:30:39] Kyle Musca: Because then you get the reoccurring revenue.
+[00:30:41] jese Smith-shields: Yeah, okay.
+[00:30:43] Kyle Musca: And then it makes it easier to not.
+[00:30:45] Kyle Musca: Paid-in-fulls, I don't like, because you have to try and resell them at the end of it.
+[00:30:48] jese Smith-shields: Yeah.
+[00:30:50] jese Smith-shields: Oh, so you'd prefer to push them on to, like, some sort of reoccurring?
+[00:30:54] Kyle Musca: I would.
+[00:30:55] Kyle Musca: Keeps cash flow in the business, which is nice.
+[00:30:58] Kyle Musca: And then you don't have to resell them at the end.
+[00:31:00] jese Smith-shields: Yeah.
+[00:31:00] Kyle Musca: Painfuls are fantastic, don't get me wrong, but like, just prefer recurring.
+[00:31:06] jese Smith-shields: Yeah.
+[00:31:07] Kyle Musca: And then also for like people that do 12 months, there'll be a lot more plausible for them because it's like, again, you could just do, the longer they stay for as well, the Yeah.
+[00:31:31] Kyle Musca: So this is where I'll just rip out the high ticket offers that I've given, already given you.
+[00:31:37] Kyle Musca: So the, on the payments sheet, so 2,000 goes to 3,000, 3,000 goes to 5,000, but like you still want to profit.
+[00:31:48] Kyle Musca: So what I would probably do is I would add, especially just a three-month one, maybe 500 bucks.
+[00:31:54] Kyle Musca: It's like three, three months is 3,500, but six months is only five grand.
+[00:32:00] Kyle Musca: Cause one.
+[00:32:01] Kyle Musca: I'm like, it's the same $800 to $1,000 anyway that you're paying.
+[00:32:04] Kyle Musca: So it's not like your expenses go up the longer they stay.
+[00:32:07] Kyle Musca: You're shaving off $1,000 there, but you're still profiting $2,000 from, or $1,500 from what you'd usually do.
+[00:32:14] Kyle Musca: But then I think $3,500 at that point, they're probably like, might as well just go for six months.
+[00:32:19] Kyle Musca: So it's like a, I can't remember the wording for it, but it's basically kind of like when you go get popcorn at the movies, right?
+[00:32:27] Kyle Musca: And the small is like  $4,000, and the medium is like $7,000, but then the large is like $9,000.
+[00:32:33] Kyle Musca: Yeah.
+[00:32:34] Kyle Musca: Because the medium is, you you might as well just pay the extra $2,000 and get a large.
+[00:32:38] jese Smith-shields: Yeah, no, that makes sense.
+[00:32:40] jese Smith-shields: You know what mean?
+[00:32:41] jese Smith-shields: Yeah, I know where you're going with that one.
+[00:32:43] Kyle Musca: I don't know what the wording is for a buck.
+[00:32:46] Kyle Musca: Yeah, so it's just, yeah, cool.
+[00:32:53] Kyle Musca: So, but the point system for referrals will be really important there.
+[00:32:56] jese Smith-shields: Yeah.
+[00:32:59] Kyle Musca: Anyone who signs up and pays in full.
+[00:33:01] Kyle Musca: For four months or more before the challenge gets.
+[00:33:18] Kyle Musca: Yeah, okay.
+[00:33:20] Kyle Musca: A little bit of access for additional bonus.
+[00:33:24] Kyle Musca: We now build momentum into January.
+[00:33:29] Kyle Musca: I would, yeah.
+[00:33:30] Kyle Musca: So, yeah, basically just starting now, you get, you know, a little bit of a head start.
+[00:33:35] Kyle Musca: But then I would also include in that, like, the point system still works.
+[00:33:39] Kyle Musca: So you can actually start racking up points now by just sharing it on your story.
+[00:33:47] Kyle Musca: And then the re-engaging current clients would be pretty easy as well because you can kind of just go, like, hey, I'm running this challenge.
+[00:33:54] Kyle Musca: It goes through to March.
+[00:33:57] Kyle Musca: And you do this in November, essentially.
+[00:33:59] Kyle Musca: Oh, sorry.
+[00:33:59] Kyle Musca: Yeah, December.
+[00:34:00] Kyle Musca: Yeah.
+[00:34:01] Kyle Musca: Um, at the very start, if you want to jump on that, you'll just continue and use your current rate.
+[00:34:08] Kyle Musca: Um, and again, you just have to figure the wording out.
+[00:34:14] jese Smith-shields: So it doesn't sound like it's a contract type thing.
+[00:34:16] jese Smith-shields: I may, I may, I may or may not have already jumped the gun on her and already announced her within client.
+[00:34:24] Kyle Musca: Oh, nice.
+[00:34:26] Kyle Musca: Um, okay.
+[00:34:28] jese Smith-shields: What did you say?
+[00:34:29] jese Smith-shields: Retreat.
+[00:34:34] Kyle Musca: Well, I would just give them the option.
+[00:34:36] Kyle Musca: It's a thousand dollars.
+[00:34:38] jese Smith-shields: Yeah.
+[00:34:39] Kyle Musca: You know what mean?
+[00:34:40] Kyle Musca: Um, so what was the exact wording you already told them?
+[00:34:45] jese Smith-shields: That, oh, , I'll get up the message.
+[00:34:50] jese Smith-shields: Um, cause I was having, I've been having a fair bit drop off.
+[00:34:54] jese Smith-shields: So this was obviously just trying to get excitement to have people at least hang around until that time in.
+[00:35:00] jese Smith-shields: Um.
+[00:35:00] jese Smith-shields: So So let's go.
+[00:35:01] jese Smith-shields: But then I also dropped in the contract as well to try and get them to re-sign.
+[00:35:05] jese Smith-shields: And I've already had eight people re-sign on a year for that sort of point system.
+[00:35:17] jese Smith-shields: If that makes sense.
+[00:35:20] Kyle Musca: I mean, if they re-sign for a year, then technically your profit margin should be high enough.
+[00:35:26] Kyle Musca: That is, as long as they re-signed on the, you know, if they signed up for three months for two grand and they signed up for a year for...
+[00:35:35] jese Smith-shields: Or most of my current clients and all my loyal clients are on weekly.
+[00:35:43] Kyle Musca: Yeah, but what I'm saying is like, because with the longer it goes, I can't remember on the page.
+[00:35:47] Kyle Musca: Let me pull it up.
+[00:35:50] Kyle Musca: So as long as you didn't give them like a technical discount, like you usually would have.
+[00:35:54] jese Smith-shields: No.
+[00:35:56] jese Smith-shields: Okay.
+[00:35:57] jese Smith-shields: Okay.
+[00:35:58] Kyle Musca: Okay.
+[00:36:00] Kyle Musca: Okay.
+[00:36:01] Kyle Musca: So, I'll show my screen.
+[00:36:11] Kyle Musca: That's a good one.
+[00:36:11] Kyle Musca: I'll do after that idea.
+[00:36:13] Kyle Musca: So, let's say, yeah, so 2,000 is the flat rate for three months.
+[00:36:19] Kyle Musca: So, as long as you, you know, charge 8,000 instead of bringing it down to 6,000, your profit margin is 2,000 higher, which means that you can technically pay for a retreat from them.
+[00:36:33] Kyle Musca: Yeah.
+[00:36:33] Kyle Musca: As long as they stick out that time.
+[00:36:35] jese Smith-shields: Yeah.
+[00:36:39] Kyle Musca: You just have to rely on them actually sticking out for that time.
+[00:36:42] jese Smith-shields: Yeah.
+[00:36:43] jese Smith-shields: Well, yeah.
+[00:36:44] jese Smith-shields: I brought in an actual proper contract for it.
+[00:36:47] jese Smith-shields: So, I did like your sort of jot form where you did your name, date, address, signature, and whatnot for it.
+[00:36:55] jese Smith-shields: And, yeah, we've already had a fair few tick over just in that.
+[00:37:00] jese Smith-shields: Which might...
+[00:37:01] jese Smith-shields: Most of them were actually already out of contract as well.
+[00:37:04] Kyle Musca: Yeah, okay.
+[00:37:09] Kyle Musca: I would maybe add in there specifically for this contract, guess it's contract specific to this, a clause saying like if you want to cancel within that time, you have to pay the difference.
+[00:37:19] Kyle Musca: You know what mean?
+[00:37:20] Kyle Musca: Like if you've already paid for the retreat, you have to pay the cost of the retreat.
+[00:37:24] jese Smith-shields: Yeah.
+[00:37:26] Kyle Musca: That's what I would probably add if you're going to do that.
+[00:37:28] jese Smith-shields: Yeah, but also I wouldn't be picking anyone that I think that would be a donor runner either.
+[00:37:34] Kyle Musca: I'd be picking my loyal clients.
+[00:37:36] Kyle Musca: Yeah, but like a year's a long time.
+[00:37:38] Kyle Musca: Like they could crash their car or something like that.
+[00:37:40] Kyle Musca: You know what You just kind of have a grandstand about, oh man, like the only way I could actually afford to do that was because you agreed to stay around for a year.
+[00:37:48] Kyle Musca: As in the contract says, you just have to cover $1,000 or something.
+[00:37:53] jese Smith-shields: Yeah.
+[00:37:54] jese Smith-shields: Yeah, okay.
+[00:37:55] jese Smith-shields: Well, yeah, that's how I normally our contracts work anyway.
+[00:37:59] jese Smith-shields: Trying to get and pay out, but obviously new it.
+[00:38:01] jese Smith-shields: It's a little bit  tricky without actually applying that.
+[00:38:05] Kyle Musca: Yeah.
+[00:38:06] Kyle Musca: So.
+[00:38:18] Kyle Musca: It's a.
+[00:38:28] Kyle Musca: Yeah.
+[00:38:29] Kyle Musca: This is.
+[00:38:29] Kyle Musca: I would honestly.
+[00:38:30] Kyle Musca: If you're going to do this, you know, every six months, I would say.
+[00:38:36] Kyle Musca: I would just.
+[00:38:37] Kyle Musca: Yeah.
+[00:38:37] Kyle Musca: I would just run this top tip package and include that in there, man.
+[00:38:44] jese Smith-shields: This run is off your higher ticket sales.
+[00:38:47] Kyle Musca: Yeah.
+[00:38:47] Kyle Musca: Because that's.
+[00:38:48] Kyle Musca: If someone said that to me, I'd be like, , I get a full holiday with it as well.
+[00:38:51] jese Smith-shields: That's pretty  worth it.
+[00:38:54] jese Smith-shields: How would you advertise it when they don't get it?
+[00:39:01] Kyle Musca: So it's in a way a decoy offer, but it's like a downsell decoy offer.
+[00:39:07] Kyle Musca: I was like, oh, that's okay if you just want to do the program and stuff, like instead of three grand, it's just 2K.
+[00:39:16] Kyle Musca: If you were going to front-end advertise it.
+[00:39:18] jese Smith-shields: Yeah.
+[00:39:20] jese Smith-shields: Which you kind of have to as well.
+[00:39:22] Kyle Musca: But the challenge you would.
+[00:39:24] Kyle Musca: Yeah.
+[00:39:24] Kyle Musca: But if they're like, oh, that's too expensive.
+[00:39:26] Kyle Musca: Like, oh, that's no stress.
+[00:39:27] Kyle Musca: Like you can still take part in the challenge and, you know, you still get access to, all the giveaways and the prizes and even like potentially even win a free trip to Bali by just, you know, participating in the challenge.
+[00:39:38] jese Smith-shields: And that's just 2K.
+[00:39:40] jese Smith-shields: Yeah.
+[00:39:42] jese Smith-shields: Yeah.
+[00:39:42] jese Smith-shields: Probably for the future ones, do it as like a high ticket.
+[00:39:45] Kyle Musca: So whoever pays gets it.
+[00:39:48] Kyle Musca: I reckon even for this challenge, because we want to test it.
+[00:39:51] Kyle Musca: But just whip this out.
+[00:39:53] Kyle Musca: Whip the 3,000 out.
+[00:39:54] Kyle Musca: Whip the 5,000 out for six months.
+[00:39:57] Kyle Musca: So, but that's included in the challenge.
+[00:39:59] Kyle Musca: You know what mean?
+[00:40:00] Kyle Musca: Yeah.
+[00:40:01] Kyle Musca: As an option in the challenge.
+[00:40:04] jese Smith-shields: Yeah, okay, yeah, I get you.
+[00:40:09] jese Smith-shields: How would you go about advertising this?
+[00:40:11] jese Smith-shields: Because obviously we'd have to jump on it pretty soon.
+[00:40:15] Kyle Musca: I would say...
+[00:40:20] Kyle Musca: I mean, I don't even know if we would advertise...
+[00:40:28] Kyle Musca: I don't know if we'd advertise the fact that there is an option to go to Bali for a paid trip.
+[00:40:32] jese Smith-shields: think we would advertise that when it gets a free trip to Bali.
+[00:40:36] jese Smith-shields: Yeah.
+[00:40:38] Kyle Musca: Yeah, man.
+[00:40:39] Kyle Musca: Like, oh, yeah, that's what I would do.
+[00:40:41] Kyle Musca: Because that's, again, I would just do that.
+[00:40:44] Kyle Musca: When it gets a free trip to Bali, costs XYZ of $250 of XYZ.
+[00:40:51] Kyle Musca: And then, yeah, like, there's actually an option.
+[00:40:53] Kyle Musca: Like, if you, you know, join on the Emerald package, then you actually get to come and participate in that retreat as well.
+[00:41:00] Kyle Musca: It covers...
+[00:41:01] Kyle Musca: There's all your flights and your expenses.
+[00:41:03] jese Smith-shields: Yeah, okay.
+[00:41:06] Kyle Musca: Oh, that's too expensive.
+[00:41:07] Kyle Musca: Oh, no stress.
+[00:41:09] Kyle Musca: Well, you can just still participate in the challenge and get access to everything plus prizes for just 2K.
+[00:41:14] jese Smith-shields: And then they have to win it.
+[00:41:16] Kyle Musca: Yeah.
+[00:41:18] jese Smith-shields: Yeah, yeah, and I like that.
+[00:41:21] Kyle Musca: Yeah.
+[00:41:25] Kyle Musca: Yeah.
+[00:41:26] Kyle Musca: And then you might have a separate one for, you know, your clients, for example, that re-sign.
+[00:41:32] Kyle Musca: Again, if they re-sign for a year at 8 grand, was that the price they re-signed at?
+[00:41:37] jese Smith-shields: Yeah, basically.
+[00:41:38] Kyle Musca: Yeah.
+[00:41:39] Kyle Musca: Then, yeah, I would include that.
+[00:41:40] jese Smith-shields: You just, you are relying on them staying around for that one.
+[00:41:43] jese Smith-shields: Yeah.
+[00:41:45] Kyle Musca: Yeah.
+[00:41:45] Kyle Musca: But when would you be doing that?
+[00:41:46] Kyle Musca: When would you, with this one at the end of March?
+[00:41:50] jese Smith-shields: Yeah.
+[00:41:51] jese Smith-shields: Because I'd probably want to base it more around my core clients than what I want to, within the challenge clients.
+[00:41:59] Kyle Musca: Well, to be fair, they would have always...
+[00:42:02] Kyle Musca: I reckon they'd run it as two separate ones.
+[00:42:06] Kyle Musca: But to be fair, they would have all had to have been around for at least three months, hey?
+[00:42:12] jese Smith-shields: The ones that I would choose, some of them have been with me for nearly three, four years.
+[00:42:16] Kyle Musca: Oh, yeah, no, you've definitely made the profit margins from them, so, yeah, 100%.
+[00:42:22] jese Smith-shields: That's why I kind of don't have a massive issue doing it for those ones.
+[00:42:26] Kyle Musca: Yeah, no, that's sweet.
+[00:42:28] Kyle Musca: It's, like, honestly, as long as they've been around for, because, again, it really depends on the expenses, but, like, you're already saving 500 bucks here, so, like, if they've been around, if they've paid you three and a half grand, and then, like, let's just say they're weekly sorry, that's the one, three and a half grand for six months, and let's say that weekly rate doesn't change.
+[00:43:00] Kyle Musca: Okay.
+[00:43:00] Kyle Musca: Okay.
+[00:43:01] Kyle Musca: It depends on, oh, there's so many, like, different.
+[00:43:03] jese Smith-shields: Yeah, there's too many variables to try and map it out.
+[00:43:07] Kyle Musca: So I can think, will you?
+[00:43:11] Kyle Musca: So that's...
+[00:43:22] Kyle Musca: 525.
+[00:43:30] Kyle Musca: Whereas a year would be 6.
+[00:43:37] Kyle Musca: Okay.
+[00:43:41] Kyle Musca: So then minus that, you'd be profiting, like, 4, 4, 2 from.
+[00:43:49] Kyle Musca: There's so many variables in it.
+[00:43:50] Kyle Musca: Yeah.
+[00:43:53] jese Smith-shields: Yeah, that's...
+[00:43:55] jese Smith-shields: wouldn't do it anyone less than 8 months, 9 months.
+[00:43:59] jese Smith-shields: 525.
+[00:44:02] jese Smith-shields: Which I do have, a lot of my core groups have been with me for ages.
+[00:44:13] jese Smith-shields: Yeah, because I was counting up the other day, there's even two members, they've referred over 18 people.
+[00:44:19] Kyle Musca: Oh, .
+[00:44:20] jese Smith-shields: Yeah, so now I was trying to do the whole math on that, and I was like, that doesn't make, I'm not doing that.
+[00:44:28] Kyle Musca: Yeah, that fit is, man, you want that, you want to know your numbers, so like, for example, six months is $3,500, which means that for, if they extended and doubled that on the same rate, that's $7,000, and then minus that $6,000, so yeah, you're still getting a yearly rate out of that.
+[00:44:48] Kyle Musca: I would, so you can still do that, but they have to double it.
+[00:44:57] Kyle Musca: They have to double what they're on.
+[00:44:59] Kyle Musca: I don't think you could get away with it if they did see.
+[00:45:01] Kyle Musca: Six months, then continued on for another three months at that six-month rate.
+[00:45:06] jese Smith-shields: Yeah.
+[00:45:09] jese Smith-shields: Yeah, okay.
+[00:45:11] Kyle Musca: We definitely wouldn't be up to because just doubling that just covers what it needs to be to get that.
+[00:45:21] jese Smith-shields: Yeah.
+[00:45:23] Kyle Musca: So, but again, that's where you might want to have a chat to them, you know, even three weeks in.
+[00:45:28] Kyle Musca: Be like, oh, how are enjoying everything?
+[00:45:30] Kyle Musca: Oh, well, like, fantastic.
+[00:45:33] Kyle Musca: Look, if you, you know, wanted to double your time, you'll actually get, I'll throw on a trip to Bali by the end of it.
+[00:45:42] jese Smith-shields: Yeah, okay.
+[00:45:43] Kyle Musca: Or I'll, you know, depending on when you speak to them, like if you do it every six months, you know, we've got a trip to Bali coming up in, you know, March, November, whenever it comes around to be.
+[00:45:55] Kyle Musca: If you double it, I'll actually throw on it, include you in that trip for free.
+[00:46:01] Kyle Musca: Thank you.
+[00:46:01] Kyle Musca: You're right.
+[00:46:01] Kyle Musca: So, yeah.
+[00:46:01] Kyle Musca: Thank
+[00:46:01] Kyle Musca: And then, again, it just has to be, and then when they agree to it and, like, pay it, just be like, oh, and, you know, just to be, like, fully transparent, or maybe not even when they pay it, but just to be fully transparent, if whatever happens and you, you know, decide to pull out before then, you just have to cover the expenses that go into the paid trip to Barlow.
+[00:46:21] Kyle Musca: Sound fair?
+[00:46:23] jese Smith-shields: Yeah, yeah, okay, I can see how you work on that one.
+[00:46:25] Kyle Musca: Yeah.
+[00:46:29] Kyle Musca: Yeah.
+[00:46:31] Kyle Musca: Because, yeah, that's  fair enough.
+[00:46:33] Kyle Musca: Like, if you're just giving me a paid trip to Barlow and then I don't agree to my side of the deal, I just have to do it, right?
+[00:46:41] Kyle Musca: Yeah.
+[00:46:41] Kyle Musca: But that's a good idea, for sure.
+[00:46:43] jese Smith-shields: Yeah, yeah, sweet.
+[00:46:46] jese Smith-shields: Advertisement within that, advertise it as a challenge, the winner wins, XYZ within the Defiant, keep that palm, EHP, and one person gets it, all expenses paid.
+[00:47:01] Kyle Musca: And for a Bali trip.
+[00:47:03] Kyle Musca: Yeah, I think in terms of advertisement, like, it'd be pretty easy to include that.
+[00:47:10] Kyle Musca: We'd basically keep the scripts as they are and just add on.
+[00:47:13] Kyle Musca: And the grand winner will get an all-expenses-paid trip straight to Bali.
+[00:47:18] jese Smith-shields: Yeah, okay.
+[00:47:19] Kyle Musca: And you just add it on.
+[00:47:20] jese Smith-shields: Yeah.
+[00:47:21] jese Smith-shields: Would you use that as, like, a bit of a hook instead, though?
+[00:47:25] Kyle Musca: I would probably throw it in there now.
+[00:47:29] Kyle Musca: Like, remember when I did mine, I remember, like, you know, would you like to lose, I can't remember the exact word, but, like, would you like to lose 10 kilos and win an all-expenses-paid trip to the Gold Coast?
+[00:47:40] Kyle Musca: Well, you're in luck, because I just launched my new 2026  glow-up challenge or whatever you call it.
+[00:47:46] jese Smith-shields: Yeah.
+[00:47:52] Kyle Musca: Yeah.
+[00:47:54] Kyle Musca: Well, I'll you about the official life, five months.
+[00:47:58] Kyle Musca: Five, nines in Bali, if we paid for taking.
+[00:48:29] Kyle Musca: I mean, you don't say it's actually free there for age 12.
+[00:48:32] jese Smith-shields: No, I don't.
+[00:48:35] Kyle Musca: And you'll probably be taking it to 12 people if you start selling that higher ticket package for the thing.
+[00:48:44] Kyle Musca: Plus, two people aren't going to remember that, to be honest, either way.
+[00:48:50] Kyle Musca: And if you've already got eight people that are re-signed, like you've already  got it.
+[00:48:54] jese Smith-shields: Yeah.
+[00:48:55] Kyle Musca: Yeah.
+[00:48:56] Kyle Musca: So you've already fulfilled on that anyway.
+[00:49:02] Kyle Musca: Yeah, cool.
+[00:49:02] Kyle Musca: Does that all make sense?
+[00:49:03] jese Smith-shields: Everything we've spoken about?
+[00:49:05] jese Smith-shields: Yeah, a little bit, yeah.
+[00:49:09] jese Smith-shields: Just we would have to restructure those scripts.
+[00:49:13] Kyle Musca: Yeah, yeah.
+[00:49:14] Kyle Musca: It can't be too much restructuring at all.
+[00:49:15] Kyle Musca: It'll just be adding that.
+[00:49:17] jese Smith-shields: Yeah.
+[00:49:18] jese Smith-shields: The video setting, do you just want them similar to, like, our last video ads?
+[00:49:24] Kyle Musca: Yeah, yeah.
+[00:49:25] Kyle Musca: Yeah.
+[00:49:25] Kyle Musca: Maybe try some in gym.
+[00:49:27] jese Smith-shields: Maybe try some on the beach as well.
+[00:49:28] jese Smith-shields: yeah.
+[00:49:30] jese Smith-shields: Yeah, okay.
+[00:49:31] jese Smith-shields: I'll book him for next week.
+[00:49:33] jese Smith-shields: When do you want all that done by?
+[00:49:36] Kyle Musca: Not in a massive rush.
+[00:49:38] Kyle Musca: Mid-November, ideal.
+[00:49:40] jese Smith-shields: Yeah.
+[00:49:43] Kyle Musca: We'll also want to probably start filming, like, final day's content as well.
+[00:49:47] Kyle Musca: We'll get this cool stuff done.
+[00:49:48] Kyle Musca: And then it's, you know, you need the, like, last chance, because what we'll do is a retarget ad for them.
+[00:49:53] Kyle Musca: Yeah.
+[00:49:54] Kyle Musca: We can watch, like, 25% of the video or something.
+[00:49:56] Kyle Musca: It's, like, final days.
+[00:49:58] jese Smith-shields: Yeah.
+[00:49:59] jese Smith-shields: So, that's...
+[00:50:01] jese Smith-shields: That's good.
+[00:50:05] Kyle Musca: Commence for the odds.
+[00:50:08] Kyle Musca: Experience trying to stand up in charge.
+[00:50:10] Kyle Musca: Yeah, cool.
+[00:50:15] Kyle Musca: Yeah, as I mentioned, definitely want to bring that forward a bit.
+[00:50:17] Kyle Musca: Bounce can buy and resign.
+[00:50:19] Kyle Musca: I'm good.
+[00:50:20] Kyle Musca: I would keep it, you know, it would be the same retreat, but I would just do a client, new sign-up client one slash challenge, and then like loyalty rate one's different.
+[00:50:32] jese Smith-shields: Okay.
+[00:50:34] Kyle Musca: I mean, because it's like, it's pretty much the same concept.
+[00:50:37] Kyle Musca: One's just a re-sign, one's an actual sign-up.
+[00:50:40] Kyle Musca: Yeah.
+[00:50:41] Kyle Musca: One's more like, more price, like increase in price, whereas the other one's increase in duration.
+[00:50:48] jese Smith-shields: Yeah.
+[00:50:50] jese Smith-shields: Yeah, I gotcha.
+[00:50:55] Kyle Musca: Yeah.
+[00:51:01] Kyle Musca: Yeah, cool.
+[00:51:13] jese Smith-shields: Then the live announcement, we're still well off doing this, but when it comes, like, I would actually give them a call and, like, get someone to record you.
+[00:51:20] jese Smith-shields: Yeah, yeah.
+[00:51:21] jese Smith-shields: I wouldn't do it, like, an actual live on Instagram.
+[00:51:26] jese Smith-shields: It would just be a phone call.
+[00:51:28] Kyle Musca: Yeah, and then record it and stuff.
+[00:51:30] Kyle Musca: Yeah.
+[00:51:36] Kyle Musca: So, yeah, I mean, everything else is pretty much good, and we just need to include on that little, you know, grand prize-winning edition.
+[00:51:44] jese Smith-shields: Yeah.
+[00:51:46] jese Smith-shields: Sounds good.
+[00:51:47] Kyle Musca: Super.
+[00:51:48] Kyle Musca: And then I would also definitely, definitely look at, even from now, just using it as an upsell.
+[00:51:54] jese Smith-shields: Yeah.
+[00:51:55] jese Smith-shields: Just increasing the money or not.
+[00:51:57] Kyle Musca: Yeah, like three grand.
+[00:51:59] Kyle Musca: I'll include a trip to ball.
+[00:52:01] Kyle Musca: All
+[00:52:02] Kyle Musca: Or you could just go, I would probably do three and a half for three months for that, if you're going to start.
+[00:52:08] jese Smith-shields: Yeah, yeah.
+[00:52:10] Kyle Musca: Because, you know, again, you want to, one, you want to incentivize them to stick around longer, but two, like, it's not really worth the extra work if they're not, you're not really profiting anymore, I guess.
+[00:52:21] Kyle Musca: Yeah.
+[00:52:22] Kyle Musca: You get more people at Red Tree, which is cool.
+[00:52:24] Kyle Musca: But anyway, cool man.
+[00:52:25] Kyle Musca: If you have any questions, let me know.
+[00:52:27] Kyle Musca: Is there anything else you want to touch base on at all?
+[00:52:29] jese Smith-shields: No, I'm pretty good.
+[00:52:31] Kyle Musca: Sick, man.
+[00:52:31] Kyle Musca: All right, cool.
+[00:52:32] Kyle Musca: I'll get those scripts adjusted for that, and then we can start filming next week, would be good.
+[00:52:38] jese Smith-shields: Yeah, no, that'd be sweet.
+[00:52:41] Kyle Musca: Sick, bro.
+[00:52:42] Kyle Musca: Cool, man.
+[00:52:43] Kyle Musca: Well, enjoy the rest of that.
+[00:52:44] jese Smith-shields: I'll chat to you soon.
+[00:52:45] jese Smith-shields: You too.
+[00:52:45] Kyle Musca: Have a good one.
+[00:52:47] jese Smith-shields: Bye.

@@ -1,0 +1,378 @@
+Hi guys, my name is Declan and I'm James' videographer and
+video editor and today I'm going to be giving you a quick
+run-through about how we use DaVinci Resolve to edit James'
+videos. So first things first, I want you to go into DaVinci
+Resolve. When you open the program, you'll be greeted with
+this window here, which is the Project Manager. First, we're
+going to go down to the bottom right-hand corner, press New
+Project, and we'll name this Tutorial. Okay, so when you
+open up DaVinci, you'll be greeted with this screen here,
+and I want you to pay attention to these little icons down
+the bottom. You're going to notice seven icons, okay? These
+are the different tabs within the software. Each tab is
+responsible for a different task. The first tab is called
+the Media tab, and this is where we're going to organize all
+our files. The second tab is the Cut tab, which is great for
+speed editing long sections of dialogue or making quick cuts
+to your edit. The next tab is the Edit tab, and this is
+where we'll spend the majority of our time. We'll construct
+the edit, add music, do basic effects, and then we'll go on
+to the next tab, which is the Fusion tab. This is a little
+bit more advanced. This is where we'll do more advanced.
+We'll do more advanced motion graphics, 3D compositing, but
+we won't really cover this page in this tutorial. And then
+we've got the Color tab. This is where we'll do color
+correction and color grading of our footage. Next up, we've
+got the Fairlight tab. This is where we'll do audio
+processing. So a great tool that I'm going to show you later
+is called Voice Isolation, which is going to help to remove
+unwanted background noise, and I'll explain that later in
+the tutorial. And then finally, we have the Export tab,
+which is where we're going to export our videos for social
+media or YouTube. Okay, so we're going to start in the Media
+tab. And the first thing we're going to do is create some...
+new folders. In DaVinci, folders are called bins. So when I
+press right click, new bin. We're going to name this bin
+Sony FX3. Then we'll create another bin. We'll name this
+Sony A7 IV. And then we'll create one more bin, Osmo. So
+I've created these bins in order to organize our footage.
+Depending on what you're editing, you may be shooting with
+multiple cameras. You may be shooting different scenes,
+different days, different subjects. A really helpful tip is
+to organize all this. You may want to organize your footage
+into these bins before you start editing, which will make it
+much easier to find your footage when it comes to the edit.
+So we're going to go into Sony FX3 folder. We're going to
+press Command I. We're going to locate the footage that we
+want to add, which is in this folder here. Drag it all in
+and click Open. Now you're going to get a message here that
+says Change Project Frame Rate. I want you to press Change.
+What that's going to do is it's going to make sure that the
+timeline matches the footage that you imported. So the frame
+rate will be the same. That's all we need to know for now.
+Okay. As you can see, we've got our FX3. We've got our FX3
+video files in the folder. Then we'll scroll down to the
+Sony A7IV. Again, pressing Command I. And we'll navigate to
+the Sony A7IV folder. We'll then drag in all the footage and
+click Open. And finally, go to the Osmo bin. Now another way
+you can import the footage is go up to the top, File,
+Import, Media. And that will bring us back to the same
+folder. Navigate to the Osmo folder, find the clip, and
+Open. Okay, fantastic. So as you'll notice... Down the
+bottom here on the left, we've got Sony FX3 clips, we've got
+Sony A7IV clips, and we've got Osmo clips here, which is
+fantastic. Everything's all organized, and it will make our
+life much easier as we progress into the edit. So we're now
+going to move on to the next tab, which is the Cut tab. Now,
+to be completely honest with you, I don't really use this
+tab very often. The time when it may come in useful is if
+you have a long talking head and you want to quickly chop
+through it and cut out the gaps in the audio. To demonstrate
+this, we're going to import another file. So as you can see
+here, I've imported it. It's a file of James. We're going to
+drag that in, and you're going to notice two timelines.
+We've got one at the top and one at the bottom. Now, the
+timeline at the top is going to be a zoomed out view. So
+you'll be able to see the entire timeline. If we have
+multiple clips in here, let's, for argument's sake, add in
+some of this footage. We can add it to the end. And now
+you'll notice at the top, we can see all the clips that are
+in the timeline up here, and we can see a zoomed in view
+down the bottom. So as we scroll through, it'll play. We'll
+be able to see all the details in this bottom timeline.
+That's nice and zoomed in. And at the top, we'll be able to
+see the whole timeline. And we can grab that playhead and
+quickly skim through the footage to find the part we want to
+go to. OK, so I mentioned that this tab could be used for
+editing a dialog. And the way we do that, now you'll notice
+that the clip shows the audio waveforms down the bottom.
+This is going to be really handy for us to know which parts
+to delete so we can cut out the gaps. Now, the fastest way
+that we can do this is by using three commands. These
+commands are Q, W and E. So when we press Q, that will
+ripple delete. Everything from the left. Now, what that
+means is anything left of this playhead here will be deleted
+and the whole timeline will be shifted back to that spot.
+OK, so if I press Q, you'll notice that everything's been
+shifted over and we're now starting from here. So if I undo
+that, back up in command Z, you'll see this space here,
+ripple delete, Q, deletes it and drags everything to the
+left. The next command I'm going to teach you is W. So what
+W will do is it will simply split the clip. So if I press W
+here. You'll notice that there's been a split made here and
+that will just simply cut between the clips. OK, and the
+final command is going to be E. So what this will do is this
+will do a ripple delete and it will delete everything right
+of the playhead. So everything from here will be deleted.
+And you'll also notice that any clips following this clip
+will then be dragged back in its place, which is a ripple
+delete. So if I press E, you'll notice that that's all been
+deleted and this next clip has been dragged in. So I
+understand that might be a bit complicated. But if you just
+remember. Q, W, E, W will split down the middle, Q will
+ripple delete everything to the left, and then E will ripple
+delete everything to the right, like so. OK, take some time
+to practice that and get comfortable with it. So we are now
+going to move to the edit tab. So this here is the edit tab.
+This is where the majority of our time will be spent
+perfecting the edit. Now, if you notice up the top here, we
+have a few different icons. I want you to press media pull.
+You can also press tab on the keyboard, which will bring
+that up as a shortcut. And now we're going to find all our
+media. So we've got our FX3 footage, A7IV and Osmo footage
+all here ready for us. We can simply drag that in to the
+timeline. If we now want to move to the right and you're
+going to see a tab that says inspector, and that's going to
+open up a bunch of transform controls. What this basically
+means, if we want to zoom in for whatever reason, we can
+come over here to the right where it says zoom and we can
+scroll and we'll zoom the footage in. If we're going to move
+it left or right, we can do that. Up or down, rotate it.
+Whatever you want, it's all here. You also have a few other
+options, but we won't get into them in this tutorial. Now,
+another cool thing you can do with the transform section is
+add keyframes. So what is a keyframe? A keyframe basically
+allows you to animate controls in the transform section. So,
+for example, if we wanted to do a slow zoom, we could do
+this with the keyframes. Let's start here at the start of
+the clip. Let's press this icon here, which is the keyframe
+icon next to the zoom. Click that. Then we're going to
+scroll the playhead forward. And let's then zoom in a little
+bit like that. Now, if I go back and play this clip back,
+you'll notice that it slowly zooms in. And you can see up
+here the values are changing. So you get a cool zoom shot
+like that. Okay. That's the main thing you'd be using this
+transform section for here. We won't go into the rest of
+these effects. In this tutorial, it's a bit more advanced.
+One more thing I'm going to show you in the edit tab is this
+effects section up here. Okay. So if you wanted to add in a
+quick effect that's already been made for you, for example,
+a text effect, you can simply drag and drop. So if we go
+down and we find some text here, we've got one here, clean
+and simple. Let's drag that in. And that would then overlay
+the text. If we zoom in a bit, let's write something in
+here. Let's say James Smith. And then we press play. This
+will animate the title for us already. It's as simple. It's
+that honestly, you just drag and drop these titles in.
+There's loads to choose from. Write whatever you want in.
+And you've got a sick looking title. You'll also notice down
+the bottom, we've got a few other effects. We've got
+different overlays. We've also got some transitions.
+Although I wouldn't recommend using these transitions
+because they look a bit cheap, to be honest with you. I'll
+give you an example here. If we play that back, it just
+looks a bit... That one actually looks all right, to be
+fair. But some of these ones look a bit shit. Let's try this
+one. Yeah. Yeah. That looks like shit. One more thing you
+can do in the edit tab is to add subtitles automatically.
+Now, to do that, you're going to come up to the top where it
+says timeline. And you're going to press create subtitles
+from audio. You're then going to press create. All right.
+And you'll see up here, the subtitles have automatically
+been added. We can play it through. And you'll see they're
+all there. Now, if anything's incorrect, click on the
+subtitle, go to the caption, and you can simply manually
+write in what you want. You can also change the size. Color.
+And the position as well. Make it higher, lower, left,
+right. All right. So we're going to move on to the next tab
+now, which is fusion. This tab here is a lot more advanced.
+It's for motion graphics, 3D animating, and 3D compositing.
+So we're not even going to bother going through this tab
+right now. So we're going to move on to the next one, which
+is the color grading tab. So I'm sure you've noticed that
+the footage that we've been looking at so far is quite
+washed out and looks very flat. That's because we shot these
+videos in log. What log is, it's basically a flat picture
+profile that allows us to maximize dynamic range and also
+preserve as much control when we're actually editing and
+color grading it in post. So I'll show you how we'll convert
+this footage and bring it back to looking like normal
+footage. So you'll notice here on the top right-hand corner
+that we've got this strange-looking icon here. This is
+called a node, okay? Basically, this point here is the
+beginning, and this is the end. And any node that we add to
+this will affect the footage. And it will work on top of
+each other, okay? So the first one will be here. Let's add
+some new nodes by pressing Option-S. And let's go ahead and
+create six nodes. Now, the way this works is each node will
+affect the footage as it passes through to the output. So
+this is the input here. This is the output. Now, I
+understand this is quite complicated stuff, and you won't
+even need to bother with this if you didn't shoot in log or
+you don't want to make the footage look extra cinematic. But
+if you are interested in going that extra step and you
+really want to make your video stand out, this is a great
+skill to learn. You'll notice that we spend a lot of time
+color grading James' YouTube videos to get them to look the
+way they do. So if you're not shooting in log and you're not
+interested, just skip ahead. If not, stick around, and let's
+learn the basic way to color grade and color correct your
+footage. Starting off, the first node we're going to affect
+is this second last node here. Now, what we're going to do
+is we're going to go into Effects, and we're going to search
+Color Space Transform. Now, you're going to get these
+options up the top here. Now, the only ones you need to
+worry about are these two. Input Color Space and Input Color
+Space. And Input Gamma. Depending on what camera you shot
+this on, you're going to put in a different input. Now,
+because we shot this on Sony, and it was log, we're going to
+scroll down to Sony S Gamut Cine. And then Input Gamma would
+be Sony S Log 3. Now, as you can see, instantly the contrast
+and saturation of the image has all started to come back.
+That's because we've converted this footage to Rec. 709,
+which is the standard viewing for most screens. So I
+understand that that's very complicated. And it will take
+some time before that all makes sense to you. But what I
+want you to know is if you are shooting log, then you need
+to do this step here and just figure out what the input is
+for the camera that you're shooting in. If it's Sony, then
+it's going to be Sony S Gamut Cine and Sony S Log 3 if you
+shot in S Log. If it's Panasonic, then you'll be shooting in
+Panasonic V Gamut and Panasonic V Log. And if it's Canon,
+then you'll be shooting Canon Cinema Gamut and Canon Log.
+But to be completely honest with you, most likely you're not
+even shooting in Log. And if that's the case, just forget
+this step entirely. Okay. So the first adjustment I like to
+make is correcting the camera. The white balance. So if we
+click here in the first node, we're going to come down to
+this offset wheel and we're going to adjust the white
+balance color. Now, the way we can tell what's correct and
+what's not is if you look over to the right here, it's going
+to be a scope. This is called a vector scope. And it's
+basically going to allow us to see where the colors are
+sitting on the scope. Now, you notice this line here. We
+want the skin tones to fall on this line and we want the
+overall image to fall somewhere in the middle. Because
+there's no one in this shot right now, we don't have to
+worry about the skin tones. But let's pull this over. Using
+this offset wheel here and let's bring it to the middle as
+best we can. Obviously, there'll be some parts that will
+come off the scope, but if the majority of the image sits
+somewhere like this, then it should be looking pretty good.
+So you notice here that that looks a lot better. But if it
+was something like this, you'll see it's too hot or too
+cold. So by looking at the scope, let's bring it back
+somewhere in the middle like this and it should be looking
+pretty good. Fantastic. That's the white balance corrected.
+We're then going to move on to the contrast. So that's the
+second node. And what I also recommend you do is you name
+these. So let's name this WB for white balance. And this
+next one, let's label it contrast. Okay. So for the
+contrast, we're going to go down to a different tool, which
+would be the waveform. And you'll notice here that we can
+see this information here. The main thing for the waveform
+is you want to make sure that nothing's clipping, like the
+highlights aren't clipping or the shadows aren't being
+crushed. Now, I'm going to demonstrate what that would look
+like. If our image was to look like this, you'll notice here
+that the highlights are full. They're all bunched at the
+top. This means they're clipping. And you'll see here that
+the image is obviously way too bright. Now, the opposite
+would be the shadows being crushed. If we bring it down,
+you'll notice here that the information is going off the
+chart. Hence, the image is too dark and the shadows are
+being crushed and we're losing information in the image. So
+you want your image to sit somewhere in the middle. Okay.
+Somewhere in the middle like this. And you can bring in a
+bit of contrast as well. Let's bring the gamma down. This is
+basically like the mid-tones. That's like the shadows and
+that's like the highlights. So if we bring the gamma down a
+bit, maybe bring up the gain, maybe bring the lift up a
+little bit as well. If I disable this node here, you'll
+notice that we just brought in a few more details to the
+shadows and added a bit more contrast. Moving on, I like to
+adjust the saturation. So let's name this Saturation. So for
+this one, you're going to come down into the Saturation
+section and you can bump this up like so. Find a point that
+you like. And that's just going to make the colors more
+visible. So if we press D to go before and after. That's
+before. That's after. Just a very slight adjustment to get
+the image to pop that a little bit more. Next up, we've got
+the Curves. So we're going to label this Curves. And we're
+going to come down to this section here. Press this icon.
+And that will bring up the Curves. So the Curves are another
+way to create contrast in the image. I find it's a bit more
+aggressive than the wheels we were using before. The Gamma,
+Gain, and Lift. The Curves is a bit more aggressive. So if
+we bring the shadows down. It's quite a hard adjustment.
+Highlights up. You'll notice a lot more contrast. It's
+before. After. Before. After. It's probably a little bit too
+much. Let's bring the shadows back a bit. Highlights down.
+Just something tasteful. That'll do. Now you'll also notice
+that there are a few other icons here. So if we press the
+Hue vs Hue, this will allow us to change the color of
+certain hues. So if we see the grass here, we can use the
+eyedropper icon. And then we can drag this. And that will
+allow us to make the grass greener. More yellow. You can do
+all kinds of funky effects with these hue sliders. Let's
+change the sky maybe. Make that more teal. More purple. Do
+whatever feels right for you. Alright, moving on. We'll pass
+that Color Space Transform node to the final node. And this
+is where you can add a LUT if you desire. So a LUT is
+basically like an Instagram filter. It's a quick fix that
+gives you a certain look. I think LUTs are a nice way to
+finish off your grade. So if we go into these LUTs here.
+DaVinci actually has its own LUTs built in. So let's just go
+to FilmLux here. And you can pick some of these random LUTs.
+Now you can preview them by just dragging the playhead like
+so. I'm going to select this one here. Now the key when
+adding LUTs is to do it tastefully. So obviously that is way
+too strong. So what we're going to do is we're going to go
+down into this icon here. Which is the Key icon. And we're
+going to go down to Key Output. And we're going to drop that
+right down. So we'll go try 0.1 to start with. Try a bit
+more. Let's go 0.25. And now you'll notice if I disable
+this, it's a very slight adjustment. I go even less. Let's
+go 0.2. Before, after. Very slight adjustment. Or even 0.1.
+Very slight adjustment. So now if I show you before and
+after. This is the grade. That's before. That's after. So
+we've just brought back some contrast and saturation into
+the image. This is just a very, very quick demonstration. We
+usually spend a lot more time to get the image perfect. Now
+moving on to the Audio tab. I'll keep it real simple. In
+this tab the only thing you really need to know is how to do
+voice isolation. So let's say you're recording yourself
+talking in the gym, in public or some kind of busy space.
+You can use voice isolation to get rid of the background
+noise. So let's go up here and find this clip of James.
+Let's drag it in. And let's play the video.
+Now this is probably a bad example because we filmed this in
+a studio with a fantastic microphone where there was no
+background noise. But you may still be able to hear a little
+bit of echo because we didn't have a sound treated room. Now
+if this was filmed outside or in wind then this would be a
+lot more noticeable. But what you're going to do is you're
+going to select the clip here. You're going to go over to
+the right where it says voice isolation. You're going to
+press this. And then you're going to change the amount to
+about I find 20 is a great amount where it's not too
+noticeable. If it's more extreme noise you can drag that up
+more. But if I just play that back now. I'll just turn the
+volume up so it's more obvious.
+But if I take that off. And the third one is to create
+seamless landing pages and sales pages which in essence are
+automated. Very, very slightly you can hear that the
+background noise and that hum in the background is being
+removed. And the voice just sounds better with voice
+isolation. So remember for this one less is more. Keep it
+around 20. All right. So we'll move on to the final tab
+which is the export tab. So I'll keep it real simple for
+you. If you're exporting for YouTube come over here where it
+says YouTube. If it's 1080p let's click that. If it's 4K you
+can select that there. Just name your project. Tutorial. Add
+to render queue. Choose where you want to save it. And just
+press render all. That's for YouTube. If it's TikTok again
+same thing. TikTok, Instagram same shit. So you can just use
+TikTok 1080p. Keep it real simple. Now if you wanted to just
+export it for yourself in a high quality format. Go to
+custom export. Change MP4 to QuickTime. And then encoding
+profile to VFX. High. And keep this at about 100,000. And
+then you can add to render queue. One more thing as well. If
+you did want to add subtitles come down here. And just make
+sure you export the subtitle. And press burn into video. And
+then again add to render queue. All right. So I hope that
+was helpful. I understand that it was probably quite
+confusing in some parts. But if you do have any questions
+feel free to ask in the Discord or ask James. This module
+has been the DaVinci Resolve tutorial. I hope you guys found
+that useful.

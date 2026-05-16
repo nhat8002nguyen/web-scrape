@@ -1,0 +1,1080 @@
+You aren't making as much money as you
+want because you don't know how to get
+it from the people who've got it. My
+name is Alex Ramoszi. I run a portfolio
+of companies at acquisition.com that
+joined us over $250 million per year. I
+did a book launch 12 weeks ago that did
+$16 million in sales. In a weekend, it
+broke a Guinness World Record for the
+fastest selling non-fiction book of all
+time. In this video, I'm going to
+explain a core shift in my understanding
+of how getting money actually works and
+why the rich do in fact get richer. And
+I'm going to show you the math behind it
+and most importantly, how you can gain
+access to it. The first reason that you
+aren't making as much as you want is
+because you're selling to people who
+don't have the money to give you. So,
+think about it like this, and this is
+really important. Imagine this pyramid
+as a representation of earning in the
+United States. What percentage of the
+people do you think earn 40% of the
+income,
+the top 10%. Earn 40% of the income in
+the entire US. Now that's income and
+that's pretty extreme but it's not even
+close to the difference when you look at
+wealth. So US household net worth okay
+this is the value of their assets
+last year was
+163
+trillion and you're like man how am I
+going to pay rent? I'm like let's get
+some of that 163 trillion. So this is
+going to blow your mind. So, I want you
+to imagine that you had $100. Okay? So,
+I'm going to equate this 163 trillion is
+to now $100. Okay? And we're going to
+spread it out
+relative to how it actually is spread
+within the United States. So, this is
+100 people to represent 100 percentiles
+in terms of net worth in the United
+States. This $163 trillion, what would
+they have if there was 100 people to
+represent this $100?
+They would have $2.50.
+I'm just going to use bills cuz I don't
+feel like I haven't changed. So $2 out
+of that 100, the bottom 50. So the next
+40%, what do you think they would have?
+They're going to have 20, 25, 28 bucks.
+That's the next 40. Remember, we got
+$100 to distribute here. So the next 9%.
+So now we're getting the top 10, the top
+decile of net worth in the United
+States. How much do you think they got?
+They got 20. They got 30. They got 35.
+at 38. All right, $38 in just this 9%.
+Now, you ready for the the drum roll?
+How much do you think the top 1% has?
+I mean, it's one/tenth, right? So, like
+it can't be more than the other nine,
+right? I mean, you you'd think that
+the top one, just the one guy
+would have 30
+$2.
+One guy. Now, this means that this one
+guy has more than the bottom 90%
+combined.
+This is very important because it has
+implications for how you do business.
+So, when you hear me say, "Sell to the
+rich, they pay better," it's not some
+piffy statement. It's reality. And it
+takes people a very long time to learn
+this. And people often take years before
+they actually start to figure this out.
+Usually, there's belief issues. They're
+like, "No one else could do this." And
+part of the reason is because everyone
+they know is poor. And they're like,
+"There's no way I could sell something
+for that price." And so, they make stuff
+against all the other small businesses
+to compete for these $2. Think about
+that for a second. You're putting all
+the resources because you see all these
+people. They're the ones that you're
+brushing shoulders with. They're the
+ones that you see in the street every
+single day. And you're trying to compete
+and slice these $2 a hundred different
+ways, right?
+If you want to make money, go where the
+money is.
+So, let's put this concept on steroids
+now and actually apply this to doing
+business. This is how big companies get
+big. They go where the money's at. And
+this is a breakdown of something called
+PTO's principle. You might have heard of
+it. 8020. It's one of the most powerful
+concepts in business. And most people
+still don't understand how to actually
+apply it. All right? So, I want you to
+freeze this idea in your head. Just look
+at the money here. $2 here, 28 bucks
+here, 38 here. Now, we're in the top
+10%, right? And we have another 32 here.
+So, I said earlier that this one guy is
+more than the bottom 90. But 69% of all
+the wealth is just in these 10 people.
+If this doesn't change how you do
+business, you are missing the plot. So
+the idea of 8020 is that PTO who was
+Italian economist realized that there
+was this you know 20% of customers
+created 80% of the revenue. Uh and he
+just noticed this 8020 you know kind of
+issue that continued to uh occur within
+all different types of data sets. And so
+that became his principle. Now here's
+where this gets really interesting. So
+within business it totally rings true
+where 20% of your customers will be
+responsible for 80% of your profits. And
+then here's where people miss the next
+point is that within this 80 within this
+80%.
+64%
+of the aggregate profit right comes from
+just 4%
+of the there you go. Just do that of the
+people in there. four customers if you
+had 100. And then of this 64,
+51% of the profit comes from just the
+top 1%.
+Now, doesn't that all of a sudden start
+to make sense when you look at how the
+wealth is distributed? That the wealth
+is distributed in a way that also makes
+sense that the business would gain its
+profits in that way.
+And so we repeat this process and this
+is kind of power law within business.
+This is how you do less and make more.
+Profit takes into account the fact that
+a single person even with more service
+often doesn't cost that much more to
+handle than the other 99. So it's more
+work but significantly more profitable.
+Now this is only true under one very
+important condition that you actually
+have a business model that allows them
+to pay more. Right? If you just only
+charge $10 for your thing, like this is
+one of my favorite sayings is the only
+thing worse than offering a $1,000 thing
+to somebody who's got a $100 budget is
+offering a $100 thing to somebody who's
+got a $1,000 budget. In the first
+scenario, you lose 100 bucks. In the
+second, you lose 900. Big difference.
+And so, here's the important thing. If
+you have a model that allows for that,
+you have to understand that 99 out of
+100 people are not the top 1%. Right? If
+we're pulling back here,
+all these people are not the top 1%. So,
+you should expect them to say no to your
+expensive products and services. But
+when that whale comes, you should want
+to captain Ahab that and get it
+done. Real quick, I'm going to show you
+the exact 10stage road map from zero to
+100 million plus that less than 1% of
+companies finish. I've now done multiple
+times. And so, I can say with a lot of
+confidence that these are the stages as
+headcount increases that you need to get
+through. And I broke each of these down
+by eight different functions of the
+business, what the constraint feels
+like, like what are the symptoms of it
+when you're going through it, and then
+what steps we actually took to graduate.
+And we've done this across software,
+physical products, uh, service
+businesses, brickandmortar, all of this.
+And it works. And it's my gift to you.
+It's absolutely free. And so the link's
+in the description, but you just go
+acquisition.comroadmap.
+Just enter your info and it'll spit it
+right back to you. All free. And so the
+reason that I talk about selling to
+these the top 1% is that one of the most
+effective ways to build a business is
+from the top down. So what do I mean by
+that? Like think about like Tesla,
+right? We started with a $250,000
+roadster and he had a very limited
+production, very few people, more
+profitability per. What then happens?
+Well, then he was able to make the, you
+know, Model S and that was the next car
+and then he made the Model 3 or Model Y,
+whatever. So he kept working his way
+down. But what's interesting about this
+is that when you anchor high, it makes
+sense. Think about from a branding
+narrative perspective. If I say, "Hey,
+I've got this really expensive car. It's
+amazing. It's super fast." And then I
+say, "Hey guys, many of you couldn't
+afford this, so I made another car
+that's similar but more affordable for
+you." That that brand narrative works
+because you've anchored high. Now, think
+about the reverse. Hey, I'm a I'm a
+budget discounter and I'm going to now
+sell a really expensive car. It doesn't
+it doesn't hit the same, right? And so I
+love the top down approach because you
+have a brand reinforcer, but also from
+an operational perspective, being able
+to ship the amount of cars he has to
+ship for the the Model 3 compared to the
+amount that he had to do for the
+Roadster, it made more sense to start
+here because you can handle the volume,
+right? You might not have the operations
+to handle the amount of work that it
+requires to serve the masses. Like for
+sure there is money right at the bottom.
+There is, but you have to be doing it at
+very small razor than margins with
+extraordinary volume. And unless you
+have the capital to create something
+that truly scales to that mass, you will
+probably just end up trying to squeeze
+the $2 for more than what what they're
+worth. And so, how do we actually
+translate this into pricing our products
+and services? This is super important.
+So, here's my rule of thumb for upsells,
+taking into account that 20% of
+customers have far more spending power
+than the ones below. Now, remember, we
+had $2 here and the next level had 28.
+So it's like 14 times more wealth
+between just the bottom 50 and the next
+40. But just using the prito principle
+in terms of how we can apply this to
+pricing like you not understanding this
+is why your business is not making as
+much profit as you want. All right. So
+my rule of thumb is that for every new
+tier is that you want to 5 to 10x your
+price
+and expect 20% of people to take it.
+Okay.
+So, here's how it works. So, let's say
+that you sell 10 customers. Okay. So,
+you tell 10 customers. Let's do it
+again.
+Okay. Now, if you have eight of these
+customers
+at $10 per month
+and you've got two of them at $50 per
+month,
+how much am I making on these guys? I'm
+making $80 per month in total on the
+bottom 80 and then I'm making $100 per
+month on my top 20% or my top two. And
+so by serving these two customers
+differently, we doubled the revenue of
+the business, which by the way again is
+my rule of thumb. I want each tier to
+bring me another double, like another
+full amount of revenue. Otherwise, I'm
+like, I don't know if it's worth
+creating the actual extra constraint of
+operations, right? But here's where it
+gets even nastier. Let's say that this
+covers the majority of our overhead.
+That means that this extra $100 might
+contribute 10 to one compared to this to
+our bottom line. And so sometimes when
+you make a move like this, if you were
+here and you had $80 and you were living
+your life on this 80, right? It's like,
+well, maybe your your your cost is 70
+and you're taking 10 home. If you add
+this $100 in and maybe the cost on this
+is 20, you've got 80 left over. We 5x
+the profit. So let's say our profit
+before this was 10 a month.
+And then we added this in and we had $80
+a month in profit from this 100, right?
+Look at the difference in profit. We go
+from 10
+to 90
+just by adding this tier. And so the
+reason your business is not making as
+money and you're not making as much
+money as you want is because you're not
+priced appropriately for the people who
+actually have the money to give you. And
+so to maximize revenue, you can think of
+it with four tiers of pricing. And to be
+clear, you don't need to serve everyone.
+And the first product you have may not
+be your base tier. All right? So you
+might start here. I don't know yet. I
+don't know your business. But this is
+what you can walk through in terms of
+thinking through the pricing for your
+products and services. So let's assume
+that we have a,000 customers. All right.
+So on our on our our base tier, all
+right, so this is the lowest
+$10 per month. And let's say we've got
+800 customers at this level. Okay. Now
+our second tier, we might have it $100
+per month. So 10 times that price with
+20% taking it. All right. So that means
+we're going to get somewhere in the
+neighborhood of 200ish people who would
+qualify for this tier. Okay? And then
+next year we still have to follow our
+rule 5 to 10x. So that means we're going
+to be at 500 to a,000 a month for this
+next year. Just to keep it simple, I'm
+going just do 10x because it's nice and
+clean. All right. And so here we're
+going to have maybe
+around 40. Now you're like, "Wait, I
+thought we had a 1,000 customers." This
+would be 160. I'll redo the math at the
+end. You can see it. All right. Now, our
+next tier might be again 5 to 10 times
+this. And so, we might be somewhere in
+this 5 to $10,000 a month. All right.
+And so,
+times around eight people. Okay. And so,
+if you're looking at this, you're like,
+"Holy cow, that's uh those are very big
+differences in price." Yes. But so they
+they reflect how different the spending
+power that exists within customers is.
+All right? And so the main takeaway from
+this and is that if you're going to have
+an upsell, a very small percentage of
+people are going to take it. And so you
+have to make it worth it. And so people
+will have these I'll go 100 and 129.
+It's like it's the same pitch. It's the
+same price. The willingness to pay for
+that customer is the same. Let me show
+you how I've actually translated this
+into my own business. All right. Well,
+this and you can ignore the actual
+numbers of customers, but what do we
+have here? Ah, we have school. And then
+at $100 a month, what else do we have?
+We have school. This is our hobby plan.
+This is our pro plan. And so for me, the
+next number
+is $5,000,
+which is L1. And what's the next number
+after that?
+$35,000.
+Huh. almost like it's between five to 10
+times the price, which is L2. And then
+what do we have after that? We have
+something that's $135,000.
+So that's four times the price, right?
+And this is L3. And what do I have
+underneath of that? No money because
+it's a portfolio company.
+And so the thing is is it may take some
+time to build out this entire thing. I
+didn't start with school. I started
+building, you know, uh, you know, our
+brand. Uh this is to be clear just our
+advisory practice um that we have at
+acquisition.com.
+And so I'm just saying like knowing this
+doesn't mean you need to do all of this
+at once. It takes years and it does take
+operational chops to pull this off,
+right? You want to add tiers one at a
+time. My tip though is to start as high
+up as you can on this ladder for a few
+reasons, right? So the Tesla example I
+gave earlier, the branding from top down
+versus bottom up is much stronger. Like
+Honda making a better car is tough
+versus Rollsroyce making a Rolls-Royce
+light. it would be an easier play for
+them from brand position. The next
+reason is that I prefer to start with
+the unscalable. Why? Because it's easier
+to operationalize it serving these
+people because one, they actually,
+believe it or not, as a percentage of
+net worth, this is actually lower than
+what this is for somebody who's poor.
+Right? If you have uh $10 million, uh a
+hundred grand is 1% of what you've got.
+If you've got $1,000,
+a hundred bucks is 10% of what you got.
+And so for you, you will actually be
+more demanding for that 10 that 10% or
+that $100 reasonably so than somebody
+who's giving 1%. But from a business
+perspective, the hundred bucks versus
+the hundred grand, it's a gigantic
+difference. So you have an easier
+customer to deal with that has lower
+demandingness, but it requires, and to
+be clear, to get that $100 to equal
+100,000 is you got to get a,000 of those
+people. So is serving the one customer
+for 100,000 easier than serving a,000 at
+100 as somebody who used to sell $100
+gym memberships? for sure. And if we
+were to look at this from a profit
+contribution perspective, like what is
+actually dropping to the bottom line, it
+would look like this.
+All the profit is here just like all the
+wealth is at the top.
+So you have to do more and charge more
+for it to people who can afford it. And
+the amount you do for a few people is
+almost always worth it for the far
+greater price for those people who are
+willing to pay it. Now, you might ask,
+"Well, wait a second. I thought you said
+sell the rich." Like, why do you have
+this $10 and this $100 a month thing?
+The only way to serve the poor masses,
+right? And I say this to be a little bit
+more like, you know, jarring, but to to
+to serve people with lower budgets is to
+have tons of money and then find a way
+to serve them in an automated manner at
+a low price. And if you do that, you can
+also make a lot of money, but via
+volume. But it takes a lot of money. It
+takes a lot of time. And the reason that
+Tesla has almost gone bankrupt multiple
+times is because it's incredibly hard.
+The reason most software companies like
+Netflix and Spotify and some of these
+big consumer, you know, companies, uh,
+you know, who who charge $13 to give
+you, think about how hard that is. Think
+about how hard that business is. You
+they have to make worldclass
+entertainment for all the different
+genres that someone might like just to
+earn their $13,
+right? Just to earn the equivalent of
+like a Chipotle bowl. And I I again I
+bring this up because some people come
+in saying, "Oh, I'm going to do that."
+It's like, "You're going to do that
+bootstrapped." No, these companies that
+you're looking to model literally got
+artificially inflated with outside
+capital to prop the business up until it
+would get to the point where it actually
+could make money. So to do something
+like this cost a fortune. And so the the
+way that I'm trying to walk you through
+this is that 80% of businesses in the US
+or 78 are service-based businesses. And
+so you don't have an automated way to
+serve these masses. you likely don't.
+And so if you don't have an automated
+way, then you want to go in the complete
+other direction, which is I want to
+serve the best customer at the highest
+possible price. But people mispric their
+products and services. They say, "Okay,
+I'm, you know, my current core thing is
+$1,000. I'll make the next thing, 1500."
+It doesn't work that way. That's not how
+the buyer works. The buyer is at 5K, 10K
+from the 1K thing. That's the next tier.
+That's the next rung on the ladder. All
+right? And so this hopefully should
+shift your perspective in terms of how
+pricing really works. A disproportionate
+amount of profit is here. We have to
+make gigantic jumps with the assumption
+that very small percentages are going to
+take it but still be okay with it
+because even a small number of people at
+a gigantic price is still a lot of
+money. So how do you actually translate
+this and put this into practice? Number
+one, stop selling from your own wallet.
+Especially if you're one of the people
+who, you know, you're in that in that $2
+category, right? You're that bottom 50%
+right now. I get it. I've been there.
+You have to forever imagine, this is a
+gift, forever imagine that everyone is
+rich. So, here's the reality that will
+shock you. That top 10% top 10% of
+Americans have a million dollar plus net
+worth. One in 10 people, one in 10
+people, million dollar net worth.
+They've got the money. You just aren't
+selling them something that they want.
+And you might even be, and this happens
+a lot, especially for newer business
+owners, you might even be too cheap for
+them to even believe that you're good.
+like we had a company that uh that was
+in the health space a while back and
+looking at all the research it was a
+doctor and all this stuff and I just
+fundamentally believed that they were
+mispriced and so what I did was I raised
+I wanted to raise the price by double
+you fought me back and forth forever and
+I I was able to finally get a 50% price
+raise through but guess what happened we
+raised the price by 50%. That's a lot.
+What do you think it did to the close
+rates? They went up. They were so cheap
+compared to the promise and what they
+were delivering that people didn't even
+believe that it worked. And so some of
+you guys are so cheap because you're
+selling out of your own wallet. You're
+selling based on what your friends and
+family who might also be in that $2
+bottom 50% uh are telling you. But the
+why would you listen to the people who
+don't have money on how to get money?
+They don't know where it is. They don't
+know how to get it. And more
+specifically, they don't know how to
+serve the people who've got it. So
+that's the first thing. The second thing
+is that if you're going to do this,
+listen to me on this. Whatever your
+upsell is, 5 to 10x the price and then
+just make sure it's something that you'd
+be happy to deliver for 5 to 10 times
+the price. Sometimes I'll get push back
+from people who are like, h that would
+that would be so much work. And I'm
+like, cool, we have value and we have
+price. Move one of them. Either do less
+or charge more. I would encourage you to
+just charge more. Right? Right? And so
+if I were to say, "Hey, I want you to 10
+times the current price of your upsell."
+What would you do that would absolutely
+blow people away? How much does that
+actually cost you? When you look at the
+cost compared to that 10 times bigger
+price with a zero on the end of whatever
+your core offer is, you might find it's
+like actually it's only like, you know,
+5% of that price, it's like, right,
+really high margin.
+So as long as you're happy making more
+money, serving fewer people, go do that.
+The third one is that you should expect
+only one in five or one in 10 people to
+say yes. Expect more nos. And this is
+the sweet spot of making money, right?
+The sweet spot isn't the most yeses.
+It's the most money. And that is never
+with the most yeses. So if you pitch
+your 10 times bigger price to this
+bottom 50%, none of them are going to
+say yes. And you're going to mistakenly
+believe that this is a bad idea. But the
+reality is that you're just not talking
+to the people who have the money. And so
+you should expect that if you have
+representative amount of people that you
+speak with, one in 10, maybe even one in
+a 100red is the is the person who is the
+correct avatar. And for that person, you
+might also find they'll just say like,
+"Yeah, that sounds good." And you'll be
+like, "Oh my god." And I only say this
+to somebody who's had it happen for the
+first time. You're like, "I can't even
+believe this is possible. I can't
+believe this person would give me this
+much money." It's cuz to them, it's not
+that much money. It's only that much
+money to you because you still live
+here.
+If you sell to rich people long enough,
+they will make you one of them.
+And so with your upsell, make it crazy.
+And this is called an anchor for a
+reason, right? If no one buys it, no big
+deal. Or most don't, no big deal. But
+the good news is that it'll still help
+you sell the rest of everyone else at a
+higher percentage and even at a higher
+rate because it'll look like a good deal
+in comparison.
+And I said this before, but I'll say
+this again.
+The next reason is the only thing worse
+than selling a $1,000 thing to a $100
+buyer is selling a $100 thing to a
+$1,000 buyer. In the first, you lose a
+hundred bucks. In the second, you lose
+900. And not only that, that 900 is
+probably disproportionately profit. And
+this is what no one understands. This is
+why most businesses don't make money.
+They just try and sell to these people
+who are the biggest pain in the butt.
+And the thing is is you see so many of
+them that you're like, "Oh, this must be
+how it works." No, it's not how it
+works. It's just how you're working.
+This is how the average business works,
+which why the average business doesn't
+make money. They don't go to where the
+money's at. The next reason is you have
+to think about absolute profit rather
+than relative profit. And you'll be
+blown away. So a single person paying
+$10,000 for something that costs $2,000.
+A single person, right? one, right?
+Buying a $10,000 thing that cost $2,000
+is the same
+as 400 people
+buying a $50 thing that costs $25.
+These are the same.
+So, do not underestimate the power of
+large prices in small quantities. And so
+the reason that entrepreneurship is such
+almost like a spiritual journey is that
+you you earn the right to charge more
+because you no longer think the smaller
+amount of money is worth their time.
+There are beliefs that people who have
+money have which translate to behaviors
+that poor people don't have and
+translate to different behaviors. So
+what does that mean?
+A rich kid will choose not to pursue a
+lower leverage opportunity because it's
+not worth their time because they were
+taught it wasn't worth their time. The
+career paths that they'll have to choose
+from will be significantly skewed
+towards things where they'll get
+disproportionate returns. And a lot of
+that is just knowledge about it, not
+even knowledge how to do it. I remember
+when I first found out, I had never
+heard of management consulting. I had
+never heard of private equity. I had
+never heard of investment banking. I
+never heard of any of this stuff when I
+went to college because where I was from
+in Baltimore, a rich person was a
+doctor. That was a rich person. And so,
+and to be fair, my dad's a doctor. So, I
+felt I was like, "Okay, cool." When I
+went to Vanderbilt, I felt like one of
+the poorest people there because I had
+never seen what New York money was. I
+had never seen what California money
+was. I had seen what Baltimore rich was,
+which is that you have, you know, my dad
+has a business with two secretaries and,
+you know, we always had food. I never
+had to worry about it. I still have the
+immigrant mentality of like we don't
+use, you know, paper towels cuz they're
+expensive. But like that's just cuz he
+came here with a thousand bucks. I that
+still got transmitted in some ways. You
+almost have to you almost have to bat
+above you have to hit above your weight
+class, right? Which is even though it
+sounds un like and in the story of when
+I actually made my first high ticket
+sale in my life was when I I actually
+said a number that I wanted the person
+to say no to and then they said yes.
+That was how that actually that belief
+was broken for me. So, as much as I want
+to say like this is what you have to do.
+I'm this guy, you know, guy on YouTube
+that you just saw or whatever, like
+Leila and I were selling uh we we
+started doing these gym launches. We
+would sell memberships through gyms. We
+would collect the money. Um and that was
+the model. We'd fly around the country.
+That's what we did. Um there were some
+issues with that model, which I've
+talked about in other videos. And so
+then all of a sudden, uh Leila started
+selling weight loss directly. Made a
+little brand for her called Queen
+Transformation. we started selling these
+$500 online training packages um over
+the phone and that started working and
+so I had these gyms that I was supposed
+to do these launches at that I had
+decided I wasn't going to do them
+anymore and so I had eight gyms I was
+supposed to call up and like basically
+cancel on them and so um on the first
+phone call the guy was actually a
+referral and he was like dude you saved
+my my friend's gym like I know you can
+do this and I I was so beat down at this
+point I was like dude I'm not f like I'm
+not doing it and he kept asking for it
+and then finally I was like all right
+dude like I'll show you what I do. Um,
+but I'm not flying out there to help you
+if you can't close. And mind you, I come
+from the done for you world of like I
+literally did everything. I fronted the
+money. I fronted the cash. I built I'd
+literally buy the tables. I'd print the
+the contracts out. I'd run the ads. We'd
+work the leads and we'd sell them
+straight in the gym. So, I did
+everything. So, me saying that was just
+a hope that he would just like say screw
+off. And he was like, "No, I get it. I
+get it." And he was like, "Well, how
+much?" And so, I said, and remember, I'm
+used to selling $500 16-week training
+packages where you have to show up like
+every, you know, three times a week to
+do stuff. I said $6,000. So for me it
+was a 12x compared to the price that I
+was used to selling at. And I just said
+it. So I was like, he's just going to
+say nope. And then I can just hang up
+and just move on to my next call. And he
+said 6K. And I was like, yeah, $6,000.
+And he was like, done. And I I remember
+like floating out of my body in this
+moment being like, "Holy six grand
+from one call." And I didn't I didn't
+even have the thing. I didn't even have
+the thing that I had sold him yet cuz I
+just didn't think he was going to say
+yes. I didn't think to have to build it,
+right? And so I was like, "Holy shit."
+And so then the next So I had seven more
+calls. I called the next guy. Same
+conversation. Well, I was like, "Now I
+got to build this thing." But it went
+really smooth. And I was like, "Uh, he
+was like, "How much?" I was like, "Eight
+grand." He was like, "Yeah, done." And I
+was like, "8 grand?" I was like, "I'm up
+$14,000 in a I'm not even in a day. It's
+in a morning." So then I had six more
+calls. And by the end of the, you know,
+the next call, same thing. How much?
+10K. Next call. And by the end of the
+day, I done $60,000
+in in collected. And I was like, "What
+the just happened?" I had no idea
+what was going on. Uh, and so Ila came
+back after she was selling the $500
+memberships and I was like, "Babe," I
+was like, "I just made 60 grand." And
+she was like, "What?"
+She's like, "I she was like, I thought
+we were doing the weight loss thing." I
+was like, "No, I think we're still doing
+the gym thing. I think we were just
+doing it wrong." And this is why I'm
+telling you this, cuz like that moment
+of all the moments in my entire career,
+that was the moment where I elevated.
+That was the moment where my life really
+changed. And so I bring this up because
+you might be like, well, what at what
+price point should I start? Right? It's
+going to be relative whether you're
+selling to consumers, you're selling to
+businesses. And I, these are just a
+couple rules of thumb that I'll just
+tell you that I've kind of worked
+around. I'd say that for um for a
+consumer, an impulse purchase is $500 or
+$600. A higher ticket purchase is
+usually going to be somewhere between
+$300 and $10,000. All right? Typically,
+and that's again for services. If you're
+looking at like assets, it's a different
+game. You're buying houses and cars, a
+different game, right? But if you're
+selling just like pure, I'm going to
+help you do some stuff. I'm going to
+help fix some stuff. That's usually a
+price one that's quote higher ticket.
+Business, it really depends on the size
+business. If you're selling to Disney,
+you can sell a billion dollar thing,
+right? If you're selling to just small
+business owner on Main Street, remember
+some of them are poor too, right? And so
+for them though, um you a more normal
+price for something will probably be
+somewhere in the neighborhood of like
+I'd say like a mid-tier is probably, you
+know, $200 to $3,000 a month. A cheaper
+price for a business owner would be
+somewhere in the neighborhood of like
+400 to 800 a month. Um maybe maybe just
+call call it closer to 500 bucks a month
+um as like a a cheaper number for a
+business. And you're like $500 a month
+is cheap for a business. It's like yeah
+super expensive for a consumer, pretty
+cheap for a business, right? One of the
+big issues I would say that poor people
+think about compared to rich people is
+that poor people will think in terms of
+cost and I would say rich people will
+think in terms of the ratio the return
+cost versus value. So if I were to say
+hey I've got this thing that's let's say
+it's let's say it's $20,000. A poor
+person just hearing the price would say
+that's expensive. But if I said a rich
+person, if I said, "Hey, my thing is
+$20,000." They wouldn't then say,
+"That's expensive." They would say, "For
+what?" And if I said, "Uh,
+share a class A share of Berkshire
+Hathway, which is an $800,000 stock for
+$20,000, that would be the deal of the
+century." Right? If I said it was
+$20,000 for a brand new Lamborghini,
+they would say that's a great deal. So
+even though it costs a lot of money,
+it's great value. And this is what I
+did. I struggled for such a long time to
+understand because it was like I almost
+had this emotional reaction to zeros.
+It's like if I saw zeros I was like, "Oh
+my god, so much, right?" And and so I
+know where you're coming from because
+you almost want to you almost choke on
+the price. So I'll give you a couple
+little tactics for this to like get
+around it. So one is if you're in
+person, you can write down the price and
+then turn it and slide it to them. Uh or
+you can use a calculator and turn it to
+them if you like literally choke on the
+price because some people do do that.
+Um, the second thing that you can do,
+and this is a really good little little
+pricing hack for for selling, is before
+you say the price, you say, "Hey, before
+I tell you the price, it's super
+expensive." And so, what's beautiful
+about telling someone it's expensive,
+before you tell them the price, is that
+if someone's rich, they're going to
+immediately think what's expensive for
+them. And so, they're going to think a
+number, and then you're going to say the
+number, and they're going to they're
+going to literally be like, "Ah, fine."
+If they're poor and you say it's
+expensive, they're going to brace
+themselves for a number that's big. And
+then when you give them that number,
+they were at least braced for it. And so
+in either way, you actually create what
+I would consider an emotional anchor
+that's perfectly accommodating to the
+buying power of the prospect. And most
+sales people get choked up right at that
+point. So it's like give yourself a
+breather. It's going to be expensive.
+You take a breath, they take a breath,
+then you deliver. Right? So just a
+little tactic that works and also can
+help uh increase sales. So, a good way
+to know if you're actually underpriced
+is to actually look at your close rates.
+All right? And so, if your close rates
+are 80% or let's say 60 to 80, I'll put
+this in tiers for you. Um,
+50 to 60,
+40 to 50, and then 30 to 40, and then
+30.
+Okay? So, let's say these are your close
+rates.
+So that means if you talk to 10 people
+here, you close eight, right? If you're
+closing 80%. You probably right now have
+it a 2 to 3x in pricing. Sorry, a 3 to
+4x in pricing. Excuse me. A 3 to 4x in
+pricing just sitting there. I know that
+sounds absurd, but think about it.
+You're going to get the 80% are not
+going to say yes anymore. I want to be
+very clear. You might drop to like 35%.
+But if 35% of people are paying four
+times more, you're making 120% of the
+revenue that you were making before. All
+right? And so like you're making way
+more money. Now at 60 to 80, you
+probably have a 2 to 3x that you have
+sitting there in price. If you're
+between 50 and 60, you probably have a
+1.5x to 2x sitting there. If you're at
+40 to 50%, you're probably at 1.25 to
+1.5x. All right. If you're here, I
+consider this to be appropriately
+priced. If you're closing 30 to 40%,
+you're priced about right. If you're
+below 30, I would say get better at
+selling,
+which part of getting better at selling
+can be make the offer better or talk to
+better customers. All right? And so
+sometimes you will try and pitch a high
+ticket thing but not have your core
+offer which might be lower. So you have
+an anchor offer um but the people that
+you're speaking with, you didn't qualify
+them. So, if I want to say, "Hey, I'm
+talking to million-dollar plus business
+owners." I will have a significantly
+higher close rate if I'm only talking to
+them. So, all of what I described is
+something called lead scoring or lead
+qualification. And so, what that means
+is that there's a certain type of
+customer that's more likely to buy your
+thing, right? Somebody who has more
+money is more likely to buy your more
+expensive thing. And so, if we know that
+the people who have the money are the
+ones that buy our expensive thing, then
+we should try and just tell the world we
+only cater to these people. Now, the
+next thing that will come up is people
+will say, "Hey, um, I would sell for a
+really expensive thing, but no one will
+buy it because there's guys down the
+street who will sell it for less because
+they're brokies selling to brokies."
+You're right.
+And that's because you can't sell the
+same thing. You got to sell something
+different, which is why I wrote my first
+book on this, which is the first chapter
+is you're selling a commodity. you're
+selling something that someone could
+reasonably hold your thing and their
+thing up and say these two things are
+the same so I'll chip pick the cheaper
+one and that's reasonable for them to do
+it the idea is that we want to price our
+thing so high and be in such a clearly
+different category that people say these
+two things must be different I have to
+analyze these independently and so
+within the context of what do I get for
+my money the rich person wants three
+things they want it to be fast they want
+it to be easy and they want it to be
+guaranteed
+and so everything that you do that is
+more difficult for these people. You
+have to make easier and these people
+will be willing to pay for it. And so
+you pre-do some of that work for them.
+You pre-choose some of the food. You go
+ahead of time. You drive ahead. You
+scout the location. You drive it to the
+door. Whatever it is. But when you look
+at, well, what does it cost for me to
+drive this thing to the door? It cost me
+10 bucks, but they're willing to pay a
+hundred for it. Whereas this person is
+nagging me on the last five bucks. It's
+a different game. But this is where all
+the money's at. The reality of how
+services work is that you can tell how
+advanced a service business owner is by
+how expensive their product is. Because
+if you're actually good, you have more
+demand than you have supply. If you have
+more demand than you have supply, what
+should you do? Raise price. That's how
+the supply demand curve works. And so
+you continue to raise your price until
+you're at a point where you're at
+equilibrium where like you can handle
+the amount of demand that you have. If
+you're still good, you still get more
+demand because word of mouth continues
+and you keep going up. And that becomes
+the virtual virtuous cycle of price and
+services. Because when you have a higher
+price, you have higher gross margins.
+When you have higher gross margins, you
+can hire better talent. When you have
+better talent, you can deliver better
+services. When you have better service,
+you get better reputation. When you have
+better reputation, what does that do?
+Drives demand, which then drives price.
+And so, this is the cycle that every
+business has to go through. And you
+signal to the marketplace. You
+communicate to the marketplace. Pricing
+is a two-way communication. You tell
+them what you're about, and then they
+will self- select as the correct
+customers for you.
+And so you can see where someone's at in
+their business journey by how high they
+are priced compared to people who sell
+comparable services because people will
+very much take price as an indication of
+value.
+They just do because in general things
+that are priced higher are better. Not
+always, but often. It's a good enough
+rule of thumb that people in general
+will do that. You've like this might
+blow your mind if you've like not met
+people with money. When they go to shop
+at a store, they price from high to low.
+They literally look at the most
+expensive stuff first because that's
+probably the stuff that's for them.
+They don't want to save money anymore.
+They want to get better value. They want
+better stuff. They want to skip the
+line. They want to get it faster. They
+want it better. They want it to be a
+higher quality, you know, higher quality
+ingredients. They want it to be more
+made by somebody who's more noteworthy.
+All of these things. And fundamentally,
+that is what this book goes into
+tremendous detail talking about, which
+is the offers book. All right.
+So, with that being said, sell to the
+rich. They pay better. It's better to
+sell fewer expensive customers than many
+broke customers.
+And if you sell to rich people for long
+enough, they will make you one of

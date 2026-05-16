@@ -1,0 +1,476 @@
+So when you open up DaVinci Resolve the first screen you're
+going to be greeted with is this which is the project
+manager. You're then going to create a new project down the
+bottom here click let's name this DaVinci tutorial and then
+select create. Okay so here we are in DaVinci Resolve. The
+first thing I want to draw your attention to is these icons
+down the bottom of the screen. These are the individual
+workspaces within DaVinci Resolve and each one has its own
+specific function. That being said because this is a
+complete beginner tutorial we're not going to go through
+every single workspace in DaVinci Resolve but we will go
+through the ones that you need in order to get started. So
+just quickly I'll explain the functions of each workspace.
+The first one is the media pool. This is where you would
+import and organize your footage and it's a great place to
+build the foundations of your project. The next tab is the
+cut tab. I personally don't really use this tab in DaVinci
+Resolve but it's useful if you want to do a quick
+streamlined edit with minimal complexity or a great place to
+do a rough first draft. Moving on we have the edit tab. Now
+this is where you'll spend any amount of time you need to do
+amount 80% of the time editing your project. It has pretty
+a rough first draft. Now this is where you'll spend any
+much everything you need and you can essentially do
+everything you can do in the first two workspaces in this
+workspace alone. So this is generally where I would start
+all my projects. The next workspace is the fusion tab. This
+is a little bit more advanced and we won't cover this in
+this tutorial. However if you wanted to make animations,
+motion graphics, do 3D compositing or anything like that
+this is the workspace for you. The next workspace is the
+color workspace. This is where you will do basic color
+correction as well as develop creative looks or color
+grades. We will cover this in a bit. We then have the
+fairlight workspace. This is a dedicated audio specific
+workspace where you're able to add audio effects, do more
+advanced sound design and many other audio related tasks.
+This again is a little bit more advanced so we won't be
+covering this in this tutorial. And the final tab is the
+export tab. This is where you'll save your video and you can
+export it in any format you like. So we're going to start in
+the media tab. This is a great place for me to explain good
+etiquette when setting up your editing project. The first
+thing I'm going to do is we're going to create some folders
+where we can organize our video. So we're going to create
+some folders where we can organize our footage. To do this
+you're going to simply right click new bin. A bin is what
+DaVinci Resolve calls a folder. Let's name this day one and
+we'll create one more folder and we'll name that day two.
+Now you can organize your footage however you like. Common
+ways would be to organize it by what day it was shot on. You
+could do what camera, what location. Whatever's going to
+make your workflow easier for your specific project. We're
+now going to click into day one and we're going to import
+our first footage. So to do that we're going to simply right
+click and press import media or for a shortcut you can
+simply press command I. We're now going to drag in the
+footage that we'll be using into the folder and click open.
+You're then going to get this message pop up which asks you
+do you want to change the project frame rate. You're going
+to select change. That will also bring me on to one more
+step you want to do in the beginning of your project which
+is to select the right project settings. To do that go down
+to the bottom right hand corner where the settings icon is.
+Select that and here you are. You're able to just check what
+resolution you want to use and what frame rate you want to
+use. For this tutorial I want to go in 4k so I'm going to
+select this menu here. Scroll down and select ultra HD. Only
+select this if your footage was actually shot in 4k. There's
+no point in using 1080p footage and then changing this to
+4k. It won't magically upscale the resolution or anything
+like that. Just keep that in mind. Another pro tip as well
+is if your computer's struggling to play back the footage
+you can actually change the resolution lower. For example go
+back to 1080p and that will make the playback a bit smoother
+and then when it's time to export you can go back and change
+it to 4k and you'll notice that our frame rate down here is
+set to 23.976 which I'm going to leave because our footage
+was shot in the same frame rate. We're then going to go down
+and click save. Now you'll notice that all our files have
+been imported into our project. At the very top we have our
+media viewer and if you drag your cursor along the clip it
+will then play back in the media viewer above which is super
+handy just to see what clips are what. Now at this point
+we're going to skip the cut tab and move straight to the
+edit tab. The first thing we're going to do is open up the
+media pool. So if it goes to the top left hand corner and
+you see this icon we're going to click see our footage that
+we imported earlier. Okay let's drag our first clip onto the
+timeline. Select the clip and drag it down below and place
+it simply like that. Now this blue clip is the video file
+and down below we have the audio file. You can expand this
+simply by dragging this line here and then dragging this
+line down here. To the left you'll notice we have a few
+icons. The only ones I want you to worry about right now is
+the disable clip which will disable all clips on that video
+track and the mute icon which will mute all the audio on
+that audio track. We're going to undo this by pressing
+command and then click save. Now we're going to drag our
+first clip onto the timeline. Okay now you'll notice a few
+icons along the top here. These are our editing tools. The
+first one is just a selection tool. We can use this to drag
+our footage. Let's drag another clip in. We can drag it up
+like so using this selection tool. The next one is the trim
+tool. So what the trim tool does is it does something called
+a ripple edit. So if I wanted to drag the end of the clip
+and make it shorter it would do so but at the same time
+you'll notice that it brings the following clip with it. So
+this is called a ripple edit. As you shorten a clip it would
+then pull the following clips with it to close any gaps.
+Super useful. And then the next tool we're going to look at
+is the blade tool. This will allow you to split the clip in
+a specific point. Let's say we want to split it here. We can
+click that. Go back to the selection tool. We can select
+that clip. We can delete it and then we can drag this file
+back to close the gap. These are the basic edits that you'll
+be making to your clips. However there is a way you can do
+this much faster and I'm going to show you now a few super
+useful keyboard shortcuts. To make this easy for you I've
+created a free preset. You can click on it and it will take
+you to the clip. You can click on it and you can download in
+the description down below. Once you've downloaded it you
+can go up to your top left hand corner. Select keyboard
+customization. You're then going to click these three dots
+at the top right hand corner. Select import preset and then
+navigate to this file that I've included in the description
+down below. Select it and press open. Oh yeah one more thing
+to note as well. I've added the pdf in there too that you
+can refer back to in case you forget any of the shortcuts
+I'm about to teach you now. So once you've selected that
+Declan TXT file select open. Let's name this shortcuts and
+select ok. The shortcuts I'm about to teach you will now all
+be accessible within your editing software. Ok super simple
+three shortcuts. These will save you so much time. The first
+one is split clip. So if I drag this playhead here rather
+than having to press that blade tool every time I'm simply
+going to press w on my keyboard. That will split the clip.
+Ok then let's say I wanted the clip to end here. Now I can
+simply press e which will ripple delete which means it will
+cut here, delete everything here and then drag this clip
+into place. So pressing e like that. Super simple super
+easy. Then let's say for example that I wanted the clip to
+start here. Q will ripple delete everything to the left. So
+if I press q to the left. So just to summarize w splits the
+clip, e ripple delete everything to the right and q is going
+to ripple delete everything to the left like so. So when
+you're chopping and cutting up your footage these three
+commands will save you so much time. And you can download
+that preset for free. Link in the description down below. Ok
+so the next few things I want to show you are these two
+icons here. The first one is the snapping tool. The second
+one is the snap tool. The third one is the snap tool. The
+second one is the linked selection tool. Now what the
+snapping tool does is when you drag your clip like so and it
+reaches the end of another clip you'll get this indicating
+line showing up here. What that means is that when you drag
+the clip and it gets close to another one it'll
+automatically snap together almost like a magnet. Hence why
+they use a magnet as the icon. So snapping tool will snap
+your clips together like so. If I turn that off I won't have
+that same guy to know when I've hit the end of the clip. So
+I recommend keeping that on. The next clip the link
+selection tool is going to enable linking between video
+files and audio files. So right now as I drag this clip you
+can see the video and audio drags together. If I were to
+select this icon here then just the video file would move
+rather than the entire selection. Again recommend to leave
+this on. Now if you wanted to just drag in a video file
+without bringing the audio you can do so by finding your
+clip, double click on the clip and then you'll get these two
+options here. On the left we'll just drag in the video file
+only. So if I drag that in like so I've just got a video
+file so I can drag that over the top of my footage without
+worrying about the audio getting in the way. Alternatively
+if I go back and I now drag this icon this will drag just
+the audio file down down below like so. That's a useful
+quick tip to know when dragging footage onto your timeline.
+Now next to the media pool we have another icon up here
+which is the effects tab. So this is where you would find
+your titles, transitions or any basic effects that you want
+to add to your project. For example let's select this titles
+icon here and now we can actually preview the included title
+presets. So for example if I go to my video it's another
+option you can see what these titles will come out like. You
+can then drag the title down on top of your video, play it
+back and the title will come like so. This is a super easy
+way to get professional looking titles without doing any
+work. Now in order to edit that text that will bring us on
+to the next tab I want to show you which is the inspector
+tab. To enable this go to the right top hand corner and
+select this icon here which will open the inspector tab.
+This is where you'll make all your basic transform
+adjustments and any other basic effects can be found in the
+inspector tab. So for this situation we've got our text here
+we can write in test and that will now be represented down
+below. Let's play that back like so. You do also have a few
+other options in that effects tab that we won't go into now
+but if you want to go through that effects tab and have a
+look we've got a few different blurs, interesting effects,
+all kinds of things. Have a look, experiment, see what you
+like. Now going back to the inspector tab on the right I
+want to briefly explain the basic controls. Firstly we have
+our zoom and position controls so if we drag this in and out
+we can zoom in or zoom out of our footage. To reset that go
+to the left and click this icon here. We can then drag the
+footage left or right, up or down using these controls.
+Again resetting it on the right and then we can rotate our
+clip as well. So if you wanted to crop in or change how
+zoomed in a specific clip is you can do so here. You've also
+got a few other options such as cropping where you can crop
+to the left, right, top, bottom. Let's undo that by clicking
+this icon here and then the only other thing I would use
+here would be the stabilization. Let's say you had a shaky
+clip we'll use this one for example but first we're going to
+trim off that beginning by pressing the command Q like I
+demonstrated earlier. Play it through then we'll press E and
+we're just going to select this part here and we're going to
+stabilize that by using the stabilization control. We can
+now simply select stabilize and now when we play it back the
+clip is much smoother, much more stable, almost like it was
+shot on a gimbal. Now you'll notice that there are three
+different types here. You don't need to know what each one
+does but if for some reason you try perspective and it
+didn't work properly try similarity. If that didn't work try
+translation and alternate between the two. If you don't know
+what each one does you can just play the clip between those
+three to see what gives you the best effect for your
+specific scenario. Now one more thing that's a little bit
+more advanced that I'm going to briefly touch on is
+keyframes. So a keyframe is a specific frame in a video that
+signifies the start or end of an adjustment. So let me show
+you how that actually works. Let's say we wanted to zoom in
+on our dog here. We could start by going to our zoom
+controls and now on the right this icon here is the
+keyframe. So let's select that then let's say we want to
+drag to the end and now we want the clip to zoom in. We'll
+then simply select another keyframe, zoom in and now let's
+go back to the beginning of the clip and let's play it back.
+So as you can see the video will zoom in in between those
+two keyframes we just set. So again look at the top right
+hand corner here these adjustments are changing which is
+signifying the adjustment that's being made between those
+two keyframes. Most of the effects and adjustments that you
+can make in the visual resolve can all be keyframed which
+gives you more control over how they're used. Now we can
+actually get a visual representation of these keyframes if
+we go to the top left hand corner and select this icon.
+It'll now open up the keyframe and it'll show us the
+keyframe tab. So if we go back and play the clip again you
+can see our keyframes here we play it and it zooms in until
+we get to these final keyframes. If we wanted to adjust
+these keyframes you can simply drag them pull it back and
+make the adjustment shorter. So this time when we play it
+back it'll be a faster adjustment like so and that will
+stop. Again I'm going to show you something slightly more
+advanced which is how to ease in or ease out of your
+keyframes which simply means to smooth them. To do this
+we're going to click this icon here and we're then going to
+select this icon up here which is going to enable all the
+transform curves and we can see our adjustment here. This is
+the effect it goes straight then a sudden adjustment and
+then straight again. To smooth this out we would simply
+select both keyframes and we would then select this icon and
+we can pick ease in ease out like so and as you can see now
+it's a smoother adjustment and we can go ahead and smooth
+that even more by dragging that like so. So you can see now
+the adjustment is nice and smooth. We eased in and then we
+eased out. Now one more quick thing I want to show you as
+well is how to adjust the volume of your audio tracks. So if
+we go back to the inspector and we select this icon audio we
+can now turn this volume up by dragging this slider here or
+turn it down like so. So let's say we had a music track
+which we can add by going back to the media pool right click
+import media and then select our audio file open and we can
+drag this in and then if we wanted to turn the volume down
+on the audio so it doesn't overpower the video we can go to
+the volume and we can turn that down like so. So that is
+your volume controls. All right so that is a basic overview
+of the edit tab. If you're able to incorporate all those
+things I just taught you, you should have no problem editing
+your own projects. We'll now move on to the color page. So
+we're going to skip the fusion page and go straight to the
+color page. So here we are in the color page. So we've got
+our media viewer here, we've got our nodes which I'll
+explain to you in a second, we've got our scopes, we've got
+our adjustments and we've got our clips down here. Now
+before we get started there are a few project setting
+adjustments that I want to make before we start grading.
+These adjustments are only relevant if you're shooting on a
+Mac. If you're shooting on a Windows ignore this step. Now,
+to make these adjustments you're going to select this icon
+down here. We're then going to go to color management and
+we're going to make sure that the timeline color space and
+the output color space are saved as rec 709a. This is going
+to ensure that when you export your footage that your video
+will look the same as it did while you were color grading in
+DaVinci Resolve. There's a common problem where you export
+and you'll get these weird color and contrast shifts. This
+will solve that problem. You're then going to come to the
+right top hand corner, select these three dots and select
+save current settings. This is going to make sure that you
+don't have to do this step ever again. You'll get this
+message here and then you'll select update. Now there's one
+more thing we need to do as well. We'll go up to the top
+left hand corner, select preferences, system, general and
+make sure use Mac display color profiles for viewers is
+selected if you are using a Mac. If you're using a Windows
+ignore this step completely. Then select save. Alright so
+let's get started. Now I want to teach you how to color
+correct your footage. Take it from this to this. To do this
+we're going to create four nodes. We can do this by simply
+pressing option s on the keyboard like so. Alright so what
+is a node? A node is basically like a building block where
+you can add a specific adjustment to your clip. Each node
+builds upon the next one and continually stacks adjustments.
+Now because this video file was shot in log which is a
+specific picture profile that causes it to look all grey and
+washed out. The first thing you need to do is transform this
+video file into rec 709 which is the standard viewing
+profile. If you shot this on an iPhone or you haven't shot
+in log you can ignore this step. For those of you that did
+shoot your video clip in log you're simply going to select
+at the top right hand corner where it says FX and you're
+going to search for color space transform. Which if you
+don't see it here you can select this icon here and search
+it. You're then going to drag it and add it to the final
+node in your sequence. Now this is very important that if
+you're adding this effect it has to be the final node in the
+sequence this is because it transforms our footage into a
+more compressed color space that's designed to be viewed on
+most screens. When we shoot in log you're going to need a
+certain amount of color space to log it gives us more
+flexibility and more dynamic range so all the adjustments we
+make need to be before this node so that we can make use of
+that extra flexibility we get when editing in log. Now once
+we've added that effect we need to go into here and we need
+to select the correct input color space and input gamma. I
+shot this video using s log 3 so we're going to go down into
+here find s gamut 3 cine which is what I used then go down
+and find s log 3. Our video file has now been converted to
+rec 709 and it now looks much more normal. We can then close
+this icon here and then we'll select the first node we're
+going to right click this name this exposure we'll name the
+second one white balance the third one saturation and I'm
+actually going to add one more node and we'll call that one
+curves. Okay so here we have five nodes and then we'll
+rename the last one cst which stands for color space
+transform which is the effect we just added to that. Okay so
+now we have five nodes we're going to start on the exposure
+node first. So So when adjusting a clip's exposure the first
+thing we need to do is open up a waveform scope. So to do
+that come down to the bottom right hand corner select this
+icon here and select waveform. We can also close these clips
+here to give us more space to view our adjustments by
+selecting this icon up here. All right now the adjustments
+we're going to use to change the exposure of the image are
+the lift gamma gain and offset wheels. Now to simplify this
+for you I'm going to compare each of these adjustments to
+shadows mid-tones highlights and general exposure. So for
+example the lift gamma will increase the darkest points of
+the image gamma will increase the mid-tones of the image and
+the gain will affect the highlights of the image and then
+the offset will affect the general exposure of the image.
+Now I do have to make this clear these are not the exact
+same as shadows mid-tones and highlights as we've actually
+got specific adjustments for that in the log wheels down
+below. However in order for you to understand how they work
+you can compare them to shadows mid-tones highlights. The
+key difference however is the lift gamma and gain
+adjustments are a little bit more of a softer adjustment.
+That affects the image on a global scale. Shadows mid-tones
+and highlights are more specific and sharper adjustments.
+Generally using the lift gamma and gain is a better option
+when trying to create your desired exposure. So we're going
+to reset this adjustment here by clicking this icon and
+we'll now go in and we'll make the adjustments we want to
+make. I'm going to raise up the gain like so bring down the
+gamma a little bit and bring up the lift till we've got a
+point where we're happy with the exposure. Now if you look
+at the right hand side here we've got our waveform scopes.
+What this does is it represents the contrast of an image and
+it also lets us know if we're pushing our adjustments too
+far. So if we remove this adjustment here and then we turn
+off the colour space transform adjustment you can see now
+that our image is only taking up a small portion of the
+waveform. This is showing us that there is not much
+contrast. By adding in that CST and exposure we can see that
+we've stretched that image over a wider spectrum of exposure
+bringing in more highlights and gain creating a more
+balanced and contrasted image. Now if I was to push my gain
+up too high like so you can see that the image starts to
+flatten at the top of the scope and that is represented in
+our image over here as being too bright or overexposed. The
+technical term for this is clipping, highlight clipping. So
+our highlights here are losing detail. Once the highlights
+go past 90 to 100 it begins to flatten out and we lose that
+information. So it's very important when you're colour
+grading or colour correcting that you ensure the highlights
+are safely below these numbers. So let's bring that back
+down again like so making sure we're keeping this ideally
+spot to be safe like so. Alternatively our shadows can also
+get too dark and we can lose information in the shadows
+which the technical term for this is crushing the shadows.
+So now you can see here it's flat lined and in our image
+we've lost information in the darkest points of the image.
+So again we want to ensure that when we're grading that we
+make sure we've got room below and on top to keep our image
+exposed correctly and avoiding being too overexposed or
+underexposed. Okay so the next adjustment we're going to
+make is going to be the white balance adjustment. So we'll
+select this icon and then we'll go back down to our scopes.
+We'll change this to the vectorscope. Alright so this is the
+vectorscope and we use this to accurately make adjustments
+to our image's white balance. For this situation the white
+balance actually looks pretty good because the majority of
+the image is falling on that centre point as well as the
+skin tones are roughly along this line here which is the
+skin tone indicator. So if our image was to be too warm for
+example it would look something like this. As you can see
+here the temperature and colours are completely off and that
+is represented down here in the vectorscope as well. If you
+were to break that back into the centre of the image we get
+a more balanced adjustment like so. Now it's important to
+use both your eyes and the vectorscope when making these
+adjustments as it's difficult to make an accurate adjustment
+without referring to both of them. You also if possible want
+to line up these skin tones with this skin tone line here.
+So if I drag this over like so we've now got our skin tones
+in a pretty good position and it's looking pretty good so
+far in the image. We'll then move over to our saturation
+node and to adjust our saturation we're going to select this
+icon here and then we're going to drag this saturation
+adjustment. Like so, pump in some saturation. Now at this
+point of the image I actually want to go back and bring up
+this shadows just a little bit because they're looking a bit
+too dark. So I'll go back to the exposure node, go back to
+the colour wheels and I'm just going to ever so slightly
+bring up the gamma wheel like so and I think that looks a
+bit better. We're then going to move on to our final
+adjustment which is the curves adjustment and we're going to
+select this icon here and we're going to create an s-curve
+which is basically going to add in some extra contrast. So
+let's do that, create one point here, create one point here
+and we'll drag up the highlights and ever so slightly drag
+down these shadows which is going to give us some contrast.
+So that's before, after, before, after. Just creates a
+little bit more pop. So here we have our colour corrected
+image. This is before, that's after, before and after. Now
+if you wanted to learn more about colour grading I've
+actually made a specific video all about colour grading for
+complete beginners that will teach you how to bring your
+footage from this to this, this to this and also this to
+this. I'm going to leave a link where you can watch that
+video at the end of this video so stick around to the end
+for that. We are now going to skip this fairlight tab and go
+straight to the final export tab here. So this is where you
+can export and save your video. So there's a very simple way
+you can export your project and that is to use the inbuilt
+export presets included within DaVinci Resolve. So if we
+come up to the top here and we simply scroll we can see one
+for YouTube, we can select YouTube 1080p, select it like so
+and we can also make a 4k version too. We can name our
+project test, we can select an export location such as the
+desktop, save and then all you have to do is select add to
+render queue and render all. It's as simple as that. If
+you're editing for Instagram or social media you can go up
+to this icon here which is the TikTok preset, simply click
+on that, again select where you're going to save the video,
+desktop again and simply add to render queue like so and
+render. If you're just starting out I recommend using those
+two export presets, however if you wanted to export it and
+maximise the amount of quality I would go to the custom
+export here and I would then simply go here, change this to
+80,000, encoding profile again selecting what you wanted to
+save, add to render queue and select render. All right so
+that is the end of the tutorial.

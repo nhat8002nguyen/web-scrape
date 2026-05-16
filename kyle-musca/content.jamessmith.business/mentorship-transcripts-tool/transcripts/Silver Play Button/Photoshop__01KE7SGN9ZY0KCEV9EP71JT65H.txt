@@ -1,0 +1,254 @@
+we're gonna look at photoshop for this now for a start just
+don't use canva all right just cannot express this enough
+don't use canva i used to use canva it's so obvious when
+people using canva people use everything there another thing
+is you can take screen grabs from videos and sometimes a
+picture would do best for instance i'm holding my phone here
+in front of the camera and you'll notice how everything else
+is blurred out if i was doing a video on iphone this would
+be better than any single other photo that we could do okay
+so let's get into it i remember learning how to use
+photoshop and finding it incredibly confusing and i'm
+probably going to fall victim to the exact same thing that
+happened to me i would just go through things like you've
+already seen it before and just trust me on this when you
+get used to this it's going to be great and what i've done
+is i've actually created some random titles that we're going
+to try out so first things first we need the dimension the
+biggest issue that people make we're making a thumbnail
+let's get the dimensions wrong hdtv and photoshop so 1920 by
+1080 pixels is perfect cool now i've been using the monitor
+so i'm just going to double click there so this is the
+camera we're going to be working with now there are guides
+on here i don't want the guides on so i'm just going to go
+clear guides view clear guides now i'm on mac hopefully most
+of you are as well if i hit command minus it zooms out plus
+in minus plus minus plus depending on the size of your
+monitor use that now all of these tools here i couldn't even
+tell you what half of them do because i don't use them but
+the first title we're going to use is joe rogan is finished
+so we're going to need a picture of joe rogan and i don't
+think joe rogan is finished by the way and there is probably
+going to be some legality issues to this but we can deal
+with it i often like going to tools and to large so i want
+to use large images of joe now the facial expression we're
+going to want to use here is going to be important okay so
+and by the way i just typed out these thumbnails on purpose
+so this one here i think could be great so what i'm going to
+do is i'm going to save this image to downloads i'm going to
+go to photoshop now since i learned photoshop my god your
+life is so much easier so yeah this is okay cool you so if
+you can drag it to full screen that could work so what i'm
+going to say here is i'm going to go to file and export now
+when i export it i want to export it as and a jpeg and you
+can make a little bit better now let's go rogan one now
+we're going to do this more in the course but we're going to
+find there's a website called thumbs up tv i learned this
+from ed now this won't accept anything photos so if i put
+the original in it's going to go it's the wrong bloody
+dimensions mate so i go here rogan one and it will fit in
+perfectly now i like to toggle dark mode because i use dark
+mode a lot now what did we say the title was joe rogan is
+finished and i can have a look at this and i know it looks
+okay i think maybe lowercase f that to me just looks cleaner
+i actually think a false stop might look better then I might
+even try going Joe Rogan is so finished. And I might even AB
+split test through those. No, that's okay. That would be one
+of the easiest ways you can create thumbnail. Just use a
+picture. So again, now on YouTube, we have the incredible
+ability to
+test things. So for instance, this one, I can go to the
+analytics. I can go to the
+thumbnail and I can see here which ones work the best. And
+out of three different ones, I tried putting some texts in
+here to see whether or not that would make it better. It
+didn't. So this is the winner. So I get to learn that
+putting words on top of it did not increase the
+clickability. So you're gonna go, James, this is the worst
+bloody Photoshop walkthrough I've ever seen if you're just
+gonna do that. So now one thing I'm gonna do is I'm gonna
+change this. Now, if I hit command T, which is pretty much
+this thing over here and some Photoshop experts gonna go,
+you are butchering this mate. You are absolutely butchering
+this. I could now actually say, I want Rogan over to the
+left side. So I'm gonna make him a little bit bigger. And I
+actually probably want his eye line to be up on that top
+third. So there's something called a rule of thirds, which
+I'll explain to you here. And I never knew this, but you
+learn it. You learn it because it's important. So when
+looking at a photo, you'll notice here that there's always
+an imaginary grid in front of us. And you always want the
+important part of a photo to be on that grid. So any
+beautiful or well-shot photo, you got the rule of thirds.
+Now, anytime you watch an interview or you watch like a
+scene in a film, you'll notice I'm using the rule of thirds.
+You cannot, you cannot escape it. Now you see this one, what
+I want you to do is imagine chopping off the sides. That is
+how you would film. Even right now on your monitor, you will
+notice that I'm perfectly in eye line with the top third.
+That's something that is imperative you get correct. So
+going back to this, we've got Rogan on the right side. On
+the top, cool, sweet, that's nice, lovely. Now we've got
+this big space over here. Now, beautifully on Photoshop, I
+can now just select that. I can hit generative fill and I
+can put anything I want here and AI will do the rest. But
+I'm just gonna hit generate because it knows what is there
+and it is gonna do the legwork for me. Now, if there was
+people in the crowd, AI would quite literally fill that
+crowd with me. It would do it all for me, it'd be chilled. I
+might get to show you more of that in the next few
+thumbnails, lovely. So now we probably want some text. So we
+go to the text, we click here and I would say, what do we
+say the title was? Joe Rogan is finished. So I might even
+say, he is done. So one thing here that I don't like and
+we'll make it bigger to begin with, I like this font size. I
+think it's quite good. I think it looks very nice, but I
+don't like this gap in between the text. So.
+Let's go back to the paragraph feature and you'll notice
+there's a gap here in between. I'll just pick a number, 100,
+oh, too much. So let's go 200. Oh, we're not far off, let's
+go 220, lovely. Now I'm just gonna make sure it is center
+aligned, which it is, cool. Then here, probably balance it
+out a little bit. So for this, we can all agree, Rogan is
+the hero. Everyone's gonna see that. Okay, so he is done.
+The facial motion goes with it. Oh my God. So, okay, let's
+export Rogan
+2. Then here, we
+just gotta ask ourself, is that gonna get more clicks? It's
+pretty good, proud of that, real simple. Okay, so let's have
+a look at another one. Next one, new iPhone 20 review. I
+don't even know if there is a 20. So I'd probably go, I
+think the back of the phone is almost much more
+recognizable.
+Okay, so we go here, go down, is that high res? Is that, I
+don't think so. Let's go large, cool, save ourselves a
+bloody couple of issues there. Okay, let's try and use a
+slightly different image.
+Okay, this will be good, I'll show you why in a second. So
+we go file, new, HDTV, view, guides, clear guide. There is
+probably a way to do that, but I just haven't. So this time
+we can, again, make this a bit bigger, move it over to the
+side. And now what would be good here is, we can't just
+paint this area. So again, we just generate a fillet. And
+for this one, we might wanna go with something overrated.
+Now, because we're using whites on a light background, it's
+quite difficult to see. So we've got some options here. So
+we can double click this, or we can actually go down to
+here. And these are layers by the way. So down here, every
+time we go down, we can see a layer. Everything's got a
+hierarchy, a little order to it. So if I drag this bit that
+we generated filled, and I put it over, you'll see that we
+lose a bit. So we're kind of deciding what sits on top of
+what. So we want overrated on the top part here. Now, what
+we can do here is, there are different things we could do.
+Drop shadow, looks like that. And outer glow, looks like
+that. You would have seen people do this before. Now, one
+thing I don't like is stroke. People put stroke around faces
+and heads, and it just looks a bit shit. Back in the day, we
+used to put strokes around people with a little white
+outline. Actually, do you know what? That red stroke there,
+I don't mind it, but no. So we're gonna look at the drop
+shadow. The drop shadow is probably one of the better ones.
+Then when we click on it, we have all of these different
+options here. So the first opacity is how easy it is to kind
+of see, distance of how long and much it spreads, because
+it's supposed to portray that there is light shining down on
+it. So I would change the angle to maybe be off to the side.
+I would say that spread is a little bit aggressive, just
+play with this, right? So I do want a kind of bit of a blur
+to it. Don't think the distance is quite right. Probably the
+spread can go a little bit more. Might dial the opacity down
+a little bit. And what we're doing is we're just making it
+pop. We're just making it pop. And we probably do want that
+to be in line with the phone a little bit. And to be honest
+here, I'm just trying to look for something that I like the
+look of. Yeah, I quite like that. And then we can decide,
+bring that size down a little bit. Again, this is up to you.
+There we go. I just think that looks a little bit clean.
+Cool. Yeah, we like that. I like that. And again, we're
+gonna put this into thumbs up TV. Great. Now, there is
+something we can do with this layering side of things. So
+we've got the iPhone here, still there. There are a few
+tools here. And this one, object selection tool. What's good
+about this is, you can grab an object and just select that.
+And what I'm gonna do here is copy, paste. Control V,
+control V. We now have another layer of just the phone. Now,
+the reason we might wanna do that is to do the same thing to
+the phone. So if we wanted to get a stroke on it, we can add
+that red outline. We can also put a drop shadow on the phone
+that matches the text. Outer glow to make it pop a little
+bit. We can do all kinds of things. So if you wanted to get
+someone to stick out, maybe on a background, add a bit of
+outer glow to them, you can do that. Another good thing here
+is, if you wanted to hide text behind something, you now
+can, because we've created that layer. Not saying that
+that's how I'd have the thumbnail. And then again, if I drag
+the text over the top, goes over the phone, this way it goes
+over it. So it just gives us the ability to change things
+however we want. So I might check just back to this, and we
+can say this phone is overrated. Again, we put that into
+thumbs up TV. We can work it to see however you want. Now,
+let's, think of another one. Another video that I did that
+was a pretty good outlier. This one, why you should quit and
+move to Australia. That's just the picture. It's just a
+picture that I had, it's a couple of years old. And you'll
+notice here for this one, before and after, all I've done is
+duplicated the picture of me, put text in mine where you can
+still read it. So let's see if I can make any of these ones
+better. That was one shot, one shot, one shot, one shot.
+There you see the red outline on the image, red outline on
+the image, one shot, two images side by side. There, you can
+see I put a bit of a glow on us because that wasn't the
+original photos. Let's try this. Why you should quit and
+move to Australia. Let's do this one again, maybe, or, okay,
+let's do this one. I'm done with 229,000 views. I actually
+think that's quite a poor thumbnail. Yeah, that's an awful
+thumbnail. James, what are you thinking? Okay, so what we
+need is, actually, let's go. I like stuff for some stuff,
+stuff for other stuff. Let's go. Marge, I wonder what can
+look better here. Sure, well, let's keep it simple. Right,
+let's delete all this stuff. I think we can go real simple
+on this. Let's go never again. That just seems like, I'll go
+black, kind of fixes everything. See, to me, that looks
+good, but we need to make sure that this is gonna look good
+again. So we're gonna go to export, export as. Let's go to
+the thumbsie.
+Why I'll never track my heart rate. Ever again. Well, that
+looks quite good. I quite like that. Okay, so I'm gonna take
+that. Boom. Boom.
+Maybe try Utonic. Maybe let's go, this is the new, sorry.
+Why I'll never track my heart rate ever again. I just think
+it looks better. Like, it's almost daunting. Let's have a
+little look. Is we both the hype? Then that, never again.
+Oh, that looks clean, brother, it looks clean. Let me tell
+you what we need to do here, actually, because this one's
+still getting views. We need to go in here. This is me
+getting sidetracked, by the way, which as you can tell,
+ADHD, this is what YouTube does to you. So we're gonna go
+whoop, because whoop pay me a lot of money to sponsor this
+video. Look at that, 20 Gs, baby. 7,000 subscribers, cool.
+Editor, end screen, video, choose specific, heart. Heart.
+This needs to go, boom.
+Sponsor that, whoop. Why I'll never track my heart rate ever
+again. Now I'm gonna funnel people from the video that
+they're putting money behind, then they'll get to the end of
+that video and they will go to the video as to why I hate
+it. And I'm done with whoop. Well, I'm done with you, you
+have to watch the video. So there's just some basic
+walkthroughs. Keep these simple. The hero here is the whoop.
+That's why I'm not in it, because the video is not about me,
+it's about the whoop. So hopefully that brought a lot of
+views. A lot of clarity to you. And I'll probably do some
+more thumbnail walkthroughs as bonus modules to this. Again,
+if you're unsure, get them into the Discord. But you'll
+notice there, I use the move around, the object selection. I
+don't really crop much, don't really need colors. AI does so
+much of this for you. That is very simply how I do it.
+Pretty much all of them are just like that. Does that make
+me good at thumbnails? I don't know, maybe I'm terrible. But
+here's the thing, right? Remember, when you're in the
+Discord, you put all your things into thumbs up, your
+command, shift four, you screenshot that, command, shift
+four, put that into the Discord. Because if you just send me
+a thumbnail or a title, I need the context. Hope that
+helped. See you in the next module.

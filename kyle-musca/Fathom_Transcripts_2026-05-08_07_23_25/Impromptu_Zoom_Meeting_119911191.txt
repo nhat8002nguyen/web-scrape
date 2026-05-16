@@ -1,0 +1,988 @@
+Meeting: Impromptu Zoom Meeting
+Date: 2026-02-05T06:33:56Z
+Scheduled: 2026-02-05T05:08:58Z - 2026-02-05T05:23:58Z
+Recording: 2026-02-05T05:09:14Z - 2026-02-05T06:33:49Z
+Language: en
+URL: https://fathom.video/calls/557458505
+Share Link: https://fathom.video/share/KcNbsSQ9JXNizjhb3VTZn14yHQGVkkjn
+Recording ID: 119911191
+
+Participants: Kyle Musca (kyle@empcoaching.com.au)
+Recorded by: Kyle Musca (kyle@empcoaching.com.au)
+--- TRANSCRIPT ---
+
+[00:00:01] Hattie Boydle: This meeting is being recorded.
+[00:00:03] Hattie Boydle: It'd be like, oh, you know, I've just had a look.
+[00:00:06] Hattie Boydle: You need to now do this.
+[00:00:08] Hattie Boydle: Go into Facebook and do this.
+[00:00:09] Hattie Boydle: And I was like, oh, .
+[00:00:10] Hattie Boydle: And it knew what new it was.
+[00:00:11] Hattie Boydle: So I was like, .
+[00:00:12] Hattie Boydle: And then parts of it, would even just like, it was like, describe what you're trying to do.
+[00:00:17] Hattie Boydle: And I'd describe it.
+[00:00:17] Hattie Boydle: And then it was like, the AI would just like automatically do those things for connections.
+[00:00:22] Hattie Boydle: That was why I was just like, oh, that was way easier than I thought.
+[00:00:25] Kyle Musca: Oh, yeah.
+[00:00:26] Kyle Musca: Yeah.
+[00:00:26] Kyle Musca: Last time I used Zappi as well, before all that AI  came out.
+[00:00:30] Hattie Boydle: Yeah.
+[00:00:30] Kyle Musca: What the  is this?
+[00:00:31] Hattie Boydle: Yeah, actually.
+[00:00:33] Hattie Boydle: So that was good.
+[00:00:34] Kyle Musca: And then you tested it and they pulled the data through?
+[00:00:37] Hattie Boydle: Yeah.
+[00:00:37] Hattie Boydle: Yeah.
+[00:00:38] Hattie Boydle: It literally had all the last three signups and it sent it across.
+[00:00:41] Kyle Musca: So.
+[00:00:42] Kyle Musca: Yeah.
+[00:00:42] Kyle Musca: Okay.
+[00:00:43] Kyle Musca: Perfect.
+[00:00:43] Kyle Musca: So let's have a gaze real quick.
+[00:00:46] Kyle Musca: Yeah.
+[00:00:48] Kyle Musca: Did you, what were you sort of thinking?
+[00:00:51] Kyle Musca: Did you want to sort of push it back a little bit or?
+[00:00:53] Hattie Boydle: Well, I don't see how that would be possible because then what if all the people that joined can't do those dates?
+[00:00:59] Hattie Boydle: It's like some of the people joining can't do the new dates.
+[00:01:08] Hattie Boydle: I mean, the guys from Solon said 80% of the sign-ups happened in the last week anyway.
+[00:01:14] Kyle Musca: Yeah, when our brand challenge where it's like a direct sign-up thing, like what you're doing right now, like I kind of did that.
+[00:01:21] Kyle Musca: It was a lower ticket one, but it was only for like three weeks or something.
+[00:01:24] Kyle Musca: was $27 or $37 or something.
+[00:01:28] Kyle Musca: Literally like 50% of my sign-ups came in the last day.
+[00:01:32] Hattie Boydle: Yeah.
+[00:01:33] Hattie Boydle: So whilst it seems like we've kind of burnt time, and to be honest, it's given me the  because the girls were meant to do the first post on the first of Fathom.
+[00:01:43] Hattie Boydle: Like there is a whole spreadsheet of all the things that we all need to do.
+[00:01:50] Hattie Boydle: And this recording is staying here, isn't it?
+[00:01:53] Kyle Musca: Yeah.
+[00:01:54] Kyle Musca: It's not actually recording.
+[00:01:56] Hattie Boydle: It's just taking notes.
+[00:01:56] Hattie Boydle: It's like sign.
+[00:01:58] Hattie Boydle: It's like a sign.
+[00:02:00] Hattie Boydle: And Coben, Coben, Coben, Coben and Bonner, Coben and Bonner, Coben, Coben, Coben, Coben, Bonner, Bonner, Millie and Hattie, content calendar.
+[00:02:08] Hattie Boydle: That was all they had to do.
+[00:02:09] Hattie Boydle: Did everything for the art, did everything for the graphics, did everything with Jade and Philippe, did all the copy, did all the stuff with My Strength book.
+[00:02:19] Hattie Boydle: And it's like, they haven't even , and I even did the first week of the content calendar for them so they could see what it looked like.
+[00:02:25] Hattie Boydle: And first post the mentoring on the first.
+[00:02:28] Hattie Boydle: And they haven't even done it.
+[00:02:29] Hattie Boydle: And then it got to, like, Wednesday, and then Millie's like, oh, I need today for honor.
+[00:02:32] Hattie Boydle: And I was like, okay, well, like, just make sure you post it tomorrow because, like, we're burning, like, precious time here.
+[00:02:36] Hattie Boydle: Like, I've set all this up for a three-week lead-in.
+[00:02:40] Hattie Boydle: And then, like, 10 o'clock today, I was like, guys, like, you didn't do the  post this morning.
+[00:02:45] Hattie Boydle: Like, I'm waiting for it.
+[00:02:46] Hattie Boydle: What's going on?
+[00:02:47] Hattie Boydle: I've set all the automations up.
+[00:02:48] Hattie Boydle: Oh, sorry.
+[00:02:49] Hattie Boydle: Hattie's like, should we do it now?
+[00:02:50] Hattie Boydle: Millie's like, no, I get bad engagement in the afternoon, babes.
+[00:02:53] Hattie Boydle: We'll just wait till tomorrow.
+[00:02:54] Hattie Boydle: I'm like, you know what's worse than bad engagement?
+[00:02:57] Hattie Boydle: No engagement.
+[00:02:58] Hattie Boydle: You haven't  done anything for this challenge.
+[00:02:59] Hattie Boydle: In a whole, it's five days.
+[00:03:02] Hattie Boydle: Like, you just wasted five days of a 21-day campaign.
+[00:03:05] Hattie Boydle: And I'm looking at the content calendar now.
+[00:03:07] Hattie Boydle: There's nothing added to it.
+[00:03:08] Hattie Boydle: And then they're like, Millie said, can you come take photos of Hattie and I after the call this afternoon?
+[00:03:15] Hattie Boydle: And I was like, for what?
+[00:03:16] Hattie Boydle: For content?
+[00:03:17] Hattie Boydle: What content?
+[00:03:18] Hattie Boydle: Oh, just the stuff we can use.
+[00:03:20] Hattie Boydle: I was like, okay, so when are you making the VSL so that I can get this app live?
+[00:03:23] Hattie Boydle: Because until I can launch the app, which I'm just waiting on the VSL, every signup, I will manually have to get into the app and chase them up and hope they see my emails and find their Instagram and DM them.
+[00:03:35] Hattie Boydle: Whereas if you just do the VSL, I can put the app live and set up an automation that sends them the code to get into the app when they buy.
+[00:03:43] Hattie Boydle: You know what you might even like?
+[00:03:45] Kyle Musca: It's a bit  dodge.
+[00:03:47] Kyle Musca: If it's that big of an issue, you might even just get some like images of  Millie and chuck it into AI and see if you can create something.
+[00:03:55] Kyle Musca: Like, I don't know if that would work.
+[00:03:56] Kyle Musca: I haven't used that, but...
+[00:03:58] Hattie Boydle: Yes, she won't.
+[00:04:00] Hattie Boydle: This is the thing.
+[00:04:05] Hattie Boydle: It's like, I am happy to make it for them.
+[00:04:08] Hattie Boydle: Like I said, I'm happy to do the whole content calendar.
+[00:04:10] Hattie Boydle: The problem is if I do it and I create the content, Millie won't be happy with it aesthetically.
+[00:04:15] Hattie Boydle: Even if it looks fine, it's like she hasn't done it.
+[00:04:17] Hattie Boydle: It's like sometimes with the stories are called actions.
+[00:04:19] Hattie Boydle: I'll be like, can you do a story?
+[00:04:21] Hattie Boydle: Because I'm running out of combos in the DM.
+[00:04:23] Hattie Boydle: Okay.
+[00:04:24] Hattie Boydle: Two days go by.
+[00:04:25] Hattie Boydle: Millie, still waiting on the  story.
+[00:04:27] Hattie Boydle: Take you 30 seconds.
+[00:04:28] Hattie Boydle: And then, you know, and then we can be in the DMs.
+[00:04:31] Hattie Boydle: Like you don't have to do anything.
+[00:04:32] Hattie Boydle: Just put the story up.
+[00:04:33] Hattie Boydle: Doesn't do it.
+[00:04:34] Hattie Boydle: So then I put one up and then she deletes it.
+[00:04:35] Hattie Boydle: She goes, I wouldn't have used that photo.
+[00:04:37] Hattie Boydle: Can I do it?
+[00:04:37] Hattie Boydle: Yeah.
+[00:04:38] Hattie Boydle: Yeah.
+[00:04:38] Hattie Boydle: You can  do it.
+[00:04:39] Hattie Boydle: I want you to do it.
+[00:04:40] Hattie Boydle: Please.
+[00:04:41] Hattie Boydle: Like, so then like, you know, this announcement post, they've made Bono change it five times.
+[00:04:48] Hattie Boydle: They didn't like the photo that was used.
+[00:04:51] Hattie Boydle: The photo that they submitted to be used.
+[00:04:54] Hattie Boydle: Didn't like the shade of pink.
+[00:04:56] Hattie Boydle: Didn't like the sticker on one of the carousels.
+[00:04:58] Hattie Boydle: I'm like, it is.
+[00:05:00] Hattie Boydle: Not that big a deal.
+[00:05:01] Hattie Boydle: Like, it is a sticker on Carousel 3 that just had, like, the prize thing in it.
+[00:05:06] Hattie Boydle: I was just like, so if I do it, they won't post it.
+[00:05:09] Hattie Boydle: So there's no point in me doing it.
+[00:05:11] Hattie Boydle: They want to do it, but then they don't do it.
+[00:05:14] Hattie Boydle: So Emily, how did you just call me?
+[00:05:17] Hattie Boydle: I was like, so what's the VSL meant to be?
+[00:05:20] Hattie Boydle: I'm like, I literally spent 40 minutes talking you through everything that needs to be in the VSL last night.
+[00:05:25] Hattie Boydle: I'm not doing it again.
+[00:05:26] Hattie Boydle: I'm getting on a corporate car.
+[00:05:27] Hattie Boydle: Like, your jobs are there.
+[00:05:30] Hattie Boydle: I'm out of it now.
+[00:05:31] Hattie Boydle: If you guys don't want to do your jobs, that's fine.
+[00:05:34] Hattie Boydle: But the app's pretty much ready to go.
+[00:05:36] Hattie Boydle: Everything's ready to be launched.
+[00:05:38] Hattie Boydle: The only thing left is to promote.
+[00:05:39] Hattie Boydle: But if you guys don't want to do that, that's fine.
+[00:05:41] Hattie Boydle: Just accept the fact that you're either going to lose money on this or just break even when you could be making hundreds of thousands.
+[00:05:48] Kyle Musca: So, yeah, I mean, that sounds like a head .
+[00:05:56] Kyle Musca: But, I mean, I think, like, again, through Millie's account.
+[00:06:00] Kyle Musca: Like, she hasn't marketed anything.
+[00:06:02] Kyle Musca: Like, she's never really sold properly on her actual, like, through ads and stuff.
+[00:06:05] Kyle Musca: So I'm assuming it would just  rip from there if we can collect the right data.
+[00:06:09] Kyle Musca: Because if we don't, again, I could see aggressively hooking on, you know, real  quality leads.
+[00:06:16] Kyle Musca: But so we'll sell us that.
+[00:06:19] Kyle Musca: I just connected the conversion API, the, sorry, data pixel to Millie's actual ad account.
+[00:06:26] Kyle Musca: Now, that's going off, that's bringing across cost per purchase, hey?
+[00:06:33] Hattie Boydle: Well, yeah.
+[00:06:34] Hattie Boydle: So it's only the data that's coming through is any one-off purchase in NeuroLeadership.
+[00:06:38] Kyle Musca: right now, the only things that are one-off purchases are the challenge.
+[00:06:43] Kyle Musca: Okay.
+[00:06:48] Kyle Musca: Do you know, um.
+[00:06:59] Kyle Musca: Do you
+[00:07:00] Kyle Musca: Depends what it's actually pulling through.
+[00:07:05] Hattie Boydle: What do you mean by that?
+[00:07:07] Kyle Musca: If it's just pulling across, like, let's say, hey, someone purchased, that's like the figure would be one, or it'd be like, hey, you know, someone purchased, like, the actual amount of what it was, because it's like 199 or something, isn't it?
+[00:07:21] Hattie Boydle: So the data when I was on there that looked like you could see, it was like person's name, person's email amount, I have 199, so like the $199, so you could see the amount, whether that actually comes through on Meta's slide and shows, like, the money made versus money spent, so you can get the actual return on ad spend or not.
+[00:07:48] Hattie Boydle: But, I mean, even if we just get, like, say, one, we know that one stands for 199, so say it's like, you know, $100 spent, five, you know that's $1,000 kind of thing.
+[00:08:00] Kyle Musca: Yeah.
+[00:08:14] Kyle Musca: Okay, cool.
+[00:08:15] Kyle Musca: So this is Millie's account.
+[00:08:17] Kyle Musca: The connectors are all there.
+[00:08:18] Kyle Musca: All I pretty much need to do, and I'll check them in each other as well, is get these ads running now that that's connected.
+[00:08:30] Kyle Musca: Wait, did you do this through Hattie's account?
+[00:08:34] Hattie Boydle: Do what through Hattie's account?
+[00:08:36] Kyle Musca: The mini-chat?
+[00:08:38] Hattie Boydle: It's the automation they're set up in both Hattie and Millie's.
+[00:08:43] Kyle Musca: Okay.
+[00:08:44] Kyle Musca: I mean, it should be the same.
+[00:08:49] Kyle Musca: Yeah, there's no conversion API, so that's fine.
+[00:08:52] Kyle Musca: Which one is it?
+[00:08:54] Hattie Boydle: Top one.
+[00:08:57] Hattie Boydle: Yeah.
+[00:08:59] Hattie Boydle: Take care.
+[00:08:59] Hattie Boydle: Okay.
+[00:08:59] Hattie Boydle: Yeah.
+[00:09:00] Hattie Boydle: Yeah, essentially.
+[00:09:00] Hattie Boydle: They're pretty much the same.
+[00:09:04] Hattie Boydle: So, on both Millie and Hatties.
+[00:09:11] Kyle Musca: Okay.
+[00:09:13] Hattie Boydle: Would you change it?
+[00:09:16] Kyle Musca: Not in the sense of that, because that's just the link straight to it.
+[00:09:22] Kyle Musca: This is just from Story Replies.
+[00:09:27] Kyle Musca: So, I wonder if you could, because it's not the actual link.
+[00:09:51] Kyle Musca: So, yeah.
+[00:09:53] Kyle Musca: Okay.
+[00:09:54] Kyle Musca: Let's see if that it does it.
+[00:09:59] Kyle Musca: Okay.
+[00:10:00] Kyle Musca: So what we might do here, let's go to that.
+[00:10:15] Hattie Boydle: Is it an automation for just DMs?
+[00:10:18] Kyle Musca: Yeah, just like, just exactly the same thing, but it's just like when someone sends this word, essentially.
+[00:10:27] Kyle Musca: It's just a copy.
+[00:10:31] Kyle Musca: So here is just a simple, um, I'd send you the link for the NeuroE thing if you need it for the actual flow.
+[00:10:40] Kyle Musca: I'll just copy this.
+[00:10:52] Kyle Musca: Essentially we can get rid of, sorry.
+[00:10:56] Kyle Musca: Thank you.
+[00:10:57] Kyle Musca: Thank you.
+[00:10:58] Kyle Musca: .
+[00:11:03] Hattie Boydle: Is that the thing with the capi on it?
+[00:11:07] Hattie Boydle: This is on Hatties, right?
+[00:11:09] Kyle Musca: Oh, yeah, true.
+[00:11:12] Kyle Musca: Either way, it will be fine.
+[00:11:13] Kyle Musca: I'm sure you would do it in a sec.
+[00:11:19] Hattie Boydle: I mean, I can add you to Mealy's.
+[00:11:21] Kyle Musca: Yeah, if you want to.
+[00:11:22] Kyle Musca: If you're going to do more stuff, then you might as well, but this will be...
+[00:11:27] Hattie Boydle: Actually, I think that's still...
+[00:11:28] Hattie Boydle: But if I send you some...
+[00:11:29] Hattie Boydle: Do you reckon it's worth pouring the majority of the ad budget into Mealy's because her audience will resonate more with this kind of thing?
+[00:11:35] Kyle Musca: Or do you reckon it's 50-50?
+[00:11:38] Kyle Musca: Dude, people love challenges.
+[00:11:39] Kyle Musca: It doesn't really matter what, like, age group and demographics and stuff.
+[00:11:42] Kyle Musca: It's like, if you just slap the word challenge on something, like, people get ...
+[00:11:47] Kyle Musca: ...
+[00:11:48] Kyle Musca: ...
+[00:11:49] Kyle Musca: ...
+[00:12:23] Hattie Boydle: Yeah, first name, too.
+[00:12:25] Kyle Musca: Inc.
+[00:12:31] Kyle Musca: Website, more info.
+[00:12:36] Hattie Boydle: Are you doing this so that if anyone, like, DMs, it'll happen as well?
+[00:12:41] Kyle Musca: Yeah.
+[00:12:42] Kyle Musca: Which could be fine just off the stories, but yeah, cool.
+[00:12:46] Kyle Musca: It takes me to that.
+[00:12:54] Kyle Musca: Same.
+[00:12:55] Kyle Musca: More info.
+[00:12:55] Kyle Musca: Do you want more info?
+[00:12:56] Kyle Musca: Learn more?
+[00:12:59] Hattie Boydle: Um...
+[00:13:01] Hattie Boydle: Yeah, guess, yeah, more info.
+[00:13:05] Kyle Musca: Delete that.
+[00:13:13] Hattie Boydle: So what's the flex hormone thing?
+[00:13:22] Kyle Musca: So that's the trigger words that we haven't changed yet.
+[00:13:27] Kyle Musca: So with this, yeah.
+[00:13:40] Kyle Musca: So with this, they basically do the same thing, but like this one will just be off story replies only.
+[00:13:51] Kyle Musca: So like what you could do with, is that going to double up now?
+[00:13:57] Kyle Musca: Yeah.
+[00:13:58] Kyle Musca: Yeah.
+[00:13:58] Kyle Musca: So that's what I was about to get to.
+[00:13:59] Kyle Musca: So.
+[00:13:59] Kyle Musca: So.
+[00:14:00] Kyle Musca: I would probably just turn the story one off, to be honest, because, whereas, have you got the link for more info?
+[00:14:09] Kyle Musca: Yeah, yeah.
+[00:14:10] Hattie Boydle: You do?
+[00:14:12] Kyle Musca: Yeah, this one.
+[00:14:16] Hattie Boydle: Okay, cool.
+[00:14:21] Kyle Musca: So, can you delete the other one?
+[00:14:23] Hattie Boydle: My many chat's not working for some reason.
+[00:14:25] Kyle Musca: can't open it.
+[00:14:26] Kyle Musca: This one?
+[00:14:27] Hattie Boydle: The, whatever, the double-up one we don't need was to.
+[00:14:31] Kyle Musca: I want to delete it.
+[00:14:31] Kyle Musca: I'll just maybe turn it on.
+[00:14:34] Kyle Musca: Stop.
+[00:14:35] Kyle Musca: Okay.
+[00:14:36] Kyle Musca: If any  up, we could directly come on.
+[00:14:40] Hattie Boydle: That one on.
+[00:14:41] Hattie Boydle: So, that is messages reset.
+[00:14:43] Kyle Musca: So, that'll be stories or anything.
+[00:14:45] Kyle Musca: Yeah.
+[00:14:45] Kyle Musca: So, this is, as long as they send you the word reset.
+[00:14:48] Kyle Musca: Only reason I would go for that one in general is, like, obviously, we'll run it on a story.
+[00:14:52] Kyle Musca: But, like, if you can get, like, this to fit in, like, a 4x5.
+[00:14:56] Kyle Musca: Is that 4x5?
+[00:14:58] Kyle Musca: Is that square?
+[00:14:59] Hattie Boydle: I mean...
+[00:15:00] Hattie Boydle: I literally just screenshot those off her Instagram and kept the dimensions, so.
+[00:15:04] Kyle Musca: On her feed?
+[00:15:06] Hattie Boydle: Yeah.
+[00:15:07] Kyle Musca: Oh, fantastic.
+[00:15:08] Kyle Musca: Okay.
+[00:15:08] Kyle Musca: So that basically means, yeah, we can run that as a feed post as well.
+[00:15:11] Kyle Musca: So we can do story and feed placements.
+[00:15:14] Kyle Musca: When you, if this was like a vertical one where it's just like story, then it would cut off the writing.
+[00:15:21] Hattie Boydle: Yeah.
+[00:15:21] Hattie Boydle: There's another one that I wasn't sure if it was the same dimension because it wasn't from a thing up the top maybe, but I tried to make it as, that, that one definitely is fine.
+[00:15:31] Hattie Boydle: If you go up.
+[00:15:33] Kyle Musca: These are all the ones you want to use.
+[00:15:36] Hattie Boydle: So that's good.
+[00:15:38] Hattie Boydle: That one's fine.
+[00:15:39] Hattie Boydle: That one, the writing kind of fits it.
+[00:15:41] Kyle Musca: It won't get cut off.
+[00:15:42] Kyle Musca: So.
+[00:15:43] Kyle Musca: No, even if it does, it will just like.
+[00:15:44] Hattie Boydle: That's what I mean.
+[00:15:45] Hattie Boydle: Yeah.
+[00:15:45] Hattie Boydle: That's not the right dimension, but it definitely won't get cut off.
+[00:15:47] Hattie Boydle: And that one won't either.
+[00:15:48] Hattie Boydle: I kept all the writing really compact.
+[00:15:50] Hattie Boydle: That one, maybe not.
+[00:15:53] Kyle Musca: That should be fine.
+[00:15:54] Kyle Musca: one.
+[00:15:54] Kyle Musca: Yeah.
+[00:15:58] Hattie Boydle: So.
+[00:16:00] Hattie Boydle: I should look like a  on that one.
+[00:16:05] Kyle Musca: Cool.
+[00:16:05] Kyle Musca: So what I can do is, let's see if this works, because man has been bugging like a  recently.
+[00:16:19] Kyle Musca: One money money challenge.
+[00:16:22] Hattie Boydle: You're a few steps away from using this product, using this catalog for ads.
+[00:16:33] Hattie Boydle: What's that?
+[00:16:35] Kyle Musca: Maybe you see Advantage Plus from Meta.
+[00:16:37] Kyle Musca: It's probably best just turn it off.
+[00:16:39] Kyle Musca: You don't that anyway, do you?
+[00:16:41] Kyle Musca: Pardon?
+[00:16:42] Hattie Boydle: You don't use that anyway, do you?
+[00:16:44] Kyle Musca: No, I don't even know what the  catalog ads.
+[00:16:47] Kyle Musca: Drive sales using product information, showing relevant products to the right people.
+[00:16:52] Kyle Musca: No, I wouldn't  around with that.
+[00:16:55] Kyle Musca: Usually whenever Meta tells you to do something, it's like they just want to take your money.
+[00:16:59] Hattie Boydle: Amen.
+[00:17:01] Kyle Musca: Yeah, 33% high conversions, not that you'd know.
+[00:17:05] Kyle Musca: Yeah, it's like, um, , I'm trying to add you to Millie's ManyChat so you can replicate that thing, but I can't, it won't  load.
+[00:17:17] Kyle Musca: Feeds and, feeds and stories.
+[00:17:27] Kyle Musca: Yeah, I reckon there's feeds and stories.
+[00:17:30] Kyle Musca: Conversion location.
+[00:17:34] Hattie Boydle: Do you reckon $100 a day or do you reckon ship it?
+[00:17:38] Kyle Musca: Like, go hard on it.
+[00:17:40] Hattie Boydle: Yeah.
+[00:17:42] Hattie Boydle: You only need to sell one to cover the cost of $200 a day.
+[00:17:46] Kyle Musca: Yeah, we can do 200.
+[00:17:47] Kyle Musca: It would just test it faster.
+[00:17:50] Kyle Musca: Conversion location.
+[00:17:51] Hattie Boydle: Is there any downfall to going bigger?
+[00:17:55] Kyle Musca: No.
+[00:17:57] Kyle Musca: Not at the start.
+[00:17:58] Kyle Musca: But, like, if you give it the money, it would be...
+[00:18:00] Kyle Musca: We have to spread it across evenly and figure out who's winning and who's not.
+[00:18:04] Hattie Boydle: If this was yours, what would you put the ad budget?
+[00:18:08] Kyle Musca: I always start at $100 a day, but again, millies should be like a, I don't doubt that this should rip on millies.
+[00:18:14] Hattie Boydle: So I wish we could double it?
+[00:18:18] Kyle Musca: Yeah, so with that, you have to either scale it slowly.
+[00:18:21] Kyle Musca: So I'll just scale it every day.
+[00:18:22] Kyle Musca: So like, you know, you can increase about 20% each day without it skewing the data.
+[00:18:27] Kyle Musca: Otherwise, what you can do is if it is really  winning and we're like, we want to double it immediately, we can just duplicate it straight away and double it that way.
+[00:18:35] Hattie Boydle: Okay.
+[00:18:37] Kyle Musca: Maximize about the same number of conversions.
+[00:18:41] Kyle Musca: Website app is required.
+[00:18:43] Kyle Musca: Build a new event conversion.
+[00:18:44] Kyle Musca: So this is the part where we need to suss.
+[00:18:50] Kyle Musca: And I might even get my media buyer to  around with this because he's a little bit more in depth with the pixel side of things.
+[00:18:57] Kyle Musca: So before you turn on, start to see the
+[00:19:17] Hattie Boydle: It's like, you reached, what the ?
+[00:19:20] Kyle Musca: Oh, so this is a lead.
+[00:19:25] Hattie Boydle: Oh, it just asked what you wanted to come through as.
+[00:19:30] Kyle Musca: Was there a purchase as an option?
+[00:19:32] Hattie Boydle: There was.
+[00:19:36] Hattie Boydle: Should I try and change that?
+[00:19:39] Kyle Musca: Yeah.
+[00:19:40] Kyle Musca: So essentially, if they do either of these, that's when it records, right?
+[00:19:44] Hattie Boydle: When they actually pay?
+[00:19:46] Hattie Boydle: Yeah.
+[00:19:46] Kyle Musca: If I go that, then it should be, yeah.
+[00:19:50] Kyle Musca: So that would be a purchase.
+[00:19:52] Kyle Musca: I would do that as a purchase.
+[00:19:55] Hattie Boydle: You can confirm your email, okay?
+[00:20:04] Kyle Musca: And then you should be able to also, if you do purchase, I don't know if it reads it automatically, or you should be able to manually put what the value of a purchase is.
+[00:20:12] Hattie Boydle: So in this case, $1.99.
+[00:20:14] Hattie Boydle: Well, the lead already had the value of the purchase and the thing, but it says I need to confirm my email, but then it doesn't have, it doesn't send me an email.
+[00:20:26] Hattie Boydle: Here we go.
+[00:20:43] Kyle Musca: What I would also do as well is, yeah, with the challenges, the biggest thing is like urgency towards the last couple of days.
+[00:20:51] Kyle Musca: So like basically.
+[00:20:53] Hattie Boydle: Have graphics, like seven days left kind of thing.
+[00:20:56] Kyle Musca: Yeah, one thing with the challenge graphics as well.
+[00:21:07] Kyle Musca: Is adding the prize pool is always a really good option, but then also always adding like a deadline of when they need to actually join by.
+[00:21:21] Hattie Boydle: Yeah, probably should have, yeah.
+[00:21:23] Hattie Boydle: Like kind of have the date on the next lot.
+[00:21:27] Kyle Musca: Yeah, so it's like entries closed, is it January 18th, February 18th?
+[00:21:34] Hattie Boydle: Yeah, I guess the week of.
+[00:21:36] Hattie Boydle: How many days before would you close?
+[00:21:37] Hattie Boydle: Just to make sure you can get everyone in, just a few days.
+[00:21:42] Kyle Musca: I still like, because what you could do here is like just because like...
+[00:21:47] Hattie Boydle: If it's all set up so they're getting straight into the app, I guess there's no like shut off, it's the day of, but...
+[00:21:52] Kyle Musca: Yeah, like but what you could also do, is like Adam does this, is after the challenge, like let's say it's the 18th, like you could still run it.
+[00:22:00] Kyle Musca: To like the 21st or even like longer and just say like, I had so many girls say that they missed out because they're waiting to get paid or something like that.
+[00:22:08] Kyle Musca: I've opened up second intake.
+[00:22:10] Kyle Musca: It ends, you know, January, February 22nd.
+[00:22:13] Kyle Musca: If you don't get in by then, that's it.
+[00:22:15] Kyle Musca: Doors closed.
+[00:22:17] Hattie Boydle: So right now it's saying send lead event is event time, paid at, event ID, purchase ID, their user email, their name, and the offering name.
+[00:22:34] Hattie Boydle: All right.
+[00:22:38] Hattie Boydle: Let's edit this app.
+[00:22:39] Hattie Boydle: Let's do Website.
+[00:22:45] Hattie Boydle: Millie's pixel.
+[00:22:49] Hattie Boydle: Setup.
+[00:22:52] Hattie Boydle: Facebook conversions.
+[00:22:54] Hattie Boydle: Action.
+[00:22:54] Hattie Boydle: Set lead event.
+[00:22:56] Hattie Boydle: Send purchase event.
+[00:22:58] Kyle Musca: Yes.
+[00:22:59] Kyle Musca: Yeah, that would be it.
+[00:22:59] Hattie Boydle: Yep.
+[00:23:00] Hattie Boydle: Continue, source, value, app, business account, flex method.
+[00:23:13] Kyle Musca: Yeah, yeah, that's the business account.
+[00:23:17] Hattie Boydle: Ew, there's a lot of other  there now.
+[00:23:35] Hattie Boydle: Event time, event ID, event code.
+[00:23:42] Hattie Boydle: Ah, .
+[00:23:54] Hattie Boydle: I'm not meant to put event time, event ID, event code.
+[00:24:00] Hattie Boydle: Data processing, data processing country, data processing state, email, wouldn't it?
+[00:24:07] Hattie Boydle: Isn't it meant to give me that information?
+[00:24:10] Hattie Boydle: It wouldn't be meant to manually enter it all.
+[00:24:13] Hattie Boydle: To finish, finish required fields, currency, AUD, value, $199.
+[00:24:30] Hattie Boydle: See if I can just get away with that.
+[00:24:34] Hattie Boydle: Yes, yep.
+[00:24:39] Hattie Boydle: Something just come through?
+[00:24:53] Kyle Musca: Mm-hmm.-hmm.-hmm.
+[00:24:59] Hattie Boydle: Yes, yep.
+[00:25:00] Hattie Boydle: What's for now?
+[00:25:37] Hattie Boydle: I don't know how to get all this event info, so you can learn more about it.
+[00:25:43] Kyle Musca: I just did all this automatically for me on the lead one, but I don't know I could build no event available, source selection.
+[00:26:23] Kyle Musca: What are the age ranges you're going to want to really target here?
+[00:26:27] Hattie Boydle: Customer purchases, map, pixel, currency value, see, customers, details, automatically mapped from step one, so you're all set, ready to turn it on, okay?
+[00:26:44] Hattie Boydle: Oh, the test thing didn't come through, but it didn't give me anything to actually test it with.
+[00:26:56] Hattie Boydle: Thank you.
+[00:27:09] Hattie Boydle: I'm all fields false.
+[00:27:12] Kyle Musca: Dearly, we just want this to change to...
+[00:27:15] Hattie Boydle: I mean, I've changed them.
+[00:27:18] Hattie Boydle: It says send purchase event on my end now, but...
+[00:27:25] Kyle Musca: Where are we here?
+[00:27:27] Hattie Boydle: I don't know how...
+[00:27:30] Hattie Boydle: Change it on that end now.
+[00:27:43] Hattie Boydle: I mean, should I buy it and see if it comes through?
+[00:27:48] Kyle Musca: Yeah.
+[00:27:50] Kyle Musca: I think that...
+[00:27:51] Kyle Musca: they'll still pull a lead through.
+[00:27:56] Kyle Musca: Let's just...
+[00:27:59] Kyle Musca: Create...
+[00:28:00] Kyle Musca: Create custom conversion, create, add.
+[00:28:15] Hattie Boydle: That might skew the data to be me, though.
+[00:28:20] Hattie Boydle: If the first purchase is a real dude.
+[00:28:24] Kyle Musca: It's a problem to find that demographic in every minute, 20 to 30.
+[00:28:30] Kyle Musca: Let's go, where's the events manager?
+[00:28:37] Kyle Musca: And.
+[00:28:42] Kyle Musca: Do that.
+[00:28:55] Kyle Musca: Custom conversions, maybe?
+[00:28:57] Kyle Musca: no, no, no, no, no, no, no,
+[00:29:00] Kyle Musca: Let me connect the data.
+[00:29:04] Hattie Boydle: Maybe.
+[00:29:05] Kyle Musca: Install some purchases.
+[00:29:07] Hattie Boydle: Maybe I test it with.
+[00:29:10] Hattie Boydle: Here we go.
+[00:29:12] Hattie Boydle: Test.
+[00:29:14] Hattie Boydle: Continue.
+[00:29:20] Hattie Boydle: Doesn't really seem to have all the person's info.
+[00:29:23] Kyle Musca: How did you add the event in meta the first time?
+[00:29:30] Hattie Boydle: I don't really think it's coming through with all their info when I do it from the purchasing.
+[00:29:38] Hattie Boydle: It's all empty.
+[00:29:43] Hattie Boydle: How did what, sorry?
+[00:29:47] Kyle Musca: When you put this pixel in here, this lead one, how did you get that in there?
+[00:29:59] Hattie Boydle: That was.
+[00:29:59] Hattie Boydle: was.
+[00:30:00] Hattie Boydle: It's from Zapier's end.
+[00:30:01] Kyle Musca: Oh, it just automatically created it?
+[00:30:04] Hattie Boydle: Yeah, connected it.
+[00:30:10] Hattie Boydle: But when I go send purchase event, all the information fields are empty except for the price and stuff like that.
+[00:30:20] Hattie Boydle: Whereas when it was a lead, it seemed to have the info.
+[00:30:26] Kyle Musca: Can you fill in the info manually for the purchase event?
+[00:30:32] Hattie Boydle: I mean, it's meant to pull it from the actual person that purchased it.
+[00:30:42] Hattie Boydle: Username, Sue Gomez.
+[00:30:45] Kyle Musca: No event detected.
+[00:30:46] Kyle Musca: You'll need to add an event to your pixel and not create a custom conversion.
+[00:30:49] Kyle Musca: So that's over here, um, connect data, let's go.
+[00:31:00] Hattie Boydle: I don't know why.
+[00:31:02] Hattie Boydle: can't even test it on the thing.
+[00:31:04] Hattie Boydle: I'm trying to.
+[00:31:06] Hattie Boydle: I don't know why.
+[00:31:11] Hattie Boydle: Purchase event was sent to Facebook conversions about two minutes ago.
+[00:31:19] Hattie Boydle: Sang it.
+[00:31:21] Hattie Boydle: Purchase event was sent to Facebook conversions about two minutes ago, but retest it.
+[00:31:29] Hattie Boydle: Sang it's sent it again.
+[00:31:31] Hattie Boydle: if it's not coming through.
+[00:31:33] Kyle Musca: might not have.
+[00:31:35] Kyle Musca: it's not today.
+[00:31:36] Kyle Musca: It be helpful.
+[00:31:40] Kyle Musca: It was on at 6am.
+[00:31:44] Kyle Musca: It hasn't seemed to come through yet.
+[00:31:54] Kyle Musca: What we need to do here is we need to add this event.
+[00:31:57] Kyle Musca: So install your app event code manually.
+[00:31:59] Kyle Musca: simplify program P linguistic about them slide.
+[00:31:59] Kyle Musca: structure.
+[00:31:59] Kyle Musca: escorted you.
+[00:32:00] Hattie Boydle: If you develop a step-by-step instructions, event ID, the f**k is event ID, the ID is used to remove duplicates when sending the same event from more than one source, I don't know what that means, maybe the person's name is the event ID, maybe, no, that's the same name there, that's user ID, what's event ID, that should be fine, email instructions, do so, Content ID ID ID.
+[00:33:16] Hattie Boydle: Opt-out of ads for delivery optimisation, select true for the image, I don't know what that means.
+[00:33:24] Hattie Boydle: Data processing options, oh god, I don't  know.
+[00:33:30] Kyle Musca: Yeah, the pixels are  confusing.
+[00:33:34] Kyle Musca: You know who would be able to probably set this up for you, actually, quite quickly, is that Joseph guy I sent through to you.
+[00:33:41] Kyle Musca: Because he set it up for me when I did mine.
+[00:33:46] Hattie Boydle: Yeah, the only time difference he's going to be asleep again.
+[00:33:51] Kyle Musca: He's usually pretty responsive.
+[00:34:00] Hattie Boydle: So we're just talking about Fathom.
+[00:34:29] Hattie Boydle: It's an options country.
+[00:34:30] Hattie Boydle: There's nothing here about that country.
+[00:34:33] Kyle Musca: Oh, it wouldn't be through the app, actually.
+[00:34:36] Kyle Musca: would be through the website, which is Zapier.
+[00:34:40] Hattie Boydle: What's this?
+[00:34:42] Kyle Musca: So when I'm creating a...
+[00:34:53] Hattie Boydle: ...conversion...
+[00:34:55] Hattie Boydle: I'm not at all means...
+[00:34:58] Kyle Musca: ...doesn't...
+[00:34:58] Kyle Musca: ...doesn't...
+[00:34:58] Kyle Musca: ...
+[00:34:58] Kyle Musca: ...
+[00:34:59] Kyle Musca: ...
+[00:35:01] Kyle Musca: You need to un-invent to your pixel.
+[00:35:06] Hattie Boydle: I'm going to try and log into Zapier and screen share.
+[00:35:10] Kyle Musca: If you collect data from the web, data set millies pixel next.
+[00:35:19] Kyle Musca: Some ad accounts I'm showing.
+[00:35:24] Kyle Musca: Yes.
+[00:35:28] Kyle Musca: Setup conversion.
+[00:35:32] Kyle Musca: Okay, so yeah, I think this will be better.
+[00:35:35] Kyle Musca: Let me show the screen again.
+[00:35:41] Kyle Musca: In any understanding, agree, yes, it even does for meta.
+[00:35:44] Kyle Musca: Yes.
+[00:35:46] Kyle Musca: Yes.
+[00:35:46] Kyle Musca: Yes.
+[00:35:48] Kyle Musca: Yes.
+[00:35:49] Kyle Musca: Yes.
+[00:35:51] Kyle Musca: Yes.
+[00:35:57] Kyle Musca: Yes.
+[00:35:59] Kyle Musca: Yes.
+[00:36:25] Hattie Boydle: What's that, .hash?
+[00:36:29] Kyle Musca: Some, assuming it's a  ploy to get me to sign up to sort of .
+[00:36:38] Hattie Boydle: Let me show you what's on my own.
+[00:36:49] Hattie Boydle: What's going on?
+[00:36:52] Kyle Musca: Set up with partner, Andrew.
+[00:36:55] Hattie Boydle: You saying mine?
+[00:36:58] Kyle Musca: Um, just two seconds.
+[00:37:02] Kyle Musca: And then you can connect with another partner from the list.
+[00:37:08] Kyle Musca: What the ?
+[00:37:10] Hattie Boydle: What's going on there?
+[00:37:12] Kyle Musca: NeuroLeadership is connected to conversions API with Zappi.
+[00:37:30] Hattie Boydle: I've got one-off purchases.
+[00:37:32] Hattie Boydle: I was just reverted back to, it's reverted back to something later, Ben.
+[00:37:38] Kyle Musca: What?
+[00:37:40] Kyle Musca: That second one did come through, actually, that one you just did.
+[00:37:44] Hattie Boydle: The purchase?
+[00:37:46] Kyle Musca: Yeah.
+[00:37:47] Hattie Boydle: Yeah, but what data?
+[00:37:49] Kyle Musca: Just, it's a value of one.
+[00:37:51] Kyle Musca: So it just says someone purchased.
+[00:37:54] Kyle Musca: Which, I mean, well.
+[00:38:00] Kyle Musca: The comes to words, the worst are technically the same thing.
+[00:38:07] Kyle Musca: It's just, it's going to, so we, so right now we can set it up as a lead campaign, but the issue is, I mean, it will optimize for people that will buy it.
+[00:38:17] Kyle Musca: So I guess in a way we'll do the same thing, but like, if we can set up for a purchase, it's going to be trying to like find people that are more likely to, you know, actually like pay for , if that makes sense.
+[00:38:31] Hattie Boydle: But if, oh , I don't even know what's happening anymore.
+[00:38:34] Kyle Musca: In Zappi, it's all messy.
+[00:38:36] Kyle Musca: So send lead event.
+[00:38:38] Kyle Musca: So if you can.
+[00:38:40] Hattie Boydle: I mean, I was changing it from, I'm halfway through changing it from lead to purchase event, but it's, the lead, it just automatically collected all the info, the purchase.
+[00:38:49] Hattie Boydle: It's like, I've got to manually try and enter everything and I don't even know what half of it is.
+[00:38:54] Kyle Musca: It's like, okay, if it's that much of a  around, we can just run it as.
+[00:39:00] Hattie Boydle: Lead, but I don't know if I've already, oh, , um, is set up so that someone buys a good place.
+[00:39:30] Hattie Boydle: What data do we need to get across?
+[00:39:32] Hattie Boydle: I'm going to ask the Zapier body.
+[00:39:34] Kyle Musca: It's the, can record the purchase and cost per purchase.
+[00:39:44] Kyle Musca: The purchase event, I guess.
+[00:39:47] Kyle Musca: Yeah.
+[00:40:04] Hattie Boydle: Here is what is being captured and being sent to Facebook.
+[00:40:09] Hattie Boydle: Purchases details, their email and their name, purchase events, what was purchased, the purchase timestamp, the purchase ID, the destination, Millipixel, missing the purchase value and cost.
+[00:40:23] Hattie Boydle: Facebook Conversions API has a value field that captures the purchase amount, which is important for accurate conversion value tracking.
+[00:40:29] Hattie Boydle: the ROI.
+[00:40:31] Hattie Boydle: Would you like me to add the purchase value field into this step?
+[00:40:34] Hattie Boydle: Yes, please.
+[00:40:35] Hattie Boydle: This thing is helpful.
+[00:40:36] Kyle Musca: Also, I would also include that, like, at the moment, it seems to be pulling it across as a lead, not an actual purchase.
+[00:40:45] Hattie Boydle: I need you to either edit the current draft or create a new one.
+[00:40:48] Hattie Boydle: Edit an existing draft.
+[00:40:53] Hattie Boydle: Great.
+[00:40:54] Hattie Boydle: Now let me check what fields are available from your trigger step.
+[00:40:58] Hattie Boydle: And it see how that didn't need up with the purchase note.
+[00:41:03] Hattie Boydle: Let me see the purchase value is available on your trigger data, which shows $199 formatted as, in a sense, I also know this is an additional field in Facebook's custom parameters where I should add the value field.
+[00:41:18] Hattie Boydle: Let me add the purchase value to your Facebook step.
+[00:41:21] Hattie Boydle: Checkpoint added.
+[00:41:23] Hattie Boydle: Done.
+[00:41:23] Hattie Boydle: I've added the purchase value to your Facebook conversion event.
+[00:41:25] Hattie Boydle: Here's what's been tracked now.
+[00:41:27] Hattie Boydle: Email, name, product name, purchase ID event, purchase amount, currency, purchase timestamp, to Millie's new pixel.
+[00:41:35] Hattie Boydle: Now Facebook can actually track.
+[00:41:39] Hattie Boydle: So this will show as a purchase in Facebook meta-business.
+[00:41:49] Hattie Boydle: a It's What is the purchase?
+[00:41:54] Hattie Boydle: It's a purchase.
+[00:41:56] Hattie Boydle: This purchase.
+[00:41:58] Hattie Boydle: .
+[00:42:19] Hattie Boydle: So either there's a please set up the required fields message on your Facebook set.
+[00:42:24] Hattie Boydle: Let me test it to reveal what's needed.
+[00:42:41] Hattie Boydle: This is likely an issue with your Facebook conversion setup or pixel permissions.
+[00:42:46] Hattie Boydle: Here's what to check.
+[00:42:48] Hattie Boydle: Go to Facebook events manager, select a million new pixel from your account, click settings and verify.
+[00:42:55] Hattie Boydle: Zapier is an, and verify that Zapier is authorized as a partner.
+[00:43:00] Kyle Musca: And the pixel has the correct permission set.
+[00:43:03] Kyle Musca: Okay, so that would be, let's go here, settings.
+[00:43:21] Kyle Musca: Maybe ask it how, how do you.
+[00:43:26] Hattie Boydle: my screen?
+[00:43:27] Kyle Musca: Yeah, I can see your screen.
+[00:43:32] Kyle Musca: How, how do I see if the pixel is the correct permission set?
+[00:43:37] Kyle Musca: Because the, Zappi is an authorized partner, it's already connected.
+[00:43:51] Hattie Boydle: Zappi is already.
+[00:43:54] Hattie Boydle: So, let's see.
+[00:43:54] Hattie Boydle: Thank you.
+[00:44:08] Hattie Boydle: Facebook Events Manager, select Millie New Pixel, the left sidebar, click the gear icon.
+[00:44:16] Kyle Musca: So connected partner Zappi is there.
+[00:44:24] Kyle Musca: Check, scroll down to data use.
+[00:44:31] Kyle Musca: Attention.
+[00:45:10] Kyle Musca: Ensure Conversion API is enabled.
+[00:45:24] Kyle Musca: There's no toggle for conversion, what the ?
+[00:45:45] Kyle Musca: Oh, okay.
+[00:45:47] Kyle Musca: Okay, okay, okay, okay, okay.
+[00:45:49] Hattie Boydle: What is that?
+[00:45:51] Kyle Musca: Yes, yeah, check out, I'll take, oh, yeah.
+[00:45:58] Kyle Musca: Contact.
+[00:46:15] Kyle Musca: Yeah, down city, cool, continue, it's fine.
+[00:46:21] Hattie Boydle: Fixed, required builder now set at.
+[00:46:25] Kyle Musca: Manually implemented, yeah.
+[00:46:30] Hattie Boydle: Try testing it again now.
+[00:46:34] Kyle Musca: E-mail.
+[00:46:35] Hattie Boydle: Pixel.
+[00:46:39] Hattie Boydle: Melee.
+[00:46:40] Hattie Boydle: Continue.
+[00:46:42] Hattie Boydle: This is.
+[00:46:46] Hattie Boydle: Action.
+[00:46:47] Hattie Boydle: Business.
+[00:46:49] Hattie Boydle: So.
+[00:46:50] Hattie Boydle: 199.
+[00:46:53] Hattie Boydle: All right, we're to test.
+[00:46:55] Hattie Boydle: See if that goes through.
+[00:46:57] Kyle Musca: Okay.
+[00:47:04] Hattie Boydle: Who's that?
+[00:47:05] Hattie Boydle: Get, get  her up.
+[00:47:17] Hattie Boydle: I speak up behind your phone with my team.
+[00:47:22] Hattie Boydle: Oh, yeah.
+[00:47:24] Hattie Boydle: Does it look exciting?
+[00:47:25] Hattie Boydle: Huh?
+[00:47:26] Hattie Boydle: Does it look exciting?
+[00:47:31] Hattie Boydle: Small's not always bad.
+[00:47:35] Hattie Boydle: What?
+[00:47:36] Hattie Boydle: Oh.
+[00:47:37] Hattie Boydle: Yeah, in my windshield.
+[00:47:40] Kyle Musca: Oh, good.
+[00:47:41] Kyle Musca: All right.
+[00:47:42] Hattie Boydle: It's working?
+[00:47:43] Hattie Boydle: All right.
+[00:47:44] Kyle Musca: I can see purchase there, so let's see.
+[00:47:49] Kyle Musca: That was ...
+[00:47:52] Kyle Musca: Bridge.
+[00:47:54] Kyle Musca: Bridge.
+[00:47:56] Kyle Musca: Bridge.
+[00:47:57] Kyle Musca: Bridge.
+[00:47:58] Kyle Musca: Bridge.
+[00:47:59] Kyle Musca: Bridge.
+[00:48:02] Kyle Musca: I could share my screen again now.
+[00:48:11] Kyle Musca: Okay.
+[00:48:12] Kyle Musca: Website and app, I suppose, number of conversions, yes.
+[00:48:28] Kyle Musca: What age do you want to aim for?
+[00:48:33] Hattie Boydle: This is new age account?
+[00:48:35] Kyle Musca: Yep.
+[00:48:37] Hattie Boydle: Let's go 20 to 30.
+[00:48:42] Kyle Musca: Yeah.
+[00:48:43] Hattie Boydle: Or is it worth going for water?
+[00:48:47] Kyle Musca: Um, no, 20 to 35, I'd say just to give it a little bit of a buffer, but I wouldn't go much younger than 20.
+[00:48:56] Kyle Musca: You know what else?
+[00:48:59] Kyle Musca: Okay.
+[00:49:06] Kyle Musca: That doesn't really matter, to be fair, but I'll just help find a lot of people.
+[00:49:11] Kyle Musca: Um.
+[00:49:18] Hattie Boydle: Right.
+[00:49:33] Kyle Musca: So.
+[00:49:36] Kyle Musca: Mm-hmm.
+[00:49:38] Kyle Musca: Mm-hmm.
+[00:49:39] Kyle Musca: Mm-hmm.
+[00:49:41] Kyle Musca: Mm-hmm.
+[00:49:43] Kyle Musca: Mm-hmm.
+[00:49:53] Kyle Musca: Mm-hmm.
+[00:49:54] Kyle Musca: Mm-hmm.
+[00:50:05] Kyle Musca: So, to be fair, oh, okay.
+[00:50:15] Kyle Musca: So there's two things we could do here is, one, like if you're just going to send them straight to the Newey link, we could just bypass the ManyChat altogether.
+[00:50:28] Hattie Boydle: I wouldn't send them a DM, I'd just take them straight to the link.
+[00:50:32] Kyle Musca: Yeah.
+[00:50:34] Hattie Boydle: Do reckon that's worthwhile?
+[00:50:38] Hattie Boydle: Do you reckon...
+[00:50:39] Kyle Musca: Well, because right now...
+[00:50:41] Hattie Boydle: Do you reckon that message adds any value or...
+[00:50:54] Kyle Musca: I mean, if you...
+[00:50:55] Kyle Musca: Because you could...
+[00:50:56] Kyle Musca: Thank you.
+[00:51:03] Kyle Musca: Yeah, so it's like, hey, how going?
+[00:51:06] Hattie Boydle: Hello.
+[00:51:09] Kyle Musca: Yeah, so right now it kind of says the same thing.
+[00:51:12] Hattie Boydle: You're not walking, are you?
+[00:51:13] Hattie Boydle: I'm just around the box of old poo and then.
+[00:51:21] Kyle Musca: Yeah, so I mean, like.
+[00:51:26] Hattie Boydle: Because, I mean, once Siento gets the landing page done, which hopefully is in like the next day or two, then we can swap the link to that.
+[00:51:33] Hattie Boydle: But the thing is, landing page is then going to lead to the new e-link anyway.
+[00:51:37] Hattie Boydle: It's just the landing page is just going to, I guess, be a little bit more sales.
+[00:51:41] Kyle Musca: It will still record cost per purchase, so that won't matter as long as they ultimately get to that.
+[00:51:47] Kyle Musca: But I reckon, like, if you're going to just do this and there's no other qualifications, there's no point in running it through ManyChat because you're adding just a level of friction where they have to get to this and then click and then go there anyway.
+[00:51:58] Hattie Boydle: So it's like we might as well just remove.
+[00:52:00] Hattie Boydle: With this step as a whole.
+[00:52:01] Hattie Boydle: Okay.
+[00:52:05] Kyle Musca: Now, usually I would definitely say there'd need to be more stuff in there.
+[00:52:12] Kyle Musca: But, again, Millie's audience should be pretty hot.
+[00:52:15] Hattie Boydle: So.
+[00:52:17] Hattie Boydle: Is that URL with Grant?
+[00:52:22] Kyle Musca: Two seconds.
+[00:52:26] Kyle Musca: Okay.
+[00:52:31] Hattie Boydle: Thank you.
+[00:53:00] Hattie Boydle: Thank you.
+[00:53:47] Hattie Boydle: I guess on the graphics, just on the text, just add the entries close.
+[00:53:54] Kyle Musca: Yeah, we can.
+[00:54:00] Hattie Boydle: What are they?
+[00:54:03] Kyle Musca: These are just Instagram images.
+[00:54:07] Hattie Boydle: Oh, these are like posts she's done recently, so.
+[00:54:10] Kyle Musca: Yeah, it's awesome.
+[00:54:17] Kyle Musca: That's what I mean.
+[00:54:26] Kyle Musca: Yeah, so I think it might be.
+[00:54:29] Kyle Musca: Let's try a different one.
+[00:54:30] Hattie Boydle: But why is it square?
+[00:54:34] Kyle Musca: So I think that one was just a bit more vertical.
+[00:54:37] Kyle Musca: see about this one.
+[00:54:39] Kyle Musca: Yeah, so that fits just as well.
+[00:54:43] Kyle Musca: One of one, yeah, original.
+[00:54:48] Kyle Musca: Yeah.
+[00:54:49] Kyle Musca: So it's just going to depend.
+[00:54:53] Hattie Boydle: I think the four that I made should be fine.
+[00:54:56] Hattie Boydle: It's just that other one.
+[00:54:57] Hattie Boydle: They had a different copy I just pulled from Millie's.
+[00:55:00] Hattie Boydle: Recent story.
+[00:55:02] Kyle Musca: Yeah, so we'll just go with that.
+[00:55:05] Kyle Musca: Oh, .
+[00:55:09] Hattie Boydle: What?
+[00:55:09] Kyle Musca: DME reset.
+[00:55:11] Kyle Musca: Message me reset.
+[00:55:14] Hattie Boydle: Yeah.
+[00:55:16] Kyle Musca: So the CTA won't be there on the purchase one.
+[00:55:20] Kyle Musca: would just be like learn more.
+[00:55:27] Hattie Boydle: Oh, because they're going straight to the link.
+[00:55:30] Kyle Musca: Yeah.
+[00:55:32] Kyle Musca: that's...
+[00:55:32] Hattie Boydle: You want me to remake those with the something else over it right now?
+[00:55:37] Hattie Boydle: It didn't take long to just replace that one thing.
+[00:55:40] Hattie Boydle: What should I put there instead?
+[00:55:43] Kyle Musca: Let's have a quick look here.
+[00:55:45] Hattie Boydle: So what was that?
+[00:55:46] Hattie Boydle: I'm flying two girls.
+[00:55:47] Hattie Boydle: Sort of message me reset.
+[00:55:49] Hattie Boydle: What did I do?
+[00:55:49] Hattie Boydle: Click learn more or click.
+[00:55:55] Kyle Musca: Feed shot green bikini.
+[00:55:57] Kyle Musca: Yeah, that's what we wanted.
+[00:55:59] Kyle Musca: name doing, Teagland up What
+[00:56:17] Hattie Boydle: So instead of the messaging reset to get early access, we'll go, what is it?
+[00:56:23] Hattie Boydle: Click.
+[00:56:24] Kyle Musca: So it'll be, yeah, could be learn more.
+[00:56:30] Kyle Musca: I'd probably go learn more.
+[00:56:37] Hattie Boydle: Click learn more.
+[00:56:43] Kyle Musca: And we're training in nutrition.
+[00:56:54] Kyle Musca: Okay.
+[00:56:58] Kyle Musca: Alright.
+[00:56:59] Kyle Musca: 1
+[00:57:19] Kyle Musca: Interested.
+[00:57:33] Kyle Musca: Cool.
+[00:58:12] Hattie Boydle: So, this one that I send you now, does this look...
+[00:58:29] Kyle Musca: Wouldn't the interest close?
+[00:58:32] Hattie Boydle: We'll go for 20th.
+[00:58:37] Kyle Musca: Did you add that as well on the new one?
+[00:58:43] Hattie Boydle: On the actual graphic?
+[00:58:48] Hattie Boydle: Yeah, I could do that.
+[00:59:20] Kyle Musca: Yeah.
+[00:59:39] Kyle Musca: Let's just publish that, so it all publishes, make sure it works.
+[00:59:50] Kyle Musca: What the ?
+[00:59:54] Kyle Musca: Oh, Millie hasn't had a credit thing to a thing.
+[00:59:56] Hattie Boydle: .
+[00:59:57] Hattie Boydle: Credit, I mean, just put my...
+[01:00:01] Kyle Musca: Do you want to sign in and do that, or?
+[01:00:04] Hattie Boydle: Yeah.
+[01:00:05] Hattie Boydle: Oh.
+[01:00:07] Hattie Boydle: I trust you.
+[01:00:10] Kyle Musca: Code with more.
+[01:00:15] Hattie Boydle: Numbers, 3400.
+[01:00:20] Hattie Boydle: 914.
+[01:00:24] Hattie Boydle: 804.
+[01:00:27] Hattie Boydle: 6100.
+[01:00:32] Hattie Boydle: 0104.30.
+[01:00:35] Hattie Boydle: 4175.
+[01:00:47] Hattie Boydle: 714.30.
+[01:00:55] Hattie Boydle: 915.30.
+[01:00:58] Hattie Boydle: edges, 814
+[01:01:02] Hattie Boydle: So, yeah, I'm fine.
+[01:01:06] Hattie Boydle: Oh, yeah, yeah.
+[01:01:09] Kyle Musca: Oh, you  .
+[01:01:12] Kyle Musca: When using a website conversion to the Olympics.
+[01:01:46] Hattie Boydle: Oh, as if it's not in middle of .
+[01:01:52] Kyle Musca: Oh.
+[01:01:57] Kyle Musca: Add an app to the business.
+[01:02:05] Kyle Musca: Oh mate, you're f***ing annoying, eh?
+[01:02:10] Kyle Musca: Oh.
+[01:02:14] Kyle Musca: Cool.
+[01:02:17] Kyle Musca: Cost per result.
+[01:02:21] Kyle Musca: I should've auto-transferable.
+[01:02:29] Kyle Musca: What the f***?
+[01:02:32] Hattie Boydle: Oh wait, what happened?
+[01:02:35] Kyle Musca: Um, I just want to redo that.
+[01:02:51] Kyle Musca: What is it just f***ed up all my settings?
+[01:02:54] Kyle Musca: What's going on here?
+[01:02:57] Kyle Musca: Oh, I'm is I to.
+[01:02:59] Kyle Musca: course.
+[01:02:59] Kyle Musca: For
+[01:03:02] Kyle Musca: Thank you.
+[01:03:40] Kyle Musca: Thank you.
+[01:04:00] Hattie Boydle: 3400, 914, 804, 61001, 0430, 4175.
+[01:04:41] Kyle Musca: What the  is meta actually doing right now, brother?
+[01:04:55] Kyle Musca: Oh, it's just bugging.
+[01:04:59] Kyle Musca: It must be like.
+[01:05:00] Kyle Musca: They're changing stuff in the back end, because meta's been buggy as a  recently.
+[01:05:05] Hattie Boydle: What is it?
+[01:05:07] Kyle Musca: They must be changing stuff in the back end, because meta's been, like, buggy as recently.
+[01:05:13] Hattie Boydle: They should  refund you and  like that, tell me.
+[01:05:16] Kyle Musca: Yeah, for real.
+[01:05:20] Kyle Musca: View and creative setup.
+[01:05:30] Kyle Musca: Thank you.
+[01:06:01] Kyle Musca: I'm just going to see if this works before I  do all this stuff.
+[01:06:06] Kyle Musca: Next.
+[01:06:13] Kyle Musca: So, yeah, meta-sagentor.
+[01:06:19] Kyle Musca: Um, cool.
+[01:06:23] Hattie Boydle: I've got the updated versions of all those.
+[01:06:26] Kyle Musca: No, I'm just going to see if it works first.
+[01:06:30] Kyle Musca: Yeah, see, this is what I mean.
+[01:06:31] Kyle Musca: Like, it doesn't even give you a reason as to why it doesn't let you do it.
+[01:06:35] Kyle Musca: It just doesn't let you do it.
+[01:06:41] Kyle Musca: I think it...
+[01:06:45] Kyle Musca: Thank you.
+[01:06:49] Kyle Musca: Okay.
+[01:06:50] Kyle Musca: Thank you.
+[01:07:00] Kyle Musca: Thank you.
+[01:07:45] Kyle Musca: Oh, , man, it's so annoying, man.
+[01:08:00] Kyle Musca: Thank you.
+[01:08:37] Kyle Musca: Okay, what number do you want to use here?
+[01:08:41] Hattie Boydle: Oh, is this going to show up?
+[01:08:43] Kyle Musca: No.
+[01:08:47] Hattie Boydle: 431-602-505.
+[01:08:55] Hattie Boydle: no.
+[01:09:03] Hattie Boydle: Five, one, four, eight, seven, nine.
+[01:09:09] Hattie Boydle: Let me make a couple of these for Hattie.
+[01:09:17] Hattie Boydle: Oh, .
+[01:09:23] Kyle Musca: Dying number required, let's restart this.
+[01:09:29] Kyle Musca: Hopefully it doesn't delete everything.
+[01:09:33] Kyle Musca: Publish.
+[01:09:44] Kyle Musca: Mate, you  Phone number required.
+[01:09:49] Hattie Boydle: It's right there.
+[01:09:51] Kyle Musca: Yeah.
+[01:10:04] Kyle Musca: Like, this is the thing.
+[01:10:05] Kyle Musca: It's not even giving, like, proper issues recently.
+[01:10:09] Kyle Musca: Like, I literally can't get a lead campaign up because it's giving me an error that doesn't exist, which is pretty cool.
+[01:10:38] Hattie Boydle: And he sent me a bunch of photos to use, which is, like, in the dead center of all of them.
+[01:10:42] Hattie Boydle: I'm like, the  text.
+[01:11:16] Kyle Musca: Rough.
+[01:11:19] Kyle Musca: Oh, , all right, let's give credit a third time.
+[01:11:46] Kyle Musca: All right, there we go.
+[01:11:49] Kyle Musca: , that was harder than it needed to be.
+[01:11:52] Kyle Musca: All right, oh, cool, now we just need to swap out the actual image, but at least we know it's working.
+[01:12:05] Kyle Musca: Did you want to, yeah.
+[01:12:12] Kyle Musca: Yeah, perfect.
+[01:12:13] Kyle Musca: Do you want to, is this the one with the entries closed?
+[01:12:21] Hattie Boydle: Yeah, you just, if you click them, they're kind of in the bottom right corner kind of thing.
+[01:12:26] Kyle Musca: Oh, yeah, yeah, yeah.
+[01:12:31] Kyle Musca: Do you want to check, oh, actually, no, that's fine, I can do that.
+[01:12:36] Kyle Musca: Oh.
+[01:12:39] Kyle Musca: So, it's timeline, it's, it's.
+[01:15:15] Hattie Boydle: What's an Instagram post ratio again?
+[01:15:19] Kyle Musca: 4 by 5.
+[01:15:34] Kyle Musca: Bro, ads are going to be  so  with all this AI stuff.
+[01:15:39] Kyle Musca: Have you seen any of the AI ads yet?
+[01:15:41] Hattie Boydle: Wait, what is that?
+[01:15:42] Hattie Boydle: Is that an AI ad?
+[01:15:43] Kyle Musca: Yeah, it like generates AI images.
+[01:15:46] Kyle Musca: We should like  with millions.
+[01:15:49] Hattie Boydle: Wait, what?
+[01:15:51] Kyle Musca: Yeah, like pulls up these AI images.
+[01:15:54] Hattie Boydle: It's not going to run this, is it?
+[01:15:56] Kyle Musca: No, no, like if we clicked them and then it would run them, yeah.
+[01:16:00] Hattie Boydle: What the hell?
+[01:16:01] Kyle Musca: Yeah.
+[01:16:02] Kyle Musca: Have you seen, I've seen like full ads made from AI.
+[01:16:05] Hattie Boydle: Oh my god.
+[01:16:13] Kyle Musca: A, you prick.
+[01:16:22] Kyle Musca: Right, now, here's hoping that this doesn't , oh my god.
+[01:16:28] Kyle Musca: What now, brother?
+[01:16:47] Kyle Musca: How did, um, is Jaden building, uh, your landing page for you?
+[01:16:56] Hattie Boydle: Yeah, I had to give some feedback.
+[01:16:59] Hattie Boydle: feedback.
+[01:17:00] Hattie Boydle: The initial one that came out was just like, definitely it wasn't like converting it.
+[01:17:04] Hattie Boydle: Like, instead of when you land on the page and having like a hero shot with the challenge name and like what they win, it was like, pick your program, three-day, four-day, five-day with price underneath all of them.
+[01:17:18] Hattie Boydle: And I was like, we're not selling a program.
+[01:17:22] Hattie Boydle: I was like, can you redo that?
+[01:17:25] Kyle Musca: Has he had much experience doing?
+[01:17:28] Hattie Boydle: I don't, well, I didn't even know what his job was.
+[01:17:30] Hattie Boydle: So when I got referred to him by Bono, I just assumed that was his job.
+[01:17:35] Kyle Musca: Yeah, Jada pissed me off so much.
+[01:17:38] Hattie Boydle: Oh, did he?
+[01:17:39] Kyle Musca: Yeah, because when I was like leaving that house with Cody's, he was like, yeah, man, I'll move in there.
+[01:17:44] Kyle Musca: Tell everyone else, because I had like two other people serious about like moving in.
+[01:17:49] Kyle Musca: So yeah, tell them not to worry, I'll take it and everything.
+[01:17:51] Hattie Boydle: And then I was like, cool.
+[01:17:53] Hattie Boydle: Just needed it.
+[01:17:53] Hattie Boydle: Went to the last minute and then bailed?
+[01:17:56] Kyle Musca: Yeah, I was like, just saying like, oh man, like, you know, for me and also.
+[01:17:59] Kyle Musca: Yeah.
+[01:18:00] Kyle Musca: Cody and stuff just need you to fill out the, like, transfer papers.
+[01:18:02] Kyle Musca: Like, it's fine if you don't move in on the day.
+[01:18:04] Kyle Musca: I just need to make sure someone's secured for me when I leave.
+[01:18:08] Kyle Musca: And he just kept making excuse after excuse and everything.
+[01:18:10] Kyle Musca: And, like, one week out, he was like, oh, yeah, like, don't hold up on me or something like that.
+[01:18:16] Hattie Boydle: Like, good to find somebody else.
+[01:18:18] Hattie Boydle: Don't me hold you guys up.
+[01:18:21] Hattie Boydle: Oh, brilliant.
+[01:18:22] Kyle Musca: Yeah, I was like, mate, that's so  annoying.
+[01:18:33] Hattie Boydle: It's quite literally what we're doing.
+[01:18:51] Kyle Musca: So, we should be good after this.
+[01:18:58] Kyle Musca: We should be good after this.
+[01:19:02] Kyle Musca: Yep.
+[01:19:02] Kyle Musca: All right.
+[01:19:03] Kyle Musca: Cool.
+[01:19:05] Kyle Musca: We are good.
+[01:19:13] Kyle Musca: The process, that's up, and that's up.
+[01:19:15] Kyle Musca: So, yep, that should be good.
+[01:19:22] Hattie Boydle: All right.
+[01:19:28] Hattie Boydle: I'm a few of these, Patty.
+[01:19:36] Kyle Musca: And then, for Hatties, because that Zappie setup was linked to Millie's Cappy, so you just have to, like, duplicate that and then link it to one of Millie's.
+[01:19:46] Kyle Musca: Sorry, Hatties.
+[01:19:48] Hattie Boydle: What's that?
+[01:19:49] Hattie Boydle: Sorry, the...
+[01:19:50] Hattie Boydle: Well, I guess, like, the data will still be good for who's signing up, won't it, to the challenge, like, if we're targeting those people.
+[01:19:59] Hattie Boydle: All
+[01:20:00] Hattie Boydle: Oh, right.
+[01:20:02] Hattie Boydle: Because Hattie's pixel is different.
+[01:20:05] Kyle Musca: Yeah, so you just need to connect it to Hattie's pixel.
+[01:20:09] Hattie Boydle: Well, wouldn't Hattie's current pixel be targeting everybody that's engaged with her for coaching over the last...
+[01:20:16] Kyle Musca: It will use those identifiers to try and find people.
+[01:20:20] Kyle Musca: Yeah, but it won't actually pull...
+[01:20:24] Kyle Musca: There's the targeting side of things, but it won't pull the actual data, so we won't be able to see it if we don't connect it.
+[01:20:31] Kyle Musca: So...
+[01:20:31] Hattie Boydle: But what would be better data, starting fresh with, like, the purchases or more so having the 2,500 people that have inquired for coaching over the...
+[01:20:41] Hattie Boydle: It doesn't erase the other data, it just adds, or...?
+[01:20:44] Kyle Musca: Yeah, so it will, like, use that as, like, early interest sort of, I guess, yeah, data points to go off.
+[01:20:52] Kyle Musca: But then as payment, like, people purchase it, purchases start coming through, will, like, leverage that to try and find more.
+[01:21:00] Hattie Boydle: Okay.
+[01:21:01] Kyle Musca: So all you should need to do is just create a duplicate of that Zapier and then just basically say, like, I just need to connect a different copy to it.
+[01:21:21] Hattie Boydle: All right.
+[01:21:22] Hattie Boydle: So for now, that is sorted or?
+[01:21:29] Kyle Musca: Yeah, so Millie's one's up.
+[01:21:33] Kyle Musca: And then once Hattie's events stuff is done, then I can get hers up as well.
+[01:21:40] Hattie Boydle: Okay.
+[01:21:48] Hattie Boydle: I don't know if this.
+[01:21:57] Kyle Musca: I don't know if this
+[01:22:00] Kyle Musca: I don't want jinx it, but Hattie's should be better at targeting.
+[01:22:06] Kyle Musca: I want it targeting because it's got more data, but it shouldn't be as  annoying because it's actually, like it's already, it's a count, like so Millie's a new ad account, so it's like it will have sort of, I guess, safeguards to make sure it's not like scammy or anything.
+[01:22:22] Kyle Musca: That's why usually things are like difficult to set up and everything, but because Hattie's has already been like up and running, it shouldn't like be as  and annoying.
+[01:22:30] Kyle Musca: Hopefully.
+[01:22:41] Hattie Boydle: Let's see if Hattie's happy with these pretty graphics.
+[01:22:46] Hattie Boydle: I'll put them in there.
+[01:22:56] Hattie Boydle: Oh, okay.
+[01:22:58] Hattie Boydle: So, it's
+[01:23:00] Hattie Boydle: That's what I just did for Millie's thing, but I connected to what was the name of the pixel that we're currently using for Hattie's ad account, because there was quite a few options in there.
+[01:23:13] Kyle Musca: Yeah, that's what I'm trying to pull up right now.
+[01:23:15] Hattie Boydle: There was a, oh, I don't even want to  play around with the current Zapier one, but.
+[01:23:44] Kyle Musca: So, yeah, essentially.
+[01:23:48] Kyle Musca: What's page view?
+[01:23:52] Kyle Musca: Page view, yeah.
+[01:23:53] Kyle Musca: So, essentially, exactly what you did for Millie.
+[01:23:56] Kyle Musca: You should be able to duplicate it, and most of it is done for you already.
+[01:24:00] Kyle Musca: But then it probably is better to just create a new pixel from like how you did with millies.
+[01:24:08] Hattie Boydle: Okay, so just like create a whole new pixel for it.
+[01:24:11] Kyle Musca: Yeah, if you duplicate it again, most of it should already be set up.
+[01:24:14] Kyle Musca: would just be about connecting it to Hatties.
+[01:24:18] Hattie Boydle: Okay.
+[01:24:20] Hattie Boydle: Easy.
+[01:24:21] Kyle Musca: Cool, man.
+[01:24:22] Kyle Musca: All right, let me know how you go.
+[01:24:23] Kyle Musca: Once that's done, I can check and then I can get Hatties up as well.
+[01:24:27] Hattie Boydle: Perfect.
+[01:24:30] Hattie Boydle: All right.
+[01:24:31] Hattie Boydle: See you, bro.
+[01:24:32] Hattie Boydle: Talk to you soon.
+[01:24:33] Kyle Musca: Cheers, man.
+[01:24:33] Kyle Musca: Bye.

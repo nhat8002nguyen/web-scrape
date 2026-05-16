@@ -1,0 +1,794 @@
+Meeting: Impromptu Zoom Meeting
+Date: 2025-10-15T06:50:58Z
+Scheduled: 2025-10-15T05:59:50Z - 2025-10-15T06:14:50Z
+Recording: 2025-10-15T06:00:07Z - 2025-10-15T06:50:51Z
+Language: en
+URL: https://fathom.video/calls/442394575
+Share Link: https://fathom.video/share/AUK8VUQ-9iSbT66tqL-KaCmreQus1y5s
+Recording ID: 94206122
+
+Participants: Kyle Musca (kyle@empcoaching.com.au)
+Recorded by: Kyle Musca (kyle@empcoaching.com.au)
+--- TRANSCRIPT ---
+
+[00:00:00] jese Smith-shields: We'll set up, but everything within the general article is all set, and I've spent a bit of time in the system learning it, and that's so much more easier.
+[00:00:10] Kyle Musca: Yeah, yeah.
+[00:00:11] Kyle Musca: So it's just a pure strapping head around it, like you used to it.
+[00:00:17] Kyle Musca: So the number's all sorted.
+[00:00:19] Kyle Musca: She's messaging through.
+[00:00:21] jese Smith-shields: Yeah, it's all sorted.
+[00:00:22] jese Smith-shields: She's got, it's all the flows all sorted.
+[00:00:24] Kyle Musca: Everything's all sorted.
+[00:00:26] Kyle Musca: Okay, perfect.
+[00:00:27] Kyle Musca: Well, means as long as you're confident with it, can pretty much just cancel calendly.
+[00:00:32] Kyle Musca: Yeah.
+[00:00:32] Kyle Musca: If you like.
+[00:00:34] Kyle Musca: We'll start with the basics and stuff.
+[00:00:36] Kyle Musca: How many calls have been booked over the last week or so?
+[00:00:40] jese Smith-shields: I'll grab up that dashboard.
+[00:00:42] jese Smith-shields: She said she edited it for us.
+[00:00:48] Kyle Musca: Oh, yeah, yeah.
+[00:00:49] Kyle Musca: I'll let show your screen here.
+[00:00:51] jese Smith-shields: Yeah.
+[00:00:53] jese Smith-shields: Where did you go?
+[00:00:57] jese Smith-shields: I'll let show screen here.
+[00:00:59] jese Smith-shields: I'll screen
+[00:01:00] jese Smith-shields: Is that sharing across?
+[00:01:04] jese Smith-shields: There you go.
+[00:01:10] Kyle Musca: Beautiful.
+[00:01:15] jese Smith-shields: Yes, I still don't understand these whole metrics, but she said that she jumped in and did the editing for it.
+[00:01:24] Kyle Musca: So, one, with this, you clicked this little.
+[00:01:29] Kyle Musca: She needs to obviously redo the, oh, maybe scroll it right.
+[00:01:33] Kyle Musca: Maybe that's why I'm not sitting down.
+[00:01:35] Kyle Musca: Oh, yeah, so she's done it, yeah.
+[00:01:38] Kyle Musca: So you click these little plus things at the top and it'll expand a month or minus and it'll close the month.
+[00:01:47] Kyle Musca: So I can already say that 317% booking to lead is not correct at all.
+[00:01:59] Kyle Musca: Or%, click the I So
+[00:02:02] Kyle Musca: Cost per conversion.
+[00:02:06] Kyle Musca: So you spent...
+[00:02:10] Kyle Musca: Let me have a look here real quick.
+[00:02:12] Kyle Musca: me pull it up.
+[00:02:19] Kyle Musca: Did she get on the phone with my VA?
+[00:02:23] jese Smith-shields: No, your VA did a video explaining it and how to use it, and then I sent that across to her.
+[00:02:31] jese Smith-shields: I was trying to read these numbers last night, and yeah, I was a little bit confused about what those numbers actually...
+[00:02:39] Kyle Musca: So from the 2nd to the 10th, let's have a look at that.
+[00:02:44] Kyle Musca: Is it the 2nd to the 10th, the 2nd to the 9th?
+[00:02:47] jese Smith-shields: The 2nd to the 10th, yeah.
+[00:02:50] Kyle Musca: 10th, okay.
+[00:03:25] Kyle Musca: So that's a little bit off, but not that far, total leads in Ads Manager.
+[00:03:31] Kyle Musca: Your leads weren't pulling through, so she should go off cost per message, which is good, which is what she seems to have done.
+[00:03:39] Kyle Musca: Maybe she's done the third to the ninth.
+[00:03:47] Kyle Musca: 93.
+[00:03:48] Kyle Musca: Yeah, so it seems like she's done that.
+[00:03:50] Kyle Musca: So that's right.
+[00:03:52] Kyle Musca: Cost per conversion.
+[00:03:56] Kyle Musca: What's that?
+[00:03:57] Kyle Musca: Total leads in many chat ads.
+[00:04:01] Kyle Musca: So that's not going to be correct there because the leads weren't pulling through properly.
+[00:04:06] Kyle Musca: So grab the 94 and chuck it into the 16.
+[00:04:11] Kyle Musca: We'll just go off cost per result.
+[00:04:19] Kyle Musca: And then click editor.
+[00:04:22] Kyle Musca: Yeah.
+[00:04:23] Kyle Musca: Okay.
+[00:04:24] Kyle Musca: So the total ad bookings is 14.
+[00:04:27] Kyle Musca: Is that accurate across yours and Marina's?
+[00:04:34] jese Smith-shields: Yeah, it would be close.
+[00:04:35] Kyle Musca: I'd have to double check.
+[00:04:37] Kyle Musca: Okay.
+[00:04:37] Kyle Musca: So just making sure she has access to both sheets between Tommy's, yours, and Marina's.
+[00:04:43] Kyle Musca: Moving forward, probably only be yours and Marina's.
+[00:04:45] Kyle Musca: But if she draws only information off Marina's and you've taken like, you know, five to 10 calls, obviously that will skew it a fair bit.
+[00:04:52] Kyle Musca: Yeah.
+[00:04:55] Kyle Musca: Booking percentages are good.
+[00:04:57] Kyle Musca: So the cost per lead thing was  up again.
+[00:04:59] Kyle Musca: So I just.
+[00:05:01] Kyle Musca: For some reason, what was happening in your many chat is like all the flow was working fine until it got to the age question.
+[00:05:08] Kyle Musca: And then like people were obviously clicking on it because, you know, it would go through the next question, but like the percentages weren't showing up.
+[00:05:14] Kyle Musca: It said like 0%.
+[00:05:18] Kyle Musca: And then I think I fixed it, but because it had so much data from the previous, you know, weeks, it was saying that like 2% of people clicked it.
+[00:05:26] Kyle Musca: So what I did this morning is I just duplicated the whole flow just to like refresh all that data.
+[00:05:31] Kyle Musca: Hopefully that starts pulling through accurate stuff.
+[00:05:37] Kyle Musca: Cost per booking, 50 bucks.
+[00:05:39] Kyle Musca: So it's not too bad.
+[00:05:42] Kyle Musca: Total calls taken.
+[00:05:44] Kyle Musca: So pretty much from total ad bookings, she should be able to see that and go high level, actually.
+[00:05:55] Kyle Musca: Total calls taken.
+[00:05:57] Kyle Musca: So this comes down to the closer sheet.
+[00:05:59] Kyle Musca: So both yours.
+[00:06:00] jese Smith-shields: Marina's.
+[00:06:00] jese Smith-shields: Does she have access to that?
+[00:06:02] jese Smith-shields: Yeah.
+[00:06:03] jese Smith-shields: Yeah.
+[00:06:03] jese Smith-shields: I just created all that then.
+[00:06:06] Kyle Musca: Okay.
+[00:06:06] Kyle Musca: So she hasn't seemed to have that data filled out.
+[00:06:09] Kyle Musca: in future weeks, we should see that finish off.
+[00:06:14] Kyle Musca: Because then the biggest ones like we want to know, obviously, once we have all this is just cost per acquisition.
+[00:06:20] Kyle Musca: Because then we can say like, hey, like it takes you $300, $400, $500, whatever to acquire a client.
+[00:06:28] Kyle Musca: And then we compare that with your client's lifetime.
+[00:06:30] Kyle Musca: Lifetime value, know, on average, you're getting $2,500 per client, which basically means that, you know, we can then go and strong arm other people out of competition because someone who only has a $1,200 LTV, they cannot afford to keep up with $500 in terms of acquiring a client.
+[00:06:47] jese Smith-shields: That's why lifetime value is so important to understand and with cost per acquisition.
+[00:06:52] Kyle Musca: Awesome means that we can see like, hey, it's costing us $300 to go get a client.
+[00:06:56] Kyle Musca: Let's just, you know, go put that into, you know, give away.
+[00:07:00] Kyle Musca: Let's put it into referrals.
+[00:07:01] Kyle Musca: Let's put it into whatever else and other avenues to actually acquire a client because we were going to spend that anyway.
+[00:07:07] jese Smith-shields: Yeah, no, that makes sense.
+[00:07:09] jese Smith-shields: That makes sense.
+[00:07:10] Kyle Musca: So it'll take a little bit more time to map this out.
+[00:07:14] Kyle Musca: The leads, as long as the thing's sorted, that should be fine.
+[00:07:18] Kyle Musca: But just keep an eye on that because, you know, if this is sitting at like, you know, obviously 317% or 80% super high, it's probably not accurate.
+[00:07:28] Kyle Musca: But a really good cost, but like lead to booking is about 20%.
+[00:07:32] Kyle Musca: Industry average is about 10%.
+[00:07:34] jese Smith-shields: Okay.
+[00:07:36] Kyle Musca: Nice.
+[00:07:38] Kyle Musca: Cool.
+[00:07:39] Kyle Musca: So yeah, she should just keep going through that.
+[00:07:42] Kyle Musca: But super important, just obviously make sure Marina's filling out her closing sheet and then make sure you're filling out your closing sheet if you're taking calls as well.
+[00:07:49] jese Smith-shields: Yep.
+[00:07:49] jese Smith-shields: No, no, can do that.
+[00:07:50] Kyle Musca: That's easy.
+[00:07:52] Kyle Musca: Sick, man.
+[00:07:53] Kyle Musca: If you go over to, okay, cool.
+[00:07:57] Kyle Musca: How many closes do you get this week?
+[00:07:58] jese Smith-shields: Okay.
+[00:07:59] jese Smith-shields: All
+[00:08:00] jese Smith-shields: This week, these are probably numbers I should probably start tracking for you.
+[00:08:06] jese Smith-shields: We had, I took four closers.
+[00:08:11] jese Smith-shields: I took, and I got all four.
+[00:08:16] jese Smith-shields: Actually, we've had eight clients sign on this week.
+[00:08:21] Kyle Musca: Okay, so that's still over a 50% closing rate, which is good if you've got 14 calls total.
+[00:08:28] Kyle Musca: So the leads seem to be nice and decently quality.
+[00:08:32] Kyle Musca: One thing as well, which is so rude here, I would change the 87 in the first week or the second.
+[00:08:40] Kyle Musca: Change that to the six as well.
+[00:08:42] Kyle Musca: Otherwise, the monthly data will be skewed heavily.
+[00:08:46] Kyle Musca: Yeah, there we go.
+[00:08:47] Kyle Musca: Cool.
+[00:08:48] Kyle Musca: Saving that was 22%.
+[00:08:50] Kyle Musca: Beautiful.
+[00:08:52] Kyle Musca: And then who closed the other two?
+[00:08:54] jese Smith-shields: Was it Tommy or Marina?
+[00:08:57] jese Smith-shields: No, I don't think.
+[00:09:00] jese Smith-shields: I think the ones have timed out from Tommy, and then, so actually, yeah, no, these are all me, actually.
+[00:09:11] jese Smith-shields: All Ed and me.
+[00:09:13] Kyle Musca: Okay.
+[00:09:14] Kyle Musca: Has Marina taken any calls yet?
+[00:09:16] jese Smith-shields: No, she took one yesterday.
+[00:09:18] jese Smith-shields: We had a bit of a mix-up, obviously, within the go-high level yesterday, so she could only fit in one from yesterday, and then I took the rest, and then I closed.
+[00:09:28] jese Smith-shields: I closed all three yesterday.
+[00:09:31] Kyle Musca: Okay.
+[00:09:32] Kyle Musca: Okay, nice.
+[00:09:33] Kyle Musca: All right.
+[00:09:34] Kyle Musca: How are you feeling?
+[00:09:34] jese Smith-shields: How are you feeling on sales calls and everything?
+[00:09:37] jese Smith-shields: Yeah, much better, actually.
+[00:09:38] jese Smith-shields: Much better.
+[00:09:39] jese Smith-shields: I've kind of, I don't like following scripts, so I've kind of came up with my own sort of questions, and they seem to be working quite well at the moment, actually.
+[00:09:49] Kyle Musca: Yeah.
+[00:09:50] Kyle Musca: I mean, 100% close rank.
+[00:09:51] Kyle Musca: I can't really complain about that.
+[00:09:54] Kyle Musca: Cool.
+[00:09:55] Kyle Musca: What we might even do, just to get Marina, you know, settled in and trying to get, you know, at least converting as high as possible.
+[00:10:00] Kyle Musca: Cool.
+[00:10:01] Kyle Musca: I'll even get her on a sales training call with my sales trainer.
+[00:10:08] Kyle Musca: And he'll run it through the script.
+[00:10:09] Kyle Musca: He's really, really good at it.
+[00:10:12] Kyle Musca: And we may even look at getting that as a weekly training one-to-one with her until she finds her feet properly with it.
+[00:10:20] Kyle Musca: So what I'll do is I'll message her now, actually.
+[00:10:24] jese Smith-shields: No, she seems really good, actually.
+[00:10:26] Kyle Musca: She does?
+[00:10:27] jese Smith-shields: Okay.
+[00:10:28] jese Smith-shields: Yeah, yeah.
+[00:10:28] jese Smith-shields: No, she seems good.
+[00:10:30] jese Smith-shields: Communication's good.
+[00:10:31] jese Smith-shields: She's easy to along with.
+[00:10:32] jese Smith-shields: She's keen to learn.
+[00:10:35] Kyle Musca: Yeah, can get me.
+[00:10:40] jese Smith-shields: I'll fix up Tommy, too.
+[00:10:41] Kyle Musca: I haven't had the chance to reply to him just yet.
+[00:10:44] Kyle Musca: All right.
+[00:10:45] Kyle Musca: Yeah, sweet.
+[00:10:46] Kyle Musca: Just a count.
+[00:10:50] Kyle Musca: Thanks.
+[00:10:56] Kyle Musca: Thank you.
+[00:11:23] Kyle Musca: Cool, so I'll show that message, we'll get them locked in on a call together.
+[00:11:31] Kyle Musca: Is any hiccups you're kind of experiencing on your own that you want to cover at all in this call?
+[00:11:36] jese Smith-shields: Nah, I think we covered most of them over the last week.
+[00:11:39] jese Smith-shields: was obviously just a little bit stressful going into the whole go high level and then not having the flows.
+[00:11:44] jese Smith-shields: And then there was obviously a few missed calls that got cancelled and whatnot just within that transition.
+[00:11:53] jese Smith-shields: But I'm curious, yeah, I'm pretty keen to see what like this sort of week will look like.
+[00:11:57] jese Smith-shields: I do find that a lot of my book calls...
+[00:12:00] jese Smith-shields: Calls come from about, well, Thursday's a pretty good day.
+[00:12:04] jese Smith-shields: Thursday, Friday are a pretty good day, and then Sunday I'll pretty much book out the rest of the week within calls.
+[00:12:11] jese Smith-shields: So I'll be interested to see how that goes into, obviously, Maria's calendar and see what goes through converting on that.
+[00:12:19] Kyle Musca: Yeah, beautiful, beautiful.
+[00:12:23] Kyle Musca: And then the other thing we really need to know is show-up rate as well, which obviously will come from just tracking calls.
+[00:12:31] Kyle Musca: Because, like, if you have a 40% show-up rate and you can give that to a 60%, you spend no extra money, but you can effectively, like, double the amount you actually earn.
+[00:12:41] Kyle Musca: So that's, like, a key number as well to look at.
+[00:12:45] Kyle Musca: Yep.
+[00:12:48] Kyle Musca: Beautiful.
+[00:12:48] Kyle Musca: And then how are you noticing with the age stuff as well?
+[00:12:55] jese Smith-shields: Like, is that?
+[00:12:56] jese Smith-shields: It's still quite low at the moment.
+[00:12:58] jese Smith-shields: Like, we've had probably five.
+[00:13:00] jese Smith-shields: Tick over today through the ads, and then they've all gone through under $21, and then Clips knows they can't afford it.
+[00:13:10] Kyle Musca: Okay.
+[00:13:10] Kyle Musca: I mean, at least we're kind of, like, weaseling out the conversation there, but I just added the, like, can you afford $80 a week just to, again, get the  out of here.
+[00:13:20] Kyle Musca: It's strange because what's your, yeah, most of your clients are usually within their 20s, aren't they?
+[00:13:29] jese Smith-shields: Yeah, so our age bracket is, like, I'd say 20 to about 28, maybe, so they are quite young.
+[00:13:40] Kyle Musca: Yeah, so the issue, like, because usually what I would do in that case, it's set at 22, what I'd do is raise it just to 25, but the issue is, like, you don't want to, you know, obviously, then we've only got, like, really a three-year gap between that and 28, where your core audience is sitting.
+[00:13:58] Kyle Musca: Now,
+[00:14:02] Kyle Musca: With the Cappy, that should pick up over time, and that should get better with time, as long as it's actually  working properly.
+[00:14:11] Kyle Musca: But even so, obviously, yeah, so two have already clicked.
+[00:14:15] Kyle Musca: At least the percentages are coming up now, but yeah, I can see today that since I made that change, already two have clicked under 21, which is not  ideal, but it is what it is.
+[00:14:29] Kyle Musca: So, and that's why, like, data's so important, because I don't want to make any  changes until, like, if that number was just absolutely horrendous.
+[00:14:36] jese Smith-shields: Yeah, no, that makes sense.
+[00:14:38] jese Smith-shields: That makes sense.
+[00:14:40] Kyle Musca: So, the other thing we can do there is we can start a new...
+[00:14:48] Kyle Musca: Oh, I'll share my screen so you can actually see what I'm talking about.
+[00:14:50] jese Smith-shields: Yep.
+[00:14:56] Kyle Musca: Can you see that?
+[00:14:58] jese Smith-shields: Yep.
+[00:14:59] Kyle Musca: Beautiful.
+[00:15:02] Kyle Musca: So, no, I don't really pay attention to the cost per lead, that's very skewed, but it's actually, what I've done is, as you can see, duplicated, because in this one, like you got, you know, 400 people, 470 people have sent this, and you're looking at like 3% clicking between the two, so that's just not, that's not  right at all.
+[00:15:27] Kyle Musca: And the issue is happening there, is the cap is attached to this once, it's like, if data wasn't coming through that, then I doubt that would have been firing.
+[00:15:34] jese Smith-shields: Yeah, okay, don't know, that makes sense.
+[00:15:37] Kyle Musca: So, I just duplicated it, and you can see, already 100% of people have clicked, so at least we can actually see that data is going through there.
+[00:15:46] Kyle Musca: Yeah, so, again, we'll just give it some time there.
+[00:15:51] Kyle Musca: in terms of cost per result and everything like that, the graphic ads are doing really, really well still.
+[00:15:59] Kyle Musca: So,
+[00:16:00] Kyle Musca: I can keep scaling these if you want.
+[00:16:02] Kyle Musca: $6 is really, really good in terms of cost per conversation.
+[00:16:08] Kyle Musca: I'm already spending a decent amount there.
+[00:16:11] Kyle Musca: Even $12.
+[00:16:11] Kyle Musca: Anything under like $15 is considered good.
+[00:16:14] Kyle Musca: Anything under $21 is considered decent enough to turn on if we're going off cost per results, numbers, which I don't really like to do.
+[00:16:24] Kyle Musca: But, yeah, and then I've just gotten those video ads up and around and everything like that.
+[00:16:28] Kyle Musca: So we'll see how they sort of come through there as well.
+[00:16:32] Kyle Musca: Yeah.
+[00:16:33] Kyle Musca: So we'll see how they come.
+[00:16:35] Kyle Musca: And then I'll just keep filtering these as time goes.
+[00:16:38] Kyle Musca: If you are noticing a lot of young, you know, unqualified girls and everything like that, what we can do is, so I've kept this really nice and broad.
+[00:16:46] Kyle Musca: So there's like the only targeting we're doing is just any woman in Australia that's age 22 to 35.
+[00:16:53] Kyle Musca: Yeah, we're giving the algorithm free reign to just like go put the ad in front of them if you feel like you can convert them into a lead, essentially.
+[00:17:00] Kyle Musca: Great.
+[00:17:00] Kyle Musca: All
+[00:17:02] Kyle Musca: What we can do is create a new campaign, and you've just got to weigh up ad spend, which, I think the last seven days.
+[00:17:12] Kyle Musca: So you've just got to weigh up ad spend.
+[00:17:14] Kyle Musca: So realistically, you've only spent $890, which is not bad at all, especially if you've gotten six closers from it.
+[00:17:21] Kyle Musca: What was your cash collected on those?
+[00:17:25] jese Smith-shields: It was an extra, we did just under $18K last week.
+[00:17:29] jese Smith-shields: So it's an extra, like, $4.5K.
+[00:17:32] Kyle Musca: Yeah, okay.
+[00:17:33] Kyle Musca: So, mean, like, if we're looking at that, that's at least a five, six return on investment in terms of cash collected.
+[00:17:39] Kyle Musca: And then if we're talking about contract value, it's probably looking like, I don't know, eight to ten, roughly.
+[00:17:44] Kyle Musca: So it's pretty good.
+[00:17:48] Kyle Musca: And then, so what we can do there is, like, one, those are already really, really good numbers.
+[00:17:53] Kyle Musca: Obviously, just the data tracking will clear that up heaps for us.
+[00:17:56] Kyle Musca: So we can just create a new campaign where it is, you know, women.
+[00:18:00] Kyle Musca: Again, 22 to 35 that have, like, job titles, essentially.
+[00:18:06] Kyle Musca: There you go.
+[00:18:08] Kyle Musca: And that's where we start playing around with the different, like, interest targeting.
+[00:18:12] Kyle Musca: I like job titles because, like, one, they just have to be a job.
+[00:18:15] Kyle Musca: The only issue there is, like, they have to kind of, like, state their nurse or something in their bio or something like that.
+[00:18:23] Kyle Musca: We can do interest targeting and everything like that.
+[00:18:26] Kyle Musca: So, and then that will come down to, you know, like, for example, we could look at women that are interested in travel or fashion or something like that.
+[00:18:36] Kyle Musca: You know what I mean?
+[00:18:39] Kyle Musca: The other thing as well, I mean, it might, probably won't really matter for you as much, but I would say for someone like Kiana, is when you see an ad on Instagram, you can actually press the, like, little three dot things and say, like, why am I seeing this?
+[00:18:53] Kyle Musca: And it will actually show you what the interest targeting is that they've set for it.
+[00:18:59] jese Smith-shields: Okay, I hope you made that.
+[00:19:00] Kyle Musca: Yeah, so I won't tell you exactly in terms of like, you know, I can travel blogs and X, Y, Z, but it will say like, it's because you've interacted with travel content.
+[00:19:10] jese Smith-shields: Okay, I didn't know you could do that.
+[00:19:13] Kyle Musca: Yeah, so it's good like if you constantly see an ad of someone who is really good at, you know, doing ads, you can kind of check.
+[00:19:19] jese Smith-shields: It's like, well, I think I see your ad nearly every time I open my phone.
+[00:19:28] Kyle Musca: Yeah, beautiful.
+[00:19:30] Kyle Musca: And then, yeah, because one of mine, for example, would be, I'd say, well, I've got.
+[00:19:36] jese Smith-shields: Yeah, I see your trading one all the time.
+[00:19:38] Kyle Musca: Yeah, okay.
+[00:19:40] Kyle Musca: So, to be fair, you probably shouldn't see that one.
+[00:19:45] Kyle Musca: Oh, it wasn't trading back in the day, so I'm assuming that's probably one.
+[00:19:48] Kyle Musca: Oh, yeah.
+[00:19:48] Kyle Musca: Yeah, yeah.
+[00:19:49] Kyle Musca: No, that would definitely make sense because.
+[00:19:51] Kyle Musca: So, yeah, potentially almost, I would have thought it would potentially be a business-owned one as well.
+[00:19:59] Kyle Musca: yeah.
+[00:20:00] Kyle Musca: Yeah.
+[00:20:00] Kyle Musca: But, like, essentially what that looks like is it comes down to wherever the .
+[00:20:05] Kyle Musca: So it's like anyone who's, like, a chief financial officer, Co-Co, an executive director, founder, manager, managing director, owner, CEO, et cetera, et cetera, et cetera.
+[00:20:13] Kyle Musca: Then we're a target.
+[00:20:17] Kyle Musca: And it's just about finding, I like to keep them, like, kind of as broad as possible.
+[00:20:20] Kyle Musca: Like, a lot of the stuff you'll see is, like, trying to niche down really hard.
+[00:20:24] Kyle Musca: I don't really like doing that because it's, like, I'd rather have, like, a big  broad pool of just people that do have jobs.
+[00:20:30] Kyle Musca: And it's, like, whoever's going to respond best, just  go find it.
+[00:20:33] Kyle Musca: So it's, like, having the niche targeting, but it's saying, like, giving the algorithm the free reign to say, like, go figure out who this is going to perform best with.
+[00:20:43] jese Smith-shields: Yeah, no, that makes sense.
+[00:20:45] jese Smith-shields: That makes sense.
+[00:20:46] jese Smith-shields: Yeah, every time I've had someone else try and do the ads, they've kind of gone into that sort of real niche sort of pick your avatar sort of thing, and it never really worked.
+[00:20:57] Kyle Musca: Yeah, it's just because it's just, it's too small, like.
+[00:21:00] Kyle Musca: Yeah.
+[00:21:00] Kyle Musca: You know, and I mean, there is, you know, if you have a really niche product, then yeah, but it's like health and fitness, anyone can really do.
+[00:21:08] Kyle Musca: So it's just like, let's just open it right up and  let it makes sense.
+[00:21:14] Kyle Musca: Well, now, yeah, other than that, it's pretty well sorted on that side of things.
+[00:21:21] Kyle Musca: Then the other thing I would say is, like, as I said the other day, when Keanu's doing that sort of educational sort of value-driven content, I would just like add like add CTA to the end of it.
+[00:21:35] Kyle Musca: So what I used to do, for example, is like anytime I'd basically film any video when I was doing all the educational , I would always just have a version where the organic version, I don't have a CTA.
+[00:21:45] Kyle Musca: You know, it's just like follow or whatever or nothing, because you don't want to come across two sales or anything like that.
+[00:21:53] Kyle Musca: To be fair, do you run them off ShieldsFit or do you actually collaborate with her on her account?
+[00:21:58] jese Smith-shields: We run them through ShieldsFit and then she kind of...
+[00:22:00] jese Smith-shields: It takes her, proves what she actually likes and goes through her page.
+[00:22:04] Kyle Musca: She doesn't like some of them.
+[00:22:06] Kyle Musca: Yeah, okay.
+[00:22:07] Kyle Musca: Yeah, cool.
+[00:22:07] Kyle Musca: So, I mean, because ShieldsFit is, you know, a dedicated coaching page, you could even just have one and all of them have a CTA of, like, DME, you know, if you need a hand with this, DME.
+[00:22:17] jese Smith-shields: Most of them do.
+[00:22:18] jese Smith-shields: I'd say about 80% of them do, and then some of them don't, because this is video with JT.
+[00:22:26] Kyle Musca: Oh, sorry.
+[00:22:27] jese Smith-shields: Cut out there.
+[00:22:29] jese Smith-shields: Yeah, I think, I think about, yeah, that?
+[00:22:33] Kyle Musca: Yeah, I think we're good now.
+[00:22:36] jese Smith-shields: Yeah, okay, gotcha.
+[00:22:38] jese Smith-shields: Yeah, most of them do have CTAs.
+[00:22:40] jese Smith-shields: I think about 80% of those videos do.
+[00:22:43] jese Smith-shields: And then I think he was still just trial and error and seeing what works within our sort of page and what doesn't, in a sense.
+[00:22:50] Kyle Musca: Yeah, okay.
+[00:22:52] Kyle Musca: Okay.
+[00:22:52] Kyle Musca: Yeah.
+[00:22:56] Kyle Musca: Okay.
+[00:22:57] Kyle Musca: And then, I mean, do you have those?
+[00:22:59] Kyle Musca: You'd obviously have them in a folder.
+[00:23:01] jese Smith-shields: Yeah, I have a lot of them, yeah.
+[00:23:03] Kyle Musca: Yeah, okay.
+[00:23:04] Kyle Musca: Because you can even just send them through to me and we can just run them as ads as well.
+[00:23:10] Kyle Musca: Yeah.
+[00:23:12] Kyle Musca: Yeah, one thing I like doing is just like kind of running educational style content as an ad because the best ads don't look like ads and that's why the graphic ads look so, you know, work so well is because they don't really look like an ad.
+[00:23:27] Kyle Musca: They just look like a normal story post that is a CTA.
+[00:23:31] Kyle Musca: Yeah.
+[00:23:35] Kyle Musca: So, let me just open this real quick.
+[00:23:38] Kyle Musca: If you could even get a folder of those, are they already just in a folder?
+[00:23:43] jese Smith-shields: Yeah, yeah.
+[00:23:43] jese Smith-shields: They're pretty much in a shared folder and then I'll just show them across.
+[00:23:47] Kyle Musca: Yeah.
+[00:23:47] Kyle Musca: Because then we have heaps of content just to play around with and we can just plug and play it and see what works.
+[00:23:52] jese Smith-shields: Yeah, not works.
+[00:23:54] Kyle Musca: Beautiful.
+[00:23:56] Kyle Musca: Okay.
+[00:23:57] Kyle Musca: I guess, yeah, biggest wins this week I would say.
+[00:24:00] Kyle Musca: It's just probably sorting out the go-high level setup and everything like that.
+[00:24:03] Kyle Musca: Is there anything else you need to do with that, or is that 100% finished?
+[00:24:07] jese Smith-shields: I'm pretty sure unless something happens, it's pretty set up.
+[00:24:12] jese Smith-shields: I'm hoping it's pretty set up.
+[00:24:15] jese Smith-shields: Okay.
+[00:24:17] Kyle Musca: One thing I would do is just, especially for the book call, so I'll share my screen again, is just make sure that the automation is firing properly.
+[00:24:26] Kyle Musca: It should do.
+[00:24:27] Kyle Musca: I want to double check.
+[00:24:29] Kyle Musca: Like, so it's going be calendars, and then, like, obviously when you've got a call kind of booked in, just come in and say, like, hey.
+[00:24:43] Kyle Musca: And then just make sure that, you know, it's going out properly.
+[00:24:48] Kyle Musca: Yeah.
+[00:24:49] Kyle Musca: Did she set up the full yes thing?
+[00:24:52] jese Smith-shields: Yes.
+[00:24:53] jese Smith-shields: Yes.
+[00:24:54] jese Smith-shields: I'm pretty sure.
+[00:24:55] jese Smith-shields: I told her to do pretty much exactly what you've done for her.
+[00:24:57] jese Smith-shields: Oh, for you.
+[00:24:59] Kyle Musca: Yeah.
+[00:25:00] jese Smith-shields: Okay, cool.
+[00:25:00] jese Smith-shields: Thank you.
+[00:25:00] jese Smith-shields: I'll double-check that.
+[00:25:02] jese Smith-shields: But yeah, I'm pretty sure I had a little brief look in.
+[00:25:04] Kyle Musca: We had messages like that being sent out, but I would have to double-check.
+[00:25:08] Kyle Musca: Yeah, cool.
+[00:25:09] Kyle Musca: So just two things.
+[00:25:10] Kyle Musca: Sometimes I've noticed, one, it can double-send.
+[00:25:13] Kyle Musca: I've fixed it now.
+[00:25:14] Kyle Musca: But at the start, it was double-sending messages.
+[00:25:18] Kyle Musca: And then the other one is, like, I had an issue where they were saying yes, but then it wouldn't, like, register that.
+[00:25:25] Kyle Musca: And then it would say, like, never good confirmation on the last message.
+[00:25:28] Kyle Musca: And then it would keep, like, going on as if they didn't reply.
+[00:25:31] jese Smith-shields: Yeah, okay.
+[00:25:35] jese Smith-shields: Yeah, I'll have a meeting time.
+[00:25:37] Kyle Musca: Yeah, cool.
+[00:25:40] Kyle Musca: Just to keep, you know, monitor and everything.
+[00:25:42] Kyle Musca: Marina should also, like, let Marina know that if she sees anything like that, they'll let you know as well.
+[00:25:47] Kyle Musca: Because they're probably, they're going to see it a lot sooner than you will.
+[00:25:51] Kyle Musca: Yeah.
+[00:25:53] Kyle Musca: Yeah, cool.
+[00:25:56] Kyle Musca: Did you have any, like, I guess, questions or concerns that you're currently facing that you kind of, you know, would...
+[00:26:00] jese Smith-shields: Like my input for?
+[00:26:02] jese Smith-shields: No, was pretty much just that set up.
+[00:26:05] jese Smith-shields: We've pretty much sorted it all out now.
+[00:26:08] jese Smith-shields: So it'd be good to see a full week, especially over the weekend within all the bookings and stuff, because over our busy, or even we had that ad turn off across that Sunday, which I noticed we didn't get any messages.
+[00:26:21] jese Smith-shields: For some reason, my payment bounced on the Amex card.
+[00:26:25] jese Smith-shields: So it turned off the ad on that Sunday, and I simply just didn't even see it.
+[00:26:31] jese Smith-shields: So I noticed that we didn't get any messages on that Sunday.
+[00:26:35] jese Smith-shields: And then once we fixed that up, we had a few book in through, but it was a pretty quiet Sunday in the grand scheme of what we're used to.
+[00:26:43] Kyle Musca: Yeah, okay.
+[00:26:44] Kyle Musca: So that would have definitely potentially thrown a spanner in the works in terms of why numbers are a little bit lower this week.
+[00:26:53] Kyle Musca: Okay, the other thing as well is we should probably start looking at doing something around like an offer.
+[00:27:00] Kyle Musca: We're out on the end of the year period.
+[00:27:03] Kyle Musca: Yeah.
+[00:27:04] Kyle Musca: Have you had a chance to think about, like, kind of what you'd potentially want to do for that?
+[00:27:09] jese Smith-shields: For the new ones coming in, the one that probably sounded the best, like, logically is probably the pay, the pay up now.
+[00:27:17] jese Smith-shields: have the two months free coaching and then you start at a set date in January or February or whatever.
+[00:27:26] jese Smith-shields: It makes a logical sense, in a sense.
+[00:27:29] jese Smith-shields: I believe if you don't want to pay for the start back over in January, it probably won't make too much sense.
+[00:27:39] Kyle Musca: Sorry, cut out there.
+[00:27:40] jese Smith-shields: What was that?
+[00:27:42] jese Smith-shields: Yeah, they'll start in, like, pay now and then you get the next two months free and then you start in whatever date it is in January probably made the most sense.
+[00:27:52] Kyle Musca: What I reckon we do for that, especially for Keanu, is I reckon we package it as a challenge, like a New Year's challenge.
+[00:28:00] Kyle Musca: And we don't even really necessarily market that on the front end, but we use it as a thing on the sales call because girls love challenges.
+[00:28:10] jese Smith-shields: when, you know.
+[00:28:11] jese Smith-shields: Yeah.
+[00:28:11] jese Smith-shields: And every time we've put up a challenge, we've had like really good success right now.
+[00:28:16] Kyle Musca: Yeah.
+[00:28:17] Kyle Musca: So I reckon, yeah, girls love challenges.
+[00:28:20] Kyle Musca: Guys, a little bit less so.
+[00:28:24] Kyle Musca: But I reckon if we just say like it's a New Year's challenge and everything like that, message me through for more details.
+[00:28:29] Kyle Musca: And then we kind of, you know, again, pretty much the exact same process.
+[00:28:32] Kyle Musca: come through the DM and then, you know, on the closing call, because the biggest backlash you're going to get is like, oh, like, you know, sign up now.
+[00:28:39] Kyle Musca: Oh, I want to wait till New Year's, yada, yada, yada.
+[00:28:42] Kyle Musca: Yeah.
+[00:28:43] Kyle Musca: And then we just add like a ton of urgency.
+[00:28:45] Kyle Musca: Like maybe we're only taking on 30 girls for this.
+[00:28:50] Kyle Musca: And, you know, we're going to make a special offer of like joining now.
+[00:28:56] Kyle Musca: So one, I wouldn't even give them the option like to have to join by like, let's say.
+[00:29:02] Kyle Musca: Maybe December 25th or December 31st or whatever the case may be.
+[00:29:06] Kyle Musca: So they have to join in that month and, you know, you can then be like, what we're actually going to do is not only is it going to be three months of coaching, we're going to add on two months.
+[00:29:16] Kyle Musca: There's different ways we could do it.
+[00:29:18] Kyle Musca: So this is where we have to sit down and just figure it out.
+[00:29:21] Kyle Musca: But we could just do two months of extra for anyone.
+[00:29:24] Kyle Musca: Or we could say, you know, we want to make sure that the new year is actually, you know, like a change for you.
+[00:29:32] Kyle Musca: So it's like if they need to like only need a three-month program, maybe we have like a split challenge type thing where it's a three-month and one-month extra.
+[00:29:40] Kyle Musca: And there's a prize for that in that batch of people.
+[00:29:43] Kyle Musca: And there's a six-month one for, you know, girls that need to lose a little bit more weight.
+[00:29:48] Kyle Musca: And then you're going to add it potentially in like even two months free on top of that or something like that.
+[00:29:54] Kyle Musca: Yeah, because then it kind of gives you that reason of like, again, this is just, you know.
+[00:30:00] Kyle Musca: Discussion, so feel free to put it in.
+[00:30:03] jese Smith-shields: Yeah, no, I like that result.
+[00:30:05] jese Smith-shields: I like that.
+[00:30:06] jese Smith-shields: That probably makes a whole lot more sense.
+[00:30:08] Kyle Musca: Yeah, but then we do this all in the back end of the sales process.
+[00:30:15] Kyle Musca: On the front end, it is just purely marketed as a New Year's Challenge.
+[00:30:18] Kyle Musca: DM me for more info.
+[00:30:22] Kyle Musca: Cool, we've actually got two different options depending on what you need.
+[00:30:28] Kyle Musca: Yeah, let me sign up and have a bit of a chat.
+[00:30:31] Kyle Musca: Yeah, yeah, yeah.
+[00:30:33] Kyle Musca: And then on the call.
+[00:30:34] Kyle Musca: Yeah.
+[00:30:36] jese Smith-shields: No, that makes sense.
+[00:30:38] Kyle Musca: Now, with the prizes, and we'll have to mark.
+[00:30:41] Kyle Musca: So the biggest things with a challenge is, one, obviously, urgency.
+[00:30:46] Kyle Musca: You know, we start, you know, entries close December 25th or something like that.
+[00:30:51] Kyle Musca: And we start, you know, January 7th, whatever the  case, right?
+[00:30:55] Kyle Musca: Yeah.
+[00:30:57] Kyle Musca: And a prize.
+[00:30:59] Kyle Musca: So I.
+[00:31:00] Kyle Musca: Hey, you can do different types of prizes.
+[00:31:06] Kyle Musca: One thing I think with Kiana is, who's their sponsors?
+[00:31:10] jese Smith-shields: EHP, oh, she's got a  few.
+[00:31:12] jese Smith-shields: EHP, E-defined, velocity of just joined up with her, keep that pump, there's a fair few.
+[00:31:20] Kyle Musca: Okay, so I would go and get her to do deals with every one of them, because I'm sure she probably has like a bit of a giveaway, potential giveaway thing.
+[00:31:29] Kyle Musca: We add all that into it.
+[00:31:30] Kyle Musca: it's like, you know, $250 of the fine, $250 of EHP, $250 of, you know, keep that pump, $250 of whatever.
+[00:31:38] Kyle Musca: Plus, and you just want to make the prize pool as huge as possible.
+[00:31:42] Kyle Musca: So, for example, you might even want to give, like, the winner of each challenge an extra three months of coaching absolutely free.
+[00:31:51] Kyle Musca: So that way you can say it's an extra two grand or an extra $3,000 or something like that.
+[00:31:55] Kyle Musca: And then when you add all that together, it's like, you know, there's a prize pool of $5,000.
+[00:32:01] jese Smith-shields: Yeah, no, that's, we did something similar to that for the Shields Fit second birthday.
+[00:32:07] jese Smith-shields: And I think we had a prize pooling of close to like seven grand and that did really well.
+[00:32:12] jese Smith-shields: We didn't run any ads to it.
+[00:32:14] jese Smith-shields: It was all just organic.
+[00:32:16] jese Smith-shields: We had, we had a stupid return for that.
+[00:32:19] Kyle Musca: Yeah.
+[00:32:20] Kyle Musca: So I reckon we just pretty much do the same thing.
+[00:32:23] Kyle Musca: Just run ads for it.
+[00:32:25] jese Smith-shields: Yeah.
+[00:32:26] jese Smith-shields: Yeah, no, that'd be sweet.
+[00:32:28] Kyle Musca: It's like, did, I did a challenge for Brie and like, it was only $19 or something.
+[00:32:32] Kyle Musca: was a very low ticket.
+[00:32:34] Kyle Musca: She got like 260 girls to join.
+[00:32:36] Kyle Musca: It was ridiculous.
+[00:32:37] jese Smith-shields: The girls would love challenges.
+[00:32:39] Kyle Musca: wow.
+[00:32:40] Kyle Musca: Yeah.
+[00:32:41] jese Smith-shields: So.
+[00:32:41] jese Smith-shields: Is she still in Kahunas?
+[00:32:44] Kyle Musca: Yes.
+[00:32:45] jese Smith-shields: Yeah.
+[00:32:45] jese Smith-shields: That would have been a nightmare to set up.
+[00:32:47] Kyle Musca: Yeah.
+[00:32:48] Kyle Musca: Yeah.
+[00:32:49] Kyle Musca: No, she, she like, that was a break-even fun and we were trying.
+[00:32:53] Kyle Musca: And like the idea there is like, just kind of get the small deposit of $19 to cover ads expenses.
+[00:33:00] Kyle Musca: So you can.
+[00:33:00] Kyle Musca: So can.
+[00:33:01] Kyle Musca: Push it really  hard.
+[00:33:02] jese Smith-shields: Yeah.
+[00:33:04] Kyle Musca: But she ended up profiting.
+[00:33:06] Kyle Musca: She had like 18 grand a week or something that week of it, which is pretty crazy.
+[00:33:09] Kyle Musca: So that's why this time around, I think just that those kind of challenges, it's just too much a  headache to, you know, set up for what you get in return, even though she did really well off it.
+[00:33:21] Kyle Musca: So Eric, we just do pretty much the exact same offer as we usually do, but, you know, slight discounted.
+[00:33:25] Kyle Musca: so again, you know, after we, you know, weigh up the extra month or something like that, it's  still $125 or whatever we decided it was.
+[00:33:36] Kyle Musca: But I would start putting that in place.
+[00:33:39] Kyle Musca: For now, I would just do, figure out what your back-end sales process is going to be.
+[00:33:44] Kyle Musca: So whether that be three months and one month or two months and six months and two months, or you could just do two months for all of it.
+[00:33:52] Kyle Musca: It doesn't really completely up to you.
+[00:33:55] jese Smith-shields: When would you look at kicking that off?
+[00:33:59] Kyle Musca: You'd want to have it kind of running.
+[00:34:03] Kyle Musca: End of November, early December at the latest.
+[00:34:08] Kyle Musca: Like you want to, because especially, we kind of want to think of it as like when the, and I would, one, want to make sure everything's prepped for it in advance just to make sure we're not on the back foot with anything because, you know, hiccups can always occur.
+[00:34:23] Kyle Musca: But we want to like see when the marketing starts to dry up a bit because it's just going into that period where people aren't interested in it.
+[00:34:31] Kyle Musca: We want something to immediately replace it and just take over.
+[00:34:34] Kyle Musca: So we don't want to get to the point where, you know, if that is like mid-November or something, it's a little bit earlier than we expected.
+[00:34:39] Kyle Musca: It's like, , we're, you know, don't really have to much.
+[00:34:44] Kyle Musca: In saying that, we do want to keep like one thing with the challenges, we want to keep the, the urgency up.
+[00:34:54] Kyle Musca: So it's like, we don't really want anything more than like a month-long campaign if we can avoid it.
+[00:35:02] Kyle Musca: Yeah.
+[00:35:04] jese Smith-shields: Yeah, no, that works.
+[00:35:06] jese Smith-shields: I'll start putting together a list of things, a bit of a to-do list to get that all sort of set up.
+[00:35:11] jese Smith-shields: Within that sort of campaign, it's going to be like a similar campaign, I'm assuming, videos and graphics.
+[00:35:18] Kyle Musca: Yeah, yeah, it'll just be pretty.
+[00:35:19] Kyle Musca: Again, like, marketing's kind of like  same , but just packaging it in a new fancy label so people can see it's new.
+[00:35:29] jese Smith-shields: People love it.
+[00:35:32] Kyle Musca: So it's just like, New Year's Challenge, and God's like, yay.
+[00:35:35] Kyle Musca: And then it's like, New Challenge, and I'm like, yay.
+[00:35:41] Kyle Musca: So it just gives them a reason to justify it.
+[00:35:45] Kyle Musca: But on that menu, I think things are going really well.
+[00:35:49] Kyle Musca: Do you want me to potentially look at making a new campaign where it is just, you know, job title focused and just start playing around with that type of audiences?
+[00:35:58] jese Smith-shields: Yeah.
+[00:36:00] jese Smith-shields: We'll see that.
+[00:36:01] jese Smith-shields: Thank
+[00:36:01] jese Smith-shields: That capi pulls over.
+[00:36:02] jese Smith-shields: If that kind of changes, then that automatically already changes that campaign, I'm assuming.
+[00:36:07] Kyle Musca: It will with time, for sure.
+[00:36:09] jese Smith-shields: Yeah.
+[00:36:09] jese Smith-shields: Yeah, so maybe just leave it for now.
+[00:36:11] jese Smith-shields: Because it seems like those ads are obviously ticking over.
+[00:36:16] jese Smith-shields: It was just obviously there may have been a little bit of a leak of information within that sort of many chat sort of thing.
+[00:36:22] Kyle Musca: Yeah.
+[00:36:23] Kyle Musca: Yeah.
+[00:36:24] Kyle Musca: So I think, I mean, things are going really, well at the moment.
+[00:36:26] Kyle Musca: It's just about refining off-scale the video ads, especially once we start pulling that data through a bit more.
+[00:36:34] Kyle Musca: And then if you've got already a ton of educational ads that count as filmed with the CTA attached, it's like that's fantastic.
+[00:36:42] Kyle Musca: Like we can just, we've got heaps of content to run with that.
+[00:36:45] jese Smith-shields: Yeah, we're good.
+[00:36:46] Kyle Musca: Which makes our life a lot easier.
+[00:36:48] Kyle Musca: Is it a DM CTA or is it a comment CTA?
+[00:36:52] jese Smith-shields: There's a bit of a mixture of both because he was still trying to test out to see what worked, what worked best within our audience because that was.
+[00:37:01] jese Smith-shields: That first month of content.
+[00:37:03] jese Smith-shields: So he was just trying to figure out, see what worked, what didn't, in a sense.
+[00:37:07] jese Smith-shields: But we do have, like, we obviously do have more filming put up.
+[00:37:10] jese Smith-shields: So I can even put a cross to him.
+[00:37:12] jese Smith-shields: We can just say, make them all message CTAs.
+[00:37:17] Kyle Musca: Yeah, because the common CTAs on ManyChat are a little bit more annoying.
+[00:37:20] Kyle Musca: You can't, so, like, with the DM, we can say, like, hey, thanks for reaching through, send, and then the next one's, like, what's your main goal?
+[00:37:28] Kyle Musca: Can't do that with CTA.
+[00:37:30] Kyle Musca: It's just, like, hey, thanks for reaching out.
+[00:37:33] Kyle Musca: And then I think we have to put the buttons there.
+[00:37:35] Kyle Musca: It's, like, kind of, it's just a little bit annoying and clunky.
+[00:37:39] Kyle Musca: Not the end of the world, but, come on.
+[00:37:43] Kyle Musca: Are you still using Jackson?
+[00:37:46] jese Smith-shields: Yeah, yeah.
+[00:37:48] Kyle Musca: Are you on a retainer with him, aren't you?
+[00:37:50] jese Smith-shields: It's only a month-to-month retainer at the moment.
+[00:37:53] jese Smith-shields: I was just testing him out, but Vaughn was pretty good.
+[00:37:56] Kyle Musca: Yeah, yeah.
+[00:37:57] Kyle Musca: How much is he charging you?
+[00:38:00] jese Smith-shields: Yeah, fair.
+[00:38:01] jese Smith-shields: Yeah, it's like just over $5,000 for 30 videos.
+[00:38:06] Kyle Musca: For a month?
+[00:38:07] jese Smith-shields: Yeah.
+[00:38:09] Kyle Musca: That's crazy.
+[00:38:11] Kyle Musca: Yeah.
+[00:38:12] Kyle Musca: Yeah, okay, wow.
+[00:38:14] Kyle Musca: That's wild.
+[00:38:15] Kyle Musca: I think $1,800.
+[00:38:18] jese Smith-shields: Yeah, I think he only charged us like $300 the other day for those videos.
+[00:38:24] jese Smith-shields: When he sent that bill across, I saw it and I was like, oh, .
+[00:38:28] jese Smith-shields: I was like, oh, fair enough.
+[00:38:30] jese Smith-shields: Fair play.
+[00:38:31] Kyle Musca: I don't know.
+[00:38:33] Kyle Musca: I remember I was like, oh, Vaughn, he sent me like $2,800 for like 16 videos.
+[00:38:37] Kyle Musca: was like, that's  no way I'm paying that.
+[00:38:43] jese Smith-shields: Yeah, I might hit up Vaughn to see what he's wanting to do towards the end of the year.
+[00:38:48] jese Smith-shields: Yes.
+[00:38:48] jese Smith-shields: With Vaughn's stuff, I'm assuming you probably just script all your stuff as well, right?
+[00:38:55] Kyle Musca: I don't.
+[00:38:57] Kyle Musca: But I – so he's a bit like like –
+[00:39:01] Kyle Musca: Vaughn will help you do those videos where, like, you know how Kiana is or someone behind the camera is asking you questions?
+[00:39:08] Kyle Musca: Yeah.
+[00:39:08] Kyle Musca: He seems to like those videos.
+[00:39:10] Kyle Musca: I'm not 100% sure if he does do the scripting because what I would do is I would just, like, I don't really like scripting too much, to be honest.
+[00:39:16] Kyle Musca: I created, like, ChatGPT and I was like, just, this is the topic I'm going to talk on.
+[00:39:21] Kyle Musca: Just give me dot points to go through and I'll just, like, say it.
+[00:39:23] Kyle Musca: I call it, like, gun-slinging content where there's no actual script.
+[00:39:26] Kyle Musca: You kind of just have talking points to go off.
+[00:39:29] Kyle Musca: Yeah, that's the content that I like doing, but Kiana hates it.
+[00:39:33] Kyle Musca: She needs a script.
+[00:39:34] Kyle Musca: Yeah.
+[00:39:36] Kyle Musca: I think he does do scripting, but you'd have to chat with him to be sure I'm not 100% sure.
+[00:39:42] jese Smith-shields: Yeah, no, that's fair.
+[00:39:44] Kyle Musca: For five grand a month, I'm he would.
+[00:39:46] jese Smith-shields: Yeah.
+[00:39:48] jese Smith-shields: He probably would.
+[00:39:49] jese Smith-shields: think anyone would.
+[00:39:50] jese Smith-shields: Yeah.
+[00:39:52] jese Smith-shields: Yeah, no, that's sweet, bro.
+[00:39:54] jese Smith-shields: I'll start piecing that all together.
+[00:39:55] jese Smith-shields: But even if you want, I'm happy for you to scale those ads up even more if you wanted to.
+[00:40:00] Kyle Musca: Yeah.
+[00:40:01] Kyle Musca: I've been trying to wait till this cappy thing starts pulling through properly, just because I want to, I mean, the cost for a result is really good and healthy, so I'm like, and it's clearly pulling through, so working, but I just kind of wanted to sort that before we get into pushing it too hard.
+[00:40:17] Kyle Musca: The other thing is, , what was I about to say?
+[00:40:26] Kyle Musca: No, was pulling to it, but I forgot it.
+[00:40:30] Kyle Musca: She'll come back to me.
+[00:40:31] Kyle Musca: But, I don't know, I lost it.
+[00:40:34] Kyle Musca: Yeah, I Yeah, so is there anything else you want to cover at all?
+[00:40:40] jese Smith-shields: No, I'm pretty sure.
+[00:40:41] jese Smith-shields: I'm pretty sure.
+[00:40:42] jese Smith-shields: I think everything's kind of ticking along, just trying to make those final adjustments, really.
+[00:40:47] Kyle Musca: Yeah, yeah.
+[00:40:48] Kyle Musca: So, yeah, it's about that, essentially, now.
+[00:40:53] Kyle Musca: And then if we can get on, again, just with where your business at, like, usually I'm kind of not against, but, like, most people don't need to track data.
+[00:41:00] Kyle Musca: on.
+[00:41:00] Kyle Musca: a super...
+[00:41:01] Kyle Musca: But indepthly, but like with where you've got like a lot of moving parts to your business.
+[00:41:05] Kyle Musca: So it's good to see we're doing that.
+[00:41:08] Kyle Musca: Did you get, have a chat to your VA about the fail payment stuff?
+[00:41:16] jese Smith-shields: As in, what do you mean?
+[00:41:19] Kyle Musca: Like getting on top of that a little bit more?
+[00:41:21] jese Smith-shields: Yeah, yeah, yeah.
+[00:41:22] jese Smith-shields: I've set her up so she's got a to-do list on pretty much every time that she logs on, which is all the payments, everything like that.
+[00:41:29] jese Smith-shields: And then any free time, it's just me throwing stuff across to her that I need fixed up or whatever.
+[00:41:35] jese Smith-shields: So yeah, she's on to it.
+[00:41:38] Kyle Musca: Yeah.
+[00:41:39] Kyle Musca: One thing I'd get really good, like used to and good at is just like delegating any tasks that's just not worth your time.
+[00:41:46] Kyle Musca: I'm kind of guilty of it.
+[00:41:47] Kyle Musca: Like sometimes I'll be like, oh, it's easy enough.
+[00:41:49] jese Smith-shields: I'll just do it.
+[00:41:51] Kyle Musca: Yeah.
+[00:41:52] Kyle Musca: But like, even if it isn't like, you and then 20 minute job turns into like  an hour and you're like, what the ?
+[00:41:58] Kyle Musca: But like, I would just get used to just taking the five minutes.
+[00:42:01] Kyle Musca: Just show someone else how to do it, and say, all right, just go  do it.
+[00:42:05] jese Smith-shields: Yeah.
+[00:42:06] jese Smith-shields: Yeah, no, I did that.
+[00:42:07] jese Smith-shields: I was the exact same, but I've only just started actually flicking things over to her.
+[00:42:11] jese Smith-shields: I think that was probably a lot of the weeks that she was trying to piece together to what to actually do, because I'll just do it on the spot.
+[00:42:17] jese Smith-shields: But now I've kind of stopped myself.
+[00:42:20] Kyle Musca: I was like, you pay someone to do this, so just get them to do it.
+[00:42:23] Kyle Musca: Yeah, yeah.
+[00:42:24] Kyle Musca: It's like a bit of a transition, because to get your business to where you think you've gotten yours, it's like you kind of have to wear all the hats.
+[00:42:31] Kyle Musca: But then to the next level, and to start being really efficient, it's like, all right, let's just  these jobs off.
+[00:42:36] Kyle Musca: And then you can't outwork anyone, because it's like, you know, if you've got five people in carrying the weight of all five jobs, it's like  you're working five times harder, and you're actually working, like,  all.
+[00:42:48] jese Smith-shields: Yeah.
+[00:42:49] jese Smith-shields: It was funny, actually.
+[00:42:50] jese Smith-shields: My Sundays are usually, like, one of my biggest days.
+[00:42:53] jese Smith-shields: And then, obviously, Luke, I talk to a lot of my clients, so I actually had a bit of, like, free time across the Sunday, Monday.
+[00:43:00] Kyle Musca: I didn't know what to do on this.
+[00:43:02] Kyle Musca: That's a good problem to have.
+[00:43:04] Kyle Musca: How did that transition go?
+[00:43:06] jese Smith-shields: We lost one client.
+[00:43:08] jese Smith-shields: She kind of kicked up a stink about it, but she wasn't much of a loss.
+[00:43:11] Kyle Musca: didn't enjoy coaching her.
+[00:43:13] jese Smith-shields: Yeah.
+[00:43:15] Kyle Musca: Was that with the 25 overall?
+[00:43:18] jese Smith-shields: What was that, Was that transitioning 25?
+[00:43:22] jese Smith-shields: Yeah, yeah.
+[00:43:23] jese Smith-shields: So we started her with 15.
+[00:43:25] jese Smith-shields: She got her wrapped around 15, and then heading into this Sunday, she'll have 25.
+[00:43:30] jese Smith-shields: So out of 15, we lost one.
+[00:43:33] jese Smith-shields: And yeah.
+[00:43:35] Kyle Musca: That's pretty right.
+[00:43:36] Kyle Musca: Oh, that's what I was going to ask.
+[00:43:37] jese Smith-shields: All the six closers, were they on the new package of $3,500 or $2,000 or whatever?
+[00:43:42] jese Smith-shields: Four of them was.
+[00:43:44] jese Smith-shields: So since that session I've been doing, I told you I pulled my thumb out and started closing on the high tier.
+[00:43:51] jese Smith-shields: All of them have been from that.
+[00:43:53] jese Smith-shields: And then two was still on that other one of the sign-on and then the weekly.
+[00:44:00] jese Smith-shields: The weekly.
+[00:44:00] jese Smith-shields: The weekly.
+[00:44:01] jese Smith-shields: But even the weekly pricing is still on the $125 a week.
+[00:44:06] Kyle Musca: Yeah, okay.
+[00:44:07] Kyle Musca: Yeah, sick.
+[00:44:07] Kyle Musca: So, yeah, sick, man.
+[00:44:10] Kyle Musca: Cool.
+[00:44:10] Kyle Musca: So, even though it was six closes, but like when you take that in consideration at the old price, that would have been like eight or nine.
+[00:44:17] jese Smith-shields: Yeah.
+[00:44:18] Kyle Musca: Money coming in.
+[00:44:19] Kyle Musca: So, beautiful, man.
+[00:44:21] Kyle Musca: All right.
+[00:44:22] Kyle Musca: Well, things are in a good spot, man.
+[00:44:23] Kyle Musca: You just love working with guys like yourself because you just kind of go ahead and do stuff, man.
+[00:44:27] jese Smith-shields: That's just awesome.
+[00:44:29] jese Smith-shields: Yeah.
+[00:44:30] jese Smith-shields: I've always kind of been like that.
+[00:44:32] jese Smith-shields: Even when I get with like mentors or anything like that, I always try and think of questions that I should be asking.
+[00:44:37] jese Smith-shields: But most of the time, it's just you tell me what to do and I just go and do it and then get done.
+[00:44:42] Kyle Musca: Yeah.
+[00:44:43] Kyle Musca: And it's like a program, man.
+[00:44:44] Kyle Musca: Like, you know, sit there and ask questions all day long and everything.
+[00:44:46] Kyle Musca: But if you just go do the task, then the questions will probably iron themselves out.
+[00:44:52] Kyle Musca: But, yeah.
+[00:44:53] Kyle Musca: Cool, man.
+[00:44:53] Kyle Musca: Well, yeah.
+[00:44:54] Kyle Musca: Good positions.
+[00:44:55] Kyle Musca: We just need to one, scale it and then just prep.
+[00:44:57] Kyle Musca: For, you know, that December period now, which puts.
+[00:45:01] Kyle Musca: This isn't a really good spot overall.
+[00:45:04] Kyle Musca: Anything else you'd like to see on these calls at Allman?
+[00:45:08] jese Smith-shields: The transitioning within, like, obviously bringing new coaches in, you're quite strict on, because obviously you're just the face of the brand.
+[00:45:19] jese Smith-shields: Your views on it is that you like that in a sense, you're not necessarily wanting to bring other people into it?
+[00:45:28] Kyle Musca: Yes and no.
+[00:45:29] Kyle Musca: Like, you can have, like, a little bit of a team vibe going.
+[00:45:33] Kyle Musca: The only thing, the reason I'm strict on it is because I don't want, especially coaches and stuff, you don't want them to have too many hands in too many pockets of the business.
+[00:45:42] Kyle Musca: Because it's like, if they're doing the coaching, then you get them into the content side of things.
+[00:45:46] Kyle Musca: It's like, they can kind of get too much of an ego and you teach them too much about how the business actually works.
+[00:45:51] Kyle Musca: So then they can kind of go,  it, might as well just go do this myself.
+[00:45:57] Kyle Musca: So, keeping them in just, like, the one role of just coaching and then...
+[00:46:01] Kyle Musca: In a sense, isolating them from how the rest of the business actually operates doesn't get them to get too cocky and start thinking that they can just go do it themselves.
+[00:46:12] jese Smith-shields: Yeah, okay.
+[00:46:15] Kyle Musca: But for photo shoots and all that stuff, I would 100% get them in for branding and all that.
+[00:46:21] Kyle Musca: It's just I don't know if I'd get them in for doing the actual kind of content as well.
+[00:46:27] jese Smith-shields: Yeah, no, that makes sense.
+[00:46:29] jese Smith-shields: Because, yeah, I had Luca share across a few things across her own socials, which she did out of her own will of wanting to do it and get their name out.
+[00:46:40] jese Smith-shields: And then I was kind of thinking about it in a sense of if I actually wanted her to do that or not.
+[00:46:45] jese Smith-shields: But I didn't really, I didn't particularly mind if I was really honest.
+[00:46:49] Kyle Musca: Yeah.
+[00:46:50] Kyle Musca: So it's like, it's a fine line.
+[00:46:51] Kyle Musca: It is up to you at the end of the day.
+[00:46:53] Kyle Musca: Like, because, you know, and it kind of depends on the kind of company that you have.
+[00:46:59] Kyle Musca: Like, she was fit in a sense, it is not.
+[00:47:01] Kyle Musca: a personal brand as much, if that makes sense.
+[00:47:04] Kyle Musca: It's like you can kind of bring in other people and actually have it as a coaching community type thing.
+[00:47:11] Kyle Musca: Whereas for mine, like it wouldn't make sense for me to post one of my coaches on my page where they're doing the ad.
+[00:47:16] jese Smith-shields: They'd be like, who the  is this guy?
+[00:47:20] Kyle Musca: Yeah, so it's like, I'd keep Kiana's Kiana's, but then like on ShieldsFit, then you could open it up a little bit if you wanted to do that.
+[00:47:29] jese Smith-shields: Yeah, no, that makes sense.
+[00:47:30] jese Smith-shields: Yeah, I think, yeah, I think it kind of works within that ShieldsFit page because it is like a little bit more of a community.
+[00:47:37] jese Smith-shields: It's more of like just the dumping ground of stuff that we don't post on our own socials in a sense.
+[00:47:43] Kyle Musca: Yeah, and I would say like you can get her in for, you know, that kind of stuff where it's not, you know, trying to bring in leads as much, more so just getting them to build a relationship and trust with people inside the actual business itself.
+[00:47:58] Kyle Musca: Because it's, that's a different style of content.
+[00:48:00] Kyle Musca: That's not content to
+[00:48:01] Kyle Musca: Try and actually, like, build the market, business, in terms of...
+[00:48:05] jese Smith-shields: Yeah, that makes sense.
+[00:48:07] Kyle Musca: Yeah, beautiful.
+[00:48:08] Kyle Musca: Cool, bro.
+[00:48:09] jese Smith-shields: Anything else at all?
+[00:48:10] jese Smith-shields: No, I'm sweet.
+[00:48:12] jese Smith-shields: I'm sweet.
+[00:48:13] Kyle Musca: Safe, man.
+[00:48:14] Kyle Musca: Cool, all right, well, hopefully...
+[00:48:18] Kyle Musca: Sorry, what was that?
+[00:48:19] jese Smith-shields: Still loving Dubai.
+[00:48:21] Kyle Musca: Yeah, it's pretty good.
+[00:48:22] Kyle Musca: I'm just  working heaps.
+[00:48:24] Kyle Musca: I'm, like, waking up, like, 4 or 5 a.m.
+[00:48:26] Kyle Musca: It's just starting to wear thin.
+[00:48:27] jese Smith-shields: Yeah, I've noticed, like, when you're, like, you're live on WhatsApp, I was, like, what the  is this kind of going to bed at?
+[00:48:36] Kyle Musca: So, it's, like, I'm all right doing that.
+[00:48:38] Kyle Musca: It's, like, I  hate training in the afternoon, so, like, I've been training sometimes in the afternoon.
+[00:48:42] jese Smith-shields: so tired by the time I get to the gym, like,  this.
+[00:48:45] Kyle Musca: But, no, it's pretty good.
+[00:48:47] Kyle Musca: And then, probably drinking a little bit too much on the way out.
+[00:48:51] jese Smith-shields: Maybe it's a little while you're over there, I guess.
+[00:48:54] Kyle Musca: Yeah, we're, like, trying to explore, like, last weekend, we're, like, oh, let's go see how the nightlife is, because the nightlife is meant to be pretty good.
+[00:49:01] Kyle Musca: But, like, everywhere, I think, kicks off apparently around, like, 10 or 11 p.m., and I'm like, , man.
+[00:49:07] Kyle Musca: Oh, really?
+[00:49:08] Kyle Musca: Yeah, I'm like, getting up, like, 5 a.m.
+[00:49:10] Kyle Musca: every single day, 10 p.m.
+[00:49:11] Kyle Musca: is  late.
+[00:49:15] Kyle Musca: So, yeah, don't think I'll do that again, but.
+[00:49:18] jese Smith-shields: No, that's fine.
+[00:49:19] jese Smith-shields: I think Sage actually just landed there, actually, I think.
+[00:49:23] Kyle Musca: Yeah, he got here this morning, so I'll let him settle in, and I'll probably, I'll go see him end of the week here.
+[00:49:28] Kyle Musca: I'd have a land, though, or something, on Friday, but.
+[00:49:30] jese Smith-shields: Did he?
+[00:49:32] Kyle Musca: That's what he said to me about.
+[00:49:34] jese Smith-shields: He's so, he's so precious.
+[00:49:37] jese Smith-shields: Yeah.
+[00:49:38] jese Smith-shields: He loves his designer stuff and all everything.
+[00:49:41] jese Smith-shields: Yeah.
+[00:49:42] jese Smith-shields: the stuff he buys, I kind of look at him, I was like, okay, bro, let's see.
+[00:49:45] Kyle Musca: Yeah.
+[00:49:46] Kyle Musca: Man, the  roads here are, like,  as well.
+[00:49:49] jese Smith-shields: He's like, because he's not  a car or anything, he's just getting a Lambo on a Friday.
+[00:49:54] jese Smith-shields: was like, man, I'll definitely drive before you get a Lambo.
+[00:49:57] jese Smith-shields: Oh, that doesn't even surprise me.
+[00:50:01] jese Smith-shields: stuff.
+[00:50:01] jese Smith-shields: you.

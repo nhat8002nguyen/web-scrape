@@ -1,0 +1,998 @@
+Meeting: Impromptu Zoom Meeting
+Date: 2025-12-04T00:30:27Z
+Scheduled: 2025-12-03T23:36:10Z - 2025-12-03T23:51:10Z
+Recording: 2025-12-03T23:36:26Z - 2025-12-04T00:30:17Z
+Language: en
+URL: https://fathom.video/calls/495892589
+Share Link: https://fathom.video/share/ECh71xqo3kxzPttVniascnqm7bAUHMuv
+Recording ID: 106150196
+
+Participants: Kyle Musca (kyle@empcoaching.com.au)
+Recorded by: Kyle Musca (kyle@empcoaching.com.au)
+--- TRANSCRIPT ---
+
+[00:00:00] Torin McGlynn: That's right.
+[00:00:00] Torin McGlynn: You with the family?
+[00:00:01] Torin McGlynn: This meeting is being recorded.
+[00:00:03] Torin McGlynn: my girlfriend.
+[00:00:05] Torin McGlynn: Like, the place I'm in is sick.
+[00:00:08] Torin McGlynn: It's by the window where I'm at right now.
+[00:00:10] Kyle Musca: And then there's, like, the option there.
+[00:00:12] Kyle Musca: Yeah, nice.
+[00:00:12] Torin McGlynn: Is that in Western Australia?
+[00:00:15] Torin McGlynn: Yeah, it's called Joondalup.
+[00:00:17] Torin McGlynn: It's pretty cool.
+[00:00:18] Kyle Musca: Cool, man.
+[00:00:19] Kyle Musca: All right.
+[00:00:19] Kyle Musca: Well, if you're sick and you're on the trip, then we probably won't go over, like, a crazy amount today.
+[00:00:24] Torin McGlynn: Yeah.
+[00:00:25] Kyle Musca: Just a bit of a catch-up, bro.
+[00:00:26] Kyle Musca: Like, how has things been?
+[00:00:27] Torin McGlynn: How are you going with the onboarding of the coach?
+[00:00:29] Torin McGlynn: Everything like that?
+[00:00:30] Torin McGlynn: Onboarding coach is good.
+[00:00:31] Torin McGlynn: He's obviously on swing now, so I'm doing, like, quite a lot of the techs, but that's kind of already foreseen.
+[00:00:39] Torin McGlynn: And I got to go high level finally.
+[00:00:41] Torin McGlynn: I just  lost in using the thing.
+[00:00:44] Kyle Musca: I had a little go at it, though.
+[00:00:47] Torin McGlynn: Yeah.
+[00:00:47] Torin McGlynn: And, yeah, this week I had three sales calls, and all three of them were, like, not qualified at all.
+[00:00:53] Torin McGlynn: They weren't financially qualified at all.
+[00:00:55] Torin McGlynn: So we haven't got any sales yet.
+[00:00:58] Torin McGlynn: But we got three.
+[00:00:59] Torin McGlynn: We
+[00:00:59] Torin McGlynn: Tomorrow, the three, I have three today, but one of them texted me this morning, cancelled.
+[00:01:06] Torin McGlynn: And then the two that I sent you and the other ones, which seem like they're completely not financially qualified as well.
+[00:01:14] Kyle Musca: Okay.
+[00:01:15] Kyle Musca: Okay.
+[00:01:15] Kyle Musca: So, all right.
+[00:01:20] Torin McGlynn: I suppose you're going to have weeks like this.
+[00:01:22] Torin McGlynn: It's just like, I'm sick as well.
+[00:01:23] Torin McGlynn: So it's like the whole, the whole world is like crashing down, you know?
+[00:01:26] Kyle Musca: Yeah.
+[00:01:26] Kyle Musca: No, it all sort of piles on all at once.
+[00:01:29] Kyle Musca: So what I would say there, man, is we'll run through GoHub.
+[00:01:33] Kyle Musca: I'll just show you the basics of how to use it.
+[00:01:35] Kyle Musca: It looks a lot scarier, but you only need to use a very few things.
+[00:01:39] Kyle Musca: Has anything changed in terms of like the setting, the like leads, like in terms of the poorer quality leads coming in?
+[00:01:46] Kyle Musca: Do you feel like anything has changed or it's just sort of a weekly swing?
+[00:01:51] Torin McGlynn: I think it's just like not the best week.
+[00:01:52] Torin McGlynn: One of them is a rescheduler.
+[00:01:53] Torin McGlynn: was pretty keen.
+[00:01:54] Torin McGlynn: Um, like it could be my sales.
+[00:01:57] Torin McGlynn: It could be, I, I, I, I really.
+[00:02:00] Torin McGlynn: I thought I spoke extremely well, and like, you know, I don't know if you feel this, but you know that you did it well, or you know that you kind of blundered it.
+[00:02:10] Torin McGlynn: All three of them felt like I did it well.
+[00:02:13] Torin McGlynn: One guy is rescheduled to next Tuesday.
+[00:02:15] Torin McGlynn: He actually followed up with me yesterday and said like, hey, can't wait for a call next week.
+[00:02:18] Torin McGlynn: So that one could be a nice sale.
+[00:02:21] Torin McGlynn: He knows the prices.
+[00:02:22] Torin McGlynn: We obviously talked.
+[00:02:25] Torin McGlynn: And the other two just broke women, just like actually broke women.
+[00:02:29] Kyle Musca: Yeah, okay.
+[00:02:30] Torin McGlynn: Okay.
+[00:02:31] Kyle Musca: How much are spending on climate at the moment a week?
+[00:02:35] Torin McGlynn: 500, like 750 Australian dollars.
+[00:02:40] Torin McGlynn: So 490 USD.
+[00:02:46] Kyle Musca: Okay.
+[00:02:48] Kyle Musca: I reckon what we could do, we won't focus on this, like, it's not like a extreme sort of push for it, you know, or anything.
+[00:02:57] Kyle Musca: But I reckon what we could do, man, is...
+[00:02:59] Kyle Musca: you.
+[00:02:59] Kyle Musca: We could look at opting for more of like a two-step system, two-step funnel type thing.
+[00:03:09] Kyle Musca: And ideally, you'd either get a commission-based triage call or you could potentially even like you may even want to look at bringing on a closer to do more of these types of calls.
+[00:03:19] Kyle Musca: We would have to figure out the logistics of it.
+[00:03:21] Kyle Musca: But essentially, as I've been saying, I reckon we potentially move to something where you give them a value.
+[00:03:26] Kyle Musca: You get their name, their email, their phone number, everything like that.
+[00:03:30] Kyle Musca: And then you could just have a setter, basically reach out to them, call them, basically have a chat to them, everything like that, and then get them on an actual closing call.
+[00:03:38] Kyle Musca: Because if you're really spending like $700, $800 a week on Clemet anyway, you get a commission-based setter on.
+[00:03:44] Kyle Musca: You could either give them a flat rate or something like that.
+[00:03:48] Kyle Musca: Yeah, does that make sense?
+[00:03:50] Torin McGlynn: That makes total sense, yeah, for sure.
+[00:03:51] Torin McGlynn: I've been really thinking about like business side of things and like where my time is more valuable.
+[00:03:58] Torin McGlynn: Yeah, and that
+[00:03:59] Torin McGlynn: Like it's frustrating doing three sales calls in a row and like not getting them where we have so many different things we can do, right?
+[00:04:07] Torin McGlynn: Like so many different things we can go like the cookbook avenue, can go like the challenge avenue, we can go there's like loads of different things we talked about, right?
+[00:04:16] Torin McGlynn: Like a mid-ticket offer, low-ticket offer, macro, whatever.
+[00:04:21] Torin McGlynn: Is it, could it be worth like just getting a closer, maybe do this two-step system so then I can kind of focus on business development a little bit more?
+[00:04:32] Kyle Musca: Yeah, so I mean, if you're going to do this two-step system, I'd say get a closer because like I would still take a couple of calls to gauge like lead quality and then you may even want to have it as a thing where you discuss it with the setter, depending on if it's the same person or not, where you get the more qualified calls and then the closer gets like kind of the shittier, not the shittier calls, but like average to  calls.
+[00:04:57] Kyle Musca: You know what I mean?
+[00:04:57] Kyle Musca: Yeah.
+[00:04:58] Kyle Musca: Yeah.
+[00:04:58] Kyle Musca: Yeah.
+[00:05:00] Kyle Musca: I think that would probably be the best way to go.
+[00:05:02] Kyle Musca: The only thing there is like, you could, the only thing I'm thinking about is like, is it better to have one person setting and then one person closing, or is it better to have a closer who does self-setting and then you can basically pay them like 15% commission?
+[00:05:19] Torin McGlynn: Yeah, because right now, PERMA is expensive as .
+[00:05:23] Kyle Musca: Yeah, so, yeah, yeah.
+[00:05:30] Kyle Musca: If you did like an individual set or individual closer, I mean, to be honest, like with the amount of lead volume and everything like that you get, I think you could easily definitely have, get away with having two different, like a setter and a closer, because then it would be easier to basically say to the setter, like, hey, if anyone's like, you know, really qualified, they're either really keen and have a decent job or they just have a decent job in general, like give them straight to me.
+[00:05:51] Kyle Musca: I'll take, you know, five, 10 calls a week, and then that should keep your close rate really high so your time is spent well there.
+[00:05:56] Kyle Musca: And then it's like anyone else, man, like even if you have to kind of trip.
+[00:06:00] Kyle Musca: Why them?
+[00:06:00] Kyle Musca: And frame it as like, it's just a, you know, a call to basically just send you in the right direction.
+[00:06:06] Kyle Musca: I'll get you on with our program director, Timmy, right?
+[00:06:11] Torin McGlynn: Yeah.
+[00:06:13] Torin McGlynn: To be fair, the thing that you said last call was the internal offer.
+[00:06:19] Torin McGlynn: Sorry, I'm just looping back to why this week has gone so .
+[00:06:24] Torin McGlynn: All three of those people say Christmas is coming up.
+[00:06:27] Torin McGlynn: And I, I objection handled them.
+[00:06:29] Torin McGlynn: I said, like, you know, you don't want to go backwards, whatever.
+[00:06:32] Torin McGlynn: Do you think I should do like the rest of the year free during December?
+[00:06:36] Kyle Musca: Yeah, it's a good, like a little counteract.
+[00:06:39] Kyle Musca: Be like, yeah, well, it's funny you actually bring that.
+[00:06:41] Kyle Musca: I'm actually going to run, I'm running like a bit of an internal challenge.
+[00:06:44] Kyle Musca: It's only available for people on the team, on my team currently.
+[00:06:48] Kyle Musca: But essentially, like, if you were to join that, and then you get into XYZ amount of prizes, yada, yada, yada.
+[00:06:53] Kyle Musca: And for new people, also for like, because you're joining in December, and I value people that are actually going to...
+[00:07:00] Kyle Musca: Take action because usually they're the ones that actually do succeed.
+[00:07:02] Torin McGlynn: I'm actually going to give the end of it, like the rest of December, like free.
+[00:07:06] Torin McGlynn: So essentially you get four months of coaching for the price of three.
+[00:07:10] Torin McGlynn: Okay.
+[00:07:13] Kyle Musca: And the way I look at it is like, the reason I want to do that is because, again, I want to work with serious people.
+[00:07:18] Kyle Musca: And if someone was actually serious about making a change, then they'd jump on that offer because even if they didn't start till December, they've already at least got something secure to actually start by then.
+[00:07:28] Kyle Musca: Does that make sense?
+[00:07:30] Torin McGlynn: Yeah.
+[00:07:30] Torin McGlynn: So how do I frame this on the sales call?
+[00:07:32] Torin McGlynn: I say like, I do my pitch, right?
+[00:07:35] Torin McGlynn: I'm like, oh, either way, I've got an internal thing.
+[00:07:37] Torin McGlynn: don't put this on social media or anything.
+[00:07:41] Torin McGlynn: If you sign up now, the incentive is X, Y, Z.
+[00:07:45] Kyle Musca: Yeah.
+[00:07:46] Kyle Musca: I would probably frame it as like, look, I probably shouldn't do this.
+[00:07:50] Kyle Musca: So, you know, keep it between you and I.
+[00:07:53] Kyle Musca: But I'm going to run an internal challenge for anyone on the team.
+[00:07:57] Kyle Musca: Now the cutoff date is going to be, you know, depending on when it is, it's like the tip.
+[00:08:00] Kyle Musca: 10th of December, the 15th of December, the 20th of December.
+[00:08:03] Kyle Musca: Anyone on the team is actually going to go into it.
+[00:08:05] Kyle Musca: We're going to run an internal challenge.
+[00:08:07] Kyle Musca: I don't post this anywhere, just for the people on the team.
+[00:08:10] Kyle Musca: And there's over $5,000 of prizes to be won.
+[00:08:13] Kyle Musca: If you start now, again, I shouldn't be doing this.
+[00:08:16] Kyle Musca: But not only will you get access to that internal challenge, but I'll also give you the rest of December free.
+[00:08:23] Kyle Musca: So essentially, get the four-month coaching for the price of three.
+[00:08:28] Torin McGlynn: Okay, yeah, yeah, yeah, yeah.
+[00:08:30] Torin McGlynn: That goes in with the group chat.
+[00:08:32] Torin McGlynn: I've got a block and friction point at group chat because of the disparity in my clients.
+[00:08:38] Torin McGlynn: I mean, I've got like 20-year-olds who are trying to get shredded and trying to be like, you know, photoshoot ready.
+[00:08:45] Torin McGlynn: And then I've got, you know, Karen, who's 62, who's got lung failure, you know?
+[00:08:55] Kyle Musca: You could just do it by age.
+[00:08:58] Torin McGlynn: Do you think multiple, like two group chats?
+[00:09:00] Torin McGlynn: Maybe?
+[00:09:01] Kyle Musca: could do an older and younger.
+[00:09:03] Torin McGlynn: Depending.
+[00:09:03] Torin McGlynn: Okay.
+[00:09:04] Torin McGlynn: To be fair, it's like 80% older.
+[00:09:08] Torin McGlynn: 20% younger.
+[00:09:17] Kyle Musca: If it's that big of a disparity, then I'd probably just do one.
+[00:09:22] Kyle Musca: And the younger ones are probably just not going to be super active in it.
+[00:09:26] Torin McGlynn: Cool.
+[00:09:27] Torin McGlynn: Yeah, it's mostly women as well.
+[00:09:28] Torin McGlynn: So they can talk about their menopause or something.
+[00:09:31] Torin McGlynn: Yeah, I'll get on that.
+[00:09:33] Torin McGlynn: Going back to like the December thing with like, you know, that's a good way to obviously close and give people more incentive because December is obviously Christmas, all that stuff.
+[00:09:41] Torin McGlynn: Not really in a buying mindset.
+[00:09:43] Torin McGlynn: What do you think I should do now to start setting up for like January and stuff as well?
+[00:09:52] Kyle Musca: So a good thing for this is, yeah, you got the coach on now.
+[00:09:55] Kyle Musca: So I would, I would start like looking to market for a new year.
+[00:10:01] Torin McGlynn: Challenge.
+[00:10:02] Torin McGlynn: Okay.
+[00:10:03] Torin McGlynn: Do you think I can mid-ticket offer or the challenge?
+[00:10:07] Torin McGlynn: Oh, you said this before, the challenge is high-ticket.
+[00:10:10] Torin McGlynn: It's just my actual coaching.
+[00:10:12] Kyle Musca: Yeah.
+[00:10:12] Kyle Musca: So that works with the same problem we just spoke about because then you'd be like, yeah, well, I messaged you on the challenge.
+[00:10:17] Kyle Musca: Yeah, we start January 12th, but the cutoff point is actually December 20th.
+[00:10:22] Kyle Musca: So I need to make sure that because this isn't just like a copy and paste program, we need to make sure that everyone on the team has their program fully built for the New Year's.
+[00:10:28] Kyle Musca: And obviously with the Christmas period and everything like that, you know, we are going to spend time, I'm going to spend time with my friends and family and everything.
+[00:10:35] Torin McGlynn: So I want to make sure that every single program, it's all custom built, which obviously takes a lot of time and care, need to make sure it's all done and ready for when we start January 12th.
+[00:10:44] Torin McGlynn: Okay.
+[00:10:45] Torin McGlynn: Yeah, I can do that.
+[00:10:46] Torin McGlynn: You put up, I saw you put up on your story, like a interest thing.
+[00:10:51] Kyle Musca: Yeah.
+[00:10:51] Kyle Musca: So that's essentially what you do is when you do it.
+[00:10:55] Kyle Musca: Have I showed you my marketing challenge framework?
+[00:10:58] Torin McGlynn: No.
+[00:11:00] Kyle Musca: Yeah.
+[00:11:00] Torin McGlynn: Maybe I do, but I don't think so in a while.
+[00:11:06] Kyle Musca: So.
+[00:11:19] Kyle Musca: Where is the challenge thing, ?
+[00:11:33] Torin McGlynn: To be honest, while I'm sick, it might be a good opportunity to create this group chat, because I could open up being like, hey, I made a group chat because I'm sick and I'm going to tell you all that my responses are going to be slower.
+[00:11:45] Kyle Musca: But at the same time, what do you all introduce yourselves?
+[00:11:48] Kyle Musca: I wouldn't say that.
+[00:11:49] Kyle Musca: was like, hey, I made this group chat just to, you know, reuse this as a bit of an accountability tool.
+[00:11:54] Kyle Musca: At the end of the day, we were all here to, like, you know, inspire and uplift each other and, you know, et cetera, et
+[00:12:00] Torin McGlynn: So this is like an accountability tool.
+[00:12:02] Torin McGlynn: Okay, cool.
+[00:12:04] Kyle Musca: I would kind of like never let them know that like my response can be slow.
+[00:12:07] Kyle Musca: Like I just like, I'll just throw it in there.
+[00:12:09] Kyle Musca: Like if you're talking to someone personally, apologies being sick as though.
+[00:12:14] Kyle Musca: Anyway, so this is like basically how to market a challenge from all different angles.
+[00:12:18] Kyle Musca: We're really just focused on organic.
+[00:12:20] Kyle Musca: could actually, I know you've got to high level if you wanted to actually, you could definitely set it up.
+[00:12:26] Kyle Musca: We'll get to this later, but you can set it up with SMS and email marketing.
+[00:12:31] Kyle Musca: So essentially you want to do like a two to three week max hard push for marketing.
+[00:12:35] Kyle Musca: So it kind of works out well.
+[00:12:37] Kyle Musca: If you prep this week and then sort of launch it like next week or the week after, then we'll have about two weeks.
+[00:12:43] Kyle Musca: I wouldn't do it the week after, but like ideally before.
+[00:12:47] Kyle Musca: And that's where, so the first couple of days you just start doing teasers and like curiosity and stuff.
+[00:12:51] Kyle Musca: Like if, you know, if I would have run a challenge, who'd be keen?
+[00:12:54] Kyle Musca: I've got something huge coming, you know, X, Y, Z.
+[00:12:56] Kyle Musca: Would you do it like, just curious who would be keen on a challenger?
+[00:13:00] Torin McGlynn: If I ran it, I mean, yeah, exactly what you did.
+[00:13:03] Torin McGlynn: So you're in that 14 to 10 days out right now.
+[00:13:06] Kyle Musca: Yeah.
+[00:13:06] Kyle Musca: Well, the thing with me, like my marketing is doing like very well at the moment.
+[00:13:09] Kyle Musca: So it's like, I'm not really rushed to actually get the challenge up.
+[00:13:13] Kyle Musca: But I will, I will run it just like, obviously, it's just when you get deeper into December, dries up.
+[00:13:19] Torin McGlynn: I I was just on your page just before this.
+[00:13:22] Torin McGlynn: You got some ripping videos right now.
+[00:13:24] Torin McGlynn: You even have like a, something I was impressed by was you have like a 1.3 million view video.
+[00:13:30] Torin McGlynn: And then your comment is like Black Friday deal.
+[00:13:32] Kyle Musca: And the comment has like 135 likes.
+[00:13:35] Torin McGlynn: Yeah.
+[00:13:36] Torin McGlynn: Yeah.
+[00:13:36] Kyle Musca: So, I mean, just doing, just doing something like, and you should do that as well.
+[00:13:39] Kyle Musca: Like if you were to run a challenge, time you do a post, do like a graphic, like a thing, like a text block like that, where it's very clear.
+[00:13:46] Torin McGlynn: And I would do it above like the recipe, you know what mean?
+[00:13:49] Kyle Musca: Because everyone's clicking on the caption, see the recipe.
+[00:13:51] Kyle Musca: So that's  thousands of people saying that offer that you have.
+[00:13:55] Torin McGlynn: Yeah.
+[00:13:55] Torin McGlynn: Like, yeah.
+[00:13:56] Torin McGlynn: Yeah.
+[00:13:56] Torin McGlynn: And the videos are still  ripping to be honest.
+[00:13:59] Torin McGlynn: So, um,
+[00:14:01] Torin McGlynn: Yeah, yeah, cool.
+[00:14:03] Torin McGlynn: I'll do that.
+[00:14:06] Kyle Musca: Yeah, so you just like build hype essentially, generate a bit of curiosity.
+[00:14:12] Kyle Musca: Nine to six days out, so that four-day period there.
+[00:14:15] Kyle Musca: Through a four-day period there, you're just doing like hard launch, like announcement-style stuff, right?
+[00:14:22] Kyle Musca: You I just had to create this challenge because, you know, every single, you know, you get a lot of people, New Year's is just a mental reset for them, step in towards a better life, X, Y, Z.
+[00:14:31] Kyle Musca: And that's exactly what this is designed to do, you know what mean?
+[00:14:35] Kyle Musca: If you have any questions, drop them here.
+[00:14:37] Kyle Musca: With those, like you might not get a massive amount of story reviews, so you should be fine.
+[00:14:42] Kyle Musca: But like even so, if you need to chuck your own like questions in there, you know what mean?
+[00:14:48] Kyle Musca: Who's it for?
+[00:14:49] Kyle Musca: So ideally like, you know what mean?
+[00:14:50] Kyle Musca: Like who's it for?
+[00:14:56] Kyle Musca: I have two small kids, is this still going to be good for me?
+[00:14:59] Kyle Musca: I'm
+[00:15:00] Kyle Musca: Struggling with menopause, is this still going to sue me?
+[00:15:02] Kyle Musca: Absolutely every plan is custom built.
+[00:15:03] Kyle Musca: And so you reply to the specific questions that you ask yourself essentially, et cetera, et cetera, et cetera.
+[00:15:10] Kyle Musca: Does that all make sense?
+[00:15:13] Kyle Musca: Yeah, totally sense.
+[00:15:14] Kyle Musca: And then like every single post you do is like, you know, basically what you just saw on my thing there.
+[00:15:21] Torin McGlynn: I do like a carousel for the...
+[00:15:23] Kyle Musca: Carousel, absolutely.
+[00:15:25] Kyle Musca: All that stuff.
+[00:15:26] Torin McGlynn: Yeah, okay.
+[00:15:27] Torin McGlynn: So carousel for the challenge and then I can't say...
+[00:15:30] Torin McGlynn: I think I can give $300 of Ghosts away.
+[00:15:33] Torin McGlynn: They'll just give it to me.
+[00:15:35] Kyle Musca: For the challenge, you just like mark the price right up.
+[00:15:37] Kyle Musca: I'm going to say eight grand because yeah, you could do Ghosts.
+[00:15:40] Kyle Musca: You may even want to like, for me, I'm going to do a Bali trip, for example, for the winner because that's only like $1,000 to $1,500.
+[00:15:47] Torin McGlynn: That's what Sage is doing as well.
+[00:15:49] Torin McGlynn: Yeah.
+[00:15:49] Torin McGlynn: I guess like it's hard because all your clients and some of our Stages are Australian.
+[00:15:57] Torin McGlynn: If I'm bringing someone to Bali from the U.S.
+[00:15:59] Torin McGlynn: That's ridiculous.
+[00:15:59] Torin McGlynn: go Yeah.
+[00:16:00] Torin McGlynn: That's  expensive, you know?
+[00:16:01] Kyle Musca: I'll do a Mexican trip or something, you know what mean?
+[00:16:03] Kyle Musca: The other thing is, like, you know, it doesn't matter, because if you get people from the US and Australia and England joining, just, like, wherever you decide to do your trip, just  pick someone in that area, you know what mean?
+[00:16:14] Torin McGlynn: Oh, , true.
+[00:16:15] Kyle Musca: That's true, yeah.
+[00:16:16] Torin McGlynn: Yeah.
+[00:16:18] Torin McGlynn: Yeah, that's facts, that's facts.
+[00:16:22] Kyle Musca: And then five days out, yeah, just basically just keep posting the same content as you just do, just kind of some reminders, adding a few carousals.
+[00:16:30] Kyle Musca: You know, might, you know, recipe stuff, you'd know what to do there.
+[00:16:35] Torin McGlynn: Matt West does the carousal pretty decently well, so you just tie that into a challenge.
+[00:16:39] Torin McGlynn: He does.
+[00:16:40] Torin McGlynn: I need to get into that kind of content.
+[00:16:42] Torin McGlynn: To be honest, there couldn't be a reason why this week has not gone well.
+[00:16:46] Torin McGlynn: I'm just like, I need to divot a little bit, I reckon.
+[00:16:48] Torin McGlynn: Like, I'm still just spamming  recipes.
+[00:16:50] Torin McGlynn: It's doing well, though.
+[00:16:52] Kyle Musca: Yeah.
+[00:16:53] Kyle Musca: I mean, even on that, I was like a slight tension.
+[00:16:55] Kyle Musca: can see Matt doubles down on that, because it clearly works.
+[00:17:00] Kyle Musca: Well, like, he also does, and I know you've probably seen, but just so we have a visual aspect of it, but does those carousers as well, like, he throws them in there every now and then.
+[00:17:11] Torin McGlynn: Yeah, he does.
+[00:17:12] Torin McGlynn: He also does, like, little, they do pretty well on bikes, to be fair.
+[00:17:16] Torin McGlynn: I thought they would do way worse.
+[00:17:18] Kyle Musca: No, the carousels are the second best form of post, besides reels, because people spend so long on them.
+[00:17:26] Torin McGlynn: Do you reckon, like, either way, that's kind of -looking, to be honest.
+[00:17:29] Torin McGlynn: Like, that's, looks a bit .
+[00:17:31] Torin McGlynn: Yeah.
+[00:17:32] Torin McGlynn: Do you, do you reckon that's kind of the meta, is, like, just doing normal Instagram kind of fonts?
+[00:17:36] Torin McGlynn: Like, if I was thinking of Carousel, um, I would, like, go into Canva and make it look, like, sick.
+[00:17:42] Kyle Musca: Nah, I wouldn't.
+[00:17:43] Kyle Musca: I would keep it kind of  like that, um, simply because, and I've been caught, I've been stung, not stung, but caught with this before, is the more organic, like, you want to obviously, to look decent, but if it looks too well put together, like, it can be created on camera, for example.
+[00:18:00] Kyle Musca: For looks too ad-like.
+[00:18:03] Kyle Musca: It's either probably a combination of both.
+[00:18:05] Kyle Musca: Instagram reads it kind of like too ad-y.
+[00:18:08] Kyle Musca: They don't like pushing it.
+[00:18:09] Kyle Musca: And then people, when they immediately see it, their brain, because the human brain is exposed to over 2,000 pieces of marketing every single day.
+[00:18:15] Kyle Musca: So it's actually had to evolve.
+[00:18:16] Kyle Musca: So when it sees something that's marketing or salesy, it just switches off immediately.
+[00:18:21] Kyle Musca: So it's like if they see it and it looks too ad-y, they're just like, yeah, keep going.
+[00:18:26] Kyle Musca: Yeah.
+[00:18:27] Torin McGlynn: It's probably going to do, if it's a challenge post, I don't imagine doing that well and likes and  anyway.
+[00:18:32] Kyle Musca: No, but you don't have to do that.
+[00:18:34] Kyle Musca: Well, one, you might do a carousel where it's like officially announcing the challenge.
+[00:18:40] Kyle Musca: But then you might want to do one, you know, in this sort of five to three-day period where it kind of is like, you know, these quotes might change your life or not every transformation needs to be shared with  abs.
+[00:18:55] Kyle Musca: You know what mean?
+[00:18:57] Torin McGlynn: Yeah, true.
+[00:18:58] Kyle Musca: That's actually just a...
+[00:18:59] Kyle Musca: Maybe.
+[00:19:00] Kyle Musca: Something of your own personal story.
+[00:19:02] Torin McGlynn: I mean, I'd come to Matt's actual account, have a look.
+[00:19:05] Torin McGlynn: Yeah.
+[00:19:07] Torin McGlynn: There's a few of them that do it.
+[00:19:12] Kyle Musca: You may even want to dabble in these actual D-style reaction videos as well.
+[00:19:16] Torin McGlynn: You can see he's dabbled in them.
+[00:19:18] Torin McGlynn: They don't get anywhere near as many likes as usually does, but they're all right.
+[00:19:21] Torin McGlynn: Yeah.
+[00:19:22] Torin McGlynn: When I was speaking to Renee and the ghost people, they were like, they don't want pay me immediately.
+[00:19:30] Torin McGlynn: Because they want to test for three months before they give me a salary because all my content is looking at my phone.
+[00:19:36] Torin McGlynn: That was their reason.
+[00:19:38] Kyle Musca: Oh.
+[00:19:39] Torin McGlynn: So they said three months.
+[00:19:41] Torin McGlynn: give me the, they'll still give me all the supplements and stuff.
+[00:19:43] Torin McGlynn: This only happened yesterday, which I think is kind of fair enough.
+[00:19:46] Torin McGlynn: Let's see how my influence is.
+[00:19:48] Torin McGlynn: And then if it's, I said like it was really good.
+[00:19:51] Torin McGlynn: To be honest, it's not hard to do it in Australia, man.
+[00:19:53] Kyle Musca: I was like the top-selling ghost athlete and I like barely pushed it.
+[00:19:57] Torin McGlynn: Really?
+[00:19:58] Kyle Musca: I was.
+[00:19:59] Kyle Musca: Well, back in.
+[00:20:00] Kyle Musca: In day, pushed it, like, a fair bit harder, and then, like, they just don't care about their Australian athletes, so I was like, oh,  you guys, I'm not going push you that hard, then if you're not going to do anything.
+[00:20:08] Torin McGlynn: So now I just...
+[00:20:09] Torin McGlynn: What's, like, good amount, like, would you get, like, thousands of orders a month, or, like, I don't even know, it's never been sponsored.
+[00:20:17] Kyle Musca: No, wasn't even that high.
+[00:20:19] Kyle Musca: Like, it was decent, but it wasn't, like, for me to be, like, the top, or the top three, I think it got to, it was, like, it wasn't that high.
+[00:20:28] Torin McGlynn: Yeah, they do, they tell you if you're top three.
+[00:20:33] Kyle Musca: They, they will slide it in there, they won't, like, actively tell you, but they'll slide it in there.
+[00:20:38] Torin McGlynn: Yeah, yeah.
+[00:20:38] Kyle Musca: But it's also good to, like, recommend it to your clients and stuff like that, you know, that's an easy, like, little upsell for you now that you've got Ghost.
+[00:20:45] Torin McGlynn: Yeah, I mean, literally yesterday, she sent me a big email being like, this is not what we're, not what we wanted, but we want to do a three-month trial, because, you know, you look at your phone, we want to see how the influence is.
+[00:20:58] Torin McGlynn: And I was like, okay, fair enough.
+[00:21:02] Kyle Musca: You should be like, okay, well, after that three months, then I want to be repaid for the three months.
+[00:21:09] Torin McGlynn: We'll see how well I can do in the three months.
+[00:21:11] Kyle Musca: Like, I've never even tested my influence when it comes to discount codes.
+[00:21:14] Kyle Musca: And you didn't have any story views, man.
+[00:21:15] Kyle Musca: Like, just post a new story before I was buying, I reckon.
+[00:21:18] Torin McGlynn: My story views kind of change.
+[00:21:21] Torin McGlynn: Like, obviously, it does well if it gets likes.
+[00:21:23] Torin McGlynn: But if I get one that, like,  likes, I'm only at, like, 15K for my story views.
+[00:21:30] Kyle Musca: My ones that get  likes get, like, 1,000, man.
+[00:21:34] Torin McGlynn: Like, 1,500.
+[00:21:35] Kyle Musca: Oh, really?
+[00:21:36] Kyle Musca: Yeah.
+[00:21:37] Kyle Musca: Stories are .
+[00:21:38] Kyle Musca: They're kind of retarded in that way.
+[00:21:41] Kyle Musca: But, yeah, it's just got to be something, like, interesting, you know what I mean?
+[00:21:45] Torin McGlynn: Yeah.
+[00:21:45] Torin McGlynn: If I post a physique update, it will get, like, 500 likes, 30,000, 40,000 views.
+[00:21:52] Kyle Musca: Yeah.
+[00:21:52] Kyle Musca: I I posted one with Bree just, like, playing with the puppies, and they've got, like, 25,000 or 30,000 views, which, for me, on stories is good because I, like, never posted new stories.
+[00:22:00] Kyle Musca: Oh, that's the, you've got the girlfriend strat there.
+[00:22:03] Kyle Musca: That's perfect.
+[00:22:04] Kyle Musca: Yeah.
+[00:22:06] Kyle Musca: Anyway, so yeah, the carousals, all that stuff.
+[00:22:10] Kyle Musca: So yeah, that'd be a good, like, little addition and everything.
+[00:22:12] Kyle Musca: And then realistically, from that three days to zero days, it's just like hardcore urgency.
+[00:22:18] Kyle Musca: You know what mean?
+[00:22:18] Kyle Musca: Like  last 72 hours to join, every day on a story, last 72 hours to join, last 48 hours to join, last 24 hours to join.
+[00:22:25] Kyle Musca: They've got 20 spots open, 17 of them taken, 19 of them taken, one spot left, make sure you get in now, et cetera, et cetera, et cetera, et cetera.
+[00:22:33] Kyle Musca: You know what mean?
+[00:22:33] Kyle Musca: Just push urgency like a .
+[00:22:36] Kyle Musca: And then what you can do is, like, after that official launch date, you might not want to really do it this time around.
+[00:22:43] Kyle Musca: We will, so essentially, if it's a New Year's challenge, you'd probably, I'm going to cut off the date around December 20th.
+[00:22:48] Kyle Musca: That's what I tell Sage and everyone else to do as well, because, like, no one's going to be signing up for a challenge in that Christmas period.
+[00:22:53] Kyle Musca: They're going to be in half.
+[00:22:54] Kyle Musca: Hardcore, you know, couch potato mode.
+[00:22:58] Kyle Musca: So it's like...
+[00:23:00] Kyle Musca: Yeah, my cutoff date, which I didn't see, is December 20th or December 21st or like 19th or whatever you want to  say.
+[00:23:07] Kyle Musca: Usually, if it's a normal challenge thing, which we'll do an extended version of this, which I'll explain in a second, you might even want to do like the day after.
+[00:23:15] Kyle Musca: I've had so many people saying that they were just waiting to get paid or something like that and they just missed out.
+[00:23:21] Kyle Musca: I'm going to open it up for three more spots.
+[00:23:23] Kyle Musca: It's first come, first serve.
+[00:23:26] Kyle Musca: I'm going to open it up for three more days.
+[00:23:28] Kyle Musca: This is your last, you know, chance.
+[00:23:30] Torin McGlynn: You know what mean?
+[00:23:31] Torin McGlynn: Whatever.
+[00:23:31] Torin McGlynn: I'm feeling generous, that kind of .
+[00:23:33] Kyle Musca: Yeah.
+[00:23:34] Kyle Musca: You know what mean?
+[00:23:35] Kyle Musca: Just because of the massive amount of inquiry, people like devastated, they missed it, whatever you  say.
+[00:23:41] Kyle Musca: That's how you usually run it.
+[00:23:42] Kyle Musca: I don't think run it this time.
+[00:23:43] Kyle Musca: Just have a hard cutoff date.
+[00:23:45] Kyle Musca: know what 19th, 20th, 21st, we can all say.
+[00:23:47] Torin McGlynn: See, I've done it for the time doing one of these things.
+[00:23:50] Kyle Musca: Well, then essentially what you do is in the new year, so after January 1st, then you would open back up the floodgates.
+[00:23:58] Kyle Musca: Massive amount of people that miss the intake.
+[00:23:59] Kyle Musca: intake.
+[00:23:59] Kyle Musca: There's
+[00:24:00] Kyle Musca: Um, for my challenge, we start in two weeks.
+[00:24:03] Kyle Musca: I'm going to open up for 10 more positions only.
+[00:24:06] Kyle Musca: Once these 10 spots are gone, they're gone.
+[00:24:09] Kyle Musca: And then essentially over the next two weeks, you would slowly keep counting that down.
+[00:24:12] Kyle Musca: Already had three people sign up yesterday, right?
+[00:24:15] Kyle Musca: If you haven't joined yet, make sure you're getting quick.
+[00:24:18] Kyle Musca: Two people signed up yesterday.
+[00:24:19] Kyle Musca: Last, you know, and then you constantly just every, like almost every single day, you're putting something about the challenge and how quickly it's filling up.
+[00:24:26] Torin McGlynn: Right.
+[00:24:27] Kyle Musca: Yeah.
+[00:24:28] Kyle Musca: I mean, so you do it a second hard two week push.
+[00:24:31] Torin McGlynn: Yeah.
+[00:24:32] Torin McGlynn: Cool.
+[00:24:34] Kyle Musca: Um, yeah, that would do quite well for you.
+[00:24:37] Kyle Musca: And then, yeah, does that make sense?
+[00:24:41] Torin McGlynn: That'll make sense.
+[00:24:42] Torin McGlynn: Will you send me this, uh, document?
+[00:24:44] Kyle Musca: Yeah.
+[00:24:45] Torin McGlynn: Um, yeah, that'll make sense.
+[00:24:47] Torin McGlynn: I've, I've never done anything like this.
+[00:24:49] Torin McGlynn: It's funny to think that I've been like 62,000 without like pretty much just with DM set already.
+[00:24:55] Kyle Musca: And me realistically, like one funnel that direct sale funnel, um, but one good.
+[00:25:00] Kyle Musca: Funnels should take about a million years.
+[00:25:02] Kyle Musca: So it's like, it definitely works.
+[00:25:04] Kyle Musca: And this is basically the exact same funnel.
+[00:25:06] Torin McGlynn: It's just gift wrapping in a new wrapper.
+[00:25:09] Kyle Musca: Yeah.
+[00:25:14] Kyle Musca: You know what you should also do right now?
+[00:25:16] Kyle Musca: Is, oh, wait, you're not, no, you're technically taking on clients again.
+[00:25:21] Kyle Musca: I was going to say.
+[00:25:22] Torin McGlynn: Technically.
+[00:25:23] Kyle Musca: Yeah, I was going to say, like, while you're trying to, like, you're capped out and trying to find a coach, you should have pushed, like, on your stories and stuff hard that you're not currently taking on clients, but join a waitlist, et cetera, et cetera.
+[00:25:34] Torin McGlynn: Oh, , true.
+[00:25:35] Torin McGlynn: Obviously, no waitlist now, so.
+[00:25:37] Kyle Musca: Yeah, no point in doing that.
+[00:25:39] Kyle Musca: I mean, that's always a strat, especially if you had a setter.
+[00:25:42] Kyle Musca: You can say publicly, like, I'm completely full at the moment, join the waitlist, and the setter just goes through and calls all those people on the back end.
+[00:25:49] Torin McGlynn: Yeah.
+[00:25:51] Torin McGlynn: Oh, so they're actually calling phone numbers.
+[00:25:54] Kyle Musca: And you're going to get an actual setter, yeah.
+[00:25:57] Kyle Musca: Yeah.
+[00:25:58] Kyle Musca: And you've got the volume that I record.
+[00:26:00] Kyle Musca: And, like, you could do it because I definitely think you could do it.
+[00:26:07] Torin McGlynn: Yeah, it's a qualifying call and then an actual call.
+[00:26:11] Kyle Musca: Yeah, so it's like give something away.
+[00:26:13] Kyle Musca: They give their contact information.
+[00:26:14] Kyle Musca: We could set up a text, email, automation through GROW high level.
+[00:26:17] Kyle Musca: The setter gives them a call as soon as possible.
+[00:26:20] Kyle Musca: Hey, you know, Rachel, I saw you download a Torrance, you know, meal plan guide.
+[00:26:26] Kyle Musca: I just wanted to, you know, give you a quick call.
+[00:26:28] Kyle Musca: Did you get access to that?
+[00:26:30] Kyle Musca: Awesome.
+[00:26:31] Kyle Musca: I just wanted to see, like, we've got a few things that we could help you out with.
+[00:26:33] Kyle Musca: I just want to see if there's anything else.
+[00:26:35] Kyle Musca: Again, we're probably coming.
+[00:26:36] Kyle Musca: We've got a script for it and everything like that.
+[00:26:38] Kyle Musca: could find a script from when I did my triage calls.
+[00:26:40] Kyle Musca: But basically, she just qualifies and tries to add more value and then get them on a second call.
+[00:26:47] Kyle Musca: Okay, cool.
+[00:26:49] Kyle Musca: Or, again, you could, you know, because they're only on the call, just, like, downsell them onto a low-ticket thing.
+[00:26:56] Torin McGlynn: Okay.
+[00:26:57] Torin McGlynn: What's a low-ticket thing?
+[00:26:58] Torin McGlynn: 1K?
+[00:26:59] Torin McGlynn: Or is it...
+[00:28:00] Kyle Musca: So here, nice and neatly tucked in for you.
+[00:28:02] Kyle Musca: And then when you have a closer on, you can see that, like, all the different calendar types and everything like that.
+[00:28:07] Kyle Musca: then if you understand, it's pretty easy, you could say Tommy, right?
+[00:28:11] Kyle Musca: Oh, that's really  annoying.
+[00:28:14] Torin McGlynn: Are they all sales calls?
+[00:28:18] Kyle Musca: Yeah.
+[00:28:19] Torin McGlynn: Heaps of sales calls.
+[00:28:22] Kyle Musca: Yeah, that's what I saying.
+[00:28:24] Torin McGlynn: They're all Tommy's sales calls.
+[00:28:25] Kyle Musca: He does a lot of them.
+[00:28:26] Kyle Musca: Yeah, that's, next week.
+[00:28:28] Torin McGlynn: That's what I was saying.
+[00:28:29] Torin McGlynn: hell.
+[00:28:31] Torin McGlynn: That's insane.
+[00:28:33] Kyle Musca: Yeah.
+[00:28:34] Kyle Musca: it's, like, on this  loads.
+[00:28:39] Kyle Musca: But, yeah, so.
+[00:28:46] Kyle Musca: And then the cool thing about Go High Level is, like, so you can see.
+[00:28:54] Kyle Musca: Yeah, so, okay, cool.
+[00:28:56] Kyle Musca: Different color.
+[00:28:57] Kyle Musca: Yeah, it's a different color.
+[00:28:59] Kyle Musca: Color's a different calendar.
+[00:28:59] Kyle Musca: don't
+[00:29:00] Kyle Musca: So you can see where things are coming from.
+[00:29:02] Kyle Musca: So basically, you do come into calendar settings, and then you'd have like your core ones.
+[00:29:09] Kyle Musca: So for me, from my ads and stuff that the set is booking on, it's a vision call.
+[00:29:13] Kyle Musca: And then basically, I can just duplicate everything.
+[00:29:14] Kyle Musca: Like you just easily clone it, duplicate it when you need to create a new calendar for whatever reason.
+[00:29:19] Kyle Musca: So coming here, vision call, that's just so I can see who's coming directly from an ad.
+[00:29:24] Kyle Musca: Down here, you can give it a color.
+[00:29:25] Kyle Musca: can assign team members.
+[00:29:27] Kyle Musca: Because if you have multiple team members, you can't, most of the time, it should be a manual set.
+[00:29:32] Kyle Musca: So this is only matters if it's like a self-set.
+[00:29:35] Kyle Musca: If the set is doing it, then they can choose who they want.
+[00:29:38] Kyle Musca: Otherwise, you can choose different priorities.
+[00:29:40] Kyle Musca: So it's like if Tommy's high priority and not medium priority, someone wants to book in at 3 p.m., they'll go to Tommy first.
+[00:29:46] Kyle Musca: If someone else wants to book in 3 p.m., that second call would go to me.
+[00:29:51] Torin McGlynn: Oh, .
+[00:29:52] Kyle Musca: Sure.
+[00:29:53] Kyle Musca: Does that make sense?
+[00:29:54] Torin McGlynn: So this works just like Kamloin's.
+[00:29:57] Kyle Musca: I think it's better than Kamloin.
+[00:30:00] Torin McGlynn: Okay, cool.
+[00:30:01] Kyle Musca: Yeah.
+[00:30:02] Kyle Musca: And then this is where you set up the details for like 30-minute durations, intervals, well, that's pretty straightforward.
+[00:30:08] Kyle Musca: Yeah.
+[00:30:09] Kyle Musca: Forms payment, if it's a manual book, you don't really need to worry about that.
+[00:30:13] Kyle Musca: You could do a form.
+[00:30:15] Kyle Musca: You could do a form in terms of it kind of works like job form, obviously, so you kind of pre-qualify.
+[00:30:20] Kyle Musca: The reason I don't do it through this is because you can't add conditional logic.
+[00:30:24] Kyle Musca: So it's like I don't want someone self-setting themselves if they don't qualify.
+[00:30:27] Kyle Musca: just doesn't make sense.
+[00:30:28] Kyle Musca: You could, where that would make sense is like if you did have a setter, it's like, cool, anyone that books a call, the setter's going to call and they can pre-qualify them and then they send them in the direction they want.
+[00:30:38] Torin McGlynn: All right?
+[00:30:39] Torin McGlynn: Yeah, sounds good.
+[00:30:39] Kyle Musca: Yeah.
+[00:30:41] Kyle Musca: Again, most of the time it should be a manual book and you don't really need to worry about that.
+[00:30:45] Kyle Musca: All that stuff you don't need to worry about.
+[00:30:47] Kyle Musca: So that's pretty simple.
+[00:30:48] Kyle Musca: It's like, you you just get it in that play that it's pretty straightforward.
+[00:30:51] Kyle Musca: Yeah, obviously, if have any questions, just let me know.
+[00:30:53] Kyle Musca: Or what I personally did and like to do for stuff like this is just take a screenshot, upload it in ChatGPT.
+[00:30:59] Kyle Musca: This is what I'm doing.
+[00:31:00] Torin McGlynn: This is what I'm trying to do.
+[00:31:00] Torin McGlynn: How do I do it?
+[00:31:02] Torin McGlynn: Yeah, yeah, yeah.
+[00:31:05] Torin McGlynn: Since our last conversation, I've been trying to use ChatGPT more.
+[00:31:08] Torin McGlynn: You blew my mind with how well you were using it compared to I was.
+[00:31:11] Torin McGlynn: I used it literally like a three-year-old compared to your final boss, ChatGPT.
+[00:31:16] Kyle Musca: Yeah, most people don't use it anywhere near to what it can be.
+[00:31:20] Kyle Musca: You can literally set it up in the settings.
+[00:31:23] Kyle Musca: It's kind of annoying.
+[00:31:24] Kyle Musca: It's not annoying, it's good, but it's kind of annoying when I just want something simple.
+[00:31:26] Kyle Musca: You can set it up in the settings to say, like, don't be biased, don't just give me, like, you know, random , make sure you spend time on everything, actually do research on it and everything.
+[00:31:35] Kyle Musca: So, it's like, I'll ask it, like, the most simple thing, and then it'll, like, take 10 seconds to, like, do research on it, and then it'll, like, write me.
+[00:31:42] Kyle Musca: Oh, yeah.
+[00:31:42] Kyle Musca: As it break down, I'm like, , man, just tell me simply.
+[00:31:46] Torin McGlynn: I used agent mode for the first time the other day.
+[00:31:49] Torin McGlynn: That thing took, like, 10 minutes, and it was, like, the most in-depth thing ever.
+[00:31:53] Kyle Musca: Yeah, because agent mode, it can, like, it will literally go do search the web for you.
+[00:31:57] Kyle Musca: So, like, I used it yesterday, for example.
+[00:32:00] Kyle Musca: Didn't do it.
+[00:32:00] Kyle Musca: I did it on my phone.
+[00:32:01] Kyle Musca: So I don't think it was as good as on the computer, but you can say like, I want to rent a car in Vancouver for like a month, go find me the best option.
+[00:32:07] Kyle Musca: And then it will like, it literally should pull up a screen and it will like actually show you what it's doing.
+[00:32:13] Torin McGlynn: Yeah.
+[00:32:14] Torin McGlynn: Yeah.
+[00:32:14] Torin McGlynn: It's pretty, it's pretty cool.
+[00:32:16] Kyle Musca: Yeah.
+[00:32:18] Kyle Musca: So yeah, cool stuff there.
+[00:32:20] Kyle Musca: Now, so that's pretty much calendar.
+[00:32:22] Kyle Musca: That's like 90% of what you'd need to really access it for.
+[00:32:27] Kyle Musca: The other thing is, so what I do here is if you're doing your pre-call messages, for example, I'll call up, you know, Brandon, I'll create his thing.
+[00:32:34] Kyle Musca: I'll grab his email.
+[00:32:36] Torin McGlynn: I'll come into here.
+[00:32:37] Torin McGlynn: Oh, this is the, this is the morning text you're doing right now.
+[00:32:40] Kyle Musca: Yeah.
+[00:32:41] Kyle Musca: And then I do emails because it actually searches it.
+[00:32:44] Kyle Musca: So it makes it super, super easy to find them.
+[00:32:47] Kyle Musca: And then I'm like, cool.
+[00:32:48] Kyle Musca: Pre-call message.
+[00:32:49] Kyle Musca: Here's the stuff.
+[00:32:50] Kyle Musca: All good.
+[00:32:52] Torin McGlynn: You always do a voice note, hey?
+[00:32:54] Kyle Musca: Yeah.
+[00:32:54] Torin McGlynn: Yeah.
+[00:32:55] Kyle Musca: note message.
+[00:32:56] Kyle Musca: And then I just, for that message, I just copy this one.
+[00:32:59] Kyle Musca: All right.
+[00:33:00] Torin McGlynn: This guy is qualified as hell.
+[00:33:03] Kyle Musca: Yeah, my setting, everything is really dull.
+[00:33:07] Torin McGlynn: Have you got, have you still got a company on it?
+[00:33:10] Kyle Musca: Yeah, but mine's direct marketing.
+[00:33:12] Kyle Musca: Like, these guys are all coming off on a direct ad.
+[00:33:14] Kyle Musca: Like, they know what they're for.
+[00:33:15] Kyle Musca: Oh, they know what they're doing.
+[00:33:16] Kyle Musca: Yeah, so it's not like a lead magnet conversion.
+[00:33:19] Kyle Musca: Because you're doing, like, lead magnet conversion stuff, your conversion rate's going to be a lot lower.
+[00:33:24] Torin McGlynn: Yeah.
+[00:33:26] Kyle Musca: But yeah, so that's that.
+[00:33:29] Kyle Musca: And then what I do if I do need it is you can just copy the drone meeting and send it straight there.
+[00:33:33] Kyle Musca: That's the other thing in the appointment view.
+[00:33:36] Kyle Musca: The appointment view end, you have to connect, obviously, the calendar, like Zoom or Google Meet or whatever you're using.
+[00:33:42] Kyle Musca: But you can add that in there.
+[00:33:44] Kyle Musca: So just auto-attach it.
+[00:33:48] Torin McGlynn: So you think I should get rid of Calendly?
+[00:33:49] Kyle Musca: was going to.
+[00:33:51] Kyle Musca: If you've got to go to Harlow, there's no reason to have Calendly.
+[00:33:54] Torin McGlynn: Yeah, I bought the  year of the two-seat version.
+[00:33:58] Kyle Musca: If you cancel it, shouldn't
+[00:34:00] Kyle Musca: Maybe give you a refund, I'm not sure.
+[00:34:04] Kyle Musca: It's better to have it in here because it's like as soon as someone creates a booking, they're also contacting your CRM.
+[00:34:11] Kyle Musca: Whereas in Calum, you have to download the CSV file and upload it into that.
+[00:34:16] Kyle Musca: So the second one is, sorry, on that, it's probably easier to say, I've got a chick that can set this up.
+[00:34:23] Kyle Musca: But like this is automation.
+[00:34:25] Kyle Musca: So this is where you set up like different things.
+[00:34:28] Kyle Musca: One is like if a certain action happens and they go somewhere.
+[00:34:33] Kyle Musca: So what that means like, what I mean by that is like the other day I set it up.
+[00:34:37] Kyle Musca: So if someone filled out my job form, I set up a zap.
+[00:34:42] Kyle Musca: So they automatically created, and I'll show an opportunity later.
+[00:34:45] Kyle Musca: They automatically went into a bucket saying like this is, it created them as a contact with their details.
+[00:34:50] Kyle Musca: So the setup can go self-set them or like get them on a closing call.
+[00:34:54] Kyle Musca: But because I got that self-booking option there, if they were to self-book on that calendar, it's
+[00:35:00] Kyle Musca: It automatically takes them from, they've just filled out the form to they've already self-booked and it automatically changes them from bucket to bucket.
+[00:35:07] Kyle Musca: So it's like, if they complete a certain action, they can automatically shift, if that makes sense.
+[00:35:12] Kyle Musca: Well, kind of like Zapier, right?
+[00:35:15] Kyle Musca: Like, pretty much you got Zapier.
+[00:35:16] Kyle Musca: If they do some, if they do this, then X happens.
+[00:35:19] Torin McGlynn: Automated.
+[00:35:19] Kyle Musca: Yeah.
+[00:35:20] Torin McGlynn: Yeah.
+[00:35:22] Kyle Musca: Otherwise, this is also where you can set up like SMS and email automations as well.
+[00:35:26] Torin McGlynn: So this is where you'd send that.
+[00:35:27] Torin McGlynn: That's what I need, big time.
+[00:35:28] Torin McGlynn: Actually, the SMS is, I got the SMS is nice and dialed, but the, um, can't leave, but I'll just do the same ones.
+[00:35:35] Kyle Musca: Yeah, it's the exact same.
+[00:35:36] Kyle Musca: I've got the thing you can set up for it, the, the framework.
+[00:35:40] Kyle Musca: There's two ways to do it.
+[00:35:41] Kyle Musca: You can get complicated and you can say, so like reply yes to confirm you're good for it, et cetera, et cetera.
+[00:35:45] Kyle Musca: Didn't really like that one.
+[00:35:46] Kyle Musca: Um, just because I don't  check it anyway.
+[00:35:50] Kyle Musca: So it doesn't really matter if they say yes or not to me.
+[00:35:54] Torin McGlynn: Whenever I receive one of those say why, I say I don't reply and I go to the things, you know?
+[00:36:00] Kyle Musca: Yeah.
+[00:36:01] Kyle Musca: Plus, too, like, the way I see it is, because we have, like, a lot of personalization into this, then, you know, this is more so just to set as a reminder and, like, just to make it super clear on how to get on the call, when to get on the call.
+[00:36:16] Kyle Musca: But essentially, you see all the different calendars here.
+[00:36:18] Kyle Musca: So these are all the different options people can book in on.
+[00:36:22] Kyle Musca: Doesn't matter.
+[00:36:22] Kyle Musca: Like, whenever they book into them, they automatically feed into this.
+[00:36:26] Torin McGlynn: Oh, yeah.
+[00:36:27] Kyle Musca: Okay.
+[00:36:27] Kyle Musca: I won't have that many calendars, though.
+[00:36:30] Kyle Musca: No, you'd have, like, one or two, but you just, again, it's super easy to do.
+[00:36:32] Kyle Musca: just, like, duplicate it, and it keeps going on.
+[00:36:35] Kyle Musca: Cool.
+[00:36:36] Kyle Musca: But essentially, you'd have the email that goes out.
+[00:36:38] Kyle Musca: This is the email confirmation, and text goes out.
+[00:36:41] Kyle Musca: This is, yeah, booking appointment confirmed, links in your email, yada, yada, yada.
+[00:36:46] Kyle Musca: Then you just said, wait 24 hours, 24 hours before the call, right?
+[00:36:53] Kyle Musca: So, obviously, you just set up like that.
+[00:36:55] Kyle Musca: Again, I've got Shelly.
+[00:36:56] Kyle Musca: She's a go-high of a chick.
+[00:36:57] Kyle Musca: She can set this up for you, like, 20 bucks or something.
+[00:36:59] Kyle Musca: It's pretty
+[00:37:01] Torin McGlynn: I'd be happy if you did that, to be honest.
+[00:37:03] Kyle Musca: Yeah, it's just not worth your time.
+[00:37:04] Kyle Musca: It's not that complicated.
+[00:37:06] Kyle Musca: Like, literally, again, just goes through 24 hours, morning of, two hours before, 10 minutes before.
+[00:37:11] Kyle Musca: And then it's like, it's pretty, if you want to add more  and you just add that in, add action, et cetera, et cetera, et cetera.
+[00:37:16] Torin McGlynn: And this all only costs $99 a month?
+[00:37:19] Kyle Musca: I mean, to set up an automation, it doesn't cost you anything in terms of just having the automation there.
+[00:37:25] Kyle Musca: But when you send an SMS out, it does cost like, it's like less than a cent per SMS, but it can add up.
+[00:37:33] Kyle Musca: Yeah, if you've got, if you've got a lot of calls booked or you're doing a lot of SMS and email, email, I'm pretty sure it's free.
+[00:37:39] Kyle Musca: But if you're doing a lot with SMS marketing and stuff, it can add up pretty quick, even though it is like less than a cent.
+[00:37:45] Torin McGlynn: Yeah.
+[00:37:46] Torin McGlynn: Okay, that sounds good.
+[00:37:48] Torin McGlynn: And then when it comes to email marketing, because that's where you, you were probably adamant that I should really focus on some email  as well, hey?
+[00:37:55] Kyle Musca: Well, in terms of the automation stuff, it's the exact same process there.
+[00:37:59] Kyle Musca: here.
+[00:37:59] Kyle Musca: Do Do
+[00:38:00] Kyle Musca: So you basically set it up, so it's like once someone, you basically set up, once someone opts into the lead magnet, however you set that up, probably more so through ClickFunnels, I would suggest, and then you'd set up a Zapier, they automatically go into this funnel, so it'd probably tag them or something like that, we can figure out the details, Shelley would be able to set that  up.
+[00:38:22] Kyle Musca: Or actually, I've got to go, I've got a Zapier guy that would set that  up.
+[00:38:26] Torin McGlynn: So essentially, once they go into that, then email one goes, a day after that, email two goes, a day after that, email three goes, it's the exact same build.
+[00:38:33] Torin McGlynn: Oh, it's literally, that is the email flow, like that as well.
+[00:38:37] Kyle Musca: Yeah, because you can, yeah, confirmation email.
+[00:38:39] Torin McGlynn: it's, this is.
+[00:38:40] Torin McGlynn: we'll do that.
+[00:38:41] Torin McGlynn: What's that thing that you said, the five first emails?
+[00:38:44] Kyle Musca: Yeah, the soap opera secret.
+[00:38:46] Kyle Musca: So it's like day one, day two, day three, day four, day five.
+[00:38:49] Kyle Musca: Yeah.
+[00:38:50] Kyle Musca: And then you could pretty much just attach like the rest of whatever the .
+[00:38:53] Kyle Musca: So the cool thing about that is like every single day, you could basically like, if you wanted to, you would just come in here, add.
+[00:39:00] Kyle Musca: Wait 24 hours, or like wait a day, and then you add email, and you could type your email out if you wanted to.
+[00:39:08] Torin McGlynn: Oh, cool.
+[00:39:08] Torin McGlynn: Okay.
+[00:39:09] Kyle Musca: Yeah.
+[00:39:11] Torin McGlynn: Because I already have 30 emails read out, but I do think there could be more.
+[00:39:14] Torin McGlynn: I think there's good value in there, and they can be used, but I think the soap opera sequence is needed as well.
+[00:39:22] Kyle Musca: The soap opera is just like, get them to learn a little bit more about you, give them information, give them value, and then make an ask.
+[00:39:27] Kyle Musca: It's pretty simple.
+[00:39:29] Torin McGlynn: Yeah.
+[00:39:30] Torin McGlynn: So what do we think is like, obviously, there's so much stuff here.
+[00:39:32] Torin McGlynn: What do you think should be my main priority right now, the challenge?
+[00:39:37] Kyle Musca: Yeah, essentially.
+[00:39:38] Kyle Musca: I would start marketing for that.
+[00:39:43] Kyle Musca: If you do it on your stories, if you've been 30,000 views, man, and you do that on your stories, you should be able to get a decent chunk.
+[00:39:49] Kyle Musca: Yeah, if you did it on your stories, you did a couple, you did it on your stories, you did every single video, made it a very clear section.
+[00:39:54] Kyle Musca: My, you know, whatever you call your challenge is.
+[00:40:00] Kyle Musca: It's officially live.
+[00:40:01] Kyle Musca: Only 30 spots open or whatever you do.
+[00:40:03] Kyle Musca: So put a cap on it.
+[00:40:05] Kyle Musca: If you're interested to learn what's involved, DME challenge, for example.
+[00:40:10] Kyle Musca: You put that on every single one of your videos.
+[00:40:11] Kyle Musca: You should get a lot of traction from that alone.
+[00:40:14] Kyle Musca: And then you put it on your stories.
+[00:40:16] Kyle Musca: You do carousals about it.
+[00:40:18] Torin McGlynn: You should get plenty of interest off that alone.
+[00:40:20] Torin McGlynn: And I don't change my prices whatsoever.
+[00:40:23] Torin McGlynn: Exactly the same.
+[00:40:24] Torin McGlynn: $3,000, $2,000, $1,500.
+[00:40:26] Kyle Musca: Yeah.
+[00:40:26] Kyle Musca: People ask you, like, oh, , that's expensive.
+[00:40:28] Kyle Musca: Yeah, look, I won't lie to you and we're not the cheapest option.
+[00:40:31] Kyle Musca: And, you know, especially around this time of year, you probably find some challenges for, you know, $199, $299.
+[00:40:36] Kyle Musca: And, you know, at the end of the day, you probably just get a copy and paste PDF program.
+[00:40:40] Kyle Musca: You know what mean?
+[00:40:41] Kyle Musca: Everything we do is, and the reason so many, you know, women come to us, especially women like, you know, in your situation where they are kind of struggled with, you know, going through metamors and those hormonal changes is that they do need something a lot more custom built to their specific needs and a copy and paste.
+[00:40:55] Kyle Musca: These programs are just not going to cut it for them.
+[00:40:58] Torin McGlynn: Yeah, sick.
+[00:40:59] Kyle Musca: Sick.
+[00:41:00] Kyle Musca: Just process costs, do know what mean?
+[00:41:03] Torin McGlynn: Yeah.
+[00:41:04] Torin McGlynn: I used your little Xbox analogy.
+[00:41:06] Torin McGlynn: Oh, I didn't use Xbox exactly.
+[00:41:08] Torin McGlynn: Whereas, like, you know, you go to a secondhand and get your Xbox.
+[00:41:12] Torin McGlynn: And then, like, two weeks later, it breaks.
+[00:41:13] Torin McGlynn: And you need to go get the one that you originally wanted, like the new one.
+[00:41:18] Torin McGlynn: Yeah.
+[00:41:18] Torin McGlynn: With someone, like, a week or two ago, which is good.
+[00:41:22] Torin McGlynn: Yeah, okay.
+[00:41:22] Torin McGlynn: That's fun.
+[00:41:23] Torin McGlynn: That's fun.
+[00:41:23] Torin McGlynn: That sounds good.
+[00:41:24] Torin McGlynn: Sounds good.
+[00:41:26] Torin McGlynn: So challenge.
+[00:41:28] Torin McGlynn: Framing this sounds good because, you know, there's urgency for, and then they actually start January.
+[00:41:34] Kyle Musca: They pay me now and they start January.
+[00:41:37] Kyle Musca: I mean, if you're selling this, you'll get this month free.
+[00:41:39] Torin McGlynn: You might as well just send them off and they can get started.
+[00:41:42] Torin McGlynn: And then the, when you say challenge starts 10th of January or something, is it just the exact same coaching?
+[00:41:51] Torin McGlynn: I don't do, like, you know, anything differently?
+[00:41:54] Kyle Musca: Yeah.
+[00:41:55] Torin McGlynn: Yeah.
+[00:41:55] Kyle Musca: Oh, okay.
+[00:41:57] Kyle Musca: You just set a reminder of three months to pick a winner.
+[00:41:59] Torin McGlynn: Yeah.
+[00:42:00] Torin McGlynn: Okay.
+[00:42:01] Torin McGlynn: Okay.
+[00:42:02] Torin McGlynn: The thing is, you don't even expect a winner, really.
+[00:42:06] Kyle Musca: You want to announce a winner.
+[00:42:10] Kyle Musca: But yeah, like the reason I say it's like $8,000 a prize is like $9,000, $10,000 a prize is like you might have a normal prize of like $1,000 to $1,500 to $2,000, whatever you want to say.
+[00:42:23] Kyle Musca: And then everyone else basically gets a $500 voucher to continue coaching if they want to.
+[00:42:28] Torin McGlynn: So it's still, and then you can throw on a ghost giveaway and  like that.
+[00:42:32] Torin McGlynn: Yeah.
+[00:42:32] Torin McGlynn: Ghost gives $300 a month for giveaways anyway.
+[00:42:35] Torin McGlynn: So that's fine.
+[00:42:39] Torin McGlynn: Yeah, that sounds good.
+[00:42:40] Torin McGlynn: So like maybe like AirPods, Trip to Valley, some  like that.
+[00:42:45] Kyle Musca: Yeah.
+[00:42:45] Torin McGlynn: Something like that.
+[00:42:46] Kyle Musca: Okay.
+[00:42:47] Kyle Musca: reply to him and jump on the floor.
+[00:42:51] Kyle Musca: I'll try and get him on like in 10 minutes.
+[00:42:53] Kyle Musca: I'll just prove.
+[00:42:58] Torin McGlynn: Yeah.
+[00:43:00] Torin McGlynn: We're pretty much done here anyway.
+[00:43:01] Torin McGlynn: There's so much information here.
+[00:43:04] Torin McGlynn: And so much stuff to implement.
+[00:43:10] Kyle Musca: Yeah, so, yeah.
+[00:43:12] Kyle Musca: And then just the final runoff, go high level, is you can build sites through it.
+[00:43:19] Kyle Musca: It is kind of like  difficult and a bit clunky in my opinion.
+[00:43:22] Kyle Musca: doesn't have certain features like conditional logic or multi-step forms.
+[00:43:26] Torin McGlynn: And think ClickFunnels for that?
+[00:43:28] Kyle Musca: I think ClickFunnels is nicer.
+[00:43:31] Kyle Musca: It looks better.
+[00:43:31] Kyle Musca: It's easy to use.
+[00:43:35] Kyle Musca: Then contacts, this is where all your contacts go.
+[00:43:37] Kyle Musca: So if you went into Calendly, for example, you can download it to CSV file.
+[00:43:41] Kyle Musca: You can just upload them in here and tag them.
+[00:43:44] Kyle Musca: You can create a smart list.
+[00:43:45] Kyle Musca: So, for example, if you have like, this is a smart list of all expired clients that I had, that I reached out to.
+[00:43:51] Kyle Musca: So you can set this to like, you know, 100.
+[00:43:54] Kyle Musca: And then you can select all 100 and then you can send a bulk SMS out, just like that.
+[00:43:58] Torin McGlynn: So, yeah.
+[00:43:59] Torin McGlynn: So, yeah.
+[00:43:59] Torin McGlynn: yeah.
+[00:43:59] Torin McGlynn: So,
+[00:44:00] Torin McGlynn: Oh, true.
+[00:44:01] Kyle Musca: Yeah.
+[00:44:02] Kyle Musca: Pretty easy in that regard to do it.
+[00:44:04] Kyle Musca: And then, like, once you do that, and you're like, let's say you get Clement here to conversate, if you're doing it through SMS, whatever the case may be, then all you need to do is come into conversations.
+[00:44:15] Kyle Musca: Yeah.
+[00:44:15] Kyle Musca: And this is where you've, you'll see everything.
+[00:44:20] Torin McGlynn: Cool.
+[00:44:21] Torin McGlynn: With your, you said that's your past clients.
+[00:44:24] Kyle Musca: Did you tag them or something?
+[00:44:26] Kyle Musca: Yeah.
+[00:44:26] Kyle Musca: So you can tag all the clients, you've tagged contacts.
+[00:44:29] Kyle Musca: When you upload them, you can automatically tag.
+[00:44:31] Kyle Musca: And this is a smart list.
+[00:44:33] Kyle Musca: So you can see over here, these are the filters.
+[00:44:35] Kyle Musca: So anyone tagged with expired client.
+[00:44:38] Torin McGlynn: Okay.
+[00:44:38] Torin McGlynn: So you actually went through individually, people that were clients.
+[00:44:42] Kyle Musca: No.
+[00:44:42] Kyle Musca: So when you upload the CSV file.
+[00:44:45] Torin McGlynn: Or did you upload, like, your form or something?
+[00:44:48] Torin McGlynn: Because I'm trying to think, how do you tell the difference between, if I'm uploading 3,000 contacts, only about two of them are past clients, you know?
+[00:44:57] Kyle Musca: So one is, if you've got, like,
+[00:45:00] Kyle Musca: Let's say you've got all your all-time contact list, and then you should be able to go into Kahuna, so the system you use, and go like all-time clients, download, and then you can chuck that into ChatGPT and say like cross-reference these two and give me a CSV file.
+[00:45:14] Torin McGlynn: Makes sense, makes sense.
+[00:45:15] Kyle Musca: I think I'm going to do it in my job form as well.
+[00:45:17] Kyle Musca: Yeah, exactly.
+[00:45:18] Torin McGlynn: So things like that.
+[00:45:19] Kyle Musca: Yeah, cool.
+[00:45:20] Kyle Musca: And that's what I would do.
+[00:45:21] Kyle Musca: I'd go through every different type of form you have, like inquiries, calls booked, expired clients, all that stuff.
+[00:45:29] Kyle Musca: And then, you know, upload them and tag them.
+[00:45:32] Torin McGlynn: Cool.
+[00:45:33] Torin McGlynn: Yeah, sounds good.
+[00:45:33] Kyle Musca: Sounds good.
+[00:45:36] Kyle Musca: Yeah, that's pretty easy there.
+[00:45:38] Kyle Musca: And what you can also do here with this is you can actually connect to your Instagram.
+[00:45:43] Kyle Musca: So, like, if you do have a set of, like, a closer on or something like that.
+[00:45:53] Kyle Musca: So, for example, like this prick, he's messaged me on SMS.
+[00:45:57] Kyle Musca: But you can actually message through Instagram.
+[00:46:00] Torin McGlynn: Oh, cool.
+[00:46:02] Kyle Musca: And you can see all your messages on Instagram here as well.
+[00:46:05] Kyle Musca: So I was like, if the closing needs to come in here and have a look at, you know, what's been said.
+[00:46:10] Torin McGlynn: Wow, true.
+[00:46:12] Kyle Musca: Yeah, it's all through here.
+[00:46:14] Torin McGlynn: Yeah, this guy seems dry enough.
+[00:46:16] Kyle Musca: Yeah.
+[00:46:18] Kyle Musca: So pretty cool in that regard.
+[00:46:20] Torin McGlynn: That's pretty simple.
+[00:46:20] Kyle Musca: Yeah, that's...
+[00:46:21] Kyle Musca: Again, filter it as well by SMSs, inbound, outbound, yadda, yadda, yadda, yadda, yadda.
+[00:46:27] Torin McGlynn: Yeah, cool.
+[00:46:28] Kyle Musca: And then these are the opportunities.
+[00:46:30] Kyle Musca: Again, this is what I was talking about before.
+[00:46:32] Kyle Musca: So when someone inquires organically, they'll come into here.
+[00:46:36] Kyle Musca: So my closer can go through and, like, try and reach out to all these guys.
+[00:46:40] Kyle Musca: Yeah.
+[00:46:41] Kyle Musca: I set this up the other day.
+[00:46:44] Kyle Musca: Or referral.
+[00:46:45] Kyle Musca: So I've got two different ones.
+[00:46:46] Kyle Musca: But, like, depending on what form they come in on, they go into these automatically.
+[00:46:50] Kyle Musca: If they were to self-book a call, organic self-book call, they just go into this bucket automatically.
+[00:46:56] Torin McGlynn: If they were manually...
+[00:46:57] Torin McGlynn: Oh, do you have that in your bio or something?
+[00:46:59] Kyle Musca: So I...
+[00:47:00] Kyle Musca: I've been in my job form, so it's like if they're qualified, they can just like, it takes them through to my calendar, sorry, my go high-level calendar, and they can just book straight in for a call.
+[00:47:08] Torin McGlynn: Do you have conditional logic on your job form?
+[00:47:11] Kyle Musca: Yeah.
+[00:47:12] Torin McGlynn: Oh, I didn't realize there was a possibility of a job form.
+[00:47:15] Torin McGlynn: I should probably do that, hey.
+[00:47:17] Torin McGlynn: Like my link in bio is like that VSL page, but I don't think  all people interact with it, to be honest.
+[00:47:24] Kyle Musca: Nah, I just take them.
+[00:47:25] Kyle Musca: They already got an intent if they're doing that, if they're going that far, so you don't really need to try and VSL sell one.
+[00:47:30] Torin McGlynn: So you think, you think I'd just literally put a job form in my bio?
+[00:47:34] Kyle Musca: Yeah.
+[00:47:36] Kyle Musca: Yeah.
+[00:47:37] Torin McGlynn: No one, literally no But it's this extra step of friction, like if they're looking at that, your Instagram page itself is running as a landing page.
+[00:47:46] Torin McGlynn: Yeah, yeah.
+[00:47:47] Torin McGlynn: And those three, my three pin posts, I reckon, do pretty well.
+[00:47:50] Kyle Musca: Exactly, like that's the landing page.
+[00:47:52] Kyle Musca: It's like, we don't need to add an extra step of friction, and then they get distracted and go away.
+[00:47:55] Torin McGlynn: It's just like, all right, apply.
+[00:47:58] Kyle Musca: Yeah.
+[00:47:58] Kyle Musca: Let's check one out if you want
+[00:48:00] Kyle Musca: I'm going to have a look at it.
+[00:48:01] Kyle Musca: Oh, this is how I can do it, actually.
+[00:48:03] Kyle Musca: I'll show you just how the format shows.
+[00:48:04] Torin McGlynn: I see a ghost in there, and you're about VIP, and this is a job form.
+[00:48:08] Kyle Musca: Oh, it's simple ads.
+[00:48:10] Kyle Musca: Yeah, and because I want it simple, so it's like nice and easy, and the only thing that changes is if they say working full-time, it takes them straight to, you know, book in a time for a call.
+[00:48:21] Kyle Musca: If they say anything else, it takes them through to, sorry, we're full at the moment.
+[00:48:25] Kyle Musca: We're not taking on any clients.
+[00:48:26] Kyle Musca: Here, you can sign up to just programming.
+[00:48:29] Kyle Musca: But I might even change that and just take them straight to my low-ticket sign-up option, to be honest.
+[00:48:35] Torin McGlynn: Where's your low-ticket sign-up option?
+[00:48:37] Kyle Musca: Have got macro for that?
+[00:48:38] Kyle Musca: Yeah, I've just got macro, yeah.
+[00:48:40] Torin McGlynn: Ah, that's a, like, I'm thinking low-ticket would be annoying to do on my, on my OneFit now.
+[00:48:46] Torin McGlynn: The macro for a low-ticket would be  sick, the amount of volume I have.
+[00:48:51] Kyle Musca: Yeah, yeah, it is.
+[00:48:53] Kyle Musca: Especially, it's good with the nutrition side of things, so.
+[00:48:58] Kyle Musca: yeah.
+[00:48:58] Kyle Musca: Okay.
+[00:48:59] Kyle Musca: Where's my Yeah.
+[00:49:00] Kyle Musca: Perfect, man.
+[00:49:02] Kyle Musca: But really, with GROW high-level, again, it's hopefully that cleared up.
+[00:49:05] Torin McGlynn: Do you have any questions on that?
+[00:49:08] Torin McGlynn: No.
+[00:49:08] Torin McGlynn: Loads will come up, but obviously we're just like running through lots of information, I know.
+[00:49:13] Torin McGlynn: Definitely need lots.
+[00:49:14] Kyle Musca: Yeah, if you do have any questions, let me know.
+[00:49:16] Kyle Musca: Otherwise, again, I just screenshot and send them to chat to you, and that helps quite a lot.
+[00:49:23] Kyle Musca: Or, and at the end of the day, like, once you get in there and you actually just, like, spend a little bit of time playing around with it and, like, exploring it and stuff, and it comes good pretty quick.
+[00:49:32] Kyle Musca: But essentially, I would definitely start, now that you've got the coaching stuff, I would start gearing towards, like, marketing for a bit of a challenge and everything like that because it's just peak time.
+[00:49:43] Kyle Musca: And it's the only real chance you have to try and get clients across the line in that, you know, mid to deep December part.
+[00:49:51] Torin McGlynn: Yeah, yeah.
+[00:49:52] Torin McGlynn: I've got three sales calls tomorrow.
+[00:49:54] Torin McGlynn: I've got one later on, but I'm not qualified at all.
+[00:49:57] Torin McGlynn: I'm going to cancel one of them.
+[00:49:59] Torin McGlynn: I'm going to do one of them.
+[00:50:00] Torin McGlynn: Just because I'm so sick.
+[00:50:02] Torin McGlynn: I'd rather not do   calls.
+[00:50:04] Torin McGlynn: But tomorrow I'll do my sales calls.
+[00:50:06] Torin McGlynn: Hopefully we'll cross a few over the line.
+[00:50:08] Kyle Musca: I don't mean mine because obviously Christian's on swing right now.
+[00:50:12] Kyle Musca: So if this week is a  week, I've still made 5K.
+[00:50:15] Torin McGlynn: I've got to re-sign up for 2,000 USD.
+[00:50:17] Torin McGlynn: So it's not awful.
+[00:50:19] Torin McGlynn: It's not awful, 5K.
+[00:50:20] Torin McGlynn: It's not too bad.
+[00:50:22] Torin McGlynn: It's crazy because that used to be half my month.
+[00:50:24] Kyle Musca: And now that's like the worst week I've had in  Asia.
+[00:50:28] Torin McGlynn: Yeah.
+[00:50:30] Kyle Musca: Yeah.
+[00:50:30] Torin McGlynn: But yeah, it's funny looking through the VA.
+[00:50:35] Torin McGlynn: The VA's done all my payments and stuff where it's like he did, he backtracked a little bit where it's like, you know, 10K, 10K, 10K.
+[00:50:41] Torin McGlynn: And then so the weeks are like 2.5, maybe like a three, maybe like a one.
+[00:50:46] Torin McGlynn: And then I look like literally just across like maybe eight weeks.
+[00:50:50] Torin McGlynn: And then there's like 36K a week.
+[00:50:53] Kyle Musca: It's like, what?
+[00:50:55] Kyle Musca: Yeah, that's insane.
+[00:50:57] Kyle Musca: So yeah, again, it just comes down to the consistency.
+[00:51:00] Kyle Musca: Marketing and just like making sure you're doing the right offers and putting them in the right place.
+[00:51:04] Kyle Musca: So if you execute on the challenge, man, like I've had some of my biggest weeks ever marketing a challenge.
+[00:51:11] Kyle Musca: So yeah, it's just challenges seem to just get people to take actions.
+[00:51:16] Kyle Musca: It's  kind of weird how it does it.
+[00:51:18] Kyle Musca: And the other thing is you have to be really consistent with the marketing of the challenge because like when you first launch it, people are just kind of like, you know, interested.
+[00:51:26] Kyle Musca: They see it, but they don't really take action.
+[00:51:28] Kyle Musca: It's like really, so it's the last couple of days where realistically they should, you should get a huge influx of it.
+[00:51:36] Kyle Musca: Good example of that is when I went to my low ticket summer shred challenge, had like maybe 50 to 70 signups in the first like week and a half.
+[00:51:44] Kyle Musca: And I was like, , that's really not the response I was expecting.
+[00:51:47] Kyle Musca: And then like literally I doubled that in the last like three days.
+[00:51:51] Torin McGlynn: Like I had so many join in that last three days, specifically the last day or so.
+[00:51:56] Kyle Musca: But like, yeah, it's like exponential.
+[00:51:59] Kyle Musca: So you just go.
+[00:52:00] Kyle Musca: It'd be really consistent and it's really  important towards like really start pushing urgency in that final few days.
+[00:52:06] Torin McGlynn: Okay.
+[00:52:07] Torin McGlynn: And what if someone like for some reason books on a call like one day after?
+[00:52:12] Kyle Musca: Just be like, hey, so this is probably something you'd have to chat to set us about and the thing to push the urgency like the, you know, I've got to jump on a call and make sure this is right for you.
+[00:52:23] Kyle Musca: Technically, the challenge cutoff date is, you know, December 20th.
+[00:52:26] Kyle Musca: When can you get on by then?
+[00:52:28] Kyle Musca: If they have to be like, cool, man.
+[00:52:29] Kyle Musca: Like, um, not, shouldn't probably do this, but like, I will allow, obviously you're busy, um, try and get on SA as soon as possible after the 20th, essentially.
+[00:52:39] Kyle Musca: But yeah, it's fine if they do, but just say like, you know, again, given a reason, like I shouldn't, I shouldn't do this.
+[00:52:45] Kyle Musca: You sound keen.
+[00:52:47] Kyle Musca: Um, if you can just try and get on ASAP, whatever, we'll do it.
+[00:52:51] Torin McGlynn: Yeah.
+[00:52:51] Torin McGlynn: Yeah.
+[00:52:52] Torin McGlynn: I'll make like the prize list and stuff.
+[00:52:53] Torin McGlynn: Um, but yeah, sounds good, man.
+[00:52:56] Torin McGlynn: Sounds good.
+[00:52:56] Torin McGlynn: Do you do like a, I'm thinking, do I do like a, like a.
+[00:53:00] Torin McGlynn: Story highlight for the challenge or something?
+[00:53:05] Torin McGlynn: It doesn't really matter.
+[00:53:06] Kyle Musca: doesn't really matter.
+[00:53:07] Kyle Musca: I don't, yeah.
+[00:53:09] Kyle Musca: I don't think it would really make a big difference because it's a short time frame.
+[00:53:15] Kyle Musca: So, yeah.
+[00:53:17] Torin McGlynn: All right, cool.
+[00:53:18] Torin McGlynn: Sounds good, man.
+[00:53:19] Torin McGlynn: But thank you for your time today.
+[00:53:20] Torin McGlynn: This actually was way better.
+[00:53:22] Torin McGlynn: I didn't cough at all.
+[00:53:24] Torin McGlynn: I've been literally dead.
+[00:53:25] Torin McGlynn: You don't understand how  sick I've been.
+[00:53:28] Torin McGlynn: But, yeah, we'll chat.
+[00:53:29] Torin McGlynn: Yeah, soon I'll ask you any questions that I need.
+[00:53:32] Torin McGlynn: There's obviously, there's so much stuff we can do.
+[00:53:35] Torin McGlynn: It's crazy.
+[00:53:36] Torin McGlynn: So, yeah.
+[00:53:37] Kyle Musca: Thank you for your time.
+[00:53:38] Kyle Musca: No worries, bro.
+[00:53:39] Kyle Musca: Yeah, we'll execute on that and then we'll explore some new things in the new year.
+[00:53:42] Kyle Musca: But, yeah, I hope you're feeling better soon and I'll chat to you soon, man.
+[00:53:47] Kyle Musca: Appreciate it, man.
+[00:53:47] Kyle Musca: Enjoy Canada.
+[00:53:48] Kyle Musca: I'll speak to you soon.
+[00:53:49] Kyle Musca: Cheers, bro.
+[00:53:50] Kyle Musca: Bye.
+[00:53:50] Kyle Musca: Bye.

@@ -1,0 +1,725 @@
+Meeting: Impromptu Zoom Meeting
+Date: 2026-03-06T05:54:33Z
+Scheduled: 2026-03-06T04:56:58Z - 2026-03-06T05:11:58Z
+Recording: 2026-03-06T05:00:22Z - 2026-03-06T05:54:24Z
+Language: en
+URL: https://fathom.video/calls/591444182
+Share Link: https://fathom.video/share/9zrBs77RBX5Q6ZUEJHbp3sR9WxsRtszh
+Recording ID: 127710221
+
+Participants: Kyle Musca (kyle@empcoaching.com.au)
+Recorded by: Kyle Musca (kyle@empcoaching.com.au)
+--- TRANSCRIPT ---
+
+[00:00:00] Kyle Musca: We're here, so.
+[00:00:01] Kyle Musca: This meeting is being recorded.
+[00:00:03] Kyle Musca: Break it down, okay.
+[00:00:05] Kyle Musca: So how many calls did have in the last week?
+[00:00:11] Bre Colley: Like four.
+[00:00:13] Bre Colley: One.
+[00:00:15] Bre Colley: One, two, three, four, five, six, seven, eight.
+[00:00:19] Bre Colley: I had eight calls.
+[00:00:21] Bre Colley: I've only taken two were no shows and I still have two to go.
+[00:00:26] Kyle Musca: And I signed one.
+[00:00:29] Kyle Musca: One out of four, so far taken.
+[00:00:31] Bre Colley: Yeah.
+[00:00:32] Kyle Musca: Okay.
+[00:00:33] Kyle Musca: So, yeah, as I said, I turned off your ads.
+[00:00:35] Kyle Musca: There is actually, he's uploading a new campaign.
+[00:00:38] Kyle Musca: We're going to refresh the campaign, all the targeting and everything like that.
+[00:00:43] Kyle Musca: Because obviously if gets hooked on Indians and that ad campaign can be a bit corrupt and try and find more people like that.
+[00:00:50] Bre Colley: Yeah.
+[00:00:50] Kyle Musca: And if he's actually got anything up in this just yet.
+[00:00:55] Bre Colley: I got an email, so he may have.
+[00:00:59] Bre Colley: So, yeah.
+[00:00:59] Kyle Musca: You
+[00:01:02] Kyle Musca: Yeah.
+[00:01:03] Kyle Musca: Okay.
+[00:01:03] Kyle Musca: So these are up.
+[00:01:05] Kyle Musca: I think these are your new ones, yeah?
+[00:01:08] Bre Colley: Yeah.
+[00:01:09] Bre Colley: I also watched the ones back from Mehdi.
+[00:01:11] Bre Colley: It just sounded like the voice when it was sped up just sounded a little bit like echoey or tinny or whatever.
+[00:01:17] Bre Colley: So yeah, I think it's fine that those are up.
+[00:01:21] Kyle Musca: Okay.
+[00:01:22] Kyle Musca: Cool.
+[00:01:22] Kyle Musca: So those are new ones.
+[00:01:23] Kyle Musca: Fantastic.
+[00:01:23] Kyle Musca: I did ask to get the graphics up.
+[00:01:25] Bre Colley: He should get them up.
+[00:01:26] Bre Colley: yeah.
+[00:01:27] Kyle Musca: But okay.
+[00:01:28] Kyle Musca: So technically your ads are on then.
+[00:01:30] Kyle Musca: It'll take time to learn everything, but that's fine.
+[00:01:33] Kyle Musca: Now coming to your mini chat, seems to be overall decent.
+[00:01:42] Kyle Musca: Are these new?
+[00:01:44] Bre Colley: Okay.
+[00:01:44] Kyle Musca: Yeah.
+[00:01:44] Kyle Musca: Cool.
+[00:01:47] Kyle Musca: In terms of like you're getting a lot of Indians, Asians, but we can separate those.
+[00:01:51] Kyle Musca: We're now only tagging these people.
+[00:01:54] Bre Colley: So that by doing the like Indian unqualified, that tells.
+[00:02:00] Bre Colley: It's like, Facebook, like, stop  giving me these people, essentially.
+[00:02:04] Kyle Musca: Should do.
+[00:02:07] Kyle Musca: Ideally, that's where the Leeds campaign would come into play, but you won't be able to run a Leeds campaign.
+[00:02:20] Kyle Musca: What I would...
+[00:02:24] Kyle Musca: What?
+[00:02:27] Kyle Musca: So the Leeds campaign would optimize off that because that sends the data to go actually back into Leeds, and that's a really powerful thing I want to figure out, but it's annoying because in new accounts, it won't let me do the normal messaging template.
+[00:02:40] Kyle Musca: So right now, you know, the messaging template is this, for example, but it doesn't let you do that.
+[00:02:49] Kyle Musca: It kind of, it's stupid to have done it, but it kind of, it's kind of like combining, it's, they're trying to do a form through messaging templates.
+[00:02:57] Kyle Musca: So it kind of is what ManyChat does, but they aren't.
+[00:02:59] Kyle Musca: Own ManyChat.
+[00:03:00] Kyle Musca: So I don't understand why they wouldn't just let you use ManyChat for it.
+[00:03:04] Kyle Musca: And essentially the only way to go around that is to create a leads campaign and then let enough traffic essentially go through it.
+[00:03:17] Kyle Musca: To then, and then it will eventually give you the ability to use that messaging campaign.
+[00:03:23] Bre Colley: So let's ask Claude because that's a bit more  reliable than ChatGPT.
+[00:03:27] Bre Colley: Well, I actually do like Claude.
+[00:03:28] Kyle Musca: I'm, in, in, on a issue.
+[00:03:34] Kyle Musca: Thank you.
+[00:05:07] Kyle Musca: Yeah, well, let's do that.
+[00:05:09] Kyle Musca: Okay.
+[00:05:11] Kyle Musca: So that's overall good.
+[00:05:13] Kyle Musca: We'll be able to separate that a little bit clearer.
+[00:05:17] Kyle Musca: Have you, did you film your masterclass?
+[00:05:19] Bre Colley: Yeah.
+[00:05:21] Kyle Musca: Did it come up good?
+[00:05:23] Bre Colley: Yeah, I was pretty proud of it.
+[00:05:25] Kyle Musca: Okay.
+[00:05:26] Kyle Musca: We can run that as an ad.
+[00:05:30] Bre Colley: That's a good idea because I had like a CTA at the end of like, not direct.
+[00:05:36] Bre Colley: was like, if you do want support with this, DM me the word roadmap.
+[00:05:40] Bre Colley: And then that triggers a many chat for them to get qualified.
+[00:05:48] Kyle Musca: So you're trying to get them from Instagram to lead magnet back to Instagram, which you could do, but essentially what you'd want to do is.
+[00:06:01] Kyle Musca: What did you create the – what's the platform you're using to host the video?
+[00:06:08] Bre Colley: Just Loom.
+[00:06:10] Kyle Musca: Oh.
+[00:06:19] Kyle Musca: That's fine.
+[00:06:21] Bre Colley: You've got to change your lighting, babes.
+[00:06:24] Kyle Musca: It's the first day here.
+[00:06:25] Bre Colley: I'm just settling in.
+[00:06:26] Bre Colley: It's not too bad.
+[00:06:26] Bre Colley: no, but it's dark.
+[00:06:28] Bre Colley: It's fine.
+[00:06:29] Bre Colley: I'm just to stop.
+[00:06:30] Kyle Musca: No, no, you're distracting me, all right?
+[00:06:33] Kyle Musca: Okay.
+[00:06:34] Kyle Musca: So basically what Meg did, for example, is this.
+[00:06:38] Kyle Musca: It gets really good volume, but I'm trying to figure out how to increase conversions, and I'm seeing some – gosh, I – let me break this whole  thing down, all right?
+[00:06:50] Kyle Musca: So, no, that's not what we wanted.
+[00:06:54] Kyle Musca: Engagement, Meg.
+[00:07:23] Kyle Musca: What the  is this thing doing?
+[00:07:26] Kyle Musca: In there, it's cutting out.
+[00:07:32] Kyle Musca: Yeah, so this is the graphics.
+[00:07:34] Kyle Musca: So essentially what she did is she just went and came in and created a ton of graphics, kind of how we do the normal ones.
+[00:07:41] Kyle Musca: But she obviously made them towards the lead bag, right?
+[00:07:50] Kyle Musca: And then adding like little photos so people can actually see what it is.
+[00:07:55] Kyle Musca: Does that make sense?
+[00:07:56] Kyle Musca: So lead magnets are really quick and easy to turn around.
+[00:07:59] Kyle Musca: I wouldn't say.
+[00:08:00] Kyle Musca: They film any videos or anything like that.
+[00:08:03] Kyle Musca: And then she also did some where it was just like that.
+[00:08:06] Kyle Musca: Yeah.
+[00:08:08] Kyle Musca: So what I'm going to do really quickly before I  rip someone's head off.
+[00:08:16] Bre Colley: Have you eaten?
+[00:08:17] Kyle Musca: No, I'm going to quickly, in two seconds, order this.
+[00:08:22] Kyle Musca: So quick.
+[00:08:24] Kyle Musca: Cool.
+[00:08:27] Kyle Musca: Done.
+[00:08:27] Kyle Musca: Yeah.
+[00:08:28] Kyle Musca: That should be off.
+[00:08:30] Kyle Musca: But that's fine.
+[00:08:32] Kyle Musca: Yes.
+[00:08:33] Kyle Musca: I'll scratch off.
+[00:08:42] Kyle Musca: That.
+[00:09:04] Kyle Musca: Why the  would you do that, you dickhead?
+[00:09:07] Kyle Musca: Oh my gosh.
+[00:09:16] Kyle Musca: Oh my gosh, ,  off.
+[00:09:19] Kyle Musca: There we go.
+[00:09:22] Kyle Musca: Alright, so this is her best performing one at the moment.
+[00:09:26] Bre Colley: Wait, where'd you go?
+[00:09:28] Bre Colley: Oh yeah.
+[00:09:32] Kyle Musca: So essentially probably I would put together maybe four, three or four of those and maybe eight of these.
+[00:09:44] Bre Colley: Eight, okay.
+[00:09:47] Kyle Musca: Yeah, we're just different versions.
+[00:09:48] Kyle Musca: Same as how you're usually doing.
+[00:09:51] Kyle Musca: Okay.
+[00:09:52] Kyle Musca: Just so we can quickly look at some other ones that have done well for her.
+[00:09:56] Kyle Musca: her good game, but um, the
+[00:10:01] Kyle Musca: I think they're all just somewhere.
+[00:10:12] Kyle Musca: How long does the masterclass go for?
+[00:10:15] Bre Colley: Like 32 minutes.
+[00:10:18] Kyle Musca: What you should really do there.
+[00:10:30] Kyle Musca: It'd be really good to collect it.
+[00:10:32] Kyle Musca: Like they work really well because they're great at collecting contact information over time.
+[00:10:37] Bre Colley: Right.
+[00:10:37] Bre Colley: So maybe put in like a high level or something.
+[00:10:40] Kyle Musca: Yeah.
+[00:10:43] Kyle Musca: There's different ways you could do it.
+[00:10:45] Kyle Musca: Ideally, like what, you know, we have all your other videos and everything like that.
+[00:10:52] Bre Colley: It's either Google Drive or in my like website, my portal.
+[00:10:57] Kyle Musca: Yeah, yeah, portal.
+[00:10:58] Kyle Musca: Can you have a two-step page that's like.
+[00:11:00] Bre Colley: They fill out just name, email, phone, and then I don't know if, let me ask Claude, I don't know if Canva, because my website's on Canva, because I can't make a normal website, sign in, unavailable.
+[00:11:15] Kyle Musca: Suss that out.
+[00:11:17] Kyle Musca: So essentially what you'll have to do there is two different pages.
+[00:11:20] Kyle Musca: One is a qualified page and one's an unqualified page.
+[00:11:23] Kyle Musca: When it's a qualified page, it should be an opt-in, so name, email, phone, and then once they do that, they get access to the video.
+[00:11:29] Kyle Musca: So the unqualified, we just send them straight to the video page.
+[00:11:32] Kyle Musca: We don't want their contact information.
+[00:11:35] Bre Colley: Right.
+[00:11:35] Bre Colley: But like, what's the step before that?
+[00:11:38] Kyle Musca: It'll be ManyChat Flow.
+[00:11:41] Kyle Musca: So we are getting, oh, because of the ads, and then they'll go through the ManyChat Flow.
+[00:11:48] Kyle Musca: Yeah.
+[00:11:49] Kyle Musca: So this is Cal's, for example, right?
+[00:11:51] Bre Colley: And I can put this straight into your account.
+[00:11:54] Kyle Musca: And then what I did recently, I changed it yesterday, it actually seems to be pulling it up.
+[00:11:58] Kyle Musca: I haven't seen a response from it.
+[00:11:59] Kyle Musca: Yeah.
+[00:12:00] Kyle Musca: Yeah, but similar thing, you know, I have a couple of different options for you, just so I can send you the one for you, what are you interested in, cool, this is my client that I helped do that, what do you feel like you're struggling with, cool, and so I can tailor things to your schedule, you know, what best describes you working full-time.
+[00:12:19] Kyle Musca: Great, from there, they're a qualified lead, here's the, here's the, the, the resource, you know what mean?
+[00:12:27] Bre Colley: Right.
+[00:12:29] Kyle Musca: Also, while you're here, are you potentially looking at getting a coach to help you get the best results possible?
+[00:12:34] Kyle Musca: You know what mean?
+[00:12:35] Kyle Musca: You can see, he's only, I only did this yesterday, he's had six people through it, but two of those people said, yeah, potentially.
+[00:12:43] Bre Colley: Yeah, okay.
+[00:12:45] Kyle Musca: So, we get a lot, we're getting hand raises here, so what I can do with this, share, come to another page.
+[00:12:55] Kyle Musca: Oh, you can.
+[00:12:56] Bre Colley: Oh, wait, no, you can't.
+[00:13:00] Bre Colley: Canva has a native form element, third-party options, oh no, and can be exported.
+[00:13:08] Bre Colley: Yeah, I'll have to look into that.
+[00:13:09] Kyle Musca: You know what you could do?
+[00:13:11] Kyle Musca: It's just use a job form and then reroute it.
+[00:13:16] Bre Colley: Right, okay.
+[00:13:17] Kyle Musca: Do you know how to do that?
+[00:13:19] Bre Colley: No.
+[00:13:20] Kyle Musca: Pretty simple, right?
+[00:13:21] Kyle Musca: Because I do it with my, oh, you fat .
+[00:13:29] Bre Colley: Okay, so.
+[00:13:32] Kyle Musca: You watching?
+[00:13:34] Bre Colley: I don't know, wait.
+[00:13:35] Bre Colley: Don't do it.
+[00:13:38] Kyle Musca: Watching?
+[00:13:39] Kyle Musca: Watching, watching, watching, watching, watching, Cool.
+[00:13:43] Kyle Musca: So when you come into the form, right, this is the first step of the form and then once they click that, if they're qualified, they go to my booking page so you can redirect them.
+[00:13:55] Kyle Musca: So you come into here and go conditions.
+[00:13:57] Kyle Musca: So settings, conditions.
+[00:13:58] Kyle Musca: form do do do your, you can do you you can can it you
+[00:14:00] Kyle Musca: And then it'll basically be the same form, to be honest.
+[00:14:04] Bre Colley: Yeah.
+[00:14:05] Kyle Musca: And then you'll say the condition is if current work situation is equal to working full-time, then it's redirected to this link and that would be your link for the thing.
+[00:14:19] Kyle Musca: If it's anything else, well, you wouldn't need anything else.
+[00:14:27] Bre Colley: Yeah, because it takes everyone to the link.
+[00:14:30] Kyle Musca: Yeah, you wouldn't even need working full-time.
+[00:14:31] Kyle Musca: No, you wouldn't even need to set up any conditions because the only people that would be filling out that form is the ManyChat people.
+[00:14:38] Kyle Musca: So, for example, if they said they're working full-time, then it's like that link would just be to the job form, which would just be name, email, phone.
+[00:14:47] Bre Colley: Yeah, okay.
+[00:14:49] Kyle Musca: And then once they enter that, they get redirected to the page.
+[00:14:53] Bre Colley: Yeah.
+[00:14:54] Kyle Musca: And then for the non-qualified people, they just get access to the page straight away.
+[00:15:00] Bre Colley: Yeah.
+[00:15:02] Bre Colley: Easy.
+[00:15:03] Bre Colley: Yeah.
+[00:15:20] Bre Colley: And with that data, what would I be doing?
+[00:15:24] Bre Colley: Reaching out to them?
+[00:15:25] Kyle Musca: You'd just collect it over time.
+[00:15:27] Bre Colley: Oh, okay.
+[00:15:28] Kyle Musca: Yeah.
+[00:15:30] Kyle Musca: And then, you know, if your business gets to the point where we want to do email marketing and everything like that, you can.
+[00:15:34] Kyle Musca: Yeah.
+[00:15:34] Kyle Musca: Or, for example, you know, we can do pretty simple .
+[00:15:37] Kyle Musca: Like if , you know, let's say we run a challenge, then we'd need to tag all these people.
+[00:15:43] Kyle Musca: So do you have Joseph's number, the guy that, go high-level automation guy?
+[00:15:48] Bre Colley: I think so.
+[00:15:49] Kyle Musca: So it'd be very simple for him to do.
+[00:15:51] Kyle Musca: Just be like, hey, anyone fills this out.
+[00:15:52] Kyle Musca: Can you just create a pipeline and just put them or tag them at least to say a qualified lead?
+[00:15:57] Kyle Musca: And then in future, you know.
+[00:16:00] Kyle Musca: We might run a challenge, and it basically sends, you know, we can send emails and SMSs out and all that  , right?
+[00:16:05] Kyle Musca: Yeah.
+[00:16:07] Bre Colley: There you go, yeah.
+[00:16:09] Kyle Musca: Meta adds, that rep was wrong.
+[00:16:11] Kyle Musca: There's no spend threshold to unlock the leads objective.
+[00:16:14] Kyle Musca: Generally, it doesn't support any chat templates right now.
+[00:16:16] Kyle Musca: There's no document away.
+[00:16:18] Kyle Musca: The correct solution, not a workaround.
+[00:16:21] Kyle Musca: But engagement is going to be as well.
+[00:16:52] Kyle Musca: There's no document away.
+[00:16:58] Kyle Musca: Thank you.
+[00:17:06] Kyle Musca: Oh my gosh, you fat ,  load.
+[00:17:10] Kyle Musca: We should tell James who got better internet.
+[00:17:13] Bre Colley: Yeah, actually, they're both on calls.
+[00:17:26] Kyle Musca: So, this is very, very, very, very, very, very interesting, if we can...
+[00:17:48] Kyle Musca: Why are you so  annoying?
+[00:19:00] Bre Colley: Babes, if you have a call at one, you should order food right now.
+[00:19:03] Kyle Musca: I've already got food.
+[00:19:05] Bre Colley: Oh.
+[00:19:05] Kyle Musca: I don't have a call on this.
+[00:19:07] Bre Colley: Okay.
+[00:19:31] Kyle Musca: I might tell you that's a little slight tangent, but cool.
+[00:19:33] Kyle Musca: Does that make sense?
+[00:19:35] Bre Colley: Yep.
+[00:19:36] Kyle Musca: Now, the other thing I want to review with you is your videos.
+[00:19:40] Kyle Musca: Can you send me the frame.io?
+[00:19:43] Bre Colley: For the new ones?
+[00:19:44] Kyle Musca: Yep.
+[00:19:52] Kyle Musca: Oh, I should actually delete that.
+[00:19:57] Kyle Musca: Sweet dreams of millions of
+[00:20:02] Kyle Musca: I don't know, I disagree.
+[00:20:28] Kyle Musca: Go.
+[00:20:54] Kyle Musca: that's very very interesting um did i fix that
+[00:21:00] Kyle Musca: Yes, I did.
+[00:21:01] Kyle Musca: Cool.
+[00:21:02] Kyle Musca: So basically what I was saying yesterday, but we'll actually review this so I can give you one feedback and two to see if we can turn them down.
+[00:21:12] Kyle Musca: So first thing I'd always look at is 40 seconds.
+[00:21:15] Bre Colley: Great.
+[00:21:16] Bre Colley: Those ones are the fast ones, though.
+[00:21:18] Kyle Musca: That's okay.
+[00:21:19] Kyle Musca: You're doing everything right, but you can't see how it sounds like .
+[00:21:23] Kyle Musca: That's way too fast.
+[00:21:24] Kyle Musca: That's more than 1.2.
+[00:21:26] Kyle Musca: Seems to see results.
+[00:21:28] Kyle Musca: You uploaded.
+[00:21:28] Kyle Musca: Do you have the originals?
+[00:21:31] Kyle Musca: No more ones?
+[00:21:31] Kyle Musca: Yeah.
+[00:21:37] Kyle Musca: They inflamed and the scale weight just won't drop.
+[00:21:40] Kyle Musca: This is actually a lot more common than you think, and a lot of my girls have struggled good before.
+[00:21:49] Kyle Musca: It wasn't the fact that they weren't putting in the work or showing up for themselves.
+[00:21:52] Kyle Musca: It's usually because a generic plan will only work for so long until you plateau.
+[00:21:56] Kyle Musca: That's why I design everything around your body, your lifestyle, and your-
+[00:22:00] Bre Colley: Preferences.
+[00:22:00] Bre Colley: Because let's be real, if you hate the food, the training sucks, it feels uncomfortable, and it doesn't fit your lifestyle.
+[00:22:08] Bre Colley: It's just too full on, man.
+[00:22:10] Bre Colley: I sent you the link for the other one.
+[00:22:12] Kyle Musca: The originals?
+[00:22:14] Bre Colley: Yeah.
+[00:22:24] Kyle Musca: So I'm in it.
+[00:22:24] Kyle Musca: Okay, not too bad.
+[00:22:25] Kyle Musca: If you want to lose 10 to 15 kilos, but you're worried the next plan you try won't work out for you because you've done so many in the past, only to regain the weight a few months later.
+[00:22:35] Kyle Musca: See, that took nine seconds.
+[00:22:38] Kyle Musca: If you want to lose 10 to 15 kilos, but you're worried the next plan you try.
+[00:22:42] Kyle Musca: So again, as I said at the start, always say like ladies, or if you're a woman in her 20s and you want to lose 10 to 15 kilos over the next three months, you know what mean?
+[00:22:51] Kyle Musca: Get tangible.
+[00:22:53] Kyle Musca: Big, bold outcomes.
+[00:22:54] Kyle Musca: Why should someone continue watching?
+[00:22:57] Kyle Musca: You know what mean?
+[00:22:59] Kyle Musca: It's like...
+[00:23:00] Kyle Musca: Lose weight, you know, and that's okay.
+[00:23:02] Kyle Musca: Lose 10 to 15 kilos.
+[00:23:03] Kyle Musca: Oh, yeah, I want to do that.
+[00:23:05] Kyle Musca: I mean, lose 10 to 15 kilos over the next three months.
+[00:23:08] Kyle Musca: Oh, yeah, I really want to do that.
+[00:23:12] Kyle Musca: Lose 10 to 15 kilos over the three months without starving yourself or giving up your social life.
+[00:23:17] Kyle Musca: Yes, that's exactly what I want to do.
+[00:23:23] Kyle Musca: If you want to lose 10 to 15 kilos, but you're worried the next plan you try won't work out for you because you've done so many in the past only to regain the weight a few months later.
+[00:23:32] Kyle Musca: Let me...
+[00:23:38] Kyle Musca: If you're a woman who wants to lose 10 to 15 kilos...
+[00:23:48] Kyle Musca: It's a hard one to say.
+[00:23:50] Kyle Musca: So the angle here is they've lost weight before and they're afraid to do it again because they might regain it.
+[00:23:59] Kyle Musca: So...
+[00:24:04] Kyle Musca: Let me ask you this, when you went on your very first date and it did this, when you went on your, let me ask you, when you do stuff like this as well, that hook wasn't that bad, let's not spend too much time on it, it was kind of a hard one to say.
+[00:24:22] Kyle Musca: With something like this, break it down into smaller sections so you can say it really, really punchy, right?
+[00:24:28] Kyle Musca: So you'll see here, you take your gasp for air.
+[00:24:31] Kyle Musca: You have to take your gasp for air, cut it, and then say, see, look, there's just dead space here.
+[00:24:38] Kyle Musca: When you went on your very first date and it didn't work out, did you go, oh, I don't think dating is for me?
+[00:24:45] Kyle Musca: No, you tried again and again and again.
+[00:24:48] Kyle Musca: And eventually, after kissing a lot of frogs, you will find your prince.
+[00:24:52] Kyle Musca: This is the same with coaching.
+[00:24:54] Kyle Musca: The way some people do it are restrictive, cyclical, and only enforce bad behaviors.
+[00:25:00] Kyle Musca: And relationships with food.
+[00:25:01] Kyle Musca: Now, here at She Thrives, we are big on giving.
+[00:25:05] Kyle Musca: So.
+[00:25:08] Kyle Musca: Me.
+[00:25:08] Kyle Musca: No, you tried.
+[00:25:10] Kyle Musca: When you went on your.
+[00:25:11] Bre Colley: What framework did you use for this one?
+[00:25:13] Bre Colley: I don't know.
+[00:25:14] Bre Colley: I'm just  speaking off the top of my head.
+[00:25:16] Kyle Musca: You've got to use the frameworks, babe.
+[00:25:18] Kyle Musca: Yeah.
+[00:25:19] Kyle Musca: The frameworks will make it a lot easier for you to do, but also keep the.
+[00:25:23] Bre Colley: I think that was before you sent me the frameworks.
+[00:25:26] Kyle Musca: I can't remember, but yeah.
+[00:25:27] Kyle Musca: Oh, okay.
+[00:25:28] Kyle Musca: Yeah.
+[00:25:28] Kyle Musca: The frameworks make it so much easier.
+[00:25:30] Kyle Musca: Just to keep it really nice and affordable.
+[00:25:31] Kyle Musca: Very first date and it didn't work out.
+[00:25:34] Kyle Musca: Did you go, oh, I don't think dating is for me.
+[00:25:37] Kyle Musca: No, you tried again and again and again.
+[00:25:40] Kyle Musca: And eventually after kissing a lot of frogs, you will find your prince.
+[00:25:44] Bre Colley: This is the same with coaching.
+[00:25:45] Bre Colley: The way some people do it are restrictive, cyclical.
+[00:25:49] Bre Colley: And I feel like maybe we shouldn't use that because when I watched it back, I didn't realize I hadn't created that.
+[00:25:56] Bre Colley: It's kind of like dissing other coaches.
+[00:25:58] Kyle Musca: And I don't really want to be doing that, to be honest.
+[00:26:00] Kyle Musca: You can throw stones at other coaches.
+[00:26:01] Kyle Musca: Like, I have a full video where I'm like, I'm not like most other coaches.
+[00:26:04] Kyle Musca: But it's like, yeah, I mean, I would say directly like that, though.
+[00:26:09] Kyle Musca: I mean, it's good to separate yourself from the competition.
+[00:26:12] Kyle Musca: It's like, I'm not like most other coaches, you know?
+[00:26:15] Kyle Musca: I don't just give you a copy and paste meal plan for 1,200 calories and then tell you to, you know.
+[00:26:26] Kyle Musca: But again, this comes down to the framework, right?
+[00:26:29] Kyle Musca: So it's like, if I was going to do this script for you, where you're saying, they've lost weight before, they've regained it, now they're afraid to do it again.
+[00:26:37] Kyle Musca: And you're going to use other, like, you know, maybe they have worked with another coach before.
+[00:26:42] Kyle Musca: It's like, so you've done the hook.
+[00:26:44] Kyle Musca: And the problem is, now understand, you put in all that time and energy to lose the weight, and you actually did see it work for a little bit.
+[00:26:54] Kyle Musca: But as soon as you stop, but as soon as you stop following the plan, that weight creeped right
+[00:27:00] Kyle Musca: Right back on.
+[00:27:00] Kyle Musca: That's the problem.
+[00:27:02] Kyle Musca: Right?
+[00:27:05] Kyle Musca: Now, think about it.
+[00:27:07] Kyle Musca: Agitation.
+[00:27:10] Kyle Musca: Now you're stuck in no man's land where you know that you're capable of losing the weight.
+[00:27:15] Kyle Musca: You're just afraid that if you go through that whole process again, you'll just end up in the same, if not worse, position than you are right now.
+[00:27:23] Kyle Musca: I mean.
+[00:27:28] Kyle Musca: Now it's a solution, right?
+[00:27:38] Kyle Musca: Solution.
+[00:27:39] Kyle Musca: That is the exact problem.
+[00:27:43] Kyle Musca: That is the exact thing I solve with the girls that come through She Thrives.
+[00:27:50] Kyle Musca: See, I don't just build your plan to get you from A to B.
+[00:27:53] Kyle Musca: I focus on rebuilding your habits so you can not only build your dream body, but you have all the...
+[00:28:00] Kyle Musca: The skills and the tools necessary to make sure that you never have to do it again, you know what I mean?
+[00:28:09] Kyle Musca: And then action, you know what mean?
+[00:28:11] Kyle Musca: You could even add in some social proof here.
+[00:28:13] Kyle Musca: I would really get into the habit of every video you do for an ad, try and get social proof in it one way or another, you know what mean?
+[00:28:20] Kyle Musca: And that's exactly how Sarah was able to lose 10 kilos and keep it off.
+[00:28:25] Kyle Musca: 10 kilos faster than she ever thought possible, you know, and then, you know, keep it off, whatever.
+[00:28:38] Kyle Musca: Rachel lost 12 kilos in just 14 weeks while repairing her gut issues and her relationship, you know, whatever.
+[00:28:47] Kyle Musca: While fixing her relationship with food, so now she eats in a healthy, sustainable way.
+[00:28:55] Kyle Musca: And those are just two stories of the hundreds of girls I've helped.
+[00:29:01] Kyle Musca: Or a few stories of the hundreds of girls I've helped, right?
+[00:29:04] Kyle Musca: And then action.
+[00:29:06] Kyle Musca: So if you want to join a community filled with like-minded women, all chasing to become their strongest, sexiest version of themselves, DM me the word, she thrives.
+[00:29:17] Kyle Musca: I'll have a chat to you.
+[00:29:18] Kyle Musca: Actually, this is where I like to add my disqualifier in.
+[00:29:21] Kyle Musca: DM me, she thrives.
+[00:29:23] Kyle Musca: But I'm going to be straight up.
+[00:29:24] Kyle Musca: If you're looking for a quick fix or a magic pill that's going to, or a pill that's going to magically melt the fat, then I'm not the girl for you.
+[00:29:32] Kyle Musca: What I do works because the women I work with are willing to put in the work.
+[00:29:37] Kyle Musca: So if that's you, shoot me through that DM and let's have a chat.
+[00:29:46] Kyle Musca: Make sense?
+[00:29:47] Kyle Musca: See how I also say it in that tonality as well.
+[00:29:50] Kyle Musca: If you can't say it in that real upbeat, direct, I mean, everyone's going to have their own tonality, but it needs to be sort of fast-paced.
+[00:29:57] Kyle Musca: You know what I mean?
+[00:29:57] Kyle Musca: If you're having a lot of like points where you're- You're-
+[00:30:00] Kyle Musca: Pacing is slowing down a lot.
+[00:30:01] Kyle Musca: Then it's like we're doing something wrong.
+[00:30:04] Kyle Musca: Like, not wrong, but we're just not using the right words.
+[00:30:09] Kyle Musca: Right?
+[00:30:10] Kyle Musca: So hook, proof, plan, action.
+[00:30:13] Kyle Musca: Right?
+[00:30:13] Kyle Musca: Same thing.
+[00:30:15] Kyle Musca: Right?
+[00:30:16] Kyle Musca: But.
+[00:30:17] Kyle Musca: So you hook.
+[00:30:19] Kyle Musca: Give me a topic that, you know, an angle that you'd like to come from.
+[00:30:28] Bre Colley: Or maybe like the all or nothing mindset.
+[00:30:34] Kyle Musca: Okay.
+[00:30:38] Kyle Musca: But the dude's not here.
+[00:30:40] Kyle Musca: Hang on.
+[00:30:41] Kyle Musca: All or nothing mindset.
+[00:30:43] Kyle Musca: Okay.
+[00:30:47] Kyle Musca: I'm going send him this photo.
+[00:30:49] Kyle Musca: I should send him a rig shot so he knows who he's dealing with.
+[00:30:53] Kyle Musca: Okay.
+[00:30:54] Kyle Musca: So hook, proof, promise, plan.
+[00:30:56] Kyle Musca: All or nothing mindset.
+[00:30:58] Kyle Musca: All right.
+[00:30:59] Kyle Musca: All right.
+[00:30:59] Kyle Musca: Let me take.
+[00:31:12] Kyle Musca: All right, Kyle, let me take a guess.
+[00:31:16] Kyle Musca: You told yourself that you're going to stop making excuses and finally start prioritizing your health and fitness so you can lose that 10 to 15 kilos and feel more confident when you jump in a bikini to go to the beach.
+[00:31:28] Kyle Musca: I would refine that, but let's just say that's what we did, right?
+[00:31:32] Kyle Musca: Proof.
+[00:31:46] Kyle Musca: The proof promise, so this is less, to be fair, proof plan promise one is less about solving a problem more rather than obviously just showing proof.
+[00:31:58] Kyle Musca: So...
+[00:31:59] Kyle Musca: So...
+[00:32:01] Kyle Musca: So you could do it with something like this.
+[00:32:03] Kyle Musca: I mean, let's go, again, I don't use this one very often, but let's do it because then we'll be on the same page of not being, you know, fully versed with doing it.
+[00:32:12] Bre Colley: right.
+[00:32:12] Bre Colley: Truth.
+[00:32:14] Kyle Musca: I don't know who needs to, girl, I don't know who needs to hear this, but if you constantly find yourself, girl, I don't know who needs to hear this, but if you constantly find yourself starting strong on Monday, just to end up, you know, binge eating from Thursday through to Sunday, girl, I don't know.
+[00:32:34] Kyle Musca: Again, with the hooks, I always want to make sure that I either try and add in something tangible or I make it very, very clear about what the actual ad is about.
+[00:32:44] Kyle Musca: So even that was, to me, a little bit irrelevant.
+[00:32:47] Kyle Musca: Yes, we spoke about binge eating and stuff, but we didn't really talk about weight loss, right?
+[00:32:52] Kyle Musca: Right.
+[00:32:52] Kyle Musca: We want to attract women that are interested in weight loss.
+[00:32:54] Kyle Musca: So, all right, girl, I don't know who needs to hear this, but if you're trying to lose...
+[00:33:01] Kyle Musca: If you're trying to lose 10 to 15 kilos and you start strong on Monday only to find yourself binge eating from Thursday through to Friday, stop, rethink about what you're going to say, then it's probably not because you lack discipline, you just don't have a plan that actually supports your goals.
+[00:33:25] Kyle Musca: Something like that.
+[00:33:26] Kyle Musca: Again, this is very off the top of my head, but let's just run with it, right?
+[00:33:30] Kyle Musca: That is the exact issue.
+[00:33:32] Kyle Musca: Now, you could either use yourself here or you could use a client here, right?
+[00:33:37] Kyle Musca: That is the exact issue my client Rachel had.
+[00:33:42] Kyle Musca: For months, she...
+[00:33:45] Kyle Musca: Okay, you know, I think you see her.
+[00:33:47] Kyle Musca: Hang on.
+[00:33:54] Kyle Musca: There's two seconds.
+[00:33:56] Bre Colley: Yeah.
+[00:34:06] Bre Colley: Hey, Ness.
+[00:34:07] Bre Colley: So basically, Nui is based off, it's like a third party, I guess, to Stripe.
+[00:34:13] Bre Colley: So it actually uses Stripe in the backend system.
+[00:34:16] Bre Colley: But because the fees are starting to get quite high with like the big payments and everything like that, I want to streamline and simplify everything as we continue to grow.
+[00:34:23] Bre Colley: And I've done a little bit of research and a lot of them do use Stripe manually in the backend.
+[00:34:29] Bre Colley: So instead, like I have so much more control over what is going on and what the clients are selling.
+[00:34:35] Bre Colley: So I want to make sure that I have a bit more control.
+[00:34:39] Bre Colley: So I'm starting to slowly move people over to Stripe, if that makes sense.
+[00:34:48] Kyle Musca: Okay, ready?
+[00:34:49] Bre Colley: Yep.
+[00:34:50] Kyle Musca: Sorry, that is the exact issue my client Rachel struggled with for months, right?
+[00:34:58] Kyle Musca: She promised herself herself that.
+[00:35:00] Kyle Musca: She was going to start prioritizing her own health and finally drop that 10, that's five kilos of, you know, finally drop that extra 10 kilos of fat she'd been holding onto for so long.
+[00:35:12] Kyle Musca: But every time she went to start, she just, um, yeah, yeah, she, you know, on Mondays, she did everything perfectly.
+[00:35:29] Kyle Musca: She tracked her calories, she got her steps, she hid her protein, um, you know, and she got eight hours of sleep every single, every night.
+[00:35:44] Kyle Musca: But as the week went on, her work became more stressful, she built up more fatigue, she found it increasingly harder to stick to the plan she had laid out.
+[00:35:56] Kyle Musca: Then, when she naturally reverted to her old habits.
+[00:36:00] Kyle Musca: Where she would binge eat herself and eat away her emotions, she would just end up feeling extreme, you know, again, reword, but she just, she was just left feeling extremely guilty.
+[00:36:13] Kyle Musca: Right?
+[00:36:16] Kyle Musca: And it got to the point where she had almost given up on it altogether, but luckily she came to me for some help.
+[00:36:25] Kyle Musca: Now, instead of adding more to Rachel's plate, all we did is we looked, you know, instead of adding more, you know, more to her already busy schedule, we actually removed, you know, we actually started doing less, but focusing on the right things that were actually going to move the needle forward.
+[00:36:49] Kyle Musca: You know what mean?
+[00:36:52] Kyle Musca: So instead of doing everything perfectly, she was able to do, you know.
+[00:37:00] Kyle Musca: Instead of doing everything perfectly, she had a plan that she could actually stick to consistently.
+[00:37:07] Kyle Musca: I mean, 12 weeks later, yeah, yeah, and in 12 weeks, she dropped 14 kilos, and she said it was easier than anything she had tried in the past.
+[00:37:23] Kyle Musca: Yeah, and you could even add in, like, this is a little bit of a side tangent here, depending on how long the video goes for.
+[00:37:30] Kyle Musca: And, you know, essentially what I'm trying to think of here is, like, basically saying she tried for five months with no real results, and in just 12 weeks, she was able to achieve her dream body with you.
+[00:37:44] Kyle Musca: Again, it's nice to add in there, but if it's going to drag the video on, just  cut it out, right?
+[00:37:48] Kyle Musca: It doesn't need to be said, right?
+[00:37:52] Kyle Musca: That's exactly what I focus on with women, you know?
+[00:38:03] Kyle Musca: And that's what, exactly what I focus on with all the goals in She Thrives.
+[00:38:07] Kyle Musca: I'll build you a custom plan that's actually, I'll build you a custom plan that's actually suited to your schedule.
+[00:38:15] Kyle Musca: So instead of, you know, making it burden, , you know, and then I would go into like, so instead of it being a burden to your life, you actually feel the positive effects you should from it.
+[00:38:29] Kyle Musca: Again, I'm not even happy with that wording, but let's just say for the sake of the argument, right?
+[00:38:34] Kyle Musca: So if you'll find yourself in a similar situation and you want to work with a coach to help you get the best results possible, deem with the word She Thrives.
+[00:38:45] Kyle Musca: But I'll be honest, you know, but I'll be straight up.
+[00:38:48] Kyle Musca: If you're looking for a quick fix or a magic pill, then I'm not the girl for you.
+[00:38:52] Kyle Musca: I work with women that are serious about making a change for themselves.
+[00:38:58] Kyle Musca: And they're ready to put.
+[00:39:00] Kyle Musca: In the work required to make sure that that gets done.
+[00:39:04] Kyle Musca: If that's you, shoot me through the DM and let's have a chat.
+[00:39:09] Kyle Musca: You know what mean?
+[00:39:10] Bre Colley: That was quite long, yeah.
+[00:39:12] Kyle Musca: That was quite long because I was trying to think of different words, but like once you, you know, just cut out all the fat and just put together what you wanted to, it would have come up pretty quick, I reckon.
+[00:39:22] Kyle Musca: Your turn.
+[00:39:23] Bre Colley: No, what the ?
+[00:39:25] Kyle Musca: Yeah, which script do want to do?
+[00:39:28] Bre Colley: Babes, not today.
+[00:39:30] Kyle Musca: Yeah, you've got to do it.
+[00:39:31] Kyle Musca: Come on.
+[00:39:34] Bre Colley: , man.
+[00:39:35] Bre Colley: I genuinely feel like I can't today.
+[00:39:39] Kyle Musca: I like pass.
+[00:39:39] Kyle Musca: do pass up.
+[00:39:42] Kyle Musca: So do a hook.
+[00:39:43] Kyle Musca: Just a simple hook.
+[00:39:44] Kyle Musca: It doesn't have to be any crazy, right?
+[00:39:46] Kyle Musca: Just keep it simple.
+[00:39:56] Bre Colley: I genuinely can't put on the voice that you do right now.
+[00:39:59] Kyle Musca: I like like that.
+[00:39:59] Kyle Musca: that.
+[00:40:00] Kyle Musca: I actually couldn't care less.
+[00:40:01] Kyle Musca: No, you're talking about your own voice.
+[00:40:04] Kyle Musca: Come on.
+[00:40:04] Bre Colley: No, I know, but, like, I'm telling you right now, like, I'm not in the mood.
+[00:40:10] Kyle Musca: Okay.
+[00:40:12] Bre Colley: Can we just do this another time?
+[00:40:15] Kyle Musca: Baby, come on.
+[00:40:18] Kyle Musca: Just really simple.
+[00:40:19] Bre Colley: It doesn't have to be anything.
+[00:40:20] Bre Colley: I understand what you're saying, and I can do it, like, another day, but I'm telling you today is not the day.
+[00:40:26] Kyle Musca: Okay, baby.
+[00:40:28] Kyle Musca: Okay.
+[00:40:30] Bre Colley: I appreciate you trying to help me, but I genuinely can't today.
+[00:40:34] Kyle Musca: It's okay.
+[00:40:35] Kyle Musca: Okay.
+[00:40:37] Kyle Musca: Do you have any questions about it, Matt?
+[00:40:39] Bre Colley: No.
+[00:40:41] Bre Colley: I think it's just, like, understanding the framework a bit better and then filming ads based on it, and like you said, I just need to, like, practice it.
+[00:40:49] Bre Colley: And now that we have our own rooms, it's going to be easier to do it around the house, too.
+[00:40:54] Kyle Musca: Yeah.
+[00:41:00] Kyle Musca: I kind of said it in your video before, don't try and like when you're talking about what's involved in everything, don't try and say everything that you do.
+[00:41:08] Bre Colley: I think I try and sell what I'm giving rather than the dream.
+[00:41:12] Kyle Musca: You can do that.
+[00:41:13] Kyle Musca: The features have their place for sure.
+[00:41:15] Kyle Musca: And it's really, so it's basically you're, you're showcasing how the product is actually used, which is powerful, but only to a small degree, because if you go, you know, do custom training and then you do custom nutrition, then we do, you know, calls and you try and say all that in the video, then all of a sudden, like the video I sent you yesterday, or I showed you yesterday, where I cut out all that part, that was in itself 20 seconds.
+[00:41:39] Kyle Musca: You know what mean?
+[00:41:39] Kyle Musca: So it's good because you can usually cut that part out anyway and have a smaller version and kind of still makes sense.
+[00:41:47] Kyle Musca: So it's definitely good to have, but like, don't try and, you know, for example, the solution should match the problem.
+[00:41:53] Kyle Musca: You know what mean?
+[00:41:53] Kyle Musca: So it's like, if they're talking about, you know, let's say you're coming in from the angle of, you know, women that
+[00:42:00] Kyle Musca: And have a pretty hectic work schedule.
+[00:42:02] Kyle Musca: It's like, well, you don't really need to talk about like education and all that  because like they've already scrapped the time.
+[00:42:08] Kyle Musca: They're not going to care about doing a  fitness course that's educating them.
+[00:42:12] Kyle Musca: Like, yes, it's a component, absolutely.
+[00:42:14] Kyle Musca: But their main things are, you know, probably structuring guidance.
+[00:42:18] Kyle Musca: You know what mean?
+[00:42:18] Kyle Musca: So it's like, if we're going to do that, let's just say it's a problem, you know.
+[00:42:22] Kyle Musca: Now, I understand it.
+[00:42:23] Kyle Musca: You know, you're working 40, 50, 60 plus hours a week.
+[00:42:29] Kyle Musca: And you're so focused on your, you know, you're so focused on your career that, you know, your own health and fitness has taken a backseat.
+[00:42:38] Kyle Musca: And because of that, you know, because of that, you don't feel confident in clothes that you used to love.
+[00:42:44] Kyle Musca: You try and avoid photos because you know that you're not going to be happy with how they turn out.
+[00:42:49] Kyle Musca: And although you're absolutely, you know, this is a little bit marketing and AI, but although you're absolutely crushing it in your job, you know, deep down, you know, you know, there's.
+[00:43:00] Kyle Musca: Because deep down, you know you're not living up to your full potential, right?
+[00:43:04] Kyle Musca: Problem and agitation, right?
+[00:43:07] Kyle Musca: And then solution would be, you know, well, that is the exact issue I, you know, that is the exact issue I could even say solve.
+[00:43:16] Kyle Musca: That is the exact issue I solve for the girls and she thrives.
+[00:43:19] Kyle Musca: I'll give you all the structure, guidance, accountability to make sure that you get the best results possible in the best, the best results in the shortest time possible.
+[00:43:33] Kyle Musca: While balancing that around your busy work schedule, you know what I mean?
+[00:43:38] Kyle Musca: So I only, you know, structure again, structure, guidance, right?
+[00:43:44] Kyle Musca: Or you could even say like, I'll give you all the, I'll give you all the structures so you don't have to think about anything.
+[00:43:51] Kyle Musca: You'll know exactly what to do, when to do it, and how to do it.
+[00:43:56] Kyle Musca: You know what mean?
+[00:43:57] Kyle Musca: And then on screen, that's where, you know, they might put it.
+[00:43:59] Kyle Musca: You
+[00:44:00] Kyle Musca: Like a video of your app, for example, show it, right?
+[00:44:04] Kyle Musca: Then I'll guide you through the whole process to make sure that the plan changes as your schedule changes.
+[00:44:10] Kyle Musca: You know what I mean?
+[00:44:12] Kyle Musca: So flexibility around that busy schedule.
+[00:44:15] Bre Colley: So when you do it, do you think of like the ideal person?
+[00:44:20] Bre Colley: I guess you're thinking about your ideal client that you're talking to for that specific problem, essentially, and what their pain points are, what they want genuine help with, essentially.
+[00:44:31] Kyle Musca: Yeah, so a lot of that, the hook will basically lead the entire script, the script in the direction of the script.
+[00:44:38] Kyle Musca: But that's why I like to make it very clear about who I'm talking to in the script, in the hook.
+[00:44:44] Kyle Musca: You know what mean?
+[00:44:44] Kyle Musca: Because then it weaves out all the  problem.
+[00:44:46] Kyle Musca: Like, for example, if I say, if you're a dude in his 30s working 40 plus hours a week and you want to strip 10 kilos of fat over the next 90 days, it's like, if you're a , I'm about to talk about how balancing weight loss with a busy schedule...
+[00:45:00] Kyle Musca: Fathom you know, who I help.
+[00:45:02] Kyle Musca: If you're a  bum living off Centrelink, you're not going to be interested in that.
+[00:45:06] Kyle Musca: The ad doesn't apply to you because it's not relevant to you.
+[00:45:09] Bre Colley: Yeah.
+[00:45:09] Kyle Musca: I'm not solving your solution.
+[00:45:11] Kyle Musca: If I were just talking about fat loss, then it would solve everyone's problem and I would have a bunch of time wasters come through.
+[00:45:18] Bre Colley: Yeah.
+[00:45:19] Bre Colley: No, that makes sense.
+[00:45:20] Bre Colley: That actually helps a lot.
+[00:45:22] Kyle Musca: Yeah.
+[00:45:22] Kyle Musca: But to a fine degree, like you don't want to like overdo it where it's like, if you're a career-driven woman, you know, like Sage does, because it just sounds like marketing and gay.
+[00:45:32] Bre Colley: Yeah.
+[00:45:33] Kyle Musca: You know mean?
+[00:45:33] Kyle Musca: Like pick on points that they actually , one, identify.
+[00:45:37] Kyle Musca: You can do it if it's an identifiable characteristic.
+[00:45:40] Kyle Musca: So, for example, like you can say if you're a tradie, because tradies identify as being a tradie.
+[00:45:45] Kyle Musca: If you're a young mum or if you're a mum, mums identify with being mums.
+[00:45:49] Kyle Musca: But it's like, if you're a corporate woman, you know what mean?
+[00:45:52] Kyle Musca: It's like, if I work in accounting, I don't consider myself a  corporate.
+[00:45:56] Bre Colley: Yeah.
+[00:45:57] Kyle Musca: You know what I mean?
+[00:45:59] Kyle Musca: So it's like,
+[00:46:00] Kyle Musca: If you're a woman who works 40 plus hours a week, you know what mean?
+[00:46:03] Kyle Musca: I could be a teacher, I could be a nurse, you know what mean?
+[00:46:06] Bre Colley: Yeah, right.
+[00:46:08] Kyle Musca: If you're a woman who works a job where your shift is constantly changing, shift workers.
+[00:46:16] Kyle Musca: Or your schedule is constantly changing, shift workers.
+[00:46:20] Kyle Musca: You know what mean?
+[00:46:21] Kyle Musca: And because of that, you you find it hard to X, Y, Z.
+[00:46:32] Kyle Musca: Now, another really good thing to do with these, Josh Humphreys does it really good, is disqualify who you don't want to talk to.
+[00:46:42] Kyle Musca: So there's different ways you can go about this, for example.
+[00:46:43] Kyle Musca: But it's like, if you're a woman who, if you're a woman looking to lose 10 kilos, if you find it so difficult because your schedule is constantly changing around work, this is for you, right?
+[00:46:54] Kyle Musca: And then you could do, you know, problem.
+[00:47:00] Kyle Musca: Oh, sorry.
+[00:47:01] Kyle Musca: And then you disqualify.
+[00:47:02] Kyle Musca: So for example, he does that.
+[00:47:04] Kyle Musca: So he basically says like, if you're a woman in her 40s who struggles with hormones, et cetera, et cetera, et cetera.
+[00:47:09] Kyle Musca: And then he says, this isn't for, you know, men because hormones, their hormones aren't the same.
+[00:47:15] Kyle Musca: You know what mean?
+[00:47:17] Kyle Musca: So it's like for you, for example, you could do, if you're a woman who's looking to lose 10 kilos, but you find it so difficult because your schedule is constantly changing, this is for you.
+[00:47:26] Kyle Musca: Now, this doesn't work for young moms.
+[00:47:32] Kyle Musca: This doesn't work for men, you know, whoever you get like a lot of, if you get a specific type of characteristic that you don't want, then you just  them off.
+[00:47:39] Kyle Musca: So let's say it's young moms, for example.
+[00:47:40] Kyle Musca: Now, this doesn't work for young moms and it doesn't work for men simply because the schedules are so different.
+[00:47:50] Kyle Musca: Now, no  mom is going to message you, which you don't want because mom, young, young moms are always  broken, retarded.
+[00:47:57] Kyle Musca: So it's like you've disqualified them.
+[00:48:02] Kyle Musca: So you could do something like that as well, you know.
+[00:48:07] Kyle Musca: Now, this only works for women, or you could do a positive.
+[00:48:10] Kyle Musca: This only works for, you know, women in their 30s that work more than 40 hours a week.
+[00:48:16] Kyle Musca: It doesn't work for young mums and it doesn't work for men.
+[00:48:20] Kyle Musca: It doesn't work for Indians and it doesn't work for young mums.
+[00:48:26] Bre Colley: those fuckers, man.
+[00:48:30] Kyle Musca: The other thing as well is you could, instead of saying, like, it doesn't work for young mums, but it's like, if you're an Australian woman who works 30 plus hours a week, Indians are  off.
+[00:48:42] Kyle Musca: You know what mean?
+[00:48:45] Kyle Musca: And you could say that because you're an Australian and you're an Australian coach, not necessarily saying, I don't work with Indians.
+[00:48:53] Bre Colley: What if I was like, if you're an Aussie girl?
+[00:48:57] Bre Colley: Or does that kind of, like, target?
+[00:49:00] Kyle Musca: Yeah, if you're an Aussie girl in her 30s who's trying to lose 10 kilos over the next 90 days, but you find it so hard to stick to any plans because your schedule around work is constantly changing, then this is for you.
+[00:49:14] Kyle Musca: See how that hook was nice and streamlined, but it called out exactly who I wanted.
+[00:49:19] Kyle Musca: Aussie girl in her 30s, schedule work, and then why they should listen to it because their schedule is changing.
+[00:49:39] Kyle Musca: You know what mean?
+[00:49:39] Kyle Musca: And then go into the problem, you know?
+[00:49:45] Kyle Musca: You know, after working with over 200 different, after working with over 200 women who all work shift work, I understand how difficult it is to stick to a plan.
+[00:50:00] Kyle Musca: And when your life can feel so chaotic, that's probably all you need to say is problem for that agitation.
+[00:50:07] Kyle Musca: And because that it can make you feel trapped, you know, and because that can make you feel trapped.
+[00:50:18] Kyle Musca: And, you know, you start to get that little voice in your head that says that this is just how you are now.
+[00:50:26] Kyle Musca: Something again, this is very off the top of my head, but, you know, I'm saying.
+[00:50:30] Kyle Musca: Yeah.
+[00:50:30] Kyle Musca: It doesn't have to be long at all.
+[00:50:32] Kyle Musca: It shouldn't be long.
+[00:50:34] Kyle Musca: Most of these should be like one or two sentences probably.
+[00:50:38] Kyle Musca: Maybe like probably three to four if you're really trying to draw a specific point out.
+[00:50:49] Kyle Musca: But you'll even see here, like hook is, so it would be hook.
+[00:50:54] Kyle Musca: And then problem is very short, so five seconds.
+[00:50:57] Kyle Musca: Agitation, you know, roughly 10 seconds.
+[00:50:59] Kyle Musca: But the solution.
+[00:51:00] Bre Colley: is 15 seconds.
+[00:51:02] Kyle Musca: It also says action 15 seconds, but I reckon the action only needs to be, you know, realistically like five seconds.
+[00:51:08] Kyle Musca: If it's just, you know, if that's you shooting through a DM, but then you, I always like to add a reinforcement or a disqualifier on.
+[00:51:16] Kyle Musca: So that might go for an extra like 10 seconds.
+[00:51:18] Bre Colley: Yep.
+[00:51:21] Kyle Musca: Does that make sense?
+[00:51:22] Bre Colley: Yeah.
+[00:51:25] Kyle Musca: Cool.
+[00:51:26] Kyle Musca: Any questions that I know?
+[00:51:27] Bre Colley: No, I just need practice it, I reckon.
+[00:51:30] Kyle Musca: Yeah, follow the frameworks because it's so much easier.
+[00:51:33] Kyle Musca: And then you also make sure you're not repeating yourself as well.
+[00:51:37] Bre Colley: Yeah.
+[00:51:41] Kyle Musca: Cool.
+[00:51:42] Kyle Musca: Anything else you want go over at all?
+[00:51:43] Kyle Musca: I would probably start all your videos with that moving forward.
+[00:51:46] Kyle Musca: It's like, yeah, if you're an Aussie woman in her 30s, because that's your prime demographic.
+[00:51:50] Bre Colley: Yeah, for sure.
+[00:51:52] Kyle Musca: Yeah, and that will cut out all Indians.
+[00:51:55] Bre Colley: Yeah.
+[00:51:56] Kyle Musca: Or like, hopefully a majority of them.
+[00:51:58] Bre Colley: Yeah, I'll try that.
+[00:52:00] Bre Colley: So I feel like not this week, but like next week, I want to talk about doing like a live masterclass and doing like graphics and stuff for that to kind of, and then like a.
+[00:52:14] Kyle Musca: I wouldn't do a live masterclass.
+[00:52:18] Kyle Musca: You can, but I wouldn't campaign around it because it's like, it's a very short window and you need like all your automations and everything set up to do it properly.
+[00:52:26] Bre Colley: Right.
+[00:52:27] Kyle Musca: Okay.
+[00:52:28] Kyle Musca: If anything, I would do the lead magnet and just get people through that first.
+[00:52:31] Bre Colley: Yeah.
+[00:52:32] Kyle Musca: It can be done.
+[00:52:33] Kyle Musca: Don't get me wrong, but like it's, it's a hard funnel to get right because show up rates usually  awful.
+[00:52:40] Bre Colley: True.
+[00:52:41] Kyle Musca: Everything like that.
+[00:52:42] Kyle Musca: So it's just like, I wouldn't, you know, I would do direct, I would do lead magnet.
+[00:52:46] Kyle Musca: And then once you've done enough of them, then you could potentially do more.
+[00:52:49] Kyle Musca: But that's not to say that anything's stopping you from doing a live masterclass on your actual Instagram.
+[00:52:55] Kyle Musca: I mean, like you posted it organically and then.
+[00:53:00] Kyle Musca: You can get whoever comes to come, but you get used to just doing them because you don't want to spend a bunch of money on ads and then maybe you do get a decent show up, but you're just not super confident on executing it properly because you haven't done it before.
+[00:53:10] Bre Colley: Yeah, right.
+[00:53:11] Bre Colley: Okay.
+[00:53:13] Kyle Musca: I would do the lead magnet first.
+[00:53:14] Bre Colley: Have you already got it recorded?
+[00:53:15] Bre Colley: Yeah.
+[00:53:16] Kyle Musca: Yeah, do the lead magnet first, do the job form qualification and we can get that up ASAP.
+[00:53:21] Bre Colley: Okay.
+[00:53:22] Bre Colley: Can do.
+[00:53:23] Kyle Musca: And then I would also send Joseph a message to say like, hey, can you just make it so anyone that fills out this job form, their dad has put it to go high level.
+[00:53:32] Bre Colley: Oh, yeah.
+[00:53:34] Bre Colley: Can I not just get like a VA to do that?
+[00:53:38] Kyle Musca: If she knows how to do Zappi, it wouldn't be very hard to do.
+[00:53:42] Bre Colley: Right.
+[00:53:42] Bre Colley: Okay.
+[00:53:46] Kyle Musca: Cool.
+[00:53:47] Bre Colley: Yeah, cool.
+[00:53:49] Kyle Musca: All right.
+[00:53:50] Kyle Musca: Anything else in the car?
+[00:53:52] Bre Colley: Nah, babes.
+[00:53:53] Bre Colley: Eat your foods.
+[00:53:55] Kyle Musca: Okay, buddy.
+[00:53:57] Bre Colley: All right.
+[00:53:57] Kyle Musca: I'll see you in two seconds.
+[00:53:59] Kyle Musca: Bye.

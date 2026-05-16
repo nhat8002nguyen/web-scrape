@@ -1,0 +1,763 @@
+Meeting: Impromptu Zoom Meeting
+Date: 2026-03-25T06:00:53Z
+Scheduled: 2026-03-25T05:07:15Z - 2026-03-25T05:22:15Z
+Recording: 2026-03-25T05:07:47Z - 2026-03-25T06:00:45Z
+Language: en
+URL: https://fathom.video/calls/613469556
+Share Link: https://fathom.video/share/yWx-h5pQsRYJMzdc48-HaJXSUBD8m1D2
+Recording ID: 132588187
+
+Participants: Kyle Musca (kyle@empcoaching.com.au)
+Recorded by: Kyle Musca (kyle@empcoaching.com.au)
+--- TRANSCRIPT ---
+
+[00:00:00] Kyle Musca: How's things?
+[00:00:01] Kyle Musca: This meeting is being recorded.
+[00:00:03] Kyle Musca: I'm tired.
+[00:00:06] Meg Tovey: I haven't got  eaten today.
+[00:00:08] Meg Tovey: This is my first thing I've eaten and I've had two coffees.
+[00:00:11] Kyle Musca: Oh, no idea.
+[00:00:13] Meg Tovey: No idea.
+[00:00:14] Kyle Musca: Cool.
+[00:00:15] Kyle Musca: All right.
+[00:00:15] Kyle Musca: Well, in that case, we'll dive into things.
+[00:00:19] Kyle Musca: How has this week gone overall?
+[00:00:22] Meg Tovey: Yeah, good.
+[00:00:24] Meg Tovey: So good.
+[00:00:25] Meg Tovey: Playing the ads.
+[00:00:28] Meg Tovey: I would love, because I have not had the time, if we could, unless you have something else that you think we need to do instead, go over the conversations.
+[00:00:44] Meg Tovey: Because, like, whilst we're getting heaps of call bookings, which is amazing, I actually can't really fit any more in, the percentage of, like, calls booked to leads is not very high.
+[00:00:58] Meg Tovey: And so, like, we're getting...
+[00:00:59] Meg Tovey: A lot because there's a high volume, but I think the setters could be converting better.
+[00:01:04] Kyle Musca: Okay.
+[00:01:06] Meg Tovey: It's not high compared to normal.
+[00:01:09] Kyle Musca: Yeah.
+[00:01:10] Kyle Musca: So let's, let me find this.
+[00:01:13] Kyle Musca: Did you fill out the check-in form?
+[00:01:17] Meg Tovey: No.
+[00:01:18] Meg Tovey: Sorry.
+[00:01:19] Kyle Musca: Did you fill out the SSEO?
+[00:01:23] Kyle Musca: That's up to date.
+[00:01:25] Kyle Musca: Okay.
+[00:01:26] Kyle Musca: So let's open that up.
+[00:01:29] Meg Tovey: Also, I, because my focus is on CAC, including all the expenses, I've been changing, you'll see on the top left, I've put what that top number includes.
+[00:01:47] Kyle Musca: Right.
+[00:01:48] Kyle Musca: So it's, I'll hang on.
+[00:01:57] Meg Tovey: I've got tab sheet two.
+[00:02:00] Meg Tovey: Has got just the ad spend if we ever need it.
+[00:02:03] Meg Tovey: But I wanted to combine it because like at the end of the day that I need, yeah, I need to know if I can scale it from like full, like all the expenses, not just ad spend.
+[00:02:17] Kyle Musca: Yeah, what I would probably do in that case is maybe even try and like add, and this might be a of a  around, but probably add like another section under here where it's total CAC.
+[00:02:28] Meg Tovey: Like just because otherwise that will skew kind of the ad metrics, if that makes sense.
+[00:02:36] Meg Tovey: Does it really matter though?
+[00:02:37] Kyle Musca: Because like.
+[00:02:38] Kyle Musca: It will from like a, like if you're including every cost involved here, then it's like the cost per lead and all those costs will actually be like, they'll be skewed.
+[00:02:48] Meg Tovey: Yeah, but like it is, that's the real cost per lead.
+[00:02:53] Kyle Musca: Not from the ads.
+[00:02:55] Meg Tovey: Like it's the total.
+[00:02:56] Meg Tovey: Yeah, get what you mean.
+[00:02:57] Meg Tovey: But like, do we need that data for anything?
+[00:02:59] Meg Tovey: Other than vanity metrics on meta?
+[00:03:04] Kyle Musca: Well, we want to see what your actual cost per lead is from an ads perspective, like purely, just because that will just sort of set a baseline on how well the ads are actually performing.
+[00:03:14] Kyle Musca: If that's, let's say if it's like $40 as a typical number and then we're adding total CAC involved in that and that brings it up to $50 or $60, then it's like, okay, then that can give, it can, I guess, cause a bit of confusion if the ads are really performing.
+[00:03:29] Kyle Musca: The way that we want them to, if that makes sense.
+[00:03:32] Meg Tovey: Yeah.
+[00:03:33] Kyle Musca: I'm all for recording that.
+[00:03:35] Kyle Musca: Even if you just duplicated the sheet and just had two different tabs and one was including CAC and one was just pure ad spend or something like that.
+[00:03:42] Meg Tovey: Yeah, I did want to just get a row added, but I, my spreadsheet guy's not replied.
+[00:03:47] Kyle Musca: I've emailed him twice in like the last week.
+[00:03:49] Kyle Musca: So, and I didn't want to  with the spreadsheet and I don't want to fill out two spreadsheets.
+[00:03:55] Kyle Musca: Yeah.
+[00:03:56] Kyle Musca: Yeah, I would, yeah, if you've got someone that can do that.
+[00:03:59] Kyle Musca: Yeah.
+[00:03:59] Kyle Musca: I would just, when we want data, we just want like clean data.
+[00:04:02] Kyle Musca: So it's like, we're going to add CAC in, absolutely, that's fine.
+[00:04:05] Kyle Musca: It's just like, we don't want that pulling other metrics away from like, if we're just looking at purely ad, for example.
+[00:04:12] Meg Tovey: Yeah.
+[00:04:13] Meg Tovey: Okay.
+[00:04:13] Meg Tovey: I can change that.
+[00:04:14] Meg Tovey: I did save all the, if you've gone that sheet too, it's got all the ads spend, so I can easily pop it back in when the new column is added.
+[00:04:25] Kyle Musca: Yeah.
+[00:04:26] Kyle Musca: Yeah.
+[00:04:26] Kyle Musca: Beautiful.
+[00:04:30] Kyle Musca: Are we looking at this week here?
+[00:04:37] Meg Tovey: Well, I just noticed like 11% and 21% is lower than the previous week.
+[00:04:46] Meg Tovey: I mean, I guess it's way lower leads.
+[00:04:48] Meg Tovey: I don't know.
+[00:04:48] Meg Tovey: It was just, this one was orange and I was like, assume that means it should be a bit higher.
+[00:04:55] Kyle Musca: Yeah.
+[00:04:55] Kyle Musca: So we can definitely review conversations.
+[00:04:58] Kyle Musca: This week.
+[00:05:00] Kyle Musca: Yep.
+[00:05:00] Kyle Musca: Do you know what it is this week?
+[00:05:02] Meg Tovey: This is this week, P.
+[00:05:07] Meg Tovey: Also, this is three, actually.
+[00:05:12] Meg Tovey: But I haven't got the data in for this week.
+[00:05:14] Kyle Musca: Oh, so this is, yeah.
+[00:05:15] Meg Tovey: So this is Monday.
+[00:05:16] Meg Tovey: I mean, sorry, I do this on Monday next week.
+[00:05:19] Meg Tovey: So it's like full accurate.
+[00:05:21] Meg Tovey: So this is last week.
+[00:05:23] Kyle Musca: Yeah.
+[00:05:23] Kyle Musca: Okay.
+[00:05:24] Kyle Musca: Yeah.
+[00:05:24] Kyle Musca: No, some, some people do it the opposite where it's like, no.
+[00:05:28] Kyle Musca: So this week is, these two weeks essentially will be this week.
+[00:05:32] Kyle Musca: So from the 23rd to the 30th.
+[00:05:34] Meg Tovey: Yeah.
+[00:05:35] Meg Tovey: Oh, sorry.
+[00:05:35] Meg Tovey: I'm looking on my screen, not yours.
+[00:05:37] Meg Tovey: Let me just open yours up.
+[00:05:38] Meg Tovey: Yeah.
+[00:05:39] Meg Tovey: Yeah.
+[00:05:39] Kyle Musca: That's this week.
+[00:05:40] Kyle Musca: Okay.
+[00:05:40] Kyle Musca: Cool.
+[00:05:41] Kyle Musca: Yeah.
+[00:05:41] Kyle Musca: Some people do it the opposite.
+[00:05:42] Kyle Musca: So, okay.
+[00:05:43] Kyle Musca: That makes sense.
+[00:05:44] Kyle Musca: Okay.
+[00:05:44] Kyle Musca: Cool.
+[00:05:45] Kyle Musca: So, I mean, booking to lead ratio definitely looks like it's improved regardless.
+[00:05:51] Meg Tovey: Yeah.
+[00:05:54] Kyle Musca: What if, I mean, a few things could be.
+[00:06:02] Meg Tovey: I just haven't even reviewed the messages, I guess.
+[00:06:05] Meg Tovey: So I don't know if I'm, like, I don't even know if it is a problem that we need to fix or not, but I just thought I'd mention it.
+[00:06:12] Meg Tovey: It's the only thing that I've got on.
+[00:06:14] Kyle Musca: Yeah, so in saying that as well, the cost per booking has come down quite a lot.
+[00:06:22] Meg Tovey: Yeah.
+[00:06:22] Kyle Musca: So I think that would just come down to volume overall and coming through, which is fantastic.
+[00:06:28] Meg Tovey: The quality of the leads are just, like, I cannot express how much better they are.
+[00:06:34] Meg Tovey: It's .
+[00:06:37] Kyle Musca: Yeah, so we've got really, really high clothes rates.
+[00:06:39] Kyle Musca: Everything's looking really healthy.
+[00:06:40] Kyle Musca: So it's, like, right now we're just – what I would probably start – when is your challenge launch again?
+[00:06:47] Meg Tovey: Well, the 30th, but, like, none of these people have even mentioned the challenge.
+[00:06:53] Kyle Musca: Yeah.
+[00:06:53] Kyle Musca: I mean, what you could always do – what could always hasn't什么.
+[00:07:00] Kyle Musca: I think it's just because you've, you've, you've, the challenge is good, obviously, because it adds the deadlines and the scarcity and everything like that.
+[00:07:07] Kyle Musca: But I think you've just spoken to women who haven't seen anything that's been genuinely targeted towards them.
+[00:07:13] Meg Tovey: You know what I mean?
+[00:07:14] Meg Tovey: Yes.
+[00:07:14] Meg Tovey: The feedback I'm getting, like, when I ask that question that's at the start of the script of this, like, on the calls about what kind of stood out or resonated most with you, they all say, like, two things.
+[00:07:27] Meg Tovey: One, that it's the first time they've seen something that's for, like, women who have 20-plus kilos to lose, and they're like, I see so many of these, like, 5, 10-kilo shreds or whatever.
+[00:07:37] Meg Tovey: And also then, which this isn't probably the ads side of it, maybe more when they come onto the page of, like, feeling like we understand life and that it's safe and that kind of thing.
+[00:07:52] Kyle Musca: Yeah, so I think that's definitely a key takeaway from this is that our messaging should probably always, or.
+[00:08:00] Kyle Musca: It be for women specifically who need to lose more than 20 kilos.
+[00:08:09] Kyle Musca: And you've been getting people that have been saying that the organic content and everything like that has made them feel more comfortable as well.
+[00:08:21] Meg Tovey: Yeah.
+[00:08:23] Kyle Musca: Yeah, perfect.
+[00:08:24] Kyle Musca: Okay, cool.
+[00:08:26] Kyle Musca: Posting organic stuff tends to work.
+[00:08:30] Kyle Musca: Okay, cool.
+[00:08:31] Kyle Musca: We'll go back.
+[00:08:33] Kyle Musca: I don't want do any too recent, just in case they don't need conversations.
+[00:08:38] Kyle Musca: What I'll do is add this as well.
+[00:08:42] Meg Tovey: Before...
+[00:08:44] Meg Tovey: I have one other thing too that Rhys mentioned.
+[00:08:49] Meg Tovey: Do you want me to tell you now or after this?
+[00:08:52] Kyle Musca: Yeah, go.
+[00:08:53] Meg Tovey: Yeah.
+[00:08:53] Meg Tovey: Um, because I said something about...
+[00:09:00] Meg Tovey: Oh, wait, I wrote my notes.
+[00:09:03] Meg Tovey: Oh, just the, like, exit, the early exit rate is significantly higher than it's ever been before.
+[00:09:11] Meg Tovey: And I think a big part of it is because these people obviously come in cold.
+[00:09:16] Meg Tovey: They don't know our story, our brand, like, we really are just, like, the result, like, the service, right?
+[00:09:24] Meg Tovey: And so he suggested we run a low-cost campaign that's just towards clients that has videos of that.
+[00:09:38] Meg Tovey: And there's, like, no way really to go.
+[00:09:40] Meg Tovey: It's just, like, us sharing client results and, like, our brand values and mission and that kind of .
+[00:09:50] Kyle Musca: So a couple of things here.
+[00:09:52] Kyle Musca: You're talking about clients, obviously, that have converted into actual clients, active clients, and they just drop off?
+[00:09:59] Meg Tovey: They want
+[00:10:00] Meg Tovey: I'm a couple of weeks in.
+[00:10:03] Kyle Musca: Okay.
+[00:10:04] Kyle Musca: So.
+[00:10:05] Meg Tovey: And just to preface, I genuinely don't think we could change anything from a service perspective.
+[00:10:14] Kyle Musca: So, okay.
+[00:10:15] Kyle Musca: And now when we're talking about this, do you have your lifetime value of your actual cost, like average cost that a client spends or spend of a client?
+[00:10:26] Meg Tovey: Well, I've got the, um, obviously the minimum six month term, but do you mean the true LTV?
+[00:10:39] Kyle Musca: Yeah.
+[00:10:40] Meg Tovey: Yeah.
+[00:10:40] Meg Tovey: So this is one of the things I just asked my spreadsheet guy to fix up because on my spreadsheet where I track all this stuff, it's got LTV, but it's really inaccurate because some of the clients have been on board for like  eight years.
+[00:10:53] Meg Tovey: So it's like skewing the data.
+[00:10:55] Meg Tovey: So I've asked him to do a couple of different metrics and one of them is, um.
+[00:11:01] Meg Tovey: Well, it's not necessarily LTV, but I could calculate that.
+[00:11:04] Meg Tovey: But it's the kind of retention rate in weeks from like capped at 52 and then anyone who goes beyond that.
+[00:11:14] Meg Tovey: And then it's excluding people who haven't yet seen out the minimum term, if that makes sense.
+[00:11:22] Kyle Musca: Yeah, so I guess there's a lot of nuance there because like, again, a real vanity sort of thing I see is like people talk about LTVs in duration.
+[00:11:30] Kyle Musca: But it's like you need to actually understand the spend because it's like if someone spends more in three months than someone else's client does in six months, then it doesn't really matter.
+[00:11:38] Kyle Musca: Like it matters, obviously, but it's like that's, you know, it's all good and well to say like my clients stick around for 180 days.
+[00:11:44] Kyle Musca: But it's like if you're spending more to keep them on and people are going to drop off anyway, then it's like, well, that's not, again, that's a vanity thing.
+[00:11:52] Kyle Musca: It feels good, but it's not the true data.
+[00:11:54] Kyle Musca: So I definitely, and it's easy to get like true LTV, just get your VA or whatever.
+[00:12:00] Kyle Musca: If you don't have the actual figure to go past like all the last, you know, however many clients you want that expired and just get them to actually mark down on a spreadsheet their total spend.
+[00:12:10] Kyle Musca: So for me, for example, every time a client cancels, I just come and fill this out.
+[00:12:17] Kyle Musca: So it's one of those things that you just do over time.
+[00:12:20] Meg Tovey: I do have this on a spreadsheet, like I'm looking at it.
+[00:12:24] Meg Tovey: But the only thing is on this spreadsheet, if someone changes service, it treats it like, and I've since changed this, but like obviously there's a lot of previous data that wasn't this way.
+[00:12:41] Meg Tovey: It's like treating it as a new person.
+[00:12:43] Meg Tovey: So it's like skewing the data.
+[00:12:44] Meg Tovey: And a lot of people do that.
+[00:12:46] Kyle Musca: Like a lot of our clients stay on for a long time and then they downgrade to training only.
+[00:12:51] Kyle Musca: Yeah, so I would just, do you manually put that or is that an automation?
+[00:12:55] Meg Tovey: An automation.
+[00:12:57] Kyle Musca: Yeah, I would just manually do it.
+[00:12:58] Kyle Musca: It takes like two seconds to do
+[00:13:00] Kyle Musca: I don't know.
+[00:13:00] Kyle Musca: You have to go on a new Air Zoom or whatever to cancel them anyway.
+[00:13:02] Kyle Musca: So it's like you want to sort of drag the figure over.
+[00:13:07] Kyle Musca: Or set up an automation or something like that where, I mean, as long as you're really getting their high-ticket LTV, you know what mean?
+[00:13:14] Meg Tovey: LTV is not even, like, you're not including people that are active, so it's not accurate.
+[00:13:20] Kyle Musca: But you can only get someone's LTV once they cancel because otherwise it's not lifetime value.
+[00:13:27] Meg Tovey: What about all your clients that have stayed, like, well and truly beyond that, the amount these people have stayed?
+[00:13:34] Kyle Musca: Well, I include them into this.
+[00:13:36] Kyle Musca: So if you come down here, there are some outliers that will be in there.
+[00:13:39] Kyle Musca: But it's like that still goes into average lifetime value because then if you have someone that does pull out after, like, if you're going to exclude someone who's been on there for, like, three years, then by that means you might as well exclude someone who's only been on for two weeks, for example, because their lifetime value is going to be an outlier, unless it's going to be extremely common.
+[00:13:59] Kyle Musca: But for that.
+[00:14:00] Kyle Musca: So what I've done now is if they didn't finish it at like an hour and it is here, I just put it off to this subsection so it doesn't fully skew that.
+[00:14:08] Kyle Musca: So it's like, again, it just comes down to how clean you really want the data.
+[00:14:12] Meg Tovey: Like if you're going to have these outliers, I'd still track it.
+[00:14:15] Kyle Musca: So like for you, for example, maybe do a 52-week LTV and then you have, you know, anyone that was under maybe six weeks or something like that.
+[00:14:25] Kyle Musca: And anyone that was over 52 weeks can go on a different column.
+[00:14:31] Kyle Musca: If that makes sense.
+[00:14:32] Kyle Musca: Because it's still a lifetime value.
+[00:14:33] Kyle Musca: Like it's very easy to get caught up on the negatives of like, yes, you'll have those annoying clients that do want to pull out after three weeks.
+[00:14:39] Kyle Musca: But then you'll also have those really good clients that do stick on for five years.
+[00:14:43] Meg Tovey: You know what I mean?
+[00:14:44] Meg Tovey: Can I show you the spreadsheet that we've got like our cancellation spreadsheet?
+[00:14:47] Meg Tovey: Because I guess what's the purpose of getting this info?
+[00:14:51] Meg Tovey: Obviously, it's important info.
+[00:14:52] Meg Tovey: But I mean, what do you want it for so I can fully understand how to present it?
+[00:14:58] Kyle Musca: So in terms of the lifetime value.
+[00:15:00] Kyle Musca: That just obviously goes into comparison with, you know, how much can we actually spend to acquire a client on?
+[00:15:05] Kyle Musca: And that's why we want the average, you know what mean?
+[00:15:08] Kyle Musca: Because it's like, you know, if you get dozens or even hundreds of people, you know, clients through, you will have some outliers and yes, but that's not going to like massively skew the data, if that makes sense.
+[00:15:18] Kyle Musca: Unless you're getting  heaps of them, then they wouldn't be outliers.
+[00:15:23] Kyle Musca: And the reason we want that is so we can see like, you know, if my LTV is two and a half grand, for example, then, you I can comfortably spend $500 to acquire that client.
+[00:15:33] Kyle Musca: If I need to spend $1,000, I can do that to weather a storm, essentially.
+[00:15:39] Meg Tovey: Yeah.
+[00:15:40] Kyle Musca: again, that's why I'm not a huge fan of going off like time duration, because that doesn't really tell us anything.
+[00:15:44] Meg Tovey: No, I've been basing the CAC, like targets off the 3360, which is the minimum term if they don't early exit, because like, it's not, it is a few, but it's.
+[00:16:00] Meg Tovey: It's a massive amount, like it's the blue ones.
+[00:16:02] Meg Tovey: We only started this cancellation spreadsheet in, is that July?
+[00:16:09] Meg Tovey: Wow, my brain is not working.
+[00:16:10] Meg Tovey: Yeah, July last year.
+[00:16:13] Meg Tovey: So now that I'm actually looking at it, there's not really that many early exits, but.
+[00:16:18] Kyle Musca: Yeah, to be honest, like that's something I've seen Reese do a bit is like talk about duration.
+[00:16:23] Kyle Musca: And, you know, Jess DiBortola came to me and I did the math and it's like, yeah, she was like, said the exact same thing.
+[00:16:29] Kyle Musca: And said to me and I did the math and I was like, for you to, she's like, I dropped back to like 80 or 90 bucks a week, whatever she charged, because people weren't staying long enough.
+[00:16:40] Kyle Musca: And I did the math and the client would have had to stay for an extra three months to bring in the same amount of money.
+[00:16:46] Kyle Musca: So 50% longer.
+[00:16:48] Kyle Musca: And even with that, the coach's expenses on top of it would have chewed into over $300 of actual profit.
+[00:16:54] Meg Tovey: Nah, he hasn't been saying that to me, because we have just focused on else.
+[00:17:00] Meg Tovey: LTV to, like, to CAC, like the ratio, because, and I've just based the LTV off the minimum term amount, not off the actual LTV, which I feel like it would be somewhat similar, but I'm, yeah, I guess I'm in the process, I can get the LTV, I could probably, yeah, I guess do what you've done, I could just add an extra column and get Angela to fill that out when someone cancels, that would be easy, and she could backdate all of these.
+[00:17:31] Meg Tovey: But my LTV to CAC, like, true CAC, is lower than I think it should be to be able to, like, I guess, go ham on the ads.
+[00:17:42] Meg Tovey: Otherwise, I mean, the last few weeks have been lit, so it's different, if we can keep it like this.
+[00:17:48] Kyle Musca: Yeah.
+[00:17:49] Kyle Musca: So, I mean, time-wise and duration is obviously an important thing to measure, but, like, if you're going to talk about LTV, it should be the average total spend.
+[00:18:00] Kyle Musca: And yeah, no, I'm not talking about time at all.
+[00:18:02] Kyle Musca: Yeah.
+[00:18:03] Meg Tovey: That's the spreadsheet from that.
+[00:18:04] Meg Tovey: was talking about before.
+[00:18:05] Meg Tovey: That's the only, um, I don't actually know why I brought that up now that I'm thinking about it.
+[00:18:12] Meg Tovey: I don't know why I was talking about weeks because I do on that same spreadsheet, there's like a hundred tabs and one of them is LTV, but it's just not accurate.
+[00:18:19] Meg Tovey: Cause like I said, it's like, if someone downgrades it, treat some of the new client.
+[00:18:23] Meg Tovey: So I'll do that.
+[00:18:25] Meg Tovey: I'll get her to add a column and then that will give accurate LTV for canceled clients.
+[00:18:30] Meg Tovey: It just won't give LTV for active clients.
+[00:18:35] Kyle Musca: Yeah.
+[00:18:35] Kyle Musca: Yeah.
+[00:18:35] Kyle Musca: I just track one, just to keep it simpler and cleaner.
+[00:18:38] Kyle Musca: Um, I just track once they actually leave.
+[00:18:41] Kyle Musca: Um, and then yeah, to answer, yeah, to your question, it's like one, yes.
+[00:18:46] Kyle Musca: You want to know how scalable your ads are.
+[00:18:49] Kyle Musca: Um, the two other things I really like about knowing LTV, um, and CAC ratio and everything is, one, to be able to strong arm other people out of competition.
+[00:18:57] Kyle Musca: You know what mean?
+[00:18:58] Kyle Musca: So again, if you're.
+[00:19:00] Kyle Musca: If LTV cost-wise, spend-wise is like $2,500,000, let's say, then you can spend, again, $500,000, even $1,000,000.
+[00:19:07] Kyle Musca: could technically spend, realistically, if you've got really bad, $2,500,000 to acquire a client just to sort of, you know, like a very, very bad example.
+[00:19:15] Kyle Musca: Whereas if someone's LTV was like $1,200,000 because they charging $100,000 a week, for example, you know, as soon as they get to, you know, $500,000 or whatever, even close to what you can spend on a client, they start running very, very thin.
+[00:19:30] Kyle Musca: So you can just sort of, that will help you, especially if you get fluctuations of, you know, people get like, want to get into ads and then, because ads work on an auction, for example.
+[00:19:39] Kyle Musca: So it's like, that's where your lead cost might go up is if there's a lot of people auctioning for the same sort of audience, then it's like, you know, who's willing to be able to spend more and you'll be able to just strong arm people out.
+[00:19:49] Kyle Musca: That's why I like going down the, not high, high ticket route, but making sure you do have the profit margins to be able to comfortably do that.
+[00:19:58] Kyle Musca: And then also to be able
+[00:20:00] Kyle Musca: We've to weather storms if something happens for multiple different reasons.
+[00:20:06] Kyle Musca: Like, for example, with the fuel crisis and everything like that that's going to hit Australia, right, people are probably going to be more conscious about their spending.
+[00:20:12] Kyle Musca: So it's like if you've got a higher LTV, you can weather those storms a lot better than other coaches will be able to if they just, you know, are going down the cheaper route.
+[00:20:21] Meg Tovey: Yeah, yeah.
+[00:20:22] Kyle Musca: And unfortunately, that is sometimes that happens with marketing when you're testing and trialing certain things.
+[00:20:27] Kyle Musca: You've got to see if things do work or don't work, and sometimes they don't work, but you can still weather a storm from those clients you do get from it, if that makes sense.
+[00:20:36] Meg Tovey: Yeah.
+[00:20:37] Meg Tovey: Yeah, for sure.
+[00:20:39] Meg Tovey: Also, I just randomly thought of this because of the fuel thing you just said.
+[00:20:45] Meg Tovey: One of the people in last week on my CEO thing pulled out, and she was like, it was Monday morning.
+[00:20:55] Meg Tovey: I signed her up Friday afternoon, and, like, I was like, in my experience, it's been a   show to do.
+[00:21:00] Meg Tovey: Try and get too much out of them because we've got the early exit clause which is like they've got to pay in they can do it in the first four weeks and they're going to pay 50% of the remaining contract but to be able to actually get 50% of the remaining contract is like pulling teeth.
+[00:21:15] Meg Tovey: So I've just done that thing that you suggested in like being like oh we've been back and forth well Angela does it but back and forth and pay smart and they wanted this and we've been able to get it down to this.
+[00:21:25] Meg Tovey: But then I've just taken it out of the CEO thing because I'm like obviously it's like massively different with the sales like instead of three and a half grand it's three grand.
+[00:21:37] Meg Tovey: So I don't know if I should be doing that or just leave it in there.
+[00:21:40] Kyle Musca: And yeah you can because again that will clean up the data.
+[00:21:43] Meg Tovey: Take it out?
+[00:21:44] Kyle Musca: Yeah because they're like their contract value won't be obviously the same anymore because they're pulled out.
+[00:21:51] Kyle Musca: If you're going to do that though you could technically add whatever their total spend was into the cash collected.
+[00:21:57] Meg Tovey: Oh yeah yeah yeah okay.
+[00:22:00] Kyle Musca: Um, it depends on how often that is again, because it's like, you can focus on, you know, cause you're the business owner.
+[00:22:06] Kyle Musca: So you're dealing with all the   jobs and stuff like that.
+[00:22:09] Kyle Musca: It can be very easy to start focusing on like a small, you know, category of negatives when realistically there's a lot, much larger pool of positives, for example.
+[00:22:18] Kyle Musca: So it's like, you might have clients that have been on for five years and I'm sure you probably know who they are if you thought about them, but your attention is always on the people that are pulling out after three weeks.
+[00:22:27] Meg Tovey: You know what mean?
+[00:22:28] Meg Tovey: Yeah.
+[00:22:28] Meg Tovey: Well, actually that's something that I was talking to Lauren, like my head coach about the other day, because I feel like I am in that space because we're getting more people cancelling, not even early exits.
+[00:22:40] Meg Tovey: Cause as I just looked, there's actually not as many as I thought, but there are, um, a lot that I guess cancel.
+[00:22:47] Meg Tovey: And then they accept that they have to pay out the minimum term.
+[00:22:50] Meg Tovey: So they're outside of the four week window.
+[00:22:52] Meg Tovey: So Angela doesn't even offer a cancellation thing.
+[00:22:55] Meg Tovey: She just says we can actually new cancellation from the end of the midterm.
+[00:22:57] Meg Tovey: And they're like, yeah, okay, whatever.
+[00:23:00] Meg Tovey: But I don't have any way to track.
+[00:23:03] Meg Tovey: Maybe that's why I wanted my spreadsheet guy to update the retention thing because I am just focusing on all these  cancellations rather than like who's staying on.
+[00:23:12] Meg Tovey: Because the two main metrics I'm looking at at the moment are how many sales are we getting and how many people are cancelling.
+[00:23:18] Meg Tovey: But I'm not able to really see clearly who's staying past the minimum term.
+[00:23:24] Kyle Musca: Yeah.
+[00:23:25] Kyle Musca: So what you could do there is do you have the active client sheets?
+[00:23:31] Meg Tovey: I have my own.
+[00:23:34] Meg Tovey: That's like a big built-out spreadsheet.
+[00:23:38] Meg Tovey: So I probably would like to build it into that.
+[00:23:42] Kyle Musca: Yeah.
+[00:23:42] Kyle Musca: So, I mean, yeah, you can add similar concepts.
+[00:23:45] Kyle Musca: But basically, like I have something like this.
+[00:23:48] Kyle Musca: It's all my active clients, my coaches, and stuff like that.
+[00:23:50] Kyle Musca: The program they went on, when they started, when their technical program were at an end.
+[00:23:54] Kyle Musca: So you could just add columns here, especially if you wanted to add an active LTV, for example.
+[00:24:00] Kyle Musca: Well, could add that into something like this.
+[00:24:02] Kyle Musca: So like every time your VA goes through an update, she just updates how much they've spent so far and how long they've actually been on if you wanted to assess that data.
+[00:24:11] Meg Tovey: Yeah.
+[00:24:13] Kyle Musca: And then you might even want to just add a, you know, you could add a simple drop-down box here that basically says like still within contract length or out of contract length.
+[00:24:21] Kyle Musca: So you can get a ratio of how many clients are within contract and out of contract, if that makes sense.
+[00:24:27] Meg Tovey: Yeah.
+[00:24:28] Meg Tovey: Yeah.
+[00:24:31] Meg Tovey: I think that's similar to what he's doing if he replies.
+[00:24:34] Meg Tovey: So hopefully.
+[00:24:37] Kyle Musca: Yeah.
+[00:24:37] Kyle Musca: The way I think of data is like I wouldn't, one, yeah, definitely track the main ones, the most important ones, but keep it simple and clear at the same time.
+[00:24:50] Meg Tovey: Yeah.
+[00:24:51] Meg Tovey: No, I definitely, the only, I guess, metrics are ones that there's been a reason why I've wanted that metric.
+[00:24:58] Kyle Musca: Yeah.
+[00:24:59] Kyle Musca: And you, and you.
+[00:25:00] Kyle Musca: Pick that up with time.
+[00:25:01] Kyle Musca: Like that's the thing with data is like, if it becomes an issue, then just like add it into something.
+[00:25:04] Kyle Musca: And then, you know, obviously either, depends how urgent it is.
+[00:25:07] Kyle Musca: Like if it's like a cancellation thing, I just do that over time.
+[00:25:10] Kyle Musca: If it's something you're like, I really need to see what's happening right now.
+[00:25:14] Kyle Musca: there's urgency around it.
+[00:25:15] Kyle Musca: Just get a VA to go backlog, whatever it is.
+[00:25:18] Meg Tovey: Yeah.
+[00:25:19] Meg Tovey: I just, um, it was more an emotional thing.
+[00:25:23] Meg Tovey: I was like, I feel like I'm being so negative about like, and I don't want that to like come across to my coaches either without evidence to back it up.
+[00:25:32] Kyle Musca: Yeah.
+[00:25:33] Meg Tovey: Mindful of like, if I'm going to come to them with a problem, it can't be an emotional one.
+[00:25:38] Kyle Musca: Yeah.
+[00:25:39] Kyle Musca: So that's something, it's just the joy of being a business owner.
+[00:25:42] Kyle Musca: You're going to deal with all the  jobs.
+[00:25:43] Kyle Musca: So you're going to have like a lot of good things happening in your business, but you're just going to be always looking at the negative.
+[00:25:48] Kyle Musca: So it's really important to like understand that.
+[00:25:50] Kyle Musca: Um, and not kind of like let it, well, one, let it impact you to react emotionally.
+[00:25:56] Kyle Musca: And then three, again, if it is problem, collect the data.
+[00:26:00] Kyle Musca: You can actually have a logistical insight to it.
+[00:26:03] Meg Tovey: But, yeah, last week was so good.
+[00:26:06] Meg Tovey: Well, last three weeks, really.
+[00:26:08] Kyle Musca: Yeah.
+[00:26:09] Kyle Musca: No, I think definitely got the messaging down, Pat, now.
+[00:26:12] Kyle Musca: That's something I've been, like, really focused on the last couple of months is just, like, how can I weed out all the  time wasters?
+[00:26:18] Meg Tovey: Even with, like, my setup because we've got no times left for this, like, between now and Friday.
+[00:26:24] Meg Tovey: She's like, can I start booking them in on Saturday?
+[00:26:26] Meg Tovey: Because I, like, get her to ask me before.
+[00:26:28] Meg Tovey: I'm like, yeah, but only if they're working full-time.
+[00:26:31] Meg Tovey: I'm not  wasting my time on a Saturday with someone who's part-time or not working.
+[00:26:35] Kyle Musca: Yeah.
+[00:26:36] Kyle Musca: Yeah, definitely.
+[00:26:37] Kyle Musca: Sad days, like, when I was taking calls heaps, I always found sad days were the shittest days for sure, right?
+[00:26:43] Kyle Musca: So, I kind of even just stopped doing it because of that reason.
+[00:26:46] Meg Tovey: But, yeah.
+[00:26:46] Meg Tovey: I did.
+[00:26:47] Meg Tovey: I had three and signed three last weekend.
+[00:26:52] Meg Tovey: Oh, no, that was actually on Sunday.
+[00:26:53] Meg Tovey: I was meant to do it on Saturday and then had to go to the hospital.
+[00:26:58] Kyle Musca: oh.
+[00:26:59] Kyle Musca: Oh, no.
+[00:27:02] Kyle Musca: Oh, perfect.
+[00:27:07] Kyle Musca: Let me.
+[00:27:09] Meg Tovey: Oh, yeah.
+[00:27:10] Meg Tovey: So what do you think about that idea that Rhys had about the content for?
+[00:27:18] Kyle Musca: Oh, right.
+[00:27:18] Kyle Musca: Yeah.
+[00:27:19] Kyle Musca: It's an increase.
+[00:27:23] Kyle Musca: So, I mean, it's like a little bit of an unnecessary.
+[00:27:26] Kyle Musca: Sorry, if you're going to do that, I'll probably create more of an internal course or something so you don't have to put actual ad spend on it.
+[00:27:32] Kyle Musca: You know what mean?
+[00:27:33] Meg Tovey: You have a course.
+[00:27:35] Meg Tovey: So open to your suggestions because they go through the course, but it doesn't have anything about brand.
+[00:27:43] Kyle Musca: Yeah, I would.
+[00:27:44] Kyle Musca: Yeah, I would probably make like a basically a brand.
+[00:27:47] Kyle Musca: would just call it like a culture or something like that or our story or something because you don't need to spend.
+[00:27:51] Kyle Musca: There's no point of spending ad spend and then retargeting.
+[00:27:53] Kyle Musca: And again, they're on like, you know, if they're on social media, they're probably doing scrolling and stuff like that.
+[00:27:58] Kyle Musca: You know, they want to unwind.
+[00:27:59] Kyle Musca: They're probably.
+[00:28:00] Kyle Musca: We don't want to be thinking about coaching and accountability and stuff at that point in time.
+[00:28:06] Kyle Musca: The other things there is obviously community.
+[00:28:10] Kyle Musca: your community like pumping in terms of them all chatting and everything?
+[00:28:14] Meg Tovey: It was.
+[00:28:16] Meg Tovey: I think the busier we've gotten, the less people engaged because there are more people.
+[00:28:22] Meg Tovey: And I guess is that like nerves.
+[00:28:24] Meg Tovey: So the girls have to post each once a week and then we do a fortnightly like internal challenge.
+[00:28:31] Meg Tovey: And the, we've come up with kind of like a way for them to post to get people engaging.
+[00:28:38] Meg Tovey: But I think like just naturally with more people in the group, they do less.
+[00:28:43] Meg Tovey: And I'm, I was on my meeting with Loz.
+[00:28:46] Meg Tovey: I was like, we need to start doing more in-person stuff as well.
+[00:28:50] Meg Tovey: So I do want to do more of that, but yeah.
+[00:28:53] Kyle Musca: Yeah.
+[00:28:54] Kyle Musca: Yeah.
+[00:28:54] Kyle Musca: So I think that's probably more the culprit than putting an ad up to retarget already clients.
+[00:29:00] Kyle Musca: Because people need to feel like they're a part of something bigger than themselves.
+[00:29:06] Kyle Musca: It's all well and good working with one-on-one, the coach, and forming that relationship.
+[00:29:10] Kyle Musca: But if they feel like they're part of an actual community, then they can start to identify with that.
+[00:29:16] Kyle Musca: So, for example, I've got guys on.
+[00:29:18] Kyle Musca: It will also make your life a lot easier as well because instead of constantly coming to you and annoying you with questions, I'll just start asking in the chat and everything.
+[00:29:26] Kyle Musca: What are the weekly posts that you're – before I get into that, before I forget, one thing I'd really, really strongly recommend you do is when you do sort of sign up or onboard a client or whatever very early in the stage, make sure to make it very clear.
+[00:29:39] Kyle Musca: So every time I jump on a call to onboard a new client, I say, go into the team chat, the big team chat with everyone in it.
+[00:29:46] Kyle Musca: Introduce yourself, you know, a little bit about where you're from, your goals, basic stuff like that, just to break the ice and get used to conversating there.
+[00:29:53] Kyle Musca: Because I guarantee you probably have a lot of people in there that do want to actually chat.
+[00:29:58] Kyle Musca: They just have that nervous.
+[00:30:00] Kyle Musca: Anxiety about actually putting them first message through.
+[00:30:02] Kyle Musca: So if you can get them to do it straight away, it breaks the ice there.
+[00:30:06] Kyle Musca: The second thing there is, and what I absolutely love about it, is when they do that, all the other guys in my team chat will be like, welcome, brother, you're in such good hands, like, you know, and basically start telling them how great the program is.
+[00:30:19] Kyle Musca: And it's like, if you've got nerves and anxiety and you do that, and then you hear all these other stories of other girls or other guys, in my case, in the program, recommending how great it is.
+[00:30:28] Meg Tovey: Because it's like, that's going to make you feel so much more confident in the decision they've made.
+[00:30:33] Meg Tovey: Yeah.
+[00:30:34] Meg Tovey: So we do that.
+[00:30:35] Meg Tovey: We've got this and they all do it.
+[00:30:40] Meg Tovey: It's like part of the onboarding.
+[00:30:41] Meg Tovey: It's like a bunch of questions they answer.
+[00:30:43] Meg Tovey: So like hobbies, favorite food, pet peeve, why they started, blah, blah, blah.
+[00:30:48] Meg Tovey: And like literally they all do it and they post photos and stuff.
+[00:30:52] Kyle Musca: But it's the way less engagement on these now.
+[00:30:56] Meg Tovey: So I've, the coaches have to engage within 72 hours.
+[00:31:00] Meg Tovey: Because of everyone's posts.
+[00:31:02] Meg Tovey: But, yeah, it's minimal unless something really stands out in the post where someone can connect with, like, it's minimal.
+[00:31:11] Meg Tovey: Like, this chick, she knew her, so she commented.
+[00:31:13] Meg Tovey: But, like, I know for a fact how important this is, and so I'm keen for your advice because that's how I grew my entire business to begin with organically, like, was through community.
+[00:31:24] Meg Tovey: And it's so hard now because.
+[00:31:27] Kyle Musca: So I think for me looking at this, I would shift it away from Facebook.
+[00:31:32] Kyle Musca: Like, people aren't on Facebook as much as they used to be.
+[00:31:36] Kyle Musca: People do go on there.
+[00:31:37] Kyle Musca: Like, I go on there sometimes.
+[00:31:37] Kyle Musca: You might as well.
+[00:31:38] Kyle Musca: But usually I'm not, like, especially if you're a part of multiple group chats and everything like that, you don't really look at what's being posted.
+[00:31:45] Kyle Musca: I would think of, like, for this, we want to keep them, where are they when they want to talk to their friends?
+[00:31:50] Kyle Musca: Like, for most people, it's going to be Instagram today.
+[00:31:53] Meg Tovey: How do you, because surely you're not , that sounds like a big task, like, add new.
+[00:32:00] Meg Tovey: New people and delete people every single week, like if they cancel.
+[00:32:04] Kyle Musca: So you could get your VA to do that.
+[00:32:06] Kyle Musca: I don't personally remove them, to be honest, because either they just stop talking or if they do, you know, are a really good part of the community and they keep conversation up and everything like that, then it's like, go hand, brother.
+[00:32:19] Kyle Musca: You know what mean?
+[00:32:20] Kyle Musca: Like if you're going to get people talking and they're just basically a free moderator at that point.
+[00:32:25] Meg Tovey: The reason I haven't done that is because I've trialed group chats and because there's so many people messaging, then a lot of people don't message because it's like you've got to scroll and like it's overwhelming.
+[00:32:38] Kyle Musca: Yeah, but in a way, that's kind of what you want.
+[00:32:41] Kyle Musca: Like you want people talking and conversating.
+[00:32:44] Kyle Musca: Like, for example, mine's the same now.
+[00:32:46] Kyle Musca: Like I can't, you know, I do mine on WhatsApp.
+[00:32:50] Kyle Musca: If I was going to create a new, well, I do all my messaging on WhatsApp, so my client's already here anyway.
+[00:32:54] Kyle Musca: But if I was going to create, like if I had a platform where they had to message through the platform, then I would do it on Instagram.
+[00:33:00] Kyle Musca: But, for example, this is my one, and, like, I can't keep up with the messages.
+[00:33:06] Kyle Musca: Like, this is all, you know, this week still, Monday.
+[00:33:10] Kyle Musca: Usually there's more.
+[00:33:11] Kyle Musca: Like, sometimes I'll check this in the afternoon, like, 180 missed messages.
+[00:33:14] Meg Tovey: Yeah, I just realized, like, Nick's got a  WhatsApp for the Run Club, and it pumps 24-7.
+[00:33:19] Meg Tovey: But I'm the type of person that I'm, like, absolutely not ever going to look at that.
+[00:33:23] Meg Tovey: So that's probably why I'm avoiding it.
+[00:33:26] Kyle Musca: I'm the same because, like, I don't look at it.
+[00:33:27] Kyle Musca: But keep in mind, again, that you're messaging people, you're talking to people all day, this is your business.
+[00:33:34] Kyle Musca: You're not going to  want to message in the group chat after you get off work.
+[00:33:39] Kyle Musca: But for most people, again, it's a community.
+[00:33:40] Kyle Musca: It's something that they are part of.
+[00:33:42] Kyle Musca: They develop friendships and relationships with other people in it as well.
+[00:33:46] Kyle Musca: So it's, like, more of a friendship group chat.
+[00:33:48] Kyle Musca: I also think the really important, sorry, powerful thing about doing it on Instagram is the platform.
+[00:33:56] Kyle Musca: Well, one, it's obviously a great place to message.
+[00:33:57] Kyle Musca: But you can start sharing.
+[00:34:00] Kyle Musca: People's stories and posts into the chat, especially if they tag you and stuff like that, and, like, hype them up so the other girls in the chat want to do it as well.
+[00:34:08] Meg Tovey: What do you mean by sharing?
+[00:34:09] Meg Tovey: Because we share it to our story.
+[00:34:10] Kyle Musca: What do mean by sharing it into the chat?
+[00:34:13] Kyle Musca: So, for example, you know, someone posts a story and it's like a gym pick or something like that.
+[00:34:17] Kyle Musca: You just share it to the story.
+[00:34:20] Kyle Musca: Oh, okay, I'm just going give a quick shout out to Melissa.
+[00:34:22] Kyle Musca: She's absolutely  killing it.
+[00:34:23] Meg Tovey: You know what I mean?
+[00:34:24] Meg Tovey: Yeah.
+[00:34:25] Kyle Musca: And in group chats like that as well, when it's a conversation rather than, you know, a feed post thing like Facebook, it's a lot easier to maneuver a cultural shift.
+[00:34:36] Kyle Musca: So, something I've been really focusing on for the last couple of months is encouraging them to post more and more on their stories, which is a hard task for, you know, essentially middle-aged men almost is what I'm dealing with.
+[00:34:49] Kyle Musca: Yet, there's so many of them doing it now, like, and it's just promoting your business.
+[00:34:54] Meg Tovey: Yeah.
+[00:34:54] Meg Tovey: Yeah, because we did, like, a challenge at the end of last year for posting on Instagram and it was, like...
+[00:35:00] Meg Tovey: I'm getting so many inquiries through that and they're obviously the best kind of clients when they've been referred from someone.
+[00:35:07] Meg Tovey: Okay, this is, yeah, something that I've like been feeling like we needed to change for so long and this is the first time it's actually like landed.
+[00:35:17] Kyle Musca: Yeah, yeah.
+[00:35:18] Kyle Musca: I just, with all that stuff, it's like always just think about where the user actually is and what platform they are.
+[00:35:23] Kyle Musca: So it's like, and so I learned this from like school, for example, right?
+[00:35:28] Kyle Musca: It doesn't make sense if you're a health and fitness coach to really go on school because the people that are interested in health and fitness wouldn't typically use school for that.
+[00:35:37] Kyle Musca: But if you had a business course or something like that, then they see school as a platform for business so they would use school.
+[00:35:42] Meg Tovey: Yeah.
+[00:35:43] Kyle Musca: make sense?
+[00:35:44] Kyle Musca: Yeah.
+[00:35:45] Kyle Musca: Yeah.
+[00:35:45] Meg Tovey: Could I like, I mean, I know I can do whatever the  I want, but would you recommend I actually ask in the community if they'd be keen on an Instagram group chat?
+[00:35:55] Kyle Musca: Um.
+[00:36:00] Kyle Musca: I mean, I probably wouldn't.
+[00:36:02] Kyle Musca: I'll just  move it over there.
+[00:36:05] Kyle Musca: I mean, you could be like, realistically, people are just going to say yes or not answer it.
+[00:36:09] Kyle Musca: Probably no one's going to be like,  that.
+[00:36:11] Meg Tovey: I'm not using an Instagram group chat.
+[00:36:13] Meg Tovey: Yeah, but at least yes will give me more validation to not start something that's not going to work.
+[00:36:19] Kyle Musca: Yeah.
+[00:36:21] Kyle Musca: I mean, you could.
+[00:36:22] Kyle Musca: I think a lot of them will find it easier, to be honest, and like more refreshing.
+[00:36:27] Meg Tovey: Yeah, even I would find it.
+[00:36:28] Meg Tovey: Yeah, yeah, yeah.
+[00:36:29] Meg Tovey: Okay.
+[00:36:30] Meg Tovey: Okay.
+[00:36:32] Kyle Musca: Yeah.
+[00:36:33] Kyle Musca: I think that's probably the biggest thing in terms of longer-term retention is just, yeah, community, making them feel like they're bigger than something, than just them.
+[00:36:42] Kyle Musca: And also, when you get a community pumping, as I said before, it's so much easier to make a cultural shift within the team, like within the community, if you want them to start doing certain things.
+[00:36:54] Meg Tovey: Yeah.
+[00:36:54] Meg Tovey: But, I guess the only thing is, like announcements and
+[00:37:00] Meg Tovey: I don't know if you can do that in Instagram, like if you want someone to, because in Facebook, like if I want everyone to see it, I can tag everyone and it notifies them directly.
+[00:37:12] Kyle Musca: You might be able to pin a message.
+[00:37:14] Kyle Musca: Would it be silly to keep both, like to have a Facebook group and add them in, but keep it for like announcements and stuff and then.
+[00:37:20] Kyle Musca: Yeah, you could absolutely do that.
+[00:37:22] Kyle Musca: Yeah, I mean, yeah, if you wanted to, yeah, it depends how many announcements you're making, but you could absolutely do that, yeah.
+[00:37:30] Meg Tovey: It's more like internal upsells and stuff like our photo shoot day and stuff like that.
+[00:37:34] Kyle Musca: Yeah, yeah, I would probably just keep the Facebook page for that specifically.
+[00:37:40] Meg Tovey: As of now, the max is 250 people in a single Instagram group chat, which I'm not at yet, but I mean, I obviously want to get to that.
+[00:37:49] Meg Tovey: So then what?
+[00:37:52] Kyle Musca: That's true.
+[00:37:55] Kyle Musca: How many clients are you currently seeing that?
+[00:37:59] Meg Tovey: Um.
+[00:37:59] Meg Tovey: you.
+[00:38:00] Meg Tovey: Good question.
+[00:38:03] Meg Tovey: Approximately...
+[00:38:09] Meg Tovey: Why is it not leveling?
+[00:38:12] Meg Tovey: Is old?
+[00:38:17] Meg Tovey: 150?
+[00:38:24] Meg Tovey: We're not going to have 100 that fast.
+[00:38:27] Kyle Musca: Yeah, yeah.
+[00:38:28] Meg Tovey: But...
+[00:38:29] Kyle Musca: I mean, that's a bridge you could cross when it comes type of thing.
+[00:38:35] Kyle Musca: The other thing is, like, you could always separate it into different packages and stuff like that when it does come.
+[00:38:45] Meg Tovey: We don't...
+[00:38:46] Meg Tovey: Yeah, we kind of only really have the VIP.
+[00:38:48] Meg Tovey: We've got the training and nutrition only, but it's still a very similar service.
+[00:38:52] Meg Tovey: That's so fun.
+[00:38:53] Meg Tovey: I'll cross that bridge and we'll get to it and move somewhere else.
+[00:38:56] Kyle Musca: The other thing as well is, like, again, there's different ways you can do this.
+[00:38:58] Kyle Musca: If you wanted to do...
+[00:38:59] Kyle Musca: do...
+[00:39:00] Kyle Musca: Post-announcements, stuff like that.
+[00:39:02] Kyle Musca: You could still keep it on Native and just add all the girls to a close friends list.
+[00:39:07] Kyle Musca: It depends if you post close friends to other stuff.
+[00:39:09] Kyle Musca: Actually, I'm pretty sure you can have multiple close friends lists from memory.
+[00:39:13] Kyle Musca: But then they can't chat.
+[00:39:15] Meg Tovey: Oh, you mean for announcements?
+[00:39:16] Kyle Musca: Yeah, yeah.
+[00:39:17] Kyle Musca: Yeah.
+[00:39:19] Kyle Musca: You could do all three, to be fair.
+[00:39:21] Kyle Musca: There's nothing to stop and you can do that.
+[00:39:23] Meg Tovey: Yeah, no, I'll do the Instagram chat and then we'll just move if, not if, but when the time comes.
+[00:39:30] Kyle Musca: I wonder if you can, again, because I don't do it, I don't mind on WhatsApp, so I can just add a link straight to the chat.
+[00:39:35] Meg Tovey: But I wonder if you can do that for the actual Instagram one, because that would be helpful as well.
+[00:39:40] Meg Tovey: What link?
+[00:39:42] Kyle Musca: So, for example, in my onboarding message, I have a link.
+[00:39:46] Kyle Musca: So, if they click on it, it just takes them straight to the WhatsApp group chat for them to introduce themselves.
+[00:39:52] Kyle Musca: I'm not 100% sure if you can do that on Instagram.
+[00:39:56] Meg Tovey: Yeah, I can figure that out.
+[00:40:00] Meg Tovey: Yeah, create group with a link.
+[00:40:02] Meg Tovey: Oh, no.
+[00:40:03] Meg Tovey: Anyone with a link can join the group.
+[00:40:07] Meg Tovey: Yeah, that looks like you can.
+[00:40:09] Meg Tovey: Anyone with a link can, like.
+[00:40:11] Kyle Musca: Yeah, perfect.
+[00:40:12] Kyle Musca: Yeah, so that solves that problem.
+[00:40:14] Kyle Musca: And then also one thing I would really recommend on that as well is if you tell them to, like, introduce themselves and they do it and then the other girls are, like, welcome or something like that and someone, you know, says something really good, I would privately message them and just be like, hey, I just want to, like, say I really appreciate you for doing that.
+[00:40:30] Kyle Musca: I'm sure you probably felt, you know, a little bit nervous when you joined.
+[00:40:33] Kyle Musca: So, when someone joins and, you know, hears something like that, it makes them feel so much more confident in there.
+[00:40:37] Kyle Musca: I remember doing that to one guy when the group chat started popping off and then, like, the next time someone joined, he was like, welcome, brother, you're in the best place ever.
+[00:40:46] Meg Tovey: It's good.
+[00:40:47] Kyle Musca: So, just, like, reward behavior by showing, like, genuine appreciation, really.
+[00:40:51] Kyle Musca: people will, again, you know, humans are more incentivized by, you know, appreciation of actions than they are for, like, finance.
+[00:41:00] Kyle Musca: Financial incentives and stuff like that.
+[00:41:01] Kyle Musca: So, you know, if you can show, that will also help with long-term.
+[00:41:06] Meg Tovey: Yeah.
+[00:41:07] Kyle Musca: Yeah.
+[00:41:08] Kyle Musca: If you're constantly telling someone, really appreciate you having a part of this team, you're an important member, they're going to feel like they want to stay.
+[00:41:14] Meg Tovey: Yeah.
+[00:41:15] Meg Tovey: Which I used to do, but now I feel like quite disconnected from each client that I, because I used to message all of, like, with the Facebook group when it was just me, anytime someone didn't comment, like, if there was someone that posted the intro and no one commented, I'd message all my, like, OG clients, be like, can you comment on blah, blah, blah's post?
+[00:41:35] Meg Tovey: But now, because I feel like I, yeah, I'm quite disconnected, it's, like, yeah, hard to know who to message, because I'm like, oh, are they, because half the time I'm like, oh, I need to check with the girls to see if this client's, like, doing well before I, like, message them about something else and then don't realize they're about, they've had a  spiral and haven't been messaging for a week.
+[00:41:58] Kyle Musca: Yeah, yeah, so I mean, that's like...
+[00:42:00] Kyle Musca: That's of it.
+[00:42:01] Kyle Musca: The way I sort of, I guess, counter that is like every client has an open line of communication with me if they want to chat to me.
+[00:42:07] Kyle Musca: So there are guys I talk to, you know, multiple times a week and just keep up that conversation with them and everything like that.
+[00:42:14] Meg Tovey: But like a lot of them don't message me, to be honest.
+[00:42:17] Meg Tovey: Yeah, I'm in the group chat, but it's a separate Trainerize account because I have thought about like sometimes when people are cancelling, I'm like, is it just like that their personality didn't mesh with the coach that I put them with?
+[00:42:32] Meg Tovey: Particularly because like capacity is a real problem right now.
+[00:42:34] Meg Tovey: Like I'm hiring again because of it.
+[00:42:37] Meg Tovey: But even then, like if we hire again and then I've kind of only got one coach that's available to take on clients, I'm like, I don't have a choice to put people with the right personality.
+[00:42:46] Meg Tovey: And I would like to have that where they can message me openly to be like, hey, I actually, I'm not really gelling with my coach or whatever.
+[00:42:57] Meg Tovey: I don't think a lot of people would feel comfortable.
+[00:43:00] Meg Tovey: It's to say that anyway, but yeah, they don't really have that direct line with me because I used to text them the first message for like the onboarding, but I changed that because then people were, like the people who were early exiting were  texting me to do it and then I brought Angela in to do that so I could kind of stay the middleman and not be, so yeah, I don't know what to do with that.
+[00:43:27] Kyle Musca: Yeah, so it depends, again, this comes down to a platform thing.
+[00:43:31] Kyle Musca: So for me, because I do everything on WhatsApp, it's very easy for me to quickly create a three-way group chat with me, the coach, and the client.
+[00:43:43] Kyle Musca: Yeah, it just depends on how they can actually message you.
+[00:43:51] Kyle Musca: Yeah, that is probably something I would definitely think about because that is also a very important thing.
+[00:43:56] Kyle Musca: in making sure that you do have an open line.
+[00:44:00] Kyle Musca: And with your clients, so you can get that kind of feedback that you wouldn't hear otherwise.
+[00:44:04] Kyle Musca: Maybe I should go back to doing the text thing.
+[00:44:09] Kyle Musca: Yeah, probably.
+[00:44:13] Meg Tovey: Because I have had like a couple I still do text if for whatever reason I've needed to.
+[00:44:17] Meg Tovey: And then they have a message about the payments and I've been able to refer them on to Angela, so it's better.
+[00:44:26] Meg Tovey: So yeah, okay, maybe I'll do that.
+[00:44:27] Meg Tovey: Because I've been sending the first message, like it's just a link to the course, but I've been now sending that through Instagram so they don't have my number, but maybe that would be better if they did have my number.
+[00:44:38] Kyle Musca: Yeah.
+[00:44:39] Kyle Musca: Yeah.
+[00:44:41] Kyle Musca: It's a catch-twin too.
+[00:44:43] Kyle Musca: You could technically keep it through Instagram and just make sure that the set is known if any client messages you to notify you, but then it's like adding extra steps.
+[00:44:50] Kyle Musca: just, again, it all comes down to me for stuff like this.
+[00:44:55] Kyle Musca: It's just like simplicity, you know what I mean?
+[00:44:58] Meg Tovey: And then Okay.
+[00:45:00] Meg Tovey: So would, do you ever say, is there anything you word in the onboarding that like alludes at if they have issues with a coach?
+[00:45:08] Meg Tovey: Because I don't want to like put that in their mind.
+[00:45:12] Kyle Musca: Yeah.
+[00:45:12] Kyle Musca: So I always say at the very end, last thing, you know, we are very big on communication.
+[00:45:17] Kyle Musca: So if you do have any questions or, you know, you're struggling with something, make sure to sing out.
+[00:45:23] Kyle Musca: Like at the end of the day, we can't do too much to help you if we don't actually know you're struggling.
+[00:45:26] Kyle Musca: And I kind of do like a little laugh or whatever to kind of make it not so serious, but just make it very known to them.
+[00:45:33] Kyle Musca: Because then if they do come away, like come back in a few weeks and then try and cancel or whatever, it's pretty, I've been able to save like quite a few, especially recent just by saying like, oh, it's just seems like it's just a bit of miscommunication, man.
+[00:45:47] Kyle Musca: Like I did mention, you know, anything like that, you know, this is the first time we're hearing from it.
+[00:45:51] Kyle Musca: Like we can't really do anything to help people we don't know.
+[00:45:54] Kyle Musca: And then I'll work with them and be like, you know, maybe I'll give you an extra free month just because of that miscommunication.
+[00:46:00] Meg Tovey: Communication will start from scratch or something.
+[00:46:02] Meg Tovey: Yeah, we definitely do that.
+[00:46:04] Meg Tovey: Like we've got a bit at the end, but it's the coach that's sending it.
+[00:46:08] Meg Tovey: Like they're saying like.
+[00:46:17] Kyle Musca: You could always do it like right at the end of the sales call, to be fair.
+[00:46:22] Kyle Musca: Like after you sign them up, you know, I want to make sure you feel absolutely confident with the decision you made today.
+[00:46:27] Kyle Musca: Is there anything that would be making you feel uncertain that you want to touch base on?
+[00:46:31] Kyle Musca: Yeah.
+[00:46:31] Kyle Musca: And then, cool.
+[00:46:32] Kyle Musca: Well, look, really keen to, you know, get started.
+[00:46:35] Kyle Musca: The only other thing is we are huge on communication and then just go into that.
+[00:46:39] Meg Tovey: Yeah.
+[00:46:41] Meg Tovey: I'm all mean to like give them the option to text me instead of the group chat.
+[00:46:47] Kyle Musca: Yeah.
+[00:46:48] Kyle Musca: So that's the other thing I say when I begin on do this onboarding call.
+[00:46:52] Kyle Musca: Yeah.
+[00:46:52] Kyle Musca: I just created a group chat with my head coach, Pat.
+[00:46:55] Kyle Musca: We like to get on your program.
+[00:46:57] Kyle Musca: Just make sure you're really well taken care of.
+[00:46:58] Kyle Musca: If it's regarding the program.
+[00:47:00] Kyle Musca: Drop it into that chat just so we're all on the same page.
+[00:47:02] Kyle Musca: However, if there's something you want to chat to me about personally or him to personally, by all means, feel free to reach out personally.
+[00:47:07] Meg Tovey: That's absolutely fine as well.
+[00:47:08] Meg Tovey: Okay.
+[00:47:09] Meg Tovey: Yeah, cool.
+[00:47:10] Meg Tovey: I'll do that.
+[00:47:12] Kyle Musca: Yeah.
+[00:47:13] Kyle Musca: So, again, it's just about setting the standard early, you know, and just so you kind of, again, and the way this has all come about is because there have been problems, you know, reoccurring problems, and it's just sort of really patent recognition at that point in time.
+[00:47:28] Kyle Musca: So, it's, like, just covered right at the start.
+[00:47:42] Meg Tovey: Yeah.
+[00:47:42] Meg Tovey: The message has helped, like, since we added that onboarding message about, like, you know, the first few weeks were about really figuring out what's going to work for you, blah, blah, blah, communication, la, la, la.
+[00:47:54] Meg Tovey: But, yeah, that'd be good to have it because, yeah, sometimes I'm like, oh, if they had to just  talk.
+[00:48:00] Meg Tovey: Told me, sometimes I am like, oh, it probably was the coach or whatever.
+[00:48:03] Meg Tovey: Like I can tell from my memory from the sales call.
+[00:48:06] Meg Tovey: And if they hadn't just said that to me openly, then I would have just been like, let's trial someone else and see if it's just like, it's just a personality fit thing.
+[00:48:14] Kyle Musca: Yeah, a good one to remember there as well is there can only be one angry person in a conversation.
+[00:48:21] Kyle Musca: So it's like, if they're pissed off about something, they're like, you know, my coach hasn't been messaging to you or whatever.
+[00:48:26] Kyle Musca: But like, that's absolutely unacceptable.
+[00:48:27] Kyle Musca: I'm going to, you know, be diving into that and make sure that, you know, I understand fully what happened and everything like that.
+[00:48:34] Kyle Musca: Because if that was the case, then X, Y, Z.
+[00:48:36] Kyle Musca: And then I'll come back and be like, hey, especially if they've been sending check-ins or something, which is the main issue I get if it does happen, it's usually because they don't add as back as contact.
+[00:48:44] Kyle Musca: So I just send them a screenshot and stuff.
+[00:48:45] Kyle Musca: But hey, it just seems like a bit of miscommunication, you know, and then I'll basically just kind of coach them back into a given maybe like a free month.
+[00:48:53] Meg Tovey: We'll start from scratch.
+[00:48:53] Meg Tovey: I want to make sure you have the best experience possible.
+[00:48:55] Meg Tovey: Yeah, yeah.
+[00:48:56] Meg Tovey: No, it's definitely not that.
+[00:48:57] Meg Tovey: The girls are amazing.
+[00:48:58] Meg Tovey: It's just, it would look.
+[00:49:00] Meg Tovey: Literally just be like a personality thing because like Allie, for example, she's  so autistic.
+[00:49:05] Meg Tovey: So like sometimes her social cues are a little bit off.
+[00:49:09] Meg Tovey: She's a darling, but sometimes her personality doesn't mesh and she's got ADHD and yeah.
+[00:49:15] Meg Tovey: So she's great for some of our clients, like any ADHD clients, I'm like, perfect, she'll get you.
+[00:49:20] Kyle Musca: Yeah.
+[00:49:21] Kyle Musca: My coach Pat's like that as well.
+[00:49:23] Kyle Musca: He's very  blunt and kind of comes across as rude sometimes.
+[00:49:26] Kyle Musca: So I've had, you know, sometimes you do have to have a chat with the coach and everything.
+[00:49:30] Kyle Musca: Like that.
+[00:49:30] Kyle Musca: just be like, look, you know, for his thing, for example, he gets something like the same questions that he's already covered and he gets pissed off that.
+[00:49:38] Kyle Musca: I'm like, yes, but at the end of the day, like you're being paid to do that.
+[00:49:41] Kyle Musca: So just like  put a bit more effort into the reply.
+[00:49:44] Meg Tovey: Yeah.
+[00:49:45] Meg Tovey: Yeah.
+[00:49:45] Meg Tovey: No, they're so good.
+[00:49:48] Kyle Musca: And for me specifically, I find it's like, it's only the like first four weeks that I'll ever have hiccups.
+[00:49:54] Kyle Musca: If they get past that, then it's like fine.
+[00:49:56] Kyle Musca: So it's like, you may even want to add in something to your coaches where.
+[00:50:00] Kyle Musca: So when clients do come on for that first four weeks specifically, they give them extra attention, extra check-in, like message check-in, et cetera.
+[00:50:08] Kyle Musca: Definitely.
+[00:50:09] Meg Tovey: Yeah, perfect.
+[00:50:10] Meg Tovey: we were trying to implement all those things before I changed the payment structure around.
+[00:50:15] Meg Tovey: And then I think if we had just done the upfront payment from the get-go, we would have never implemented all those things.
+[00:50:21] Meg Tovey: So it was probably a good thing.
+[00:50:23] Kyle Musca: Yeah, yeah.
+[00:50:24] Kyle Musca: So does that cover all that for you?
+[00:50:28] Meg Tovey: Yep.
+[00:50:30] Kyle Musca: Yeah, it'd be interesting to see how your Instagram chat goes because mine, I remember when I started my group chat, was like, you know, a bunch of dudes that are not messaging it, but it  goes off so much harder than I thought.
+[00:50:41] Kyle Musca: And that has been a really, like, so much more than I would have anticipated in terms of, like, just building community and culture and getting the guys to feel like they're part of something bigger than just themselves.
+[00:50:54] Meg Tovey: Yeah, I know, and I know how important it is because that's literally, like, the Facebook group used to  up.
+[00:51:00] Meg Tovey: pump when it was me.
+[00:51:03] Meg Tovey: But that's the other part, like, because I'm not really showing up in there very often unless I have some random inspiration.
+[00:51:10] Kyle Musca: Yeah.
+[00:51:10] Meg Tovey: Whereas I would on Instagram.
+[00:51:13] Kyle Musca: Yeah, I've set postings.
+[00:51:14] Kyle Musca: Every Monday I do a Monday motivation thing.
+[00:51:16] Kyle Musca: To be honest, like, what I do is I just go on the  cord and I just sort of put the voice note on and I'll just, like, talk into it.
+[00:51:22] Kyle Musca: And then I'll just be, like,  summarize it and put it into a message that I can send through.
+[00:51:27] Meg Tovey: Yeah.
+[00:51:28] Kyle Musca: And then, you know, Wednesday is Wednesday wins and then you might do a Friday wins or Friday food  or Friday flex or some  like that.
+[00:51:35] Meg Tovey: You know what mean?
+[00:51:35] Meg Tovey: Maybe Friday flex where they will post something on their story and reshare it to the group chat and tag you.
+[00:51:40] Meg Tovey: You know what I mean?
+[00:51:40] Meg Tovey: Yeah, yeah.
+[00:51:41] Meg Tovey: Cool.
+[00:51:42] Meg Tovey: Can do.
+[00:51:45] Meg Tovey: Cool, cool, cool.
+[00:51:45] Meg Tovey: Thank you so much.
+[00:51:47] Kyle Musca: It's all good.
+[00:51:48] Kyle Musca: We didn't get to cover the conversations, but I feel like that was a good chat.
+[00:51:51] Meg Tovey: That's right.
+[00:51:52] Meg Tovey: I haven't made time for more calls anyway, so.
+[00:51:54] Meg Tovey: Yeah.
+[00:51:56] Kyle Musca: Awesome.
+[00:51:57] Kyle Musca: All right, well, we'll keep maximizing.
+[00:52:01] Kyle Musca: Yeah, cool.
+[00:52:03] Meg Tovey: I have booked in with Vaughn anyway for the end of, for 3rd of April.
+[00:52:07] Meg Tovey: So, worst case, I can redo them.
+[00:52:10] Meg Tovey: Yeah, perfect.
+[00:52:11] Meg Tovey: Okay.
+[00:52:12] Meg Tovey: Awesome.
+[00:52:12] Meg Tovey: All right.
+[00:52:13] Meg Tovey: Let me know how you go and just keep crushing.
+[00:52:16] Meg Tovey: Thank you.
+[00:52:17] Kyle Musca: Bye.
+[00:52:18] Kyle Musca: See ya.
+[00:52:18] Kyle Musca: Bye.

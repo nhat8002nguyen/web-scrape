@@ -1,0 +1,113 @@
+I've used many different providers and just to clarify we
+need to host and hold all of our email addresses and contact
+information one from a legal standpoint I think GDPR and a
+few other things means you can't hold on to certain data
+below a certain standard of security that's literally how
+much it's worth it's gold but in binary code you pay not a
+lot of money and these providers hold your list it removes
+people when they unsubscribe and it adds them when they sign
+up and it manages all your analytics and data and everything
+else there are many similarities between them and also quite
+a lot of differences here are some of the providers I use
+and my thoughts on them Aweber is my first love child
+started using it over 10 years ago and it never let me down
+it was simple basic and the customer support was always top
+tier even now it is for me it's just about sending nice
+messages via email I didn't need anything fancy and Aweber
+was great for me and still is the product offers four
+pricing plans starting with a free plan which costs nothing
+and includes up to 500 subscribers one email list one
+landing page one basic email support the light plan at $12
+.50 per month when billed annually is a step up allowing for
+one email list three landing pages and one basic email
+support three email automations and three users plus 24 7
+support and the most popular option the plus plan costs $20
+per month when billed annually and includes unlimited email
+lists landing pages automations with priority 24 7 support
+custom segments multiple users and then finally they do have
+something called the unlimited plan which is designed for
+businesses with over 100,000 subscribers which is at $899
+per month and includes everything in the plus plan plus
+personalized account management advanced analytics and sales
+tracking with lower marketing fees and I know that seems
+like a lot of money but mother if you've got a hundred
+thousand people on your email list thousand dollars a month
+email marketing say no more say less lightweight easy
+essentially the more money you pay to these providers the
+more features and scalability you unlock with the plus plan
+offering the best value for most users I know these plans
+can seem super expensive but if you have thousands of
+contacts you're engaged because remember a lot of these
+people when they are no longer interested will unsubscribe
+so you're
+super interested because all those that aren't will have
+left you can also clean your list as well and we'll get onto
+that in future sections another great email provider is
+Klaviyo Klaviyo is an email marketing platform that's super
+popular with online businesses especially those selling
+through websites like Shopify WooCommerce it helps
+businesses send emails to customers in more targeted ways by
+tracking things like what they buy what they look at and how
+they interact with past emails and this means that instead
+of sending to the same email to everyone businesses can send
+specific messages a bit like reminding someone about an
+abandoned car or recommending products based on what they
+bought before it also includes automation so emails can be
+sent automatically at the right time without needing
+constant manual effort we actually do use Klaviyo for this
+course unlike some email tools that charge based on total
+subscribers Klaviyo only charges for email sent to active
+customers which can be more cost effective it's a powerful
+tool it's also more complex and expensive than simple
+options like MailChimp or Aweber but might be better for
+small businesses or beginners who just need basic email
+newsletters I use it for broadcasts but admittedly only
+because Gemflow were using it beforehand when we started
+working together I asked for the logins I was able to get
+pretty used to it to write my own broadcasts which will get
+into what broadcast is in the next module so now it's become
+one of my favorite details simply easy it is to use and
+operate we have SendGrid I use this for my coaching business
+affordable online coaching we migrated to SendGrid from
+Aweber and I was not happy about it but my business partner
+insisted SendGrid is an email marketing platform commonly
+used by businesses that need some large volumes of emails
+like order confirmations password resets and promotional
+campaigns it's often used to send emails to customers but
+it's also used to send emails to people often chosen by tech
+companies and apps because it has strong tools for
+developers to integrate emails directly into their websites
+and services so it made sense for our fitness app unlike
+some email providers that focus mainly on marketing SendGrid
+is also designed for transactional emails the automated
+messages and the things you get when you sign up for an
+account to make a purchase it offers good email
+deliverability meaning messages are less likely to end up in
+spam and it provides details analytics to track open rates
+clicks and other engagements while it's a powerful and
+scalable it's pretty technical and I wouldn't say it's user
+-friendly like other platforms like MailChimp or Aweber
+making it a better fit for businesses that need reliable
+automated email systems rather than simple newsletters it
+can feel clunky and complex at times but it sent millions of
+emails on behalf of our coaching app for nearly a decade and
+in last place MailChimp MailChimp's one of the well-known
+email marketing platforms especially for beginners and small
+businesses it's easy to use as pre-built email templates and
+offers automation you know it makes it a popular choice for
+those that need newsletter or simple campaigns it also uses
+automation and analytics to track performance however
+MailChimp has a lot of downsides as businesses grow it can
+become very expensive especially as its charges are based on
+total subscribers even though some of them aren't actively
+engaging with emails its automation tools are more limited
+compared to platforms like Flavio Active campaign and others
+making it less ideal for businesses that need advanced
+customer Journeys overall it's good starting point but
+businesses that need more advanced emails often outgrow it
+other email marketing platforms do exist these are just the
+ones that are top of my mind that I've used you know like
+active campaign get response Brevo convert kit constant
+contact campaign monitor HubSpot omnisend the list goes on
+mate it goes on shop around try out some platforms and see
+what works best for you and your budget

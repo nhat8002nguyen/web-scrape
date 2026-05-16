@@ -1,0 +1,209 @@
+Now I'm going to talk about Leadpages. I don't get shares in
+Leadpages. I don't own Leadpages. It's just the best place
+that I found that I recommend. Whenever I see people not use
+Leadpages, it doesn't look good. When they do use it, I'm
+happy. Leadpages is a tool designed to help people create
+high converting landing pages without needing to be a tech
+wizard. Think of it as a shortcut to getting a sleek
+professional looking page up and running fast without
+messing around with any coding or HTML. WordPress themes or
+dodgy plugins is built for one job, getting leads, whether
+that's capturing emails, selling products, or if you're a
+glutton for punishment, booking calls. You get a bunch of
+templates, a simple drag and drop editor, and built-in tools
+like A-B split testing and pop-ups to optimize its
+conversions. It's straightforward, fast, and focused on
+results, which makes it popular for marketers, small
+businesses, and business owners, anyone that's pretty much
+running ads or sending people to a platform they need to
+convert people. The way it helps people is if you're running
+ads, especially on Facebook, Google, or YouTube, sending
+people to a normal website can be a rookie move because most
+websites are cluttered, slow, and full of distractions.
+Leadpages cuts the fluff and keeps visitors focused on one
+thing, signing up, buying, or booking. It integrates with
+email marketing tools, CRMs, and payment processes so you
+can funnel leads straight into whatever system you're using.
+Plus, it's mobile-optimized by default, which is crucial
+since so much traffic these days is now coming from phones.
+There are alternate platforms for landing pages. Leadpages
+is solid, but it's not the only game in town. There are
+other platforms like ClickFunnels. More than just landing
+pages, it's a sales funnel builder. Great if you want
+upsells, webinars, and automation. There's Unbounced, which
+is more advanced, but very powerful for A-B split testing.
+And best for those who love tweaking for higher conversions.
+Got Cartra, Instapage, Webflow, Zapier. There's so many.
+Now, what features matter in a landing page builder? If
+you're choosing a platform, don't go for the cheapest or the
+most hyped up ones. Here's what actually matters. Speed and
+performance. Your landing page should load in under two
+seconds. Slow pages kill conversions. Want ones that have
+mobile optimization? About 70% of visitors will be on their
+phones. Your page needs to look flawless on mobile and on
+desktop. A-B split testing. You need to be testing different
+things out. So I think there's a version of your landing
+page that you think is good. I want five variations.
+Shorter, longer, bigger font, smaller font, brighter colors,
+darker colors, dark mode, light mode, whatever it is. Then
+instead of you or I assuming what works, we split traffic
+across all pages and we find out. Because I guarantee our
+assumptions are not correct. And A-B split testing is the
+only way for all of us to really swallow our pride and be
+humbled a bit by the reality of how little we know about our
+audience. There are also integrations. It should work with
+your email list, whether it's MailChimp, ActiveCampaign,
+HubSpot, whatever. And it should work with the payment
+processor. Most of them have simple and no code editing,
+which means we can drag and drop things. We don't have to
+have a developer. Because if we hire someone to design this
+for us, every time we want to make changes, which should be
+a lot of the time, we need to wait for someone else, get
+them, pay them to do it. We should be able to jump in, amend
+our offer, change our pricing, change our colors, whatever
+it is. And it's a good idea that we have high converting
+pages because not many people are going to buy on their
+first visit. Capturing emails, getting data, or even
+retargeting people means that we can follow up and convert
+later. Another thing about this is we can create custom
+domains. So rather than us having a generic thing like
+ourbusiness.leadpages.com, we can easily swap out our
+landing page to be our own branded domain. So you could go
+to JamesSmith.com and you could go straight to that
+Leadpages page. And the best thing is that we could send a
+million people to that website and the website will split
+them to the different variations that we created. Now, when
+we look at a landing page versus a traditional website,
+what's the difference? Well, a traditional website is what
+we call a brochure page. It has multiple pages, menus,
+information, it's all over the place. And that's fine for
+branding, but it's terrible for conversions because people
+get distracted and bounce. A landing page is one page with
+one purpose, to get a specific visitor to take a specific
+action. No menus, no distraction, no endless scrolling. If
+you're running ads, or if you're not, sending people to a
+traditional website is wasting money. A landing page keeps
+them focused and funnels them straight into the sales
+process. If you need landing pages and you don't want to
+mess around with code and HTML and all that, Leadpages is
+one of the easiest ones to use. Yes, some people go, oh, it
+costs $49 a month. Trust me, it's going to cost less than a
+web developer, it's going to cost less than a member of
+staff, it's going to cost less than so many things. And
+ultimately, for so many of you out there, if you just use it
+and get a couple of clients from it, it pays for itself.
+It's the first platform I used back in 2014, 2015, and I'll
+give you a walkthrough on it shortly. And we are in. So,
+reason I like Leadpages is, this is my missus's, and you can
+see here, she doesn't even use this. And she made like a
+thousand dollars. And we can see some of her different pages
+here. So, if we go to landing pages, we can look at what she
+created. Remember, you can have squeeze pages, landing
+pages, but these ones where she's making real cash, eight
+grand from this one. If we have a little look, you can see
+it's well curated, it looks nice. It's got everything it
+needs in it, even those little barriers between the colors.
+It just looks good. It just looks good. And then let's go,
+maybe let's not edit that one. Let's go to this one. We can
+edit one of her pre-existing pages. So again, you can see
+that the page is made out of title, image, text, even these
+little color boxes we can change. And go down more text, and
+then we're going to have hyperlinks on these here. So if we
+click on the hyperlink, so you just linked this to an
+existing page, not an external URL. So this will take us to
+another landing page where you can click to buy. And then
+that page will have a link to a URL. Now, this is brilliant.
+It's beautiful. It looks nice. I'm a big fan. And then
+again, if we come up to the top, we can hit preview. And the
+best thing again about lead pages is we can now preview it
+on different devices. So we've got a laptop. Let's have a
+little look at mobile. Oh, do you know what? I looks amazing
+on mobile. Let's have a little look on a tablet. Wow. Okay.
+That's great. Okay. So we can go back. Now there's another
+amazing thing here we can do. We can create a new split
+test. So let's say this one. Cool. She's got a personalized
+program form here. We can now add a variation and we can
+copy the control. Copy version one. Now we can edit this
+variation. So we might go, hmm, we have an amazing landing
+page here, but I have a feeling it could be a little bit too
+lengthy or even in this case, because I've accidentally
+clicked on a squeeze page, this could be a bit too short. So
+maybe we change this and we go, do you know what? Give me
+your email. I'll change your life. Then we can save that as
+a variation. Then this one would say, every time you don't
+give me your email address, a kitten dies, then you might
+find that the threat of a kitten dying could be the very
+thing that gets you more leads. Now. Let's leave this. Let's
+get out of here. Let's get out of here. So we have all kinds
+of little conversion tools here. We've got pop-ups, alert
+bars, we've got branding stuff where you put in colors,
+images, integrations, domains. There's so much here. And
+again, you're paying the money so that you've had any issues
+with this. You can just pop along to your old lead pages and
+say, Hey, give me some help. And I want to do it. Let's get
+rid of this. Hopefully I'm deleting the right page. Let's
+create a new landing page. You and I let's go through one.
+Now I must admit, I've not been doing this in quite a while.
+So let's have a look. We've got sales down here. Let's have
+a look at a couple of salesies. Let's try this one. I've
+just picked this at random, by the way. You should do much
+more due diligence and timing. James test for mentorship,
+legends. Sales page, the t-shirt profit plan. Wow. Okay. I'm
+about to become this business. Your logo. I'm going to get
+rid of that because I just don't feel like we need a logo.
+Okay. Let's present we are a marketing agency that create
+the ideas for a t-shirt business in the world to make more
+money. Sell more t-shirts because we're selling the t-shirt
+profit plan. You just got a bit more expensive. Okay. Now
+let's edit this text. If you're in the business of selling t
+-shirts, you'll need the t-shirt profit plan. Within this
+plan, there's over two decades of t-shirt selling
+experience, which you can access for only. We're just making
+this up by the way. And then again, we might say, oh, I
+wonder what this looks like in, you know, different things.
+I'll show you, Paul. This bit here. What is it? Then
+everyone might decide to get rid of one of these. Maybe
+bring this to center a bit. That's a bit annoying, this
+formulation. And again, we can fill in this text. This plan
+has been created. Blah, blah, blah, blah, blah. Over here.
+We sold out. The MAGA t-shirts did a madness. Biden
+administration. This ebook made me millions. I personally
+hate James, but I love his advice. Cool. So we can have that
+in there. Related products. We can get in here. We can
+change some of this. Short form, content mastery, email
+advantage. See where we're going with this. Now, this bit
+down here, the buy now area. Buy now and enjoy your 100%
+money back guarantee. Now, at this point, we might go, oh,
+we want a bit of a subheading. So we go to widgets. We can
+get text. Just pop a little text box underneath. No need for
+code. If you feel that this course isn't worth 10 times what
+you pay for it, let us know, and we'll refund you it for.
+James. Now, that little bit there just gives people the je
+ne sais quoi. The je ne sais quoi. Which I used to think
+meant, you know, like something magic, but it doesn't.
+Apparently, it means I don't know in French. But we've got
+all kinds of things here that we want. I like the button,
+but I want a medium button. I like the button, but as we
+learned, we want a different color, brother. We want red.
+That's right. Wow. Sales just went up by 20%. Let's have a
+little preview. Let's have a little preview of the bad. Sell
+more t-shirts. Okay. Cool. Great. Let's go to mobile. Oh my
+God. This just looks so good. Cool. We might say, all right,
+we're going to publish that version, but then we might say
+to ourselves, do you know what? We're going to make some
+with more information on it. We're going to do a version of
+it with more information. Then we're going to do a version
+with less information. Then we're going to do a video with a
+version with a video on it. And the idea is that over time,
+we just create several variations. We can accrue the data
+and the knowledge. Then ultimately over time in here, we can
+look at the visitors, the conversion rate, and we can see
+through the split tests. Okay. A thousand went to each page.
+The conversions were different on this one. Why? And we can
+double down on that. Now I've just been on here for a few
+minutes, but I'm sure you can all appreciate if you would
+spend a lot of time on here, you could have different pages
+in different places. Different chatbot automations could
+really, really make a massive difference to your business.
+So there's a really brief overview to lead pages. I hope you
+enjoy it.

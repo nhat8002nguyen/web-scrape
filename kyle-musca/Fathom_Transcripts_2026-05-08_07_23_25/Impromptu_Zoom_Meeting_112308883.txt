@@ -1,0 +1,822 @@
+Meeting: Impromptu Zoom Meeting
+Date: 2026-01-07T07:59:52Z
+Scheduled: 2026-01-07T07:02:53Z - 2026-01-07T07:17:53Z
+Recording: 2026-01-07T07:03:07Z - 2026-01-07T07:59:44Z
+Language: en
+URL: https://fathom.video/calls/524616142
+Share Link: https://fathom.video/share/NoiuxwzTHK-pRvZDMyZZEbzJoNQnBCUF
+Recording ID: 112308883
+
+Participants: Kyle Musca (kyle@empcoaching.com.au)
+Recorded by: Kyle Musca (kyle@empcoaching.com.au)
+--- TRANSCRIPT ---
+
+[00:00:00] Kyle Musca: Yeah, yeah.
+[00:00:01] Kyle Musca: How did you go with this?
+[00:00:03] Meg Tovey: I didn't really feel like it was a Christmas period, to be honest.
+[00:00:08] Meg Tovey: I didn't really take time off because we're going to Japan in like six weeks or seven.
+[00:00:17] Meg Tovey: So I just worked through and then just  pumped at the moment.
+[00:00:24] Meg Tovey: So trying to stay on top of .
+[00:00:27] Kyle Musca: Yeah, yeah.
+[00:00:28] Kyle Musca: Fair.
+[00:00:29] Kyle Musca: Nice.
+[00:00:29] Meg Tovey: How long have you gone to Japan for?
+[00:00:32] Meg Tovey: Two weeks.
+[00:00:33] Kyle Musca: Yeah, that's good.
+[00:00:35] Kyle Musca: Yeah, I found out a month is probably a bit longer than stay in the snow.
+[00:00:40] Meg Tovey: Yeah.
+[00:00:40] Meg Tovey: How's the body?
+[00:00:42] Kyle Musca: Yeah, good.
+[00:00:43] Kyle Musca: It was like sore hours and then we kind of ended up getting sick and then we were just like kind of over it.
+[00:00:48] Meg Tovey: Yeah.
+[00:00:49] Kyle Musca: Just annoying having to like rug up just to walk outside.
+[00:00:52] Kyle Musca: I'm just not built for that kind of climate.
+[00:00:55] Meg Tovey: Yeah, fully.
+[00:00:57] Kyle Musca: But do you have a good Christmas and stuff?
+[00:01:00] Kyle Musca: Yeah, was good.
+[00:01:03] Kyle Musca: I think it's good just to, like, take a little bit of a step back sometimes because then I was, like, itching to get back into it properly.
+[00:01:09] Meg Tovey: Yeah.
+[00:01:10] Kyle Musca: Which, otherwise, when you're, like, flat out all the time, like, , I just, like, break.
+[00:01:14] Meg Tovey: Yeah, absolutely.
+[00:01:16] Kyle Musca: Cool.
+[00:01:17] Kyle Musca: All right.
+[00:01:17] Kyle Musca: Well, we'll rip right into things.
+[00:01:20] Kyle Musca: How has this week been going overall?
+[00:01:24] Meg Tovey: Good.
+[00:01:24] Meg Tovey: Like, I feel like we've had the most calls booked in ever.
+[00:01:28] Meg Tovey: I just don't know, obviously, if the quality of the calls are going to be good yet because I'm noticing more Indians again.
+[00:01:35] Meg Tovey: However, like, we've signed up a couple that have paid, like, I've been pitching $3,900 in full.
+[00:01:42] Meg Tovey: So that's fine.
+[00:01:43] Meg Tovey: I've been, like, I've had the biggest  headache in the last 24 hours.
+[00:01:49] Meg Tovey: I've signed up three people who have all tried to pull out straight after.
+[00:01:53] Meg Tovey: However, I need to figure out how to use Stripe.
+[00:01:56] Meg Tovey: Like, I don't, because we didn't ever, we didn't, like, get to the end of how.
+[00:02:00] Meg Tovey: How it actually works to, like, get someone on when we, like, went through it.
+[00:02:04] Meg Tovey: I think, I don't know if we ran out of time or what happened, but I played around it with Laura and I tried to, like, put her as, like, a client and then I asked Jarrah what he does and he does it a different way again.
+[00:02:15] Meg Tovey: And I, like, so I've been using, like, the debit company and because it says commencement date is the next day, they just, I don't, I think that's the main reason.
+[00:02:24] Meg Tovey: Because, like, I'm not, like, necessarily pushing them into the sale.
+[00:02:31] Meg Tovey: Like, I've had to do, obviously, objection handling and stuff, but, like, it's not like they're super ungrounded when they're signing up.
+[00:02:39] Meg Tovey: And we've changed our whole onboarding.
+[00:02:42] Meg Tovey: Like, there's not, there is, like, I've been spending, like, an hour on the  call after they've signed up to, like, do most of their onboarding so that they're, like, very much bought in.
+[00:02:52] Meg Tovey: And they still then get off and  try and pull out.
+[00:02:55] Kyle Musca: So that's been a nightmare.
+[00:02:59] Kyle Musca: So.
+[00:02:59] Kyle Musca: So with Stripe, are you taking the payment there and then, like as usual?
+[00:03:06] Meg Tovey: I haven't been using it because we didn't figure out, well, when I was on the call with you, when we were looking at it, we never got to the end of how to like do it smoothly.
+[00:03:15] Kyle Musca: Yeah, so because I had to do it with, for example, that dollar thing I sent through to you.
+[00:03:20] Kyle Musca: So what you have to do is you have to create an invoice so you can't create a recurring subscription.
+[00:03:26] Kyle Musca: So you create a, and I'll show you what I mean by that.
+[00:03:30] Meg Tovey: Yeah, I feel like I need to see it because otherwise I'll be like, because I was like going back and forth on chat.
+[00:03:41] Meg Tovey: tried to put Lauren as a test because the way you showed me on the call was create them as a, as a customer first.
+[00:03:48] Kyle Musca: Yeah, so if you, yeah, so I was playing around with it.
+[00:03:53] Kyle Musca: So if you create them as a customer, it doesn't have the payment information.
+[00:03:59] Kyle Musca: you as a customer, doesn't for
+[00:03:59] Kyle Musca: So if they pay, if you send them an invoice with the link, we send them an invoice in general, it automatically creates them as a customer.
+[00:04:09] Kyle Musca: So what I would do is I would have, so I would create an invoice, and then, so you add their email, which will create them as a customer.
+[00:04:20] Meg Tovey: In there?
+[00:04:22] Kyle Musca: Yeah, so see how it's here, add email, add new customer.
+[00:04:25] Kyle Musca: So you'd add their email, something that's brief, for example.
+[00:04:29] Kyle Musca: And then basically what you'd do is whatever currency you want to charge in, so Australian dollars.
+[00:04:34] Kyle Musca: And then this is the item.
+[00:04:36] Kyle Musca: Now, you'll notice with these, they're just one-self invoices.
+[00:04:40] Kyle Musca: So it's not $1,000 per month or whatever, it's just $1,000.
+[00:04:45] Kyle Musca: So you can't create a reoccurring subscription until they're a customer.
+[00:04:48] Kyle Musca: So what the invoice does is it gets them to pay there and then, and it creates a customer.
+[00:04:52] Kyle Musca: because their payment information's on file, you can just go on the back end and put them on a subscription after that point.
+[00:05:00] Meg Tovey: I have to, like, select to make it collect their card details.
+[00:05:04] Kyle Musca: Like, it will just automatically do it.
+[00:05:06] Kyle Musca: Yeah, because as long as they pay.
+[00:05:08] Kyle Musca: So, for example, that's why I did the $1 thing.
+[00:05:11] Kyle Musca: It's just because if you did pay that, it collects a card information, and then I could go set up the reoccurring subscription whenever we, like, whatever you guys discuss, et cetera, et cetera, et cetera.
+[00:05:22] Meg Tovey: So do I need to make these items somewhere else, or do I just literally type in, like, 500 in there?
+[00:05:29] Kyle Musca: So what I would do is, like, you don't need to create all these, because I created all these ones based off the different, like, options and everything like that.
+[00:05:36] Kyle Musca: I would just create one invoice, right?
+[00:05:38] Kyle Musca: So let's say it's, you know, tier three, whatever, a thousand.
+[00:05:42] Kyle Musca: And then because the only need to create one is because you can change the pricing.
+[00:05:47] Kyle Musca: So how do you even create that in the first place?
+[00:05:50] Kyle Musca: Is it in here or in another spot?
+[00:05:52] Kyle Musca: You can create it in here, I'm pretty sure.
+[00:05:55] Kyle Musca: Let me get rid of this.
+[00:05:56] Kyle Musca: Stuck on this.
+[00:05:57] Meg Tovey: , damn it.
+[00:05:58] Meg Tovey: Sorry.
+[00:05:59] Kyle Musca: Sorry.
+[00:06:00] Kyle Musca: No, you're good.
+[00:06:01] Kyle Musca: Add a new line.
+[00:06:03] Kyle Musca: So you could just do six months.
+[00:06:08] Meg Tovey: VIP coaching.
+[00:06:09] Meg Tovey: Yeah.
+[00:06:10] Kyle Musca: Yeah.
+[00:06:10] Kyle Musca: Whatever you want to call it.
+[00:06:11] Kyle Musca: As long as it's universal or something, you just don't want raise the flags.
+[00:06:15] Meg Tovey: Oh, yeah.
+[00:06:16] Meg Tovey: Okay.
+[00:06:16] Meg Tovey: So just VIP coach.
+[00:06:17] Meg Tovey: Oh, just coaching or something.
+[00:06:19] Kyle Musca: Yeah.
+[00:06:19] Kyle Musca: Yeah.
+[00:06:20] Kyle Musca: Yeah.
+[00:06:21] Kyle Musca: Yeah.
+[00:06:21] Kyle Musca: Yeah.
+[00:06:21] Kyle Musca: You could even just do your business name coaching, something like that.
+[00:06:24] Kyle Musca: And then it's the price.
+[00:06:26] Kyle Musca: So let's say it is like, let's see if I added it.
+[00:06:30] Kyle Musca: It's this one.
+[00:06:32] Kyle Musca: Cool.
+[00:06:33] Kyle Musca: Happy with that.
+[00:06:34] Kyle Musca: And then you can just change the price.
+[00:06:36] Kyle Musca: It's like, if they're like, oh, I can pay $644 a day, you just do $644.
+[00:06:42] Kyle Musca: Yeah.
+[00:06:43] Kyle Musca: Cool.
+[00:06:43] Kyle Musca: It would then, might as well create, doesn't really matter.
+[00:06:47] Kyle Musca: General services, all that stuff doesn't really matter.
+[00:06:54] Kyle Musca: Save.
+[00:06:56] Kyle Musca: Now, if they don't have an address, then it gets .
+[00:07:00] Kyle Musca: So I'll just turn that off.
+[00:07:07] Kyle Musca: If they don't have the address on the customer file, then it doesn't allow you to do like invoicing and stuff like that, I'm pretty sure.
+[00:07:16] Kyle Musca: like doesn't allow you to set up the subscriptions.
+[00:07:18] Kyle Musca: It's not the biggest, like it's, I wouldn't risk it on this one.
+[00:07:24] Kyle Musca: What you can do after is once they've created their account, you can go in there and you just edit their details.
+[00:07:28] Kyle Musca: It doesn't, all you have to do is just chuck in a postcode and then it'll allow you to do it.
+[00:07:32] Kyle Musca: I just would turn it off for the initial one just so there's no hiccups or anything like that.
+[00:07:36] Kyle Musca: Yeah.
+[00:07:37] Kyle Musca: Doesn't really matter, but I would always just do today.
+[00:07:40] Kyle Musca: So like they know that they have to pay it now and then they don't, you don't want, they don't want, you want them to see 30 days and they go, oh, pay it tomorrow, pay it right Yeah, yeah.
+[00:07:48] Kyle Musca: You can't order charge customer because you don't have that on file.
+[00:07:53] Kyle Musca: And that's pretty much it.
+[00:07:54] Kyle Musca: So then you would do review invoice.
+[00:07:58] Kyle Musca: All right.
+[00:08:00] Kyle Musca: So happy days.
+[00:08:04] Kyle Musca: Yep, happy days.
+[00:08:06] Kyle Musca: Finalize and send.
+[00:08:09] Meg Tovey: Rinse her for all her money.
+[00:08:12] Kyle Musca: Yeah.
+[00:08:13] Kyle Musca: And then basically that will take you to this.
+[00:08:17] Kyle Musca: And then all you need to do is this payment page.
+[00:08:19] Kyle Musca: It will have the link here.
+[00:08:21] Kyle Musca: And then you just send that to them on the call.
+[00:08:24] Meg Tovey: Okay.
+[00:08:24] Meg Tovey: Yeah.
+[00:08:25] Meg Tovey: Cool.
+[00:08:26] Kyle Musca: And then from there.
+[00:08:27] Meg Tovey: It's stressful, like, first couple of times because I don't want to, like,  it up because that's, like, obviously while you're doing that, I'm trying to, like, talk to them somewhat so they don't start getting in their head about, like.
+[00:08:39] Kyle Musca: Yeah.
+[00:08:40] Kyle Musca: Once you have it, like, once you have that initial product, it's literally just, like, you just select it, quickly type it in, finalize it, send it to them.
+[00:08:47] Kyle Musca: So it's, like, once you got used to it, would literally take probably five seconds to do.
+[00:08:52] Kyle Musca: And then from there, for example, so I'll delete that so she doesn't think that I actually want to pay that.
+[00:08:58] Kyle Musca: Yeah.
+[00:09:00] Kyle Musca: Oh, I'll figure that out later.
+[00:09:03] Kyle Musca: But from there, for example, so like she covered the $1 there.
+[00:09:07] Kyle Musca: So that put her payment information.
+[00:09:11] Kyle Musca: What is this?
+[00:09:12] Kyle Musca: extra thing.
+[00:09:17] Kyle Musca: Payment method should be here.
+[00:09:19] Meg Tovey: Yeah, that's what I, I tried something similar to this and it didn't do that.
+[00:09:24] Meg Tovey: That's where I got stuck.
+[00:09:27] Kyle Musca: As long as I've paid, there could be a save payment information.
+[00:09:35] Kyle Musca: Let have a look here.
+[00:09:44] Kyle Musca: That's actually, yeah, that's interesting.
+[00:09:46] Kyle Musca: Let's have a look here.
+[00:09:57] Kyle Musca: Let's have a look here.
+[00:10:03] Kyle Musca: There's hiccups when you do it in person, I don't know.
+[00:10:26] Kyle Musca: Because I know this is how I do it through my actual coaching.
+[00:10:30] Kyle Musca: System, my coach sends them the invoice.
+[00:10:33] Kyle Musca: And then they pay.
+[00:10:35] Meg Tovey: Loom for me or something?
+[00:10:37] Kyle Musca: Yeah, I'll play around with it later and actually do a Loom video on it.
+[00:10:41] Meg Tovey: Because I've got heaps of calls booked in tomorrow and I'm like, the anxiety of these three people that have signed up all and then tried to pull out, like, is real.
+[00:10:53] Meg Tovey: Because, like, one of them, right, is  literally abusing my accounts manager.
+[00:10:59] Meg Tovey: don't don't don't don't don't I don
+[00:11:00] Meg Tovey: Because she's like trying to pull out of the contract and then it's obviously the responses are obviously very black and white, like factual kind of this is the contract kind of thing.
+[00:11:11] Meg Tovey: And she's trying to argue that she doesn't have, like, you know, she hasn't started the service, even though she's literally was given all the onboarding and like the program was made and everything.
+[00:11:20] Meg Tovey: And so it's just like that awkward thing of like, if like, I just want to be like, oh, just  let it go.
+[00:11:26] Meg Tovey: It's not worth it.
+[00:11:27] Meg Tovey: But then, like, if you're already halfway through that process with, like, the accounts team or whatever, and then you're like, oh, yeah, don't worry about it.
+[00:11:35] Kyle Musca: Like, it just looks so unprofessional.
+[00:11:37] Meg Tovey: Yeah.
+[00:11:37] Meg Tovey: But then, like, I'm obviously risking, like, I've had someone in the past, this similar thing happen, who then left this huge   Google review.
+[00:11:45] Meg Tovey: And so it's like, yeah, it's .
+[00:11:47] Meg Tovey: I don't know what to.
+[00:11:48] Meg Tovey: I'm hoping getting a payment up front fixes this.
+[00:11:53] Meg Tovey: Because I don't know what the , like, we've literally overhauled our whole onboarding, like, it's, there's nothing else we can do.
+[00:11:59] Kyle Musca: Yeah.
+[00:11:59] Kyle Musca: Yeah.
+[00:12:00] Kyle Musca: Yeah, so what I do in those situations is I just say, like, again, always use a billing company as the bad guy.
+[00:12:07] Meg Tovey: I've tried, like, because I know we've been through this before.
+[00:12:10] Meg Tovey: I, like, tried that approach.
+[00:12:12] Meg Tovey: It didn't work.
+[00:12:13] Meg Tovey: And then it's me.
+[00:12:14] Meg Tovey: It's, like, I end up being the bad guy still.
+[00:12:17] Meg Tovey: And so I've, like, changed it back to, like, I'm not even involved.
+[00:12:21] Meg Tovey: And it's, like, you speak to admin.
+[00:12:25] Meg Tovey: Because, yeah, it's, like, the last, like, maybe two or three that I did that approach.
+[00:12:32] Meg Tovey: And I, like, literally followed, like, word for word the things you were, like, sending me and stuff, like, just still didn't work.
+[00:12:38] Kyle Musca: Yeah, yeah.
+[00:12:39] Kyle Musca: So what I do is, like, yeah, so I've been the bad.
+[00:12:42] Kyle Musca: Like, I kind of get angry at the billing company with them.
+[00:12:46] Kyle Musca: I'm, like, yeah, man, like, I completely understand frustration.
+[00:12:49] Kyle Musca: Like, I certainly don't like dealing with these issues either.
+[00:12:54] Kyle Musca: And at the end of the day, I'm here to try and help you, you know, sort X, Y, Z.
+[00:12:58] Kyle Musca: Basically.
+[00:13:00] Kyle Musca: Basically, like, what we can do is I can put in a request for an early cancellation, and essentially, they would just, like, look at what work we've actually completed and the expenses that go into that, and then if you just, like, all you'd have to do is just obviously cover them, which is fair, and then you'll get remain access to what we've built for you so far.
+[00:13:23] Meg Tovey: Yeah.
+[00:13:27] Kyle Musca: So you've got to kind of, like, word it as, like, I'm trying to figure out a solution for you, and if you do it right, like, you're going to have those people that are just  annoying.
+[00:13:36] Kyle Musca: Like, I had one guy that signed up, and then, like, three weeks, two, like, weeks later, he was like, oh, I don't want to do it anymore.
+[00:13:41] Kyle Musca: I've changed my mind.
+[00:13:42] Kyle Musca: He paid, like, $50, and he's like, that should cover the work, right?
+[00:13:45] Kyle Musca: And I'm like, you think $50 covers a quarter of a $2,000 program?
+[00:13:49] Kyle Musca: Like, are you joking?
+[00:13:50] Kyle Musca: And then he just, like, ended up blocking and everything.
+[00:13:52] Kyle Musca: So there's, like, not really, some cases, there's just not much you can do.
+[00:13:56] Kyle Musca: But if you do it right, like, I'll have people, like, thanking me.
+[00:14:00] Kyle Musca: For getting the cancellation down to like 400 instead of 850.
+[00:14:04] Meg Tovey: Yeah.
+[00:14:06] Kyle Musca: But that, it's like a happy like middle ground because, yeah, at the end of the day, you don't want to try and have these really argumentative conversations in that.
+[00:14:14] Kyle Musca: then they go like, you know, leave a really bad review, you know, gives you a bad reputation.
+[00:14:20] Kyle Musca: So that way it's like, okay, you know, you can exit, but like just cover the work that we've actually done for you.
+[00:14:27] Meg Tovey: Yeah.
+[00:14:28] Meg Tovey: But how do you, yeah, I mean, I don't know how you'd like, because then it's again, it's like, then I'm putting the price on that, which then they just like are upset with me then in, because it's like, and then it ends up being this, not about the billing company.
+[00:14:43] Kyle Musca: Yeah.
+[00:14:44] Kyle Musca: So I say, yeah, so say someone reaches out to me and is like, oh, I want cancel.
+[00:14:47] Kyle Musca: But like, yeah, obviously I try and get them to stay around and stuff before that.
+[00:14:51] Kyle Musca: But like, let's say they really want to cancel.
+[00:14:52] Kyle Musca: But like, no worries.
+[00:14:53] Kyle Musca: Like, look, what I can do is it gets a little bit tricky to cancel just because we're still, you know, within the program duration and everything.
+[00:15:00] Kyle Musca: Then we brought on the billing company, works like Afterpay, hence why we're very clear about prices from the start.
+[00:15:04] Kyle Musca: What I can do for you is I can send them an early notice or request to cancel and then explain like basically they'll look at what work's been done and you just have to cover that essentially.
+[00:15:14] Kyle Musca: So I don't frame it as like a cancellation fee.
+[00:15:17] Kyle Musca: I frame it as like covering the work that's actually been completed, which at the end of the day is fair.
+[00:15:22] Kyle Musca: And then a day later, I'll come back and be like, hey, you know, I just heard back from them.
+[00:15:25] Kyle Musca: They wanted 850.
+[00:15:27] Kyle Musca: Like they had to look at everything.
+[00:15:28] Kyle Musca: They wanted 850.
+[00:15:30] Kyle Musca: But I managed to get them down to just 437.
+[00:15:34] Meg Tovey: Yeah.
+[00:15:35] Meg Tovey: Okay.
+[00:15:36] Kyle Musca: So I like anchor them high and then come down.
+[00:15:38] Kyle Musca: Like act like I've been going back and forth with the billing company to like in their favor to get it, you know, the best possible rate, like exit fee as possible.
+[00:15:48] Meg Tovey: Yeah.
+[00:15:51] Kyle Musca: Yeah.
+[00:15:51] Kyle Musca: Again, some people understand that the work's gone into it and they're like happy to pay it.
+[00:15:57] Kyle Musca: Like I literally had a guy pay it today.
+[00:15:59] Kyle Musca: Absolutely.
+[00:16:00] Kyle Musca: Absolutely fine.
+[00:16:00] Kyle Musca: And then there's other people that are just complete dickheads who never really intend on doing anything in the first place.
+[00:16:06] Meg Tovey: Yeah.
+[00:16:09] Meg Tovey: Also, just like a side question, what's like the expectation for retention when you're selling like this for beyond the six months or the four months or whatever?
+[00:16:22] Meg Tovey: Like, not expectation, sorry.
+[00:16:23] Meg Tovey: Like, what, I don't know if you mind me asking, like, what would be your average retention beyond the initial term that they're paying for?
+[00:16:32] Meg Tovey: Because I'm used to a  four-year retention.
+[00:16:36] Meg Tovey: So it's like very different.
+[00:16:37] Meg Tovey: And I don't know if my expectations are like unrealistic for this style of selling and these people that are cold and stuff like that.
+[00:16:48] Kyle Musca: Yeah, so with mine, I like to get them on a subscription, so I never really have to have that extension conversation.
+[00:16:55] Kyle Musca: They just continue on, like if they don't talk.
+[00:16:57] Meg Tovey: Yeah, no, I've done the same.
+[00:17:00] Meg Tovey: But I mean, like, they still know that's the end of minimum term.
+[00:17:03] Kyle Musca: Yeah.
+[00:17:04] Kyle Musca: So what I do there, and this is something I'm going to really implement with my closers this year, is essentially, and the coaches as well.
+[00:17:13] Kyle Musca: So there's two things.
+[00:17:14] Kyle Musca: One is make sure, because we're selling information at the end of the day, if they feel like they've got the information, they're going to leave.
+[00:17:19] Kyle Musca: So from the very start, I have, like, a roadmap, which basically maps out the next 12 months with them.
+[00:17:24] Kyle Musca: So that way, if they only sign up for three months, that's fine.
+[00:17:27] Kyle Musca: We're still planning for 12 months in advance.
+[00:17:29] Kyle Musca: And it's always about, like, what's next?
+[00:17:31] Kyle Musca: You know what mean?
+[00:17:31] Kyle Musca: Like, what is the next steps?
+[00:17:33] Kyle Musca: And we need to take this really cautiously, X, Y, Z.
+[00:17:35] Kyle Musca: So again, I'm trying to get the seed planted early.
+[00:17:40] Kyle Musca: And then what I'm going to have done is a, like, an end of program sort of timeframe.
+[00:17:48] Kyle Musca: So let's say they sign up and six months goes by, where the closer will essentially have a success call with them, right?
+[00:17:57] Kyle Musca: And then the idea there is, and you can't do this.
+[00:17:59] Kyle Musca: Right.
+[00:18:00] Kyle Musca: Right at the end.
+[00:18:00] Kyle Musca: let's say we're talking about three months just because it's easier, 12 weeks.
+[00:18:04] Kyle Musca: You can't just get to week 11 and be like, let's jump on a success call.
+[00:18:07] Kyle Musca: From basically week eight especially, the coach really needs to start ramping up like the, I guess, caution around the next steps of the phasing.
+[00:18:16] Kyle Musca: And then realistically around that sort of eight to nine week mark when there's still a buffer room, that's when you need to like have that conversation with them about extending.
+[00:18:26] Meg Tovey: Yeah.
+[00:18:27] Kyle Musca: If that makes sense.
+[00:18:30] Meg Tovey: Yeah.
+[00:18:31] Meg Tovey: And then how do you like, because I know that and like we're in sales, so we kind of understand that.
+[00:18:42] Meg Tovey: But how do you like, do you have a framework or something to coach your coaches on that?
+[00:18:47] Meg Tovey: Because like my coaches are good at coaching.
+[00:18:50] Meg Tovey: They're not good at like understanding that psychology behind keeping people on long term.
+[00:18:57] Kyle Musca: Well, one, I've heard this conversation with them.
+[00:19:21] Kyle Musca: So basically, on their first check-in call, because there's not going to be that much data, like, this isn't the onboarding call, it's actually like the first check-in call, because there's not really going to be that much data to collect.
+[00:19:30] Kyle Musca: So really run over.
+[00:19:31] Kyle Musca: So I get them to fill out this with the client.
+[00:19:34] Kyle Musca: This is the 12-month plan I was just talking about.
+[00:19:38] Kyle Musca: So this basically keeps the coach in line with it.
+[00:19:42] Kyle Musca: Like, if they know, you know, it's a 12-week program, the coach knows at, sorry, 12-week program, the coach knows at week eight, okay, this is when I need to really start ramping up.
+[00:19:54] Kyle Musca: And basically what they'll do is, whether it's every check-in or very, very much every second check-in, it.
+[00:20:00] Kyle Musca: I would quickly always reflect back to this so, one, the client knows where they're at in the journey and also the coach can see where they're at in the journey as well so they know that they just need to start planting those seeds.
+[00:20:09] Kyle Musca: The coach shouldn't be trying to sell them or anything.
+[00:20:11] Kyle Musca: The coach should be genuinely trying to coach them and just planting that seed naturally.
+[00:20:16] Meg Tovey: Yeah, I think the tricky part is because I've got a similar spreadsheet that I've implemented with them to track, like, to recognize the red flags a lot sooner and then I've got a meeting with each of them once a week where they bring me, like, the red flags and say, like, this is what I'm planning on doing, blah, blah, blah, and I have just, if I have any input.
+[00:20:42] Meg Tovey: But because our type of client is not, like, like, they're obviously still there for a result, but, like, a lot of the time it's not going to go to plan.
+[00:20:50] Meg Tovey: So I fully get this, like, that's a great idea for the first check-in and showing the client that, but, like, it, what, yeah, I don't
+[00:21:00] Meg Tovey: I know how to articulate what I mean.
+[00:21:01] Meg Tovey: Like when it doesn't go to plan, what happens then?
+[00:21:05] Meg Tovey: How do they like kind of, yeah, communicate the phases then?
+[00:21:12] Kyle Musca: So it depends, like what would be an example of a red flag for you?
+[00:21:19] Meg Tovey: Haven't gotten results, like haven't progressed in two weeks.
+[00:21:25] Meg Tovey: And then we've got like three kind of parts to that.
+[00:21:27] Meg Tovey: So it's like haven't progressed in two weeks, but think they should be progressing.
+[00:21:31] Meg Tovey: Haven't progressed in two weeks and are aware that they have been like not adherent or haven't progressed and have been adherent.
+[00:21:38] Meg Tovey: And like obviously changes need to be made.
+[00:21:39] Meg Tovey: But like most of our clients are like  more with their base and struggle with adherence.
+[00:21:47] Meg Tovey: So it's a lot of that like habit and behavior coaching.
+[00:21:53] Kyle Musca: Yeah.
+[00:21:54] Kyle Musca: So this is a tricky one because it's like a different angle from it.
+[00:21:57] Kyle Musca: I'd say realistically in the majority.
+[00:22:00] Kyle Musca: The of the time, it's like if they haven't progressed, it's because they haven't been adherent, realistically.
+[00:22:09] Kyle Musca: And this comes down to kind of, I guess, a coaching philosophy because if it was me coaching someone and I was looking at them and, you know, let's say they're 150 kilos and they're on 1,800 calories, right?
+[00:22:19] Kyle Musca: It's like, and they, you know, if they say they tracked 1,800 calories, they haven't lost any weight, kind of just like look at it and like, dude, there's no  way this is possible.
+[00:22:26] Kyle Musca: And I just have that like hard conversation with them, essentially.
+[00:22:30] Kyle Musca: Yeah.
+[00:22:33] Kyle Musca: Do you, so just so I answer the question properly, can you, I guess, reframe it, Ria?
+[00:22:45] Meg Tovey: Um, I guess like a lot of the things that are being worked on are deeper than just like follow the plan.
+[00:22:51] Meg Tovey: It's a lot of psychology coaching, like behavior-based coaching.
+[00:22:54] Meg Tovey: So, like, it's hard to kind of go, if you, if we mapped out, like, and say they've got 30 kilos.
+[00:22:59] Meg Tovey: kilos.
+[00:23:01] Meg Tovey: And then morbidly obese.
+[00:23:02] Meg Tovey: don't need to necessarily do like diet breaks and stuff like that.
+[00:23:06] Meg Tovey: Like if they're that overweight, they can just  keep dieting.
+[00:23:10] Meg Tovey: So like trying to map something out like this.
+[00:23:13] Meg Tovey: I don't, yeah, I don't know.
+[00:23:14] Meg Tovey: It could, because we do this on our spreadsheet, like the phases initially, like that's what the coach has to do when they go through all their  at the start.
+[00:23:22] Meg Tovey: But to like reflect it back to the client, I almost would, oh, it's not even that actually.
+[00:23:27] Meg Tovey: It's just like about how to then communicate to them like the next phase when they literally still just need a  diet for like another six months.
+[00:23:38] Kyle Musca: Yeah, so what I would comment from there is one, it's like it's adjustable, you know what mean?
+[00:23:44] Kyle Musca: So it's like if they're, you maybe they are a little bit behind track, just explain to them why.
+[00:23:48] Kyle Musca: But then also, you know, add in, I guess, like, again, it's the information.
+[00:23:53] Kyle Musca: So it's like, you know, our goal is ultimately weight loss, but we can't achieve weight loss until we get the habits really down pat.
+[00:23:59] Kyle Musca: up.
+[00:23:59] Kyle Musca: Yeah.
+[00:23:59] Kyle Musca: Yeah.
+[00:23:59] Kyle Musca: Yeah.
+[00:23:59] Kyle Musca: Yeah.
+[00:23:59] Kyle Musca: Yeah.
+[00:24:00] Kyle Musca: So right now, I want to just really focus on, you know, let's say we're at week six, for example, and they've hit that part where they're not really progressing, but like they should be based on every, you know, all that .
+[00:24:12] Kyle Musca: I would just be like, okay, for the next sort of four weeks, I really want to focus on just getting the habits down because we can keep, you know, beating our head against a brick wall.
+[00:24:21] Kyle Musca: But if we don't really get those habits and those foundations built and implemented properly, like we're not going to be able to, you know, get the results that we're wanting.
+[00:24:29] Kyle Musca: So even by doing that, then you're theoretically pushing the program back in four weeks just by that.
+[00:24:37] Kyle Musca: So I would like adjust it and adapt with them.
+[00:24:39] Kyle Musca: And the biggest thing is just explaining to it, like keeping them, I guess, in a loop of like why things are happening, if that makes sense.
+[00:24:46] Meg Tovey: Yeah.
+[00:24:47] Kyle Musca: Yeah.
+[00:24:48] Kyle Musca: At the end of the day, it's like if you followed the calories and macros and you did the training and everything like perfectly, you'd lose so much weight.
+[00:24:54] Kyle Musca: But we can't get that because your habits just aren't in the right place for that to actually be a real...
+[00:25:00] Kyle Musca: Logistic, obtainable goal right now.
+[00:25:02] Kyle Musca: We've got to get past that obstacle so we can get to the ultimate goal.
+[00:25:06] Kyle Musca: And obviously, especially when it comes to habits, that's just not an overnight fix, right?
+[00:25:10] Kyle Musca: We need to actually work this into your lifestyle, which unfortunately does take a couple of weeks and a couple of months.
+[00:25:15] Kyle Musca: But saying that, once we solve that issue, you never struggle with this issue again.
+[00:25:19] Meg Tovey: Yeah.
+[00:25:20] Meg Tovey: Yeah, no, it's more just like the actual system for the coaches to be able to like keep track of it.
+[00:25:25] Meg Tovey: Because I noticed like when someone, because generally when a coach is working for someone else, it's because they haven't been able to fill their own book of clients.
+[00:25:35] Meg Tovey: So then when they have a full book of clients, they can't give the quality that they have given in the past to 10 or 20 clients in terms of like keeping on track with this stuff, like, and reflecting that back to the client.
+[00:25:47] Meg Tovey: So I've been trying to like build out a system.
+[00:25:52] Meg Tovey: So, yeah, this is good, helpful to see.
+[00:25:55] Meg Tovey: Which is kind of like what we're already doing at the start, but we weren't doing it with the client.
+[00:25:59] Meg Tovey: We were doing it.
+[00:26:00] Meg Tovey: For like ourselves and it wasn't going for, like I, in my onboarding for the coach, it says like map out the first 16 weeks, not the whole year.
+[00:26:13] Meg Tovey: Yeah.
+[00:26:14] Meg Tovey: That's good.
+[00:26:14] Meg Tovey: That's like helpful.
+[00:26:15] Meg Tovey: And then just reflecting that back to the client.
+[00:26:19] Kyle Musca: Yeah.
+[00:26:19] Kyle Musca: And, and the thing with that is like, well, that's just coaching management at the same time.
+[00:26:23] Kyle Musca: Like I know when I was, you know, you know, 70, 80 old clients back when I was coaching, I would make sure I would leave like small notes on every single client, every single week.
+[00:26:32] Kyle Musca: And then before the next week's check-in, I would go back and like reread them.
+[00:26:35] Kyle Musca: So I know what was discussed.
+[00:26:38] Kyle Musca: Cause that, that's, I guess, crucial.
+[00:26:40] Kyle Musca: yeah, if you don't have, I guess, if they don't have something like that in place, then yeah, they're not going to remember those key details that they need to keep drilling into them, you know, four weeks on end.
+[00:26:49] Meg Tovey: No, yeah, we definitely have that in place, but it's like, cause it is habit and habits and behaviors that don't happen in one week, for example.
+[00:26:58] Meg Tovey: no, no, .
+[00:27:00] Meg Tovey: They can get lost, like, it's hard to explain, like, from, they can move too far away from still getting the actual  result, if that makes sense.
+[00:27:13] Kyle Musca: Yeah.
+[00:27:14] Kyle Musca: Well, I mean, like, habits isn't necessarily, like, habits is probably a good, I guess, problem to have in essence because habits don't, again, happen overnight.
+[00:27:23] Kyle Musca: So it's, like, you may even want to, you know, that, be like, look, you know, after working with you for a couple of weeks, like, it's, you know, I can see you're dedicated and everything to change, obviously, I have the conversation with them.
+[00:27:35] Kyle Musca: And I see the biggest, like, roadblock with us right now is just getting those habits dialed in.
+[00:27:40] Kyle Musca: So, and explain, it's not an overnight process.
+[00:27:42] Kyle Musca: Look, what we can do, because I really want to see, you know, succeed at the end of the day.
+[00:27:46] Kyle Musca: And then, like, that's when you would start, one, transitioning.
+[00:27:49] Kyle Musca: I wouldn't do it all in one call.
+[00:27:51] Kyle Musca: I would plant the seed into, you're going to need longer than the original timeframe that we needed.
+[00:27:57] Meg Tovey: Yeah.
+[00:27:58] Kyle Musca: And you just come from the angle of.
+[00:28:00] Kyle Musca: Like if you executed and followed the plan, you would only have needed that timeframe, but because your habits are the thing that's bottlenecking us, we need to fix that problem, which is going to take more time.
+[00:28:11] Meg Tovey: Yeah.
+[00:28:12] Meg Tovey: Yeah.
+[00:28:13] Meg Tovey: Cause yeah, we had two, two clients cancel recently who'd lost 10 kilos, done everything to the plan.
+[00:28:18] Meg Tovey: Like it was perfect.
+[00:28:19] Meg Tovey: This is kind of going off track to what we were just talking about, but that all makes sense.
+[00:28:23] Meg Tovey: But this is what needed to be in place.
+[00:28:26] Meg Tovey: And those conversations needed to be had earlier because they've obviously got to a point where they're like, I'm  killing it.
+[00:28:34] Meg Tovey: I don't really need to go beyond the minimum term, but they don't understand that they need to  do a reverse diet or whatever.
+[00:28:41] Meg Tovey: So yeah.
+[00:28:42] Meg Tovey: Okay, cool.
+[00:28:43] Meg Tovey: Sweet.
+[00:28:43] Meg Tovey: That answers my question.
+[00:28:44] Kyle Musca: Thank you so much.
+[00:28:45] Kyle Musca: And then I would also just have the chat with the coaches that again, like it sounds bad, but you kind of need to instill that fear factor into clients because if they, if they, you know, feel confident and this pisses me off so much is when you.
+[00:29:00] Kyle Musca: You get them, like, you know, 70%, 80% of the way there, and they're lining up to be a really good transformation or whatever, but then they're like, oh, I feel confident, I know everything now, I'm going to go out and finish this on my own, right?
+[00:29:11] Kyle Musca: Yeah.
+[00:29:11] Kyle Musca: That's annoying for a whole other reason.
+[00:29:13] Kyle Musca: So, like, what I would instill into them is, like, the first 10 kilos is different to the second 10 kilos, which is different to the last 10 kilos.
+[00:29:21] Kyle Musca: Yeah.
+[00:29:21] Kyle Musca: You know what mean?
+[00:29:22] Kyle Musca: So, it's like, it's still weight loss at the end of the day, but it's not the same process.
+[00:29:27] Kyle Musca: And if anything, it gets harder the lower we get.
+[00:29:30] Meg Tovey: Yeah.
+[00:29:30] Meg Tovey: Yeah.
+[00:29:33] Kyle Musca: Yeah.
+[00:29:34] Kyle Musca: Does that answer your question, then?
+[00:29:36] Meg Tovey: Yeah.
+[00:29:38] Kyle Musca: Perfect.
+[00:29:39] Meg Tovey: Cool.
+[00:29:40] Meg Tovey: Oh, sorry.
+[00:29:41] Meg Tovey: I had one more question.
+[00:29:43] Meg Tovey: Yeah.
+[00:29:43] Meg Tovey: How do your coaches schedule calls with everyone?
+[00:29:46] Kyle Musca: Like, do they do calls with everyone?
+[00:29:50] Kyle Musca: They do do calls with everyone on the package that entails calls, but they just use calendar.
+[00:29:57] Meg Tovey: I'd like spit them in.
+[00:30:00] Meg Tovey: How do they fit them in or do they just like, like if a client's, is it fortnightly or weekly check-ins or like a mix?
+[00:30:08] Kyle Musca: Weekly.
+[00:30:09] Meg Tovey: So if it's weekly, does the client just pick any day in the week or do they have a, like, because I'm like, how the  are they fitting?
+[00:30:17] Meg Tovey: Like the girls are struggling to like fit and obviously they're way over capacity.
+[00:30:23] Meg Tovey: I just, I'm sending a letter of offer for a new coach this afternoon.
+[00:30:27] Meg Tovey: But, yeah, they're struggling to like fit people in for the times that the clients can do.
+[00:30:34] Kyle Musca: Yeah.
+[00:30:35] Kyle Musca: So, yeah, my coaches all do it on the same day.
+[00:30:40] Kyle Musca: I found, I haven't found it, like I've spoken to people about this before.
+[00:30:43] Kyle Musca: You never want them to just have random days because check-ins will go missed.
+[00:30:49] Kyle Musca: So, yeah, they have set days and then they just book them in on Calendly.
+[00:30:52] Kyle Musca: My coaches are pretty good in terms of the fact that they'll work, you know, until 8 p.m.
+[00:30:57] Kyle Musca: at night.
+[00:30:58] Kyle Musca: But they've got that like.
+[00:31:00] Kyle Musca: You know, they'll go do  during the day or whatever, and they'll take calls later in the day.
+[00:31:03] Kyle Musca: So they're pretty good in that regard.
+[00:31:06] Kyle Musca: Do your coaches use Calendly or an actual booking system?
+[00:31:10] Meg Tovey: I had it set up initially, and then they started doing it manually themselves, like booking the client in themselves, because then obviously they've got a bit more, like, control over when they can book in.
+[00:31:27] Kyle Musca: How long do the calls go for?
+[00:31:30] Meg Tovey: Like, they're scheduled for half an hour.
+[00:31:32] Meg Tovey: Some are shorter.
+[00:31:33] Kyle Musca: Some are a bit longer.
+[00:31:35] Kyle Musca: Yeah.
+[00:31:35] Kyle Musca: So do they use the full half an hour?
+[00:31:39] Meg Tovey: Some go for, like, 20.
+[00:31:41] Kyle Musca: Some go for, like, 45.
+[00:31:43] Kyle Musca: Yeah.
+[00:31:44] Kyle Musca: I think it's also good to have, like, hard deadlines on them.
+[00:31:46] Kyle Musca: So it's, like, if it's half an hour slots, that's fine.
+[00:31:49] Kyle Musca: But just making sure that, like, you know, things don't go over.
+[00:31:53] Kyle Musca: It's kind of good when you have those allotted slots in something like Calendly or something, because it's like, you know, I'd love to keep chatting.
+[00:32:00] Kyle Musca: But unfortunately, I've got to jump on my next call.
+[00:32:02] Kyle Musca: You know what mean?
+[00:32:03] Kyle Musca: Because you just don't want get a rambler that goes for like 45 minutes about a bunch of irrelevant .
+[00:32:10] Kyle Musca: So, yeah.
+[00:32:11] Kyle Musca: And then, again, this comes down to like how reliable your coaches are and everything like that.
+[00:32:19] Kyle Musca: Mine, I don't have any issues with mine.
+[00:32:21] Kyle Musca: So I'm just like, you know, as long as you can book them in whenever throughout the day, as long as they get done on the day.
+[00:32:26] Meg Tovey: Yeah.
+[00:32:29] Meg Tovey: And like each client has a different check-in day because like you can't fit in a full book of clients on one day.
+[00:32:36] Kyle Musca: No, I limit it to about 20 clients a day.
+[00:32:39] Kyle Musca: Yeah.
+[00:32:41] Kyle Musca: Yeah.
+[00:32:42] Kyle Musca: So you like, for example, I'd fill up Monday and then once Monday's filled up, maybe they want to open up Thursday.
+[00:32:47] Kyle Musca: Yeah.
+[00:32:47] Kyle Musca: And then all the new clients would go that day.
+[00:32:50] Meg Tovey: Yeah.
+[00:32:50] Meg Tovey: Okay.
+[00:32:50] Meg Tovey: That's pretty much what they're already doing.
+[00:32:52] Meg Tovey: I just didn't know if it was, it's probably just that time thing.
+[00:32:55] Kyle Musca: Like, I don't know.
+[00:33:00] Meg Tovey: They're not as flexible with working late.
+[00:33:02] Kyle Musca: Yeah.
+[00:33:03] Kyle Musca: Yeah.
+[00:33:04] Kyle Musca: So mine are good in that.
+[00:33:05] Kyle Musca: But yeah, basically what they do is in the check and they send through the booking call link.
+[00:33:10] Kyle Musca: And then if the client needs, you know, the time that like none of the times are available or whatever, then they just reach out and they chat about a time that suits.
+[00:33:18] Meg Tovey: Yeah.
+[00:33:19] Meg Tovey: Yeah.
+[00:33:19] Meg Tovey: Okay, cool.
+[00:33:20] Meg Tovey: Sweet.
+[00:33:21] Kyle Musca: Perfect.
+[00:33:23] Kyle Musca: Cool.
+[00:33:23] Kyle Musca: So yeah, the graphics are killing it in terms of cost per lead.
+[00:33:26] Kyle Musca: I think a big factor there would probably be the Cappy pulling through for us.
+[00:33:32] Kyle Musca: As I said, like from the start, that really is like, it's a shorter term play in terms of like scaling from a numbers perspective, but it's a longer term play in terms of like targeting the right people.
+[00:33:44] Kyle Musca: And then what I've done is I'll get your video ads up.
+[00:33:48] Kyle Musca: They came up awesome, by the way, with Vaughn.
+[00:33:52] Kyle Musca: So I think, yeah, basically the style you did was fantastic.
+[00:33:55] Kyle Musca: And I reckon it'd be like, it's a good, nice, efficient way to justify.
+[00:34:00] Kyle Musca: By the filming, if that makes sense.
+[00:34:02] Kyle Musca: Like if you know that you're getting ads and extracting ads out of it at same time, and it's like, okay, I'm going actually spend time doing this.
+[00:34:08] Kyle Musca: What I would say, I really think that for your account and everything, I reckon we try to actually get the direct stuff dialed in properly.
+[00:34:26] Kyle Musca: But I reckon we try and actually run like a lead magnet just to start conversations.
+[00:34:32] Kyle Musca: But just keep it really simple to start with.
+[00:34:34] Kyle Musca: And I reckon what we do there is just like, you've already got the masterclass type thing, like the presentation and everything built out.
+[00:34:40] Kyle Musca: So you might even want to use that, but just something that's really specific to your audience.
+[00:34:44] Kyle Musca: You know, how do you lose your first five kilos?
+[00:34:46] Meg Tovey: If you're a woman in her 30s, how to lose your first five kilos?
+[00:34:49] Meg Tovey: Yeah, there's already, I put in that folder.
+[00:34:53] Meg Tovey: Hang on, let me just open it up.
+[00:34:56] Kyle Musca: The three lead magnets?
+[00:34:58] Kyle Musca: Yeah.
+[00:34:58] Kyle Musca: Yeah, yeah.
+[00:34:59] Kyle Musca: Yeah.
+[00:35:00] Kyle Musca: I've thrown them up as well.
+[00:35:01] Kyle Musca: So we'll definitely test them.
+[00:35:03] Meg Tovey: That's for the, like, free training, which is the podcast.
+[00:35:07] Kyle Musca: Yeah.
+[00:35:08] Meg Tovey: Yeah, probably.
+[00:35:08] Meg Tovey: Oh, are they up already?
+[00:35:09] Kyle Musca: Because I haven't done the keywords.
+[00:35:11] Kyle Musca: No.
+[00:35:12] Kyle Musca: So the ad structures are being built out.
+[00:35:16] Kyle Musca: Oh, yeah.
+[00:35:19] Kyle Musca: The ad structures are being built out, but they haven't been officially published yet.
+[00:35:23] Meg Tovey: Yeah, okay.
+[00:35:24] Meg Tovey: Because I was going to say there's a couple of, I'm sure you already know this, but there's obviously a couple of ad graphics that are specific to December, like, say the word December, or say, like, Christmas in them and stuff.
+[00:35:35] Meg Tovey: That will obviously need to come down.
+[00:35:37] Kyle Musca: Yeah.
+[00:35:38] Kyle Musca: Funnily enough, those are the ones that are actually pulling through the best for you.
+[00:35:42] Kyle Musca: So I've just kind of, like, left them on.
+[00:35:45] Kyle Musca: I think there's one, there was one established winner.
+[00:35:50] Kyle Musca: I don't think that technically actually mentions, I think it says, like, you can walk into January or something like that, but it doesn't mention December or anything.
+[00:35:58] Kyle Musca: And then there's another one that starts.
+[00:35:59] Kyle Musca: up колока Thank
+[00:36:00] Kyle Musca: To pull through as a winner as well, so, which is good.
+[00:36:04] Kyle Musca: But how many calls have you had booked total this week for a while?
+[00:36:12] Meg Tovey: Where's my time?
+[00:36:22] Meg Tovey: This week, as in like 1st to 7th of Jan, or like Monday to Wednesday?
+[00:36:28] Kyle Musca: We'll go 1st to 7th of Jan.
+[00:36:31] Meg Tovey: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.
+[00:36:36] Meg Tovey: Plus I had maybe 3 or 4, maybe even 5 extras booked in from people who have just booked themselves in, which they're not, or maybe 2, maybe I had 5 extras.
+[00:36:51] Meg Tovey: 2 were organic, like from, they've known me or whatever for a while, but the other 3 like were random, so I'm assuming they were from the ads, but they've just booked.
+[00:37:00] Meg Tovey: themselves in.
+[00:37:01] Meg Tovey: Maybe one or two of them was also from the goal-setting guide in our link tree.
+[00:37:09] Meg Tovey: That actually converts.
+[00:37:11] Meg Tovey: That's something else that we could definitely, I don't know if it's too late.
+[00:37:14] Meg Tovey: Oh, I don't think it's ever too late, I guess, for goals.
+[00:37:16] Meg Tovey: But it converts really well on its own.
+[00:37:19] Meg Tovey: It doesn't get many downloads organically, but of the downloads it gets, probably 50% of them book themselves in for a call.
+[00:37:27] Kyle Musca: What is, let's have a look at that.
+[00:37:33] Kyle Musca: Do you have ClickFunnels, by the way?
+[00:37:35] Meg Tovey: I've got it, but it's on suspension.
+[00:37:38] Meg Tovey: Oh, okay.
+[00:37:39] Meg Tovey: Because I've built out all the same learning pages on my Wix website, because ClickFunnels is obviously very expensive, which I'm happy to pay for, but I just kind of like, wasn't using it frequently enough to justify it.
+[00:37:53] Kyle Musca: Yeah.
+[00:37:57] Kyle Musca: This is sweaty.
+[00:37:59] Kyle Musca: This you.
+[00:38:01] Kyle Musca: Where do you find the goal-setting thing?
+[00:38:03] Meg Tovey: Yeah, in there.
+[00:38:04] Meg Tovey: In this one?
+[00:38:05] Meg Tovey: Yeah, the bottom link.
+[00:38:07] Kyle Musca: Oh, free goal-setting link.
+[00:38:10] Meg Tovey: I just realised, though, I didn't realise their training-only programs were still on the link tree.
+[00:38:18] Meg Tovey: Should I get rid of them?
+[00:38:32] Kyle Musca: Are these just self-sign-ups, are they?
+[00:38:34] Meg Tovey: Yeah.
+[00:38:43] Kyle Musca: I, yeah, I probably would, just because they're display price.
+[00:38:48] Kyle Musca: Yeah, okay.
+[00:38:50] Kyle Musca: Are these, like, um, what, are these, like, passive, like, when they...
+[00:38:57] Meg Tovey: Yeah.
+[00:38:58] Meg Tovey: And then we, we...
+[00:39:00] Meg Tovey: Usually we'll like, like it says it's all automated, but we'll get in the chat and try and get them onto a welcome call and then obviously turn that into a sales call and upsell it for coaching.
+[00:39:12] Kyle Musca: Yeah, because even that, even that, even that would be a good funnel to use.
+[00:39:23] Kyle Musca: So like what I'm currently working on now is a break-even funnel, which is essentially, if you can just get them to cover, like let's say you build a four-week program, you just get this and just pop it.
+[00:39:36] Kyle Musca: And then we just sell it for like $27 and we advertise around that essentially.
+[00:39:40] Kyle Musca: But then you add check-in calls as an, like a free addition to it.
+[00:39:45] Kyle Musca: And then that leads to it.
+[00:39:47] Kyle Musca: Yeah, so ideally, if we could get that to work, like if you get a purchase for like, so the idea behind it is if you get a purchase for let's say $129.
+[00:40:00] Kyle Musca: You've broken even on your front-end ad spend, which technically means you could spend a million dollars a month on advertising, which would obviously generate you a ton of leads.
+[00:40:08] Kyle Musca: And then you just upsell on the back end.
+[00:40:11] Meg Tovey: Yeah, because when I did the masterclass funnel through ClickFunnels, they opted in for the masterclass and I had a, like, upsell page that was $29 for a four-week program.
+[00:40:25] Meg Tovey: And obviously then, like, leading into the masterclass, I'd already, like, nurtured those people that had got upsells.
+[00:40:31] Meg Tovey: Slash, I kind of already had an idea of how many people already spent some money.
+[00:40:35] Kyle Musca: Yeah.
+[00:40:36] Meg Tovey: Plus some of the ad spend.
+[00:40:38] Kyle Musca: Yeah, so that's the value ladder.
+[00:40:40] Kyle Musca: And that's where I kind of want to take, like, I always want to do the direct response to the staff, but I would like to get a lead magnet in there because it's just, like, less friction.
+[00:40:51] Kyle Musca: Yeah, when you're dealing with an online space where you've just got so many people, like, massive influencers who have strong connections with people, it's kind of, like, hard to really...
+[00:41:00] Kyle Musca: You know, separate yourself.
+[00:41:02] Kyle Musca: So it's like, if you can give them like a lot of free value, then ideally they're so important to you at the end of it.
+[00:41:08] Kyle Musca: So ideally, and they, again, it stacks like a value letter.
+[00:41:11] Kyle Musca: So it's like, what we could do is masterclass, which then leads to, you know, let's say off the top of my head, we do how to lose your first five kilos.
+[00:41:19] Kyle Musca: If you're a woman in the 30s, how to, whatever we call it, how to lose your first five kilos, you do your masterclass.
+[00:41:25] Kyle Musca: And it's like, down below, you know, I've attached a program that's designed to get you to lose your first five kilos within the first month.
+[00:41:35] Kyle Musca: All right.
+[00:41:35] Kyle Musca: It's $27.
+[00:41:37] Kyle Musca: And, you know, I'm going to throw on a free check-in call as well, or two free check-in calls or whatever.
+[00:41:43] Kyle Musca: So then it's like, they're slowly transitioning through that value ladder.
+[00:41:49] Kyle Musca: And then realistically, we should have have, we should have some sort of opt-in form from the very start.
+[00:41:54] Meg Tovey: So it's like, even if they don't sign up on that, you can still reach out to them, try and set them in.
+[00:41:59] Meg Tovey: Yeah.
+[00:42:00] Kyle Musca: So I think we start off with the lowest friction thing possible, something that's free, masterclass, and then get them, like, from there.
+[00:42:12] Kyle Musca: And then we can, like, potentially even look at adding that in.
+[00:42:15] Kyle Musca: But that's good to know that you've already got that set up.
+[00:42:18] Meg Tovey: Yes, it's easier to kind of tweak and change and add new ones anyway on TrainerEye.
+[00:42:23] Kyle Musca: Yeah.
+[00:42:24] Kyle Musca: So, and then this is even good as well.
+[00:42:27] Kyle Musca: So, what is this?
+[00:42:30] Kyle Musca: Can you pull up your screen and show me what the back end of that looks like?
+[00:42:34] Meg Tovey: Yeah.
+[00:42:37] Kyle Musca: Because, like, again, from what you could do here is, like, you know, exactly what we were speaking about before.
+[00:42:42] Kyle Musca: Like, if you're a woman in her 30s and you've got 20 plus kilos to lose, most of the time it's not, like, a structure problem.
+[00:42:50] Kyle Musca: It's a goal and habit thing.
+[00:42:52] Kyle Musca: That's why I put together this free goal setting thing.
+[00:42:55] Kyle Musca: You know what mean?
+[00:42:57] Meg Tovey: Yeah.
+[00:42:58] Meg Tovey: That's
+[00:43:02] Meg Tovey: Wait, what do you want to see exactly?
+[00:43:04] Meg Tovey: Actually, I just realised they're in two different places.
+[00:43:07] Kyle Musca: Just like what the actual goal setting guide is.
+[00:43:12] Kyle Musca: Yeah, that resource.
+[00:43:15] Meg Tovey: Yep, it is.
+[00:43:23] Meg Tovey: Oh, that's actually not it.
+[00:43:30] Meg Tovey: Because that's for our clients, but there's one that's got the, like, call booking thing at the bottom.
+[00:43:40] Meg Tovey: What is it?
+[00:43:49] Meg Tovey: What is it?
+[00:44:03] Meg Tovey: All right.
+[00:44:36] Meg Tovey: Wow, my internet is really doing the most.
+[00:44:39] Meg Tovey: Oh, got this.
+[00:44:42] Meg Tovey: This is a video from my course that, like, our clients get that just talks about, like, why goal setting's important and how to do it right.
+[00:44:51] Meg Tovey: And then it's, like, a fillable PDF.
+[00:44:54] Kyle Musca: Yeah, okay.
+[00:44:55] Meg Tovey: So, like, the fitness, body comp, nutrition.
+[00:45:03] Meg Tovey: Personal, professional, blah, blah, blah, and then this, and then book the call.
+[00:45:11] Kyle Musca: Yeah, okay.
+[00:45:13] Kyle Musca: Yeah, perfect.
+[00:45:14] Kyle Musca: I reckon.
+[00:45:17] Meg Tovey: I have run that as a funnel before, and it, like, just brought in so much, like, obviously high volume for sure, but don't know how the quality was, but, like, obviously I had a much different setup.
+[00:45:30] Meg Tovey: And less help with the ads and stuff, so definitely happy to do it.
+[00:45:34] Meg Tovey: I'm just mindful of, like, I don't want to, like, year, like, a back end of last year was the first year where I just literally focused on doing one thing really well, and it's, like, in December, I was, like, oh, , it's actually working.
+[00:45:48] Meg Tovey: Yeah.
+[00:45:48] Meg Tovey: So I'm mindful of, like, not getting, doing 100 things, but definitely, like, open to, yeah, trying it.
+[00:45:56] Kyle Musca: Yeah, 100%.
+[00:45:57] Kyle Musca: I think I'm, like, very, very big on the same thing as well.
+[00:46:00] Kyle Musca: Um, I think with that, um, like I know the lead magnet stuff's like weird because it's like, it works.
+[00:46:11] Kyle Musca: know it works.
+[00:46:12] Kyle Musca: Um, like when I've run lead magnet stuff, it literally, I've ran it at half a cost per call as my actual direct response stuff.
+[00:46:19] Kyle Musca: Um, but like, I've never had to really double down on it simply because my direct stuff does like really well on its own.
+[00:46:25] Kyle Musca: Um, but I think like it, a hundred percent works.
+[00:46:29] Kyle Musca: If you, I guess actually give it the time, like the time and attention it needs, you know mean?
+[00:46:34] Kyle Musca: Um, cause it's easy to kind of chase the carrot with the direct response stuff.
+[00:46:37] Kyle Musca: And if the direct response stuff works fantastically, it's like one, absolutely like a hundred percent double down on that.
+[00:46:43] Kyle Musca: And then two, also get it to the point where it's like, you've kind of pushed it to the point where you've just got that whole process and really dialed in and it's quite automated.
+[00:46:54] Kyle Musca: That's like, okay, now I can actually focus on opening up another stream.
+[00:46:57] Kyle Musca: Um, so.
+[00:47:00] Kyle Musca: But again, I think with the women you're dealing with, I think there's just a lot of like, I guess, skepticism around like just taking like the first step is like a big thing for them, right?
+[00:47:12] Kyle Musca: So it's like, let's just make that step like really small and easy for them to take.
+[00:47:16] Meg Tovey: yeah, I don't know if it's just the time, like the time of year, but I have noticed like the last like, wait, I'll just show you because I don't have percentages or anything.
+[00:47:38] Meg Tovey: But these are from, these are from like, that's from, when's this, December, like there's way more sold.
+[00:47:47] Kyle Musca: I also think, um.
+[00:47:51] Meg Tovey: Sorry, like, yeah, I don't know if it's just coming or if it's just all getting better and I'm getting better.
+[00:47:57] Meg Tovey: I feel like I've  nailed all my objection handling now.
+[00:48:00] Kyle Musca: Yeah, that is another factor.
+[00:48:02] Kyle Musca: Getting used to a cold audience sale, obviously, just takes some time.
+[00:48:06] Meg Tovey: This is that chick that's trying to pull out, and so is this one.
+[00:48:12] Kyle Musca: So I don't know about those two, but yeah, that's by more sales than previously.
+[00:48:18] Kyle Musca: Looking at your account as well, it's funny.
+[00:48:22] Kyle Musca: So you started like making like a lot of closes around that 11th of December.
+[00:48:28] Kyle Musca: December, you started posting more of yourself on the 10th of December.
+[00:48:37] Kyle Musca: Yeah, you know a or two.
+[00:48:40] Meg Tovey: Hey?
+[00:48:41] Meg Tovey: You know a thing or two.
+[00:48:43] Kyle Musca: Yeah.
+[00:48:45] Kyle Musca: Yeah, the only like, yeah, organic is so weird because it's like, there's no, you can't track metrics on it.
+[00:48:51] Kyle Musca: Like you can't, there's no metric to say that, okay, we started posting.
+[00:48:55] Kyle Musca: Well, I guess there is, like when we look at that stuff, there is.
+[00:48:58] Kyle Musca: But for example, like I know that that.
+[00:49:00] Kyle Musca: That works is because I had another client in a similar position as yourself where he just wasn't really posting organic-style content very well or very good to a high degree.
+[00:49:08] Kyle Musca: And it's like same experience.
+[00:49:09] Kyle Musca: Like he was getting some calls booked in.
+[00:49:11] Kyle Musca: All the conversion metrics were lower than they should be.
+[00:49:15] Kyle Musca: And then he just like, he got Vaughn on to start doing more content for him.
+[00:49:19] Kyle Musca: And he's consistently absolutely fine closing people now weekly.
+[00:49:24] Kyle Musca: So they come on, they binge watch, they need to build that relationship with you.
+[00:49:28] Kyle Musca: And then it's like, you come from a place of authority rather than just, who is this person?
+[00:49:35] Meg Tovey: Yeah.
+[00:49:36] Meg Tovey: Yeah.
+[00:49:36] Meg Tovey: And the thing I'm curious is like, like I had this chick that I was meant to do a call with today and I had to reschedule her because I didn't realize that my  dad's birthday lunch was two and a half hours away.
+[00:49:47] Meg Tovey: thought it was in Brisbane.
+[00:49:49] Meg Tovey: And I couldn't, I can't fit her in tomorrow or Friday.
+[00:49:52] Meg Tovey: So I'm like reaching.
+[00:49:53] Meg Tovey: And again, I don't know if this is going to be a linear thing or if there's going to be less calls booked next week.
+[00:49:57] Meg Tovey: I'm trying to like hope for the best.
+[00:50:00] Meg Tovey: But, yeah, like when the time is to look at, I'm not saying it's now, definitely not, I'm not nearly at capacity, but when the time is to, like, outsource that, does that problem not just, like, arise again?
+[00:50:17] Kyle Musca: Because it's a random person setting it, booking it, I mean, closing it.
+[00:50:22] Kyle Musca: It depends on the closer.
+[00:50:24] Kyle Musca: So the closer, like, I'm not going to lie, the closer is by far the hardest hire you make in a business.
+[00:50:30] Kyle Musca: Just because, like, yeah, a lot of them just are very money hungry.
+[00:50:35] Kyle Musca: They're very, like, they're money, like, because there's just, the whole sales industry sells, again, the carrot, right?
+[00:50:42] Kyle Musca: You can go into high-ticket sales and make 10K a month with no experience.
+[00:50:45] Kyle Musca: It's super easy to do.
+[00:50:48] Kyle Musca: So I purposely avoid hiring closers as much as possible just because it's a headache to do.
+[00:50:55] Kyle Musca: But, yes, to answer your question, yes, to a degree, when you bring on a closer, you should expect.
+[00:51:00] Kyle Musca: Conversion ratios to drop, which is why I think, like, when you're running a business, you should always be front and center of the sales yourself and only bring on a closer when you've got excess and you just, like, physically can't take more calls.
+[00:51:13] Meg Tovey: Yeah.
+[00:51:16] Kyle Musca: But then there's a whole process coming into that of, like, again, just adding in more personalization.
+[00:51:21] Kyle Musca: So I still send them the voice notes in the morning of, like, I still make sure I'm, like, heavily in contact with them.
+[00:51:26] Kyle Musca: It's just that the closer takes the call instead.
+[00:51:29] Meg Tovey: Yeah, yeah.
+[00:51:32] Meg Tovey: Yeah.
+[00:51:34] Kyle Musca: Perfect.
+[00:51:35] Kyle Musca: So what I reckon I'll do is I reckon we focus on, so the graphics are doing well, which is great.
+[00:51:49] Kyle Musca: And then we're going to launch these new sort of organic style ones.
+[00:51:55] Kyle Musca: There was eight and three, eight direct and three.
+[00:51:59] Kyle Musca: Lead Magnum on top.
+[00:52:05] Meg Tovey: Um, something like that.
+[00:52:13] Kyle Musca: Do you have another filming session with Bourne coming up?
+[00:52:16] Meg Tovey: I booked it in for, before I got to Japan, so not for like five weeks.
+[00:52:22] Kyle Musca: Okay.
+[00:52:23] Meg Tovey: I kind of mapped out how much, like when it will run out.
+[00:52:28] Meg Tovey: Because I, I filmed like there's another 10 that I didn't put in that folder for you that I don't have a CTA on them.
+[00:52:36] Kyle Musca: Oh, right.
+[00:52:36] Kyle Musca: Okay.
+[00:52:37] Kyle Musca: Okay.
+[00:52:37] Kyle Musca: Yeah.
+[00:52:38] Kyle Musca: So next time you do it, um, with Vaughn, I guess this will give us some time, but you might even want to just like keep some direct ones in there, but like use the goal setting one as a, as a lead magnet, I reckon.
+[00:52:49] Meg Tovey: Okay.
+[00:52:51] Kyle Musca: Um, I would see that working really well as well because it primes them to, you know, physically actually write out.
+[00:52:58] Meg Tovey: What their goals are and their their commitments commitments that, to it.
+[00:53:00] Kyle Musca: Yeah.
+[00:53:01] Kyle Musca: Which puts them in a good, I guess, mindset to actually want to invest into it.
+[00:53:05] Kyle Musca: But what I reckon I'll do is I might even write you some, I reckon we, yeah, I'll write you some scripts around just that goal setting resource in general.
+[00:53:13] Kyle Musca: And then we'll just get some graphics as usual to double it up.
+[00:53:18] Kyle Musca: And then we'll just test out the response on those.
+[00:53:22] Meg Tovey: Yeah, cool.
+[00:53:23] Meg Tovey: I'll send you the script from that goal setting video that's from my course as well.
+[00:53:29] Kyle Musca: Is that the video in the file?
+[00:53:32] Meg Tovey: In my tone of voice and stuff.
+[00:53:33] Kyle Musca: Yeah.
+[00:53:34] Kyle Musca: Yeah, actually, yeah, perfect.
+[00:53:36] Kyle Musca: Okay, awesome.
+[00:53:37] Kyle Musca: If you, yeah.
+[00:53:39] Kyle Musca: What is that filmed on?
+[00:53:40] Kyle Musca: Is that on like YouTube or what is that actually on?
+[00:53:43] Meg Tovey: Thinkific.
+[00:53:45] Kyle Musca: Okay.
+[00:53:45] Kyle Musca: Do you have the, like the original video?
+[00:53:54] Meg Tovey: I'd be able to find it somewhere.
+[00:53:57] Kyle Musca: Yeah.
+[00:53:57] Kyle Musca: If you could do that, because then I can, I can download.
+[00:54:00] Meg Tovey: Download it and I'll extract the transcript out of it.
+[00:54:02] Meg Tovey: I've got the script in a Google Doc.
+[00:54:05] Kyle Musca: Oh, okay.
+[00:54:05] Kyle Musca: Well, that's, yeah, that's way better.
+[00:54:08] Meg Tovey: It's only like two, three minutes, but yeah, I can send that through.
+[00:54:11] Kyle Musca: Yeah, yeah.
+[00:54:12] Kyle Musca: That'll act as a small BSL.
+[00:54:14] Kyle Musca: Okay, fantastic.
+[00:54:15] Kyle Musca: Well, what I'll do is I'll go make a Loom video now on the invoicing thing.
+[00:54:20] Kyle Musca: And then I'll, yeah, let's get some stuff around the lead magnet and stuff and test that out.
+[00:54:27] Meg Tovey: Sounds good.
+[00:54:29] Meg Tovey: Because, yeah, I can fill up some organic reels as well in the meantime before I, or if you want me to book in with Vaughan sooner, I can.
+[00:54:36] Meg Tovey: I just did it then because I hate doing it.
+[00:54:41] Meg Tovey: That's the latest possible time that I would need to do it.
+[00:54:44] Meg Tovey: But if you want me to bring it forward, I totally can.
+[00:54:47] Kyle Musca: I mean, you might as well bring it forward.
+[00:54:50] Kyle Musca: Because at the end of the day, you'll still have the same volume of content, but that way you just get it over and done a little bit earlier.
+[00:54:56] Meg Tovey: So I am biting, though, for real this time.
+[00:54:59] Meg Tovey: So I'm like.
+[00:54:59] Meg Tovey: Yeah.
+[00:55:00] Meg Tovey: I'll be a bit leaner then.
+[00:55:02] Kyle Musca: Yeah, yeah, fair.
+[00:55:05] Kyle Musca: Yeah, I have the same problem.
+[00:55:07] Kyle Musca: I'm like, I need more photos, but I have any.
+[00:55:12] Kyle Musca: Okay, fantastic.
+[00:55:13] Kyle Musca: Yeah, so, I mean, if you want to bring it forward, I'd encourage it, but, like, at the end of the day, it's not the end of the world.
+[00:55:20] Kyle Musca: You'll probably have to get him around to do – maybe you can even ask him to split it, because, like, if we do some goal-setting ones, actual ads, you will need him anyway, so that maybe you film, like, three or four sort of organic-style ones, but around the goal-setting one specifically, and then maybe before you head off to Japan, you do another session or something like that.
+[00:55:39] Kyle Musca: Up to you, how you go about it.
+[00:55:40] Meg Tovey: Yeah, I might do that, actually, because it was – we were both so over it, because we filmed 20.
+[00:55:44] Kyle Musca: Yeah, I filmed three, and I'm like, I'm sick of this.
+[00:55:47] Meg Tovey: Yeah, I think he was getting fed up, too, so, yeah, I'll ask him to split it.
+[00:55:51] Kyle Musca: Yeah, and I find the more sort of consistently you do them, like, the more frequently you do them, like, the – I guess the better you get, because it's more fresh in your mind, certainly.
+[00:56:00] Kyle Musca: So if you want to say things differently.
+[00:56:02] Meg Tovey: Yeah.
+[00:56:04] Kyle Musca: Perfect.
+[00:56:04] Kyle Musca: All right.
+[00:56:05] Kyle Musca: Well, I'll get to work on all that stuff.
+[00:56:08] Kyle Musca: And yeah, I'll get it back to you ASAP.
+[00:56:11] Meg Tovey: Cool.
+[00:56:11] Meg Tovey: I'm going to put this script in the Google Drive with those ad videos.
+[00:56:15] Meg Tovey: Or do you want me to send it on WhatsApp?
+[00:56:18] Kyle Musca: If you could.
+[00:56:21] Kyle Musca: It's a Google Doc.
+[00:56:22] Kyle Musca: Can you just send me the link on WhatsApp?
+[00:56:25] Meg Tovey: Yeah.
+[00:56:26] Kyle Musca: All right.
+[00:56:27] Kyle Musca: Awesome.
+[00:56:28] Kyle Musca: Cool.
+[00:56:29] Kyle Musca: All right.
+[00:56:29] Kyle Musca: Well, I'll go film that Loom video for you now.
+[00:56:32] Meg Tovey: Thank you so much.
+[00:56:33] Kyle Musca: I'll talk to you soon.
+[00:56:34] Kyle Musca: All good.
+[00:56:35] Kyle Musca: See you.
+[00:56:35] Kyle Musca: Bye.

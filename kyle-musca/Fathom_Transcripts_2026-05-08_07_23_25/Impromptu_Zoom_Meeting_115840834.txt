@@ -1,0 +1,780 @@
+Meeting: Impromptu Zoom Meeting
+Date: 2026-01-21T06:53:31Z
+Scheduled: 2026-01-21T06:00:38Z - 2026-01-21T06:15:38Z
+Recording: 2026-01-21T06:01:17Z - 2026-01-21T06:53:23Z
+Language: en
+URL: https://fathom.video/calls/539914539
+Share Link: https://fathom.video/share/w-Q6hd7ALnsj6qzYJ8FggwowutmvynS5
+Recording ID: 115840834
+
+Participants: Kyle Musca (kyle@empcoaching.com.au)
+Recorded by: Kyle Musca (kyle@empcoaching.com.au)
+--- TRANSCRIPT ---
+
+[00:00:00] Kyle Musca: This meeting is being recorded.
+[00:00:20] Callum Hinze: Oh, good, how are you?
+[00:00:22] Kyle Musca: Good, good.
+[00:00:23] Kyle Musca: How's your day being on?
+[00:00:25] Callum Hinze: Good so far.
+[00:00:26] Callum Hinze: Good.
+[00:00:27] Callum Hinze: What are you?
+[00:00:28] Callum Hinze: You're only a years to a Thailand, eh?
+[00:00:30] Kyle Musca: Yeah, yeah, so it's 1pm here at the moment.
+[00:00:34] Callum Hinze: Nah, okay, it's not too far off.
+[00:00:36] Kyle Musca: Nah, works out pretty well, to be honest.
+[00:00:39] Kyle Musca: Have you been to Thailand?
+[00:00:40] Kyle Musca: Sorry?
+[00:00:41] Callum Hinze: No, not Thailand, nah.
+[00:00:42] Callum Hinze: I wouldn't be keen to.
+[00:00:44] Kyle Musca: Yeah, yeah, I definitely recommend it.
+[00:00:47] Kyle Musca: It's pretty good over here, I'm not going to lie.
+[00:00:49] Kyle Musca: Have you caught up with any other Aussies over there?
+[00:00:51] Callum Hinze: There's a bunch of Australian guys I know they're there at the moment.
+[00:00:55] Kyle Musca: I haven't.
+[00:00:56] Kyle Musca: Who's...
+[00:00:56] Kyle Musca: I know...
+[00:00:57] Kyle Musca: No, I'm not.
+[00:00:58] Kyle Musca: But now...
+[00:00:59] Kyle Musca: Thank you.
+[00:00:59] Kyle Musca: What's his name?
+[00:01:01] Kyle Musca: Oh.
+[00:01:02] Kyle Musca: I forgot his name, but he's like George's mate.
+[00:01:07] Callum Hinze: Yeah, I don't know.
+[00:01:08] Callum Hinze: I've got a few mates, Jaden.
+[00:01:10] Callum Hinze: I don't know if you know Jaden Velt or Geordie.
+[00:01:12] Callum Hinze: Big Geordie's over there.
+[00:01:15] Callum Hinze: Aaron Polites is over there.
+[00:01:16] Callum Hinze: I don't know if you know them, but I think they're all over at the moment.
+[00:01:19] Kyle Musca: Oh, yeah.
+[00:01:19] Kyle Musca: I think I know Aaron.
+[00:01:21] Callum Hinze: He's kind of the American guy, isn't he?
+[00:01:22] Callum Hinze: He's Australian, but he's a big, little, short bodybuilder.
+[00:01:26] Kyle Musca: Oh, yeah, yeah, no, Aaron.
+[00:01:28] Kyle Musca: Yeah, yeah, no.
+[00:01:28] Kyle Musca: Yeah, yeah, I saw him over there.
+[00:01:30] Callum Hinze: He put it in his story, actually.
+[00:01:32] Callum Hinze: He's in...
+[00:01:32] Callum Hinze: Oh, true.
+[00:01:33] Callum Hinze: Yeah.
+[00:01:34] Callum Hinze: I'll need to come for a visit one day.
+[00:01:37] Kyle Musca: Yeah.
+[00:01:37] Kyle Musca: Have you been, you've been over to Bali, yeah?
+[00:01:40] Callum Hinze: Bali, I've done, yeah.
+[00:01:41] Callum Hinze: Thailand seems to be more put together, though.
+[00:01:43] Kyle Musca: Yeah, it's just, it's like Bali, but it's like much cleaner and cheaper because it's not so westernized.
+[00:01:50] Kyle Musca: Yeah, you, like here, you can go get a, like a full hour long massage for like 15, 20 bucks and then like...
+[00:02:00] Kyle Musca: The real premium options, like premium ones with like thousands of five-star reviews are like 30 bucks.
+[00:02:06] Callum Hinze: Yeah, right.
+[00:02:07] Callum Hinze: I need to come to Sussan.
+[00:02:09] Kyle Musca: Yeah, most of the places have like really good meal prep company deliveries as well.
+[00:02:13] Kyle Musca: I'm in Chiang Mai at the moment, so it's not, there's not that many, but like in Bangkok, there was heaves.
+[00:02:19] Callum Hinze: Yeah, right.
+[00:02:20] Callum Hinze: I like the sounds of it.
+[00:02:24] Kyle Musca: Beautiful, man.
+[00:02:25] Kyle Musca: Well, we will dive into things.
+[00:02:30] Kyle Musca: A few things I want to cover in this call, but is there anything else that you want to touch base on at all?
+[00:02:36] Callum Hinze: I don't think so.
+[00:02:37] Callum Hinze: I was going to ask for some help with that CEO dashboard thing, but I'll wait until we get to it.
+[00:02:42] Kyle Musca: Yeah, yeah.
+[00:02:43] Kyle Musca: We'll go through that.
+[00:02:46] Kyle Musca: This, in the session, just, it's really, really good to just sort of break down the entire funnel and just like clearly have a look at it from top to bottom of like where there's sort of fallout happening.
+[00:02:57] Kyle Musca: And because, you know, if you're getting.
+[00:02:59] Kyle Musca: Yeah.
+[00:03:00] Kyle Musca: You know, a ton of leads going through, but they're just not converting.
+[00:03:02] Kyle Musca: Something along that chain is just broken and we need to fix it.
+[00:03:07] Kyle Musca: From sort of surface level of what I'm looking at with everything with yours, I don't think there's really much fallout, but it's always better to be safe than sorry.
+[00:03:16] Kyle Musca: Cool.
+[00:03:16] Kyle Musca: So nine calls booked in this week, which is good.
+[00:03:20] Kyle Musca: Those are good numbers.
+[00:03:22] Kyle Musca: Do you still have more to take or have you taken all nine?
+[00:03:25] Callum Hinze: Yeah, I've got, I think, two or so more booked so far.
+[00:03:30] Callum Hinze: Okay.
+[00:03:31] Callum Hinze: For the rest of the week.
+[00:03:32] Callum Hinze: When I put in my numbers for calls for the week on that jot form thing, I normally put it like how many between Wednesday to Wednesday when we chat.
+[00:03:40] Kyle Musca: Yeah, perfect.
+[00:03:41] Callum Hinze: So like four of those were end of last week.
+[00:03:43] Callum Hinze: And then I think four or five have been this week, but the average is out.
+[00:03:48] Kyle Musca: Okay.
+[00:03:48] Kyle Musca: Yeah, that's the best way to go, I would say.
+[00:03:50] Kyle Musca: With a good close rate as well.
+[00:03:52] Kyle Musca: So four out of six is closed, which is good.
+[00:03:54] Kyle Musca: It means there's good quality leads getting on the phone.
+[00:03:57] Kyle Musca: question and what?
+[00:03:57] Kyle Musca: Yeah, there's Exactly.
+[00:03:59] Kyle Musca: Thank you.
+[00:04:00] Kyle Musca: And then, sorry, did you say you have more to take this week?
+[00:04:04] Callum Hinze: Yeah, I think two so far, I think.
+[00:04:08] Kyle Musca: So as long as you get one of those across the line, then you've hit the goal there for five a week?
+[00:04:14] Callum Hinze: Yep.
+[00:04:16] Kyle Musca: How?
+[00:04:19] Kyle Musca: Yeah, okay, beautiful.
+[00:04:21] Kyle Musca: Did you get a chance to look at the scripts and everything, the graphics and all that?
+[00:04:25] Callum Hinze: Yeah, I haven't put those together yet.
+[00:04:26] Callum Hinze: I do need to do that, but I've got them here.
+[00:04:29] Kyle Musca: Yeah, yeah, beautiful.
+[00:04:31] Kyle Musca: So we'll throw them together.
+[00:04:33] Kyle Musca: I'm playing around pretty heavily in the back end with your ads, just sort of like scaling and turning off ones that are not performing well.
+[00:04:40] Kyle Musca: We've got heaps of different variety there to play with, which is great.
+[00:04:44] Kyle Musca: They're looking like they're starting to come good, and there's definitely some winners starting to emerge.
+[00:04:49] Kyle Musca: I also think that it's been like right on the line of like whether or not I want to create a new campaign and just completely refresh the whole pool of data.
+[00:04:59] Kyle Musca: But I think.
+[00:05:00] Kyle Musca: I think what I'll do is I'll wait for you to film all these new ads and get all these new graphics put together, and then I'll just start it with them so it can have just a nice, fresh pull to go off.
+[00:05:10] Callum Hinze: Yeah, perfect.
+[00:05:13] Callum Hinze: Yeah, that's cool.
+[00:05:14] Callum Hinze: I think the last few days, it seems like there's been some good leads and stuff coming through.
+[00:05:19] Kyle Musca: Yeah, I've been refining it pretty hard.
+[00:05:21] Kyle Musca: Some of them are sitting at $35 cost per lead.
+[00:05:26] Kyle Musca: If you can sit within the $30s cost per lead, you've got a very winning ad there.
+[00:05:30] Callum Hinze: You can make a lot of money off that.
+[00:05:32] Callum Hinze: Yeah, cool.
+[00:05:34] Kyle Musca: Cool.
+[00:05:35] Kyle Musca: So a couple of things I wanted to do in this.
+[00:05:38] Callum Hinze: Have you made much progress with any of the lead mag stuff?
+[00:05:43] Callum Hinze: Yeah, I've actually got them.
+[00:05:44] Callum Hinze: I just need to put them in a folder for you, don't I?
+[00:05:45] Callum Hinze: I do have a few of those, just old videos that I've edited and added the CTA to.
+[00:05:52] Callum Hinze: The three lead magnets I've got them linked to is the ARM program one, the blueprint one, which is the main one, and then the macro track.
+[00:06:00] Callum Hinze: So I've got the CTA added to the video.
+[00:06:02] Callum Hinze: I got to put it in a folder for you.
+[00:06:05] Kyle Musca: Yeah, perfect.
+[00:06:06] Kyle Musca: Okay, perfect.
+[00:06:06] Kyle Musca: Awesome.
+[00:06:07] Kyle Musca: Yeah, shoot that through when you can.
+[00:06:11] Kyle Musca: And then with that as well, when you send that through, just send me through like the links and the URLs or whatever that people can use to actually access those things.
+[00:06:22] Callum Hinze: Oh, like just like a link to like a drive folder, including the e-book?
+[00:06:28] Kyle Musca: Yeah, like if it's just an e-book, like easiest, like what I do there, for example, is just, yeah, chuck it in a Google Drive and then just send me the link so people can access it.
+[00:06:37] Callum Hinze: Okay, yep.
+[00:06:40] Callum Hinze: I was going to run some of them.
+[00:06:42] Callum Hinze: I haven't done this yet, but some of them like you showed me last week where it's like comment arms for my full arm day routine.
+[00:06:50] Callum Hinze: I think it was a recipe one.
+[00:06:51] Callum Hinze: Comment something for the full recipe and instead of sending like an actual document, just sending like the many chat message of the ingredients.
+[00:06:59] Callum Hinze: Yeah, exactly.
+[00:07:00] Callum Hinze: That's still worthwhile doing as well.
+[00:07:02] Kyle Musca: Yeah.
+[00:07:03] Kyle Musca: I would like for a recipe type thing, I would.
+[00:07:11] Kyle Musca: The comment, the only thing is there, like I wouldn't, it depends on what it is.
+[00:07:17] Kyle Musca: So for a recipe thing, like it's not, you know, crazy, crazy value.
+[00:07:20] Kyle Musca: So yeah, I would just do comment to get more engagement on it and then you can sort of send it through.
+[00:07:24] Kyle Musca: If it's something like that we're going to repurpose as an ad, I would probably kind of almost sacrifice the organic side of things and say DM me.
+[00:07:34] Kyle Musca: Well, you could always just make two versions.
+[00:07:36] Kyle Musca: It's completely up to you.
+[00:07:37] Callum Hinze: All these ones, these videos all are just like DM.
+[00:07:41] Callum Hinze: Yeah.
+[00:07:43] Callum Hinze: CTA.
+[00:07:44] Kyle Musca: Yeah.
+[00:07:45] Kyle Musca: Just because the comment automations are a little bit more annoying, like in terms of getting the conversation started.
+[00:07:51] Kyle Musca: Whereas like if they just DM you directly, it makes it easier and more streamlined.
+[00:07:56] Kyle Musca: And then, you know, if we're going to run it as an ad, the send message button will be right there.
+[00:08:00] Kyle Musca: Whereas obviously if you post organically, if you did a DM, I mean, hopefully they commented anyway, but like, you know, worst case, they would have to just go, you know, onto your profile and actually send you a message.
+[00:08:10] Callum Hinze: Yeah.
+[00:08:11] Callum Hinze: With actually sending them the resource, is it still best just to like send them a drive link to it?
+[00:08:19] Callum Hinze: Or can you just send the actual like PDF through to them?
+[00:08:24] Kyle Musca: I would just send the link.
+[00:08:25] Kyle Musca: would be easier.
+[00:08:27] Kyle Musca: Like Google Drive link, yeah.
+[00:08:28] Callum Hinze: Yeah.
+[00:08:30] Kyle Musca: Ideally, it depends how, if they work really, really well and you're getting heaps of leads through it, we may even look at setting up like a simple landing page or something just to collect their information.
+[00:08:46] Kyle Musca: We'll have to, yeah, we'll start it with real simple and then we'll just add on as time goes.
+[00:08:51] Kyle Musca: Our main objective here is to get calls booked.
+[00:08:54] Kyle Musca: So let's just focus on that there and we'll build that from there.
+[00:08:58] Callum Hinze: Definitely.
+[00:08:59] Kyle Musca: you.
+[00:08:59] Kyle Musca: Thank you.
+[00:09:00] Kyle Musca: Cool.
+[00:09:01] Kyle Musca: So I'll watch the videos and I'll look at the lead magnet itself, and then I'll build the ManyChat flow based around what I think there, because ideally we do want to qualify them a bit.
+[00:09:20] Kyle Musca: Yeah.
+[00:09:21] Kyle Musca: All right.
+[00:09:22] Kyle Musca: Cool.
+[00:09:22] Kyle Musca: I'll play around with that.
+[00:09:23] Kyle Musca: Cool.
+[00:09:24] Kyle Musca: So we're going to the CEO dashboard.
+[00:09:29] Kyle Musca: Do you want to send me the link of your CEO dashboard?
+[00:09:33] Kyle Musca: Because I'll just save it on file, because we'll start pulling that up on a weekly basis if your VA can fill it out.
+[00:09:40] Kyle Musca: And just quickly, it shouldn't take as long, but- I've just got it done just for the last, just for January of this year so far.
+[00:09:45] Kyle Musca: Is that all right?
+[00:09:46] Kyle Musca: Yeah, that's absolutely right.
+[00:09:48] Callum Hinze: Yep.
+[00:09:50] Callum Hinze: Share.
+[00:09:53] Callum Hinze: There was one thing I didn't know how to do, but I'll guess we'll run through it once I've sent it through.
+[00:10:00] Kyle Musca: Yeah.
+[00:10:03] Kyle Musca: Are you going to fill it out yourself?
+[00:10:06] Callum Hinze: I wanted to get a hang of filling it out myself first before getting to VA, just so I'm not relying on them to understand it more than I do.
+[00:10:14] Callum Hinze: Yeah, yeah, definitely.
+[00:10:15] Callum Hinze: I definitely don't want to do it myself every week, but I was like, I want to wrap my head around it first before someone else does.
+[00:10:21] Kyle Musca: Yeah, so I'll show you how to set up and grab everything there.
+[00:10:24] Kyle Musca: I'll just add it to your phone.
+[00:10:41] Kyle Musca: Okay, so, coming here.
+[00:10:44] Kyle Musca: Cool.
+[00:10:47] Kyle Musca: Yep, so that's the most recent week for that.
+[00:10:49] Kyle Musca: Cool.
+[00:10:51] Kyle Musca: So, let's break all this down and get rid of everything I don't need.
+[00:10:56] Kyle Musca: Great.
+[00:10:57] Kyle Musca: 836.
+[00:10:58] Kyle Musca: Interesting.
+[00:10:59] Kyle Musca: 186.
+[00:11:12] Kyle Musca: So you only really need two things, two actual sites, meta and minichat.
+[00:11:22] Callum Hinze: Yeah, I didn't know where to find the total leads on minichat for like just that weak bracket.
+[00:11:27] Kyle Musca: Yeah, so, we'll just start our way from the top and work our way down.
+[00:11:34] Kyle Musca: Now, to do with these top two ones, so leads in ads manager and total ad spend.
+[00:11:40] Kyle Musca: So obviously, just come to the time frame here.
+[00:11:42] Kyle Musca: So we'll go from the 12th to the 19th, the most recent one.
+[00:11:47] Kyle Musca: Now, really important to not go off the cost or the result, right?
+[00:11:52] Kyle Musca: Because that's like, so for example here, these are very top level.
+[00:11:58] Kyle Musca: So So
+[00:12:00] Kyle Musca: But for example, you could do, you know, cost per result, which is meta's default one would be under $11, which looks  fantastic.
+[00:12:08] Kyle Musca: But then if we actually have a look at the cost per lead on that, you can see that's considerably higher, right?
+[00:12:16] Kyle Musca: So it can be very skewed.
+[00:12:18] Kyle Musca: This is just anyone and everybody that clicks on the ad.
+[00:12:21] Kyle Musca: They're not qualified at all.
+[00:12:22] Kyle Musca: These are people that are actually qualified and starting conversations properly.
+[00:12:27] Kyle Musca: That's what we want to go.
+[00:12:28] Kyle Musca: So to do that, you come into this column and yours, you won't have this one because I've created this one.
+[00:12:34] Kyle Musca: So I would recommend saving it once you do this.
+[00:12:37] Kyle Musca: But you'd come into custom and you'd press the little pencil thing there.
+[00:12:40] Kyle Musca: I'm just going to do it on this one.
+[00:12:41] Kyle Musca: And then you just type in leads.
+[00:12:45] Kyle Musca: Lead.
+[00:12:46] Kyle Musca: And then you'll see lead will come up and you'll see total and cost.
+[00:12:50] Kyle Musca: And you just click those two boxes.
+[00:12:53] Kyle Musca: And then I would, yeah, save that as your preset for that.
+[00:12:57] Kyle Musca: And then that will give you the total leads.
+[00:12:59] Kyle Musca: it.
+[00:13:00] Kyle Musca: So for that period, you had 12th of the 19th?
+[00:13:09] Callum Hinze: Well, I think this is the last week, yeah.
+[00:13:12] Kyle Musca: Yeah, from the 12th to the 19th, you had 26 leads total in ManyChat.
+[00:13:17] Kyle Musca: Sorry, Meta.
+[00:13:19] Kyle Musca: So.
+[00:13:21] Callum Hinze: Where did I get 56 from, man?
+[00:13:22] Callum Hinze: Well, I must have been looking at something wrong.
+[00:13:26] Callum Hinze: Is this editable?
+[00:13:27] Callum Hinze: Oh, that's this week.
+[00:13:28] Callum Hinze: That's, um, we took that wrong week.
+[00:13:31] Kyle Musca: Can I?
+[00:13:32] Kyle Musca: Yeah, I just requested to access that.
+[00:13:34] Callum Hinze: Can you give me edit access, please?
+[00:13:41] Callum Hinze: Yeah.
+[00:13:44] Kyle Musca: Yep.
+[00:13:46] Kyle Musca: That worked.
+[00:13:47] Kyle Musca: Oh, no.
+[00:13:56] Callum Hinze: That worked.
+[00:13:58] Kyle Musca: No, No, No, I can't.
+[00:14:00] Kyle Musca: Just to, yeah.
+[00:14:18] Callum Hinze: Okay, now I should learn.
+[00:14:39] Kyle Musca: Yes, so, 26, cool.
+[00:14:43] Kyle Musca: Now, now we need to find the leads in ManyChat.
+[00:14:49] Kyle Musca: So you come into ManyChat, obviously.
+[00:14:52] Kyle Musca: Go Contacts.
+[00:14:54] Kyle Musca: And then you just go Filter, Condition, Tag, Qualify.
+[00:15:02] Kyle Musca: So we've leads, so be careful not to get caught up in these different ones, go system field, go subscribed, and then see how it's after, after the, we're going from the 19th, so after the 12th, and then system field subscribed before the 19th, then you just click this little box up here, 42.
+[00:15:30] Kyle Musca: So, that is concerning, because that is quite different to the many chat leads in meta, realistically, these two should be very similar, they should only be off by like a couple at max.
+[00:15:50] Kyle Musca: So, that's the 12th to the 19th, after 12th to the 19th.
+[00:15:56] Callum Hinze: Let's do different weeks.
+[00:16:00] Callum Hinze: Is that from last week?
+[00:16:02] Kyle Musca: 12th of June, the 19th.
+[00:16:04] Kyle Musca: Oh, that's December.
+[00:16:06] Kyle Musca: Okay.
+[00:16:07] Kyle Musca: I was concerned.
+[00:16:11] Callum Hinze: So this is for last week's?
+[00:16:14] Kyle Musca: Yeah, so 42 is the round.
+[00:16:18] Kyle Musca: Yeah, so, yeah, 12th to the 19th of January.
+[00:16:22] Kyle Musca: So 42.
+[00:16:23] Kyle Musca: Yeah, perfect.
+[00:16:24] Kyle Musca: So that match is perfectly.
+[00:16:25] Callum Hinze: Well, should that be in week two?
+[00:16:31] Callum Hinze: So this is from the 12th to the 19th, is that period.
+[00:16:35] Callum Hinze: Oh, okay.
+[00:16:35] Callum Hinze: So we're tracking the week prior.
+[00:16:37] Callum Hinze: I've tracked the wrong weeks.
+[00:16:39] Kyle Musca: Yeah, so it's from this week to this week.
+[00:16:42] Callum Hinze: Fills out that.
+[00:16:42] Callum Hinze: Oh, okay.
+[00:16:43] Kyle Musca: Yeah, I've done it a week earlier.
+[00:16:44] Kyle Musca: That makes sense.
+[00:16:46] Kyle Musca: So now you'll see the cost per conversation.
+[00:16:49] Kyle Musca: It's because the ad spend wouldn't be right.
+[00:16:51] Kyle Musca: right, so in that week, we...
+[00:16:59] Kyle Musca: Okay.
+[00:17:00] Kyle Musca: going on here?
+[00:17:02] Kyle Musca: So we had, oh, got a bit of overlap from the news challenge stuff.
+[00:17:08] Kyle Musca: Still.
+[00:17:09] Kyle Musca: But that's fine.
+[00:17:11] Kyle Musca: So we'll go $3,000.
+[00:17:21] Kyle Musca: Yep, okay.
+[00:17:22] Kyle Musca: Yeah.
+[00:17:26] Kyle Musca: So cost per lead was 77 there.
+[00:17:29] Kyle Musca: That is definitely overlap there.
+[00:17:31] Kyle Musca: That usually is towards the low twos.
+[00:17:36] Kyle Musca: Total ad bookings from that, we've got nine.
+[00:17:39] Kyle Musca: So your booking to lead ratio is good.
+[00:17:43] Kyle Musca: Ideally, we want to sit at, sorry, industry average is 10%.
+[00:17:48] Kyle Musca: I like to sit at at least 20%.
+[00:17:54] Kyle Musca: Yeah.
+[00:17:55] Kyle Musca: If you can get that high, then fantastic.
+[00:17:57] Kyle Musca: Cost per book, cool.
+[00:18:00] Kyle Musca: How many calls have you actually taken in the last week?
+[00:18:03] Callum Hinze: So are we talking from the 12th to the 19th?
+[00:18:07] Kyle Musca: Yeah.
+[00:18:08] Callum Hinze: That was nine.
+[00:18:12] Kyle Musca: No.
+[00:18:14] Callum Hinze: Sorry, I'm confusing myself.
+[00:18:15] Callum Hinze: I've got the weeks mixed up.
+[00:18:19] Callum Hinze: Yeah.
+[00:18:19] Callum Hinze: 12th to the 19th was actually, just via ads we're talking, hey, not organic.
+[00:18:25] Callum Hinze: Yeah.
+[00:18:27] Callum Hinze: Calls booked or calls taken?
+[00:18:28] Kyle Musca: So this one is calls booked.
+[00:18:31] Callum Hinze: Okay.
+[00:18:32] Callum Hinze: Calls booked with one, two, three, five, five, over last week.
+[00:18:41] Kyle Musca: So this is from the 12th to the 19th?
+[00:18:44] Callum Hinze: Yeah.
+[00:18:44] Callum Hinze: Yeah, it's five.
+[00:18:48] Kyle Musca: Is that?
+[00:18:51] Kyle Musca: So this one was from the 14th.
+[00:18:55] Kyle Musca: And that was 11.
+[00:18:57] Kyle Musca: And then we've had nine this week.
+[00:18:59] Callum Hinze: Yeah.
+[00:19:00] Callum Hinze: Yeah, because when I'm filling this job format, I'm filling it out.
+[00:19:03] Callum Hinze: I'm doing numbers from Wednesday to Wednesday between calls.
+[00:19:06] Kyle Musca: Right.
+[00:19:07] Callum Hinze: It'll be an awkward overlap.
+[00:19:11] Callum Hinze: Whereas, obviously, the many chat ones are just Monday to Monday.
+[00:19:14] Kyle Musca: Right.
+[00:19:15] Kyle Musca: Okay.
+[00:19:18] Kyle Musca: Okay.
+[00:19:19] Kyle Musca: So that will skew the data a little bit there.
+[00:19:23] Kyle Musca: I wonder...
+[00:19:30] Callum Hinze: But if we're talking calls over Monday to Monday, last week, was five.
+[00:19:37] Kyle Musca: And that's booked or taken?
+[00:19:39] Callum Hinze: That is booked.
+[00:19:42] Kyle Musca: We know.
+[00:19:43] Kyle Musca: Yeah.
+[00:19:50] Callum Hinze: Oh, no.
+[00:19:51] Callum Hinze: Sorry.
+[00:19:51] Callum Hinze: Six.
+[00:19:51] Callum Hinze: It was six.
+[00:19:52] Callum Hinze: Yeah.
+[00:19:53] Callum Hinze: Six.
+[00:19:57] Kyle Musca: Okay.
+[00:19:59] Kyle Musca: So, I think...
+[00:20:00] Kyle Musca: think this would, yeah, I don't think this would be the best insight into, like, in terms of this, because it's like an overlap from the challenge.
+[00:20:09] Callum Hinze: Yeah, I'll make sure I keep going Monday to Monday.
+[00:20:12] Kyle Musca: I've just got my dates confused up.
+[00:20:14] Kyle Musca: So, and then calls showing up.
+[00:20:17] Callum Hinze: How many of those showed up?
+[00:20:19] Callum Hinze: Five showed up.
+[00:20:21] Kyle Musca: Five, so good show up, right?
+[00:20:23] Kyle Musca: And then you closed how many?
+[00:20:26] Callum Hinze: Last week was...
+[00:20:30] Callum Hinze: 12th and 19th was 1, 2, 3.
+[00:20:36] Callum Hinze: 3.
+[00:20:38] Kyle Musca: Okay.
+[00:20:38] Kyle Musca: So, yeah, those numbers are definitely lower than the other numbers we're experiencing now.
+[00:20:45] Kyle Musca: But, so, realistically, this tells us that most of the funnel is dialed in well.
+[00:20:53] Kyle Musca: The only thing is that could be better is, one, refining the ads.
+[00:20:58] Kyle Musca: Um.
+[00:21:00] Kyle Musca: So in terms of me like scaling the ads back and getting those new creators, those new angles up and refreshing the pool there.
+[00:21:07] Kyle Musca: And also the setting quality of the conversation could be better because everything else past that is good.
+[00:21:17] Kyle Musca: The show up rate is good.
+[00:21:18] Kyle Musca: So it means that the leads that are coming through are serious and they attend with a really high close rate.
+[00:21:25] Kyle Musca: So those numbers are really, really healthy.
+[00:21:27] Kyle Musca: So the messaging itself is bringing in the right type of leads.
+[00:21:34] Kyle Musca: But again, these numbers are very skewed because if we went off, let's just say for the sake of the argument, we go off what we've got here.
+[00:21:43] Kyle Musca: We had nine calls booked.
+[00:21:46] Kyle Musca: And then you've closed, or you took six of those calls.
+[00:21:52] Kyle Musca: And then you closed four of those calls.
+[00:21:56] Kyle Musca: Yeah, so still pretty healthy numbers across the board there.
+[00:21:59] Kyle Musca: Mm-hmm.
+[00:22:00] Kyle Musca: So total ed bookings, what was that?
+[00:22:02] Kyle Musca: What was that?
+[00:22:03] Callum Hinze: Five?
+[00:22:03] Callum Hinze: Six.
+[00:22:05] Callum Hinze: Six booked, five taken.
+[00:22:06] Kyle Musca: Yeah.
+[00:22:07] Kyle Musca: Five showed up and then three closed.
+[00:22:09] Kyle Musca: Okay.
+[00:22:09] Kyle Musca: We'll keep it at that.
+[00:22:10] Kyle Musca: But that's basically where you grab all that information.
+[00:22:14] Kyle Musca: And then, yeah.
+[00:22:15] Kyle Musca: And then.
+[00:22:17] Callum Hinze: Okay.
+[00:22:18] Callum Hinze: So the one I've got next week on Monday will be of the week prior, obviously.
+[00:22:25] Kyle Musca: Yeah.
+[00:22:26] Kyle Musca: Yeah.
+[00:22:26] Kyle Musca: Yeah.
+[00:22:27] Kyle Musca: Okay.
+[00:22:27] Kyle Musca: And then on that, do you know how much cash you actually collected from those three sales?
+[00:22:33] Callum Hinze: Last week's ones were all just installments.
+[00:22:35] Callum Hinze: So they're all like just future revenue, which I chucked in the one below.
+[00:22:37] Callum Hinze: So 2,000 of just a few recurring.
+[00:22:43] Callum Hinze: Or 4,000, sorry.
+[00:22:46] Callum Hinze: Did they all sign up on the $2,000 package?
+[00:22:48] Callum Hinze: Yeah.
+[00:22:49] Callum Hinze: Yeah.
+[00:22:50] Kyle Musca: So would that be 6,000?
+[00:22:53] Callum Hinze: Oh, actually, no.
+[00:22:54] Callum Hinze: Sorry.
+[00:22:54] Callum Hinze: Two were on the $1,500 package.
+[00:22:58] Callum Hinze: One was on the $2,000.
+[00:22:59] Kyle Musca: Yeah.
+[00:23:00] Callum Hinze: So that's fine.
+[00:23:02] Callum Hinze: I can't do math, can I?
+[00:23:04] Kyle Musca: Yeah, so 5,000 total, future revenue.
+[00:23:12] Kyle Musca: Did you take any payment on the call?
+[00:23:15] Callum Hinze: Nah, I would get them just to pay their first installment, whether I'd them to do like a payment for the first four weeks or first full night or whatever.
+[00:23:23] Callum Hinze: But I've just averaged it to the total.
+[00:23:26] Kyle Musca: I don't think that would change much anyway, but we'll just say 1,500, just say, let's say they were paid $500 or something for the first one.
+[00:23:33] Callum Hinze: I think at this time of year around Christmas, I want to do like some installment instead of paying a lump sum, which I'm all right with.
+[00:23:40] Kyle Musca: Yeah, I've noticed across a lot of different accounts, including my own, that I think we're in like a little bit of a gray zone here, probably towards the end of January, because, you all the people that were serious, they signed up in something in December.
+[00:23:51] Kyle Musca: And then, you know, the stragglers signed up in these first two weeks of January, and then we're kind of coming into a period where everyone's kind of like...
+[00:24:00] Kyle Musca: Anyone that was serious about doing something for a new year's resolution type thing has kind of already committed to something.
+[00:24:05] Kyle Musca: So it's like we're just kind of picking up again in a high area.
+[00:24:09] Kyle Musca: Realistically, I'd probably expect February and stuff to pick back up again.
+[00:24:13] Callum Hinze: Which I don't mind because having more online regular installments, like this week was, there was no like upfront payments this week.
+[00:24:22] Callum Hinze: And it was still like a 9K revenue, which means that's just like recurring now, really.
+[00:24:27] Kyle Musca: Yeah.
+[00:24:27] Kyle Musca: If they can, if they're all making payments and stuff, then fantastic.
+[00:24:33] Kyle Musca: Like that's ideally what you want.
+[00:24:37] Kyle Musca: Okay, perfect.
+[00:24:38] Kyle Musca: So yeah, the biggest things are, that should come down quite a lot this week.
+[00:24:42] Kyle Musca: That's much higher than it usually is.
+[00:24:46] Kyle Musca: And then if we can increase this.
+[00:24:48] Kyle Musca: So the other thing I'd like to do here, and if you see this kind of low, really like good thing to do.
+[00:24:56] Kyle Musca: And sometimes it's really good to just do it anyway.
+[00:25:00] Kyle Musca: Is coming into here, doing the same thing.
+[00:25:04] Kyle Musca: You don't have to filter by time as much, but we've got leads, and then added condition, and then just give it some time so they subscribed before, let's say last Friday, just because you want the conversations to have, did that work, that didn't work at to have happened a little bit.
+[00:25:38] Callum Hinze: Yeah.
+[00:25:40] Kyle Musca: Cool.
+[00:25:41] Kyle Musca: And then just read through them.
+[00:25:46] Kyle Musca: So the reason we do this is just to make sure that the conversation is good, because, again, if we can get this figure higher, then, you know, you obviously make a lot more We always save mine for at least 20%.
+[00:25:58] Kyle Musca: Okay.
+[00:25:59] Kyle Musca: Yeah.
+[00:26:00] Kyle Musca: I would do a bare minimum of 20%.
+[00:26:03] Callum Hinze: Okay, yep.
+[00:26:06] Kyle Musca: So, cool.
+[00:26:08] Kyle Musca: Just thinking, oh my god, this is the worst thing I've ever looked, fastest I've ever been, lol.
+[00:26:14] Kyle Musca: Fattest I've ever been.
+[00:26:15] Kyle Musca: So, good.
+[00:26:16] Kyle Musca: Seeing some subtle reply like this with some meat in the conversation is good, right?
+[00:26:22] Kyle Musca: Usually means they're more engaged.
+[00:26:24] Kyle Musca: Hey, man, it can be tough when you feel like that, like you're not where you want to be.
+[00:26:29] Kyle Musca: The good news is you're taking action now and that's what counts.
+[00:26:33] Kyle Musca: Fitness, passport, getting a fan involved, that's a solid step forward.
+[00:26:36] Kyle Musca: What would you say this would be?
+[00:26:37] Kyle Musca: So, that's a good, to me, that's a good, nice, personalized reply.
+[00:26:40] Kyle Musca: And that's the biggest thing with the setting is you want to make sure that these responses are personalized.
+[00:26:44] Kyle Musca: You want to make sure that they're not just following the script.
+[00:26:48] Kyle Musca: Because if they sort of just don't reply dynamically and they just could go, you know, for example, you know, what's your goal?
+[00:26:55] Kyle Musca: And they're like, cool, that's definitely achievable with the right systems and stuff.
+[00:27:00] Kyle Musca: In you're just going to be like, this is clear scripted, you're an idiot.
+[00:27:07] Kyle Musca: So dynamic response leading to the next question.
+[00:27:10] Kyle Musca: What's been the biggest struggle with getting the gut going?
+[00:27:13] Kyle Musca: Is it staying consistent?
+[00:27:14] Kyle Musca: food inside of things or something else?
+[00:27:16] Kyle Musca: Yeah, the food at moment has been smashing the dessert.
+[00:27:20] Kyle Musca: Last year, so like I've always been improving.
+[00:27:22] Kyle Musca: I've had it by now.
+[00:27:23] Kyle Musca: People would log.
+[00:27:23] Kyle Musca: Can't cut the dessert.
+[00:27:24] Kyle Musca: just need to get some healthy.
+[00:27:26] Kyle Musca: Turners, do want to get crazy?
+[00:27:27] Kyle Musca: Sounds like you're already on the right track.
+[00:27:28] Kyle Musca: We're cutting out the desserts, swapping them for healthy options is a huge win.
+[00:27:31] Kyle Musca: I've got plenty of ideas for that.
+[00:27:33] Kyle Musca: Just get a better feel.
+[00:27:34] Kyle Musca: Where are you based and what do you do for work?
+[00:27:39] Kyle Musca: I haven't cut the mat yet, but have cut back a lot.
+[00:27:41] Kyle Musca: Need to buy some good snacks when I get hungry, bored.
+[00:27:44] Kyle Musca: Sydney, Northern Beaches, and Krummer.
+[00:27:45] Kyle Musca: work as an asset manager, so that's qualified.
+[00:27:49] Kyle Musca: That's a good paid job.
+[00:27:51] Kyle Musca: Chippy by trade, but off the tools 10 years now.
+[00:27:54] Kyle Musca: yep, cool.
+[00:27:56] Kyle Musca: Sounds like you've got to install it on saying what needs to be done.
+[00:27:59] Kyle Musca: That's huge.
+[00:27:59] Kyle Musca: In fact.
+[00:28:00] Kyle Musca: The rate of are already starting to make changes, great sign.
+[00:28:03] Kyle Musca: Make ideas that can help cover them without feeling deprived, I'll show you your way once we chat more about your goals.
+[00:28:10] Kyle Musca: Coach, help you, yeah, if we look at some coach a little further down the track.
+[00:28:24] Kyle Musca: Oh, so this was way back in December, to be fair.
+[00:28:27] Kyle Musca: Yeah, so she just followed up with him again.
+[00:28:29] Kyle Musca: Yeah.
+[00:28:30] Kyle Musca: But otherwise, that was a good conversation.
+[00:28:33] Kyle Musca: So he might come back.
+[00:28:34] Kyle Musca: We should have sent that today.
+[00:28:35] Callum Hinze: Yeah.
+[00:28:39] Kyle Musca: Support worker, they're pretty decent paying.
+[00:28:52] Kyle Musca: So this was a bit short, but I that was all right.
+[00:28:56] Kyle Musca: I think it was It's done.
+[00:28:59] Kyle Musca: You You
+[00:29:09] Kyle Musca: So this guy was very highly qualified.
+[00:29:13] Callum Hinze: What date was that?
+[00:29:14] Callum Hinze: Mid-December as well.
+[00:29:16] Kyle Musca: Was it?
+[00:29:17] Kyle Musca: Yeah.
+[00:29:19] Kyle Musca: So let's go, let's add that in there.
+[00:29:22] Kyle Musca: So it's just not keeping up old ones.
+[00:29:25] Callum Hinze: A lot of these recent ones here are old follow-ups.
+[00:29:28] Kyle Musca: Yeah, so I'll just say from the 1st of January.
+[00:29:32] Kyle Musca: Okay.
+[00:29:58] Kyle Musca: So go, go, let's go.
+[00:29:59] Kyle Musca: So
+[00:30:03] Kyle Musca: Oh, no, let's get it done.
+[00:30:24] Kyle Musca: Young there.
+[00:30:36] Kyle Musca: Now, it's kind of a little bit different, difficult to say, but a lot of these seem like Dero's.
+[00:30:49] Callum Hinze: There's some interesting ones that come through sometimes, eh?
+[00:30:55] Kyle Musca: 32.
+[00:30:57] Kyle Musca: The main things I look for is just, like, are they conversating properly?
+[00:31:06] Kyle Musca: Manufacturing specialist, Mr.
+[00:31:07] Kyle Musca: Deccan, Deccan, hands-on.
+[00:31:09] Kyle Musca: I mean, like, these guys seem qualified, like, in terms of job and everything.
+[00:31:13] Callum Hinze: There is a handful that disappear after a while, which is weird, but for no reason, but...
+[00:31:41] Kyle Musca: So that was Monday.
+[00:31:46] Callum Hinze: Who's that?
+[00:31:47] Callum Hinze: Oh, yeah, I had called him on Monday.
+[00:31:49] Callum Hinze: He signed up.
+[00:31:51] Kyle Musca: Yeah, cool.
+[00:31:52] Kyle Musca: So, yeah.
+[00:31:55] Kyle Musca: That's good.
+[00:31:56] Kyle Musca: They were going into the post-booking flow, which is good.
+[00:32:00] Kyle Musca: Um, you know how to show up, right?
+[00:32:03] Kyle Musca: So I assume they do that.
+[00:32:04] Kyle Musca: Problem, right?
+[00:32:06] Kyle Musca: Show up, probably with you.
+[00:32:07] Kyle Musca: Yeah.
+[00:32:08] Kyle Musca: There's a join link to make it easy.
+[00:32:09] Kyle Musca: Yep.
+[00:32:10] Kyle Musca: You're good.
+[00:32:12] Kyle Musca: Yep.
+[00:32:16] Kyle Musca: Awesome.
+[00:32:17] Kyle Musca: You had a call with this guy?
+[00:32:19] Callum Hinze: Yeah, he was, he didn't know what he was in for though.
+[00:32:23] Callum Hinze: Yeah, some people come on and they're like, oh yeah, I'm thinking about it.
+[00:32:27] Callum Hinze: And then you give them a price and they're just, they're just not interested.
+[00:32:43] Kyle Musca: So let's go, just click working full time, even though he  wasn't.
+[00:32:48] Kyle Musca: Um, also by the looks of it, you don't have the link added there.
+[00:32:51] Callum Hinze: So you might want to go at that in many chat.
+[00:32:53] Callum Hinze: Yeah, I that.
+[00:32:53] Callum Hinze: I don't understand why that's, which one did he, um, which trigger word did he go for?
+[00:32:58] Kyle Musca: Uh, Jack.
+[00:33:01] Callum Hinze: Oh, it wasn't a free resource.
+[00:33:03] Kyle Musca: What link was it meant to be?
+[00:33:05] Kyle Musca: He said nothing here, though.
+[00:33:08] Kyle Musca: Oh, okay.
+[00:33:10] Kyle Musca: So, oh, not working.
+[00:33:15] Callum Hinze: Oh.
+[00:33:18] Callum Hinze: So he's done it twice.
+[00:33:19] Kyle Musca: Yeah.
+[00:33:20] Kyle Musca: If you see someone like this, obviously that guy looks pretty  derrid, but if you see someone like this, you can see clicking the ad, like, twice isn't awful, but if, you know, you see a lot of it, I would just block them.
+[00:33:32] Kyle Musca: Yeah.
+[00:33:33] Kyle Musca: Because they're just wasting your ad spend.
+[00:33:35] Callum Hinze: Yeah.
+[00:33:40] Kyle Musca: Young guy.
+[00:33:47] Kyle Musca: Young guy.
+[00:33:49] Callum Hinze: There are a lot of young little fellas there that come through these days.
+[00:33:54] Callum Hinze: There are a lot coming through?
+[00:33:56] Callum Hinze: Yeah.
+[00:33:56] Callum Hinze: Yeah.
+[00:33:56] Callum Hinze: Yeah, they're like 16 to 18-year-olds.
+[00:33:59] Kyle Musca: Yeah.
+[00:34:00] Kyle Musca: Okay, so that's definitely important to know.
+[00:34:03] Kyle Musca: So what we'll do in that case is just call Fathom.
+[00:34:11] Kyle Musca: That is not what we wanted.
+[00:34:21] Kyle Musca: So, and just so I know how to use this wording, let's do another one I brought up.
+[00:34:33] Kyle Musca: So if you ever see something like that, like if you see a common issue, common problem, in terms of like leads coming through and they're , let me know because we'll just qualify to remove those.
+[00:34:44] Kyle Musca: Okay.
+[00:34:45] Kyle Musca: So what we'll do here is to get nice fresh data, we will duplicate this.
+[00:34:56] Kyle Musca: We'll do this.
+[00:34:57] Kyle Musca: this.
+[00:34:57] Kyle Musca: Thank
+[00:35:01] Kyle Musca: Oh, wait, wait, wait, this is not the right accounting, what we're doing now.
+[00:35:08] Kyle Musca: Trash.
+[00:35:23] Kyle Musca: So, yes, using this.
+[00:35:25] Kyle Musca: Trash, duplicate.
+[00:35:37] Kyle Musca: Trash.
+[00:35:42] Kyle Musca: Trash.
+[00:35:43] Kyle Musca: Trash.
+[00:35:44] Kyle Musca: So this will give us a chance to clean up everything anyway, but edit animation.
+[00:35:55] Kyle Musca: Trash.
+[00:35:56] Kyle Musca: So this
+[00:36:06] Kyle Musca: Just copy that screen.
+[00:36:43] Kyle Musca: Thank you.
+[00:37:04] Kyle Musca: I don't know, I'm just deleting this, I wonder if you can go see.
+[00:37:51] Kyle Musca: Cool, so this should
+[00:38:11] Kyle Musca: What I'll do here, actually, is just copy this.
+[00:38:28] Kyle Musca: I don't do coaching for anyone.
+[00:38:48] Kyle Musca: I don't know, just so that I don't  spam it again.
+[00:39:07] Kyle Musca: Oh, I just realized that's not.
+[00:39:23] Kyle Musca: Cool.
+[00:39:24] Kyle Musca: So that should tidy that up a little bit.
+[00:39:29] Kyle Musca: Um, then all we have to do is, uh, turn all these on, which is fun.
+[00:39:53] Kyle Musca: That's a very important addition to add before we get these new ads on.
+[00:39:58] Kyle Musca: you, humans.
+[00:39:59] Kyle Musca: Thank
+[00:40:09] Kyle Musca: Then.
+[00:40:52] Kyle Musca: It shouldn't have affected it massively.
+[00:40:57] Kyle Musca: Nah, it would have, because it would have, it was pretty good.
+[00:41:02] Kyle Musca: Let's have a look here.
+[00:41:04] Kyle Musca: Yeah, see, I mean, yeah, there's a lot of students, a lot of apprentices there.
+[00:41:10] Kyle Musca: And we're not working full-time, so, yeah, hopefully that clears that up.
+[00:41:14] Kyle Musca: And then I just want to quickly check.
+[00:41:38] Kyle Musca: How old are most of your clients?
+[00:41:40] Callum Hinze: they...
+[00:41:41] Callum Hinze: Between 20 and late 30s, most of them.
+[00:41:46] Callum Hinze: So probably average is around 30s.
+[00:41:50] Kyle Musca: Okay.
+[00:41:53] Kyle Musca: Do you get a lot of guys in their 20s or, like, what would you say?
+[00:41:56] Callum Hinze: I would say these days, majority are probably late 20s.
+[00:42:02] Callum Hinze: Late 20s, early 30s is probably where most of them fall.
+[00:42:07] Kyle Musca: They shouldn't.
+[00:42:11] Kyle Musca: Late 20s, early 30s.
+[00:42:18] Kyle Musca: We'll see how this goes.
+[00:42:20] Kyle Musca: We'll give it like a couple of days just to sort of play around with the targeting with that new updated ManyChat flow.
+[00:42:30] Kyle Musca: What I might even do after this as well, just because I'm culling these back, but the fitness one, I think, should definitely be performing better for you.
+[00:42:41] Kyle Musca: what I might, because again, that actually makes a lot of sense saying that a lot of young guys are coming through, because if we're going of cost per result, those theoretically are really, really good numbers to have at cost per result, but it's just clearly bringing in a lot of the wrong  leads.
+[00:42:57] Kyle Musca: So what I'll do is...
+[00:43:00] Kyle Musca: I might even play around with just refreshing the fitness pool and keeping the other two as is, I reckon.
+[00:43:14] Kyle Musca: Yeah, because those other two are coming down as I'm refining them, that fitness one isn't moving the way I want it to.
+[00:43:22] Kyle Musca: So I might just play around with that and see if that fixes the problem.
+[00:43:26] Callum Hinze: Okay, yeah.
+[00:43:28] Kyle Musca: So that is very handy and insightful.
+[00:43:33] Kyle Musca: The other thing I was going to do, man, for you is...
+[00:43:43] Kyle Musca: So I've got this presentation thing pretty  mapped out now.
+[00:43:47] Kyle Musca: And I think this, again, would be really, really great for you, especially if I'm going to run a lead magnet man.
+[00:43:51] Kyle Musca: And, like, what I reckon we do is, the exact one I did would actually be perfect for you.
+[00:43:57] Kyle Musca: So...
+[00:44:00] Kyle Musca: Did I show you the presentation, ChatGPT?
+[00:44:05] Callum Hinze: Yeah, think last week we looked at that.
+[00:44:07] Kyle Musca: Yeah, cool.
+[00:44:08] Kyle Musca: So I've extended on from there.
+[00:44:09] Kyle Musca: I'll do, did I send you these files?
+[00:44:15] Callum Hinze: Yes.
+[00:44:16] Callum Hinze: Yeah, you did.
+[00:44:17] Kyle Musca: Yeah.
+[00:44:19] Kyle Musca: I might resend them so they're nice and easy, but what I did is made it even easier, essentially.
+[00:44:26] Kyle Musca: So what I would really recommend you do is, so basically go away and do deep research on a topic.
+[00:44:36] Kyle Musca: So for me, for example, I already had one just to test it out.
+[00:44:40] Kyle Musca: I, what the ?
+[00:44:45] Kyle Musca: This is slow now.
+[00:44:49] Kyle Musca: No.
+[00:44:53] Kyle Musca: So for example, I've done mega guides before on, you know, nutrition, hypertrophy, strength training.
+[00:44:59] Kyle Musca: me.
+[00:44:59] Kyle Musca: Well, I've
+[00:45:08] Kyle Musca: So what I would do is build out this presentation thing in your one.
+[00:45:13] Kyle Musca: You might have to go back and forth with it quite a lot to get it right.
+[00:45:17] Kyle Musca: So it does build the presentations how you want it to be built.
+[00:45:21] Kyle Musca: But once you've got that done, just keep it in one chat because it will base, you know, if you start a new chat, you'll have to re-prompt it and re-program and everything.
+[00:45:29] Kyle Musca: So just keep it all in one chat.
+[00:45:31] Kyle Musca: Once you get it to the point where you can keep it in one chat, literally all you need to do is just say, great.
+[00:45:38] Kyle Musca: I'll show you this up here.
+[00:45:42] Kyle Musca: So this is the mega guide that I put into it.
+[00:45:44] Kyle Musca: So it's a lot of information you got off.
+[00:45:46] Kyle Musca: Once you get it to build it how you want it to build it, be like, all you literally need to do is just, great, now I want you to build me a new presentation based off this information.
+[00:45:55] Kyle Musca: And then I said, I want you to make it a topic, I want the topic to be a thing.
+[00:46:00] Kyle Musca: 30-minute muscle class called Everything You Need to Know on How to Build a Muscle.
+[00:46:03] Kyle Musca: All of it.
+[00:46:04] Kyle Musca: You're welcome.
+[00:46:06] Kyle Musca: Then I literally just copped from there, pasted the deep research it did based off this guide that I already had done in the past.
+[00:46:15] Kyle Musca: So I literally just copied all that into it.
+[00:46:20] Kyle Musca: And then it spat me out.
+[00:46:26] Kyle Musca: This thing's too long.
+[00:46:29] Kyle Musca: Yeah.
+[00:46:30] Kyle Musca: Everything You Need to Know about How to Build a Muscle.
+[00:46:32] Kyle Musca: All of it.
+[00:46:32] Kyle Musca: You're welcome.
+[00:46:33] Kyle Musca: This masterclass is a complete breakdown on how to actually, muscles are actually built.
+[00:46:38] Kyle Musca: Strength, hypertrophy, endurance, recovery, nutrition, programming, all connected.
+[00:46:41] Kyle Musca: Most, et cetera, et cetera, et cetera.
+[00:46:43] Kyle Musca: So built it exactly how I want it done.
+[00:46:46] Kyle Musca: So I can send that off and it just goes hard.
+[00:46:49] Kyle Musca: So for me now to build presentations is like a five-minute thing.
+[00:46:52] Kyle Musca: then I send it off to the presentation builder to get it done.
+[00:46:55] Callum Hinze: I see.
+[00:46:58] Kyle Musca: So what I would suggest you do.
+[00:47:01] Kyle Musca: Basically, what I just showed you then, and I would really suggest building like a 30-minute masterclass on everything someone needs to know on how to maximize muscle gains, or maybe do a nutrition one and a muscle gain one, and whatever you think is a relevant topic.
+[00:47:16] Kyle Musca: Because I think if you put together a 30-minute masterclass, then that would go hard as a lead magnet from someone like you.
+[00:47:23] Callum Hinze: Yeah, cool, that's easy.
+[00:47:24] Kyle Musca: So what I'll do is I'll send you, I'll forward you the stuff you need.
+[00:47:34] Kyle Musca: That's the framework and the prompt.
+[00:47:44] Kyle Musca: And yeah, if you plug that in, yeah, again, you'll just be able to pump them out at that point.
+[00:47:54] Callum Hinze: Awesome.
+[00:47:55] Kyle Musca: I also have, so you could use graphic, sorry, Lucky.
+[00:47:59] Kyle Musca: He's...
+[00:48:00] Kyle Musca: Is it good, but a little bit more, I guess, expensive?
+[00:48:04] Kyle Musca: I found a chick that will build, like, Canva presentations for $1, $1 USD per slide.
+[00:48:14] Callum Hinze: What was Lucky's rates?
+[00:48:15] Callum Hinze: I don't even remember.
+[00:48:17] Kyle Musca: I think he did $3 USD for me, but I think he does, like, $5 USD for other people.
+[00:48:22] Callum Hinze: So if you put together, like, a $30, $40.
+[00:48:25] Callum Hinze: I think you might have sent me her through, actually, last week.
+[00:48:28] Callum Hinze: It was a lady, hey?
+[00:48:29] Kyle Musca: Yeah, Sylvia, yeah.
+[00:48:31] Callum Hinze: Ah, yeah, I've got that here.
+[00:48:33] Kyle Musca: Yeah, perfect.
+[00:48:33] Kyle Musca: So, yeah.
+[00:48:36] Kyle Musca: I'll keep focusing on the ads, playing around with them.
+[00:48:40] Kyle Musca: And then, yeah, I think if you could build that a masterclass or something like that, if we're going to step into the lead magnet realm, I reckon that would go hard as a lead magnet for you as well.
+[00:48:51] Callum Hinze: You said just on Loom is fine, hey?
+[00:48:54] Kyle Musca: Yeah, so, yeah.
+[00:48:56] Kyle Musca: Essentially what I would do there, I'll show my screen one more time.
+[00:48:59] Kyle Musca: I'll see you Thank
+[00:49:00] Kyle Musca: Once the presentation spills, and then you just obviously let her know, just don't, like, leave the bottom left-hand corner, like, free.
+[00:49:12] Kyle Musca: Because then you can just do these, and it's so easy to do.
+[00:49:21] Kyle Musca: You know, I would just do a like this.
+[00:49:24] Kyle Musca: All right, what's going on, guys?
+[00:49:26] Kyle Musca: Welcome back to...
+[00:49:29] Callum Hinze: Simple.
+[00:49:29] Kyle Musca: Okay.
+[00:49:30] Kyle Musca: ...or routines without context.
+[00:49:32] Kyle Musca: Using athlete or influence or splits meant to, for advanced...
+[00:49:35] Callum Hinze: Yeah, but it doesn't have to be anything crazy.
+[00:49:37] Callum Hinze: Okay, simple.
+[00:49:39] Kyle Musca: Any questions on any of that stuff?
+[00:49:41] Callum Hinze: Nah, straightforward.
+[00:49:42] Callum Hinze: That'll be good to build up.
+[00:49:46] Kyle Musca: Perfect, man.
+[00:49:47] Kyle Musca: Cool.
+[00:49:48] Kyle Musca: Well, that's pretty much everything I want to run over.
+[00:49:51] Kyle Musca: I'll get the new campaign sorted with the fitness ones, see how they go.
+[00:49:56] Kyle Musca: And then...
+[00:49:57] Kyle Musca: ...
+[00:49:58] Kyle Musca: ...
+[00:49:59] Kyle Musca: Thank
+[00:50:03] Kyle Musca: I'll have a look, and I'll have a look through the lead magnet stuff as well.
+[00:50:08] Kyle Musca: But yeah, if you could also send me all the links that they send them to, and then maybe even like a little bit of a breakdown of just what they are, so I just can sort of put it into your own wording as well.
+[00:50:20] Callum Hinze: Yeah, cool.
+[00:50:21] Callum Hinze: I've got the, I've just got three in that folder for now, but I'll get some more up.
+[00:50:26] Callum Hinze: But yeah, that's easy.
+[00:50:28] Kyle Musca: Perfect, man.
+[00:50:30] Kyle Musca: Cool.
+[00:50:30] Kyle Musca: Well, if you have any other questions on that, let me know.
+[00:50:33] Kyle Musca: Otherwise, I will keep, keep on top of it for you.
+[00:50:39] Callum Hinze: Awesome.
+[00:50:39] Callum Hinze: Thank you for that.
+[00:50:40] Callum Hinze: I even see a CEO dashboard things hopefully, because I didn't really have much idea what was going in and what was coming out either.
+[00:50:46] Kyle Musca: Yeah, so just, yeah, understanding that for our sake will be really important to pick apart exactly what we picked apart today.
+[00:50:56] Kyle Musca: Don't get me wrong, it's a little bit tedious, but it's, you know, essential immigration.
+[00:51:09] Kyle Musca: And with that implementation, it should start bringing in better quality leads after a play around with it a little bit more.
+[00:51:19] Kyle Musca: Cool, bro.
+[00:51:20] Kyle Musca: Yeah.
+[00:51:21] Kyle Musca: All right.
+[00:51:21] Kyle Musca: Well, I'll leave you back to him then.
+[00:51:22] Kyle Musca: But if you do have any questions or you get stuck, just let me know.
+[00:51:25] Kyle Musca: Otherwise, yeah, ideally by next week, I want to start having had some...
+[00:51:31] Kyle Musca: I mean, you've still got the direct response stuff, so I guess we've got a little bit of time there.
+[00:51:35] Kyle Musca: But ideally, I'd like to get the ball rolling on the lead magnet stuff while we're already a little bit ahead.
+[00:51:42] Callum Hinze: Yeah, beautiful.
+[00:51:43] Callum Hinze: How many videos do you want for lead magnet videos, reels, like for now?
+[00:51:48] Kyle Musca: As many as possible.
+[00:51:50] Kyle Musca: Probably a minimum of eight would give me enough to sort of play around with the testing.
+[00:51:54] Callum Hinze: I've got three in there now, but I'll get some more now.
+[00:51:57] Kyle Musca: Okay.
+[00:51:57] Kyle Musca: Perfect, man.
+[00:51:58] Kyle Musca: All right, bro.
+[00:51:59] Kyle Musca: I'll leave you back to...
+[00:52:00] Kyle Musca: And, man, I'll chat to you very soon.
+[00:52:01] Callum Hinze: All right.
+[00:52:02] Callum Hinze: Thanks again for that.
+[00:52:03] Kyle Musca: Awesome.
+[00:52:03] Kyle Musca: Nice.
+[00:52:04] Kyle Musca: Cheers, man.
+[00:52:04] Callum Hinze: Bye.

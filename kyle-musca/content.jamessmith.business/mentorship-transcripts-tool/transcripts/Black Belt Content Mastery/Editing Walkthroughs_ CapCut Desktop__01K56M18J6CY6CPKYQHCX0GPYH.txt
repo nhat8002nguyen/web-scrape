@@ -1,0 +1,153 @@
+Now, I am sure that there is very complex ways of using
+this, of which that is not how I use it. So I can import the
+file in which I'm going to edit. So I pre-recorded this
+before. I'm going to drag that onto the timeline. The
+timeline is where we're going to do our edit. Now, one of
+the first things we're probably going to want to do is just
+zoom in a little bit. Now, the thing that is really
+important here is you see these little audio elements here.
+In essence, we're just going to chop around those. Now, to
+remind me, a split, they say on Mac, you can see that's
+Command and B. See, I was flipping through it. So to begin
+with, I'm going to know that at the beginning, there's not a
+lot happening in this bit. And at this point, I haven't
+really thought it through. I am rifting. I press spacebar so
+I can watch myself in the track. And I know that probably
+just up here, we're going to get into it. This is a can of
+Nutanix. Cool. So I now know that just before here is where
+I need to do it. So I click on the timeline, Command B. I
+then come to this. And this will seem complex, but soon
+you'll be a wizard in this, I assure you. Hit delete. Now, I
+probably want to go back to the beginning. This is a can of
+Nutanix. Now, the first thing I've done here is I have
+recorded the audio in the way I want it. And then I'm going
+to show you the visual here. Cool. So what we're going to
+do, very simply, is when the can comes into shot, Command B.
+Perfect. Command B. Now, what I'm going to do, very simply,
+we're going to come out the gates with some complexity. I'm
+going to take this overlay. I'm going to put it over. And
+then I'm going to put it on top. Now, the hierarchy here is
+whatever is on top will be seen first. So you're probably
+thinking, what is going on here? Well, watch this. This is a
+can of Nutanix. So now I've taken the verbal statement and
+the visual, and I'll put them together. Now, chances are,
+I'm probably going to want to dial this in a bit. And
+actually, this can now come into here. Perfect. Now, what we
+don't need on this one is the audio. So I can then come up
+to here. I've got my video settings, my audio settings,
+speed, everything I would ever need. Here. This is why I
+like doing it on desktop. I'm now going to go to audio. And
+then here, I could just turn the volume down to zero for
+that clip. So now we're only going to get the audio from the
+track. This is a can of Nutanix. Perfect. I'm thinking about
+what to say. Pause, just because I can see, hear the audio
+is about to go. Command B, select, delete. Come back to the
+beginning one more time. This is a can of Nutanix. For any
+of you watching this, even though you'll, you'll notice that
+gap was probably a little bit too long. So very simply, I'm
+just going to close this gap. This is a can of Nutanix. For
+any of you watching this, even though you're learning about
+editing and I'm just let the, the words breed there a little
+bit, and then I can just drag this across to the next part
+of audio. This is a can of Nutanix. For any of you watching
+this, even though you're learning about editing, I would
+love you to try this product. Cool. We're going to do
+another split here. We're going to do the exact same thing.
+We're cutting out the gaps. Tried this product. The reason
+being is this. Now, what I want to show you is. What I'm
+doing on purpose is I am keeping long gaps between what I
+say to make sure I say it well.
+We've combined not only caffeine, but
+a small cohort of evidence-based nootropics, which are going
+to help you focus better. For instance. So it's better for
+me to take this time to really think about what I'm going to
+say so that although these gaps can seem labored and long,
+it doesn't matter because we're cutting them out, but a
+small cohort of evidence-based nootropics, which are going
+to help you focus better.
+For instance. And this, this gap here is massive, but that's
+fine because it's all part of it. Drinking this right now is
+only going to help. Oh, what's this noise right now? You
+hear that little thump right now is only going to help me.
+So I think I must've hit the table or something there. So
+what I'm going to do is going to go to audio. I'm going to
+go to enhance voice. Going to keep it on the 75%. It's
+enhancing the voice. Now this hopefully will remove any
+background noise. Drinking. This right now is only going to
+help me with communicating my. Now that made that sound a
+little bit. Right now is only going to help me with
+communicating my I've kept it as it is. If you had any
+background noise or hisses in these modules, therefore
+helping you in your business, I'm just going to do this in
+autopilot now. And again, this is something that we should
+all want to get good at this. So at the same time as helping
+me, you notice that sounded a bit different because I had
+the can in front of me, me grow this business. You can help
+yourself by being more productive. Boom. At any point you
+can head to newtonic.com and better yet, if for any reason
+you don't love it, I'll be more than happy to refund you in
+full. My email address is james at jamessmithacademy.com. So
+if this was a YouTube video very quickly come up to export.
+10 AEP, maybe even go 2K, 4K, 8K. Depends where it's going.
+Again, format, you might even do it in MP4. Frame rate, up
+to you guys. I think 25 or 24 is like the usual, but I've
+just kept it because I recorded it like that. What happens
+if you're doing a reel? So here for anyone wondering sports
+fans, 16 by nine is landscape. Portrait is nine by 16. So we
+can come here, go boom. Now there's, there's a bloody issue
+here, mate. We will highlight all of these. Now, if we
+wanted to, uh, do the audio on all of these at once, it
+should let me do it in one go. Yeah. Lovely. Now with the
+video. Hopefully by bringing in the scale, see here, which
+drag and now is only going to give them a little bit out. So
+with the position in, is it the Y axis mass one way minus
+50, maybe minus a hundred, mate, or maybe one 50 into help
+me. Cool. Let's go to the beginning. This is a kind of new
+tonic for any of you watching this, even though you're
+learning about editing, I would love you to try this
+product. The reason being is this we've combined, not only
+caffeine. But a small cohort of evidence-based nootropics,
+which are going to help you focus better. We now go text.
+Auto captions. Now, what we need to do is move these up a
+bit. We don't want them across the face, but we don't want
+them down here. Usually just below the chin. I think is
+great. Now I always bring them in a bit because it's always
+going to look a bit bigger on mobile. My now, if you're
+wearing, say like a white t-shirt, we might want to, uh,
+pick something that has a stroke, which means it has a
+little bit of an outline on it. Uh, you should. You can get
+a little bit creative with the old font, but you know what?
+Me personally, I think these are fine. You know, so we go
+through it. Now, this is a kind of new tonic for any of you
+watching this, even though you're learning about editing. I
+would love you to try this product. The reason being is this
+we've combined not only caffeine, but a small cohort. So
+here we've got a little spelling mistake. So I can go up to
+here, bomb at the T bomb based nootropics, which are going
+to all nootropics were spelled wrong. So we go here. Um, now
+we can have a bit of fun here. Right? So where we had the
+text before, we could just add some default text, right? So
+this here, where was that not come up on me timeline. There
+we go. That's what I wanted. I want it to come up as that.
+So then I can bring this in. So what I want to do is I want
+to fill this gap and we can put something funny in here.
+Like I've been seeing up a class, maybe a little bit smaller
+and we can make this one maybe a little bit more difficult
+to see. So then we get this little transition. For instance,
+drinking this just like a bit of fun, you know, is only
+going to help. It's going to help me with communicating my
+point you get the drift. So we get to the end, right? We're
+going to export now here. We're going to give it a name. New
+tonic export to mid desktop will be fine. Oh, I'm there. 10
+ATP, buh, buh, buh, buh, bum done in two shakes for sheep's
+tail. This is a kind of new tonic for any of you watching
+this. We can hit council there. Cool. Now I go to my
+desktop. Sure. James's iPhone. And we are ready to go.
+Sports fans. We are ready to post that bad boy wherever we
+want. Now. I can go on to Tik TOK, Instagram, YouTube,
+wherever it needs to go. Most of these edits should be
+getting done in a very short period of time. It's cut, cut
+desktop. That's the bare bones. But to be honest, that could
+take you to a half million dollar business. Honestly,
+nothing needs to be more complex than that. Hope you
+enjoyed. Bye-bye.

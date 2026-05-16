@@ -1,0 +1,119 @@
+not gonna lie to you guys premiere pro was my love child for
+a very long time i do love it the only annoying thing is the
+pricing you do have to pay a subscription model so remember
+before we got the clip you drag it onto the timeline and the
+only thing is here is the timeline looks slightly different
+and here you can see all the changes you need to make it
+here and this although it can look complex you slide across
+here you got scale zoom everything i'm pretty sure there is
+a set to frame size boom does that automatically there are
+so many cool things you could do here just by right clicking
+you can sync the audio you do scene edit detection which
+automatically chops everything we're ready coming from cap
+cut you can see this is a lot more complex so this is very
+much like a professional production again we go a slightly
+different one i think it's command k so i would drag the
+playhead get to here command k delete this is a kind of new
+tonic command k come across delete it's actually probably a
+bit quicker i'm a lot quicker in premiere than i'm at cap
+card say that for you and then we can delete these gaps
+right now oh actually this thing let's say i've deleted a
+bit which i need which i can i can click here drag it out i
+can actually see a preview of it and come across and then to
+spread it i can do this boom boom i can bring this across
+and get the same this is a kind of new tonic and this time
+if we want to get rid of this audio thing we can turn the
+audio down or we can unlink so that these clips are no
+longer in a relationship with each other and actually then
+what i can do is i can end up linking these but again let me
+get that same visual this is a can of new tonic cool there
+we go boom boom i can highlight all of these bits get out of
+there now if you do keep the gaps between it you just
+highlight everything and there's a closed gap feature don't
+stick some more together so usually i would chop everything
+then i close gaps at the into the production this is a can
+of new tonic for any of you watching this even though you're
+learning about everything so the funny thing here is you
+might notice that there was a little bit of a gap here so
+i'm going to teach something called a j-cut so you can
+actually overlay these just a tiny bit you see that i'm not
+really getting the level that i want so i might have to zoom
+in just a tad by scrolling these ones like this lovely and
+bring this one across here i should probably go like this so
+now watch this this is a can of new tonic for any of you
+watching this even though you're learning about editing i
+would love you to try so you can kind of overlay the clips
+to get a bit of a snappier edit but we've already seen this
+i've already walked you through this so i might as well walk
+you through a video that i made last year you can see all of
+the cuts are in here together so i'll just show you the
+beginning if you were to trip up two and a half thousand us
+dollars in your house that you had laying around you could
+get one of these a mattress cover two and a half thousand
+dollars when i first heard about this brand and the mattress
+covers they did i thought that could be worth it if it was
+finishing me off in the morning but cool a lot of fun see
+everything here then you actually see that i'm jumping
+between different scenes want to be warmer than women there
+are two things that i'm concerned about with this cool and
+this was using the dji pocket osmo where you at so it's a
+pretty straightforward edit it pumps a bit of water there's
+you know the a story there a i want it to work but i also
+want to send it for free and ultimately it's now this thing
+here is just a bit of text i put in 33 us dollars i said
+same money not only then here we can start to see that i'm
+overlaying clips so i can't remember what this is what was
+interesting as i woke up to a very good so that is a
+screenshot that i've overlaid as an image so that image if i
+move out you can just see it's just a screenshot and then
+what i've done is i've just positioned it by dragging the
+sliding scale up here i'm just positioning it where i want
+it good sleep score says i got a good night's sleep that's
+the screen recording i'm corrected time slept seven death
+rate the mattress was cool so what i did was uh when i was
+recording i told the camera when i was recording so that
+these two tracks move synchronistically i can also go
+through and that's the screenshot change what periods of the
+night now this green thing here you're probably wondering
+what's that it's audio it's an audio check it's very
+professional the app was that was decent actually so what i
+did was i I literally plugged in a microphone to the
+computer and just did a voiceover on this. If you watch a
+lot of YouTube videos, they do use quite a lot of
+voiceovers. Okay, cool. So this track here is music. Are you
+ready? It's measuring my heart rate data and it could
+potentially ruin my day the next day. And I've just got to
+be honest, I don't like it. I love it. These boxes are empty
+because it's still on my bed at home. I wanted to hate it.
+I've got mixed emotions right now because one, yeah, I'm
+going to regulate my temperature. But two, I'm down two and
+a half thousand US dollars. I've ruined my own life through
+doing this video. That's going to be a cost that's going to
+linger with me forever. Oh, here's a bonus. Got a licked,
+mate. If you want to get licked, go licked, L-I-C-K-D. That
+means you can still get monetized on your video as long as
+you pay the piper for it.
+Boom, the end. Just a straight, pretty straightforward
+timeline. You see some of these timelines online with stuff
+everywhere. It doesn't need to be that complicated. It
+really doesn't. This is so basic, I know. But it is just a
+timeline. And this is the best bit of advice I can give you.
+Every time you're not sure, how do I blur something in
+Premiere Pro? Join my course so I can teach you how to go to
+ChatGPT and do it. I already know how we do it. We go for a
+Gaussian blur. So let's say we had some of the overlay. So
+let's say here, for whatever reason, we wanted to blur.
+Here, if I put in gauze, here we go, Gaussian blur. I could
+just drag that onto, let's say, the footage of me. 58, it'd
+be interesting, then here, you'll see, we've got Gaussian
+blurriness. I could just dial that bad boy up. So let's say
+for whatever reason, you want it to blur. Seven hours, 58.
+It'd be interesting. Obviously, this is the first night that
+I've used this to see how this, you can just lay effects
+over things. And there are loads of effects. We can also put
+effects on the audio. That's really the levels that you need
+to start in Premiere Pro. Then over time, as things emerge
+through your creations on social media and you go, oh,
+there's something I need to do. You learn it bit by bit.
+It's like a. Speaking a foreign language. You, you learn
+words and then before you know it, you're fluent.
