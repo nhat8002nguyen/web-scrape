@@ -1623,11 +1623,18 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument(
         "target",
         nargs="?",
-        default="kyle.musca",
-        help="Instagram username or profile/reels URL (default: kyle.musca).",
+        default=None,
+        help=(
+            "Instagram username or profile/reels URL (required for local/producer crawl). "
+            "Also: --target or env INSTAGRAM_TARGET. Not used for --redis-mode worker."
+        ),
     )
-    parser.add_argument("--target", dest="target_opt",
-                        default=None, help="Target username or URL.")
+    parser.add_argument(
+        "--target",
+        dest="target_opt",
+        default=None,
+        help="Target username or URL (overrides positional; env INSTAGRAM_TARGET if unset).",
+    )
     parser.add_argument("--mode", choices=("reels", "posts"), default="reels")
 
     parser.add_argument("--out", "-o", default="output",
@@ -1870,7 +1877,11 @@ def main(argv: list[str]) -> int:
     load_env_files()
     args = parse_args(argv)
 
-    target = args.target_opt or args.target
+    target = (
+        (args.target_opt or "").strip()
+        or (args.target or "").strip()
+        or (os.environ.get("INSTAGRAM_TARGET") or "").strip()
+    )
     cookies_json_arg = (
         (args.cookies_json or "").strip()
         or (os.environ.get("COOKIES_JSON") or "").strip()
@@ -1999,13 +2010,25 @@ def main(argv: list[str]) -> int:
             diarization_pipeline=diarization_pipeline,
         )
 
+    if not target:
+        print(
+            "error: Instagram target required for crawl/producer modes "
+            "(positional username/URL, --target, or INSTAGRAM_TARGET).",
+            file=sys.stderr,
+        )
+        return 2
+
     try:
         import instaloader
     except Exception as exc:
         print(f"error: instaloader import failed: {exc}", file=sys.stderr)
         return 2
 
-    username = extract_username(target)
+    try:
+        username = extract_username(target)
+    except ValueError as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return 2
 
     loader = instaloader.Instaloader(
         dirname_pattern=str(video_dir),
