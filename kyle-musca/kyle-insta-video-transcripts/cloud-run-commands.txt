@@ -1,5 +1,6 @@
 1. For coachedbybre
 
+phase1: run all
 python instagram_reels_transcripts.py "https://www.instagram.com/coachedbybre/reels/" \
   --redis-mode producer \
   --proxy-downloads-only \
@@ -12,6 +13,29 @@ python instagram_reels_transcripts.py coachedbybre \
    --redis-mode worker \
    --out /mnt/efs/fs1 \
    --resume \
-   --proxy-downloads-only \
    --model-size large-v3 \
-   --verbose
+   --verbose \
+   --bypass-proxy
+
+phase 2: retry
+python instagram_reels_transcripts.py coachedbybre \
+  --redis-mode requeue-skipped \
+  --redis-stream insta:reel:jobs:retry \
+  --redis-producer-dedupe \
+  --out /mnt/efs/fs1 \
+  --skip-log skipped.jsonl \
+  --resume \
+  --verbose
+
+python instagram_reels_transcripts.py coachedbybre \
+  --redis-mode worker \
+  --redis-stream insta:reel:jobs:retry \
+  --redis-group transcribers \
+  --out /mnt/efs/fs1 \
+  --resume \
+  --model-size large-v3 \
+  --bypass-proxy \
+  --redis-idle-exit-seconds 300 \
+  --redis-idle-notify-seconds 300 \
+  --max-consecutive-errors 999999 \
+  --verbose

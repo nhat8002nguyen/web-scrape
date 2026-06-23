@@ -381,6 +381,7 @@ def iter_reel_candidates(
 ) -> Iterable[ReelVideo]:
     import instaloader
 
+    patch_instaloader_profile_graphql()
     profile = instaloader.Profile.from_username(loader.context, username)
 
     iterator: Iterable
@@ -897,9 +898,12 @@ def process_queue_item(
             )
         return ProcessItemOutcome(outcome="skipped", downloaded=False)
 
-    proxy_url = proxy_pool.next_url()
+    if args.no_proxy or args.bypass_proxy_downloads:
+        proxy_url = None
+    else:
+        proxy_url = proxy_pool.next_url()
     if args.verbose:
-        proxy_msg = mask_proxy_url(proxy_url) if proxy_url else "none"
+        proxy_msg = mask_proxy_url(proxy_url) if proxy_url else "direct"
         print(
             f"{label} mediaid={item.mediaid} title={title_sanitized} url={item.post_url} proxy={proxy_msg}",
             file=sys.stderr,
@@ -1464,6 +1468,76 @@ def instagram_enumeration_hints(exc: BaseException, *, username: str, used_proxy
     return "\n".join(lines)
 
 
+_INSTALOADER_PROFILE_GRAPHQL_PATCHED = False
+
+
+def patch_instaloader_profile_graphql() -> None:
+    """
+    Instaloader 4.15.x uses a retired profile GraphQL doc_id (25980296051578533),
+    which returns 400 invalid request. Use the current doc_id/variables until upstream
+    ships a fix (https://github.com/instaloader/instaloader/issues/2695).
+    """
+    global _INSTALOADER_PROFILE_GRAPHQL_PATCHED
+    if _INSTALOADER_PROFILE_GRAPHQL_PATCHED:
+        return
+    try:
+        from instaloader.exceptions import ProfileNotExistsException, QueryReturnedNotFoundException
+        from instaloader.structures import Profile, TopSearchResults
+    except Exception:
+        return
+
+    def _obtain_metadata_patched(self: Profile) -> None:
+        try:
+            if not self._has_full_metadata:
+                user_id = self._node.get("id") or self._node.get("pk")
+                variables = {
+                    "id": str(user_id),
+                    "render_surface": "PROFILE",
+                    "__relay_internal__pv__PolarisCannesGuardianExperienceEnabledrelayprovider": True,
+                    "__relay_internal__pv__PolarisCASB976ProfileEnabledrelayprovider": False,
+                    "__relay_internal__pv__PolarisRepostsConsumptionEnabledrelayprovider": False,
+                    "__relay_internal__pv__PolarisWebSchoolsEnabledrelayprovider": False,
+                    "enable_integrity_filters": True,
+                }
+                data = self._context.doc_id_graphql_query(
+                    "27937681195819736", variables
+                )
+                if data is None:
+                    raise QueryReturnedNotFoundException(
+                        "GraphQL query returned None"
+                    )
+                user_data = data.get("data", {}).get("user")
+                if user_data is None:
+                    raise ProfileNotExistsException(
+                        f"Profile {self.username} does not exist."
+                    )
+                self._node = self._normalize_profile_data(user_data)
+                self._has_full_metadata = True
+        except (QueryReturnedNotFoundException, KeyError) as err:
+            top_search_results = TopSearchResults(self._context, self.username)
+            similar_profiles = [
+                profile.username for profile in top_search_results.get_profiles()
+            ]
+            if similar_profiles:
+                if self.username in similar_profiles:
+                    raise ProfileNotExistsException(
+                        f"Profile {self.username} seems to exist, but could not be loaded."
+                    ) from err
+                raise ProfileNotExistsException(
+                    "Profile {} does not exist.\nThe most similar profile{}: {}.".format(
+                        self.username,
+                        "s are" if len(similar_profiles) > 1 else " is",
+                        ", ".join(similar_profiles[0:5]),
+                    )
+                ) from err
+            raise ProfileNotExistsException(
+                f"Profile {self.username} does not exist."
+            ) from err
+
+    Profile._obtain_metadata = _obtain_metadata_patched  # type: ignore[method-assign]
+    _INSTALOADER_PROFILE_GRAPHQL_PATCHED = True
+
+
 def apply_user_agent(loader, user_agent: str | None) -> None:
     if not (user_agent or "").strip():
         return
@@ -1610,10 +1684,17 @@ def _env_disable_diarization_default() -> bool:
 
 def _env_transcript_no_proxy_default() -> bool:
     v = (os.environ.get("TRANSCRIPT_NO_PROXY") or "").strip().lower()
+    return v in ("1", "true", "yes", "on")
+
+
+def _env_bypass_proxy_downloads_default() -> bool:
+    """Video file downloads use the host's direct IP unless opted in via --with-proxy-downloads."""
+    v = (os.environ.get("DIRECT_INSTAGRAM_DOWNLOADS") or "").strip().lower()
+    if v in ("0", "false", "no", "off"):
+        return False
     if v in ("1", "true", "yes", "on"):
         return True
-    v = (os.environ.get("DIRECT_INSTAGRAM_DOWNLOADS") or "").strip().lower()
-    return v in ("1", "true", "yes", "on")
+    return True
 
 
 def parse_args(argv: list[str]) -> argparse.Namespace:
@@ -1742,27 +1823,47 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         action="store_true",
         help=(
             "Do not use HTTP proxy for Instaloader (profile listing / GraphQL). "
-            "Still use proxy for binary video downloads if proxies are configured. "
+            "Use proxy for binary video downloads (implies --with-proxy-downloads). "
             "Use with --cookies-json when cookies were exported from your normal browser IP."
         ),
     )
 
     parser.set_defaults(no_proxy=_env_transcript_no_proxy_default())
+    parser.set_defaults(
+        bypass_proxy_downloads=_env_bypass_proxy_downloads_default()
+    )
     parser.add_argument(
         "--bypass-proxy",
         dest="no_proxy",
         action="store_true",
         help=(
-            "Do not use Webshare, --proxy-url, --proxy-file, or TRANSCRIPT_PROXY; use this host's "
-            "direct IP for Instaloader and downloads (e.g. Webshare quota exhausted). "
-            "Env default: TRANSCRIPT_NO_PROXY=1 or DIRECT_INSTAGRAM_DOWNLOADS=1."
+            "Do not use Webshare, --proxy-url, --proxy-file, or TRANSCRIPT_PROXY anywhere "
+            "(Instaloader and downloads). Env default: TRANSCRIPT_NO_PROXY=1."
         ),
     )
     parser.add_argument(
         "--with-proxy",
         dest="no_proxy",
         action="store_false",
-        help="Use configured proxies (overrides TRANSCRIPT_NO_PROXY / DIRECT_INSTAGRAM_DOWNLOADS for this run).",
+        help="Use configured proxies for Instaloader (overrides TRANSCRIPT_NO_PROXY for this run).",
+    )
+    parser.add_argument(
+        "--with-proxy-downloads",
+        dest="bypass_proxy_downloads",
+        action="store_false",
+        help=(
+            "Route video file downloads through Webshare/proxy. "
+            "Default is direct download from this host's IP (saves proxy bandwidth on Cloud Run)."
+        ),
+    )
+    parser.add_argument(
+        "--bypass-proxy-downloads",
+        dest="bypass_proxy_downloads",
+        action="store_true",
+        help=(
+            "Download video files without proxy (default). "
+            "Env default: DIRECT_INSTAGRAM_DOWNLOADS=1."
+        ),
     )
 
     parser.add_argument("--model-size", default="large-v3")
@@ -1863,7 +1964,10 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
             "(case-sensitive), e.g. JobTimeout."
         ),
     )
-    return parser.parse_args(argv)
+    args = parser.parse_args(argv)
+    if args.proxy_downloads_only:
+        args.bypass_proxy_downloads = False
+    return args
 
 
 def resolve_dir_arg(raw: str, out_dir: Path) -> Path:
@@ -2023,6 +2127,7 @@ def main(argv: list[str]) -> int:
     except Exception as exc:
         print(f"error: instaloader import failed: {exc}", file=sys.stderr)
         return 2
+    patch_instaloader_profile_graphql()
 
     try:
         username = extract_username(target)
@@ -2064,13 +2169,32 @@ def main(argv: list[str]) -> int:
             loader.context._session.proxies = ProxyPool.as_requests_proxies(
                 crawl_proxy)
             if args.verbose:
+                download_mode = (
+                    "direct IP (default)"
+                    if args.bypass_proxy_downloads
+                    else "proxy"
+                )
                 print(
-                    f"instaloader crawl proxy={mask_proxy_url(crawl_proxy)}", file=sys.stderr)
+                    f"instaloader crawl proxy={mask_proxy_url(crawl_proxy)}; "
+                    f"video downloads={download_mode}",
+                    file=sys.stderr,
+                )
         except Exception:
             pass
     elif args.verbose and proxy_urls:
+        if args.bypass_proxy_downloads:
+            print(
+                "instaloader: no proxy (direct); video downloads use direct IP (default)",
+                file=sys.stderr,
+            )
+        else:
+            print(
+                "instaloader: no proxy (direct); video downloads use proxy",
+                file=sys.stderr,
+            )
+    elif args.verbose and args.bypass_proxy_downloads:
         print(
-            "instaloader: no proxy (direct); video downloads still use proxy if configured",
+            "video downloads: direct IP (no proxy configured)",
             file=sys.stderr,
         )
 

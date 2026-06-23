@@ -108,6 +108,37 @@ python3 download_channel_transcripts.py "https://www.youtube.com/@YourChannelHan
 
 Or in `.env` next to the script, same variable names. Omit `--webshare-locations` to use all countries, or e.g. `--webshare-locations US,GB` to restrict.
 
+## Running on EC2
+
+Upload the project from your Mac (skips local `.venv`, build output, transcripts, and `.env`). Run from the `youtube-transcripts-scrape/` folder. The `-e` flag must be **`ssh -i KEY.pem`**, not the `.pem path alone.
+
+```bash
+chmod 400 ./video-transcripts-server.pem
+
+rsync -avz --progress \
+  -e "ssh -i ./video-transcripts-server.pem -o IdentitiesOnly=yes" \
+  --exclude '.venv/' --exclude '.venv-desktop-build/' \
+  --exclude 'build/' --exclude 'dist/' \
+  --exclude '__pycache__/' --exclude 'transcripts/' --exclude '.env' \
+  --exclude '*.pem' \
+  ./ ubuntu@ec2-54-255-143-205.ap-southeast-1.compute.amazonaws.com:~/youtube-transcripts-scrape/
+```
+
+Or use `./scripts/ec2_upload.sh ubuntu@your-ec2-host` (same excludes; auto-detects the `.pem`).
+
+Copy `.env` separately, then on the instance (`.venv` is created on the server):
+
+```bash
+scp -i ./video-transcripts-server.pem .env ubuntu@ec2-54-255-143-205.ap-southeast-1.compute.amazonaws.com:~/youtube-transcripts-scrape/.env
+
+ssh -i ./video-transcripts-server.pem ubuntu@ec2-54-255-143-205.ap-southeast-1.compute.amazonaws.com
+cd ~/youtube-transcripts-scrape
+./scripts/ec2_setup_and_run.sh run --detach -- \
+  "https://www.youtube.com/@YourChannelHandle" --out ./transcripts --resume
+```
+
+Attach to a detached run: `tmux attach -t youtube-transcripts`
+
 ## Output files
 
 - One UTF‑8 `.txt` per video, named **`{sanitized_title}__{VIDEO_ID}.txt`** so collisions are avoided.
