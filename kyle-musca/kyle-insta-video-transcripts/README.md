@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 or simply run the following command:
 ```bash
-sudo apt update && sudo apt install -y python3 python3-venv python3-pip ffmpeg git && cd kyle-insta-video-transcripts && python3 -m venv .venv && source .venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt
+sudo apt update && sudo apt install -y python3 python3-venv python3-pip ffmpeg git redis-server && cd kyle-insta-video-transcripts && python3 -m venv .venv && source .venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt && sudo systemctl enable --now redis-server
 ```
 
 - **`ffmpeg`** satisfies pyannote’s need for a normal decode path and the script’s temporary WAV extraction; distro packages install libraries under `/usr/lib/...` where TorchCodec/pyannote expect them on Linux—no Homebrew on servers.

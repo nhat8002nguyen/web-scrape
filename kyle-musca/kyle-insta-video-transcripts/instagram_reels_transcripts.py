@@ -381,7 +381,7 @@ def iter_reel_candidates(
 ) -> Iterable[ReelVideo]:
     import instaloader
 
-    patch_instaloader_profile_graphql()
+    patch_instaloader()
     profile = instaloader.Profile.from_username(loader.context, username)
 
     iterator: Iterable
@@ -1538,6 +1538,136 @@ def patch_instaloader_profile_graphql() -> None:
     _INSTALOADER_PROFILE_GRAPHQL_PATCHED = True
 
 
+_INSTALOADER_POST_METADATA_PATCHED = False
+
+
+def patch_instaloader_post_metadata() -> None:
+    """
+    Instaloader 4.15.x uses a retired post GraphQL doc_id (8845758582119845),
+    which returns execution error / null data. Use the current doc_id/response
+    mapping until upstream ships a fix (https://github.com/instaloader/instaloader/pull/2706).
+    """
+    global _INSTALOADER_POST_METADATA_PATCHED
+    if _INSTALOADER_POST_METADATA_PATCHED:
+        return
+    try:
+        from instaloader.exceptions import BadResponseException, PostChangedException
+        from instaloader.structures import Post
+    except Exception:
+        return
+
+    def _obtain_metadata_patched(self: Post) -> None:
+        if not self._full_metadata_dict:
+            media_types = {1: "GraphImage", 2: "GraphVideo", 8: "GraphSidecar"}
+            resp = self._context.doc_id_graphql_query(
+                "27128499623469141",
+                {
+                    "shortcode": self.shortcode,
+                    "__relay_internal__pv__PolarisAIGMMediaWebLabelEnabledrelayprovider": False,
+                },
+            )
+            web_info = (resp.get("data") or {}).get(
+                "xdt_api__v1__media__shortcode__web_info"
+            ) or {}
+            items = web_info.get("items")
+            if not items:
+                raise BadResponseException("Fetching Post metadata failed.")
+            media = items[0]
+            media_type = media.get("media_type")
+            typename = media_types.get(media_type)
+            if not typename:
+                raise BadResponseException(
+                    f"Unknown media_type in metadata: {media_type}."
+                )
+            pic_json: dict[str, object] = {
+                "shortcode": media["code"],
+                "id": media["pk"],
+                "__typename": typename,
+                "is_video": media_type == 2,
+                "taken_at_timestamp": media["taken_at"],
+                "owner": {
+                    "id": media["user"]["pk"],
+                    "username": media["user"].get("username", ""),
+                    "full_name": media["user"].get("full_name", ""),
+                },
+            }
+            candidates = (media.get("image_versions2") or {}).get("candidates") or []
+            if candidates:
+                pic_json["display_url"] = candidates[0]["url"]
+            video_versions = media.get("video_versions") or []
+            if video_versions:
+                pic_json["video_url"] = video_versions[0]["url"]
+            if media.get("video_duration") is not None:
+                pic_json["video_duration"] = media["video_duration"]
+            if media.get("view_count") is not None:
+                pic_json["video_view_count"] = media["view_count"]
+            if media.get("play_count") is not None:
+                pic_json["video_play_count"] = media["play_count"]
+            caption = media.get("caption")
+            caption_text = caption.get("text") if isinstance(caption, dict) else None
+            pic_json["edge_media_to_caption"] = (
+                {"edges": [{"node": {"text": caption_text}}]}
+                if caption_text is not None
+                else {"edges": []}
+            )
+            pic_json["edge_media_preview_like"] = {
+                "count": media.get("like_count") or 0
+            }
+            pic_json["edge_media_to_parent_comment"] = {
+                "count": media.get("comment_count") or 0,
+                "edges": [],
+            }
+            if media.get("has_liked") is not None:
+                pic_json["viewer_has_liked"] = media["has_liked"]
+            if media.get("accessibility_caption") is not None:
+                pic_json["accessibility_caption"] = media["accessibility_caption"]
+            if media.get("location"):
+                pic_json["location"] = media["location"]
+            carousel = media.get("carousel_media") or []
+            if carousel:
+                carousel_nodes = []
+                for item in carousel:
+                    item_type = item.get("media_type", 1)
+                    node: dict[str, object] = {
+                        "shortcode": item.get("code", ""),
+                        "__typename": media_types.get(item_type, "GraphImage"),
+                        "is_video": item_type == 2,
+                    }
+                    item_candidates = (item.get("image_versions2") or {}).get(
+                        "candidates"
+                    ) or []
+                    node["display_url"] = (
+                        item_candidates[0]["url"] if item_candidates else ""
+                    )
+                    item_videos = item.get("video_versions") or []
+                    node["video_url"] = item_videos[0]["url"] if item_videos else None
+                    if item.get("accessibility_caption") is not None:
+                        node["accessibility_caption"] = item["accessibility_caption"]
+                    carousel_nodes.append({"node": node})
+                pic_json["edge_sidecar_to_children"] = {"edges": carousel_nodes}
+            tagged = (media.get("usertags") or {}).get("in") or []
+            if tagged:
+                pic_json["edge_media_to_tagged_user"] = {
+                    "edges": [
+                        {"node": {"user": {"username": t["user"]["username"].lower()}}}
+                        for t in tagged
+                        if (t.get("user") or {}).get("username")
+                    ]
+                }
+            self._full_metadata_dict = pic_json
+            if self.shortcode != self._full_metadata_dict["shortcode"]:
+                self._node.update(self._full_metadata_dict)
+                raise PostChangedException
+
+    Post._obtain_metadata = _obtain_metadata_patched  # type: ignore[method-assign]
+    _INSTALOADER_POST_METADATA_PATCHED = True
+
+
+def patch_instaloader() -> None:
+    patch_instaloader_profile_graphql()
+    patch_instaloader_post_metadata()
+
+
 def apply_user_agent(loader, user_agent: str | None) -> None:
     if not (user_agent or "").strip():
         return
@@ -2127,7 +2257,7 @@ def main(argv: list[str]) -> int:
     except Exception as exc:
         print(f"error: instaloader import failed: {exc}", file=sys.stderr)
         return 2
-    patch_instaloader_profile_graphql()
+    patch_instaloader()
 
     try:
         username = extract_username(target)
