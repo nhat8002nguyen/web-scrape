@@ -367,6 +367,63 @@ def post_url(post) -> str:
     return f"https://www.instagram.com/p/{post.shortcode}/"
 
 
+def reel_video_from_clips_media(media: dict) -> ReelVideo | None:
+    if media.get("media_type") != 2:
+        return None
+    video_versions = media.get("video_versions") or []
+    if not video_versions:
+        return None
+    shortcode = str(media.get("code") or "").strip()
+    mediaid = str(media.get("pk") or "").strip()
+    if not mediaid and media.get("id"):
+        mediaid = str(media["id"]).split("_", 1)[0]
+    if not shortcode or not mediaid:
+        return None
+    caption = media.get("caption")
+    caption_text = caption.get("text") if isinstance(caption, dict) else None
+    if caption_text and str(caption_text).strip():
+        title = str(caption_text).strip().splitlines()[0].strip()
+    else:
+        title = f"reel_{shortcode}"
+    taken_at = media.get("taken_at") or media.get("device_timestamp")
+    if taken_at is not None:
+        date_utc = str(dt.datetime.utcfromtimestamp(int(taken_at)))
+    else:
+        date_utc = ""
+    return ReelVideo(
+        mediaid=mediaid,
+        shortcode=shortcode,
+        title=title,
+        video_url=str(video_versions[-1]["url"]),
+        post_url=f"https://www.instagram.com/reel/{shortcode}/",
+        date_utc=date_utc,
+    )
+
+
+def iter_clips_reel_videos(profile) -> Iterable[ReelVideo]:
+    from instaloader.nodeiterator import NodeIterator
+
+    iterator = NodeIterator(
+        context=profile._context,
+        edge_extractor=lambda d: d["data"]["xdt_api__v1__clips__user__connection_v2"],
+        node_wrapper=lambda n: reel_video_from_clips_media(n.get("media") or {}),
+        query_variables={
+            "data": {
+                "page_size": 12,
+                "include_feed_video": True,
+                "target_user_id": str(profile.userid),
+            }
+        },
+        query_referer=f"https://www.instagram.com/{profile.username}/",
+        is_first=None,
+        doc_id="7845543455542541",
+        query_hash=None,
+    )
+    for item in iterator:
+        if item is not None:
+            yield item
+
+
 def iter_reel_candidates(
     loader,
     username: str,
@@ -387,9 +444,12 @@ def iter_reel_candidates(
     iterator: Iterable
     if mode == "reels" and hasattr(profile, "get_reels"):
         try:
-            iterator = profile.get_reels()
+            iterator = iter_clips_reel_videos(profile)
         except Exception:
-            iterator = profile.get_posts()
+            try:
+                iterator = profile.get_reels()
+            except Exception:
+                iterator = profile.get_posts()
     else:
         iterator = profile.get_posts()
 
@@ -404,9 +464,22 @@ def iter_reel_candidates(
     n_collected = 0
     for post in iterator:
         sleep_jitter(request_delay_min, request_delay_max)
-        if not getattr(post, "is_video", False):
-            continue
-        mediaid = str(post.mediaid)
+        if isinstance(post, ReelVideo):
+            item = post
+            if not item.video_url:
+                continue
+        else:
+            if not getattr(post, "is_video", False):
+                continue
+            item = ReelVideo(
+                mediaid=str(post.mediaid),
+                shortcode=str(post.shortcode),
+                title=post_title(post),
+                video_url=str(post.video_url),
+                post_url=post_url(post),
+                date_utc=str(post.date_utc),
+            )
+        mediaid = item.mediaid
         if mediaid in seen:
             continue
         seen.add(mediaid)
@@ -416,14 +489,6 @@ def iter_reel_candidates(
                 skip_until_found = False
             continue
 
-        item = ReelVideo(
-            mediaid=mediaid,
-            shortcode=str(post.shortcode),
-            title=post_title(post),
-            video_url=str(post.video_url),
-            post_url=post_url(post),
-            date_utc=str(post.date_utc),
-        )
         n_collected += 1
         if verbose:
             print(
@@ -935,7 +1000,30 @@ def process_queue_item(
 
             raw_segments = transcribe_segments(whisper_model, video_path, args)
             if not raw_segments:
-                raise RuntimeError("transcription returned no segments")
+                append_jsonl(
+                    skip_log_path,
+                    {
+                        "ts": timestamp_now(),
+                        "mediaid": item.mediaid,
+                        "shortcode": item.shortcode,
+                        "title": item.title,
+                        "reason": "NoSpeech",
+                        "detail": "transcription returned no segments",
+                    },
+                )
+                if args.verbose:
+                    print(
+                        f"{label} no speech detected mediaid={item.mediaid}",
+                        file=sys.stderr,
+                        flush=True,
+                    )
+                transcript_text = build_transcript_text(item, [])
+                transcript_path.write_text(transcript_text, encoding="utf-8")
+                processed_mediaids.add(item.mediaid)
+                save_checkpoint(checkpoint_path, processed_mediaids, item.mediaid)
+                if args.delay > 0:
+                    time.sleep(args.delay)
+                return ProcessItemOutcome(outcome="transcribed", downloaded=downloaded)
             kept_segments = keep_dominant_speaker_segments(
                 raw_segments,
                 diarization_pipeline,
@@ -989,6 +1077,19 @@ def process_queue_item(
             file=sys.stderr,
         )
         return ProcessItemOutcome(outcome="failed", downloaded=False)
+
+
+def make_redis_client(url: str, *, block_ms: int | None = None):
+    """
+    Create a redis-py client. For XREADGROUP BLOCK, socket_timeout must exceed
+    block_ms (redis-py defaults to 5s, which breaks 30s blocking reads).
+    """
+    import redis
+
+    kwargs: dict[str, object] = {"decode_responses": True}
+    if block_ms is not None:
+        kwargs["socket_timeout"] = max(60.0, (block_ms / 1000.0) + 15.0)
+    return redis.Redis.from_url(url, **kwargs)
 
 
 def run_redis_producer(
@@ -1225,11 +1326,23 @@ def run_redis_worker(
     consumer = (args.redis_consumer_name or "").strip(
     ) or f"{socket.gethostname()}:{os.getpid()}"
 
+    block_ms = max(500, int(args.redis_block_ms))
+
     try:
-        client = redis.Redis.from_url(url, decode_responses=True)
+        client = make_redis_client(url, block_ms=block_ms)
         client.ping()
     except RedisError as exc:
+        err_msg = (
+            f"Redis connection failed: {exc}. "
+            f"stream={stream!r} group={group!r} consumer={consumer!r}."
+        )
         print(f"error: Redis connection failed: {exc}", file=sys.stderr)
+        notify_simplepush(
+            simplepush_key,
+            f"{args.simplepush_title} - worker error",
+            err_msg,
+            args.simplepush_event or None,
+        )
         return 2
 
     try:
@@ -1238,7 +1351,6 @@ def run_redis_worker(
         if "BUSYGROUP" not in str(exc):
             raise
 
-    block_ms = max(500, int(args.redis_block_ms))
     idle_exit = args.redis_idle_exit_seconds
     max_jobs = args.redis_max_jobs
     idle_rounds_limit: int | None = None
@@ -1276,7 +1388,18 @@ def run_redis_worker(
                 block=block_ms,
             )
         except RedisError as exc:
+            err_msg = (
+                f"Redis XREADGROUP failed: {exc}. "
+                f"stream={stream!r} group={group!r} consumer={consumer!r}. "
+                f"Jobs processed so far: {jobs_done}."
+            )
             print(f"error: Redis XREADGROUP: {exc}", file=sys.stderr)
+            notify_simplepush(
+                simplepush_key,
+                f"{args.simplepush_title} - worker error",
+                err_msg,
+                args.simplepush_event or None,
+            )
             return 1
 
         if not resp:
@@ -1387,7 +1510,10 @@ def run_redis_worker(
                         simplepush_key, f"{args.simplepush_title} - worker", summary, args.simplepush_event or None)
                     return 0 if stats["failed"] == 0 else 1
 
-                if consecutive_errors >= args.max_consecutive_errors:
+                if (
+                    args.max_consecutive_errors > 0
+                    and consecutive_errors >= args.max_consecutive_errors
+                ):
                     stop_msg = (
                         f"Redis worker stopping after {consecutive_errors} consecutive errors."
                     )
@@ -1812,6 +1938,16 @@ def _env_disable_diarization_default() -> bool:
     return v in ("1", "true", "yes", "on")
 
 
+def _env_max_consecutive_errors_default() -> int:
+    raw = (os.environ.get("MAX_CONSECUTIVE_ERRORS") or "").strip()
+    if not raw:
+        return 12
+    try:
+        return int(raw)
+    except ValueError:
+        return 12
+
+
 def _env_transcript_no_proxy_default() -> bool:
     v = (os.environ.get("TRANSCRIPT_NO_PROXY") or "").strip().lower()
     return v in ("1", "true", "yes", "on")
@@ -1915,7 +2051,16 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--request-delay-max", type=float, default=4.5)
     parser.add_argument("--cooldown-every", type=int, default=50)
     parser.add_argument("--cooldown-seconds", type=float, default=90.0)
-    parser.add_argument("--max-consecutive-errors", type=int, default=12)
+    parser.add_argument(
+        "--max-consecutive-errors",
+        type=int,
+        default=_env_max_consecutive_errors_default(),
+        help=(
+            "Stop after N consecutive job failures (default: 12, env: MAX_CONSECUTIVE_ERRORS). "
+            "Use 0 to disable the limit (worker keeps running). "
+            "Silent/no-speech videos are logged as NoSpeech and do not count as failures."
+        ),
+    )
 
     parser.add_argument("--max-retries", type=int, default=3)
     parser.add_argument("--retry-backoff-base", type=float, default=2.0)
@@ -2570,7 +2715,10 @@ def main(argv: list[str]) -> int:
         else:
             stats["failed"] += 1
             consecutive_errors += 1
-            if consecutive_errors >= args.max_consecutive_errors:
+            if (
+                args.max_consecutive_errors > 0
+                and consecutive_errors >= args.max_consecutive_errors
+            ):
                 stop_msg = (
                     f"Stopping early after {consecutive_errors} consecutive errors "
                     f"at mediaid {item.mediaid}."

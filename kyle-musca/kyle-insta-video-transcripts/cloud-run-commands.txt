@@ -9,7 +9,7 @@ source .venv/bin/activate && python instagram_reels_transcripts.py "https://www.
   --proxy-downloads-only \
   --resume \
   --out /mnt/efs/fs1 \
-  --verbose
+  --verbose \
   --request-delay-min 1 --request-delay-max 8
 
 tmux new -s worker
@@ -22,7 +22,8 @@ source .venv/bin/activate && python instagram_reels_transcripts.py kiarajaye \
    --resume \
    --model-size large-v3 \
    --verbose \
-   --bypass-proxy
+   --bypass-proxy \
+   --max-consecutive-errors 0
 
 b. The consumer instances:
 tmux new -s worker
@@ -36,7 +37,8 @@ source .venv/bin/activate && python instagram_reels_transcripts.py kiarajaye \
    --resume \
    --model-size large-v3 \
    --verbose \
-   --bypass-proxy
+   --bypass-proxy \
+   --max-consecutive-errors 0
 
 2. phase 2: retry
 tmux new -s producer
@@ -60,5 +62,5 @@ python instagram_reels_transcripts.py coachedbybre \
   --bypass-proxy \
   --redis-idle-exit-seconds 300 \
   --redis-idle-notify-seconds 300 \
-  --max-consecutive-errors 999999 \
+  --max-consecutive-errors 0 \
   --verbose
