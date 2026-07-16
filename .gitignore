@@ -21,3 +21,6 @@ chromedriver.exe
 
 masothue*.json
 *.zip
+
+# Git worktrees (local agent isolation)
+.worktrees/
