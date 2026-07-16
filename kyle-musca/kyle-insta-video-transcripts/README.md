@@ -584,3 +584,7 @@ When using **`--sessionfile`**, set **`INSTALOADER_SESSION_USERNAME`** (or `--se
    Some environments benefit from matching a normal browser User-Agent string.
 
 Use `--verbose` to confirm which proxy and session path are active.
+
+## See also
+
+- [`kyle-ad-library-video-transcripts`](../kyle-ad-library-video-transcripts/) — Meta Ad Library video scrape + Whisper (local or Redis).

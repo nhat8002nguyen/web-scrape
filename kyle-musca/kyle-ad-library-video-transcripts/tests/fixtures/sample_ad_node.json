@@ -1,0 +1,25 @@
+{
+  "ad_archive_id": "1295034249373689",
+  "page_id": "116482854782233",
+  "page_name": "Alex Hormozi",
+  "is_active": true,
+  "start_date": 1719014400,
+  "publisher_platform": ["FACEBOOK", "INSTAGRAM"],
+  "snapshot": {
+    "body": {
+      "text": "**Are you struggling to scale?**\n\nTo scale, you need one of these three things."
+    },
+    "title": "Download Free Personalized Scaling Roadmap",
+    "cta_text": "Download",
+    "display_format": "VIDEO",
+    "link_url": "https://www.acquisition.com/roadmap",
+    "images": [],
+    "videos": [
+      {
+        "video_hd_url": "https://video.xx.fbcdn.net/example-hd.mp4",
+        "video_sd_url": "https://video.xx.fbcdn.net/example-sd.mp4",
+        "video_preview_image_url": "https://scontent.xx.fbcdn.net/example.jpg"
+      }
+    ]
+  }
+}

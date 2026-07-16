@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+output/
+videos/
+transcripts/
+metadata/
+checkpoint.json
+skipped.jsonl
+.playwright/
+*.pem
+.DS_Store
