@@ -1594,6 +1594,68 @@ def instagram_enumeration_hints(exc: BaseException, *, username: str, used_proxy
     return "\n".join(lines)
 
 
+_INSTALOADER_TEST_LOGIN_PATCHED = False
+
+
+def cookie_jar_dict_from_loader(loader) -> dict[str, str]:
+    return requests.utils.dict_from_cookiejar(loader.context._session.cookies)
+
+
+def sync_instaloader_context_user_id_from_cookies(loader) -> None:
+    ds_user_id = (cookie_jar_dict_from_loader(loader).get("ds_user_id") or "").strip()
+    if not ds_user_id:
+        return
+    try:
+        loader.context.user_id = ds_user_id
+    except Exception:
+        pass
+
+
+def patch_instaloader_test_login() -> None:
+    """
+    Instaloader 4.15.x test_login() uses a retired graphql query_hash
+    (d6f4427fbe92d846298cf93df0b937d3) that often returns 401 even when
+    session cookies are valid. Try the mobile current_user endpoint first.
+    """
+    global _INSTALOADER_TEST_LOGIN_PATCHED
+    if _INSTALOADER_TEST_LOGIN_PATCHED:
+        return
+    try:
+        from instaloader.instaloadercontext import InstaloaderContext
+    except Exception:
+        return
+
+    _orig_test_login = InstaloaderContext.test_login
+
+    def _test_login_patched(self):  # type: ignore[no-untyped-def]
+        jar = requests.utils.dict_from_cookiejar(self._session.cookies)
+        sessionid = (jar.get("sessionid") or "").strip()
+        if not sessionid:
+            return None
+        ds_user_id = (jar.get("ds_user_id") or "").strip()
+        if ds_user_id and not getattr(self, "user_id", None):
+            try:
+                self.user_id = ds_user_id
+            except Exception:
+                pass
+
+        try:
+            resp = self.get_iphone_json(
+                "api/v1/accounts/current_user/", {"edit": "true"}
+            )
+            user = resp.get("user") if isinstance(resp, dict) else None
+            username = user.get("username") if isinstance(user, dict) else None
+            if username:
+                return str(username)
+        except Exception:
+            pass
+
+        return _orig_test_login(self)
+
+    InstaloaderContext.test_login = _test_login_patched  # type: ignore[method-assign]
+    _INSTALOADER_TEST_LOGIN_PATCHED = True
+
+
 _INSTALOADER_PROFILE_GRAPHQL_PATCHED = False
 
 
@@ -1790,6 +1852,7 @@ def patch_instaloader_post_metadata() -> None:
 
 
 def patch_instaloader() -> None:
+    patch_instaloader_test_login()
     patch_instaloader_profile_graphql()
     patch_instaloader_post_metadata()
 
@@ -1843,10 +1906,16 @@ def apply_instaloader_logged_in_headers(loader, *, verbose: bool) -> None:
         )
 
 
-def load_cookies_from_browser_extension_json(loader, path: Path, *, verbose: bool) -> str:
+def load_cookies_from_browser_extension_json(
+    loader,
+    path: Path,
+    *,
+    verbose: bool,
+    session_username_fallback: str | None = None,
+) -> str:
     """
     Load Instagram cookies from a JSON list export (e.g. EditThisCookie, Cookie-Editor).
-    Validates with Instaloader.test_login().
+    Validates with Instaloader.test_login() (patched to prefer mobile current_user API).
     """
     text = path.read_text(encoding="utf-8")
     data = json.loads(text)
@@ -1893,22 +1962,49 @@ def load_cookies_from_browser_extension_json(loader, path: Path, *, verbose: boo
         print(f"loaded {count} Instagram cookie(s) from {path}",
               file=sys.stderr)
 
+    sync_instaloader_context_user_id_from_cookies(loader)
     apply_instaloader_logged_in_headers(loader, verbose=verbose)
 
     logged_in_as = loader.test_login()
-    if not logged_in_as:
+    if logged_in_as:
+        try:
+            loader.context.username = logged_in_as
+        except Exception:
+            pass
+        if verbose:
+            print(
+                f"Instagram session verified as @{logged_in_as}", file=sys.stderr)
+        return logged_in_as
+
+    jar = cookie_jar_dict_from_loader(loader)
+    if not (jar.get("sessionid") or "").strip():
         raise RuntimeError(
-            "Instagram cookie login failed: test_login() returned empty. "
-            "Export cookies again while logged in, or set --user-agent to match your browser."
+            "Instagram cookie login failed: export is missing a non-empty sessionid cookie. "
+            "Re-export cookies from your browser while logged in to instagram.com."
         )
-    try:
-        loader.context.username = logged_in_as
-    except Exception:
-        pass
-    if verbose:
-        print(
-            f"Instagram session verified as @{logged_in_as}", file=sys.stderr)
-    return logged_in_as
+
+    fallback = (session_username_fallback or "").strip()
+    if fallback:
+        if verbose:
+            print(
+                "warning: Instagram API could not verify cookie session (often rate-limit or "
+                f"IP mismatch); continuing with --session-username / INSTALOADER_SESSION_USERNAME "
+                f"= @{fallback}. Re-export cookies or use --proxy-downloads-only if listing fails.",
+                file=sys.stderr,
+            )
+        try:
+            loader.context.username = fallback
+        except Exception:
+            pass
+        return fallback
+
+    raise RuntimeError(
+        "Instagram cookie login failed: sessionid is present but Instagram rejected the session. "
+        "Re-export cookies while logged in, set --user-agent to match your browser, and when using "
+        "a proxy with cookies pass --proxy-downloads-only (crawl on direct IP). "
+        "If the API is rate-limiting, set --session-username (or INSTALOADER_SESSION_USERNAME) "
+        "to your logged-in account and retry."
+    )
 
 
 def build_transcript_text(item: ReelVideo, segments: list[dict[str, object]]) -> str:
@@ -2333,6 +2429,23 @@ def main(argv: list[str]) -> int:
             file=sys.stderr,
         )
 
+    cookies_auto_direct = (
+        os.environ.get("COOKIES_AUTO_DIRECT_CRAWL", "1").strip().lower()
+        not in ("0", "false", "no", "off")
+    )
+    if (
+        cookies_json_arg
+        and proxy_urls
+        and not args.proxy_downloads_only
+        and cookies_auto_direct
+    ):
+        args.proxy_downloads_only = True
+        print(
+            "info: --cookies-json with proxy configured; Instaloader crawl uses direct IP "
+            "(auto --proxy-downloads-only). Set COOKIES_AUTO_DIRECT_CRAWL=0 to disable.",
+            file=sys.stderr,
+        )
+
     if args.redis_mode == "requeue-skipped":
         return run_redis_requeue_skipped(
             args,
@@ -2506,8 +2619,15 @@ def main(argv: list[str]) -> int:
                 f"error: --cookies-json not found: {cookies_path}", file=sys.stderr)
             return 2
         try:
+            session_owner = (
+                (args.session_username or "").strip()
+                or (os.environ.get("INSTALOADER_SESSION_USERNAME") or "").strip()
+            )
             load_cookies_from_browser_extension_json(
-                loader, cookies_path.resolve(), verbose=args.verbose
+                loader,
+                cookies_path.resolve(),
+                verbose=args.verbose,
+                session_username_fallback=session_owner or None,
             )
         except Exception as exc:
             print(

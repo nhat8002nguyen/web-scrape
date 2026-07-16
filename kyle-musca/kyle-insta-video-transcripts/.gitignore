@@ -7,3 +7,4 @@ __pycache__/
 redis-pass.txt
 output/*
 !output/.gitkeep
+transcripts/*.txt

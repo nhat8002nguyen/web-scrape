@@ -11,6 +11,9 @@ source .venv/bin/activate && python instagram_reels_transcripts.py "https://www.
   --verbose \
   --request-delay-min 1 --request-delay-max 8
 
+# With Webshare + cookies.json in .env, crawl auto-uses direct IP (--proxy-downloads-only).
+# If verify still fails, re-export cookies.json and set INSTALOADER_SESSION_USERNAME.
+
 tmux new -s worker
 source .venv/bin/activate && python instagram_reels_transcripts.py higherupwellness \
    --redis-mode worker \
