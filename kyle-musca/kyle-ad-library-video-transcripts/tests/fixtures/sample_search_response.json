@@ -1,0 +1,50 @@
+{
+  "data": {
+    "ad_library_main": {
+      "search_results_connection": {
+        "edges": [
+          {
+            "node": {
+              "collated_results": [
+                {
+                  "ad_archive_id": "1295034249373689",
+                  "page_id": "116482854782233",
+                  "page_name": "Alex Hormozi",
+                  "is_active": true,
+                  "start_date": 1719014400,
+                  "publisher_platform": ["FACEBOOK", "INSTAGRAM"],
+                  "snapshot": {
+                    "body": {"text": "Hello world ad copy"},
+                    "title": "Download Free Personalized Scaling Roadmap",
+                    "display_format": "VIDEO",
+                    "videos": [
+                      {
+                        "video_hd_url": "https://video.xx.fbcdn.net/example-hd.mp4",
+                        "video_sd_url": "https://video.xx.fbcdn.net/example-sd.mp4"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "ad_archive_id": "999",
+                  "page_id": "116482854782233",
+                  "page_name": "Alex Hormozi",
+                  "snapshot": {
+                    "title": "Image only",
+                    "display_format": "IMAGE",
+                    "videos": [],
+                    "images": [{"original_image_url": "https://scontent.xx.fbcdn.net/x.jpg"}]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "page_info": {
+          "has_next_page": true,
+          "end_cursor": "CURSOR_ABC"
+        }
+      }
+    }
+  }
+}
