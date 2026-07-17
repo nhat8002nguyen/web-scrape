@@ -10,6 +10,8 @@ from whisper_skipped_transcripts import (
     DEFAULT_WHISPER_REASONS,
     filter_entries_by_reason,
     load_skipped_entries,
+    main,
+    parse_args,
     process_skipped_video,
     resolve_downloaded_media_path,
     segments_to_transcript_text,
@@ -214,3 +216,23 @@ def test_process_skipped_video_failed_keeps_media(tmp_path: Path, monkeypatch):
     assert media.is_file()
     fail_lines = fail_path.read_text(encoding="utf-8").strip().splitlines()
     assert json.loads(fail_lines[0])["reason"] == "whisper_no_speech"
+
+
+def test_parse_args_uses_whisper_cli_defaults():
+    args = parse_args(["--skip-log", "skipped.jsonl"])
+
+    assert args.out == "transcripts"
+    assert args.download_dir == "videos"
+    assert args.model_size == "large-v3"
+    assert args.vad_filter is True
+    assert args.format == "lines"
+
+
+def test_main_dry_run_filters_to_whisper_reasons(capsys):
+    status = main(["--skip-log", str(FIXTURE), "--dry-run"])
+
+    captured = capsys.readouterr()
+    assert status == 0
+    assert "p4kM2Z81C4c" in captured.out
+    assert "Ouo7Se6zpfM" not in captured.out
+    assert "dry-run count=3" in captured.out

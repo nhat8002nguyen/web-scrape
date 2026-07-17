@@ -312,3 +312,277 @@ def process_skipped_video(
                 media_path.unlink()
             except OSError:
                 pass
+
+
+def parse_args(argv: list[str]) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Whisper-transcribe YouTube videos listed in skipped.jsonl.",
+    )
+    parser.add_argument(
+        "--skip-log",
+        required=True,
+        metavar="PATH",
+        help="Path to the skipped.jsonl file to process.",
+    )
+    parser.add_argument(
+        "--out",
+        "-o",
+        default="transcripts",
+        help="Directory for .txt transcripts (default: ./transcripts).",
+    )
+    parser.add_argument(
+        "--download-dir",
+        default="videos",
+        metavar="PATH",
+        help="Media cache directory; relative paths are resolved under --out.",
+    )
+    parser.add_argument(
+        "--fail-log",
+        default="whisper_failed.jsonl",
+        metavar="PATH",
+        help="Whisper failure log; relative paths are resolved under --out.",
+    )
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        help="Skip videos whose transcript file already exists in --out.",
+    )
+    parser.add_argument(
+        "--all-reasons",
+        action="store_true",
+        help="Process every valid row in --skip-log, not only caption-unavailable rows.",
+    )
+    parser.add_argument(
+        "--reason-contains",
+        default="",
+        metavar="TEXT",
+        help="Only process rows whose reason contains this case-insensitive text.",
+    )
+    parser.add_argument(
+        "--limit",
+        "-n",
+        type=int,
+        default=None,
+        metavar="N",
+        help="Process at most N matching videos.",
+    )
+    parser.add_argument(
+        "--model-size",
+        default="large-v3",
+        help="faster-whisper model size (default: large-v3).",
+    )
+    parser.add_argument(
+        "--device",
+        choices=("auto", "cpu", "cuda"),
+        default="auto",
+        help="Whisper device (default: auto).",
+    )
+    parser.add_argument(
+        "--compute-type",
+        default="auto",
+        help="faster-whisper compute type (default: auto).",
+    )
+    parser.add_argument(
+        "--beam-size",
+        type=int,
+        default=5,
+        help="Whisper beam size (default: 5).",
+    )
+    parser.add_argument(
+        "--language",
+        default="en",
+        help='Whisper language; use "" to auto-detect (default: en).',
+    )
+    vad_filter = parser.add_mutually_exclusive_group()
+    vad_filter.add_argument(
+        "--vad-filter",
+        dest="vad_filter",
+        action="store_true",
+        default=True,
+        help="Enable voice activity detection filtering (default).",
+    )
+    vad_filter.add_argument(
+        "--no-vad-filter",
+        dest="vad_filter",
+        action="store_false",
+        help="Disable voice activity detection filtering.",
+    )
+    parser.add_argument(
+        "--format",
+        choices=("lines", "paragraph"),
+        default="lines",
+        help="Transcript output format (default: lines).",
+    )
+    parser.add_argument(
+        "--delay",
+        type=float,
+        default=0,
+        help="Sleep seconds after each successful transcription (default: 0).",
+    )
+    parser.add_argument(
+        "--keep-media",
+        action="store_true",
+        help="Keep downloaded media after a successful transcription.",
+    )
+    parser.add_argument(
+        "--verbose",
+        action="store_true",
+        help="Show yt-dlp output.",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="List selected videos without loading Whisper or downloading media.",
+    )
+    parser.add_argument(
+        "--simplepush-key",
+        default=None,
+        metavar="KEY",
+        help="Simplepush key; overrides SIMPLEPUSH_KEY and 56F6LP.",
+    )
+    parser.add_argument(
+        "--simplepush-title",
+        default="YouTube Whisper transcripts",
+        help="Simplepush notification title.",
+    )
+    parser.add_argument(
+        "--simplepush-event",
+        default="",
+        help="Optional Simplepush event id.",
+    )
+    parser.add_argument(
+        "--test-simplepush",
+        action="store_true",
+        help="Send a test Simplepush notification and exit.",
+    )
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str]) -> int:
+    from download_channel_transcripts import (
+        load_env_files,
+        load_skip_log_video_ids,
+        notify_simplepush,
+        resolve_simplepush_key,
+    )
+
+    load_env_files()
+    args = parse_args(argv)
+
+    if args.test_simplepush:
+        simplepush_key = resolve_simplepush_key(args)
+        if not simplepush_key:
+            print(
+                "error: Simplepush test needs --simplepush-key or "
+                "SIMPLEPUSH_KEY / 56F6LP in the environment or .env.",
+                file=sys.stderr,
+            )
+            return 2
+        notify_simplepush(
+            simplepush_key,
+            args.simplepush_title,
+            "Test from whisper_skipped_transcripts.py",
+            args.simplepush_event or None,
+        )
+        print("Simplepush: test notification sent.", file=sys.stderr)
+        return 0
+
+    skip_path = Path(args.skip_log).expanduser().resolve()
+    if not skip_path.is_file():
+        print(f"error: --skip-log not found: {skip_path}", file=sys.stderr)
+        return 2
+
+    out_dir = Path(args.out).expanduser().resolve()
+    out_dir.mkdir(parents=True, exist_ok=True)
+    download_dir = Path(args.download_dir).expanduser()
+    if not download_dir.is_absolute():
+        download_dir = out_dir / download_dir
+    download_dir = download_dir.resolve()
+    download_dir.mkdir(parents=True, exist_ok=True)
+
+    entries = load_skipped_entries(skip_path)
+    entries = filter_entries_by_reason(
+        entries,
+        reasons=None if args.all_reasons else DEFAULT_WHISPER_REASONS,
+        reason_contains=args.reason_contains or None,
+    )
+    if args.limit is not None:
+        entries = entries[: args.limit]
+
+    if not entries:
+        print("No matching skipped videos to process.")
+        return 0
+
+    if args.dry_run:
+        for entry in entries:
+            print(
+                f"{entry['video_id']}\t{entry.get('reason', '')}\t{entry['title']}"
+            )
+        print(f"dry-run count={len(entries)}")
+        return 0
+
+    try:
+        whisper_model = load_whisper_model(args)
+    except Exception as exc:
+        print(f"error: failed to load Whisper model: {exc}", file=sys.stderr)
+        return 2
+
+    fail_path = Path(args.fail_log).expanduser()
+    if not fail_path.is_absolute():
+        fail_path = out_dir / fail_path
+    fail_path = fail_path.resolve()
+    fail_path.parent.mkdir(parents=True, exist_ok=True)
+    fail_seen = load_skip_log_video_ids(fail_path)
+    stats = {"transcribed": 0, "skipped_existing": 0, "failed": 0}
+
+    with fail_path.open("a", encoding="utf-8") as fail_log:
+        for index, entry in enumerate(entries, start=1):
+            video_id = entry["video_id"]
+            title = entry["title"]
+            print(f"[{index}/{len(entries)}] {video_id}: {title[:120]}", flush=True)
+            outcome = process_skipped_video(
+                video_id=video_id,
+                title=title,
+                out_dir=out_dir,
+                download_dir=download_dir,
+                whisper_model=whisper_model,
+                args=args,
+                fail_log_handle=fail_log,
+                fail_seen=fail_seen,
+            )
+            if outcome == "transcribed":
+                stats["transcribed"] += 1
+                if args.delay > 0:
+                    time.sleep(args.delay)
+            elif outcome == "skipped_existing":
+                stats["skipped_existing"] += 1
+            elif outcome == "failed":
+                stats["failed"] += 1
+
+    print("\nDone.")
+    print(f"Transcribed:                  {stats['transcribed']}")
+    print(f"Skipped (already on disk):    {stats['skipped_existing']}")
+    print(f"Failed:                       {stats['failed']}")
+    print(f"Videos in this run:           {len(entries)}")
+    print(f"Output directory:             {out_dir}")
+    print(f"Failure log:                  {fail_path}")
+
+    simplepush_key = resolve_simplepush_key(args)
+    if simplepush_key:
+        notify_simplepush(
+            simplepush_key,
+            f"{args.simplepush_title} — finished",
+            (
+                f"Processed {len(entries)} video(s). "
+                f"Transcribed: {stats['transcribed']}, "
+                f"skipped: {stats['skipped_existing']}, "
+                f"failed: {stats['failed']}. Output: {out_dir}"
+            ),
+            args.simplepush_event or None,
+        )
+
+    return 0 if stats["failed"] == 0 else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))
