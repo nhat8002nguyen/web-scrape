@@ -1,0 +1,68 @@
+1. phase1: run all
+a. The producer instance:
+tmux new -s producer
+source .venv/bin/activate && python instagram_reels_transcripts.py "https://www.instagram.com/kellykpoole/reels/" \
+  --redis-mode producer \
+  --redis-url "redis://:tsesXTaU1INV5GBqQfKP6TjJcJsb4T@127.0.0.1:6379/0" \
+  --redis-stream insta:reel:jobs \
+  --redis-group transcribers \
+  --resume \
+  --out /mnt/efs/fs1 \
+  --verbose \
+  --request-delay-min 1 --request-delay-max 8
+
+# With Webshare + cookies.json in .env, crawl auto-uses direct IP (--proxy-downloads-only).
+# If verify still fails, re-export cookies.json and set INSTALOADER_SESSION_USERNAME.
+
+tmux new -s worker
+source .venv/bin/activate && python instagram_reels_transcripts.py kellykpoole \
+   --redis-mode worker \
+   --redis-url "redis://:tsesXTaU1INV5GBqQfKP6TjJcJsb4T@127.0.0.1:6379/0" \
+   --redis-stream insta:reel:jobs \
+   --redis-group transcribers \
+   --out /mnt/efs/fs1 \
+   --resume \
+   --model-size large-v3 \
+   --verbose \
+   --bypass-proxy \
+   --max-consecutive-errors 0
+
+b. The consumer instances:
+tmux new -s worker
+
+source .venv/bin/activate && python instagram_reels_transcripts.py kellykpoole \
+   --redis-mode worker \
+   --redis-url "redis://:tsesXTaU1INV5GBqQfKP6TjJcJsb4T@172.31.36.240:6379/0" \
+   --redis-stream insta:reel:jobs \
+   --redis-group transcribers \
+   --out /mnt/efs/fs1 \
+   --resume \
+   --model-size large-v3 \
+   --verbose \
+   --bypass-proxy \
+   --max-consecutive-errors 0
+
+2. phase 2: retry
+tmux new -s producer
+python instagram_reels_transcripts.py kellykpoole \
+  --redis-mode requeue-skipped \
+  --redis-stream insta:reel:jobs:retry \
+  --redis-producer-dedupe \
+  --out /mnt/efs/fs1 \
+  --skip-log skipped.jsonl \
+  --resume \
+  --verbose
+
+tmux new -s worker
+python instagram_reels_transcripts.py kellykpoole \
+  --redis-mode worker \
+  --redis-stream insta:reel:jobs:retry \
+  --redis-group transcribers \
+  --out /mnt/efs/fs1 \
+  --resume \
+  --model-size large-v3 \
+  --bypass-proxy \
+  --redis-idle-exit-seconds 300 \
+  --redis-idle-notify-seconds 300 \
+  --max-consecutive-errors 0 \
+  --verbose
