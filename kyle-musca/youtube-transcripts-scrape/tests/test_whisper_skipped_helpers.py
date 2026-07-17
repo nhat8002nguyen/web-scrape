@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from types import SimpleNamespace
 
 import pytest
 
@@ -10,6 +11,7 @@ from whisper_skipped_transcripts import (
     filter_entries_by_reason,
     load_skipped_entries,
     segments_to_transcript_text,
+    transcribe_segments,
 )
 
 FIXTURE = Path(__file__).parent / "fixtures" / "sample_skipped.jsonl"
@@ -70,3 +72,22 @@ def test_segments_to_transcript_text_paragraph():
     ]
     text = segments_to_transcript_text(segments, style="paragraph")
     assert text == "Hello world\n"
+
+
+class _FakeSeg:
+    def __init__(self, start: float, end: float, text: str):
+        self.start = start
+        self.end = end
+        self.text = text
+
+
+class _FakeModel:
+    def transcribe(self, path, beam_size=5, language=None, vad_filter=True):
+        assert Path(path).name == "clip.wav"
+        return iter([_FakeSeg(0.0, 1.0, " hi "), _FakeSeg(1.0, 2.0, "")]), None
+
+
+def test_transcribe_segments_strips_empty():
+    args = SimpleNamespace(beam_size=5, language="en", vad_filter=True)
+    segs = transcribe_segments(_FakeModel(), Path("/tmp/clip.wav"), args)
+    assert segs == [{"start": 0.0, "end": 1.0, "text": "hi"}]
