@@ -219,6 +219,8 @@ def download_youtube_media(
     dest_dir: Path,
     *,
     quiet: bool = True,
+    cookies_from_browser: str | None = None,
+    cookies_file: str | None = None,
 ) -> Path:
     dest_dir.mkdir(parents=True, exist_ok=True)
     existing = list(dest_dir.glob(f"{video_id}.*"))
@@ -237,7 +239,18 @@ def download_youtube_media(
         "quiet": quiet,
         "no_warnings": quiet,
         "noprogress": quiet,
+        # YouTube JS challenge solving (needed for real audio formats).
+        "js_runtimes": {"node": {}},
+        "remote_components": {"ejs:github"},
     }
+    browser = (cookies_from_browser or "").strip()
+    cookie_path = (cookies_file or "").strip()
+    if browser and cookie_path:
+        raise ValueError("Use only one of cookies_from_browser or cookies_file.")
+    if browser:
+        opts["cookiesfrombrowser"] = (browser,)
+    elif cookie_path:
+        opts["cookiefile"] = cookie_path
     url = youtube_watch_url(video_id)
     with yt_dlp.YoutubeDL(opts) as ydl:
         ydl.download([url])
@@ -269,7 +282,11 @@ def process_skipped_video(
     outcome = "failed"
     try:
         media_path = download_youtube_media(
-            video_id, download_dir, quiet=not args.verbose
+            video_id,
+            download_dir,
+            quiet=not args.verbose,
+            cookies_from_browser=getattr(args, "cookies_from_browser", None),
+            cookies_file=getattr(args, "cookies", None),
         )
         segments = transcribe_segments(whisper_model, media_path, args)
         body = segments_to_transcript_text(segments, style=args.format)
@@ -430,6 +447,21 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         help="Show yt-dlp output.",
     )
     parser.add_argument(
+        "--cookies-from-browser",
+        default=None,
+        metavar="BROWSER",
+        help=(
+            "Pass browser cookies to yt-dlp (e.g. chrome, safari, firefox). "
+            "Needed when YouTube returns bot/sign-in challenges."
+        ),
+    )
+    parser.add_argument(
+        "--cookies",
+        default=None,
+        metavar="PATH",
+        help="Netscape cookies.txt for yt-dlp (mutually exclusive with --cookies-from-browser).",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="List selected videos without loading Whisper or downloading media.",
@@ -468,6 +500,17 @@ def main(argv: list[str]) -> int:
 
     load_env_files()
     args = parse_args(argv)
+
+    browser = (args.cookies_from_browser or "").strip()
+    cookie_file = (args.cookies or "").strip()
+    if browser and cookie_file:
+        print(
+            "error: use either --cookies-from-browser or --cookies, not both.",
+            file=sys.stderr,
+        )
+        return 2
+    args.cookies_from_browser = browser or None
+    args.cookies = cookie_file or None
 
     if args.test_simplepush:
         simplepush_key = resolve_simplepush_key(args)

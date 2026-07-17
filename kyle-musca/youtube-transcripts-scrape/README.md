@@ -79,11 +79,13 @@ pip install -r requirements.txt
 python3 whisper_skipped_transcripts.py \
   --skip-log ./transcripts/hattieboydle7662/skipped.jsonl \
   --out ./transcripts/hattieboydle7662 \
-  --download-dir ./transcripts/hattieboydle7662/videos \
+  --download-dir videos \
+  --cookies-from-browser chrome \
   --resume \
   --verbose
 ```
 
+Requires **Node.js** on PATH (yt-dlp JS challenge solving) and browser cookies when YouTube returns a bot/sign-in challenge.
 - Default reason filter: `transcripts_disabled`, `no_matching_transcript`.
 - Use `--all-reasons` to include proxy/IP skip rows (prefer API `--retry-from-skip-log` for those first).
 - Use `--dry-run` to preview selected IDs.
