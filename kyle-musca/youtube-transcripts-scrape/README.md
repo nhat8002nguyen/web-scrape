@@ -136,6 +136,48 @@ Or in `.env` next to the script, same variable names. Omit `--webshare-locations
 
 ## Running on EC2
 
+Preferred: sync like the Instagram project (`sync-to-ec2.sh`). Place `video-transcripts-server.pem` (or `crawler1.pem`) next to this script, or set `SSH_KEY`.
+
+```bash
+chmod 400 ./video-transcripts-server.pem
+chmod +x ./sync-to-ec2.sh
+
+# Code only (default remote: ~/youtube-transcripts-scrape)
+./sync-to-ec2.sh ubuntu@your-ec2-host
+
+# Also sync transcripts/ so skipped.jsonl + existing .txt are on the host for --resume
+./sync-to-ec2.sh --with-transcripts ubuntu@your-ec2-host
+```
+
+Copy secrets separately (never committed):
+
+```bash
+scp -i ./video-transcripts-server.pem .env cookies.txt ubuntu@your-ec2-host:~/youtube-transcripts-scrape/
+```
+
+For Whisper downloads, export a Netscape `cookies.txt` from a logged-in browser (yt-dlp FAQ / “Get cookies.txt LOCALLY” extension). EC2 cannot use `--cookies-from-browser`.
+
+On the instance:
+
+```bash
+ssh -i ./video-transcripts-server.pem ubuntu@your-ec2-host
+cd ~/youtube-transcripts-scrape
+./scripts/ec2_setup_and_run.sh setup
+# ensure ffmpeg + nodejs for yt-dlp JS challenges (setup installs ffmpeg; add nodejs if missing)
+sudo apt update && sudo apt install -y nodejs
+
+# Whisper remaining skipped videos (example: Hattie)
+source .venv/bin/activate
+python whisper_skipped_transcripts.py \
+  --skip-log ./transcripts/hattieboydle7662/skipped.jsonl \
+  --out ./transcripts/hattieboydle7662 \
+  --download-dir videos \
+  --cookies ./cookies.txt \
+  --resume --verbose
+```
+
+### Manual rsync (legacy)
+
 Upload the project from your Mac (skips local `.venv`, build output, transcripts, and `.env`). Run from the `youtube-transcripts-scrape/` folder. The `-e` flag must be **`ssh -i KEY.pem`**, not the `.pem path alone.
 
 ```bash
