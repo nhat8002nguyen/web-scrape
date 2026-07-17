@@ -1,0 +1,10 @@
+.env
+cookies.json
+**/cookies*.json
+*.pyc
+.venv/
+__pycache__/
+redis-pass.txt
+output/*
+!output/.gitkeep
+transcripts/*.txt
