@@ -10,6 +10,8 @@ from whisper_skipped_transcripts import (
     DEFAULT_WHISPER_REASONS,
     filter_entries_by_reason,
     load_skipped_entries,
+    process_skipped_video,
+    resolve_downloaded_media_path,
     segments_to_transcript_text,
     transcribe_segments,
 )
@@ -91,3 +93,124 @@ def test_transcribe_segments_strips_empty():
     args = SimpleNamespace(beam_size=5, language="en", vad_filter=True)
     segs = transcribe_segments(_FakeModel(), Path("/tmp/clip.wav"), args)
     assert segs == [{"start": 0.0, "end": 1.0, "text": "hi"}]
+
+
+def test_resolve_downloaded_media_path_finds_file(tmp_path: Path):
+    media = tmp_path / "abc12345678.m4a"
+    media.write_bytes(b"x")
+    found = resolve_downloaded_media_path(tmp_path, "abc12345678")
+    assert found == media
+
+
+def test_resolve_downloaded_media_path_missing(tmp_path: Path):
+    with pytest.raises(FileNotFoundError):
+        resolve_downloaded_media_path(tmp_path, "abc12345678")
+
+
+def test_resolve_downloaded_media_path_ignores_partial_files(tmp_path: Path):
+    (tmp_path / "abc12345678.part").write_bytes(b"x")
+    (tmp_path / "abc12345678.ytdl").write_bytes(b"x")
+    media = tmp_path / "abc12345678.webm"
+    media.write_bytes(b"x")
+    assert resolve_downloaded_media_path(tmp_path, "abc12345678") == media
+
+
+def test_process_skipped_video_skipped_existing(tmp_path: Path):
+    out_dir = tmp_path / "out"
+    out_dir.mkdir()
+    dest = out_dir / "Title__abc12345678.txt"
+    dest.write_text("existing\n", encoding="utf-8")
+    args = SimpleNamespace(resume=True, format="lines", verbose=False, keep_media=False)
+    outcome = process_skipped_video(
+        video_id="abc12345678",
+        title="Title",
+        out_dir=out_dir,
+        download_dir=tmp_path / "dl",
+        whisper_model=object(),
+        args=args,
+        fail_log_handle=open(tmp_path / "fail.jsonl", "w"),
+        fail_seen=set(),
+    )
+    assert outcome == "skipped_existing"
+
+
+def test_process_skipped_video_transcribed_deletes_media(tmp_path: Path, monkeypatch):
+    out_dir = tmp_path / "out"
+    download_dir = tmp_path / "dl"
+    download_dir.mkdir()
+    media = download_dir / "abc12345678.m4a"
+    media.write_bytes(b"audio")
+
+    def fake_download(video_id, dest_dir, *, quiet=True):
+        return media
+
+    def fake_transcribe(model, media_path, args):
+        return [{"start": 0.0, "end": 1.0, "text": "hello"}]
+
+    monkeypatch.setattr(
+        "whisper_skipped_transcripts.download_youtube_media", fake_download
+    )
+    monkeypatch.setattr(
+        "whisper_skipped_transcripts.transcribe_segments", fake_transcribe
+    )
+
+    args = SimpleNamespace(
+        resume=False, format="lines", verbose=False, keep_media=False
+    )
+    fail_path = tmp_path / "fail.jsonl"
+    with fail_path.open("w") as fail_log:
+        outcome = process_skipped_video(
+            video_id="abc12345678",
+            title="Title",
+            out_dir=out_dir,
+            download_dir=download_dir,
+            whisper_model=object(),
+            args=args,
+            fail_log_handle=fail_log,
+            fail_seen=set(),
+        )
+    assert outcome == "transcribed"
+    dest = out_dir / "Title__abc12345678.txt"
+    assert dest.read_text(encoding="utf-8") == "hello\n"
+    assert not media.is_file()
+
+
+def test_process_skipped_video_failed_keeps_media(tmp_path: Path, monkeypatch):
+    out_dir = tmp_path / "out"
+    download_dir = tmp_path / "dl"
+    download_dir.mkdir()
+    media = download_dir / "abc12345678.m4a"
+    media.write_bytes(b"audio")
+
+    def fake_download(video_id, dest_dir, *, quiet=True):
+        return media
+
+    def fake_transcribe(model, media_path, args):
+        return []
+
+    monkeypatch.setattr(
+        "whisper_skipped_transcripts.download_youtube_media", fake_download
+    )
+    monkeypatch.setattr(
+        "whisper_skipped_transcripts.transcribe_segments", fake_transcribe
+    )
+
+    args = SimpleNamespace(
+        resume=False, format="lines", verbose=False, keep_media=False
+    )
+    fail_path = tmp_path / "fail.jsonl"
+    with fail_path.open("w") as fail_log:
+        outcome = process_skipped_video(
+            video_id="abc12345678",
+            title="Title",
+            out_dir=out_dir,
+            download_dir=download_dir,
+            whisper_model=object(),
+            args=args,
+            fail_log_handle=fail_log,
+            fail_seen=set(),
+        )
+    assert outcome == "failed"
+    assert media.is_file()
+    fail_lines = fail_path.read_text(encoding="utf-8").strip().splitlines()
+    assert json.loads(fail_lines[0])["reason"] == "whisper_no_speech"

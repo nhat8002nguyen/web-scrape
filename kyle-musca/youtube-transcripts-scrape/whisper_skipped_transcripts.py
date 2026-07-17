@@ -10,6 +10,12 @@ import time
 from pathlib import Path
 from typing import Any
 
+import yt_dlp
+from download_channel_transcripts import (
+    build_output_filename,
+    youtube_watch_url,
+)
+
 _YOUTUBE_VIDEO_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
 
 DEFAULT_WHISPER_REASONS: frozenset[str] = frozenset(
@@ -190,3 +196,119 @@ def transcribe_segments(
             }
         )
     return out
+
+
+def resolve_downloaded_media_path(dest_dir: Path, video_id: str) -> Path:
+    matches = sorted(dest_dir.glob(f"{video_id}.*"))
+    matches = [
+        p
+        for p in matches
+        if p.is_file()
+        and not p.name.endswith(".part")
+        and not p.name.endswith(".ytdl")
+    ]
+    if not matches:
+        raise FileNotFoundError(
+            f"No downloaded media for {video_id} under {dest_dir}"
+        )
+    return matches[0]
+
+
+def download_youtube_media(
+    video_id: str,
+    dest_dir: Path,
+    *,
+    quiet: bool = True,
+) -> Path:
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    existing = list(dest_dir.glob(f"{video_id}.*"))
+    existing = [
+        p
+        for p in existing
+        if p.is_file() and not p.name.endswith((".part", ".ytdl"))
+    ]
+    if existing:
+        return existing[0]
+
+    outtmpl = str(dest_dir / f"{video_id}.%(ext)s")
+    opts: dict = {
+        "outtmpl": outtmpl,
+        "format": "bestaudio/best",
+        "quiet": quiet,
+        "no_warnings": quiet,
+        "noprogress": quiet,
+    }
+    url = youtube_watch_url(video_id)
+    with yt_dlp.YoutubeDL(opts) as ydl:
+        ydl.download([url])
+    return resolve_downloaded_media_path(dest_dir, video_id)
+
+
+def process_skipped_video(
+    *,
+    video_id: str,
+    title: str,
+    out_dir: Path,
+    download_dir: Path,
+    whisper_model,
+    args: argparse.Namespace,
+    fail_log_handle,
+    fail_seen: set[str],
+) -> str:
+    """
+    Returns: transcribed | skipped_existing | failed
+    """
+    from download_channel_transcripts import write_jsonl_skipped
+
+    filename = build_output_filename(title, video_id)
+    dest = out_dir / filename
+    if args.resume and dest.is_file():
+        return "skipped_existing"
+
+    media_path: Path | None = None
+    outcome = "failed"
+    try:
+        media_path = download_youtube_media(
+            video_id, download_dir, quiet=not args.verbose
+        )
+        segments = transcribe_segments(whisper_model, media_path, args)
+        body = segments_to_transcript_text(segments, style=args.format)
+        if not body.strip():
+            write_jsonl_skipped(
+                fail_log_handle,
+                {
+                    "video_id": video_id,
+                    "title": title,
+                    "reason": "whisper_no_speech",
+                    "detail": "transcription returned no segments",
+                },
+                fail_seen,
+            )
+            return "failed"
+        out_dir.mkdir(parents=True, exist_ok=True)
+        dest.write_text(body, encoding="utf-8")
+        outcome = "transcribed"
+        return outcome
+    except Exception as exc:
+        write_jsonl_skipped(
+            fail_log_handle,
+            {
+                "video_id": video_id,
+                "title": title,
+                "reason": type(exc).__name__,
+                "detail": str(exc),
+            },
+            fail_seen,
+        )
+        return "failed"
+    finally:
+        if (
+            outcome == "transcribed"
+            and not args.keep_media
+            and media_path is not None
+            and media_path.is_file()
+        ):
+            try:
+                media_path.unlink()
+            except OSError:
+                pass
