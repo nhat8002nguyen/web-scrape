@@ -1,6 +1,6 @@
 # Bulk YouTube channel transcripts
 
-Downloads **YouTube-hosted captions only** (manual or auto-generated) for **every upload** listed on a channel’s uploads tab. Video discovery uses [yt-dlp](https://github.com/yt-dlp/yt-dlp) so large channels paginate correctly (RSS alone only covers recent items). Transcripts use [youtube-transcript-api](https://pypi.org/project/youtube-transcript-api/), which reads the same caption tracks the site exposes—no separate speech‑to‑text service and **no paid API keys**.
+Downloads **YouTube-hosted captions** (manual or auto-generated) for **every upload** listed on a channel’s uploads tab. Video discovery uses [yt-dlp](https://github.com/yt-dlp/yt-dlp) so large channels paginate correctly (RSS alone only covers recent items). Transcripts use [youtube-transcript-api](https://pypi.org/project/youtube-transcript-api/), which reads the same caption tracks the site exposes—**no paid API keys**. Captions are the primary path; for videos logged in `skipped.jsonl` with no captions (`transcripts_disabled` / `no_matching_transcript`), an optional **Whisper** CLI can download audio and transcribe locally (see **Usage §4**).
 
 **macOS desktop app:** build a standalone `.app` so clients do not install Python — see [DESKTOP_APP.md](DESKTOP_APP.md).
 
@@ -65,6 +65,30 @@ python3 download_channel_transcripts.py \
 ```
 
 Adjust paths (`./out/skipped.jsonl`, `./out-skipped`) to match where you store `skipped.jsonl` and where you want new `.txt` files.
+
+**4. Retry skipped videos with Whisper (local speech-to-text)** — for rows where YouTube has no captions (`transcripts_disabled` / `no_matching_transcript`), even if the video has speech:
+
+Requires **`ffmpeg`** on PATH and a one-time Hugging Face download of Whisper `large-v3` (~2.5–4 GB).
+
+```bash
+# macOS
+brew install ffmpeg
+
+pip install -r requirements.txt
+
+python3 whisper_skipped_transcripts.py \
+  --skip-log ./transcripts/hattieboydle7662/skipped.jsonl \
+  --out ./transcripts/hattieboydle7662 \
+  --download-dir ./transcripts/hattieboydle7662/videos \
+  --resume \
+  --verbose
+```
+
+- Default reason filter: `transcripts_disabled`, `no_matching_transcript`.
+- Use `--all-reasons` to include proxy/IP skip rows (prefer API `--retry-from-skip-log` for those first).
+- Use `--dry-run` to preview selected IDs.
+- Failures append to `whisper_failed.jsonl` inside `--out`.
+- Output `.txt` names match the caption scraper so consolidate still works.
 
 ### Useful flags
 
