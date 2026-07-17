@@ -87,9 +87,10 @@ python3 whisper_skipped_transcripts.py \
 
 Requires **Node.js** on PATH (yt-dlp JS challenge solving) and browser cookies when YouTube returns a bot/sign-in challenge.
 - Default reason filter: `transcripts_disabled`, `no_matching_transcript`.
+- Default: skip videos **≥ 30 minutes** (`--max-duration-minutes 30`; use `0` to disable).
 - Use `--all-reasons` to include proxy/IP skip rows (prefer API `--retry-from-skip-log` for those first).
 - Use `--dry-run` to preview selected IDs.
-- Failures append to `whisper_failed.jsonl` inside `--out`.
+- Failures append to `whisper_failed.jsonl` inside `--out` (includes `duration_too_long`).
 - Output `.txt` names match the caption scraper so consolidate still works.
 
 ### Useful flags
@@ -149,13 +150,13 @@ chmod +x ./sync-to-ec2.sh
 ./sync-to-ec2.sh --with-transcripts ubuntu@your-ec2-host
 ```
 
-Copy secrets separately (never committed):
+`sync-to-ec2.sh` syncs **`.env`** and **`cookies.txt`** when they exist next to the script (still excluded from git). Put them in place before syncing:
 
 ```bash
-scp -i ./video-transcripts-server.pem .env cookies.txt ubuntu@your-ec2-host:~/youtube-transcripts-scrape/
+cp .env.example .env   # fill Webshare / Simplepush
+# export Netscape cookies.txt from a logged-in browser (EC2 cannot use --cookies-from-browser)
+./sync-to-ec2.sh --with-transcripts ubuntu@your-ec2-host
 ```
-
-For Whisper downloads, export a Netscape `cookies.txt` from a logged-in browser (yt-dlp FAQ / “Get cookies.txt LOCALLY” extension). EC2 cannot use `--cookies-from-browser`.
 
 On the instance:
 

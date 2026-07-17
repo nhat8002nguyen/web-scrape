@@ -24,6 +24,8 @@ DEFAULT_WHISPER_REASONS: frozenset[str] = frozenset(
         "no_matching_transcript",
     }
 )
+DEFAULT_MAX_DURATION_MINUTES = 30
+DEFAULT_MAX_DURATION_SECONDS = DEFAULT_MAX_DURATION_MINUTES * 60
 
 
 def load_skipped_entries(path: Path) -> list[dict[str, Any]]:
@@ -214,6 +216,55 @@ def resolve_downloaded_media_path(dest_dir: Path, video_id: str) -> Path:
     return matches[0]
 
 
+def _yt_dlp_auth_opts(
+    *,
+    quiet: bool = True,
+    cookies_from_browser: str | None = None,
+    cookies_file: str | None = None,
+) -> dict:
+    opts: dict = {
+        "quiet": quiet,
+        "no_warnings": quiet,
+        "noprogress": quiet,
+        "js_runtimes": {"node": {}},
+        "remote_components": {"ejs:github"},
+    }
+    browser = (cookies_from_browser or "").strip()
+    cookie_path = (cookies_file or "").strip()
+    if browser and cookie_path:
+        raise ValueError("Use only one of cookies_from_browser or cookies_file.")
+    if browser:
+        opts["cookiesfrombrowser"] = (browser,)
+    elif cookie_path:
+        opts["cookiefile"] = cookie_path
+    return opts
+
+
+def probe_youtube_duration_seconds(
+    video_id: str,
+    *,
+    quiet: bool = True,
+    cookies_from_browser: str | None = None,
+    cookies_file: str | None = None,
+) -> float | None:
+    """Return video duration in seconds via yt-dlp metadata, or None if unknown."""
+    opts = _yt_dlp_auth_opts(
+        quiet=quiet,
+        cookies_from_browser=cookies_from_browser,
+        cookies_file=cookies_file,
+    )
+    opts["skip_download"] = True
+    url = youtube_watch_url(video_id)
+    with yt_dlp.YoutubeDL(opts) as ydl:
+        info = ydl.extract_info(url, download=False)
+    if not info:
+        return None
+    duration = info.get("duration")
+    if duration is None:
+        return None
+    return float(duration)
+
+
 def download_youtube_media(
     video_id: str,
     dest_dir: Path,
@@ -233,24 +284,13 @@ def download_youtube_media(
         return existing[0]
 
     outtmpl = str(dest_dir / f"{video_id}.%(ext)s")
-    opts: dict = {
-        "outtmpl": outtmpl,
-        "format": "bestaudio/best",
-        "quiet": quiet,
-        "no_warnings": quiet,
-        "noprogress": quiet,
-        # YouTube JS challenge solving (needed for real audio formats).
-        "js_runtimes": {"node": {}},
-        "remote_components": {"ejs:github"},
-    }
-    browser = (cookies_from_browser or "").strip()
-    cookie_path = (cookies_file or "").strip()
-    if browser and cookie_path:
-        raise ValueError("Use only one of cookies_from_browser or cookies_file.")
-    if browser:
-        opts["cookiesfrombrowser"] = (browser,)
-    elif cookie_path:
-        opts["cookiefile"] = cookie_path
+    opts = _yt_dlp_auth_opts(
+        quiet=quiet,
+        cookies_from_browser=cookies_from_browser,
+        cookies_file=cookies_file,
+    )
+    opts["outtmpl"] = outtmpl
+    opts["format"] = "bestaudio/best"
     url = youtube_watch_url(video_id)
     with yt_dlp.YoutubeDL(opts) as ydl:
         ydl.download([url])
@@ -269,7 +309,7 @@ def process_skipped_video(
     fail_seen: set[str],
 ) -> str:
     """
-    Returns: transcribed | skipped_existing | failed
+    Returns: transcribed | skipped_existing | skipped_duration | failed
     """
     from download_channel_transcripts import write_jsonl_skipped
 
@@ -280,13 +320,46 @@ def process_skipped_video(
 
     media_path: Path | None = None
     outcome = "failed"
+    cookies_from_browser = getattr(args, "cookies_from_browser", None)
+    cookies_file = getattr(args, "cookies", None)
+    max_duration_seconds = float(
+        getattr(args, "max_duration_seconds", DEFAULT_MAX_DURATION_SECONDS)
+    )
     try:
+        duration = probe_youtube_duration_seconds(
+            video_id,
+            quiet=not args.verbose,
+            cookies_from_browser=cookies_from_browser,
+            cookies_file=cookies_file,
+        )
+        if duration is not None and duration >= max_duration_seconds:
+            minutes = duration / 60.0
+            write_jsonl_skipped(
+                fail_log_handle,
+                {
+                    "video_id": video_id,
+                    "title": title,
+                    "reason": "duration_too_long",
+                    "detail": (
+                        f"duration={duration:.0f}s ({minutes:.1f}min) "
+                        f">= max {max_duration_seconds:.0f}s"
+                    ),
+                },
+                fail_seen,
+            )
+            print(
+                f"  skip duration {minutes:.1f}min "
+                f"(max {max_duration_seconds / 60.0:.0f}min)",
+                flush=True,
+            )
+            return "skipped_duration"
+
         media_path = download_youtube_media(
             video_id,
             download_dir,
             quiet=not args.verbose,
-            cookies_from_browser=getattr(args, "cookies_from_browser", None),
-            cookies_file=getattr(args, "cookies", None),
+            cookies_from_browser=cookies_from_browser,
+            cookies_file=cookies_file,
         )
         segments = transcribe_segments(whisper_model, media_path, args)
         body = segments_to_transcript_text(segments, style=args.format)
@@ -382,6 +455,16 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         default=None,
         metavar="N",
         help="Process at most N matching videos.",
+    )
+    parser.add_argument(
+        "--max-duration-minutes",
+        type=float,
+        default=DEFAULT_MAX_DURATION_MINUTES,
+        metavar="MIN",
+        help=(
+            "Skip videos whose yt-dlp duration is >= this many minutes "
+            f"(default: {DEFAULT_MAX_DURATION_MINUTES}). Use 0 to disable."
+        ),
     )
     parser.add_argument(
         "--model-size",
@@ -511,6 +594,11 @@ def main(argv: list[str]) -> int:
         return 2
     args.cookies_from_browser = browser or None
     args.cookies = cookie_file or None
+    max_minutes = float(args.max_duration_minutes)
+    if max_minutes <= 0:
+        args.max_duration_seconds = float("inf")
+    else:
+        args.max_duration_seconds = max_minutes * 60.0
 
     if args.test_simplepush:
         simplepush_key = resolve_simplepush_key(args)
@@ -576,7 +664,12 @@ def main(argv: list[str]) -> int:
     fail_path = fail_path.resolve()
     fail_path.parent.mkdir(parents=True, exist_ok=True)
     fail_seen = load_skip_log_video_ids(fail_path)
-    stats = {"transcribed": 0, "skipped_existing": 0, "failed": 0}
+    stats = {
+        "transcribed": 0,
+        "skipped_existing": 0,
+        "skipped_duration": 0,
+        "failed": 0,
+    }
 
     with fail_path.open("a", encoding="utf-8") as fail_log:
         for index, entry in enumerate(entries, start=1):
@@ -599,12 +692,15 @@ def main(argv: list[str]) -> int:
                     time.sleep(args.delay)
             elif outcome == "skipped_existing":
                 stats["skipped_existing"] += 1
+            elif outcome == "skipped_duration":
+                stats["skipped_duration"] += 1
             elif outcome == "failed":
                 stats["failed"] += 1
 
     print("\nDone.")
     print(f"Transcribed:                  {stats['transcribed']}")
     print(f"Skipped (already on disk):    {stats['skipped_existing']}")
+    print(f"Skipped (too long):           {stats['skipped_duration']}")
     print(f"Failed:                       {stats['failed']}")
     print(f"Videos in this run:           {len(entries)}")
     print(f"Output directory:             {out_dir}")
@@ -619,6 +715,7 @@ def main(argv: list[str]) -> int:
                 f"Processed {len(entries)} video(s). "
                 f"Transcribed: {stats['transcribed']}, "
                 f"skipped: {stats['skipped_existing']}, "
+                f"too long: {stats['skipped_duration']}, "
                 f"failed: {stats['failed']}. Output: {out_dir}"
             ),
             args.simplepush_event or None,

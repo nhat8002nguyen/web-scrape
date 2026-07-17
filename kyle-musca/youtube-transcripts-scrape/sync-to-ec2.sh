@@ -18,7 +18,7 @@ usage() {
 Usage: $(basename "$0") [--help] [--with-transcripts] [user@host ...]
 
 Sync this directory to one or more hosts (default remote dir: ~/youtube-transcripts-scrape).
-Instagram / Ad Library folders on the same host are left unchanged.
+Includes .env and cookies.txt when present locally. Instagram / Ad Library folders are left unchanged.
 
 Examples:
   $(basename "$0") ubuntu@ec2-47-128-222-232.ap-southeast-1.compute.amazonaws.com
@@ -136,8 +136,6 @@ RSYNC_EXCLUDES=(
   --exclude 'videos/'
   --exclude '**/videos/'
   --exclude 'logs/'
-  --exclude '.env'
-  --exclude 'cookies.txt'
   --exclude '*.pem'
   --exclude 'Webshare*.txt'
   --exclude '*proxies*.txt'
@@ -148,11 +146,16 @@ if [[ "$WITH_TRANSCRIPTS" -eq 0 ]]; then
   RSYNC_EXCLUDES+=(--exclude 'transcripts/')
 fi
 
-if [[ ! -f "${SCRIPT_DIR}/.env" ]]; then
-  echo "warning: ${SCRIPT_DIR}/.env not found; copy it separately after sync (scp)." >&2
+# .env and cookies.txt are synced when present (needed for EC2 caption + Whisper runs).
+if [[ -f "${SCRIPT_DIR}/.env" ]]; then
+  echo "including .env"
+else
+  echo "warning: ${SCRIPT_DIR}/.env not found; caption scrape on EC2 usually needs Webshare/TRANSCRIPT_PROXY." >&2
 fi
-if [[ ! -f "${SCRIPT_DIR}/cookies.txt" ]]; then
-  echo "warning: ${SCRIPT_DIR}/cookies.txt not found; Whisper downloads on EC2 usually need cookies (export from browser, then scp)." >&2
+if [[ -f "${SCRIPT_DIR}/cookies.txt" ]]; then
+  echo "including cookies.txt"
+else
+  echo "warning: ${SCRIPT_DIR}/cookies.txt not found; Whisper downloads on EC2 usually need it (export from browser)." >&2
 fi
 
 assert_not_sibling_remote_dir "${REMOTE_DIR}"
@@ -177,14 +180,12 @@ echo "Done. On each instance:"
 echo "  cd ${REMOTE_DIR}"
 echo "  ./scripts/ec2_setup_and_run.sh setup   # or: python3 -m venv .venv && pip install -r requirements.txt"
 echo "  sudo apt update && sudo apt install -y ffmpeg nodejs   # ffmpeg + Node for yt-dlp JS challenges"
-echo "  # copy secrets (from your Mac):"
-echo "  #   scp -i KEY.pem .env cookies.txt ${REMOTE_USER}@HOST:${REMOTE_DIR}/"
 echo ""
 echo "  # Caption scrape (option 1):"
 echo "  ./scripts/ec2_setup_and_run.sh run --detach -- \\"
 echo "    \"https://www.youtube.com/@YourChannel\" --out ./transcripts/CHANNEL --resume"
 echo ""
-echo "  # Whisper skipped videos (option 2) — needs cookies.txt on the host:"
+echo "  # Whisper skipped videos (option 2) — uses synced cookies.txt when present:"
 echo "  source .venv/bin/activate"
 echo "  python whisper_skipped_transcripts.py \\"
 echo "    --skip-log ./transcripts/CHANNEL/skipped.jsonl \\"

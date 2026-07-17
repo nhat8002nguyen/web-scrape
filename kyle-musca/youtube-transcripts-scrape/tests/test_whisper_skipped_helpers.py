@@ -7,6 +7,7 @@ from types import SimpleNamespace
 import pytest
 
 from whisper_skipped_transcripts import (
+    DEFAULT_MAX_DURATION_MINUTES,
     DEFAULT_WHISPER_REASONS,
     filter_entries_by_reason,
     load_skipped_entries,
@@ -122,7 +123,13 @@ def test_process_skipped_video_skipped_existing(tmp_path: Path):
     out_dir.mkdir()
     dest = out_dir / "Title__abc12345678.txt"
     dest.write_text("existing\n", encoding="utf-8")
-    args = SimpleNamespace(resume=True, format="lines", verbose=False, keep_media=False)
+    args = SimpleNamespace(
+        resume=True,
+        format="lines",
+        verbose=False,
+        keep_media=False,
+        max_duration_seconds=1800,
+    )
     outcome = process_skipped_video(
         video_id="abc12345678",
         title="Title",
@@ -136,12 +143,49 @@ def test_process_skipped_video_skipped_existing(tmp_path: Path):
     assert outcome == "skipped_existing"
 
 
+def test_process_skipped_video_skips_long_duration(tmp_path: Path, monkeypatch):
+    def fake_probe(video_id, *, quiet=True, **_kwargs):
+        return 31 * 60
+
+    monkeypatch.setattr(
+        "whisper_skipped_transcripts.probe_youtube_duration_seconds", fake_probe
+    )
+
+    args = SimpleNamespace(
+        resume=False,
+        format="lines",
+        verbose=False,
+        keep_media=False,
+        max_duration_seconds=30 * 60,
+        cookies_from_browser=None,
+        cookies=None,
+    )
+    fail_path = tmp_path / "fail.jsonl"
+    with fail_path.open("w") as fail_log:
+        outcome = process_skipped_video(
+            video_id="abc12345678",
+            title="Title",
+            out_dir=tmp_path / "out",
+            download_dir=tmp_path / "dl",
+            whisper_model=object(),
+            args=args,
+            fail_log_handle=fail_log,
+            fail_seen=set(),
+        )
+    assert outcome == "skipped_duration"
+    payload = json.loads(fail_path.read_text(encoding="utf-8").strip())
+    assert payload["reason"] == "duration_too_long"
+
+
 def test_process_skipped_video_transcribed_deletes_media(tmp_path: Path, monkeypatch):
     out_dir = tmp_path / "out"
     download_dir = tmp_path / "dl"
     download_dir.mkdir()
     media = download_dir / "abc12345678.m4a"
     media.write_bytes(b"audio")
+
+    def fake_probe(video_id, *, quiet=True, **_kwargs):
+        return 120.0
 
     def fake_download(video_id, dest_dir, *, quiet=True, **_kwargs):
         return media
@@ -150,6 +194,9 @@ def test_process_skipped_video_transcribed_deletes_media(tmp_path: Path, monkeyp
         return [{"start": 0.0, "end": 1.0, "text": "hello"}]
 
     monkeypatch.setattr(
+        "whisper_skipped_transcripts.probe_youtube_duration_seconds", fake_probe
+    )
+    monkeypatch.setattr(
         "whisper_skipped_transcripts.download_youtube_media", fake_download
     )
     monkeypatch.setattr(
@@ -157,7 +204,13 @@ def test_process_skipped_video_transcribed_deletes_media(tmp_path: Path, monkeyp
     )
 
     args = SimpleNamespace(
-        resume=False, format="lines", verbose=False, keep_media=False
+        resume=False,
+        format="lines",
+        verbose=False,
+        keep_media=False,
+        max_duration_seconds=1800,
+        cookies_from_browser=None,
+        cookies=None,
     )
     fail_path = tmp_path / "fail.jsonl"
     with fail_path.open("w") as fail_log:
@@ -184,12 +237,18 @@ def test_process_skipped_video_failed_keeps_media(tmp_path: Path, monkeypatch):
     media = download_dir / "abc12345678.m4a"
     media.write_bytes(b"audio")
 
+    def fake_probe(video_id, *, quiet=True, **_kwargs):
+        return 60.0
+
     def fake_download(video_id, dest_dir, *, quiet=True, **_kwargs):
         return media
 
     def fake_transcribe(model, media_path, args):
         return []
 
+    monkeypatch.setattr(
+        "whisper_skipped_transcripts.probe_youtube_duration_seconds", fake_probe
+    )
     monkeypatch.setattr(
         "whisper_skipped_transcripts.download_youtube_media", fake_download
     )
@@ -198,7 +257,13 @@ def test_process_skipped_video_failed_keeps_media(tmp_path: Path, monkeypatch):
     )
 
     args = SimpleNamespace(
-        resume=False, format="lines", verbose=False, keep_media=False
+        resume=False,
+        format="lines",
+        verbose=False,
+        keep_media=False,
+        max_duration_seconds=1800,
+        cookies_from_browser=None,
+        cookies=None,
     )
     fail_path = tmp_path / "fail.jsonl"
     with fail_path.open("w") as fail_log:
@@ -226,6 +291,7 @@ def test_parse_args_uses_whisper_cli_defaults():
     assert args.model_size == "large-v3"
     assert args.vad_filter is True
     assert args.format == "lines"
+    assert args.max_duration_minutes == DEFAULT_MAX_DURATION_MINUTES
 
 
 def test_main_dry_run_filters_to_whisper_reasons(capsys):

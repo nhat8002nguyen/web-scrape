@@ -6,6 +6,7 @@ dist/
 *.pyc
 transcripts/
 .env
+cookies.txt
 Webshare*.txt
 *proxies*.txt
 .venv/
