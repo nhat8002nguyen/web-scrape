@@ -143,7 +143,7 @@ def test_process_skipped_video_transcribed_deletes_media(tmp_path: Path, monkeyp
     media = download_dir / "abc12345678.m4a"
     media.write_bytes(b"audio")
 
-    def fake_download(video_id, dest_dir, *, quiet=True):
+    def fake_download(video_id, dest_dir, *, quiet=True, **_kwargs):
         return media
 
     def fake_transcribe(model, media_path, args):
@@ -184,7 +184,7 @@ def test_process_skipped_video_failed_keeps_media(tmp_path: Path, monkeypatch):
     media = download_dir / "abc12345678.m4a"
     media.write_bytes(b"audio")
 
-    def fake_download(video_id, dest_dir, *, quiet=True):
+    def fake_download(video_id, dest_dir, *, quiet=True, **_kwargs):
         return media
 
     def fake_transcribe(model, media_path, args):
