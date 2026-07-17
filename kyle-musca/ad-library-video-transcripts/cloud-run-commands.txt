@@ -1,0 +1,94 @@
+# Project dir: ~/kyle-ad-library-video-transcripts
+# (Instagram reels stay in ~/kyle-insta-video-transcripts — separate folder.)
+#
+# One-time setup on each host:
+#   cd ~/kyle-ad-library-video-transcripts && \
+    python3 -m venv .venv && source .venv/bin/activate && \
+    pip install --upgrade pip && pip install -r requirements.txt && \
+    playwright install chromium && \
+    sudo apt update && sudo apt install -y ffmpeg
+
+# In case not sync .env
+#   cp .env.example .env   # set AD_LIBRARY_PAGE_ID, REDIS_URL, HF_TOKEN, SIMPLEPUSH_KEY, etc.
+#
+# Ad Library video CDN URLs expire — start workers soon after the producer enqueues jobs.
+
+1. phase1: run all
+a. The producer instance:
+tmux new -s producer
+cd ~/kyle-ad-library-video-transcripts
+source .venv/bin/activate && python ad_library_video_transcripts.py \
+  --page-id 116482854782233 \
+  --redis-mode producer \
+  --redis-url "redis://:tsesXTaU1INV5GBqQfKP6TjJcJsb4T@127.0.0.1:6379/0" \
+  --redis-stream adlib:video:jobs \
+  --redis-group transcribers \
+  --redis-producer-dedupe \
+  --resume \
+  --out /mnt/efs/fs1/adlib-output \
+  --verbose \
+  --request-delay-min 1 --request-delay-max 8
+
+# Producer uses Playwright to scroll Ad Library (logged-out public page; no cookies.json).
+# If scroll returns zero ads, try --headed or increase --max-scroll-rounds.
+
+tmux new -s worker
+cd ~/kyle-ad-library-video-transcripts
+source .venv/bin/activate && python ad_library_video_transcripts.py \
+  --redis-mode worker \
+  --redis-url "redis://:tsesXTaU1INV5GBqQfKP6TjJcJsb4T@127.0.0.1:6379/0" \
+  --redis-stream adlib:video:jobs \
+  --redis-group transcribers \
+  --out /mnt/efs/fs1/adlib-output \
+  --resume \
+  --model-size large-v3 \
+  --disable-diarization \
+  --verbose \
+  --bypass-proxy \
+  --max-consecutive-errors 0
+
+b. The consumer instances:
+tmux new -s worker
+cd ~/kyle-ad-library-video-transcripts
+source .venv/bin/activate && python ad_library_video_transcripts.py \
+  --redis-mode worker \
+  --redis-url "redis://:tsesXTaU1INV5GBqQfKP6TjJcJsb4T@172.31.36.240:6379/0" \
+  --redis-stream adlib:video:jobs \
+  --redis-group transcribers \
+  --out /mnt/efs/fs1/adlib-output \
+  --resume \
+  --model-size large-v3 \
+  --disable-diarization \
+  --verbose \
+  --bypass-proxy \
+  --max-consecutive-errors 0
+
+2. phase 2: retry
+tmux new -s producer
+cd ~/kyle-ad-library-video-transcripts
+source .venv/bin/activate && python ad_library_video_transcripts.py \
+  --redis-mode requeue-skipped \
+  --redis-url "redis://:tsesXTaU1INV5GBqQfKP6TjJcJsb4T@127.0.0.1:6379/0" \
+  --redis-stream adlib:video:jobs:retry \
+  --redis-producer-dedupe \
+  --out /mnt/efs/fs1/adlib-output \
+  --skip-log skipped.jsonl \
+  --resume \
+  --verbose
+
+tmux new -s worker
+cd ~/kyle-ad-library-video-transcripts
+source .venv/bin/activate && python ad_library_video_transcripts.py \
+  --redis-mode worker \
+  --redis-url "redis://:tsesXTaU1INV5GBqQfKP6TjJcJsb4T@172.31.36.240:6379/0" \
+  --redis-stream adlib:video:jobs:retry \
+  --redis-group transcribers \
+  --out /mnt/efs/fs1/adlib-output \
+  --resume \
+  --model-size large-v3 \
+  --disable-diarization \
+  --bypass-proxy \
+  --redis-idle-exit-seconds 300 \
+  --redis-idle-notify-seconds 300 \
+  --max-consecutive-errors 0 \
+  --verbose

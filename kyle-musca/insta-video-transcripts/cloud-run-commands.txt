@@ -1,19 +1,21 @@
 1. phase1: run all
 a. The producer instance:
 tmux new -s producer
-source .venv/bin/activate && python instagram_reels_transcripts.py "https://www.instagram.com/kiarajaye/reels/" \
+source .venv/bin/activate && python instagram_reels_transcripts.py "https://www.instagram.com/kellykpoole/reels/" \
   --redis-mode producer \
   --redis-url "redis://:tsesXTaU1INV5GBqQfKP6TjJcJsb4T@127.0.0.1:6379/0" \
   --redis-stream insta:reel:jobs \
   --redis-group transcribers \
-  --proxy-downloads-only \
   --resume \
   --out /mnt/efs/fs1 \
   --verbose \
   --request-delay-min 1 --request-delay-max 8
 
+# With Webshare + cookies.json in .env, crawl auto-uses direct IP (--proxy-downloads-only).
+# If verify still fails, re-export cookies.json and set INSTALOADER_SESSION_USERNAME.
+
 tmux new -s worker
-source .venv/bin/activate && python instagram_reels_transcripts.py kiarajaye \
+source .venv/bin/activate && python instagram_reels_transcripts.py kellykpoole \
    --redis-mode worker \
    --redis-url "redis://:tsesXTaU1INV5GBqQfKP6TjJcJsb4T@127.0.0.1:6379/0" \
    --redis-stream insta:reel:jobs \
@@ -28,7 +30,7 @@ source .venv/bin/activate && python instagram_reels_transcripts.py kiarajaye \
 b. The consumer instances:
 tmux new -s worker
 
-source .venv/bin/activate && python instagram_reels_transcripts.py kiarajaye \
+source .venv/bin/activate && python instagram_reels_transcripts.py kellykpoole \
    --redis-mode worker \
    --redis-url "redis://:tsesXTaU1INV5GBqQfKP6TjJcJsb4T@172.31.36.240:6379/0" \
    --redis-stream insta:reel:jobs \
@@ -42,7 +44,7 @@ source .venv/bin/activate && python instagram_reels_transcripts.py kiarajaye \
 
 2. phase 2: retry
 tmux new -s producer
-python instagram_reels_transcripts.py coachedbybre \
+python instagram_reels_transcripts.py kellykpoole \
   --redis-mode requeue-skipped \
   --redis-stream insta:reel:jobs:retry \
   --redis-producer-dedupe \
@@ -52,7 +54,7 @@ python instagram_reels_transcripts.py coachedbybre \
   --verbose
 
 tmux new -s worker
-python instagram_reels_transcripts.py coachedbybre \
+python instagram_reels_transcripts.py kellykpoole \
   --redis-mode worker \
   --redis-stream insta:reel:jobs:retry \
   --redis-group transcribers \
