@@ -221,6 +221,7 @@ def _yt_dlp_auth_opts(
     quiet: bool = True,
     cookies_from_browser: str | None = None,
     cookies_file: str | None = None,
+    proxy_url: str | None = None,
 ) -> dict:
     opts: dict = {
         "quiet": quiet,
@@ -236,8 +237,41 @@ def _yt_dlp_auth_opts(
     if browser:
         opts["cookiesfrombrowser"] = (browser,)
     elif cookie_path:
-        opts["cookiefile"] = cookie_path
+        opts["cookiefile"] = str(Path(cookie_path).expanduser().resolve())
+    proxy = (proxy_url or "").strip()
+    if proxy:
+        opts["proxy"] = proxy
     return opts
+
+
+def resolve_yt_dlp_proxy_url(args: argparse.Namespace | None = None) -> str | None:
+    """
+    Proxy for yt-dlp downloads: --proxy, else TRANSCRIPT_PROXY, else Webshare
+    username/password as http://USER:PASS@p.webshare.io:80/.
+    """
+    if args is not None:
+        cli = (getattr(args, "proxy", None) or "").strip()
+        if cli:
+            return cli
+    for key in ("TRANSCRIPT_PROXY",):
+        val = (os.environ.get(key) or "").strip()
+        if val:
+            return val
+    user = (
+        (os.environ.get("WEBSHARE_PROXY_USERNAME") or "").strip()
+        or (os.environ.get("WEBSHARE_USER") or "").strip()
+    )
+    password = (
+        (os.environ.get("WEBSHARE_PROXY_PASSWORD") or "").strip()
+        or (os.environ.get("WEBSHARE_PASSWORD") or "").strip()
+    )
+    if user and password:
+        from urllib.parse import quote
+
+        host = (os.environ.get("WEBSHARE_PROXY_HOST") or "p.webshare.io").strip()
+        port = (os.environ.get("WEBSHARE_PROXY_PORT") or "80").strip()
+        return f"http://{quote(user, safe='')}:{quote(password, safe='')}@{host}:{port}"
+    return None
 
 
 def probe_youtube_duration_seconds(
@@ -246,12 +280,14 @@ def probe_youtube_duration_seconds(
     quiet: bool = True,
     cookies_from_browser: str | None = None,
     cookies_file: str | None = None,
+    proxy_url: str | None = None,
 ) -> float | None:
     """Return video duration in seconds via yt-dlp metadata, or None if unknown."""
     opts = _yt_dlp_auth_opts(
         quiet=quiet,
         cookies_from_browser=cookies_from_browser,
         cookies_file=cookies_file,
+        proxy_url=proxy_url,
     )
     opts["skip_download"] = True
     url = youtube_watch_url(video_id)
@@ -272,6 +308,7 @@ def download_youtube_media(
     quiet: bool = True,
     cookies_from_browser: str | None = None,
     cookies_file: str | None = None,
+    proxy_url: str | None = None,
 ) -> Path:
     dest_dir.mkdir(parents=True, exist_ok=True)
     existing = list(dest_dir.glob(f"{video_id}.*"))
@@ -288,6 +325,7 @@ def download_youtube_media(
         quiet=quiet,
         cookies_from_browser=cookies_from_browser,
         cookies_file=cookies_file,
+        proxy_url=proxy_url,
     )
     opts["outtmpl"] = outtmpl
     opts["format"] = "bestaudio/best"
@@ -322,6 +360,7 @@ def process_skipped_video(
     outcome = "failed"
     cookies_from_browser = getattr(args, "cookies_from_browser", None)
     cookies_file = getattr(args, "cookies", None)
+    proxy_url = getattr(args, "proxy_url", None) or resolve_yt_dlp_proxy_url(args)
     max_duration_seconds = float(
         getattr(args, "max_duration_seconds", DEFAULT_MAX_DURATION_SECONDS)
     )
@@ -331,6 +370,7 @@ def process_skipped_video(
             quiet=not args.verbose,
             cookies_from_browser=cookies_from_browser,
             cookies_file=cookies_file,
+            proxy_url=proxy_url,
         )
         if duration is not None and duration >= max_duration_seconds:
             minutes = duration / 60.0
@@ -360,6 +400,7 @@ def process_skipped_video(
             quiet=not args.verbose,
             cookies_from_browser=cookies_from_browser,
             cookies_file=cookies_file,
+            proxy_url=proxy_url,
         )
         segments = transcribe_segments(whisper_model, media_path, args)
         body = segments_to_transcript_text(segments, style=args.format)
@@ -542,7 +583,19 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         "--cookies",
         default=None,
         metavar="PATH",
-        help="Netscape cookies.txt for yt-dlp (mutually exclusive with --cookies-from-browser).",
+        help=(
+            "Netscape cookies.txt for yt-dlp (mutually exclusive with "
+            "--cookies-from-browser). Defaults to ./cookies.txt when that file exists."
+        ),
+    )
+    parser.add_argument(
+        "--proxy",
+        default=None,
+        metavar="URL",
+        help=(
+            "HTTP(S) proxy for yt-dlp (e.g. http://user:pass@p.webshare.io:80/). "
+            "If omitted, uses TRANSCRIPT_PROXY or WEBSHARE_PROXY_USERNAME/PASSWORD from .env."
+        ),
     )
     parser.add_argument(
         "--dry-run",
@@ -586,6 +639,13 @@ def main(argv: list[str]) -> int:
 
     browser = (args.cookies_from_browser or "").strip()
     cookie_file = (args.cookies or "").strip()
+    if not cookie_file and not browser:
+        default_cookies = Path.cwd() / "cookies.txt"
+        script_cookies = Path(__file__).resolve().parent / "cookies.txt"
+        for candidate in (default_cookies, script_cookies):
+            if candidate.is_file():
+                cookie_file = str(candidate)
+                break
     if browser and cookie_file:
         print(
             "error: use either --cookies-from-browser or --cookies, not both.",
@@ -594,6 +654,7 @@ def main(argv: list[str]) -> int:
         return 2
     args.cookies_from_browser = browser or None
     args.cookies = cookie_file or None
+    args.proxy_url = resolve_yt_dlp_proxy_url(args)
     max_minutes = float(args.max_duration_minutes)
     if max_minutes <= 0:
         args.max_duration_seconds = float("inf")
@@ -651,6 +712,23 @@ def main(argv: list[str]) -> int:
             )
         print(f"dry-run count={len(entries)}")
         return 0
+
+    if not args.cookies and not args.cookies_from_browser:
+        print(
+            "warning: no cookies configured. EC2/datacenter IPs usually hit "
+            "YouTube bot checks — place cookies.txt in the project dir or pass "
+            "--cookies / --cookies-from-browser.",
+            file=sys.stderr,
+        )
+    elif args.cookies:
+        print(f"yt-dlp cookies: {args.cookies}", file=sys.stderr)
+    if args.proxy_url:
+        print("yt-dlp proxy: configured", file=sys.stderr)
+    else:
+        print(
+            "yt-dlp proxy: none (optional: TRANSCRIPT_PROXY or Webshare in .env)",
+            file=sys.stderr,
+        )
 
     try:
         whisper_model = load_whisper_model(args)

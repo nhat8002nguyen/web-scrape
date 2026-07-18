@@ -168,14 +168,16 @@ cd ~/youtube-transcripts-scrape
 sudo apt update && sudo apt install -y nodejs
 
 # Whisper remaining skipped videos (example: Hattie)
+# cookies.txt is auto-detected in the project dir when present
 source .venv/bin/activate
 python whisper_skipped_transcripts.py \
   --skip-log ./transcripts/hattieboydle7662/skipped.jsonl \
   --out ./transcripts/hattieboydle7662 \
   --download-dir videos \
-  --cookies ./cookies.txt \
   --resume --verbose
 ```
+
+If EC2 hits `Sign in to confirm you’re not a bot`, refresh `cookies.txt` from a logged-in browser on your Mac and re-sync. Cookies are required; a Webshare/`TRANSCRIPT_PROXY` endpoint is optional but helps on datacenter IPs (`--proxy` or `.env`).
 
 ### Manual rsync (legacy)
 
