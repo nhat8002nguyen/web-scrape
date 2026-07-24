@@ -5,6 +5,7 @@ build/
 dist/
 *.pyc
 transcripts/
+logs/
 .env
 cookies.txt
 Webshare*.txt
