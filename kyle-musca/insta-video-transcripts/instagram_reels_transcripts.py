@@ -36,6 +36,7 @@ class ReelVideo:
     video_url: str
     post_url: str
     date_utc: str
+    caption: str = ""
 
 
 @dataclass
@@ -361,6 +362,70 @@ def post_title(post) -> str:
     return f"reel_{post.shortcode}"
 
 
+def caption_as_title(caption: str) -> str:
+    return " ".join(caption.split())
+
+
+def _fetch_reel_caption_or_raise(loader, shortcode: str) -> str:
+    import instaloader
+
+    patch_instaloader()
+    post = instaloader.Post.from_shortcode(loader.context, shortcode)
+    text = (post.caption or "").strip()
+    if not text:
+        raise LookupError("empty caption")
+    return text
+
+
+def fetch_reel_caption(loader, shortcode: str) -> str | None:
+    try:
+        return _fetch_reel_caption_or_raise(loader, shortcode)
+    except Exception:
+        return None
+
+
+def fetch_reel_caption_with_proxy_fallback(
+    loader, shortcode: str, proxy_url: str | None
+) -> str | None:
+    session = loader.context._session
+    if proxy_url:
+        session.proxies = ProxyPool.as_requests_proxies(proxy_url) or {}
+        try:
+            return _fetch_reel_caption_or_raise(loader, shortcode)
+        except LookupError:
+            session.proxies = {}
+            return None
+        except Exception:
+            session.proxies = {}
+    else:
+        session.proxies = {}
+    try:
+        return _fetch_reel_caption_or_raise(loader, shortcode)
+    except Exception:
+        return None
+
+
+def enrich_reel_caption(
+    loader, item: ReelVideo, proxy_url: str | None = None
+) -> ReelVideo:
+    if loader is None:
+        return item
+    if (item.caption or "").strip():
+        return item
+    text = fetch_reel_caption_with_proxy_fallback(loader, item.shortcode, proxy_url)
+    if not text:
+        return item
+    return ReelVideo(
+        mediaid=item.mediaid,
+        shortcode=item.shortcode,
+        title=caption_as_title(text),
+        video_url=item.video_url,
+        post_url=item.post_url,
+        date_utc=item.date_utc,
+        caption=text,
+    )
+
+
 def post_url(post) -> str:
     if post.is_video:
         return f"https://www.instagram.com/reel/{post.shortcode}/"
@@ -381,8 +446,9 @@ def reel_video_from_clips_media(media: dict) -> ReelVideo | None:
         return None
     caption = media.get("caption")
     caption_text = caption.get("text") if isinstance(caption, dict) else None
-    if caption_text and str(caption_text).strip():
-        title = str(caption_text).strip().splitlines()[0].strip()
+    caption_full = str(caption_text).strip() if caption_text else ""
+    if caption_full:
+        title = caption_as_title(caption_full)
     else:
         title = f"reel_{shortcode}"
     taken_at = media.get("taken_at") or media.get("device_timestamp")
@@ -397,6 +463,7 @@ def reel_video_from_clips_media(media: dict) -> ReelVideo | None:
         video_url=str(video_versions[-1]["url"]),
         post_url=f"https://www.instagram.com/reel/{shortcode}/",
         date_utc=date_utc,
+        caption=caption_full,
     )
 
 
@@ -471,13 +538,15 @@ def iter_reel_candidates(
         else:
             if not getattr(post, "is_video", False):
                 continue
+            cap = (getattr(post, "caption", None) or "").strip()
             item = ReelVideo(
                 mediaid=str(post.mediaid),
                 shortcode=str(post.shortcode),
-                title=post_title(post),
+                title=post_title(post) if not cap else caption_as_title(cap),
                 video_url=str(post.video_url),
                 post_url=post_url(post),
                 date_utc=str(post.date_utc),
+                caption=cap,
             )
         mediaid = item.mediaid
         if mediaid in seen:
