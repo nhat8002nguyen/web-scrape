@@ -2104,6 +2104,33 @@ def build_transcript_text(item: ReelVideo, segments: list[dict[str, object]]) ->
     return "\n".join(header) + "\n"
 
 
+def find_transcript_path_for_mediaid(transcript_dir: Path, mediaid: str) -> Path | None:
+    matches = sorted(transcript_dir.glob(f"*__{mediaid}.txt"))
+    if not matches:
+        return None
+    return matches[0]
+
+
+def patch_transcript_title(path: Path, title: str) -> bool:
+    if not path.is_file():
+        return False
+    lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
+    if not lines:
+        return False
+    replaced = False
+    out: list[str] = []
+    for line in lines:
+        if not replaced and line.startswith("Title:"):
+            out.append(f"Title: {title}\n")
+            replaced = True
+        else:
+            out.append(line)
+    if not replaced:
+        return False
+    path.write_text("".join(out), encoding="utf-8")
+    return True
+
+
 def _env_redis_mode_default() -> str:
     raw = (os.environ.get("REDIS_MODE") or "local").strip().lower()
     return raw if raw in ("local", "producer", "worker", "requeue-skipped") else "local"

@@ -160,3 +160,30 @@ class TranscriptAndMetadataTests(unittest.TestCase):
             }
         )
         self.assertEqual(back.caption, "")
+
+
+class PatchTranscriptTitleTests(unittest.TestCase):
+    def test_finds_by_mediaid_suffix(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            tdir = Path(tmp)
+            path = tdir / "reel_AbC__123.txt"
+            path.write_text(
+                "Title: reel_AbC\nMedia ID: 123\nShortcode: AbC\nURL: u\nDate UTC: \n\nbody\n",
+                encoding="utf-8",
+            )
+            found = mod.find_transcript_path_for_mediaid(tdir, "123")
+            self.assertEqual(found, path)
+
+    def test_patch_title_keeps_body_and_filename(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "reel_AbC__123.txt"
+            path.write_text(
+                "Title: reel_AbC\nMedia ID: 123\nShortcode: AbC\nURL: u\nDate UTC: \n\nbody line\n",
+                encoding="utf-8",
+            )
+            ok = mod.patch_transcript_title(path, "Full Caption Here")
+            self.assertTrue(ok)
+            text = path.read_text(encoding="utf-8")
+            self.assertTrue(text.startswith("Title: Full Caption Here\n"))
+            self.assertIn("body line", text)
+            self.assertEqual(path.name, "reel_AbC__123.txt")
