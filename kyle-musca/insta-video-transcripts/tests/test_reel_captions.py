@@ -46,6 +46,21 @@ class CaptionAsTitleTests(unittest.TestCase):
         self.assertEqual(mod.caption_as_title("   \n  "), "")
 
 
+class ClipsMediaTests(unittest.TestCase):
+    def test_missing_caption_still_builds_reel(self) -> None:
+        media = {
+            "media_type": 2,
+            "video_versions": [{"url": "http://video"}],
+            "code": "AbC123xyz",
+            "pk": "42",
+            "taken_at": 1700000000,
+        }
+        item = mod.reel_video_from_clips_media(media)
+        assert item is not None
+        self.assertEqual(item.title, "reel_AbC123xyz")
+        self.assertEqual(item.caption, "")
+
+
 class EnrichReelCaptionTests(unittest.TestCase):
     def test_keeps_existing_caption(self) -> None:
         item = mod.ReelVideo(
