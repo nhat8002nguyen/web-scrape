@@ -641,6 +641,7 @@ def write_sidecar_metadata(path: Path, item: ReelVideo, video_path: Path) -> Non
         "mediaid": item.mediaid,
         "shortcode": item.shortcode,
         "title": item.title,
+        "caption": item.caption or "",
         "post_url": item.post_url,
         "video_url": item.video_url,
         "date_utc": item.date_utc,
@@ -966,6 +967,7 @@ def reel_video_job_dict(item: ReelVideo) -> dict[str, str]:
         "video_url": item.video_url,
         "post_url": item.post_url,
         "date_utc": item.date_utc,
+        "caption": item.caption or "",
     }
 
 
@@ -977,6 +979,7 @@ def reel_video_from_job_dict(d: dict[str, object]) -> ReelVideo:
         video_url=str(d["video_url"]),
         post_url=str(d.get("post_url") or ""),
         date_utc=str(d.get("date_utc") or ""),
+        caption=str(d.get("caption") or ""),
     )
 
 
@@ -1012,6 +1015,7 @@ def process_queue_item(
     checkpoint_path: Path,
     processed_mediaids: set[str],
     skip_log_path: Path,
+    loader=None,
 ) -> ProcessItemOutcome:
     title_sanitized = sanitize_title(item.title)
     transcript_name = build_output_filename(item.title, item.mediaid)
@@ -1031,6 +1035,11 @@ def process_queue_item(
                 flush=True,
             )
         return ProcessItemOutcome(outcome="skipped", downloaded=False)
+
+    caption_proxy_url = None
+    if not getattr(args, "no_proxy", False):
+        caption_proxy_url = proxy_pool.next_url() if proxy_pool is not None else None
+    item = enrich_reel_caption(loader, item, proxy_url=caption_proxy_url)
 
     if args.no_proxy or args.bypass_proxy_downloads:
         proxy_url = None
@@ -1539,6 +1548,7 @@ def run_redis_worker(
                     checkpoint_path=checkpoint_path,
                     processed_mediaids=processed_mediaids,
                     skip_log_path=skip_log_path,
+                    loader=None,
                 )
 
                 try:
@@ -2080,8 +2090,9 @@ def build_transcript_text(item: ReelVideo, segments: list[dict[str, object]]) ->
     lines = [str(seg["text"]).strip()
              for seg in segments if str(seg["text"]).strip()]
     body = "\n".join(lines).strip()
+    title_line = caption_as_title(item.caption) if (item.caption or "").strip() else item.title
     header = [
-        f"Title: {item.title}",
+        f"Title: {title_line}",
         f"Media ID: {item.mediaid}",
         f"Shortcode: {item.shortcode}",
         f"URL: {item.post_url}",
@@ -2884,6 +2895,7 @@ def main(argv: list[str]) -> int:
             checkpoint_path=checkpoint_path,
             processed_mediaids=processed_mediaids,
             skip_log_path=skip_log_path,
+            loader=loader,
         )
         if res.outcome == "transcribed":
             stats["transcribed"] += 1
