@@ -122,11 +122,15 @@ python backfill_reel_captions.py output/_biggcal \
   --dry-run --limit 5 --verbose
 
 python backfill_reel_captions.py output/_biggcal --cookies-json cookies.json
+
+# If cookies hit checkpoint_required / GraphQL fails, fetch public captions anonymously:
+python backfill_reel_captions.py output/_biggcal --anonymous --limit 5 --verbose
 ```
 
 The command uses `WEBSHARE_PROXY_*` from `.env` when configured. Each item
 tries the proxy first and falls back to the default network if the proxy fails.
-Pass `--bypass-proxy` to force direct-only requests.
+Pass `--bypass-proxy` to force direct-only requests. Use `--anonymous` when
+browser cookies are challenged and you only need public reel captions.
 
 It updates `metadata/*.json` (`caption` and `title`) and patches the `Title:`
 header in matching `transcripts/*__{mediaid}.txt` files. It does not rename

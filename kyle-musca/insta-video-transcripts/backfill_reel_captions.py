@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -119,6 +120,14 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--session-username", default=None)
     parser.add_argument("--instagram-user", default=None)
     parser.add_argument("--instagram-password", default=None)
+    parser.add_argument(
+        "--anonymous",
+        action="store_true",
+        help=(
+            "Skip cookies/session and fetch public reel captions anonymously. "
+            "Useful when browser cookies hit checkpoint_required."
+        ),
+    )
     parser.add_argument("--user-agent", default=None)
     parser.add_argument("--webshare-user", default=None)
     parser.add_argument("--webshare-password", default=None)
@@ -171,18 +180,44 @@ def main(argv: list[str]) -> int:
         return 2
 
     try:
-        loader = irt.build_authenticated_loader(
-            args,
-            dirname_pattern=str(data_dir / "videos"),
-            require_auth=True,
-        )
         proxy_urls = irt.resolve_proxy_urls(args)
     except Exception as exc:
         print(f"error: setup failed: {exc}", file=sys.stderr)
         return 2
 
+    if args.anonymous:
+        # Ignore COOKIES_JSON / session from .env — checkpointed cookies break public GraphQL.
+        args.cookies_json = ""
+        args.sessionfile = None
+        os.environ.pop("COOKIES_JSON", None)
+        try:
+            loader = irt.build_authenticated_loader(
+                args,
+                dirname_pattern=str(data_dir / "videos"),
+                require_auth=False,
+            )
+        except Exception as exc:
+            print(f"error: setup failed: {exc}", file=sys.stderr)
+            return 2
+        if args.verbose:
+            print(
+                "caption fetch: anonymous Instaloader (no cookies/session)",
+                file=sys.stderr,
+                flush=True,
+            )
+    else:
+        try:
+            loader = irt.build_authenticated_loader(
+                args,
+                dirname_pattern=str(data_dir / "videos"),
+                require_auth=True,
+            )
+        except Exception as exc:
+            print(f"error: setup failed: {exc}", file=sys.stderr)
+            return 2
+
     proxy_pool = irt.ProxyPool(proxy_urls, mode=args.proxy_mode)
-    if args.verbose:
+    if args.verbose and not args.anonymous:
         if proxy_urls:
             print(
                 f"caption fetch proxy={irt.mask_proxy_url(proxy_urls[0])} "
