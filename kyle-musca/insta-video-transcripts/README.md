@@ -105,6 +105,34 @@ Output layout (default):
 - `output/checkpoint.json`
 - `output/skipped.jsonl`
 
+## Backfill reel captions (local laptop; no re-transcribe)
+
+Transcription can stay on EC2. Caption backfill runs on your Mac or PC with a
+lightweight virtual environment:
+
+```bash
+cd kyle-musca/insta-video-transcripts
+python3 -m venv .venv-backfill
+source .venv-backfill/bin/activate
+pip install -r requirements-backfill.txt
+
+# Point at local output (rsync it from the cloud first if needed).
+python backfill_reel_captions.py output/_biggcal \
+  --cookies-json cookies.json \
+  --dry-run --limit 5 --verbose
+
+python backfill_reel_captions.py output/_biggcal --cookies-json cookies.json
+```
+
+The command uses `WEBSHARE_PROXY_*` from `.env` when configured. Each item
+tries the proxy first and falls back to the default network if the proxy fails.
+Pass `--bypass-proxy` to force direct-only requests.
+
+It updates `metadata/*.json` (`caption` and `title`) and patches the `Title:`
+header in matching `transcripts/*__{mediaid}.txt` files. It does not rename
+transcripts, download videos, or re-transcribe them. Reels without captions are
+left unchanged.
+
 ## Parallel chunks without Redis (one machine, multiple processes)
 
 Use **`--limit` / `-n`** plus **`--start-after-mediaid`** so each process only **processes** its slice. Enumeration order is whatever Instaloader returns (for reels, usually **newest first**), so “1–100” means the first 100 reels in that order.

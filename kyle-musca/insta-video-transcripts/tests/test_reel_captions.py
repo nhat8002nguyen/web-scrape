@@ -3,10 +3,12 @@ from __future__ import annotations
 
 import importlib.util
 import json
+import os
 import sys
 import tempfile
 import unittest
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import MagicMock, patch
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,6 +22,18 @@ mod = importlib.util.module_from_spec(spec)
 assert spec.loader is not None
 sys.modules[spec.name] = mod
 spec.loader.exec_module(mod)
+
+
+def load_backfill_module():
+    backfill_spec = importlib.util.spec_from_file_location(
+        "backfill_reel_captions",
+        ROOT / "backfill_reel_captions.py",
+    )
+    backfill_mod = importlib.util.module_from_spec(backfill_spec)
+    assert backfill_spec.loader is not None
+    sys.modules[backfill_spec.name] = backfill_mod
+    backfill_spec.loader.exec_module(backfill_mod)
+    return backfill_mod
 
 
 class CaptionAsTitleTests(unittest.TestCase):
@@ -187,3 +201,286 @@ class PatchTranscriptTitleTests(unittest.TestCase):
             self.assertTrue(text.startswith("Title: Full Caption Here\n"))
             self.assertIn("body line", text)
             self.assertEqual(path.name, "reel_AbC__123.txt")
+
+
+class AuthenticatedLoaderTests(unittest.TestCase):
+    def test_builds_loader_and_reuses_cookie_auth_helpers(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            cookies_path = Path(tmp) / "cookies.json"
+            cookies_path.write_text("[]", encoding="utf-8")
+            args = SimpleNamespace(
+                cookies_json=str(cookies_path),
+                sessionfile=None,
+                session_username="session-owner",
+                instagram_user=None,
+                instagram_password=None,
+                user_agent="Browser UA",
+                verbose=True,
+            )
+            loader = MagicMock()
+            fake_instaloader = SimpleNamespace(Instaloader=MagicMock(return_value=loader))
+
+            with (
+                patch.dict(os.environ, {}, clear=True),
+                patch.dict(sys.modules, {"instaloader": fake_instaloader}),
+                patch.object(mod, "patch_instaloader") as patch_instaloader,
+                patch.object(mod, "apply_user_agent") as apply_user_agent,
+                patch.object(
+                    mod,
+                    "load_cookies_from_browser_extension_json",
+                ) as load_cookies,
+            ):
+                result = mod.build_authenticated_loader(
+                    args,
+                    dirname_pattern="/tmp/videos",
+                    session_username_fallback="target-user",
+                )
+
+            self.assertIs(result, loader)
+            fake_instaloader.Instaloader.assert_called_once_with(
+                dirname_pattern="/tmp/videos",
+                save_metadata=False,
+                download_comments=False,
+                download_geotags=False,
+                compress_json=False,
+                post_metadata_txt_pattern="",
+            )
+            patch_instaloader.assert_called_once_with()
+            apply_user_agent.assert_called_once_with(loader, "Browser UA")
+            load_cookies.assert_called_once_with(
+                loader,
+                cookies_path.resolve(),
+                verbose=True,
+                session_username_fallback="session-owner",
+            )
+
+
+class BackfillOneTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.backfill = load_backfill_module()
+
+    def test_dry_run_reports_update_without_writing_files(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            metadata_path = root / "123.json"
+            transcript_dir = root / "transcripts"
+            transcript_dir.mkdir()
+            transcript_path = transcript_dir / "reel_AbC__123.txt"
+            metadata_path.write_text(
+                json.dumps(
+                    {
+                        "mediaid": "123",
+                        "shortcode": "AbC",
+                        "title": "reel_AbC",
+                    }
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            transcript_path.write_text(
+                "Title: reel_AbC\nMedia ID: 123\n\nbody\n",
+                encoding="utf-8",
+            )
+            original_metadata = metadata_path.read_text(encoding="utf-8")
+            original_transcript = transcript_path.read_text(encoding="utf-8")
+            loader = MagicMock()
+
+            with patch.object(
+                self.backfill.irt,
+                "fetch_reel_caption_with_proxy_fallback",
+                return_value="Full\ncaption",
+            ) as fetch:
+                outcome = self.backfill.backfill_one_metadata_file(
+                    metadata_path,
+                    transcript_dir,
+                    loader=loader,
+                    proxy_url="http://user:pass@proxy:80",
+                    dry_run=True,
+                )
+
+            self.assertEqual(outcome, "updated")
+            fetch.assert_called_once_with(loader, "AbC", "http://user:pass@proxy:80")
+            self.assertEqual(metadata_path.read_text(encoding="utf-8"), original_metadata)
+            self.assertEqual(transcript_path.read_text(encoding="utf-8"), original_transcript)
+
+    def test_missing_caption_bypasses_without_writing(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            metadata_path = root / "123.json"
+            transcript_dir = root / "transcripts"
+            transcript_dir.mkdir()
+            metadata_path.write_text(
+                '{"mediaid": "123", "shortcode": "AbC", "title": "reel_AbC"}\n',
+                encoding="utf-8",
+            )
+            original_metadata = metadata_path.read_text(encoding="utf-8")
+
+            with patch.object(
+                self.backfill.irt,
+                "fetch_reel_caption_with_proxy_fallback",
+                return_value=None,
+            ):
+                outcome = self.backfill.backfill_one_metadata_file(
+                    metadata_path,
+                    transcript_dir,
+                    loader=MagicMock(),
+                    proxy_url=None,
+                    dry_run=False,
+                )
+
+            self.assertEqual(outcome, "skipped_no_caption")
+            self.assertEqual(metadata_path.read_text(encoding="utf-8"), original_metadata)
+
+    def test_updates_metadata_and_existing_transcript_without_renaming(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            metadata_path = root / "123.json"
+            transcript_dir = root / "transcripts"
+            transcript_dir.mkdir()
+            transcript_path = transcript_dir / "reel_AbC__123.txt"
+            metadata_path.write_text(
+                '{"mediaid": "123", "shortcode": "AbC", "title": "reel_AbC"}\n',
+                encoding="utf-8",
+            )
+            transcript_path.write_text(
+                "Title: reel_AbC\nMedia ID: 123\n\nbody\n",
+                encoding="utf-8",
+            )
+
+            with patch.object(
+                self.backfill.irt,
+                "fetch_reel_caption_with_proxy_fallback",
+                return_value="Full\ncaption",
+            ):
+                outcome = self.backfill.backfill_one_metadata_file(
+                    metadata_path,
+                    transcript_dir,
+                    loader=MagicMock(),
+                    proxy_url=None,
+                    dry_run=False,
+                )
+
+            self.assertEqual(outcome, "updated")
+            data = json.loads(metadata_path.read_text(encoding="utf-8"))
+            self.assertEqual(data["caption"], "Full\ncaption")
+            self.assertEqual(data["title"], "Full caption")
+            self.assertEqual(transcript_path.name, "reel_AbC__123.txt")
+            self.assertTrue(
+                transcript_path.read_text(encoding="utf-8").startswith(
+                    "Title: Full caption\n"
+                )
+            )
+
+    def test_existing_matching_caption_and_title_are_skipped(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            metadata_path = root / "123.json"
+            transcript_dir = root / "transcripts"
+            transcript_dir.mkdir()
+            metadata_path.write_text(
+                json.dumps(
+                    {
+                        "mediaid": "123",
+                        "shortcode": "AbC",
+                        "caption": "Full\ncaption",
+                        "title": "Full caption",
+                    }
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            (transcript_dir / "reel_AbC__123.txt").write_text(
+                "Title: Full caption\nMedia ID: 123\n\nbody\n",
+                encoding="utf-8",
+            )
+
+            with patch.object(
+                self.backfill.irt,
+                "fetch_reel_caption_with_proxy_fallback",
+            ) as fetch:
+                outcome = self.backfill.backfill_one_metadata_file(
+                    metadata_path,
+                    transcript_dir,
+                    loader=MagicMock(),
+                    proxy_url=None,
+                    dry_run=False,
+                )
+
+            self.assertEqual(outcome, "skipped_has_caption")
+            fetch.assert_not_called()
+
+    def test_missing_transcript_still_updates_metadata(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            metadata_path = root / "123.json"
+            transcript_dir = root / "transcripts"
+            transcript_dir.mkdir()
+            metadata_path.write_text(
+                '{"mediaid": "123", "shortcode": "AbC", "title": "reel_AbC"}\n',
+                encoding="utf-8",
+            )
+
+            with patch.object(
+                self.backfill.irt,
+                "fetch_reel_caption_with_proxy_fallback",
+                return_value="Full caption",
+            ):
+                outcome = self.backfill.backfill_one_metadata_file(
+                    metadata_path,
+                    transcript_dir,
+                    loader=MagicMock(),
+                    proxy_url=None,
+                    dry_run=False,
+                )
+
+            self.assertEqual(outcome, "missing_transcript")
+            data = json.loads(metadata_path.read_text(encoding="utf-8"))
+            self.assertEqual(data["caption"], "Full caption")
+            self.assertEqual(data["title"], "Full caption")
+
+    def test_requires_shortcode_and_mediaid(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            metadata_path = root / "123.json"
+            transcript_dir = root / "transcripts"
+            transcript_dir.mkdir()
+            metadata_path.write_text('{"shortcode": "AbC"}\n', encoding="utf-8")
+
+            outcome = self.backfill.backfill_one_metadata_file(
+                metadata_path,
+                transcript_dir,
+                loader=MagicMock(),
+                proxy_url=None,
+                dry_run=False,
+            )
+
+            self.assertEqual(outcome, "skipped_error")
+
+
+class BackfillLocalDepsTests(unittest.TestCase):
+    def test_requirements_only_include_lightweight_runtime_packages(self) -> None:
+        requirements = (
+            (ROOT / "requirements-backfill.txt")
+            .read_text(encoding="utf-8")
+            .splitlines()
+        )
+        self.assertEqual(
+            requirements,
+            [
+                "instaloader>=4.14",
+                "requests>=2.31.0",
+                "python-dotenv>=1.0.1",
+            ],
+        )
+
+    def test_backfill_source_avoids_whisper_redis_pyannote(self) -> None:
+        src = (ROOT / "backfill_reel_captions.py").read_text(encoding="utf-8")
+        for banned in (
+            "faster_whisper",
+            "pyannote",
+            "redis",
+            "load_whisper_model",
+            "WhisperModel",
+        ):
+            self.assertNotIn(banned, src)

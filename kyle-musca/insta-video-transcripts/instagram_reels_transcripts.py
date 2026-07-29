@@ -19,10 +19,13 @@ import time
 from dataclasses import dataclass
 from itertools import cycle
 from pathlib import Path
-from typing import Iterable
+from typing import TYPE_CHECKING, Iterable
 from urllib.parse import quote, urlparse
 
 import requests
+
+if TYPE_CHECKING:
+    from instaloader import Instaloader
 
 INVALID_FS_CHARS_RE = re.compile(r'[\x00-\x1f<>:"/\\|?*]')
 OUTPUT_ID_RE = re.compile(r"__(\d+)\.txt$")
@@ -2086,6 +2089,96 @@ def load_cookies_from_browser_extension_json(
     )
 
 
+def build_authenticated_loader(
+    args: argparse.Namespace,
+    *,
+    dirname_pattern: str,
+    session_username_fallback: str | None = None,
+    proxy_url: str | None = None,
+    require_auth: bool = False,
+) -> Instaloader:
+    import instaloader
+
+    patch_instaloader()
+    loader = instaloader.Instaloader(
+        dirname_pattern=dirname_pattern,
+        save_metadata=False,
+        download_comments=False,
+        download_geotags=False,
+        compress_json=False,
+        post_metadata_txt_pattern="",
+    )
+    apply_user_agent(loader, getattr(args, "user_agent", None))
+
+    if proxy_url:
+        loader.context._session.proxies = ProxyPool.as_requests_proxies(proxy_url)
+
+    cookies_json_arg = (
+        (getattr(args, "cookies_json", None) or "").strip()
+        or (os.environ.get("COOKIES_JSON") or "").strip()
+    )
+    sessionfile = (getattr(args, "sessionfile", None) or "").strip()
+    if sessionfile and cookies_json_arg:
+        raise ValueError("use either --sessionfile or --cookies-json, not both")
+
+    session_owner = (
+        (getattr(args, "session_username", None) or "").strip()
+        or (os.environ.get("INSTALOADER_SESSION_USERNAME") or "").strip()
+        or (session_username_fallback or "").strip()
+    )
+    verbose = bool(getattr(args, "verbose", False))
+
+    if sessionfile:
+        if not session_owner:
+            raise ValueError(
+                "--sessionfile requires --session-username, "
+                "INSTALOADER_SESSION_USERNAME, or a target username"
+            )
+        loader.load_session_from_file(
+            username=session_owner,
+            filename=sessionfile,
+        )
+        if verbose:
+            print(
+                f"loaded instaloader sessionfile={sessionfile} "
+                f"session_owner={session_owner}",
+                file=sys.stderr,
+            )
+        return loader
+
+    if cookies_json_arg:
+        cookies_path = Path(cookies_json_arg).expanduser()
+        if not cookies_path.is_file():
+            raise ValueError(f"--cookies-json not found: {cookies_path}")
+        load_cookies_from_browser_extension_json(
+            loader,
+            cookies_path.resolve(),
+            verbose=verbose,
+            session_username_fallback=session_owner or None,
+        )
+        return loader
+
+    ig_login_user = (
+        (getattr(args, "instagram_user", None) or "").strip()
+        or (os.environ.get("INSTAGRAM_LOGIN_USER") or "").strip()
+        or (os.environ.get("INSTAGRAM_USER") or "").strip()
+    )
+    ig_password = (
+        (getattr(args, "instagram_password", None) or "").strip()
+        or (os.environ.get("INSTAGRAM_PASSWORD") or "").strip()
+    )
+    if ig_login_user and ig_password:
+        maybe_instagram_login(loader, ig_login_user, ig_password, verbose)
+        return loader
+
+    if require_auth:
+        raise ValueError(
+            "authenticated access requires --cookies-json, --sessionfile, "
+            "or Instagram login credentials"
+        )
+    return loader
+
+
 def build_transcript_text(item: ReelVideo, segments: list[dict[str, object]]) -> str:
     lines = [str(seg["text"]).strip()
              for seg in segments if str(seg["text"]).strip()]
@@ -2618,36 +2711,10 @@ def main(argv: list[str]) -> int:
         return 2
 
     try:
-        import instaloader
-    except Exception as exc:
-        print(f"error: instaloader import failed: {exc}", file=sys.stderr)
-        return 2
-    patch_instaloader()
-
-    try:
         username = extract_username(target)
     except ValueError as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 2
-
-    loader = instaloader.Instaloader(
-        dirname_pattern=str(video_dir),
-        save_metadata=False,
-        download_comments=False,
-        download_geotags=False,
-        compress_json=False,
-        post_metadata_txt_pattern="",
-    )
-    apply_user_agent(loader, args.user_agent)
-
-    ig_password = (
-        (args.instagram_password or "").strip()
-        or (os.environ.get("INSTAGRAM_PASSWORD") or "").strip()
-    )
-    ig_login_user = (args.instagram_user or "").strip() or (
-        os.environ.get("INSTAGRAM_LOGIN_USER") or os.environ.get(
-            "INSTAGRAM_USER") or ""
-    ).strip()
 
     crawl_proxy = proxy_pool.next_url() if proxy_urls else None
     use_proxy_for_instaloader = bool(
@@ -2659,23 +2726,17 @@ def main(argv: list[str]) -> int:
             "If that happens, pass --proxy-downloads-only (crawl direct, downloads still use proxy).",
             file=sys.stderr,
         )
-    if use_proxy_for_instaloader and crawl_proxy:
-        try:
-            loader.context._session.proxies = ProxyPool.as_requests_proxies(
-                crawl_proxy)
-            if args.verbose:
-                download_mode = (
-                    "direct IP (default)"
-                    if args.bypass_proxy_downloads
-                    else "proxy"
-                )
-                print(
-                    f"instaloader crawl proxy={mask_proxy_url(crawl_proxy)}; "
-                    f"video downloads={download_mode}",
-                    file=sys.stderr,
-                )
-        except Exception:
-            pass
+    if use_proxy_for_instaloader and crawl_proxy and args.verbose:
+        download_mode = (
+            "direct IP (default)"
+            if args.bypass_proxy_downloads
+            else "proxy"
+        )
+        print(
+            f"instaloader crawl proxy={mask_proxy_url(crawl_proxy)}; "
+            f"video downloads={download_mode}",
+            file=sys.stderr,
+        )
     elif args.verbose and proxy_urls:
         if args.bypass_proxy_downloads:
             print(
@@ -2693,70 +2754,34 @@ def main(argv: list[str]) -> int:
             file=sys.stderr,
         )
 
-    if args.sessionfile:
-        sessionfile = args.sessionfile
-        session_owner = (
-            (args.session_username or "").strip()
-            or (os.environ.get("INSTALOADER_SESSION_USERNAME") or "").strip()
+    if args.sessionfile and not (
+        (args.session_username or "").strip()
+        or (os.environ.get("INSTALOADER_SESSION_USERNAME") or "").strip()
+    ) and args.verbose:
+        print(
+            "warning: --session-username not set; using target profile as session owner. "
+            "If loading fails, set INSTALOADER_SESSION_USERNAME to the Instagram account "
+            "you used when creating the session (instaloader -l).",
+            file=sys.stderr,
         )
-        if not session_owner:
-            session_owner = username
-            if args.verbose:
-                print(
-                    "warning: --session-username not set; using target profile as session owner. "
-                    "If loading fails, set INSTALOADER_SESSION_USERNAME to the Instagram account "
-                    "you used when creating the session (instaloader -l).",
-                    file=sys.stderr,
-                )
-        try:
-            loader.load_session_from_file(
-                username=session_owner, filename=sessionfile)
-            if args.verbose:
-                print(
-                    f"loaded instaloader sessionfile={sessionfile} session_owner={session_owner}",
-                    file=sys.stderr,
-                )
-        except Exception as exc:
-            print(
-                f"warning: could not load sessionfile: {exc}", file=sys.stderr)
-    elif cookies_json_arg:
-        cookies_path = Path(cookies_json_arg).expanduser()
-        if not cookies_path.is_file():
-            print(
-                f"error: --cookies-json not found: {cookies_path}", file=sys.stderr)
-            return 2
-        try:
-            session_owner = (
-                (args.session_username or "").strip()
-                or (os.environ.get("INSTALOADER_SESSION_USERNAME") or "").strip()
-            )
-            load_cookies_from_browser_extension_json(
-                loader,
-                cookies_path.resolve(),
-                verbose=args.verbose,
-                session_username_fallback=session_owner or None,
-            )
-        except Exception as exc:
-            print(
-                f"error: could not load cookies JSON: {exc}", file=sys.stderr)
-            print(
-                instagram_enumeration_hints(
-                    exc, username=username, used_proxy=bool(proxy_urls)),
-                file=sys.stderr,
-            )
-            return 1
-    elif ig_login_user and ig_password:
-        try:
-            maybe_instagram_login(loader, ig_login_user,
-                                  ig_password, args.verbose)
-        except RuntimeError as exc:
-            print(f"error: {exc}", file=sys.stderr)
-            print(
-                instagram_enumeration_hints(
-                    exc, username=username, used_proxy=bool(proxy_urls)),
-                file=sys.stderr,
-            )
-            return 1
+    try:
+        loader = build_authenticated_loader(
+            args,
+            dirname_pattern=str(video_dir),
+            session_username_fallback=username,
+            proxy_url=crawl_proxy if use_proxy_for_instaloader else None,
+        )
+    except ModuleNotFoundError as exc:
+        print(f"error: instaloader import failed: {exc}", file=sys.stderr)
+        return 2
+    except Exception as exc:
+        print(f"error: Instagram authentication setup failed: {exc}", file=sys.stderr)
+        print(
+            instagram_enumeration_hints(
+                exc, username=username, used_proxy=use_proxy_for_instaloader),
+            file=sys.stderr,
+        )
+        return 1
 
     reel_kw = dict(
         loader=loader,
