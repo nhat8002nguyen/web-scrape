@@ -439,6 +439,46 @@ class BackfillOneTests(unittest.TestCase):
             self.assertEqual(data["caption"], "Full caption")
             self.assertEqual(data["title"], "Full caption")
 
+    def test_existing_transcript_patch_failure_is_not_missing_transcript(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            metadata_path = root / "123.json"
+            transcript_dir = root / "transcripts"
+            transcript_dir.mkdir()
+            transcript_path = transcript_dir / "reel_AbC__123.txt"
+            metadata_path.write_text(
+                '{"mediaid": "123", "shortcode": "AbC", "title": "reel_AbC"}\n',
+                encoding="utf-8",
+            )
+            transcript_path.write_text("No Title header\n\nbody\n", encoding="utf-8")
+
+            with (
+                patch.object(
+                    self.backfill.irt,
+                    "fetch_reel_caption_with_proxy_fallback",
+                    return_value="Full caption",
+                ),
+                patch.object(
+                    self.backfill.irt,
+                    "patch_transcript_title",
+                    return_value=False,
+                ) as patch_title,
+            ):
+                outcome = self.backfill.backfill_one_metadata_file(
+                    metadata_path,
+                    transcript_dir,
+                    loader=MagicMock(),
+                    proxy_url=None,
+                    dry_run=False,
+                )
+
+            self.assertEqual(outcome, "skipped_error")
+            self.assertNotEqual(outcome, "missing_transcript")
+            patch_title.assert_called_once()
+            data = json.loads(metadata_path.read_text(encoding="utf-8"))
+            self.assertEqual(data["caption"], "Full caption")
+            self.assertEqual(data["title"], "Full caption")
+
     def test_requires_shortcode_and_mediaid(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

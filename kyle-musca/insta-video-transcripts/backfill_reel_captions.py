@@ -91,9 +91,9 @@ def backfill_one_metadata_file(
         return "missing_transcript"
     try:
         if not irt.patch_transcript_title(transcript_path, title):
-            return "missing_transcript"
+            return "skipped_error"
     except Exception:
-        return "missing_transcript"
+        return "skipped_error"
     return "updated"
 
 
