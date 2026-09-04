@@ -19,10 +19,13 @@ import time
 from dataclasses import dataclass
 from itertools import cycle
 from pathlib import Path
-from typing import Iterable
+from typing import TYPE_CHECKING, Iterable
 from urllib.parse import quote, urlparse
 
 import requests
+
+if TYPE_CHECKING:
+    from instaloader import Instaloader
 
 INVALID_FS_CHARS_RE = re.compile(r'[\x00-\x1f<>:"/\\|?*]')
 OUTPUT_ID_RE = re.compile(r"__(\d+)\.txt$")
@@ -36,6 +39,7 @@ class ReelVideo:
     video_url: str
     post_url: str
     date_utc: str
+    caption: str = ""
 
 
 @dataclass
@@ -361,6 +365,70 @@ def post_title(post) -> str:
     return f"reel_{post.shortcode}"
 
 
+def caption_as_title(caption: str) -> str:
+    return " ".join(caption.split())
+
+
+def _fetch_reel_caption_or_raise(loader, shortcode: str) -> str:
+    import instaloader
+
+    patch_instaloader()
+    post = instaloader.Post.from_shortcode(loader.context, shortcode)
+    text = (post.caption or "").strip()
+    if not text:
+        raise LookupError("empty caption")
+    return text
+
+
+def fetch_reel_caption(loader, shortcode: str) -> str | None:
+    try:
+        return _fetch_reel_caption_or_raise(loader, shortcode)
+    except Exception:
+        return None
+
+
+def fetch_reel_caption_with_proxy_fallback(
+    loader, shortcode: str, proxy_url: str | None
+) -> str | None:
+    session = loader.context._session
+    if proxy_url:
+        session.proxies = ProxyPool.as_requests_proxies(proxy_url) or {}
+        try:
+            return _fetch_reel_caption_or_raise(loader, shortcode)
+        except LookupError:
+            session.proxies = {}
+            return None
+        except Exception:
+            session.proxies = {}
+    else:
+        session.proxies = {}
+    try:
+        return _fetch_reel_caption_or_raise(loader, shortcode)
+    except Exception:
+        return None
+
+
+def enrich_reel_caption(
+    loader, item: ReelVideo, proxy_url: str | None = None
+) -> ReelVideo:
+    if loader is None:
+        return item
+    if (item.caption or "").strip():
+        return item
+    text = fetch_reel_caption_with_proxy_fallback(loader, item.shortcode, proxy_url)
+    if not text:
+        return item
+    return ReelVideo(
+        mediaid=item.mediaid,
+        shortcode=item.shortcode,
+        title=caption_as_title(text),
+        video_url=item.video_url,
+        post_url=item.post_url,
+        date_utc=item.date_utc,
+        caption=text,
+    )
+
+
 def post_url(post) -> str:
     if post.is_video:
         return f"https://www.instagram.com/reel/{post.shortcode}/"
@@ -389,8 +457,9 @@ def reel_video_from_clips_media(media: dict, context=None) -> ReelVideo | None:
             pass
     caption = media.get("caption")
     caption_text = caption.get("text") if isinstance(caption, dict) else None
-    if caption_text and str(caption_text).strip():
-        title = str(caption_text).strip().splitlines()[0].strip()
+    caption_full = str(caption_text).strip() if caption_text else ""
+    if caption_full:
+        title = caption_as_title(caption_full)
     else:
         title = f"reel_{shortcode}"
     taken_at = media.get("taken_at") or media.get("device_timestamp")
@@ -405,6 +474,7 @@ def reel_video_from_clips_media(media: dict, context=None) -> ReelVideo | None:
         video_url=video_url,
         post_url=f"https://www.instagram.com/reel/{shortcode}/",
         date_utc=date_utc,
+        caption=caption_full,
     )
 
 
@@ -481,13 +551,15 @@ def iter_reel_candidates(
         else:
             if not getattr(post, "is_video", False):
                 continue
+            cap = (getattr(post, "caption", None) or "").strip()
             item = ReelVideo(
                 mediaid=str(post.mediaid),
                 shortcode=str(post.shortcode),
-                title=post_title(post),
+                title=post_title(post) if not cap else caption_as_title(cap),
                 video_url=str(post.video_url),
                 post_url=post_url(post),
                 date_utc=str(post.date_utc),
+                caption=cap,
             )
         mediaid = item.mediaid
         if mediaid in seen:
@@ -582,6 +654,7 @@ def write_sidecar_metadata(path: Path, item: ReelVideo, video_path: Path) -> Non
         "mediaid": item.mediaid,
         "shortcode": item.shortcode,
         "title": item.title,
+        "caption": item.caption or "",
         "post_url": item.post_url,
         "video_url": item.video_url,
         "date_utc": item.date_utc,
@@ -907,6 +980,7 @@ def reel_video_job_dict(item: ReelVideo) -> dict[str, str]:
         "video_url": item.video_url,
         "post_url": item.post_url,
         "date_utc": item.date_utc,
+        "caption": item.caption or "",
     }
 
 
@@ -918,6 +992,7 @@ def reel_video_from_job_dict(d: dict[str, object]) -> ReelVideo:
         video_url=str(d["video_url"]),
         post_url=str(d.get("post_url") or ""),
         date_utc=str(d.get("date_utc") or ""),
+        caption=str(d.get("caption") or ""),
     )
 
 
@@ -953,6 +1028,7 @@ def process_queue_item(
     checkpoint_path: Path,
     processed_mediaids: set[str],
     skip_log_path: Path,
+    loader=None,
 ) -> ProcessItemOutcome:
     title_sanitized = sanitize_title(item.title)
     transcript_name = build_output_filename(item.title, item.mediaid)
@@ -972,6 +1048,11 @@ def process_queue_item(
                 flush=True,
             )
         return ProcessItemOutcome(outcome="skipped", downloaded=False)
+
+    caption_proxy_url = None
+    if not getattr(args, "no_proxy", False):
+        caption_proxy_url = proxy_pool.next_url() if proxy_pool is not None else None
+    item = enrich_reel_caption(loader, item, proxy_url=caption_proxy_url)
 
     if args.no_proxy or args.bypass_proxy_downloads:
         proxy_url = None
@@ -1480,6 +1561,7 @@ def run_redis_worker(
                     checkpoint_path=checkpoint_path,
                     processed_mediaids=processed_mediaids,
                     skip_log_path=skip_log_path,
+                    loader=None,
                 )
 
                 try:
@@ -2057,12 +2139,103 @@ def load_cookies_from_browser_extension_json(
     )
 
 
+def build_authenticated_loader(
+    args: argparse.Namespace,
+    *,
+    dirname_pattern: str,
+    session_username_fallback: str | None = None,
+    proxy_url: str | None = None,
+    require_auth: bool = False,
+) -> Instaloader:
+    import instaloader
+
+    patch_instaloader()
+    loader = instaloader.Instaloader(
+        dirname_pattern=dirname_pattern,
+        save_metadata=False,
+        download_comments=False,
+        download_geotags=False,
+        compress_json=False,
+        post_metadata_txt_pattern="",
+    )
+    apply_user_agent(loader, getattr(args, "user_agent", None))
+
+    if proxy_url:
+        loader.context._session.proxies = ProxyPool.as_requests_proxies(proxy_url)
+
+    cookies_json_arg = (
+        (getattr(args, "cookies_json", None) or "").strip()
+        or (os.environ.get("COOKIES_JSON") or "").strip()
+    )
+    sessionfile = (getattr(args, "sessionfile", None) or "").strip()
+    if sessionfile and cookies_json_arg:
+        raise ValueError("use either --sessionfile or --cookies-json, not both")
+
+    session_owner = (
+        (getattr(args, "session_username", None) or "").strip()
+        or (os.environ.get("INSTALOADER_SESSION_USERNAME") or "").strip()
+        or (session_username_fallback or "").strip()
+    )
+    verbose = bool(getattr(args, "verbose", False))
+
+    if sessionfile:
+        if not session_owner:
+            raise ValueError(
+                "--sessionfile requires --session-username, "
+                "INSTALOADER_SESSION_USERNAME, or a target username"
+            )
+        loader.load_session_from_file(
+            username=session_owner,
+            filename=sessionfile,
+        )
+        if verbose:
+            print(
+                f"loaded instaloader sessionfile={sessionfile} "
+                f"session_owner={session_owner}",
+                file=sys.stderr,
+            )
+        return loader
+
+    if cookies_json_arg:
+        cookies_path = Path(cookies_json_arg).expanduser()
+        if not cookies_path.is_file():
+            raise ValueError(f"--cookies-json not found: {cookies_path}")
+        load_cookies_from_browser_extension_json(
+            loader,
+            cookies_path.resolve(),
+            verbose=verbose,
+            session_username_fallback=session_owner or None,
+        )
+        return loader
+
+    ig_login_user = (
+        (getattr(args, "instagram_user", None) or "").strip()
+        or (os.environ.get("INSTAGRAM_LOGIN_USER") or "").strip()
+        or (os.environ.get("INSTAGRAM_USER") or "").strip()
+    )
+    ig_password = (
+        (getattr(args, "instagram_password", None) or "").strip()
+        or (os.environ.get("INSTAGRAM_PASSWORD") or "").strip()
+    )
+    if ig_login_user and ig_password:
+        maybe_instagram_login(loader, ig_login_user, ig_password, verbose)
+        return loader
+
+    if require_auth:
+        raise ValueError(
+            "authenticated access requires --cookies-json, --sessionfile, "
+            "or Instagram login credentials"
+        )
+    return loader
+
+
 def build_transcript_text(item: ReelVideo, segments: list[dict[str, object]]) -> str:
     lines = [str(seg["text"]).strip()
              for seg in segments if str(seg["text"]).strip()]
     body = "\n".join(lines).strip()
+    title_line = caption_as_title(item.caption) if (item.caption or "").strip() else item.title
     header = [
-        f"Title: {item.title}",
+        f"Title: {title_line}",
         f"Media ID: {item.mediaid}",
         f"Shortcode: {item.shortcode}",
         f"URL: {item.post_url}",
@@ -2072,6 +2245,33 @@ def build_transcript_text(item: ReelVideo, segments: list[dict[str, object]]) ->
     if body:
         return "\n".join(header) + body + "\n"
     return "\n".join(header) + "\n"
+
+
+def find_transcript_path_for_mediaid(transcript_dir: Path, mediaid: str) -> Path | None:
+    matches = sorted(transcript_dir.glob(f"*__{mediaid}.txt"))
+    if not matches:
+        return None
+    return matches[0]
+
+
+def patch_transcript_title(path: Path, title: str) -> bool:
+    if not path.is_file():
+        return False
+    lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
+    if not lines:
+        return False
+    replaced = False
+    out: list[str] = []
+    for line in lines:
+        if not replaced and line.startswith("Title:"):
+            out.append(f"Title: {title}\n")
+            replaced = True
+        else:
+            out.append(line)
+    if not replaced:
+        return False
+    path.write_text("".join(out), encoding="utf-8")
+    return True
 
 
 def _env_redis_mode_default() -> str:
@@ -2561,36 +2761,10 @@ def main(argv: list[str]) -> int:
         return 2
 
     try:
-        import instaloader
-    except Exception as exc:
-        print(f"error: instaloader import failed: {exc}", file=sys.stderr)
-        return 2
-    patch_instaloader()
-
-    try:
         username = extract_username(target)
     except ValueError as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 2
-
-    loader = instaloader.Instaloader(
-        dirname_pattern=str(video_dir),
-        save_metadata=False,
-        download_comments=False,
-        download_geotags=False,
-        compress_json=False,
-        post_metadata_txt_pattern="",
-    )
-    apply_user_agent(loader, args.user_agent)
-
-    ig_password = (
-        (args.instagram_password or "").strip()
-        or (os.environ.get("INSTAGRAM_PASSWORD") or "").strip()
-    )
-    ig_login_user = (args.instagram_user or "").strip() or (
-        os.environ.get("INSTAGRAM_LOGIN_USER") or os.environ.get(
-            "INSTAGRAM_USER") or ""
-    ).strip()
 
     crawl_proxy = proxy_pool.next_url() if proxy_urls else None
     use_proxy_for_instaloader = bool(
@@ -2602,23 +2776,17 @@ def main(argv: list[str]) -> int:
             "If that happens, pass --proxy-downloads-only (crawl direct, downloads still use proxy).",
             file=sys.stderr,
         )
-    if use_proxy_for_instaloader and crawl_proxy:
-        try:
-            loader.context._session.proxies = ProxyPool.as_requests_proxies(
-                crawl_proxy)
-            if args.verbose:
-                download_mode = (
-                    "direct IP (default)"
-                    if args.bypass_proxy_downloads
-                    else "proxy"
-                )
-                print(
-                    f"instaloader crawl proxy={mask_proxy_url(crawl_proxy)}; "
-                    f"video downloads={download_mode}",
-                    file=sys.stderr,
-                )
-        except Exception:
-            pass
+    if use_proxy_for_instaloader and crawl_proxy and args.verbose:
+        download_mode = (
+            "direct IP (default)"
+            if args.bypass_proxy_downloads
+            else "proxy"
+        )
+        print(
+            f"instaloader crawl proxy={mask_proxy_url(crawl_proxy)}; "
+            f"video downloads={download_mode}",
+            file=sys.stderr,
+        )
     elif args.verbose and proxy_urls:
         if args.bypass_proxy_downloads:
             print(
@@ -2636,70 +2804,34 @@ def main(argv: list[str]) -> int:
             file=sys.stderr,
         )
 
-    if args.sessionfile:
-        sessionfile = args.sessionfile
-        session_owner = (
-            (args.session_username or "").strip()
-            or (os.environ.get("INSTALOADER_SESSION_USERNAME") or "").strip()
+    if args.sessionfile and not (
+        (args.session_username or "").strip()
+        or (os.environ.get("INSTALOADER_SESSION_USERNAME") or "").strip()
+    ) and args.verbose:
+        print(
+            "warning: --session-username not set; using target profile as session owner. "
+            "If loading fails, set INSTALOADER_SESSION_USERNAME to the Instagram account "
+            "you used when creating the session (instaloader -l).",
+            file=sys.stderr,
         )
-        if not session_owner:
-            session_owner = username
-            if args.verbose:
-                print(
-                    "warning: --session-username not set; using target profile as session owner. "
-                    "If loading fails, set INSTALOADER_SESSION_USERNAME to the Instagram account "
-                    "you used when creating the session (instaloader -l).",
-                    file=sys.stderr,
-                )
-        try:
-            loader.load_session_from_file(
-                username=session_owner, filename=sessionfile)
-            if args.verbose:
-                print(
-                    f"loaded instaloader sessionfile={sessionfile} session_owner={session_owner}",
-                    file=sys.stderr,
-                )
-        except Exception as exc:
-            print(
-                f"warning: could not load sessionfile: {exc}", file=sys.stderr)
-    elif cookies_json_arg:
-        cookies_path = Path(cookies_json_arg).expanduser()
-        if not cookies_path.is_file():
-            print(
-                f"error: --cookies-json not found: {cookies_path}", file=sys.stderr)
-            return 2
-        try:
-            session_owner = (
-                (args.session_username or "").strip()
-                or (os.environ.get("INSTALOADER_SESSION_USERNAME") or "").strip()
-            )
-            load_cookies_from_browser_extension_json(
-                loader,
-                cookies_path.resolve(),
-                verbose=args.verbose,
-                session_username_fallback=session_owner or None,
-            )
-        except Exception as exc:
-            print(
-                f"error: could not load cookies JSON: {exc}", file=sys.stderr)
-            print(
-                instagram_enumeration_hints(
-                    exc, username=username, used_proxy=bool(proxy_urls)),
-                file=sys.stderr,
-            )
-            return 1
-    elif ig_login_user and ig_password:
-        try:
-            maybe_instagram_login(loader, ig_login_user,
-                                  ig_password, args.verbose)
-        except RuntimeError as exc:
-            print(f"error: {exc}", file=sys.stderr)
-            print(
-                instagram_enumeration_hints(
-                    exc, username=username, used_proxy=bool(proxy_urls)),
-                file=sys.stderr,
-            )
-            return 1
+    try:
+        loader = build_authenticated_loader(
+            args,
+            dirname_pattern=str(video_dir),
+            session_username_fallback=username,
+            proxy_url=crawl_proxy if use_proxy_for_instaloader else None,
+        )
+    except ModuleNotFoundError as exc:
+        print(f"error: instaloader import failed: {exc}", file=sys.stderr)
+        return 2
+    except Exception as exc:
+        print(f"error: Instagram authentication setup failed: {exc}", file=sys.stderr)
+        print(
+            instagram_enumeration_hints(
+                exc, username=username, used_proxy=use_proxy_for_instaloader),
+            file=sys.stderr,
+        )
+        return 1
 
     reel_kw = dict(
         loader=loader,
@@ -2865,6 +2997,7 @@ def main(argv: list[str]) -> int:
             checkpoint_path=checkpoint_path,
             processed_mediaids=processed_mediaids,
             skip_log_path=skip_log_path,
+            loader=loader,
         )
         if res.outcome == "transcribed":
             stats["transcribed"] += 1
