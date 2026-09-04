@@ -1,0 +1,125 @@
+# Instagram reels transcripts — EC2 ops prompts
+# Update INSTANCE_* values when you stop/restart EC2 (public hostnames change).
+# Producer private IP (PRODUCER_PRIVATE_IP) also changes — update worker --redis-url on all consumers.
+
+# --- Config (edit before each run) ---
+
+SSH_KEY=/Users/nhatnguyen/SourceCode/web-scrape/crawler1.pem
+SSH_USER=ubuntu
+REMOTE_DIR=/home/ubuntu/kyle-insta-video-transcripts
+LOCAL_REPO=/Users/nhatnguyen/SourceCode/web-scrape/kyle-musca/insta-video-transcripts
+
+# One producer host (runs Redis + producer tmux + optional local worker tmux)
+PRODUCER_HOST=ec2-13-250-118-110.ap-southeast-1.compute.amazonaws.com
+PRODUCER_PRIVATE_IP=172.31.36.240
+
+# Worker-only hosts (each runs one detached tmux session named "worker")
+WORKER_HOST_1=ec2-13-214-212-162.ap-southeast-1.compute.amazonaws.com
+WORKER_HOST_2=ec2-47-129-9-77.ap-southeast-1.compute.amazonaws.com
+WORKER_HOST_3=ec2-54-251-1-124.ap-southeast-1.compute.amazonaws.com
+
+# Job settings (see cloud-run-commands.txt for full commands / flags)
+INSTAGRAM_TARGET=https://www.instagram.com/_biggcal/reels/
+PROFILE_SLUG=_biggcal
+OUT_DIR=/mnt/efs/fs1/_biggcal
+REDIS_STREAM=insta:reel:jobs
+REDIS_GROUP=transcribers
+
+# Exact producer/worker CLI flags live in cloud-run-commands.txt (section 1a / 1b).
+
+
+# =============================================================================
+# PROMPT: Sync code to all instances
+# =============================================================================
+
+Sync this repo to the producer and all worker EC2 instances using sync-to-ec2.sh.
+
+- SSH key: ${SSH_KEY}
+- Local repo: ${LOCAL_REPO}
+- Remote dir on each host: ${REMOTE_DIR}
+- Producer: ${PRODUCER_HOST}
+- Workers: ${WORKER_HOST_1}, ${WORKER_HOST_2}, ${WORKER_HOST_3}
+
+Run from local machine:
+
+  cd ${LOCAL_REPO}
+  SSH_KEY="${SSH_KEY}" ./sync-to-ec2.sh \
+    ${PRODUCER_HOST} \
+    ${WORKER_HOST_1} \
+    ${WORKER_HOST_2} \
+    ${WORKER_HOST_3}
+
+Notes:
+- .env and .venv are NOT synced (by design). cookies.json IS synced.
+- After requirements.txt changes, pip install -r requirements.txt in each host .venv.
+- New hosts: python3 -m venv .venv, pip install -r requirements.txt, cp .env.example .env.
+
+
+# =============================================================================
+# PROMPT: Clear Redis stream (required before producer/workers)
+# =============================================================================
+
+Always clear the Redis stream on the producer host BEFORE starting producer or worker tmux sessions.
+
+Run on ${PRODUCER_HOST} (Redis runs locally there):
+
+  ssh -i ${SSH_KEY} ${SSH_USER}@${PRODUCER_HOST} \
+    'redis-cli -a "<password from cloud-run-commands.txt>" DEL ${REDIS_STREAM} ${REDIS_STREAM}:enqueued ${REDIS_STREAM}:retry && \
+     echo "After clear:" && redis-cli -a "<password>" XLEN ${REDIS_STREAM} 2>/dev/null; redis-cli -a "<password>" EXISTS ${REDIS_STREAM} ${REDIS_STREAM}:enqueued ${REDIS_STREAM}:retry 2>/dev/null'
+
+Do NOT use FLUSHDB/FLUSHALL unless wiping the whole Redis database.
+Consumer group (${REDIS_GROUP}) is removed with the stream and recreated when workers start.
+
+If restarting a live run: kill existing tmux sessions on all hosts first, then clear Redis, then start fresh.
+
+
+# =============================================================================
+# PROMPT: Start producer + workers (phase 1)
+# =============================================================================
+
+Prerequisite: Redis stream cleared on ${PRODUCER_HOST} (see prompt above).
+
+Start detached tmux sessions for Instagram reel transcription (see cloud-run-commands.txt §1a / §1b).
+
+Roles:
+- ${PRODUCER_HOST} → tmux sessions: producer + worker (both use Redis at 127.0.0.1:6379)
+- Each worker host → tmux session: worker only (Redis at ${PRODUCER_PRIVATE_IP}:6379)
+
+Remote working directory on every host: ${REMOTE_DIR}
+
+Producer host — two detached sessions:
+
+  tmux new-session -d -s producer -c ${REMOTE_DIR} "<producer command from cloud-run-commands.txt §1a>; echo; echo '=== producer exited (code '\$?') — session kept open for logs ==='; exec bash"
+
+  tmux new-session -d -s worker -c ${REMOTE_DIR} "<worker command from cloud-run-commands.txt §1a (127.0.0.1 Redis)>; echo; echo '=== worker exited (code '\$?') — session kept open for logs ==='; exec bash"
+
+Each worker host — one detached session:
+
+  tmux new-session -d -s worker -c ${REMOTE_DIR} "<worker command from cloud-run-commands.txt §1b (${PRODUCER_PRIVATE_IP} Redis)>; echo; echo '=== worker exited (code '\$?') — session kept open for logs ==='; exec bash"
+
+Important:
+- Append "; exec bash" (or equivalent) so tmux stays attachable after the Python process exits.
+- Kill existing sessions first if restarting: tmux kill-session -t producer; tmux kill-session -t worker
+- Verify: tmux ls; pgrep -af instagram_reels_transcripts.py
+- Attach to logs: ssh -i ${SSH_KEY} ${SSH_USER}@<host> then tmux attach -t producer (or worker). Detach: Ctrl+b then d.
+
+SSH examples:
+
+  ssh -i ${SSH_KEY} ${SSH_USER}@${PRODUCER_HOST}
+  ssh -i ${SSH_KEY} ${SSH_USER}@${WORKER_HOST_1}
+
+
+# =============================================================================
+# PROMPT: Full deploy + run (typical session)
+# =============================================================================
+
+1. Update PRODUCER_HOST, PRODUCER_PRIVATE_IP, and WORKER_HOST_* at top of this file if instances changed.
+2. Sync code to all hosts (sync prompt above).
+3. Kill any existing tmux sessions on all hosts (producer + worker).
+4. Clear Redis stream on ${PRODUCER_HOST} (required — see clear prompt above).
+5. Start producer tmux on ${PRODUCER_HOST} only.
+6. Start worker tmux on ${PRODUCER_HOST} and every WORKER_HOST_*.
+7. Confirm producer is enqueueing (tmux attach -t producer → look for "redis XADD").
+8. Confirm workers are consuming (tmux attach -t worker → "redis worker: stream=...").
+
+If producer tmux disappears immediately, the Python process exited (often Instagram rate-limit / cookies). Session with "exec bash" keeps logs visible via tmux attach -t producer.

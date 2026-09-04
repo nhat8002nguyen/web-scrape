@@ -1,6 +1,6 @@
 # Bulk YouTube channel transcripts
 
-Downloads **YouTube-hosted captions only** (manual or auto-generated) for **every upload** listed on a channel’s uploads tab. Video discovery uses [yt-dlp](https://github.com/yt-dlp/yt-dlp) so large channels paginate correctly (RSS alone only covers recent items). Transcripts use [youtube-transcript-api](https://pypi.org/project/youtube-transcript-api/), which reads the same caption tracks the site exposes—no separate speech‑to‑text service and **no paid API keys**.
+Downloads **YouTube-hosted captions** (manual or auto-generated) for **every upload** listed on a channel’s uploads tab. Video discovery uses [yt-dlp](https://github.com/yt-dlp/yt-dlp) so large channels paginate correctly (RSS alone only covers recent items). Transcripts use [youtube-transcript-api](https://pypi.org/project/youtube-transcript-api/), which reads the same caption tracks the site exposes—**no paid API keys**. Captions are the primary path; for videos logged in `skipped.jsonl` with no captions (`transcripts_disabled` / `no_matching_transcript`), an optional **Whisper** CLI can download audio and transcribe locally (see **Usage §4**).
 
 **macOS desktop app:** build a standalone `.app` so clients do not install Python — see [DESKTOP_APP.md](DESKTOP_APP.md).
 
@@ -66,6 +66,33 @@ python3 download_channel_transcripts.py \
 
 Adjust paths (`./out/skipped.jsonl`, `./out-skipped`) to match where you store `skipped.jsonl` and where you want new `.txt` files.
 
+**4. Retry skipped videos with Whisper (local speech-to-text)** — for rows where YouTube has no captions (`transcripts_disabled` / `no_matching_transcript`), even if the video has speech:
+
+Requires **`ffmpeg`** on PATH and a one-time Hugging Face download of Whisper `large-v3` (~2.5–4 GB).
+
+```bash
+# macOS
+brew install ffmpeg
+
+pip install -r requirements.txt
+
+python3 whisper_skipped_transcripts.py \
+  --skip-log ./transcripts/hattieboydle7662/skipped.jsonl \
+  --out ./transcripts/hattieboydle7662 \
+  --download-dir videos \
+  --cookies-from-browser chrome \
+  --resume \
+  --verbose
+```
+
+Requires **Node.js** on PATH (yt-dlp JS challenge solving) and browser cookies when YouTube returns a bot/sign-in challenge.
+- Default reason filter: `transcripts_disabled`, `no_matching_transcript`.
+- Default: skip videos **≥ 30 minutes** (`--max-duration-minutes 30`; use `0` to disable).
+- Use `--all-reasons` to include proxy/IP skip rows (prefer API `--retry-from-skip-log` for those first).
+- Use `--dry-run` to preview selected IDs.
+- Failures append to `whisper_failed.jsonl` inside `--out` (includes `duration_too_long`).
+- Output `.txt` names match the caption scraper so consolidate still works.
+
 ### Useful flags
 
 | Flag | Meaning |
@@ -109,6 +136,50 @@ python3 download_channel_transcripts.py "https://www.youtube.com/@YourChannelHan
 Or in `.env` next to the script, same variable names. Omit `--webshare-locations` to use all countries, or e.g. `--webshare-locations US,GB` to restrict.
 
 ## Running on EC2
+
+Preferred: sync like the Instagram project (`sync-to-ec2.sh`). Place `video-transcripts-server.pem` (or `crawler1.pem`) next to this script, or set `SSH_KEY`.
+
+```bash
+chmod 400 ./video-transcripts-server.pem
+chmod +x ./sync-to-ec2.sh
+
+# Code only (default remote: ~/youtube-transcripts-scrape)
+./sync-to-ec2.sh ubuntu@your-ec2-host
+
+# Also sync transcripts/ so skipped.jsonl + existing .txt are on the host for --resume
+./sync-to-ec2.sh --with-transcripts ubuntu@your-ec2-host
+```
+
+`sync-to-ec2.sh` syncs **`.env`** and **`cookies.txt`** when they exist next to the script (still excluded from git). Put them in place before syncing:
+
+```bash
+cp .env.example .env   # fill Webshare / Simplepush
+# export Netscape cookies.txt from a logged-in browser (EC2 cannot use --cookies-from-browser)
+./sync-to-ec2.sh --with-transcripts ubuntu@your-ec2-host
+```
+
+On the instance:
+
+```bash
+ssh -i ./video-transcripts-server.pem ubuntu@your-ec2-host
+cd ~/youtube-transcripts-scrape
+./scripts/ec2_setup_and_run.sh setup
+# ensure ffmpeg + nodejs for yt-dlp JS challenges (setup installs ffmpeg; add nodejs if missing)
+sudo apt update && sudo apt install -y nodejs
+
+# Whisper remaining skipped videos (example: Hattie)
+# cookies.txt is auto-detected in the project dir when present
+source .venv/bin/activate
+python whisper_skipped_transcripts.py \
+  --skip-log ./transcripts/hattieboydle7662/skipped.jsonl \
+  --out ./transcripts/hattieboydle7662 \
+  --download-dir videos \
+  --resume --verbose
+```
+
+If EC2 hits `Sign in to confirm you’re not a bot`, refresh `cookies.txt` from a logged-in browser on your Mac and re-sync. Cookies are required; a Webshare/`TRANSCRIPT_PROXY` endpoint is optional but helps on datacenter IPs (`--proxy` or `.env`).
+
+### Manual rsync (legacy)
 
 Upload the project from your Mac (skips local `.venv`, build output, transcripts, and `.env`). Run from the `youtube-transcripts-scrape/` folder. The `-e` flag must be **`ssh -i KEY.pem`**, not the `.pem path alone.
 

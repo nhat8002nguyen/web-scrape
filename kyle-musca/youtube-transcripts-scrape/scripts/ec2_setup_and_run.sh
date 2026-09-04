@@ -64,6 +64,13 @@ Examples:
   ./scripts/ec2_setup_and_run.sh run --detach -- \
     --retry-from-skip-log ./transcripts/skipped.jsonl --out ./transcripts-retry --resume
 
+  # Whisper retry from skip log (needs ffmpeg + large-v3 cache):
+  ./scripts/ec2_setup_and_run.sh shell
+  python whisper_skipped_transcripts.py \
+    --skip-log ./transcripts/CHANNEL/skipped.jsonl \
+    --out ./transcripts/CHANNEL \
+    --resume
+
 Upload project from Mac (excludes .venv, .venv-desktop-build, build/, dist/):
   EC2_KEY=KEY.pem ./scripts/ec2_upload.sh ec2-user@HOST
 
@@ -96,25 +103,25 @@ install_system_packages() {
   case "$os_id" in
     amzn|amazon)
       if command -v dnf >/dev/null 2>&1; then
-        sudo dnf install -y python3 python3-pip git tmux
+        sudo dnf install -y python3 python3-pip git tmux ffmpeg
       else
-        sudo yum install -y python3 python3-pip git tmux
+        sudo yum install -y python3 python3-pip git tmux ffmpeg
       fi
       ;;
     ubuntu|debian)
       sudo apt-get update -y
       sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
-        python3 python3-venv python3-pip git tmux
+        python3 python3-venv python3-pip git tmux ffmpeg
       ;;
     rhel|centos|fedora|rocky|almalinux)
       if command -v dnf >/dev/null 2>&1; then
-        sudo dnf install -y python3 python3-pip git tmux
+        sudo dnf install -y python3 python3-pip git tmux ffmpeg
       else
-        sudo yum install -y python3 python3-pip git tmux
+        sudo yum install -y python3 python3-pip git tmux ffmpeg
       fi
       ;;
     *)
-      log "Unknown OS ($os_id). Install manually: python3 (3.9+), pip, git, tmux"
+      log "Unknown OS ($os_id). Install manually: python3 (3.9+), pip, git, tmux, ffmpeg"
       ;;
   esac
 }

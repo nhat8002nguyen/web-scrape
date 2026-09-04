@@ -4,3 +4,4 @@ yt-dlp==2026.3.17
 openpyxl==3.1.5
 simplepush==2.2.4
 python-dotenv==1.0.1
+faster-whisper>=1.1.0
