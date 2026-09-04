@@ -367,11 +367,8 @@ def post_url(post) -> str:
     return f"https://www.instagram.com/p/{post.shortcode}/"
 
 
-def reel_video_from_clips_media(media: dict) -> ReelVideo | None:
-    if media.get("media_type") != 2:
-        return None
-    video_versions = media.get("video_versions") or []
-    if not video_versions:
+def reel_video_from_clips_media(media: dict, context=None) -> ReelVideo | None:
+    if media.get("media_type") != 2 and media.get("product_type") != "clips":
         return None
     shortcode = str(media.get("code") or "").strip()
     mediaid = str(media.get("pk") or "").strip()
@@ -379,6 +376,17 @@ def reel_video_from_clips_media(media: dict) -> ReelVideo | None:
         mediaid = str(media["id"]).split("_", 1)[0]
     if not shortcode or not mediaid:
         return None
+    video_versions = media.get("video_versions") or []
+    video_url = str(video_versions[-1]["url"]) if video_versions else ""
+    if not video_url and context is not None:
+        try:
+            raw = context.get_json(f"api/v1/media/{mediaid}/info/", params={})
+            items = (raw or {}).get("items") or []
+            versions = (items[0].get("video_versions") or []) if items else []
+            if versions:
+                video_url = str(versions[-1]["url"])
+        except Exception:
+            pass
     caption = media.get("caption")
     caption_text = caption.get("text") if isinstance(caption, dict) else None
     if caption_text and str(caption_text).strip():
@@ -394,7 +402,7 @@ def reel_video_from_clips_media(media: dict) -> ReelVideo | None:
         mediaid=mediaid,
         shortcode=shortcode,
         title=title,
-        video_url=str(video_versions[-1]["url"]),
+        video_url=video_url,
         post_url=f"https://www.instagram.com/reel/{shortcode}/",
         date_utc=date_utc,
     )
@@ -406,7 +414,9 @@ def iter_clips_reel_videos(profile) -> Iterable[ReelVideo]:
     iterator = NodeIterator(
         context=profile._context,
         edge_extractor=lambda d: d["data"]["xdt_api__v1__clips__user__connection_v2"],
-        node_wrapper=lambda n: reel_video_from_clips_media(n.get("media") or {}),
+        node_wrapper=lambda n: reel_video_from_clips_media(
+            n.get("media") or {}, context=profile._context
+        ),
         query_variables={
             "data": {
                 "page_size": 12,
@@ -416,7 +426,7 @@ def iter_clips_reel_videos(profile) -> Iterable[ReelVideo]:
         },
         query_referer=f"https://www.instagram.com/{profile.username}/",
         is_first=None,
-        doc_id="7845543455542541",
+        doc_id=INSTAGRAM_CLIPS_USER_DOC_ID,
         query_hash=None,
     )
     for item in iterator:
@@ -466,7 +476,7 @@ def iter_reel_candidates(
         sleep_jitter(request_delay_min, request_delay_max)
         if isinstance(post, ReelVideo):
             item = post
-            if not item.video_url:
+            if not item.mediaid:
                 continue
         else:
             if not getattr(post, "is_video", False):
@@ -1594,7 +1604,16 @@ def instagram_enumeration_hints(exc: BaseException, *, username: str, used_proxy
     return "\n".join(lines)
 
 
+# Profile PolarisProfilePageContentQuery: 27937681195819736 still returns data.
+# Live web JS now also ships 28036671149327607, but that id currently errors.
+INSTAGRAM_PROFILE_PAGE_DOC_ID = "27937681195819736"
+# Post PolarisPostRootQuery (both this and live 29326377470285825 currently error).
+INSTAGRAM_POST_ROOT_DOC_ID = "27128499623469141"
+# Clips xdt_api__v1__clips__user__connection_v2 (replaces 7845543455542541).
+INSTAGRAM_CLIPS_USER_DOC_ID = "27234427476213202"
+
 _INSTALOADER_TEST_LOGIN_PATCHED = False
+_INSTALOADER_FROM_USERNAME_PATCHED = False
 
 
 def cookie_jar_dict_from_loader(loader) -> dict[str, str]:
@@ -1656,14 +1675,44 @@ def patch_instaloader_test_login() -> None:
     _INSTALOADER_TEST_LOGIN_PATCHED = True
 
 
+def patch_instaloader_profile_from_username() -> None:
+    """
+    Instaloader 4.15.3 Profile.from_username() hits web_profile_info first,
+    which currently 429s. Resolve the user via topsearch instead.
+    """
+    global _INSTALOADER_FROM_USERNAME_PATCHED
+    if _INSTALOADER_FROM_USERNAME_PATCHED:
+        return
+    try:
+        from instaloader.structures import Profile, TopSearchResults
+    except Exception:
+        return
+
+    _orig_from_username = Profile.from_username
+
+    @classmethod
+    def _from_username_patched(cls, context, username: str):
+        uname = (username or "").strip().lstrip("@").lower()
+        if uname:
+            try:
+                for profile in TopSearchResults(context, uname).get_profiles():
+                    if str(getattr(profile, "username", "")).lower() == uname:
+                        return profile
+            except Exception:
+                pass
+        return _orig_from_username(context, username)
+
+    Profile.from_username = _from_username_patched  # type: ignore[method-assign]
+    _INSTALOADER_FROM_USERNAME_PATCHED = True
+
+
 _INSTALOADER_PROFILE_GRAPHQL_PATCHED = False
 
 
 def patch_instaloader_profile_graphql() -> None:
     """
-    Instaloader 4.15.x uses a retired profile GraphQL doc_id (25980296051578533),
-    which returns 400 invalid request. Use the current doc_id/variables until upstream
-    ships a fix (https://github.com/instaloader/instaloader/issues/2695).
+    Instaloader 4.15.x profile GraphQL doc_id goes stale when Instagram rotates
+    PolarisProfilePageContentQuery. Use the live web JS doc_id.
     """
     global _INSTALOADER_PROFILE_GRAPHQL_PATCHED
     if _INSTALOADER_PROFILE_GRAPHQL_PATCHED:
@@ -1688,7 +1737,7 @@ def patch_instaloader_profile_graphql() -> None:
                     "enable_integrity_filters": True,
                 }
                 data = self._context.doc_id_graphql_query(
-                    "27937681195819736", variables
+                    INSTAGRAM_PROFILE_PAGE_DOC_ID, variables
                 )
                 if data is None:
                     raise QueryReturnedNotFoundException(
@@ -1748,7 +1797,7 @@ def patch_instaloader_post_metadata() -> None:
         if not self._full_metadata_dict:
             media_types = {1: "GraphImage", 2: "GraphVideo", 8: "GraphSidecar"}
             resp = self._context.doc_id_graphql_query(
-                "27128499623469141",
+                INSTAGRAM_POST_ROOT_DOC_ID,
                 {
                     "shortcode": self.shortcode,
                     "__relay_internal__pv__PolarisAIGMMediaWebLabelEnabledrelayprovider": False,
@@ -1853,6 +1902,7 @@ def patch_instaloader_post_metadata() -> None:
 
 def patch_instaloader() -> None:
     patch_instaloader_test_login()
+    patch_instaloader_profile_from_username()
     patch_instaloader_profile_graphql()
     patch_instaloader_post_metadata()
 
